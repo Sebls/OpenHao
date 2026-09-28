@@ -1,78 +1,141 @@
-# 🇨🇳 Sistema Personal de Aprendizaje de Chino Mandarín (Typst)
+# 🇨🇳 Chinese Mandarin Personal Language System (Typst)
 
-Este repositorio contiene una plantilla y formato modular de **fichas y tarjetas de vocabulario (Flashcards)** en [Typst](https://typst.app) para el estudio sistemático del chino mandarín.
+A modular, publication-quality **Flashcard & Vocabulary System** built with [Typst](https://typst.app) for systematic Chinese language acquisition.
+
+It features **dual pinyin support**, **character composition and radical breakdowns**, **usage definitions**, **contextual sentence examples**, and **multilingual translations** (English, Spanish, and French).
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Repository Structure
 
 ```text
 chinois/
 ├── templates/
-│   └── card.typ          # Módulo principal con diseño y componentes Typst
+│   └── card.typ          # Typst module with card components & page layouts
 ├── data/
-│   └── saludos.json      # Base de datos estructurada de vocabulario y frases
-├── main.typ              # Documento principal listo para compilar
-├── output.pdf            # PDF generado con alta calidad tipográfica
-└── README.md             # Documentación y guía de uso
+│   └── saludos.json      # Structured vocabulary database (JSON)
+├── main.typ              # Primary document entry point
+├── output.pdf            # Compiled high-resolution PDF document
+└── README.md             # Documentation and usage guide
 ```
 
 ---
 
-## 🎨 Características de la Plantilla
+## ✨ Features
 
-1. **Tipografía China Nativa**:
-   - Integración automática con fuentes serifa tradicionales y modernas (`Songti SC`, `STSong`, `Hiragino Sans GB`, `Heiti SC`).
-2. **Doble Fonética Pinyin**:
-   - Distinción clara entre **Fonética** (pronunciación real / cambio de tono sandhi) y **Bien escrito** (capitalización estándar).
-3. **Soporte Multilingüe**:
-   - 🇪🇸 Español
-   - 🇬🇧 Inglés
-   - 🇫🇷 Francés
-   - 🇨🇳 Caracteres Hanzi con destaque cromático
-4. **Metadatos y Etiquetas**:
-   - Categorías (e.g. Saludos, Viajes, Negocios), tags HSK (`HSK 1`, `HSK 2`, etc.), y notas pedagógicas explicativas.
-5. **Doble Modalidad de Visualización**:
-   - **Vista de Estudio Detallada (`vocab-card`)**: Tarjetas completas con notas lingüísticas y desglose visual.
-   - **Vista de Fichas Recortables (`vocab-card-compact`)**: Cuadrícula de 2 columnas optimizada para imprimir y recortar.
-6. **Alimentación mediante JSON**:
-   - Puedes escribir las tarjetas directamente en Typst o mantener tus listas en archivos `.json` en `data/` para cargarlas con `#render-vocab-list(data)`.
+1. **Native Chinese Typography**:
+   - Automatic fallback using premium Chinese serif and sans-serif fonts (`Songti SC`, `STSong`, `Hiragino Sans GB`, `Heiti SC`).
+2. **Dual Pinyin System**:
+   - **Phonetic Pronunciation**: Reflects real pronunciation (e.g. Tone Sandhi variations such as third-tone changes).
+   - **Standard Written Pinyin**: Canonical capitalized orthography.
+3. **Character Composition & Radical Splitting**:
+   - Decomposes each compound character into its constituent glyphs, with individual pinyin, meaning, and radical classification.
+   - Includes etymology and morphological logic notes (e.g. `大家` = big + family = *everyone*).
+4. **Contextual Examples**:
+   - Full conversational example sentences in Hanzi with pinyin and English/Spanish translations.
+5. **Multilingual Support**:
+   - 🇬🇧 English
+   - 🇪🇸 Spanish
+   - 🇫🇷 French
+   - 🇨🇳 Simplified Chinese characters
+6. **Dual Presentation Modes**:
+   - **Detailed Study Card (`vocab-card`)**: Full card view with definition, character split boxes, example sentences, and pedagogical tips.
+   - **Compact Flashcard Grid (`vocab-card-compact`)**: 2-column printable layout designed for cutting out physical flashcards.
+7. **JSON Data Pipeline**:
+   - Cards can be defined in standard Typst or loaded automatically from JSON files using `#render-vocab-list(data)`.
 
 ---
 
-## 🚀 Uso Rápido
+## 🚀 Quick Start
 
-### Compilar a PDF
+### 1. Compile to PDF
 ```bash
 typst compile main.typ output.pdf
 ```
 
-### Previsualizar en vivo mientras editas (Watch Mode)
+### 2. Live Preview (Watch Mode)
+Recompiles instantly whenever you edit any file:
 ```bash
 typst watch main.typ
 ```
 
-### Exportar imágenes (PNG)
+### 3. Export Page Images (PNG)
 ```bash
 typst compile main.typ preview-{n}.png
 ```
 
 ---
 
-## 📝 Ejemplo de Entrada en Typst
+## 📋 Data Schema (`data/*.json`)
+
+You can create or expand vocabulary lists using this JSON format:
+
+```json
+{
+  "hanzi": "你好",
+  "phonetic": "nǐ hǎo",
+  "written": "Nǐ hǎo",
+  "definition": "The most fundamental and ubiquitous greeting in the Chinese language.",
+  "breakdown": [
+    {
+      "char": "你",
+      "pinyin": "nǐ",
+      "meaning": "you (singular)",
+      "radical": "亻 (person)"
+    },
+    {
+      "char": "好",
+      "pinyin": "hǎo",
+      "meaning": "good, fine, well",
+      "radical": "女 (woman)"
+    }
+  ],
+  "composition_note": "你 (you) + 好 (good). Literally: 'You be well'.",
+  "en": "Hello / Hi",
+  "es": "Hola",
+  "fr": "Bonjour / Salut",
+  "example": {
+    "zh": "你好！很高兴认识你。",
+    "pinyin": "Nǐ hǎo! Hěn gāoxìng rènshí nǐ.",
+    "en": "Hello! Nice to meet you.",
+    "es": "¡Hola! Mucho gusto en conocerte."
+  },
+  "category": "Greetings / 问候",
+  "tags": ["HSK 1", "Basic", "Daily"],
+  "note": "Tone Sandhi: When two 3rd tones meet, the first is pronounced as a 2nd tone."
+}
+```
+
+---
+
+## ✍️ Typst Usage Example
 
 ```typst
-#import "templates/card.typ": vocab-card
+#import "templates/card.typ": card-doc, vocab-card
+
+#show: card-doc.with(
+  title: "Chinese Mandarin Learning System",
+  subtitle: "Personal Vocabulary Cards"
+)
 
 #vocab-card(
   hanzi: "你好",
   pinyin-phonetic: "nǐ hǎo",
   pinyin-written: "Nǐ hǎo",
-  es: "Hola",
+  definition: "Standard Chinese greeting.",
+  breakdown: (
+    (char: "你", pinyin: "nǐ", meaning: "you", radical: "亻 (person)"),
+    (char: "好", pinyin: "hǎo", meaning: "good", radical: "女 (woman)")
+  ),
+  composition-note: "你 (you) + 好 (good) = Wish you well.",
   en: "Hello / Hi",
+  es: "Hola",
   fr: "Bonjour / Salut",
-  category: "Saludos / 问候",
-  tags: ("HSK 1", "Básico", "Diario"),
-  note: "Regla del 3er tono (sandhi): al juntarse dos terceros tonos (nǐ + hǎo), 'nǐ' se pronuncia en segundo tono (ní hǎo)."
+  example: (
+    zh: "你好！很高兴认识你。",
+    pinyin: "Nǐ hǎo! Hěn gāoxìng rènshí nǐ.",
+    en: "Hello! Nice to meet you."
+  ),
+  tags: ("HSK 1", "Basic")
 )
 ```

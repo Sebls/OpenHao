@@ -3,33 +3,114 @@
     "hanzi": "大家好",
     "phonetic": "dàjiā hǎo",
     "written": "Dàjiā hǎo",
-    "es": "Hola a todos",
-    "en": "Hello everyone",
+    "definition": "A standard and friendly greeting used to address a group of people, an audience, or an entire community.",
+    "breakdown": [
+      {
+        "char": "大",
+        "pinyin": "dà",
+        "meaning": "big, great",
+        "radical": "大 (big)"
+      },
+      {
+        "char": "家",
+        "pinyin": "jiā",
+        "meaning": "family, home",
+        "radical": "宀 (roof)"
+      },
+      {
+        "char": "好",
+        "pinyin": "hǎo",
+        "meaning": "good, well",
+        "radical": "女 (woman)"
+      }
+    ],
+    "composition_note": "大家 (dàjiā, 'big family' = everybody / all) + 好 (hǎo, 'good' = hello / wishing well).",
+    "es": "Hola a todos / Buenos días a todos",
+    "en": "Hello everyone / Hi everybody",
     "fr": "Bonjour à tous / Bonjour tout le monde",
-    "category": "Saludos / 问候",
-    "tags": ["HSK 1", "Básico", "Expresión"],
-    "note": "大家 (dàjiā) significa 'todos' o 'todo el mundo', 好 (hǎo) significa 'bueno' o 'bien'."
+    "example": {
+      "zh": "大家早上好，我们开始上课吧！",
+      "pinyin": "Dàjiā zǎoshang hǎo, wǒmen kāishǐ shàngkè ba!",
+      "en": "Good morning everyone, let's start our class!",
+      "es": "¡Buenos días a todos, empecemos la clase!",
+      "fr": "Bonjour à tous, commençons le cours !"
+    },
+    "category": "Greetings / 问候",
+    "tags": ["HSK 1", "Basic", "Expression"],
+    "note": "Suitable for public speaking, classroom greetings, presentations, or entering a room."
   },
   {
     "hanzi": "老师好",
     "phonetic": "lǎoshī hǎo",
     "written": "Lǎoshī hǎo",
-    "es": "Hola, profesor/a",
-    "en": "Hello, teacher / Hello, professor",
+    "definition": "Respectful greeting addressed directly to a teacher, educator, or professor.",
+    "breakdown": [
+      {
+        "char": "老",
+        "pinyin": "lǎo",
+        "meaning": "old, venerable",
+        "radical": "耂 (old)"
+      },
+      {
+        "char": "师",
+        "pinyin": "shī",
+        "meaning": "master, teacher",
+        "radical": "巾 (cloth / master)"
+      },
+      {
+        "char": "好",
+        "pinyin": "hǎo",
+        "meaning": "good, well",
+        "radical": "女 (woman)"
+      }
+    ],
+    "composition_note": "老师 (lǎoshī, title: teacher/master) + 好 (hǎo, greeting). In Chinese etiquette, titles always precede '好'.",
+    "es": "Hola, profesor/a / Buenos días profesor/a",
+    "en": "Hello, teacher / Good morning professor",
     "fr": "Bonjour professeur",
-    "category": "Saludos / 问候",
-    "tags": ["HSK 1", "Formal", "Educación"],
-    "note": "老师 (lǎoshī) significa 'profesor' o 'maestro'. En chino el título o persona va antes de 好."
+    "example": {
+      "zh": "王老师好，这是我的作业。",
+      "pinyin": "Wáng lǎoshī hǎo, zhè shì wǒ de zuòyè.",
+      "en": "Hello Teacher Wang, this is my homework.",
+      "es": "Hola profesor Wang, esta es mi tarea.",
+      "fr": "Bonjour professeur Wang, voici mes devoirs."
+    },
+    "category": "Greetings / 问候",
+    "tags": ["HSK 1", "Formal", "Education"],
+    "note": "In Chinese culture, addressing elders or professionals by their title + 好 expresses high respect."
   },
   {
     "hanzi": "你好",
     "phonetic": "nǐ hǎo",
     "written": "Nǐ hǎo",
+    "definition": "The most fundamental and ubiquitous greeting in the Chinese language.",
+    "breakdown": [
+      {
+        "char": "你",
+        "pinyin": "nǐ",
+        "meaning": "you (singular, informal)",
+        "radical": "亻 (person)"
+      },
+      {
+        "char": "好",
+        "pinyin": "hǎo",
+        "meaning": "good, fine, well",
+        "radical": "女 (woman)"
+      }
+    ],
+    "composition_note": "你 (nǐ, 'you') + 好 (hǎo, 'good' / 'well'). Literally: 'You be well'.",
     "es": "Hola",
     "en": "Hello / Hi",
     "fr": "Bonjour / Salut",
-    "category": "Saludos / 问候",
-    "tags": ["HSK 1", "Básico", "Diario"],
-    "note": "Regla del 3er tono (sandhi): al juntarse dos terceros tonos (nǐ + hǎo), 'nǐ' se pronuncia en 2º tono (ní hǎo)."
+    "example": {
+      "zh": "你好！很高兴认识你。",
+      "pinyin": "Nǐ hǎo! Hěn gāoxìng rènshí nǐ.",
+      "en": "Hello! Nice to meet you.",
+      "es": "¡Hola! Mucho gusto en conocerte.",
+      "fr": "Bonjour ! Ravi de faire votre connaissance."
+    },
+    "category": "Greetings / 问候",
+    "tags": ["HSK 1", "Basic", "Daily"],
+    "note": "Tone Sandhi rule: When two 3rd tones meet (nǐ + hǎo), the first changes into a 2nd tone in pronunciation (ní hǎo)."
   }
 ]
