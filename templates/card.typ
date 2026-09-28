@@ -70,6 +70,8 @@
   pinyin-phonetic: none,
   pinyin-written: none,
   pinyin: none,
+  zipf: none,
+  frequency-tier: none,
   definition: none,
   breakdown: (),
   composition-note: none,
@@ -105,6 +107,16 @@
               columns: (1fr, auto),
               align(left + horizon)[
                 #text(size: 8.5pt, weight: "bold", fill: rgb("#e53e3e"))[🏷️ #upper(category)]
+                #if zipf != none [
+                  #h(6pt)
+                  #box(
+                    fill: rgb("#ebf8ff"),
+                    inset: (x: 5pt, y: 1.5pt),
+                    radius: 3pt,
+                    baseline: 0pt,
+                    [#text(size: 7.5pt, fill: rgb("#2b6cb0"), weight: "bold")[📊 Zipf: #zipf #if frequency-tier != none [· #frequency-tier]]]
+                  )
+                ]
               ],
               align(right + horizon)[
                 #for tag in tags [
@@ -306,6 +318,8 @@
   pinyin-phonetic: none,
   pinyin-written: none,
   pinyin: none,
+  zipf: none,
+  frequency-tier: none,
   es: none,
   en: none,
   fr: none,
@@ -322,9 +336,16 @@
     fill: white,
     inset: 10pt,
     [
-      #if category != none [
-        #align(right)[#text(size: 7.5pt, fill: rgb("#a0aec0"), weight: "bold")[#category]]
-      ]
+      #grid(
+        columns: (1fr, auto),
+        align: (left + horizon, right + horizon),
+        if zipf != none [
+          #text(size: 7pt, fill: rgb("#3182ce"), weight: "bold")[📊 Zipf #zipf]
+        ] else [ #none ],
+        if category != none [
+          #text(size: 7.5pt, fill: rgb("#a0aec0"), weight: "bold")[#category]
+        ] else [ #none ]
+      )
       #align(center)[
         #text(font: primary-chinese-font, size: 24pt, weight: "bold", fill: rgb("#c53030"))[#hanzi]
         #v(1pt)
@@ -364,6 +385,8 @@
       hanzi: item.at("hanzi"),
       pinyin-phonetic: item.at("phonetic", default: none),
       pinyin-written: item.at("written", default: none),
+      zipf: item.at("zipf", default: none),
+      frequency-tier: item.at("frequency_tier", default: none),
       definition: item.at("definition", default: none),
       breakdown: item.at("breakdown", default: ()),
       composition-note: item.at("composition_note", default: none),

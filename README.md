@@ -27,24 +27,26 @@ chinois/
 
 1. **Native Chinese Typography**:
    - Automatic fallback using premium Chinese serif and sans-serif fonts (`Songti SC`, `STSong`, `Hiragino Sans GB`, `Heiti SC`).
-2. **Dual Pinyin System**:
+2. **Frequency Intelligence via [`wordfreq`](https://github.com/rspeer/wordfreq)**:
+   - Evaluates logarithmic natural word frequencies using the **Zipf Scale** (from 0 to 8) based on large Chinese text corpora with `jieba` tokenization.
+   - Categorizes items into learning tiers: `Top 1k (Essential)`, `Top 5k (Very Common)`, `Common (Conversational)`, `Intermediate`, and `Advanced`.
+   - Ability to sort entire vocabulary decks by usage frequency (`--sort-by-frequency`).
+3. **Dual Pinyin System**:
    - **Phonetic Pronunciation**: Reflects real pronunciation (e.g. Tone Sandhi variations such as third-tone changes).
    - **Standard Written Pinyin**: Canonical capitalized orthography.
-3. **Character Composition & Radical Splitting**:
+4. **Character Composition & Radical Splitting**:
    - Decomposes each compound character into its constituent glyphs, with individual pinyin, meaning, and radical classification.
    - Includes etymology and morphological logic notes (e.g. `大家` = big + family = *everyone*).
-4. **Contextual Examples**:
+5. **Contextual Examples**:
    - Full conversational example sentences in Hanzi with pinyin and English/Spanish translations.
-5. **Multilingual Support**:
+6. **Multilingual Support**:
    - 🇬🇧 English
    - 🇪🇸 Spanish
    - 🇫🇷 French
    - 🇨🇳 Simplified Chinese characters
-6. **Dual Presentation Modes**:
-   - **Detailed Study Card (`vocab-card`)**: Full card view with definition, character split boxes, example sentences, and pedagogical tips.
-   - **Compact Flashcard Grid (`vocab-card-compact`)**: 2-column printable layout designed for cutting out physical flashcards.
-7. **JSON Data Pipeline**:
-   - Cards can be defined in standard Typst or loaded automatically from JSON files using `#render-vocab-list(data)`.
+7. **Dual Presentation Modes**:
+   - **Detailed Study Card (`vocab-card`)**: Full card view with definition, character split boxes, Zipf score badge, example sentences, and pedagogical tips.
+   - **Compact Flashcard Grid (`vocab-card-compact`)**: 2-column printable layout with frequency metrics designed for cutting out physical flashcards.
 
 ---
 
