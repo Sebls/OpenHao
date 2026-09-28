@@ -48,18 +48,37 @@ chinois/
 
 ## 🚀 Quick Start
 
-### 1. Compile to PDF
+### 1. Automatic Python Generator (Recommended)
+
+You can automatically convert any JSON vocabulary dataset into Typst documents and compiled PDFs inside the `vocabulary/` directory:
+
+```bash
+# Process all JSON files inside data/ and compile to vocabulary/*.pdf
+python3 generate_vocab.py
+
+# Process a specific file
+python3 generate_vocab.py data/saludos.json
+
+# Generate .typ files only without compiling to PDF
+python3 generate_vocab.py --no-compile
+```
+
+### 2. Manual Typst Compilation
+
 ```bash
 typst compile main.typ output.pdf
 ```
 
-### 2. Live Preview (Watch Mode)
+### 3. Live Preview (Watch Mode)
+
 Recompiles instantly whenever you edit any file:
+
 ```bash
 typst watch main.typ
 ```
 
-### 3. Export Page Images (PNG)
+### 4. Export Page Images (PNG)
+
 ```bash
 typst compile main.typ preview-{n}.png
 ```
