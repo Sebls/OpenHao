@@ -3,11 +3,11 @@
 
 #show: card-doc.with(
   title: "Chinese Vocabulary: Saludos",
-  subtitle: "Vocabulary Module · 11 Expressions · wordfreq Analysis",
+  subtitle: "Vocabulary Module · 12 Expressions · wordfreq Analysis",
   author: "Personal Language System"
 )
 
-== Study Cards / 学习卡片 (11 items)
+== Study Cards / 学习卡片 (12 items)
 
 #vocab-card(
   hanzi: "大家好",
@@ -218,6 +218,25 @@
   category: "Expressions & Affection / 情感表达"
 )
 
+#vocab-card(
+  hanzi: "我想你",
+  pinyin-phonetic: "wǒ xiǎng nǐ (sandhi: wó xiǎng nǐ)",
+  pinyin-written: "Wǒ xiǎng nǐ",
+  ipa: "[wǒ ɕjàŋ nì]",
+  zipf: "3.9",
+  frequency-tier: "Intermediate",
+  definition: "Expression meaning 'I miss you' (longing for someone) or 'I am thinking of you'.",
+  breakdown: ((char: "我", pinyin: "wǒ", ipa: "[wò]", meaning: "I, me", radical: "戈 (halberd, weapon)"), (char: "想", pinyin: "xiǎng", ipa: "[ɕjàŋ]", meaning: "to miss, to think of, to want", radical: "心 (heart)"), (char: "你", pinyin: "nǐ", ipa: "[nì]", meaning: "you (singular, informal)", radical: "亻 (person)")),
+  composition-note: "Subject 我 (I) + Verb 想 (xiǎng, composed of 相 mutual appearance + 心 heart/mind = to think of / miss) + Object 你 (you). Tone sandhi rule: when three consecutive 3rd tones occur (3-3-3), the first changes to 2nd tone: [wó xiǎng nǐ] [wǒ ɕjàŋ nì].",
+  en: "I miss you / I'm thinking of you",
+  es: "Te extraño / Te echo de menos / Pienso en ti",
+  fr: "Tu me manques / Je pense à toi",
+  example: (zh: "好久不见，我很想你！", pinyin: "Hǎojiǔ bú jiàn, wǒ hěn xiǎng nǐ!", ipa: "[xàu̯.tɕjòʊ̯ pǔ tɕjɛ̂n, wò xə̌n ɕjàŋ nì!]", en: "Long time no see, I miss you so much!", es: "¡Cuánto tiempo sin verte, te echo mucho de menos!"),
+  tags: ("HSK 1", "Expression", "Affection", "Tone Sandhi"),
+  note: "Phonology note on triple 3rd tone: When three 3rd tone syllables occur in a row without a clear syntactic boundary, the first syllable shifts to 2nd tone: wǒ (3) + xiǎng (3) + nǐ (3) -> wó xiǎng nǐ (2-3-3). The verb 想 (xiǎng) can mean 'to miss', 'to think', or 'would like to'.",
+  category: "Expressions & Affection / 情感表达"
+)
+
 #pagebreak()
 == Printable Flashcards / Cutout Grid View (2-Column)
 #v(8pt)
@@ -356,5 +375,17 @@
     fr: "Je t'aime",
     category: "Expressions & Affection / 情感表达",
     breakdown: ((char: "我", pinyin: "wǒ", meaning: "I, me"), (char: "爱", pinyin: "ài", meaning: "love, affection, to love"), (char: "你", pinyin: "nǐ", meaning: "you (singular, informal)"))
+  ),
+  vocab-card-compact(
+    hanzi: "我想你",
+    pinyin-phonetic: "wǒ xiǎng nǐ (sandhi: wó xiǎng nǐ)",
+    pinyin-written: "Wǒ xiǎng nǐ",
+    ipa: "[wǒ ɕjàŋ nì]",
+    zipf: "3.9",
+    en: "I miss you / I'm thinking of you",
+    es: "Te extraño / Te echo de menos / Pienso en ti",
+    fr: "Tu me manques / Je pense à toi",
+    category: "Expressions & Affection / 情感表达",
+    breakdown: ((char: "我", pinyin: "wǒ", meaning: "I, me"), (char: "想", pinyin: "xiǎng", meaning: "to miss, to think of, to want"), (char: "你", pinyin: "nǐ", meaning: "you (singular, informal)"))
   ),
 )
