@@ -151,6 +151,9 @@ def generate_typst_content(title: str, subtitle: str, items: list) -> str:
         lines.append(f'  pinyin-written: "{written}",')
         if ipa:
             lines.append(f'  ipa: "{ipa}",')
+        image_path = escape_typst_string(item.get("image", ""))
+        if image_path:
+            lines.append(f'  image-path: "{image_path}",')
         if zipf_val is not None:
             lines.append(f'  zipf: {zipf_str},')
             lines.append(f'  frequency-tier: {tier_str},')
@@ -216,6 +219,9 @@ def generate_typst_content(title: str, subtitle: str, items: list) -> str:
         lines.append(f'    pinyin-written: "{written}",')
         if ipa:
             lines.append(f'    ipa: "{ipa}",')
+        image_path = escape_typst_string(item.get("image", ""))
+        if image_path:
+            lines.append(f'    image-path: "{image_path}",')
         if zipf_val is not None:
             lines.append(f'    zipf: {zipf_str},')
         lines.append(f'    en: "{en}",')

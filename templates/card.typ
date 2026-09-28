@@ -73,6 +73,7 @@
   ipa: none,
   zipf: none,
   frequency-tier: none,
+  image-path: none,
   definition: none,
   breakdown: (),
   composition-note: none,
@@ -136,50 +137,71 @@
         )
 
         #pad(x: 14pt, top: 12pt, bottom: 12pt)[
-          // 2. Main Row: Hanzi + Phonetics | Translations & Definition
+          // 2. Main Row: Hanzi + Phonetics + Gesture Image | Translations & Definition
           #grid(
-            columns: (1.05fr, 1.35fr),
+            columns: (1.1fr, 1.3fr),
             column-gutter: 14pt,
             
-            // Left Column: Big Hanzi & Phonetics badge
+            // Left Column: Big Hanzi & Phonetics badge & optional gesture photo
             [
               #align(center)[
-                #block(
-                  inset: (y: 2pt),
+                #grid(
+                  columns: if image-path != none { (1fr, auto) } else { (1fr,) },
+                  column-gutter: 10pt,
+                  align: (center + horizon, center + horizon),
                   [
-                    #text(
-                      font: primary-chinese-font,
-                      size: 32pt,
-                      weight: "bold",
-                      fill: rgb("#9b2c2c")
-                    )[#hanzi]
-                  ]
-                )
-
-                #v(3pt)
-
-                #box(
-                  fill: rgb("#edf2f7"),
-                  inset: (x: 10pt, y: 6pt),
-                  radius: 6pt,
-                  [
-                    #grid(
-                      columns: 1,
-                      row-gutter: 3pt,
-                      align: left,
+                    #block(
+                      inset: (y: 2pt),
                       [
-                        #text(size: 7.5pt, fill: rgb("#718096"), weight: "bold")[PINYIN: ]
-                        #text(size: 9.5pt, weight: "bold", fill: rgb("#2b6cb0"))[#p-phonetic]
-                      ],
-                      if ipa != none [
-                        #line(length: 100%, stroke: 0.5pt + rgb("#cbd5e0"))
-                        #text(size: 7.5pt, fill: rgb("#718096"), weight: "bold")[IPA: ]
-                        #text(size: 9pt, weight: "bold", fill: rgb("#6b46c1"))[#ipa]
-                      ],
-                      if p-written != none and p-written != p-phonetic [
-                        #line(length: 100%, stroke: 0.5pt + rgb("#cbd5e0"))
-                        #text(size: 7.5pt, fill: rgb("#718096"), weight: "bold")[WRITTEN: ]
-                        #text(size: 8.5pt, weight: "bold", fill: rgb("#2d3748"))[#p-written]
+                        #text(
+                          font: primary-chinese-font,
+                          size: 32pt,
+                          weight: "bold",
+                          fill: rgb("#9b2c2c")
+                        )[#hanzi]
+                      ]
+                    )
+
+                    #v(3pt)
+
+                    #box(
+                      fill: rgb("#edf2f7"),
+                      inset: (x: 8pt, y: 5pt),
+                      radius: 6pt,
+                      [
+                        #grid(
+                          columns: 1,
+                          row-gutter: 2.5pt,
+                          align: left,
+                          [
+                            #text(size: 7pt, fill: rgb("#718096"), weight: "bold")[PINYIN: ]
+                            #text(size: 9pt, weight: "bold", fill: rgb("#2b6cb0"))[#p-phonetic]
+                          ],
+                          if ipa != none [
+                            #line(length: 100%, stroke: 0.5pt + rgb("#cbd5e0"))
+                            #text(size: 7pt, fill: rgb("#718096"), weight: "bold")[IPA: ]
+                            #text(size: 8.5pt, weight: "bold", fill: rgb("#6b46c1"))[#ipa]
+                          ],
+                          if p-written != none and p-written != p-phonetic [
+                            #line(length: 100%, stroke: 0.5pt + rgb("#cbd5e0"))
+                            #text(size: 7pt, fill: rgb("#718096"), weight: "bold")[WRITTEN: ]
+                            #text(size: 8pt, weight: "bold", fill: rgb("#2d3748"))[#p-written]
+                          ]
+                        )
+                      ]
+                    )
+                  ],
+                  if image-path != none [
+                    #box(
+                      stroke: 1pt + rgb("#e2e8f0"),
+                      radius: 6pt,
+                      clip: true,
+                      fill: white,
+                      inset: 2pt,
+                      [
+                        #image(image-path, width: 44pt, fit: "contain")
+                        #v(1pt)
+                        #text(size: 6.5pt, fill: rgb("#a0aec0"), weight: "bold")[GESTO]
                       ]
                     )
                   ]
@@ -335,6 +357,7 @@
   ipa: none,
   zipf: none,
   frequency-tier: none,
+  image-path: none,
   es: none,
   en: none,
   fr: none,
@@ -361,19 +384,33 @@
           #text(size: 7.5pt, fill: rgb("#a0aec0"), weight: "bold")[#category]
         ] else [ #none ]
       )
-      #align(center)[
-        #text(font: primary-chinese-font, size: 24pt, weight: "bold", fill: rgb("#c53030"))[#hanzi]
-        #v(1pt)
-        #text(size: 9.5pt, weight: "bold", fill: rgb("#2b6cb0"))[#p-phonetic]
-        #if ipa != none [
-          #h(4pt)
-          #text(size: 8pt, fill: rgb("#6b46c1"), weight: "bold")[#ipa]
-        ]
-        #if p-written != none and p-written != p-phonetic [
+      
+      #grid(
+        columns: if image-path != none { (1fr, auto) } else { (1fr,) },
+        align: (center + horizon, center + horizon),
+        [
+          #text(font: primary-chinese-font, size: 24pt, weight: "bold", fill: rgb("#c53030"))[#hanzi]
           #v(1pt)
-          #text(size: 8pt, fill: rgb("#718096"))[(#p-written)]
+          #text(size: 9.5pt, weight: "bold", fill: rgb("#2b6cb0"))[#p-phonetic]
+          #if ipa != none [
+            #h(4pt)
+            #text(size: 8pt, fill: rgb("#6b46c1"), weight: "bold")[#ipa]
+          ]
+          #if p-written != none and p-written != p-phonetic [
+            #v(1pt)
+            #text(size: 8pt, fill: rgb("#718096"))[(#p-written)]
+          ]
+        ],
+        if image-path != none [
+          #box(
+            stroke: 0.5pt + rgb("#cbd5e0"),
+            radius: 4pt,
+            clip: true,
+            inset: 1pt,
+            [#image(image-path, width: 34pt, fit: "contain")]
+          )
         ]
-      ]
+      )
 
       #if breakdown.len() > 0 [
         #v(4pt)
@@ -408,6 +445,7 @@
       ipa: item.at("ipa", default: none),
       zipf: item.at("zipf", default: none),
       frequency-tier: item.at("frequency_tier", default: none),
+      image-path: item.at("image", default: none),
       definition: item.at("definition", default: none),
       breakdown: item.at("breakdown", default: ()),
       composition-note: item.at("composition_note", default: none),
