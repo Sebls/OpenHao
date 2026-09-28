@@ -3,11 +3,11 @@
 
 #show: card-doc.with(
   title: "Chinese Vocabulary: Saludos",
-  subtitle: "Vocabulary Module · 10 Expressions · wordfreq Analysis",
+  subtitle: "Vocabulary Module · 11 Expressions · wordfreq Analysis",
   author: "Personal Language System"
 )
 
-== Study Cards / 学习卡片 (10 items)
+== Study Cards / 学习卡片 (11 items)
 
 #vocab-card(
   hanzi: "大家好",
@@ -199,6 +199,25 @@
   category: "Adverbs & Frequency / 副词"
 )
 
+#vocab-card(
+  hanzi: "我爱你",
+  pinyin-phonetic: "wǒ ài nǐ",
+  pinyin-written: "Wǒ ài nǐ",
+  ipa: "[wò âi̯ nì]",
+  zipf: "4.5",
+  frequency-tier: "Common (Conversational)",
+  definition: "Direct expression of love and deep affection used with family members, romantic partners, and close loved ones.",
+  breakdown: ((char: "我", pinyin: "wǒ", ipa: "[wò]", meaning: "I, me", radical: "戈 (halberd, weapon)"), (char: "爱", pinyin: "ài", ipa: "[âi̯]", meaning: "love, affection, to love", radical: "爫 (claw / hand) + 心 (heart) + 友 (friend)"), (char: "你", pinyin: "nǐ", ipa: "[nì]", meaning: "you (singular, informal)", radical: "亻 (person)")),
+  composition-note: "Canonical Subject-Verb-Object structure: 我 (I) + 爱 (love: claw/hand reaching over heart) + 你 (you). Traditional form: 我愛你 (with 心 heart clearly visible inside 爱).",
+  en: "I love you",
+  es: "Te quiero / Te amo",
+  fr: "Je t'aime",
+  example: (zh: "妈妈，我爱你！", pinyin: "Māma, wǒ ài nǐ!", ipa: "[má.ma, wò âi̯ nì!]", en: "Mom, I love you!", es: "¡Mamá, te quiero!"),
+  tags: ("HSK 1", "Expression", "Affection", "Essential"),
+  note: "In traditional Chinese characters written as 我愛你. Chinese culture often expresses love through supportive actions rather than spoken words, making this phrase carry profound emotional weight when spoken.",
+  category: "Expressions & Affection / 情感表达"
+)
+
 #pagebreak()
 == Printable Flashcards / Cutout Grid View (2-Column)
 #v(8pt)
@@ -325,5 +344,17 @@
     fr: "Encore / À nouveau / De nouveau",
     category: "Adverbs & Frequency / 副词",
     breakdown: ((char: "再", pinyin: "zài", meaning: "again, once more, another time"),)
+  ),
+  vocab-card-compact(
+    hanzi: "我爱你",
+    pinyin-phonetic: "wǒ ài nǐ",
+    pinyin-written: "Wǒ ài nǐ",
+    ipa: "[wò âi̯ nì]",
+    zipf: "4.5",
+    en: "I love you",
+    es: "Te quiero / Te amo",
+    fr: "Je t'aime",
+    category: "Expressions & Affection / 情感表达",
+    breakdown: ((char: "我", pinyin: "wǒ", meaning: "I, me"), (char: "爱", pinyin: "ài", meaning: "love, affection, to love"), (char: "你", pinyin: "nǐ", meaning: "you (singular, informal)"))
   ),
 )
