@@ -3,11 +3,11 @@
 
 #show: card-doc.with(
   title: "Chinese Vocabulary: Saludos",
-  subtitle: "Vocabulary Module · 3 Expressions · wordfreq Analysis",
+  subtitle: "Vocabulary Module · 6 Expressions · wordfreq Analysis",
   author: "Personal Language System"
 )
 
-== Study Cards / 学习卡片 (3 items)
+== Study Cards / 学习卡片 (6 items)
 
 #vocab-card(
   hanzi: "大家好",
@@ -63,6 +63,60 @@
   category: "Greetings / 问候"
 )
 
+#vocab-card(
+  hanzi: "再见",
+  pinyin-phonetic: "zàijiàn",
+  pinyin-written: "Zàijiàn",
+  zipf: "4.47",
+  frequency-tier: "Common (Conversational)",
+  definition: "Standard farewell phrase used when taking leave, literally meaning 'see you again'.",
+  breakdown: ((char: "再", pinyin: "zài", meaning: "again, once more", radical: "冂 (down box / border)"), (char: "见", pinyin: "jiàn", meaning: "to see, to meet", radical: "见 (see)")),
+  composition-note: "再 (zài, 'again' / 'once more') + 见 (jiàn, 'see' / 'meet'). Exactly like 'au revoir' or 'hasta la vista'.",
+  en: "Goodbye / See you again",
+  es: "Adiós / Hasta la vista / Hasta luego",
+  fr: "Au revoir / À bientôt",
+  example: (zh: "明天见，再见！", pinyin: "Míngtiān jiàn, zàijiàn!", en: "See you tomorrow, goodbye!", es: "¡Nos vemos mañana, adiós!"),
+  tags: ("HSK 1", "Basic", "Farewell"),
+  note: "The most widely used farewell in all registers of Mandarin.",
+  category: "Greetings & Farewells / 问候与道别"
+)
+
+#vocab-card(
+  hanzi: "在",
+  pinyin-phonetic: "zài",
+  pinyin-written: "Zài",
+  zipf: "7.16",
+  frequency-tier: "Top 1k (Essential)",
+  definition: "Locative preposition and verb meaning 'to be at/in/on', or grammatical aspect marker indicating an ongoing continuous action (-ing).",
+  breakdown: ((char: "在", pinyin: "zài", meaning: "at, in, exist, be present", radical: "土 (earth / soil)"),),
+  composition-note: "Composed of 𠂇 (hand action) and 土 (earth/ground), symbolizing staying or being situated upon a place.",
+  en: "At / In / On / To be located at / [Progressive aspect marker]",
+  es: "Estar en / En / Presente / [Acción continua -ando, -iendo]",
+  fr: "Être à / En / Être en train de",
+  example: (zh: "他在家学中文。", pinyin: "Tā zài jiā xué Zhōngwén.", en: "He is at home studying Chinese.", es: "Él está en casa aprendiendo chino."),
+  tags: ("HSK 1", "Grammar", "Essential"),
+  note: "Crucial distinction: 在 (zài, location/continuous aspect) vs 再 (zài, 'again/repetition'). Both are 4th tone.",
+  category: "Grammar & Location / 介词与方位"
+)
+
+#vocab-card(
+  hanzi: "再",
+  pinyin-phonetic: "zài",
+  pinyin-written: "Zài",
+  zipf: "5.89",
+  frequency-tier: "Top 5k (Very Common)",
+  definition: "Adverb meaning 'again', 'once more', or 'then/further' before doing something else in the future.",
+  breakdown: ((char: "再", pinyin: "zài", meaning: "again, once more, another time", radical: "冂 (down box / border)"),),
+  composition-note: "Pictograph depicting balancing or repeating a weight/measure. Indicates future repetition (unlike 又 yòu for past repetition).",
+  en: "Again / Once more / Then / Further",
+  es: "Otra vez / De nuevo / Más / Luego",
+  fr: "Encore / À nouveau / De nouveau",
+  example: (zh: "请再说一遍。", pinyin: "Qǐng zài shuō yí biàn.", en: "Please say it once again.", es: "Por favor dígalo otra vez."),
+  tags: ("HSK 1", "Grammar", "Adverb"),
+  note: "Remember: 再 (zài) is for future repetition ('do it again'), whereas 又 (yòu) is for actions that already occurred again.",
+  category: "Adverbs & Frequency / 副词"
+)
+
 #pagebreak()
 == Printable Flashcards / Cutout Grid View (2-Column)
 #v(8pt)
@@ -102,5 +156,38 @@
     fr: "Bonjour / Salut",
     category: "Greetings / 问候",
     breakdown: ((char: "你", pinyin: "nǐ", meaning: "you (singular, informal)"), (char: "好", pinyin: "hǎo", meaning: "good, fine, well"))
+  ),
+  vocab-card-compact(
+    hanzi: "再见",
+    pinyin-phonetic: "zàijiàn",
+    pinyin-written: "Zàijiàn",
+    zipf: "4.47",
+    en: "Goodbye / See you again",
+    es: "Adiós / Hasta la vista / Hasta luego",
+    fr: "Au revoir / À bientôt",
+    category: "Greetings & Farewells / 问候与道别",
+    breakdown: ((char: "再", pinyin: "zài", meaning: "again, once more"), (char: "见", pinyin: "jiàn", meaning: "to see, to meet"))
+  ),
+  vocab-card-compact(
+    hanzi: "在",
+    pinyin-phonetic: "zài",
+    pinyin-written: "Zài",
+    zipf: "7.16",
+    en: "At / In / On / To be located at / [Progressive aspect marker]",
+    es: "Estar en / En / Presente / [Acción continua -ando, -iendo]",
+    fr: "Être à / En / Être en train de",
+    category: "Grammar & Location / 介词与方位",
+    breakdown: ((char: "在", pinyin: "zài", meaning: "at, in, exist, be present"),)
+  ),
+  vocab-card-compact(
+    hanzi: "再",
+    pinyin-phonetic: "zài",
+    pinyin-written: "Zài",
+    zipf: "5.89",
+    en: "Again / Once more / Then / Further",
+    es: "Otra vez / De nuevo / Más / Luego",
+    fr: "Encore / À nouveau / De nouveau",
+    category: "Adverbs & Frequency / 副词",
+    breakdown: ((char: "再", pinyin: "zài", meaning: "again, once more, another time"),)
   ),
 )

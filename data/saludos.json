@@ -112,5 +112,95 @@
     "category": "Greetings / 问候",
     "tags": ["HSK 1", "Basic", "Daily"],
     "note": "Tone Sandhi rule: When two 3rd tones meet (nǐ + hǎo), the first changes into a 2nd tone in pronunciation (ní hǎo)."
+  },
+  {
+    "hanzi": "再见",
+    "phonetic": "zàijiàn",
+    "written": "Zàijiàn",
+    "definition": "Standard farewell phrase used when taking leave, literally meaning 'see you again'.",
+    "breakdown": [
+      {
+        "char": "再",
+        "pinyin": "zài",
+        "meaning": "again, once more",
+        "radical": "冂 (down box / border)"
+      },
+      {
+        "char": "见",
+        "pinyin": "jiàn",
+        "meaning": "to see, to meet",
+        "radical": "见 (see)"
+      }
+    ],
+    "composition_note": "再 (zài, 'again' / 'once more') + 见 (jiàn, 'see' / 'meet'). Exactly like 'au revoir' or 'hasta la vista'.",
+    "es": "Adiós / Hasta la vista / Hasta luego",
+    "en": "Goodbye / See you again",
+    "fr": "Au revoir / À bientôt",
+    "example": {
+      "zh": "明天见，再见！",
+      "pinyin": "Míngtiān jiàn, zàijiàn!",
+      "en": "See you tomorrow, goodbye!",
+      "es": "¡Nos vemos mañana, adiós!",
+      "fr": "À demain, au revoir !"
+    },
+    "category": "Greetings & Farewells / 问候与道别",
+    "tags": ["HSK 1", "Basic", "Farewell"],
+    "note": "The most widely used farewell in all registers of Mandarin."
+  },
+  {
+    "hanzi": "在",
+    "phonetic": "zài",
+    "written": "Zài",
+    "definition": "Locative preposition and verb meaning 'to be at/in/on', or grammatical aspect marker indicating an ongoing continuous action (-ing).",
+    "breakdown": [
+      {
+        "char": "在",
+        "pinyin": "zài",
+        "meaning": "at, in, exist, be present",
+        "radical": "土 (earth / soil)"
+      }
+    ],
+    "composition_note": "Composed of 𠂇 (hand action) and 土 (earth/ground), symbolizing staying or being situated upon a place.",
+    "es": "Estar en / En / Presente / [Acción continua -ando, -iendo]",
+    "en": "At / In / On / To be located at / [Progressive aspect marker]",
+    "fr": "Être à / En / Être en train de",
+    "example": {
+      "zh": "他在家学中文。",
+      "pinyin": "Tā zài jiā xué Zhōngwén.",
+      "en": "He is at home studying Chinese.",
+      "es": "Él está en casa aprendiendo chino.",
+      "fr": "Il est à la maison en train d'apprendre le chinois."
+    },
+    "category": "Grammar & Location / 介词与方位",
+    "tags": ["HSK 1", "Grammar", "Essential"],
+    "note": "Crucial distinction: 在 (zài, location/continuous aspect) vs 再 (zài, 'again/repetition'). Both are 4th tone."
+  },
+  {
+    "hanzi": "再",
+    "phonetic": "zài",
+    "written": "Zài",
+    "definition": "Adverb meaning 'again', 'once more', or 'then/further' before doing something else in the future.",
+    "breakdown": [
+      {
+        "char": "再",
+        "pinyin": "zài",
+        "meaning": "again, once more, another time",
+        "radical": "冂 (down box / border)"
+      }
+    ],
+    "composition_note": "Pictograph depicting balancing or repeating a weight/measure. Indicates future repetition (unlike 又 yòu for past repetition).",
+    "es": "Otra vez / De nuevo / Más / Luego",
+    "en": "Again / Once more / Then / Further",
+    "fr": "Encore / À nouveau / De nouveau",
+    "example": {
+      "zh": "请再说一遍。",
+      "pinyin": "Qǐng zài shuō yí biàn.",
+      "en": "Please say it once again.",
+      "es": "Por favor dígalo otra vez.",
+      "fr": "Répétez encore une fois, s'il vous plaît."
+    },
+    "category": "Adverbs & Frequency / 副词",
+    "tags": ["HSK 1", "Grammar", "Adverb"],
+    "note": "Remember: 再 (zài) is for future repetition ('do it again'), whereas 又 (yòu) is for actions that already occurred again."
   }
 ]

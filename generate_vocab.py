@@ -124,7 +124,12 @@ def generate_typst_content(title: str, subtitle: str, items: list) -> str:
             b_rad = escape_typst_string(b.get("radical", ""))
             entry = f'(char: "{b_char}", pinyin: "{b_pinyin}", meaning: "{b_meaning}", radical: "{b_rad}")'
             breakdown_entries.append(entry)
-        breakdown_str = f"({', '.join(breakdown_entries)})" if breakdown_entries else "()"
+        if len(breakdown_entries) == 1:
+            breakdown_str = f"({breakdown_entries[0]},)"
+        elif len(breakdown_entries) > 1:
+            breakdown_str = f"({', '.join(breakdown_entries)})"
+        else:
+            breakdown_str = "()"
 
         # Example dictionary
         example_obj = item.get("example")
@@ -192,7 +197,12 @@ def generate_typst_content(title: str, subtitle: str, items: list) -> str:
             b_pinyin = escape_typst_string(b.get("pinyin", ""))
             b_meaning = escape_typst_string(b.get("meaning", ""))
             breakdown_entries.append(f'(char: "{b_char}", pinyin: "{b_pinyin}", meaning: "{b_meaning}")')
-        breakdown_str = f"({', '.join(breakdown_entries)})" if breakdown_entries else "()"
+        if len(breakdown_entries) == 1:
+            breakdown_str = f"({breakdown_entries[0]},)"
+        elif len(breakdown_entries) > 1:
+            breakdown_str = f"({', '.join(breakdown_entries)})"
+        else:
+            breakdown_str = "()"
 
         lines.append('  vocab-card-compact(')
         lines.append(f'    hanzi: "{hanzi}",')
