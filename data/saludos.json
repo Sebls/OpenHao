@@ -3,23 +3,27 @@
     "hanzi": "大家好",
     "phonetic": "dàjiā hǎo",
     "written": "Dàjiā hǎo",
+    "ipa": "[tâ.tɕjá xàu̯]",
     "definition": "A standard and friendly greeting used to address a group of people, an audience, or an entire community.",
     "breakdown": [
       {
         "char": "大",
         "pinyin": "dà",
+        "ipa": "[tâ]",
         "meaning": "big, great",
         "radical": "大 (big)"
       },
       {
         "char": "家",
         "pinyin": "jiā",
+        "ipa": "[tɕjá]",
         "meaning": "family, home",
         "radical": "宀 (roof)"
       },
       {
         "char": "好",
         "pinyin": "hǎo",
+        "ipa": "[xàu̯]",
         "meaning": "good, well",
         "radical": "女 (woman)"
       }
@@ -31,6 +35,7 @@
     "example": {
       "zh": "大家早上好，我们开始上课吧！",
       "pinyin": "Dàjiā zǎoshang hǎo, wǒmen kāishǐ shàngkè ba!",
+      "ipa": "[tâ.tɕjá tsàu̯.ʂáŋ xàu̯, wò.mən kʰái̯.ʂʐ̩̀ ʂâŋ.kʰɤ̂ pa]",
       "en": "Good morning everyone, let's start our class!",
       "es": "¡Buenos días a todos, empecemos la clase!",
       "fr": "Bonjour à tous, commençons le cours !"
@@ -43,23 +48,27 @@
     "hanzi": "老师好",
     "phonetic": "lǎoshī hǎo",
     "written": "Lǎoshī hǎo",
+    "ipa": "[làu̯.ʂʐ̩́ xàu̯]",
     "definition": "Respectful greeting addressed directly to a teacher, educator, or professor.",
     "breakdown": [
       {
         "char": "老",
         "pinyin": "lǎo",
+        "ipa": "[làu̯]",
         "meaning": "old, venerable",
         "radical": "耂 (old)"
       },
       {
         "char": "师",
         "pinyin": "shī",
+        "ipa": "[ʂʐ̩́]",
         "meaning": "master, teacher",
         "radical": "巾 (cloth / master)"
       },
       {
         "char": "好",
         "pinyin": "hǎo",
+        "ipa": "[xàu̯]",
         "meaning": "good, well",
         "radical": "女 (woman)"
       }
@@ -71,6 +80,7 @@
     "example": {
       "zh": "王老师好，这是我的作业。",
       "pinyin": "Wáng lǎoshī hǎo, zhè shì wǒ de zuòyè.",
+      "ipa": "[wǎŋ làu̯.ʂʐ̩́ xàu̯, tʂɤ̂ ʂʐ̩̂ wò tə tswɔ̂.jɛ̂]",
       "en": "Hello Teacher Wang, this is my homework.",
       "es": "Hola profesor Wang, esta es mi tarea.",
       "fr": "Bonjour professeur Wang, voici mes devoirs."
@@ -83,17 +93,20 @@
     "hanzi": "你好",
     "phonetic": "nǐ hǎo",
     "written": "Nǐ hǎo",
+    "ipa": "[nǐ.xàu̯] → [nǐ xàu̯] (sandhi: [nǐ xàu̯])",
     "definition": "The most fundamental and ubiquitous greeting in the Chinese language.",
     "breakdown": [
       {
         "char": "你",
         "pinyin": "nǐ",
+        "ipa": "[nì]",
         "meaning": "you (singular, informal)",
         "radical": "亻 (person)"
       },
       {
         "char": "好",
         "pinyin": "hǎo",
+        "ipa": "[xàu̯]",
         "meaning": "good, fine, well",
         "radical": "女 (woman)"
       }
@@ -105,29 +118,33 @@
     "example": {
       "zh": "你好！很高兴认识你。",
       "pinyin": "Nǐ hǎo! Hěn gāoxìng rènshí nǐ.",
+      "ipa": "[nǐ.xàu̯! xən káu̯.ɕîŋ ɻən.ʂʐ̩ nì]",
       "en": "Hello! Nice to meet you.",
       "es": "¡Hola! Mucho gusto en conocerte.",
       "fr": "Bonjour ! Ravi de faire votre connaissance."
     },
     "category": "Greetings / 问候",
     "tags": ["HSK 1", "Basic", "Daily"],
-    "note": "Tone Sandhi rule: When two 3rd tones meet (nǐ + hǎo), the first changes into a 2nd tone in pronunciation (ní hǎo)."
+    "note": "Tone Sandhi rule: When two 3rd tones meet (nǐ + hǎo), the first changes into a 2nd tone in pronunciation (ní hǎo / [nǐ xàu̯])."
   },
   {
     "hanzi": "再见",
     "phonetic": "zàijiàn",
     "written": "Zàijiàn",
+    "ipa": "[tsâi̯.tɕjɛ̂n]",
     "definition": "Standard farewell phrase used when taking leave, literally meaning 'see you again'.",
     "breakdown": [
       {
         "char": "再",
         "pinyin": "zài",
+        "ipa": "[tsâi̯]",
         "meaning": "again, once more",
         "radical": "冂 (down box / border)"
       },
       {
         "char": "见",
         "pinyin": "jiàn",
+        "ipa": "[tɕjɛ̂n]",
         "meaning": "to see, to meet",
         "radical": "见 (see)"
       }
@@ -139,6 +156,7 @@
     "example": {
       "zh": "明天见，再见！",
       "pinyin": "Míngtiān jiàn, zàijiàn!",
+      "ipa": "[mǐŋ.tʰjɛ́n tɕjɛ̂n, tsâi̯.tɕjɛ̂n!]",
       "en": "See you tomorrow, goodbye!",
       "es": "¡Nos vemos mañana, adiós!",
       "fr": "À demain, au revoir !"
@@ -151,11 +169,13 @@
     "hanzi": "在",
     "phonetic": "zài",
     "written": "Zài",
+    "ipa": "[tsâi̯]",
     "definition": "Locative preposition and verb meaning 'to be at/in/on', or grammatical aspect marker indicating an ongoing continuous action (-ing).",
     "breakdown": [
       {
         "char": "在",
         "pinyin": "zài",
+        "ipa": "[tsâi̯]",
         "meaning": "at, in, exist, be present",
         "radical": "土 (earth / soil)"
       }
@@ -167,6 +187,7 @@
     "example": {
       "zh": "他在家学中文。",
       "pinyin": "Tā zài jiā xué Zhōngwén.",
+      "ipa": "[tʰá tsâi̯ tɕjá ɕɥɛ̌ tʂʊ́ŋ.wə̌n]",
       "en": "He is at home studying Chinese.",
       "es": "Él está en casa aprendiendo chino.",
       "fr": "Il est à la maison en train d'apprendre le chinois."
@@ -179,11 +200,13 @@
     "hanzi": "再",
     "phonetic": "zài",
     "written": "Zài",
+    "ipa": "[tsâi̯]",
     "definition": "Adverb meaning 'again', 'once more', or 'then/further' before doing something else in the future.",
     "breakdown": [
       {
         "char": "再",
         "pinyin": "zài",
+        "ipa": "[tsâi̯]",
         "meaning": "again, once more, another time",
         "radical": "冂 (down box / border)"
       }
@@ -195,6 +218,7 @@
     "example": {
       "zh": "请再说一遍。",
       "pinyin": "Qǐng zài shuō yí biàn.",
+      "ipa": "[tɕʰìŋ tsâi̯ ʂwɔ́ ǐ pjɛ̂n]",
       "en": "Please say it once again.",
       "es": "Por favor dígalo otra vez.",
       "fr": "Répétez encore une fois, s'il vous plaît."

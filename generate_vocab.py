@@ -100,6 +100,7 @@ def generate_typst_content(title: str, subtitle: str, items: list) -> str:
         hanzi = escape_typst_string(item.get("hanzi", ""))
         phonetic = escape_typst_string(item.get("phonetic", ""))
         written = escape_typst_string(item.get("written", ""))
+        ipa = escape_typst_string(item.get("ipa", ""))
         definition = escape_typst_string(item.get("definition", ""))
         composition_note = escape_typst_string(item.get("composition_note", ""))
         en = escape_typst_string(item.get("en", ""))
@@ -120,9 +121,10 @@ def generate_typst_content(title: str, subtitle: str, items: list) -> str:
         for b in item.get("breakdown", []):
             b_char = escape_typst_string(b.get("char", ""))
             b_pinyin = escape_typst_string(b.get("pinyin", ""))
+            b_ipa = escape_typst_string(b.get("ipa", ""))
             b_meaning = escape_typst_string(b.get("meaning", ""))
             b_rad = escape_typst_string(b.get("radical", ""))
-            entry = f'(char: "{b_char}", pinyin: "{b_pinyin}", meaning: "{b_meaning}", radical: "{b_rad}")'
+            entry = f'(char: "{b_char}", pinyin: "{b_pinyin}", ipa: "{b_ipa}", meaning: "{b_meaning}", radical: "{b_rad}")'
             breakdown_entries.append(entry)
         if len(breakdown_entries) == 1:
             breakdown_str = f"({breakdown_entries[0]},)"
@@ -136,9 +138,10 @@ def generate_typst_content(title: str, subtitle: str, items: list) -> str:
         if example_obj:
             ex_zh = escape_typst_string(example_obj.get("zh", ""))
             ex_pinyin = escape_typst_string(example_obj.get("pinyin", ""))
+            ex_ipa = escape_typst_string(example_obj.get("ipa", ""))
             ex_en = escape_typst_string(example_obj.get("en", ""))
             ex_es = escape_typst_string(example_obj.get("es", ""))
-            example_str = f'(zh: "{ex_zh}", pinyin: "{ex_pinyin}", en: "{ex_en}", es: "{ex_es}")'
+            example_str = f'(zh: "{ex_zh}", pinyin: "{ex_pinyin}", ipa: "{ex_ipa}", en: "{ex_en}", es: "{ex_es}")'
         else:
             example_str = "none"
 
@@ -146,6 +149,8 @@ def generate_typst_content(title: str, subtitle: str, items: list) -> str:
         lines.append(f'  hanzi: "{hanzi}",')
         lines.append(f'  pinyin-phonetic: "{phonetic}",')
         lines.append(f'  pinyin-written: "{written}",')
+        if ipa:
+            lines.append(f'  ipa: "{ipa}",')
         if zipf_val is not None:
             lines.append(f'  zipf: {zipf_str},')
             lines.append(f'  frequency-tier: {tier_str},')
@@ -184,6 +189,7 @@ def generate_typst_content(title: str, subtitle: str, items: list) -> str:
         hanzi = escape_typst_string(item.get("hanzi", ""))
         phonetic = escape_typst_string(item.get("phonetic", ""))
         written = escape_typst_string(item.get("written", ""))
+        ipa = escape_typst_string(item.get("ipa", ""))
         en = escape_typst_string(item.get("en", ""))
         es = escape_typst_string(item.get("es", ""))
         fr = escape_typst_string(item.get("fr", ""))
@@ -208,6 +214,8 @@ def generate_typst_content(title: str, subtitle: str, items: list) -> str:
         lines.append(f'    hanzi: "{hanzi}",')
         lines.append(f'    pinyin-phonetic: "{phonetic}",')
         lines.append(f'    pinyin-written: "{written}",')
+        if ipa:
+            lines.append(f'    ipa: "{ipa}",')
         if zipf_val is not None:
             lines.append(f'    zipf: {zipf_str},')
         lines.append(f'    en: "{en}",')

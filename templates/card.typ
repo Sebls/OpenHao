@@ -70,6 +70,7 @@
   pinyin-phonetic: none,
   pinyin-written: none,
   pinyin: none,
+  ipa: none,
   zipf: none,
   frequency-tier: none,
   definition: none,
@@ -140,7 +141,7 @@
             columns: (1.05fr, 1.35fr),
             column-gutter: 14pt,
             
-            // Left Column: Big Hanzi & Phonetics pill
+            // Left Column: Big Hanzi & Phonetics badge
             [
               #align(center)[
                 #block(
@@ -155,7 +156,7 @@
                   ]
                 )
 
-                #v(4pt)
+                #v(3pt)
 
                 #box(
                   fill: rgb("#edf2f7"),
@@ -167,13 +168,18 @@
                       row-gutter: 3pt,
                       align: left,
                       [
-                        #text(size: 7.5pt, fill: rgb("#718096"), weight: "bold")[PHONETIC: ]
+                        #text(size: 7.5pt, fill: rgb("#718096"), weight: "bold")[PINYIN: ]
                         #text(size: 9.5pt, weight: "bold", fill: rgb("#2b6cb0"))[#p-phonetic]
+                      ],
+                      if ipa != none [
+                        #line(length: 100%, stroke: 0.5pt + rgb("#cbd5e0"))
+                        #text(size: 7.5pt, fill: rgb("#718096"), weight: "bold")[IPA: ]
+                        #text(size: 9pt, weight: "bold", fill: rgb("#6b46c1"))[#ipa]
                       ],
                       if p-written != none and p-written != p-phonetic [
                         #line(length: 100%, stroke: 0.5pt + rgb("#cbd5e0"))
                         #text(size: 7.5pt, fill: rgb("#718096"), weight: "bold")[WRITTEN: ]
-                        #text(size: 9pt, weight: "bold", fill: rgb("#2d3748"))[#p-written]
+                        #text(size: 8.5pt, weight: "bold", fill: rgb("#2d3748"))[#p-written]
                       ]
                     )
                   ]
@@ -236,12 +242,12 @@
             ]
           )
 
-          // 3. Character Decomposition / Radical breakdown
+          // 3. Character Decomposition / Radical breakdown with IPA
           #if breakdown.len() > 0 [
             #v(8pt)
             #line(length: 100%, stroke: 0.5pt + rgb("#edf2f7"))
             #v(4pt)
-            #text(size: 8pt, weight: "bold", fill: rgb("#718096"))[CHARACTER COMPOSITION & RADICALS:]
+            #text(size: 8pt, weight: "bold", fill: rgb("#718096"))[CHARACTER COMPOSITION, RADICALS & PHONETICS (IPA):]
             #v(4pt)
             
             #grid(
@@ -256,6 +262,10 @@
                   #text(font: primary-chinese-font, size: 18pt, weight: "bold", fill: rgb("#2d3748"))[#item.at("char")]
                   #v(1pt)
                   #text(size: 8.5pt, weight: "bold", fill: rgb("#2b6cb0"))[#item.at("pinyin")]
+                  #if "ipa" in item [
+                    #v(1pt)
+                    #text(size: 7.5pt, fill: rgb("#6b46c1"), weight: "bold")[#item.at("ipa")]
+                  ]
                   #v(1pt)
                   #text(size: 7.5pt, fill: rgb("#4a5568"))[#item.at("meaning")]
                   #if "radical" in item [
@@ -272,7 +282,7 @@
             ]
           ]
 
-          // 4. Practical Example Section
+          // 4. Practical Example Section with IPA
           #if example != none [
             #v(6pt)
             #block(
@@ -290,6 +300,10 @@
                     #text(font: primary-chinese-font, size: 10pt, weight: "bold", fill: rgb("#2b6cb0"))[#example.at("zh")]
                     #h(6pt)
                     #text(size: 8.5pt, fill: rgb("#4a5568"), style: "italic")[#example.at("pinyin")]
+                    #if "ipa" in example [
+                      #h(6pt)
+                      #text(size: 8pt, fill: rgb("#6b46c1"))[IPA: #example.at("ipa")]
+                    ]
                     #v(2pt)
                     #text(size: 8pt, fill: rgb("#2d3748"))[
                       *EN:* #example.at("en") · *ES:* #example.at("es", default: "")
@@ -318,6 +332,7 @@
   pinyin-phonetic: none,
   pinyin-written: none,
   pinyin: none,
+  ipa: none,
   zipf: none,
   frequency-tier: none,
   es: none,
@@ -350,8 +365,13 @@
         #text(font: primary-chinese-font, size: 24pt, weight: "bold", fill: rgb("#c53030"))[#hanzi]
         #v(1pt)
         #text(size: 9.5pt, weight: "bold", fill: rgb("#2b6cb0"))[#p-phonetic]
+        #if ipa != none [
+          #h(4pt)
+          #text(size: 8pt, fill: rgb("#6b46c1"), weight: "bold")[#ipa]
+        ]
         #if p-written != none and p-written != p-phonetic [
-          #text(size: 8.5pt, fill: rgb("#718096"))[ (#p-written)]
+          #v(1pt)
+          #text(size: 8pt, fill: rgb("#718096"))[(#p-written)]
         ]
       ]
 
@@ -385,6 +405,7 @@
       hanzi: item.at("hanzi"),
       pinyin-phonetic: item.at("phonetic", default: none),
       pinyin-written: item.at("written", default: none),
+      ipa: item.at("ipa", default: none),
       zipf: item.at("zipf", default: none),
       frequency-tier: item.at("frequency_tier", default: none),
       definition: item.at("definition", default: none),
