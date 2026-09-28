@@ -3,11 +3,11 @@
 
 #show: card-doc.with(
   title: "Chinese Vocabulary: Preguntas",
-  subtitle: "Vocabulary Module · 4 Expressions · wordfreq Analysis",
+  subtitle: "Vocabulary Module · 5 Expressions · wordfreq Analysis",
   author: "Personal Language System"
 )
 
-== Study Cards / 学习卡片 (4 items)
+== Study Cards / 学习卡片 (5 items)
 
 #vocab-card(
   hanzi: "是什么意思",
@@ -85,6 +85,25 @@
   category: "Study & Common Nouns / 学习与常用词"
 )
 
+#vocab-card(
+  hanzi: "没有",
+  pinyin-phonetic: "méiyǒu",
+  pinyin-written: "Méiyǒu",
+  ipa: "[měi̯.jòu̯]",
+  zipf: "6.38",
+  frequency-tier: "Top 1k (Essential)",
+  definition: "Don't have, there is not, haven't; the fundamental negation of possession and past completion in Mandarin Chinese.",
+  breakdown: ((char: "没", pinyin: "méi", ipa: "[měi̯]", meaning: "not have, there is no", radical: "氵(水) (water)"), (char: "有", pinyin: "yǒu", ipa: "[jòu̯]", meaning: "to have, there is/are", radical: "月 (moon / flesh)")),
+  composition-note: "没 (negation particle: not have) + 有 (to have / exist). In Chinese, 有 can NEVER be negated with 不 (bù); it is strictly negated with 没 (méi). Can also be used alone as 'No / haven't yet'.",
+  en: "Don't have / There isn't / Haven't done [yet]",
+  es: "No tener / No hay / No haber hecho [aún]",
+  fr: "Ne pas avoir / Il n'y a pas / Ne pas avoir fait",
+  example: (zh: "我没有问题。 / 我没有书。", pinyin: "Wǒ méiyǒu wèntí. / Wǒ méiyǒu shū.", ipa: "[wò měi̯.jòu̯ wə̂n.tʰǐ. / wò měi̯.jòu̯ ʂú.]", en: "I don't have any questions. / I don't have a book.", es: "No tengo preguntas. / No tengo libro."),
+  tags: ("HSK 1", "Verb", "Grammar", "Top 1k"),
+  note: "Golden Grammar Rule: Never say '不有' (bù yǒu); always use '没有' (méiyǒu).",
+  category: "Negation & Core Verbs / 否定与常用动词"
+)
+
 #pagebreak()
 == Printable Flashcards / Cutout Grid View (2-Column)
 #v(8pt)
@@ -139,5 +158,17 @@
     fr: "Sens / Signification / Idée / Intérêt",
     category: "Study & Common Nouns / 学习与常用词",
     breakdown: ((char: "意", pinyin: "yì", meaning: "idea, thought, intention"), (char: "思", pinyin: "si", meaning: "to think, mind, thought (neutral tone)"))
+  ),
+  vocab-card-compact(
+    hanzi: "没有",
+    pinyin-phonetic: "méiyǒu",
+    pinyin-written: "Méiyǒu",
+    ipa: "[měi̯.jòu̯]",
+    zipf: "6.38",
+    en: "Don't have / There isn't / Haven't done [yet]",
+    es: "No tener / No hay / No haber hecho [aún]",
+    fr: "Ne pas avoir / Il n'y a pas / Ne pas avoir fait",
+    category: "Negation & Core Verbs / 否定与常用动词",
+    breakdown: ((char: "没", pinyin: "méi", meaning: "not have, there is no"), (char: "有", pinyin: "yǒu", meaning: "to have, there is/are"))
   ),
 )
