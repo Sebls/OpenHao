@@ -3,11 +3,11 @@
 
 #show: card-doc.with(
   title: "Chinese Vocabulary: Saludos",
-  subtitle: "Vocabulary Module · 8 Expressions · wordfreq Analysis",
+  subtitle: "Vocabulary Module · 10 Expressions · wordfreq Analysis",
   author: "Personal Language System"
 )
 
-== Study Cards / 学习卡片 (8 items)
+== Study Cards / 学习卡片 (10 items)
 
 #vocab-card(
   hanzi: "大家好",
@@ -86,6 +86,25 @@
 )
 
 #vocab-card(
+  hanzi: "不客气",
+  pinyin-phonetic: "bú kèqi",
+  pinyin-written: "Bú kèqi",
+  ipa: "[pǔ kʰɤ̂.tɕʰi]",
+  zipf: "3.32",
+  frequency-tier: "Intermediate",
+  definition: "You're welcome, don't mention it, make yourself at home; standard polite response to 谢谢 (xièxie).",
+  breakdown: ((char: "不", pinyin: "bú", ipa: "[pǔ]", meaning: "not, un- (2nd tone sandhi before 4th tone)", radical: "一 (one)"), (char: "客", pinyin: "kè", ipa: "[kʰɤ̂]", meaning: "guest, visitor", radical: "宀 (roof)"), (char: "气", pinyin: "qi", ipa: "[tɕʰi]", meaning: "air, manner, demeanor (neutral tone)", radical: "气 (air / breath)")),
+  composition-note: "不 (not) + 客气 (polite/guest-like manner). Literally: 'No need to be polite like a guest' or 'Don't act like a stranger'. Note tone sandhi: 不 changes from 4th tone (bù) to 2nd tone (bú) before the 4th tone 客 (kè).",
+  en: "You're welcome / Don't mention it",
+  es: "De nada / No hay de qué",
+  fr: "De rien / Je vous en prie / Il n'y a pas de quoi",
+  example: (zh: "谢谢你的帮助！—— 不客气。", pinyin: "Xièxie nǐ de bāngzhù! —— Bú kèqi.", ipa: "[ɕjɛ̂.ɕjɛ nì tə páŋ.tʂû! —— pǔ kʰɤ̂.tɕʰi]", en: "Thank you for your help! —— You're welcome.", es: "¡Gracias por tu ayuda! —— De nada."),
+  tags: ("HSK 1", "Courtesy", "Essential"),
+  note: "Standard polite response to 谢谢 (xièxie).",
+  category: "Courtesy & Social Expressions / 礼貌用语"
+)
+
+#vocab-card(
   hanzi: "对不起",
   pinyin-phonetic: "duìbuqǐ",
   pinyin-written: "Duìbuqǐ",
@@ -101,6 +120,25 @@
   example: (zh: "对不起，我迟到了。", pinyin: "Duìbuqǐ, wǒ chídào le.", ipa: "[twêi̯.bu.tɕʰì, wò tʂʰʐ̩̌.tâu̯ lə]", en: "I'm sorry, I am late.", es: "Lo siento, llegué tarde."),
   tags: ("HSK 1", "Courtesy", "Essential"),
   note: "Standard polite response: 没关系 (méi guānxi = it's okay / no problem).",
+  category: "Courtesy & Social Expressions / 礼貌用语"
+)
+
+#vocab-card(
+  hanzi: "没关系",
+  pinyin-phonetic: "méi guānxi",
+  pinyin-written: "Méi guānxi",
+  ipa: "[měi̯ kwán.ɕi]",
+  zipf: "4.41",
+  frequency-tier: "Common (Conversational)",
+  definition: "It doesn't matter, that's all right, no problem; standard polite response to 对不起 (duìbuqǐ).",
+  breakdown: ((char: "没", pinyin: "méi", ipa: "[měi̯]", meaning: "not have, there is no", radical: "氵(水) (water)"), (char: "关", pinyin: "guān", ipa: "[kwán]", meaning: "pass, barrier, to close, relation", radical: "丷 (eight / open)"), (char: "系", pinyin: "xi", ipa: "[ɕi]", meaning: "system, connection, relation (neutral tone)", radical: "糸 (silk)")),
+  composition-note: "没 (have not / without) + 关系 (connection / relation / concern). Literally: 'It has no connection / no consequences', meaning 'it doesn't matter' or 'it is nothing to worry about'.",
+  en: "It doesn't matter / That's all right / No problem",
+  es: "No importa / No pasa nada / Está bien",
+  fr: "Ce n'est rien / Ça ne fait rien / Pas de problème",
+  example: (zh: "对不起！—— 没关系，别担心。", pinyin: "Duìbuqǐ! —— Méi guānxi, bié dānxīn.", ipa: "[twêi̯.bu.tɕʰì! —— měi̯ kwán.ɕi, pjɛ̌ tán.ɕín]", en: "I'm sorry! —— It doesn't matter, don't worry.", es: "¡Lo siento! —— No pasa nada, no te preocupes."),
+  tags: ("HSK 1", "Courtesy", "Essential"),
+  note: "Standard polite response to 对不起 (duìbuqǐ).",
   category: "Courtesy & Social Expressions / 礼貌用语"
 )
 
@@ -217,6 +255,18 @@
     breakdown: ((char: "言", pinyin: "yán", meaning: "words, speech (radical 讠)"), (char: "身", pinyin: "shēn", meaning: "body, self"), (char: "寸", pinyin: "cùn", meaning: "thumb, rule, small measure"))
   ),
   vocab-card-compact(
+    hanzi: "不客气",
+    pinyin-phonetic: "bú kèqi",
+    pinyin-written: "Bú kèqi",
+    ipa: "[pǔ kʰɤ̂.tɕʰi]",
+    zipf: "3.32",
+    en: "You're welcome / Don't mention it",
+    es: "De nada / No hay de qué",
+    fr: "De rien / Je vous en prie / Il n'y a pas de quoi",
+    category: "Courtesy & Social Expressions / 礼貌用语",
+    breakdown: ((char: "不", pinyin: "bú", meaning: "not, un- (2nd tone sandhi before 4th tone)"), (char: "客", pinyin: "kè", meaning: "guest, visitor"), (char: "气", pinyin: "qi", meaning: "air, manner, demeanor (neutral tone)"))
+  ),
+  vocab-card-compact(
     hanzi: "对不起",
     pinyin-phonetic: "duìbuqǐ",
     pinyin-written: "Duìbuqǐ",
@@ -227,6 +277,18 @@
     fr: "Pardon / Je suis désolé(e) / Excusez-moi",
     category: "Courtesy & Social Expressions / 礼貌用语",
     breakdown: ((char: "对", pinyin: "duì", meaning: "to face, toward, correct"), (char: "不", pinyin: "bu", meaning: "not, un- (neutral tone)"), (char: "起", pinyin: "qǐ", meaning: "to rise, to bear"))
+  ),
+  vocab-card-compact(
+    hanzi: "没关系",
+    pinyin-phonetic: "méi guānxi",
+    pinyin-written: "Méi guānxi",
+    ipa: "[měi̯ kwán.ɕi]",
+    zipf: "4.41",
+    en: "It doesn't matter / That's all right / No problem",
+    es: "No importa / No pasa nada / Está bien",
+    fr: "Ce n'est rien / Ça ne fait rien / Pas de problème",
+    category: "Courtesy & Social Expressions / 礼貌用语",
+    breakdown: ((char: "没", pinyin: "méi", meaning: "not have, there is no"), (char: "关", pinyin: "guān", meaning: "pass, barrier, to close, relation"), (char: "系", pinyin: "xi", meaning: "system, connection, relation (neutral tone)"))
   ),
   vocab-card-compact(
     hanzi: "再见",
