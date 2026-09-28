@@ -3,11 +3,11 @@
 
 #show: card-doc.with(
   title: "Chinese Vocabulary: Preguntas",
-  subtitle: "Vocabulary Module · 5 Expressions · wordfreq Analysis",
+  subtitle: "Vocabulary Module · 6 Expressions · wordfreq Analysis",
   author: "Personal Language System"
 )
 
-== Study Cards / 学习卡片 (5 items)
+== Study Cards / 学习卡片 (6 items)
 
 #vocab-card(
   hanzi: "是什么意思",
@@ -104,6 +104,25 @@
   category: "Negation & Core Verbs / 否定与常用动词"
 )
 
+#vocab-card(
+  hanzi: "我有问题",
+  pinyin-phonetic: "wǒ yǒu wèntí",
+  pinyin-written: "Wǒ yǒu wèntí",
+  ipa: "[wǒ.jòu̯ wə̂n.tʰǐ] (sandhi: [wǒ jòu̯])",
+  zipf: "4.04",
+  frequency-tier: "Common (Conversational)",
+  definition: "I have a question / I have a doubt; also colloquial for 'there is something wrong with me / this is problematic'. The standard student response to '你们有问题吗？'.",
+  breakdown: ((char: "我", pinyin: "wǒ", ipa: "[wò]", meaning: "I, me", radical: "戈 (halberd / weapon)"), (char: "有", pinyin: "yǒu", ipa: "[jòu̯]", meaning: "to have, possess", radical: "月 (moon / flesh)"), (char: "问", pinyin: "wèn", ipa: "[wə̂n]", meaning: "to ask", radical: "门 (door / gate)"), (char: "题", pinyin: "tí", ipa: "[tʰǐ]", meaning: "topic, question, problem", radical: "页 (page / head)")),
+  composition-note: "我 (I) + 有 (have) + 问题 (question / problem). Note tone sandhi: because 我 (wǒ) and 有 (yǒu) are both 3rd tones, 我 becomes 2nd tone in natural speech: [wǒ jòu̯].",
+  en: "I have a question / I have a doubt",
+  es: "Tengo una pregunta / Tengo una duda / Tengo un problema",
+  fr: "J'ai une question / J'ai un doute",
+  example: (zh: "老师，我有一个问题，请问这个字怎么读？", pinyin: "Lǎoshī, wǒ yǒu yí ge wèntí, qǐngwèn zhè ge zì zěnme dú?", ipa: "[làu̯.ʂʐ̩́, wǒ jòu̯ ǐ kə wə̂n.tʰǐ, tɕʰìŋ.wə̂n tʂɤ̂ kə tsẑ̩ tsə̌n.mə tǔ?]", en: "Teacher, I have a question: excuse me, how do you read this character?", es: "Profesor, tengo una pregunta: disculpe, ¿cómo se lee este carácter?"),
+  tags: ("HSK 1", "Classroom", "Student", "Essential"),
+  note: "Standard classroom phrase to raise your hand and ask the teacher a question.",
+  category: "Classroom & Study Phrases / 学习与课堂常用语"
+)
+
 #pagebreak()
 == Printable Flashcards / Cutout Grid View (2-Column)
 #v(8pt)
@@ -170,5 +189,17 @@
     fr: "Ne pas avoir / Il n'y a pas / Ne pas avoir fait",
     category: "Negation & Core Verbs / 否定与常用动词",
     breakdown: ((char: "没", pinyin: "méi", meaning: "not have, there is no"), (char: "有", pinyin: "yǒu", meaning: "to have, there is/are"))
+  ),
+  vocab-card-compact(
+    hanzi: "我有问题",
+    pinyin-phonetic: "wǒ yǒu wèntí",
+    pinyin-written: "Wǒ yǒu wèntí",
+    ipa: "[wǒ.jòu̯ wə̂n.tʰǐ] (sandhi: [wǒ jòu̯])",
+    zipf: "4.04",
+    en: "I have a question / I have a doubt",
+    es: "Tengo una pregunta / Tengo una duda / Tengo un problema",
+    fr: "J'ai une question / J'ai un doute",
+    category: "Classroom & Study Phrases / 学习与课堂常用语",
+    breakdown: ((char: "我", pinyin: "wǒ", meaning: "I, me"), (char: "有", pinyin: "yǒu", meaning: "to have, possess"), (char: "问", pinyin: "wèn", meaning: "to ask"), (char: "题", pinyin: "tí", meaning: "topic, question, problem"))
   ),
 )
