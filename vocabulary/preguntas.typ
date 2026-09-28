@@ -3,11 +3,11 @@
 
 #show: card-doc.with(
   title: "Chinese Vocabulary: Preguntas",
-  subtitle: "Vocabulary Module · 2 Expressions · wordfreq Analysis",
+  subtitle: "Vocabulary Module · 4 Expressions · wordfreq Analysis",
   author: "Personal Language System"
 )
 
-== Study Cards / 学习卡片 (2 items)
+== Study Cards / 学习卡片 (4 items)
 
 #vocab-card(
   hanzi: "是什么意思",
@@ -25,6 +25,44 @@
   example: (zh: "这个词是什么意思？", pinyin: "Zhè ge cí shì shénme yìsi?", ipa: "[tʂɤ̂ kə tsʰʐ̩̌ ʂʐ̩̂ ʂə̌n.mə î.sz̩?]", en: "What does this word mean?", es: "¿Qué significa esta palabra?"),
   tags: ("HSK 1", "Classroom", "Question", "Essential"),
   note: "A must-know phrase for all language learners. You can put any unknown word right before it: '[Palabra] 是什么意思？'.",
+  category: "Classroom & Study Phrases / 学习与课堂常用语"
+)
+
+#vocab-card(
+  hanzi: "你们有问题吗",
+  pinyin-phonetic: "nǐmen yǒu wèntí ma",
+  pinyin-written: "Nǐmen yǒu wèntí ma",
+  ipa: "[nǐ.mən jòu̯ wə̂n.tʰǐ ma]",
+  zipf: "2.57",
+  frequency-tier: "Advanced / Rare",
+  definition: "Do you have any questions? A classic teacher or speaker inquiry directed to students or an audience.",
+  breakdown: ((char: "你", pinyin: "nǐ", ipa: "[nì]", meaning: "you", radical: "亻 (person)"), (char: "们", pinyin: "men", ipa: "[mən]", meaning: "plural suffix for people (neutral tone)", radical: "亻 (person)"), (char: "有", pinyin: "yǒu", ipa: "[jòu̯]", meaning: "to have, there is/are", radical: "月 (moon / flesh)"), (char: "问", pinyin: "wèn", ipa: "[wə̂n]", meaning: "to ask", radical: "门 (door / gate)"), (char: "题", pinyin: "tí", ipa: "[tʰǐ]", meaning: "topic, problem, question", radical: "页 (page / head)"), (char: "吗", pinyin: "ma", ipa: "[ma]", meaning: "yes/no question particle (neutral tone)", radical: "口 (mouth)")),
+  composition-note: "你们 (you all / plural) + 有 (have) + 问题 (questions/problems: 问 to ask + 题 topic) + 吗 (interrogative question particle). Standard affirmative answer: 有问题 (yǒu wèntí). Standard negative answer: 没问题 (méi wèntí).",
+  en: "Do you have any questions?",
+  es: "¿Tienen alguna pregunta? / ¿Tenéis alguna duda?",
+  fr: "Avez-vous des questions ?",
+  example: (zh: "同学们，你们有问题吗？—— 老师，我们没问题！", pinyin: "Tóngxuémen, nǐmen yǒu wèntí ma? —— Lǎoshī, wǒmen méi wèntí!", ipa: "[tʰʊ̌ŋ.ɕɥɛ̂.mən, nǐ.mən jòu̯ wə̂n.tʰǐ ma? —— làu̯.ʂʐ̩́, wǒ.mən měi̯ wə̂n.tʰǐ!]", en: "Class, do you have any questions? —— Teacher, we have no questions / no problem!", es: "Alumnos, ¿tienen alguna pregunta? —— Profesor, ¡no tenemos dudas / ningún problema!"),
+  tags: ("HSK 1", "Classroom", "Question", "Teacher"),
+  note: "Standard classroom prompt used by Chinese teachers at the end of an explanation or class.",
+  category: "Classroom & Study Phrases / 学习与课堂常用语"
+)
+
+#vocab-card(
+  hanzi: "没问题",
+  pinyin-phonetic: "méi wèntí",
+  pinyin-written: "Méi wèntí",
+  ipa: "[měi̯ wə̂n.tʰǐ]",
+  zipf: "4.82",
+  frequency-tier: "Common (Conversational)",
+  definition: "No problem, no questions, sure thing; standard answer when everything is understood or when accepting a request.",
+  breakdown: ((char: "没", pinyin: "méi", ipa: "[měi̯]", meaning: "not have, there is no", radical: "氵(水) (water)"), (char: "问", pinyin: "wèn", ipa: "[wə̂n]", meaning: "to ask", radical: "门 (door / gate)"), (char: "题", pinyin: "tí", ipa: "[tʰǐ]", meaning: "topic, problem, question", radical: "页 (page / head)")),
+  composition-note: "没 (not have) + 问题 (problem / question). Dual meaning: (1) 'I have no questions / I understand' in class, (2) 'No problem / sure, I will do it' when agreeing.",
+  en: "No problem / No questions / Sure thing",
+  es: "No hay problema / Sin problema / Ninguna pregunta",
+  fr: "Pas de problème / Aucun problème / Pas de questions",
+  example: (zh: "你能帮我吗？—— 没问题！", pinyin: "Nǐ néng bāng wǒ ma? —— Méi wèntí!", ipa: "[nì nə̌ŋ páŋ wò ma? —— měi̯ wə̂n.tʰǐ!]", en: "Can you help me? —— No problem!", es: "¿Puedes ayudarme? —— ¡Sin problema!"),
+  tags: ("HSK 1", "Common", "Essential"),
+  note: "Extremely frequent in everyday conversational Chinese.",
   category: "Classroom & Study Phrases / 学习与课堂常用语"
 )
 
@@ -65,6 +103,30 @@
     fr: "Qu'est-ce que cela signifie ? / Que veut dire... ?",
     category: "Classroom & Study Phrases / 学习与课堂常用语",
     breakdown: ((char: "是", pinyin: "shì", meaning: "to be, is/are"), (char: "什", pinyin: "shén", meaning: "what (with 么)"), (char: "么", pinyin: "me", meaning: "interrogative suffix (neutral tone)"), (char: "意", pinyin: "yì", meaning: "thought, idea, intention"), (char: "思", pinyin: "si", meaning: "thinking, sense, meaning (neutral tone)"))
+  ),
+  vocab-card-compact(
+    hanzi: "你们有问题吗",
+    pinyin-phonetic: "nǐmen yǒu wèntí ma",
+    pinyin-written: "Nǐmen yǒu wèntí ma",
+    ipa: "[nǐ.mən jòu̯ wə̂n.tʰǐ ma]",
+    zipf: "2.57",
+    en: "Do you have any questions?",
+    es: "¿Tienen alguna pregunta? / ¿Tenéis alguna duda?",
+    fr: "Avez-vous des questions ?",
+    category: "Classroom & Study Phrases / 学习与课堂常用语",
+    breakdown: ((char: "你", pinyin: "nǐ", meaning: "you"), (char: "们", pinyin: "men", meaning: "plural suffix for people (neutral tone)"), (char: "有", pinyin: "yǒu", meaning: "to have, there is/are"), (char: "问", pinyin: "wèn", meaning: "to ask"), (char: "题", pinyin: "tí", meaning: "topic, problem, question"), (char: "吗", pinyin: "ma", meaning: "yes/no question particle (neutral tone)"))
+  ),
+  vocab-card-compact(
+    hanzi: "没问题",
+    pinyin-phonetic: "méi wèntí",
+    pinyin-written: "Méi wèntí",
+    ipa: "[měi̯ wə̂n.tʰǐ]",
+    zipf: "4.82",
+    en: "No problem / No questions / Sure thing",
+    es: "No hay problema / Sin problema / Ninguna pregunta",
+    fr: "Pas de problème / Aucun problème / Pas de questions",
+    category: "Classroom & Study Phrases / 学习与课堂常用语",
+    breakdown: ((char: "没", pinyin: "méi", meaning: "not have, there is no"), (char: "问", pinyin: "wèn", meaning: "to ask"), (char: "题", pinyin: "tí", meaning: "topic, problem, question"))
   ),
   vocab-card-compact(
     hanzi: "意思",
