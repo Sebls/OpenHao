@@ -128,6 +128,96 @@
     "note": "Tone Sandhi rule: When two 3rd tones meet (nǐ + hǎo), the first changes into a 2nd tone in pronunciation (ní hǎo / [nǐ xàu̯])."
   },
   {
+    "hanzi": "谢谢",
+    "phonetic": "xièxie",
+    "written": "Xièxie",
+    "ipa": "[ɕjɛ̂.ɕjɛ]",
+    "definition": "Thank you, thanks; standard universal expression of gratitude.",
+    "breakdown": [
+      {
+        "char": "言",
+        "pinyin": "yán",
+        "ipa": "[jɛ̌n]",
+        "meaning": "words, speech (radical 讠)",
+        "radical": "讠(言) (speech)"
+      },
+      {
+        "char": "身",
+        "pinyin": "shēn",
+        "ipa": "[ʂə́n]",
+        "meaning": "body, self",
+        "radical": "身 (body)"
+      },
+      {
+        "char": "寸",
+        "pinyin": "cùn",
+        "ipa": "[tsʰûn]",
+        "meaning": "thumb, rule, small measure",
+        "radical": "寸 (inch)"
+      }
+    ],
+    "composition_note": "谢 is composed of 讠 (words of gratitude) + 射 (shè: 身 body + 寸 hand/bow, phonetic provider). Reduplicated word: second syllable weakens to neutral tone.",
+    "es": "Gracias / Muchas gracias",
+    "en": "Thank you / Thanks",
+    "fr": "Merci / Merci beaucoup",
+    "example": {
+      "zh": "太谢谢你了！",
+      "pinyin": "Tài xièxie nǐ le!",
+      "ipa": "[tʰâi̯ ɕjɛ̂.ɕjɛ nì lə]",
+      "en": "Thank you so much!",
+      "es": "¡Muchísimas gracias!",
+      "fr": "Merci infiniment !"
+    },
+    "category": "Courtesy & Social Expressions / 礼貌用语",
+    "tags": ["HSK 1", "Courtesy", "Essential"],
+    "note": "Standard polite response: 不客气 (bú kèqi = you're welcome) or 不用谢 (bú yòng xiè)."
+  },
+  {
+    "hanzi": "对不起",
+    "phonetic": "duìbuqǐ",
+    "written": "Duìbuqǐ",
+    "ipa": "[twêi̯.bu.tɕʰì]",
+    "definition": "I'm sorry, excuse me, pardon; formal apology indicating regret.",
+    "breakdown": [
+      {
+        "char": "对",
+        "pinyin": "duì",
+        "ipa": "[twêi̯]",
+        "meaning": "to face, toward, correct",
+        "radical": "寸 (inch / rule)"
+      },
+      {
+        "char": "不",
+        "pinyin": "bu",
+        "ipa": "[pu]",
+        "meaning": "not, un- (neutral tone)",
+        "radical": "一 (one)"
+      },
+      {
+        "char": "起",
+        "pinyin": "qǐ",
+        "ipa": "[tɕʰì]",
+        "meaning": "to rise, to bear",
+        "radical": "走 (run / walk)"
+      }
+    ],
+    "composition_note": "Literally: 'facing [you] cannot rise / cannot face you with a clear conscience'. Middle particle 不 is spoken in neutral tone.",
+    "es": "Lo siento / Perdón / Disculpe",
+    "en": "I'm sorry / Excuse me / Pardon",
+    "fr": "Pardon / Je suis désolé(e) / Excusez-moi",
+    "example": {
+      "zh": "对不起，我迟到了。",
+      "pinyin": "Duìbuqǐ, wǒ chídào le.",
+      "ipa": "[twêi̯.bu.tɕʰì, wò tʂʰʐ̩̌.tâu̯ lə]",
+      "en": "I'm sorry, I am late.",
+      "es": "Lo siento, llegué tarde.",
+      "fr": "Désolé, je suis en retard."
+    },
+    "category": "Courtesy & Social Expressions / 礼貌用语",
+    "tags": ["HSK 1", "Courtesy", "Essential"],
+    "note": "Standard polite response: 没关系 (méi guānxi = it's okay / no problem)."
+  },
+  {
     "hanzi": "再见",
     "phonetic": "zàijiàn",
     "written": "Zàijiàn",

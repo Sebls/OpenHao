@@ -3,11 +3,11 @@
 
 #show: card-doc.with(
   title: "Chinese Vocabulary: Saludos",
-  subtitle: "Vocabulary Module · 6 Expressions · wordfreq Analysis",
+  subtitle: "Vocabulary Module · 8 Expressions · wordfreq Analysis",
   author: "Personal Language System"
 )
 
-== Study Cards / 学习卡片 (6 items)
+== Study Cards / 学习卡片 (8 items)
 
 #vocab-card(
   hanzi: "大家好",
@@ -64,6 +64,44 @@
   tags: ("HSK 1", "Basic", "Daily"),
   note: "Tone Sandhi rule: When two 3rd tones meet (nǐ + hǎo), the first changes into a 2nd tone in pronunciation (ní hǎo / [nǐ xàu̯]).",
   category: "Greetings / 问候"
+)
+
+#vocab-card(
+  hanzi: "谢谢",
+  pinyin-phonetic: "xièxie",
+  pinyin-written: "Xièxie",
+  ipa: "[ɕjɛ̂.ɕjɛ]",
+  zipf: "5.16",
+  frequency-tier: "Top 5k (Very Common)",
+  definition: "Thank you, thanks; standard universal expression of gratitude.",
+  breakdown: ((char: "言", pinyin: "yán", ipa: "[jɛ̌n]", meaning: "words, speech (radical 讠)", radical: "讠(言) (speech)"), (char: "身", pinyin: "shēn", ipa: "[ʂə́n]", meaning: "body, self", radical: "身 (body)"), (char: "寸", pinyin: "cùn", ipa: "[tsʰûn]", meaning: "thumb, rule, small measure", radical: "寸 (inch)")),
+  composition-note: "谢 is composed of 讠 (words of gratitude) + 射 (shè: 身 body + 寸 hand/bow, phonetic provider). Reduplicated word: second syllable weakens to neutral tone.",
+  en: "Thank you / Thanks",
+  es: "Gracias / Muchas gracias",
+  fr: "Merci / Merci beaucoup",
+  example: (zh: "太谢谢你了！", pinyin: "Tài xièxie nǐ le!", ipa: "[tʰâi̯ ɕjɛ̂.ɕjɛ nì lə]", en: "Thank you so much!", es: "¡Muchísimas gracias!"),
+  tags: ("HSK 1", "Courtesy", "Essential"),
+  note: "Standard polite response: 不客气 (bú kèqi = you're welcome) or 不用谢 (bú yòng xiè).",
+  category: "Courtesy & Social Expressions / 礼貌用语"
+)
+
+#vocab-card(
+  hanzi: "对不起",
+  pinyin-phonetic: "duìbuqǐ",
+  pinyin-written: "Duìbuqǐ",
+  ipa: "[twêi̯.bu.tɕʰì]",
+  zipf: "4.66",
+  frequency-tier: "Common (Conversational)",
+  definition: "I'm sorry, excuse me, pardon; formal apology indicating regret.",
+  breakdown: ((char: "对", pinyin: "duì", ipa: "[twêi̯]", meaning: "to face, toward, correct", radical: "寸 (inch / rule)"), (char: "不", pinyin: "bu", ipa: "[pu]", meaning: "not, un- (neutral tone)", radical: "一 (one)"), (char: "起", pinyin: "qǐ", ipa: "[tɕʰì]", meaning: "to rise, to bear", radical: "走 (run / walk)")),
+  composition-note: "Literally: 'facing [you] cannot rise / cannot face you with a clear conscience'. Middle particle 不 is spoken in neutral tone.",
+  en: "I'm sorry / Excuse me / Pardon",
+  es: "Lo siento / Perdón / Disculpe",
+  fr: "Pardon / Je suis désolé(e) / Excusez-moi",
+  example: (zh: "对不起，我迟到了。", pinyin: "Duìbuqǐ, wǒ chídào le.", ipa: "[twêi̯.bu.tɕʰì, wò tʂʰʐ̩̌.tâu̯ lə]", en: "I'm sorry, I am late.", es: "Lo siento, llegué tarde."),
+  tags: ("HSK 1", "Courtesy", "Essential"),
+  note: "Standard polite response: 没关系 (méi guānxi = it's okay / no problem).",
+  category: "Courtesy & Social Expressions / 礼貌用语"
 )
 
 #vocab-card(
@@ -165,6 +203,30 @@
     fr: "Bonjour / Salut",
     category: "Greetings / 问候",
     breakdown: ((char: "你", pinyin: "nǐ", meaning: "you (singular, informal)"), (char: "好", pinyin: "hǎo", meaning: "good, fine, well"))
+  ),
+  vocab-card-compact(
+    hanzi: "谢谢",
+    pinyin-phonetic: "xièxie",
+    pinyin-written: "Xièxie",
+    ipa: "[ɕjɛ̂.ɕjɛ]",
+    zipf: "5.16",
+    en: "Thank you / Thanks",
+    es: "Gracias / Muchas gracias",
+    fr: "Merci / Merci beaucoup",
+    category: "Courtesy & Social Expressions / 礼貌用语",
+    breakdown: ((char: "言", pinyin: "yán", meaning: "words, speech (radical 讠)"), (char: "身", pinyin: "shēn", meaning: "body, self"), (char: "寸", pinyin: "cùn", meaning: "thumb, rule, small measure"))
+  ),
+  vocab-card-compact(
+    hanzi: "对不起",
+    pinyin-phonetic: "duìbuqǐ",
+    pinyin-written: "Duìbuqǐ",
+    ipa: "[twêi̯.bu.tɕʰì]",
+    zipf: "4.66",
+    en: "I'm sorry / Excuse me / Pardon",
+    es: "Lo siento / Perdón / Disculpe",
+    fr: "Pardon / Je suis désolé(e) / Excusez-moi",
+    category: "Courtesy & Social Expressions / 礼貌用语",
+    breakdown: ((char: "对", pinyin: "duì", meaning: "to face, toward, correct"), (char: "不", pinyin: "bu", meaning: "not, un- (neutral tone)"), (char: "起", pinyin: "qǐ", meaning: "to rise, to bear"))
   ),
   vocab-card-compact(
     hanzi: "再见",
