@@ -1,8 +1,5 @@
 {
-  "characters": [
-    "气",
-    "氣"
-  ],
+  "characters": ["气", "氣"],
   "forms": [
     {
       "unified_id": "006C23-0E00-000001",
@@ -41,5 +38,19 @@
       "sourcePeriod": "西漢"
     }
   ],
-  "traditional": "氣"
+  "traditional": "氣",
+  "origin": {
+    "text": "The early form uses lines to picture drifting clouds or vapor. The outer lines later curved to distinguish it from 三, “three.” Traditional 氣 added 米; simplified 气 returns to the older component for air or breath.",
+    "sources": [
+      {
+        "label": "Source: CUHK character database",
+        "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=气"
+      },
+      {
+        "label": "Source: CUHK character database",
+        "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=氣"
+      }
+    ],
+    "reviewedAt": "2026-11-23"
+  }
 }

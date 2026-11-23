@@ -864,6 +864,18 @@ pre {
 .character-history .sequence-layout-controls {
   margin: 0 0 10px;
 }
+.history-origin {
+  margin-top: 12px;
+  font-size: 0.875rem;
+}
+.history-origin p {
+  margin: 0;
+}
+.history-origin .history-sources {
+  margin-top: 6px;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
 .sequence-layout-controls.with-labels {
   gap: 6px;
 }

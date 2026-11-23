@@ -1,8 +1,6 @@
 {
-  "characters": [
-    "一"
-  ],
-  "meaning": "One dot",
+  "characters": ["一"],
+  "meaning": "One stroke",
   "forms": [
     {
       "unified_id": "004E00-0A00-000003",
@@ -39,5 +37,15 @@
         "attribution": "字形来自汉典（zdic.net）「书法」字形，依其《服务条款》第四条以 CC0 1.0 释出"
       }
     }
-  ]
+  ],
+  "origin": {
+    "text": "One horizontal mark stood for the number one in the earliest inscriptions. Its shape has stayed almost unchanged through later scripts.",
+    "sources": [
+      {
+        "label": "Source: CUHK character database",
+        "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=一"
+      }
+    ],
+    "reviewedAt": "2026-11-23"
+  }
 }

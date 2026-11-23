@@ -1,8 +1,5 @@
 {
-  "characters": [
-    "语",
-    "語"
-  ],
+  "characters": ["语", "語"],
   "forms": [
     {
       "unified_id": "008A9E-0B00-000001",
@@ -61,5 +58,15 @@
       "sourcePeriod": "東漢"
     }
   ],
-  "traditional": "語"
+  "traditional": "語",
+  "origin": {
+    "text": "Early forms combine 言, “speech,” with a sound clue that developed into 吾. The traditional character 語 means speech or language. Simplified 语 shortens 言 to 讠 while keeping 吾.",
+    "sources": [
+      {
+        "label": "Source: CUHK character database",
+        "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=語"
+      }
+    ],
+    "reviewedAt": "2026-11-23"
+  }
 }

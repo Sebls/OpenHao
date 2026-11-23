@@ -1,7 +1,5 @@
 {
-  "characters": [
-    "老"
-  ],
+  "characters": ["老"],
   "forms": [
     {
       "unified_id": "008001-0A00-000003",
@@ -77,5 +75,15 @@
       "period": "Western Han",
       "sourcePeriod": "西漢"
     }
-  ]
+  ],
+  "origin": {
+    "text": "The early picture shows a bent person with long hair leaning on a walking stick. Later scripts compressed the figure and curved stick into 老, meaning “old” or an older person.",
+    "sources": [
+      {
+        "label": "Source: CUHK character database",
+        "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=老"
+      }
+    ],
+    "reviewedAt": "2026-11-23"
+  }
 }

@@ -1,8 +1,5 @@
 {
-  "characters": [
-    "师",
-    "師"
-  ],
+  "characters": ["师", "師"],
   "forms": [
     {
       "unified_id": "005E2B-0B00-000002",
@@ -60,5 +57,15 @@
       "sourcePeriod": "西漢"
     }
   ],
-  "traditional": "師"
+  "traditional": "師",
+  "origin": {
+    "text": "The traditional form 師 combines 𠂤, often interpreted as a small mound, with a sound component 帀. Its early meanings include an army or its leader; “teacher” developed later. Simplified 师 reduces the left side.",
+    "sources": [
+      {
+        "label": "Source: CUHK character database",
+        "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=師"
+      }
+    ],
+    "reviewedAt": "2026-11-23"
+  }
 }

@@ -30,7 +30,7 @@ export function CharacterHistory({ entry }) {
   );
   if (!history) return null;
 
-  const { assetPath, forms, meaning } = history;
+  const { assetPath, forms, meaning, origin } = history;
   return (
     <details className="character-history">
       <summary>Character history</summary>
@@ -98,6 +98,21 @@ export function CharacterHistory({ entry }) {
           </li>
         </ol>
       </div>
+      {origin && (
+        <div className="history-origin">
+          <p>{origin.text}</p>
+          <p className="history-sources">
+            {origin.sources.map((source, index) => (
+              <React.Fragment key={source.url}>
+                {index > 0 && " · "}
+                <a href={source.url} target="_blank" rel="noreferrer">
+                  {source.label} ↗
+                </a>
+              </React.Fragment>
+            ))}
+          </p>
+        </div>
+      )}
     </details>
   );
 }
