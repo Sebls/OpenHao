@@ -24,7 +24,8 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "format:json": "prettier \"**/*.json\" --write",
-    "typecheck": "tsc -p tsconfig.client.json && tsc -p tsconfig.node.json"
+    "typecheck": "tsc -p tsconfig.client.json && tsc -p tsconfig.node.json",
+    "lint": "eslint src vite.config.ts"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.3.0",
