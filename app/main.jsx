@@ -5,6 +5,8 @@ import worker from "pdfjs-dist/build/pdf.worker.min.mjs?url";
 import "@fontsource-variable/geist";
 import "@fontsource-variable/geist-mono";
 import { eligibleQuestions, shuffle, isCorrect, anchorRects } from "./model.js";
+import { StrokeOrder, WritingPractice } from "./Writing.jsx";
+import { createWritingSession } from "./writing-model.js";
 import "./style.css";
 pdfjs.GlobalWorkerOptions.workerSrc = worker;
 const api = async (url) => {
@@ -270,6 +272,7 @@ function App() {
     [active, setActive] = useState(null),
     [selection, setSelection] = useState(new Set()),
     [session, setSession] = useState(null),
+    [writingSession, setWritingSession] = useState(null),
     [copy, setCopy] = useState(""),
     [notice, setNotice] = useState(""),
     [zoom, setZoom] = useState(100),
@@ -331,8 +334,10 @@ function App() {
         );
         setSelection(new Set());
         setSession(null);
+        setWritingSession(null);
       }
       setActive(null);
+      if (keep) setWritingSession(null);
       setView("reader");
     } catch (e) {
       setError(e.message);
@@ -369,6 +374,14 @@ function App() {
     });
     setNotice("");
     switchView("practice");
+  }
+  function beginWriting() {
+    speech.stop();
+    setWritingSession(
+      createWritingSession(entry, active, page.id, content.entries.entries),
+    );
+    switchView("writing");
+    requestAnimationFrame(() => window.scrollTo(0, 0));
   }
   function back() {
     speech.stop();
@@ -445,6 +458,14 @@ function App() {
               >
                 Practice
               </button>
+              {writingSession && (
+                <button
+                  aria-current={view === "writing" ? "page" : undefined}
+                  onClick={() => switchView("writing")}
+                >
+                  Writing
+                </button>
+              )}
             </>
           )}
         </nav>
@@ -526,7 +547,11 @@ function App() {
             <div>
               <p className="eyebrow">{m?.title}</p>
               <h1>
-                {view === "reader" ? `Page ${pageNo}` : "Practice"}{" "}
+                {view === "reader"
+                  ? `Page ${pageNo}`
+                  : view === "writing"
+                    ? "Writing practice"
+                    : "Practice"}{" "}
                 <span>
                   {view === "reader"
                     ? page?.state === "ready"
@@ -770,6 +795,12 @@ function App() {
                     </p>
                   </div>
                   {entry.explanation && <p>{entry.explanation}</p>}
+                  <StrokeOrder
+                    key={entry.id}
+                    entry={entry}
+                    visible={view === "reader"}
+                    onPractise={beginWriting}
+                  />
                   {entry.constituentIds?.length > 0 && (
                     <details open>
                       <summary>Explore the parts</summary>
@@ -895,6 +926,15 @@ function App() {
               restart={begin}
               back={back}
               manifest={m}
+            />
+          )}
+          {writingSession && (
+            <WritingPractice
+              key={writingSession.id}
+              session={writingSession}
+              setSession={setWritingSession}
+              visible={view === "writing"}
+              back={back}
             />
           )}
         </main>

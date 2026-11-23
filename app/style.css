@@ -693,6 +693,141 @@ pre {
 .narrow-close {
   display: none;
 }
+.writing-board {
+  margin: 24px 0;
+}
+.hanzi-grid {
+  width: min(100%, 260px);
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(
+      to right,
+      transparent calc(50% - 0.5px),
+      var(--line) 50%,
+      transparent calc(50% + 0.5px)
+    ),
+    linear-gradient(
+      to bottom,
+      transparent calc(50% - 0.5px),
+      var(--line) 50%,
+      transparent calc(50% + 0.5px)
+    );
+}
+.hanzi-grid svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.hanzi-grid.is-writing {
+  touch-action: none;
+  cursor: crosshair;
+}
+.writing-board p {
+  font-size: 0.875rem;
+  margin: 16px 0;
+}
+.writing-practice h2 {
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+.writing-practice {
+  max-width: 1080px;
+}
+.writing-boards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 160px));
+  gap: 28px 16px;
+  margin: 28px 0;
+}
+.character-practice {
+  min-width: 0;
+}
+.character-number {
+  font: 0.6875rem/1.5 var(--mono);
+  color: var(--muted);
+}
+.character-practice .hanzi-grid {
+  width: 160px;
+  max-width: 100%;
+}
+.character-practice .writing-board {
+  margin: 8px 0 0;
+}
+.character-practice .writing-board p {
+  font-size: 0.75rem;
+  margin: 8px 0;
+}
+.character-practice .character-pinyin {
+  font-size: 1rem;
+  color: var(--text);
+  text-align: center;
+  min-height: 26px;
+}
+.character-controls {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+.character-controls .icon-control {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-color: transparent;
+  color: var(--muted);
+  padding: 0;
+  font-size: 1.25rem;
+  background: none;
+}
+.character-controls .icon-control:hover {
+  color: var(--primary);
+  background: var(--selected);
+}
+.character-result {
+  font-size: 0.75rem;
+  margin: 8px 0;
+}
+.phrase-pinyin {
+  margin-bottom: 24px;
+}
+.writing-total {
+  margin: 0;
+}
+.writing-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+.writing-help-toggle {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  color: var(--muted);
+  background: none;
+  display: grid;
+  place-items: center;
+}
+.writing-help-toggle span {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-size: 0.75rem;
+}
+.writing-help {
+  font-size: 0.875rem;
+  max-width: 680px;
+  margin: 8px 0 0;
+}
+.writing-summary {
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
+}
 @media (max-width: 1100px) {
   .document-heading {
     align-items: start;
@@ -783,6 +918,7 @@ pre {
 @media (max-width: 500px) {
   .top {
     padding: 12px 20px;
+    grid-template-columns: 1fr;
   }
   .brand {
     font-size: 17px;
@@ -793,6 +929,7 @@ pre {
   }
   .top nav {
     gap: 14px;
+    flex-wrap: wrap;
   }
   .top nav button {
     font-size: 0.8125rem;
