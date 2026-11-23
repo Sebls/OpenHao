@@ -4,10 +4,13 @@ import {
   useSequenceLayout,
 } from "./SequenceLayout.jsx";
 
-const entries = import.meta.glob("../public/hanzi-history/*/entry.json", {
-  eager: true,
-  import: "default",
-});
+const entries = import.meta.glob(
+  "../src/client/features/learning-details/history/*/entry.json",
+  {
+    eager: true,
+    import: "default",
+  },
+);
 const historyByCharacter = new Map(
   Object.entries(entries).flatMap(([path, entry]) => {
     const directory = path.split("/").at(-2);
