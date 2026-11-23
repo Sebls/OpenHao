@@ -1,15 +1,11 @@
+import { anchorRects } from "../src/client/features/reader/geometry.ts";
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
-import {
-  eligibleQuestions,
-  shuffle,
-  isCorrect,
-  anchorRects,
-} from "../app/model.js";
+import { eligibleQuestions, shuffle, isCorrect } from "../app/model.js";
 const temp = fs.mkdtempSync(path.join(os.tmpdir(), "chinois-test-"));
 process.env.CHINOIS_DATA_ROOT = path.join(temp, "data");
 const { ROOT, read, write, hash, seal, validate, current, safe, catalog } =
