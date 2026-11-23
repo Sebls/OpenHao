@@ -15,10 +15,14 @@ process.env.CHINOIS_DATA_ROOT = path.join(temp, "data");
 const { ROOT, read, write, hash, seal, validate, current, safe, catalog } =
   await import("../src/content/library/index.ts");
 const command = (cmd, args = [], ok = true) => {
-  const r = spawnSync(process.execPath, ["tools/content.mjs", cmd, ...args], {
-    encoding: "utf8",
-    env: process.env,
-  });
+  const r = spawnSync(
+    process.execPath,
+    ["--import", "tsx", "src/content/cli.ts", cmd, ...args],
+    {
+      encoding: "utf8",
+      env: process.env,
+    },
+  );
   if (ok) assert.equal(r.status, 0, r.stderr + r.stdout);
   else assert.notEqual(r.status, 0);
   return r;
