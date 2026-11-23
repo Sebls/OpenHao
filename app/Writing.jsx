@@ -3,8 +3,84 @@ import {
   createWriter,
   loadCharacter,
   demonstrateRemainingStrokes,
+  strokeDiagramTransform,
 } from "./hanzi.js";
 import { writingCharacters, updateWritingCharacter } from "./writing-model.js";
+import { SequenceLayoutControls, useSequenceLayout } from "./SequenceLayout.jsx";
+
+const strokeOrderPreference = "reader.stroke-order-expanded";
+let strokeOrderExpanded = true;
+function readStrokeOrderPreference() {
+  try {
+    const saved = localStorage.getItem(strokeOrderPreference);
+    if (saved !== null) strokeOrderExpanded = saved !== "false";
+  } catch {
+    // Keep the preference for this session if browser storage is unavailable.
+  }
+  return strokeOrderExpanded;
+}
+
+function StrokeProgression({ character, strokes }) {
+  const [layout, changeLayout] = useSequenceLayout(
+    "reader.stroke-progression-layout",
+  );
+  return (
+    <section
+      className="stroke-progression"
+      aria-label={`Stroke progression for ${character}`}
+    >
+      <div className="stroke-progression-header">
+        <p className="field-label">Stroke by stroke</p>
+        <SequenceLayoutControls
+          label="Stroke diagram layout"
+          layout={layout}
+          onChange={changeLayout}
+          rowLabel="Scrolling row"
+          gridLabel="Four-column grid"
+        />
+      </div>
+      <div
+        className={`stroke-sequence ${layout === "grid" ? "is-grid" : ""}`}
+        role="region"
+        aria-label={
+          layout === "row"
+            ? "Stroke diagrams, scroll horizontally for more"
+            : "Stroke diagrams in four columns"
+        }
+        tabIndex={layout === "row" ? 0 : undefined}
+      >
+        <ol>
+          {strokes.map((_, index) => (
+            <li key={index}>
+              <div
+                className="hanzi-grid stroke-step"
+                role="img"
+                aria-label={`${character}: strokes 1–${index + 1} of ${strokes.length}`}
+              >
+                <svg viewBox="0 0 260 260" aria-hidden="true">
+                  <g transform={strokeDiagramTransform}>
+                    {strokes.slice(0, index + 1).map((path, strokeIndex) => (
+                      <path
+                        key={strokeIndex}
+                        d={path}
+                        className={
+                          strokeIndex === index ? "new-stroke" : undefined
+                        }
+                      />
+                    ))}
+                  </g>
+                </svg>
+                <span className="stroke-step-number" aria-hidden="true">
+                  {index + 1}
+                </span>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  );
+}
 
 function WritingBoard({
   character,
@@ -31,6 +107,7 @@ function WritingBoard({
   const [playing, setPlaying] = useState(false),
     [paused, setPaused] = useState(false);
   const instance = useRef(null);
+  const [strokeData, setStrokeData] = useState(null);
   const resumeQuiz = useRef(null),
     strokeCount = useRef(0);
   callbacks.current = {
@@ -50,12 +127,14 @@ function WritingBoard({
       resource;
     setStatus("Loading stroke order…");
     setError(false);
+    setStrokeData(null);
     setPlaying(false);
     setPaused(false);
     async function setup() {
       try {
         const data = await loadCharacter(character, controller.signal);
         if (disposed) return;
+        setStrokeData({ character, strokes: data.strokes });
         resource = createWriter(host.current, character, data, {
           showCharacter: mode === "watch",
           showOutline: true,
@@ -225,13 +304,16 @@ function WritingBoard({
       {error && (
         <button onClick={() => setRetry((n) => n + 1)}>Retry loading</button>
       )}
+      {mode === "watch" && !error && strokeData?.character === character && (
+        <StrokeProgression character={character} strokes={strokeData.strokes} />
+      )}
     </div>
   );
 }
 
 export function StrokeOrder({ entry, visible, onPractise }) {
   const characters = writingCharacters(entry.form);
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(readStrokeOrderPreference);
   const singleCharacter = entry.kind === "character" && characters.length === 1;
   if (!characters.length) return null;
   const practiceButton = (
@@ -246,7 +328,20 @@ export function StrokeOrder({ entry, visible, onPractise }) {
   );
   if (!singleCharacter) return practiceButton;
   return (
-    <details onToggle={(event) => setExpanded(event.currentTarget.open)}>
+    <details
+      open={expanded}
+      onToggle={(event) => {
+        const open = event.currentTarget.open;
+        if (open === expanded) return;
+        setExpanded(open);
+        strokeOrderExpanded = open;
+        try {
+          localStorage.setItem(strokeOrderPreference, String(open));
+        } catch {
+          // The in-memory preference still applies to other characters.
+        }
+      }}
+    >
       <summary>Stroke order</summary>
       {expanded && (
         <WritingBoard

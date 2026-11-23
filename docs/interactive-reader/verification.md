@@ -93,3 +93,9 @@ The [reference-based visual design](design-references/README.md) supersedes the 
 Updated `pdfjs-dist` from 5.7.284 to 6.5.438 to address [GHSA-hq66-cqwq-w95j](https://github.com/advisories/GHSA-hq66-cqwq-w95j). Updated the declared Node requirement and setup documentation to match the dependency: Node 22.13+ or 24+. No published lesson revision was edited.
 
 Verification: production build passed; all eight automated tests passed (the local HTTP test required permission to listen on loopback); npm audit reported zero vulnerabilities. Opened the library and Lesson 1 in the Codex in-app browser and visually confirmed the original PDF page rendered with its learning overlays. This focused compatibility check does not repeat the full interaction, accessibility, or offline speech acceptance matrix.
+
+## Reader stroke progression · 2026-11-23
+
+Layout follow-up: production build and all five writing tests passed after adding compact row/grid icon controls and reducing diagram size from 88px to 72px maximum. In the Codex in-app browser, switched 客’s nine diagrams to a four-column grid (4/4/1), back to the horizontally scrolling row, and back to the grid; visually confirmed the smaller diagrams and selected-button indication. Layout choice is stored as a local interface preference. No published content changed.
+
+Production build and all five writing tests passed. In the Codex in-app browser, verified that Stroke order opens initially for 你, an explicit collapse remains collapsed when switching to 好 and after reloading/reopening the lesson, and expanding restores the diagram. The animation played to completion. Visually reviewed the static cumulative diagrams, numbered badges and highlighted new strokes; horizontal scrolling reached diagrams 5–7 without wrapping. The sequence also scrolled with keyboard arrows. This focused desktop check does not certify the full accessibility or responsive matrix. Published lesson revisions were not changed.

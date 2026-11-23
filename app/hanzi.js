@@ -1,5 +1,11 @@
 import HanziWriter from "hanzi-writer";
 
+export const strokeDiagramTransform = HanziWriter.getScalingTransform(
+  260,
+  260,
+  20,
+).transform;
+
 export async function demonstrateRemainingStrokes(
   writer,
   start,
