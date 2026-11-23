@@ -14,6 +14,76 @@ const api = async (url) => {
 };
 const pinyin = (e) =>
   e?.pronunciations?.find((p) => p.system === "pinyin")?.value;
+function useSpeech() {
+  const [voices, setVoices] = useState([]),
+    [status, setStatus] = useState(""),
+    [working, setWorking] = useState(false);
+  const timer = useRef(),
+    utteranceId = useRef(0);
+  useEffect(() => {
+    if (!window.speechSynthesis) return;
+    const update = () =>
+      setVoices(
+        speechSynthesis
+          .getVoices()
+          .filter((v) => v.localService && /^zh(-|_)(CN|Hans)/i.test(v.lang)),
+      );
+    update();
+    speechSynthesis.addEventListener("voiceschanged", update);
+    return () => {
+      speechSynthesis.removeEventListener("voiceschanged", update);
+      speechSynthesis.cancel();
+      clearTimeout(timer.current);
+    };
+  }, []);
+  function stop() {
+    utteranceId.current++;
+    clearTimeout(timer.current);
+    window.speechSynthesis?.cancel();
+    setStatus("Stopped");
+  }
+  function speak(text) {
+    if (!voices.length) return;
+    stop();
+    const id = utteranceId.current,
+      utterance = new SpeechSynthesisUtterance(text);
+    utterance.voice = voices[0];
+    utterance.lang = voices[0].lang;
+    utterance.rate = 0.8;
+    setStatus("Starting pronunciation…");
+    utterance.onstart = () => {
+      if (id !== utteranceId.current) return;
+      setStatus("Playing");
+      clearTimeout(timer.current);
+    };
+    utterance.onend = () => {
+      if (id !== utteranceId.current) return;
+      setStatus("Finished");
+      setWorking(true);
+      clearTimeout(timer.current);
+    };
+    utterance.onerror = () => {
+      if (id !== utteranceId.current) return;
+      setStatus("Audio could not play. Try again.");
+      setWorking(false);
+      clearTimeout(timer.current);
+    };
+    timer.current = setTimeout(() => {
+      speechSynthesis.cancel();
+      setStatus("Audio could not play. Try again.");
+      setWorking(false);
+    }, 12000);
+    speechSynthesis.speak(utterance);
+  }
+  return {
+    available: voices.length > 0,
+    voiceName: voices[0]?.name,
+    working,
+    status,
+    speak,
+    stop,
+  };
+}
 function Source({ manifest, page, content, selected, onSelect }) {
   const canvas = useRef(),
     host = useRef(),
@@ -198,9 +268,11 @@ function App() {
     [view, setView] = useState("library"),
     [pageNo, setPageNo] = useState(1),
     [active, setActive] = useState(null),
+    [copy, setCopy] = useState(""),
     [zoom, setZoom] = useState(100),
     [unitKind, setUnitKind] = useState("word");
-  const scroll = useRef(0),
+  const speech = useSpeech(),
+    scroll = useRef(0),
     trigger = useRef(null),
     details = useRef(null);
   useEffect(() => {
@@ -260,6 +332,9 @@ function App() {
     trigger.current =
       event?.currentTarget instanceof HTMLElement ? event.currentTarget : null;
     setActive(a);
+    setCopy("");
+    if (window.innerWidth < 850)
+      requestAnimationFrame(() => details.current?.focus());
   }
   function switchView(next) {
     if (view === "reader") scroll.current = window.scrollY;
@@ -267,6 +342,9 @@ function App() {
     if (next === "reader")
       requestAnimationFrame(() => window.scrollTo(0, scroll.current));
   }
+  const reference =
+    active &&
+    `${m.documentId}:${page.id}:annotation:${active.id}@r${m.contentRevision}`;
   return (
     <>
       <header className="top">
@@ -446,7 +524,7 @@ function App() {
                 </select>
               </label>
             </div>
-            <div className="reading-layout">
+            <div className={`reading-layout ${entry ? "with-details" : ""}`}>
               <section className="page-column" aria-label="PDF reader">
                 <div className="page-scroll">
                   <div style={{ width: zoom + "%" }}>
@@ -530,6 +608,155 @@ function App() {
                   </div>
                 )}
               </section>
+              {entry && (
+                <aside
+                  className="details"
+                  tabIndex={-1}
+                  ref={details}
+                  aria-label="Learning details"
+                >
+                  <div className="detail-top">
+                    <span className="eyebrow">{entry.kind}</span>
+                    <button
+                      onClick={() => {
+                        setActive(null);
+                        trigger.current?.focus();
+                      }}
+                      aria-label="Close learning details"
+                    >
+                      <span className="wide-close">×</span>
+                      <span className="narrow-close">← Return to page</span>
+                    </button>
+                  </div>
+                  <h2 lang="zh-CN">{entry.form}</h2>
+                  <p className="meaning">{entry.meaning}</p>
+                  <p>
+                    <span className="field-label">Pinyin</span>
+                    <span lang="zh-Latn">{pinyin(entry)}</span>
+                  </p>
+                  <div className="speech">
+                    <button
+                      onClick={() =>
+                        speech.speak(entry.speechTarget || entry.form)
+                      }
+                      disabled={!speech.available}
+                    >
+                      ▷ Play pronunciation
+                    </button>
+                    <button onClick={speech.stop}>Stop</button>
+                    <p role="status">
+                      {speech.available
+                        ? speech.status ||
+                          `Local Mandarin voice: ${speech.voiceName}. Test playback before listening practice.`
+                        : "Offline pronunciation is unavailable. A local Mandarin voice is needed."}
+                    </p>
+                  </div>
+                  {entry.explanation && <p>{entry.explanation}</p>}
+                  {entry.constituentIds?.length > 0 && (
+                    <details open>
+                      <summary>Explore the parts</summary>
+                      <div className="parts">
+                        {entry.constituentIds.map((id) => {
+                          const e = content.entries.entries.find(
+                              (e) => e.id === id,
+                            ),
+                            a = content.annotations.annotations.find(
+                              (a) =>
+                                a.entryId === id &&
+                                a.anchors[0].start >= active.anchors[0].start &&
+                                a.anchors[0].end <= active.anchors.at(-1).end,
+                            );
+                          return (
+                            e && (
+                              <button
+                                key={id}
+                                disabled={!a}
+                                onClick={() => a && choose(a)}
+                              >
+                                <span lang="zh-CN">{e.form}</span> · {e.meaning}
+                              </button>
+                            )
+                          );
+                        })}
+                      </div>
+                    </details>
+                  )}
+                  {entry.grammar && (
+                    <details>
+                      <summary>How it works</summary>
+                      <p>{entry.grammar}</p>
+                    </details>
+                  )}
+                  <details>
+                    <summary>Phonetic transcription · IPA</summary>
+                    <p>
+                      IPA uses sound symbols to show pronunciation. Pinyin above
+                      is the main learning aid.
+                    </p>
+                    <p>
+                      {entry.pronunciations.find((p) => p.system === "ipa")
+                        ?.value ||
+                        "A reviewed IPA transcription is not available for this item."}
+                    </p>
+                    {entry.pronunciationNote && (
+                      <p>{entry.pronunciationNote}</p>
+                    )}
+                  </details>
+                  <details>
+                    <summary>In the original</summary>
+                    <p lang="zh-CN">
+                      {
+                        content.layout.lines.find(
+                          (l) =>
+                            l.start <= active.anchors[0].start &&
+                            l.end >= active.anchors[0].end,
+                        )?.exactText
+                      }
+                    </p>
+                    <div className="parts">
+                      {content.annotations.annotations
+                        .filter(
+                          (a) =>
+                            a.kind === "sentence" &&
+                            a.anchors.some(
+                              (x) =>
+                                x.start <= active.anchors[0].start &&
+                                x.end >= active.anchors[0].end,
+                            ),
+                        )
+                        .map((a) => (
+                          <button key={a.id} onClick={() => choose(a)}>
+                            Explore sentence
+                          </button>
+                        ))}
+                    </div>
+                  </details>
+                  <button
+                    className="quiet"
+                    onClick={async () => {
+                      try {
+                        await navigator.clipboard.writeText(reference);
+                        setCopy("Reference copied");
+                      } catch {
+                        setCopy("Copy the reference below");
+                      }
+                    }}
+                  >
+                    Copy reference
+                  </button>
+                  {copy && (
+                    <div role="status">
+                      <small>{copy}</small>
+                      <input
+                        readOnly
+                        aria-label="Correction reference"
+                        value={reference}
+                        onFocus={(e) => e.target.select()}
+                      />
+                    </div>
+                  )}
+                </aside>
+              )}
             </div>
           </div>
         </main>
