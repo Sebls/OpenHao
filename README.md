@@ -1,152 +1,34 @@
-# 🇨🇳 Chinese Mandarin Personal Language System (Typst)
+# Chinese study library
 
-A modular, publication-quality **Flashcard & Vocabulary System** built with [Typst](https://typst.app) for systematic Chinese language acquisition.
+A local React reader for learning Chinese from original PDF pages. Select words for concise English explanations, Mandarin pinyin, separately labeled IPA and available local pronunciation; practise reviewed multiple-choice questions.
 
-It features **dual pinyin support**, **character composition and radical breakdowns**, **usage definitions**, **contextual sentence examples**, and **multilingual translations** (English, Spanish, and French).
+## Start
 
----
+Requires Node.js 22.13+ or 24+.
 
-## 📁 Repository Structure
-
-```text
-chinois/
-├── templates/
-│   └── card.typ          # Typst module with card components & page layouts
-├── data/
-│   └── saludos.json      # Structured vocabulary database (JSON)
-├── vocabulary/
-│   ├── saludos.typ       # Generated Typst document
-│   └── saludos.pdf       # Compiled high-resolution PDF document
-├── generate_vocab.py     # Automatic Python generator script
-└── README.md             # Documentation and usage guide
+```sh
+npm install
+npm start
 ```
 
----
+Open **http://localhost:4173**. Future launches only need `npm start`. Studying works from local files without an AI session or runtime internet services.
 
-## ✨ Features
+Lesson 1 of New HSK 1 is prepared on this computer. The unchanged five-page original remains readable; pages 2–5 are marked unprepared. Prepared material is private, stored in ignored `data/`, and should be included in backups.
 
-1. **Native Chinese Typography**:
-   - Automatic fallback using premium Chinese serif and sans-serif fonts (`Songti SC`, `STSong`, `Hiragino Sans GB`, `Heiti SC`).
-2. **Frequency Intelligence via [`wordfreq`](https://github.com/rspeer/wordfreq)**:
-   - Evaluates logarithmic natural word frequencies using the **Zipf Scale** (from 0 to 8) based on large Chinese text corpora with `jieba` tokenization.
-   - Categorizes items into learning tiers: `Top 1k (Essential)`, `Top 5k (Very Common)`, `Common (Conversational)`, `Intermediate`, and `Advanced`.
-   - Ability to sort entire vocabulary decks by usage frequency (`--sort-by-frequency`).
-3. **Dual Pinyin System**:
-   - **Phonetic Pronunciation**: Reflects real pronunciation (e.g. Tone Sandhi variations such as third-tone changes).
-   - **Standard Written Pinyin**: Canonical capitalized orthography.
-4. **Character Composition & Radical Splitting**:
-   - Decomposes each compound character into its constituent glyphs, with individual pinyin, meaning, and radical classification.
-   - Includes etymology and morphological logic notes (e.g. `大家` = big + family = *everyone*).
-5. **Contextual Examples**:
-   - Full conversational example sentences in Hanzi with pinyin and English/Spanish translations.
-6. **Multilingual Support**:
-   - 🇬🇧 English
-   - 🇪🇸 Spanish
-   - 🇫🇷 French
-   - 🇨🇳 Simplified Chinese characters
-7. **Dual Presentation Modes**:
-   - **Detailed Study Card (`vocab-card`)**: Full card view with definition, character split boxes, Zipf score badge, example sentences, and pedagogical tips.
-   - **Compact Flashcard Grid (`vocab-card-compact`)**: 2-column printable layout with frequency metrics designed for cutting out physical flashcards.
+## Add material or correct an item
 
----
+Ask the agent to prepare a PDF and specific physical pages, or give it a copied item reference. It follows [the preparation skill](skills/prepare-material/SKILL.md), preserves accepted pages, validates content and publishes locally. The library discovers changes automatically.
 
-## 🚀 Quick Start
+- [Installation, study, preparation and backup guide](docs/interactive-reader/implementation.md)
+- [Verification and known limitations](docs/interactive-reader/verification.md)
+- [Current visual design and reference roles](docs/interactive-reader/design-references/README.md)
+- [Requirements and design documents](docs/interactive-reader/README.md)
+- [Agent instructions](AGENTS.md)
 
-### 1. Automatic Python Generator (Recommended)
+Preparation tools additionally need Python 3: `npm run setup:extractor`. Run `npm test` for content/publication/server checks and `npm run build` after app changes.
 
-Convert any JSON vocabulary dataset into Typst documents and compiled PDFs inside the `vocabulary/` directory:
+Prefer the agent browser, such as the Codex browser, when reviewing content or interface changes.
 
-```bash
-# Process all JSON files inside data/ and compile to vocabulary/*.pdf
-python3 generate_vocab.py
+## Code formatting
 
-# Process a specific file
-python3 generate_vocab.py data/saludos.json
-
-# Generate .typ files only without compiling to PDF
-python3 generate_vocab.py --no-compile
-```
-
-### 2. Live Preview (Watch Mode)
-
-Recompiles instantly whenever you edit any file:
-
-```bash
-typst watch --root . vocabulary/saludos.typ
-```
-
----
-
-## 📋 Data Schema (`data/*.json`)
-
-You can create or expand vocabulary lists using this JSON format:
-
-```json
-{
-  "hanzi": "你好",
-  "phonetic": "nǐ hǎo",
-  "written": "Nǐ hǎo",
-  "definition": "The most fundamental and ubiquitous greeting in the Chinese language.",
-  "breakdown": [
-    {
-      "char": "你",
-      "pinyin": "nǐ",
-      "meaning": "you (singular)",
-      "radical": "亻 (person)"
-    },
-    {
-      "char": "好",
-      "pinyin": "hǎo",
-      "meaning": "good, fine, well",
-      "radical": "女 (woman)"
-    }
-  ],
-  "composition_note": "你 (you) + 好 (good). Literally: 'You be well'.",
-  "en": "Hello / Hi",
-  "es": "Hola",
-  "fr": "Bonjour / Salut",
-  "example": {
-    "zh": "你好！很高兴认识你。",
-    "pinyin": "Nǐ hǎo! Hěn gāoxìng rènshí nǐ.",
-    "en": "Hello! Nice to meet you.",
-    "es": "¡Hola! Mucho gusto en conocerte."
-  },
-  "category": "Greetings / 问候",
-  "tags": ["HSK 1", "Basic", "Daily"],
-  "note": "Tone Sandhi: When two 3rd tones meet, the first is pronounced as a 2nd tone."
-}
-```
-
----
-
-## ✍️ Typst Usage Example
-
-```typst
-#import "templates/card.typ": card-doc, vocab-card
-
-#show: card-doc.with(
-  title: "Chinese Mandarin Learning System",
-  subtitle: "Personal Vocabulary Cards"
-)
-
-#vocab-card(
-  hanzi: "你好",
-  pinyin-phonetic: "nǐ hǎo",
-  pinyin-written: "Nǐ hǎo",
-  definition: "Standard Chinese greeting.",
-  breakdown: (
-    (char: "你", pinyin: "nǐ", meaning: "you", radical: "亻 (person)"),
-    (char: "好", pinyin: "hǎo", meaning: "good", radical: "女 (woman)")
-  ),
-  composition-note: "你 (you) + 好 (good) = Wish you well.",
-  en: "Hello / Hi",
-  es: "Hola",
-  fr: "Bonjour / Salut",
-  example: (
-    zh: "你好！很高兴认识你。",
-    pinyin: "Nǐ hǎo! Hěn gāoxìng rènshí nǐ.",
-    en: "Hello! Nice to meet you."
-  ),
-  tags: ("HSK 1", "Basic")
-)
-```
+Run `npm run format` to format supported project files, including JSON, or `npm run format:json` for JSON only. Run `npm run format:check` to check formatting without changing files. Generated files and the private `data/` library are excluded; published lesson revisions must remain unchanged.
