@@ -39,7 +39,7 @@ Geist Variable and Geist Mono Variable are installed through Fontsource, importe
 | Library section and document titles | 24px equivalent, regular weight                                                       |
 | Practice prompt                     | 24px equivalent, line height 1.4; 22px on narrow screens                              |
 | Selected Chinese form               | 40px equivalent, line height 1.4, no added tracking                                   |
-| Text companion                      | 18px equivalent, line height 1.9, wrapping preserved                                  |
+| Transcription                       | 18px equivalent, line height 1.9, wrapping preserved                                  |
 | Controls and summaries              | 14px equivalent; summaries use medium weight                                          |
 | Eyebrows                            | Geist Mono, 11px equivalent, medium weight, uppercase, 0.06em tracking                |
 | Supporting metadata                 | Usually 12–13px equivalent; compact decorative book/header labels are smaller         |
@@ -48,19 +48,19 @@ Most sizes use rem units so browser text enlargement can scale the interface. Av
 
 ## Layout and component details
 
-| Area                | Implemented design                                                                                                                                                                            |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Header              | Quiet three-part alignment: brand, centered destinations, local-use label. Current destination uses a thin blue underline.                                                                    |
-| Library             | Centered container, maximum 1120px including horizontal padding; 80px top spacing on wide screens. Intro and library list are separated by generous space.                                    |
-| Document list       | Open rows with fine bottom rules; no enclosing card or shadow. A 180px book cover sits beside document information with a 48px gap.                                                           |
-| Study area          | Maximum 1500px including padding. Document identity, practice actions and a ruled toolbar precede the source page.                                                                            |
-| Original page       | Maximum 820px when reading alone. No decorative shadow or source recoloring; preserve page aspect ratio and zoom.                                                                             |
-| Learning details    | Appears beside the source only when selected: 320px column, 40px gap, a fine left rule, and 28px inner spacing. Long details can scroll.                                                      |
-| Text companion      | Fine section rules and expandable summaries; learning-unit controls remain available for equivalent access.                                                                                   |
-| Practice            | Open column, maximum 720px. Answers use aligned rows and fine dividers. The selected row adds pale blue fill and an inset blue marker; radio controls retain an explicit selection indicator. |
-| Buttons and selects | Small 4px corners, minimum 44px height, restrained borders; one blue primary action where appropriate.                                                                                        |
-| Focus and feedback  | Blue 2px focus outline with 4px offset. Source selection has an outline and fill. Feedback uses written labels, not color alone.                                                              |
-| Motion              | Brief 150ms color/border changes; reduced-motion preference removes transitions. No decorative entrance animations.                                                                           |
+| Area                             | Implemented design                                                                                                                                                                            |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Header                           | Quiet three-part alignment: brand, centered destinations, local-use label. Current destination uses a thin blue underline.                                                                    |
+| Library                          | Centered container, maximum 1120px including horizontal padding; 80px top spacing on wide screens. Intro and library list are separated by generous space.                                    |
+| Document list                    | Open rows with fine bottom rules; no enclosing card or shadow. A 180px book cover sits beside document information with a 48px gap.                                                           |
+| Study area                       | Maximum 1500px including padding. Document identity, practice actions and a ruled toolbar precede the source page.                                                                            |
+| Original page                    | Maximum 820px when reading alone. No decorative shadow or source recoloring; preserve page aspect ratio and zoom.                                                                             |
+| Learning details                 | Appears beside the source only when selected: 320px column, 40px gap, a fine left rule, and 28px inner spacing. Long details can scroll.                                                      |
+| Learning units and transcription | Separate expandable sections with fine rules. Learning units come first and open by default; Transcription follows, collapsed by default, with source text and uncertainty notices.           |
+| Practice                         | Open column, maximum 720px. Answers use aligned rows and fine dividers. The selected row adds pale blue fill and an inset blue marker; radio controls retain an explicit selection indicator. |
+| Buttons and selects              | Small 4px corners, minimum 44px height, restrained borders; one blue primary action where appropriate.                                                                                        |
+| Focus and feedback               | Blue 2px focus outline with 4px offset. Source selection has an outline and fill. Feedback uses written labels, not color alone.                                                              |
+| Motion                           | Brief 150ms color/border changes; reduced-motion preference removes transitions. No decorative entrance animations.                                                                           |
 
 ## Responsive behavior
 

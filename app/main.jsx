@@ -657,18 +657,11 @@ function App() {
                 {content ? (
                   <section className="companion">
                     <details open>
-                      <summary>Text companion & learning units</summary>
+                      <summary>Learning units</summary>
                       <p>
                         Select a word on the page or explore the same material
                         below.
                       </p>
-                      {content.review.issues?.length > 0 && (
-                        <p className="coverage">
-                          Some small decorative text is not transcribed; see
-                          coverage notes below.
-                        </p>
-                      )}
-                      <pre lang="zh-CN">{content.text}</pre>
                       <label>
                         Explore{" "}
                         <select
@@ -705,6 +698,16 @@ function App() {
                             );
                           })}
                       </div>
+                    </details>
+                    <details>
+                      <summary>Transcription</summary>
+                      {content.review.issues?.length > 0 && (
+                        <p className="coverage">
+                          Some small decorative text is not transcribed; see
+                          coverage notes below.
+                        </p>
+                      )}
+                      <pre lang="zh-CN">{content.text}</pre>
                     </details>
                     <details>
                       <summary>Page coverage notes</summary>
