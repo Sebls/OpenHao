@@ -22,4 +22,11 @@ export default defineConfig({
       },
     },
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: { pdf: ["pdfjs-dist"], hanzi: ["hanzi-writer"] },
+      },
+    },
+  },
 });
