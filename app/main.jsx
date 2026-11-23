@@ -4,7 +4,7 @@ import * as pdfjs from "pdfjs-dist";
 import worker from "pdfjs-dist/build/pdf.worker.min.mjs?url";
 import "@fontsource-variable/geist";
 import "@fontsource-variable/geist-mono";
-import { anchorRects } from "./model.js";
+import { eligibleQuestions, shuffle, isCorrect, anchorRects } from "./model.js";
 import "./style.css";
 pdfjs.GlobalWorkerOptions.workerSrc = worker;
 const api = async (url) => {
@@ -268,7 +268,10 @@ function App() {
     [view, setView] = useState("library"),
     [pageNo, setPageNo] = useState(1),
     [active, setActive] = useState(null),
+    [selection, setSelection] = useState(new Set()),
+    [session, setSession] = useState(null),
     [copy, setCopy] = useState(""),
+    [notice, setNotice] = useState(""),
     [zoom, setZoom] = useState(100),
     [unitKind, setUnitKind] = useState("word");
   const speech = useSpeech(),
@@ -316,11 +319,18 @@ function App() {
       const data = await api(
         `/api/document/${manifest.documentId}/${manifest.contentRevision}`,
       );
+      for (const [pageId, p] of Object.entries(data.pages))
+        p.questions.questions = p.questions.questions.map((q) => ({
+          ...q,
+          pageId,
+        }));
       setDoc(data);
       if (!keep) {
         setPageNo(
           data.manifest.pages.find((p) => p.state === "ready")?.pageNumber || 1,
         );
+        setSelection(new Set());
+        setSession(null);
       }
       setActive(null);
       setView("reader");
@@ -341,6 +351,62 @@ function App() {
     setView(next);
     if (next === "reader")
       requestAnimationFrame(() => window.scrollTo(0, scroll.current));
+  }
+  function begin(selected) {
+    const bank = eligibleQuestions(doc.pages, selected, speech.working);
+    if (!bank.length) {
+      setNotice(
+        "No reviewed questions cover this selection. Add a word or sentence, or practise the prepared document.",
+      );
+      return;
+    }
+    setSession({
+      questions: bank.map((q) => ({ ...q, options: shuffle(q.options) })),
+      index: 0,
+      answers: {},
+      choice: null,
+      checked: false,
+    });
+    setNotice("");
+    switchView("practice");
+  }
+  function back() {
+    speech.stop();
+    switchView("reader");
+  }
+  function toggle() {
+    setSelection((old) => {
+      const n = new Set(old);
+      n.has(active.id) ? n.delete(active.id) : n.add(active.id);
+      return n;
+    });
+  }
+  function returnSource(q) {
+    const id = q.sourceAnnotationIds[0];
+    let target;
+    for (const [p, data] of Object.entries(doc.pages)) {
+      const a = data.annotations.annotations.find((a) => a.id === id);
+      if (a) {
+        setPageNo(m.pages.find((p2) => p2.id === p).pageNumber);
+        setActive(a);
+        target = anchorRects(a, data.layout)[0];
+        break;
+      }
+    }
+    back();
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        const source = document.querySelector(".source");
+        if (source && target && source.clientHeight)
+          window.scrollTo(
+            0,
+            window.scrollY +
+              source.getBoundingClientRect().top +
+              target[1] * source.clientHeight -
+              80,
+          );
+      }),
+    );
   }
   const reference =
     active &&
@@ -369,6 +435,15 @@ function App() {
                 onClick={() => switchView("reader")}
               >
                 Read
+              </button>
+              <button
+                aria-current={view === "practice" ? "page" : undefined}
+                onClick={() => {
+                  if (session) switchView("practice");
+                  else begin(null);
+                }}
+              >
+                Practice
               </button>
             </>
           )}
@@ -461,6 +536,41 @@ function App() {
                 </span>
               </h1>
             </div>
+            <div className="actions">
+              {view === "reader" ? (
+                <>
+                  <button
+                    onClick={() => begin(selection)}
+                    disabled={!selection.size}
+                  >
+                    Practise selection ({selection.size})
+                  </button>
+                  <button
+                    onClick={() =>
+                      begin(
+                        new Set(
+                          content?.annotations.annotations.map((a) => a.id) ||
+                            [],
+                        ),
+                      )
+                    }
+                    disabled={!content}
+                  >
+                    Practise page
+                  </button>
+                  <button
+                    className="primary"
+                    onClick={() =>
+                      session ? switchView("practice") : begin(null)
+                    }
+                  >
+                    {session ? "Resume practice" : "Practise document"}
+                  </button>
+                </>
+              ) : (
+                <button onClick={back}>← Return to reading</button>
+              )}
+            </div>
           </div>
           {newer && (
             <div className="banner">
@@ -470,6 +580,11 @@ function App() {
                 Load updated material
               </button>
             </div>
+          )}
+          {notice && (
+            <p className="banner" role="status">
+              {notice}
+            </p>
           )}
           <div style={{ display: view === "reader" ? "block" : "none" }}>
             <div className="reader-tools">
@@ -732,6 +847,15 @@ function App() {
                     </div>
                   </details>
                   <button
+                    className="primary full"
+                    onClick={toggle}
+                    aria-pressed={selection.has(active.id)}
+                  >
+                    {selection.has(active.id)
+                      ? "✓ Remove from practice"
+                      : "+ Add to practice"}
+                  </button>
+                  <button
                     className="quiet"
                     onClick={async () => {
                       try {
@@ -759,9 +883,157 @@ function App() {
               )}
             </div>
           </div>
+          {view === "practice" && session && (
+            <Practice
+              session={session}
+              setSession={setSession}
+              speech={speech}
+              source={returnSource}
+              restart={begin}
+              back={back}
+              manifest={m}
+            />
+          )}
         </main>
       )}
     </>
+  );
+}
+function Practice({
+  session: s,
+  setSession: set,
+  speech,
+  source,
+  restart,
+  back,
+  manifest,
+}) {
+  const q = s.questions[s.index],
+    done = s.index >= s.questions.length;
+  function retry() {
+    const wrong = s.questions.filter((q) => !isCorrect(q, s.answers[q.id]));
+    set({
+      questions: wrong.map((q) => ({ ...q, options: shuffle(q.options) })),
+      index: 0,
+      answers: {},
+      choice: null,
+      checked: false,
+    });
+  }
+  if (done) {
+    const mistakes = s.questions.filter((q) => !isCorrect(q, s.answers[q.id]));
+    return (
+      <section className="practice">
+        <p className="eyebrow">SESSION COMPLETE</p>
+        <h2>
+          {s.questions.length - mistakes.length} of {s.questions.length} correct
+        </h2>
+        <p>
+          This is your session result. Take your time with the words that need
+          another look.
+        </p>
+        {mistakes.map((q) => (
+          <article key={q.id}>
+            <h3>{q.prompt}</h3>
+            <p>
+              Your answer:{" "}
+              {q.options.find((o) => o.id === s.answers[q.id])?.text}
+            </p>
+            <p>
+              Correct answer:{" "}
+              {q.options.find((o) => o.id === q.correctOptionId).text}
+            </p>
+            <p>{q.explanation}</p>
+            <button onClick={() => source(q)}>See original context</button>
+          </article>
+        ))}
+        {mistakes.length > 0 && (
+          <button className="primary" onClick={retry}>
+            Retry mistakes
+          </button>
+        )}{" "}
+        <button onClick={back}>Return to reading</button>{" "}
+        <button onClick={() => restart(null)}>New document session</button>
+      </section>
+    );
+  }
+  const correct = isCorrect(q, s.choice);
+  return (
+    <section className="practice">
+      <p className="eyebrow">
+        QUESTION {s.index + 1} OF {s.questions.length} ·{" "}
+        {q.category.replaceAll("-", " ")}
+      </p>
+      <progress max={s.questions.length} value={s.index} />
+      <fieldset disabled={s.checked}>
+        <legend>{q.prompt}</legend>
+        {q.requiresAudio && (
+          <button type="button" onClick={() => speech.speak(q.speechTarget)}>
+            ▷ Listen
+          </button>
+        )}
+        <div className="options">
+          {q.options.map((o) => (
+            <label key={o.id} className={s.choice === o.id ? "chosen" : ""}>
+              <input
+                type="radio"
+                name={q.id}
+                checked={s.choice === o.id}
+                onChange={() => set({ ...s, choice: o.id })}
+              />
+              <span lang={/[\u3400-\u9fff]/.test(o.text) ? "zh-CN" : "en"}>
+                {o.text}
+              </span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+      {!s.checked ? (
+        <button
+          className="primary"
+          disabled={!s.choice}
+          onClick={() =>
+            set({
+              ...s,
+              checked: true,
+              answers: { ...s.answers, [q.id]: s.choice },
+            })
+          }
+        >
+          Check answer
+        </button>
+      ) : (
+        <div className="feedback" role="status">
+          <h3>
+            {correct ? "✓ Correct" : "Incorrect — let’s take another look"}
+          </h3>
+          {!correct && (
+            <p>
+              Correct answer:{" "}
+              {q.options.find((o) => o.id === q.correctOptionId).text}
+            </p>
+          )}
+          <p>{q.explanation}</p>
+          <button onClick={() => source(q)}>See original context</button>{" "}
+          <button
+            className="primary"
+            onClick={() =>
+              set({ ...s, index: s.index + 1, choice: null, checked: false })
+            }
+          >
+            {s.index + 1 === s.questions.length ? "See results" : "Continue →"}
+          </button>
+          <details>
+            <summary>Correction reference</summary>
+            <input
+              readOnly
+              value={`${manifest.documentId}:${q.pageId}:question:${q.id}@r${manifest.contentRevision}`}
+              onFocus={(e) => e.target.select()}
+            />
+          </details>
+        </div>
+      )}
+    </section>
   );
 }
 createRoot(document.getElementById("root")).render(<App />);
