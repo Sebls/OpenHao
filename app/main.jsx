@@ -6,6 +6,7 @@ import "@fontsource-variable/geist";
 import "@fontsource-variable/geist-mono";
 import { eligibleQuestions, shuffle, isCorrect, anchorRects } from "./model.js";
 import { StrokeOrder, WritingPractice } from "./Writing.jsx";
+import { CharacterHistory } from "./CharacterHistory.jsx";
 import { createWritingSession } from "./writing-model.js";
 import "./style.css";
 pdfjs.GlobalWorkerOptions.workerSrc = worker;
@@ -867,6 +868,7 @@ function App() {
                     visible={view === "reader"}
                     onPractise={beginWriting}
                   />
+                  <CharacterHistory entry={entry} />
                   {entry.constituentIds?.length > 0 && (
                     <details open>
                       <summary>Explore the parts</summary>

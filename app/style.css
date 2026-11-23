@@ -861,6 +861,74 @@ pre {
   color: var(--surface);
   font: 0.625rem/1 var(--mono);
 }
+.character-history .sequence-layout-controls {
+  margin: 0 0 10px;
+}
+.sequence-layout-controls.with-labels {
+  gap: 6px;
+}
+.sequence-layout-controls.with-labels .icon-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: auto;
+  height: auto;
+  min-height: 44px;
+  padding: 0 10px;
+  font-size: 0.8125rem;
+}
+.history-meaning {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 10px;
+  font-size: 0.875rem;
+}
+.history-sequence:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+.history-sequence li {
+  width: 88px;
+}
+.history-sequence.is-grid ol {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 76px), 1fr));
+  gap: 10px;
+}
+.history-sequence.is-grid li {
+  width: auto;
+}
+.history-sequence figure {
+  margin: 0;
+}
+.history-sequence figcaption {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+.history-glyph {
+  display: grid;
+  place-items: center;
+  width: min(100%, 88px);
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+.history-glyph img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+.history-modern {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.history-period {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+}
 .writing-practice h2 {
   letter-spacing: 0;
   overflow-wrap: anywhere;

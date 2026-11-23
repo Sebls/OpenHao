@@ -1,0 +1,11 @@
+# Character history assets
+
+The starter collection contains 28 histories, with seven simplified/traditional pairs sharing their historical forms. It covers 21 of the 22 distinct characters in the currently prepared Lesson 1. There is no entry for 们 (們) in this collection.
+
+Each directory is named for the first character's Unicode code point in lowercase hexadecimal. Its `entry.json` lists the supported modern characters and the historical forms in display order. An optional `meaning.svg` is an original illustration with an English caption in the entry.
+
+The historical SVGs are byte-for-byte copies from [hanzi-glyphs-svg at revision 46d80fd](https://github.com/zhouyongh/hanzi-glyphs-svg/tree/46d80fdc33f596a8c010965852ce28256a761f0a). Each form records the upstream path, unified glyph ID, revision, SHA-256 checksum, CC0 license, and source citation. Verify the exact glyph against the upstream provenance JSONL and active glyph ID ledger before adding it. Oracle bone files can carry different licenses within the same directory.
+
+The English period label translates the upstream index's period field when present. The Chinese field is retained as `sourcePeriod`. The collection uses representative examples from each script and leaves undocumented periods blank. The modern form is rendered as the selected character in the reader.
+
+See the [CC0 1.0 text](CC0-1.0.txt) and [upstream licensing scope](https://github.com/zhouyongh/hanzi-glyphs-svg/blob/46d80fdc33f596a8c010965852ce28256a761f0a/LICENSE).
