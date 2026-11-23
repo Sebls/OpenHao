@@ -40,6 +40,12 @@ Use the [current visual design and reference roles](design-references/README.md)
 
 ## 2. Product and deployment
 
+### Writing practice update · 2026-11-23
+
+Exercise layout refinement: display all character writing boards together in source order, wrapping to rows as necessary. Keep separate progress for every occurrence, including repeated characters; completed boards remain visible. Do not paginate by character or require Next character / Finish writing steps. Use compact boards and close spacing to fit more characters per row, reviewed pinyin below each board, and discreet play/restart icons. Play demonstrates the remaining strokes from the current accepted state and automatically restores that state afterward. Remove See original context from writing exercises; retain Return to reading. This supersedes the earlier writing-specific source-return action.
+
+The user authorized Hanzi Writer stroke-order animation and handwriting exercises. This extends R18/R22 and the earlier multiple-choice-only scope without changing the prepared question contract. In the reader, offer on-demand stroke-order playback **only while inspecting a single character**; do not offer reader animations for words or sentences. Writing exercises are separate and support a character, word, or sentence from a reviewed learning unit, practising each Han character in order (including repeated characters). Preserve the full source form/context while excluding punctuation and Latin text from drawing targets. Use local character data, explicit playback, stroke-order/direction checking, hints, retry feedback, results, source return, and in-memory continuity. Personal progress persistence remains deferred.
+
 - Personal use with private access in a browser.
 - The intended product is an agent-administered local study library: install repository dependencies with an npm setup command, launch with `npm start`, and open the computer's localhost browser URL. The local process serves all prepared materials from disk. See the [local library workflow](local-library-workflow.md) for the proposed command and discovery contract.
 - The agent adds and updates learning material through repository-local tools and a documented skill. After validation/publication, the running application detects new or revised material without code edits, rebuilds, or a server restart. The browser lists the resulting library; no manual content administration UI is required.
