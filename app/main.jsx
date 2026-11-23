@@ -19,7 +19,8 @@ const pinyin = (e) =>
 function useSpeech() {
   const [voices, setVoices] = useState([]),
     [status, setStatus] = useState(""),
-    [working, setWorking] = useState(false);
+    [working, setWorking] = useState(false),
+    [activeText, setActiveText] = useState(null);
   const timer = useRef(),
     utteranceId = useRef(0);
   useEffect(() => {
@@ -42,6 +43,7 @@ function useSpeech() {
     utteranceId.current++;
     clearTimeout(timer.current);
     window.speechSynthesis?.cancel();
+    setActiveText(null);
     setStatus("Stopped");
   }
   function speak(text) {
@@ -52,6 +54,7 @@ function useSpeech() {
     utterance.voice = voices[0];
     utterance.lang = voices[0].lang;
     utterance.rate = 0.8;
+    setActiveText(text);
     setStatus("Starting pronunciation…");
     utterance.onstart = () => {
       if (id !== utteranceId.current) return;
@@ -60,18 +63,21 @@ function useSpeech() {
     };
     utterance.onend = () => {
       if (id !== utteranceId.current) return;
+      setActiveText(null);
       setStatus("Finished");
       setWorking(true);
       clearTimeout(timer.current);
     };
     utterance.onerror = () => {
       if (id !== utteranceId.current) return;
+      setActiveText(null);
       setStatus("Audio could not play. Try again.");
       setWorking(false);
       clearTimeout(timer.current);
     };
     timer.current = setTimeout(() => {
       speechSynthesis.cancel();
+      setActiveText(null);
       setStatus("Audio could not play. Try again.");
       setWorking(false);
     }, 12000);
@@ -81,10 +87,27 @@ function useSpeech() {
     available: voices.length > 0,
     voiceName: voices[0]?.name,
     working,
+    activeText,
     status,
     speak,
     stop,
   };
+}
+function PronunciationButton({ speech, text }) {
+  const playing = speech.activeText === text;
+  const label = playing ? "Stop pronunciation" : "Play pronunciation";
+  return (
+    <button
+      type="button"
+      className="icon-control"
+      aria-label={label}
+      title={label}
+      disabled={!speech.available}
+      onClick={() => (playing ? speech.stop() : speech.speak(text))}
+    >
+      <span aria-hidden="true">{playing ? "□" : "▷"}</span>
+    </button>
+  );
 }
 function Source({ manifest, page, content, selected, onSelect }) {
   const canvas = useRef(),
@@ -773,26 +796,69 @@ function App() {
                   </div>
                   <h2 lang="zh-CN">{entry.form}</h2>
                   <p className="meaning">{entry.meaning}</p>
-                  <p>
+                  <div className="pronunciation">
                     <span className="field-label">Pinyin</span>
-                    <span lang="zh-Latn">{pinyin(entry)}</span>
-                  </p>
-                  <div className="speech">
-                    <button
-                      onClick={() =>
-                        speech.speak(entry.speechTarget || entry.form)
-                      }
-                      disabled={!speech.available}
-                    >
-                      ▷ Play pronunciation
-                    </button>
-                    <button onClick={speech.stop}>Stop</button>
-                    <p role="status">
-                      {speech.available
-                        ? speech.status ||
-                          `Local Mandarin voice: ${speech.voiceName}. Test playback before listening practice.`
-                        : "Offline pronunciation is unavailable. A local Mandarin voice is needed."}
-                    </p>
+                    <div className="pronunciation-transcription">
+                      <span lang="zh-Latn">{pinyin(entry)}</span>
+                      {entry.pronunciations.find((p) => p.system === "ipa")
+                        ?.value && (
+                        <span
+                          className="ipa-transcription"
+                          aria-label="Phonetic transcription in IPA"
+                          title="Phonetic transcription · IPA"
+                        >
+                          {
+                            entry.pronunciations.find((p) => p.system === "ipa")
+                              .value
+                          }
+                        </span>
+                      )}
+                      <div className="speech-controls">
+                        <PronunciationButton
+                          speech={speech}
+                          text={entry.speechTarget || entry.form}
+                        />
+                        <span className="speech-info">
+                          <button
+                            type="button"
+                            className="icon-control"
+                            aria-label="Pronunciation information"
+                            aria-describedby="voice-information"
+                          >
+                            <span aria-hidden="true">ⓘ</span>
+                          </button>
+                          <span
+                            id="voice-information"
+                            role="tooltip"
+                            className="speech-tooltip"
+                          >
+                            {speech.available
+                              ? `Local Mandarin voice: ${speech.voiceName}. Test playback before listening practice.`
+                              : "Offline pronunciation is unavailable. A local Mandarin voice is needed."}
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                    <div className="speech">
+                      <p
+                        role="status"
+                        className={
+                          speech.available &&
+                          !speech.status.startsWith("Audio could not")
+                            ? "sr-only"
+                            : undefined
+                        }
+                      >
+                        {speech.available
+                          ? speech.status
+                          : "Offline pronunciation is unavailable. A local Mandarin voice is needed."}
+                      </p>
+                    </div>
+                    {entry.pronunciationNote && (
+                      <p className="pronunciation-note">
+                        {entry.pronunciationNote}
+                      </p>
+                    )}
                   </div>
                   {entry.explanation && <p>{entry.explanation}</p>}
                   <StrokeOrder
@@ -836,21 +902,6 @@ function App() {
                       <p>{entry.grammar}</p>
                     </details>
                   )}
-                  <details>
-                    <summary>Phonetic transcription · IPA</summary>
-                    <p>
-                      IPA uses sound symbols to show pronunciation. Pinyin above
-                      is the main learning aid.
-                    </p>
-                    <p>
-                      {entry.pronunciations.find((p) => p.system === "ipa")
-                        ?.value ||
-                        "A reviewed IPA transcription is not available for this item."}
-                    </p>
-                    {entry.pronunciationNote && (
-                      <p>{entry.pronunciationNote}</p>
-                    )}
-                  </details>
                   <details>
                     <summary>In the original</summary>
                     <p lang="zh-CN">
@@ -1011,9 +1062,7 @@ function Practice({
       <fieldset disabled={s.checked}>
         <legend>{q.prompt}</legend>
         {q.requiresAudio && (
-          <button type="button" onClick={() => speech.speak(q.speechTarget)}>
-            ▷ Listen
-          </button>
+          <PronunciationButton speech={speech} text={q.speechTarget} />
         )}
         <div className="options">
           {q.options.map((o) => (
