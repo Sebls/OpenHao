@@ -32,7 +32,12 @@ export function LearningUnits({
             <option value="all">All units</option>
           </select>
         </label>
-        <div className="units">
+        <div
+          className="units"
+          tabIndex={0}
+          role="region"
+          aria-label="Scrollable learning units"
+        >
           {content.annotations.annotations
             .filter((a) => a.reviewStatus === "reviewed")
             .map((a) => {
@@ -60,7 +65,14 @@ export function LearningUnits({
             below.
           </p>
         )}
-        <pre lang="zh-CN">{content.text}</pre>
+        <pre
+          lang="zh-CN"
+          tabIndex={0}
+          role="region"
+          aria-label="Scrollable transcription"
+        >
+          {content.text}
+        </pre>
       </details>
       <details>
         <summary>Page coverage notes</summary>

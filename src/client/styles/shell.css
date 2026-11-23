@@ -44,7 +44,7 @@ button[aria-current="page"] {
   color: var(--primary);
   border-color: var(--primary);
 }
-:where(button, a, select, input, summary):focus-visible {
+:where(button, a, select, input, summary, [tabindex]):focus-visible {
   outline: 2px solid var(--primary);
   outline-offset: 4px;
 }
@@ -263,6 +263,7 @@ small {
   max-width: 700px;
 }
 .study {
+  overflow-anchor: none;
   max-width: 1500px;
   padding: 48px clamp(24px, 5vw, 80px);
   margin: auto;
@@ -328,7 +329,11 @@ small {
   min-width: 0;
 }
 .page-scroll {
+  max-height: 75dvh;
   overflow: auto;
+  overscroll-behavior: contain;
+  overflow-anchor: none;
+  scrollbar-gutter: stable;
   padding: 1px;
 }
 .source {

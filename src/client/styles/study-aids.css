@@ -66,6 +66,7 @@
 }
 .stroke-sequence {
   overflow-x: auto;
+  overscroll-behavior-x: contain;
   padding-bottom: 8px;
 }
 .stroke-sequence ol {

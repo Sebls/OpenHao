@@ -1,5 +1,11 @@
 import type { MouseEvent } from "react";
-import { useEffect, useReducer, useRef, useState } from "react";
+import {
+  useEffect,
+  useLayoutEffect,
+  useReducer,
+  useRef,
+  useState,
+} from "react";
 import type {
   Annotation,
   Catalog,
@@ -43,6 +49,7 @@ export function App() {
   const [writingSession, dispatchWriting] = useReducer(writingReducer, null);
   const speech = useSpeech(),
     scroll = useRef(0),
+    pageScroll = useRef<HTMLDivElement | null>(null),
     trigger = useRef<HTMLElement | null>(null),
     details = useRef<HTMLElement | null>(null);
   useEffect(() => {
@@ -58,6 +65,9 @@ export function App() {
     const t = setInterval(update, 4000);
     return () => clearInterval(t);
   }, []);
+  useLayoutEffect(() => {
+    pageScroll.current?.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [doc?.manifest.documentId, doc?.manifest.contentRevision, pageNo]);
   useEffect(() => {
     function key(e: KeyboardEvent) {
       if (e.key === "Escape" && active) {
@@ -171,15 +181,19 @@ export function App() {
     back();
     requestAnimationFrame(() =>
       requestAnimationFrame(() => {
-        const source = document.querySelector(".source");
-        if (source && target && source.clientHeight)
-          window.scrollTo(
-            0,
-            window.scrollY +
-              source.getBoundingClientRect().top +
-              target[1] * source.clientHeight -
-              80,
-          );
+        const container = pageScroll.current;
+        const source = container?.querySelector<HTMLElement>(".source");
+        if (container && source && target && source.clientHeight) {
+          window.scrollTo({
+            top: window.scrollY + container.getBoundingClientRect().top - 24,
+            behavior: "instant",
+          });
+          container.scrollTo({
+            top: target[1] * source.clientHeight - 40,
+            left: target[0] * source.clientWidth - 40,
+            behavior: "instant",
+          });
+        }
       }),
     );
   }
@@ -367,7 +381,13 @@ export function App() {
             </div>
             <div className={`reading-layout ${entry ? "with-details" : ""}`}>
               <section className="page-column" aria-label="PDF reader">
-                <div className="page-scroll">
+                <div
+                  className="page-scroll"
+                  ref={pageScroll}
+                  tabIndex={0}
+                  role="region"
+                  aria-label="Scrollable original page"
+                >
                   <div style={{ width: zoom + "%" }}>
                     {m && page && (
                       <Source
