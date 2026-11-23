@@ -1,6 +1,10 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { practiceReducer } from "../src/client/features/practice/session.ts";
+import {
+  createWritingSession,
+  writingReducer,
+} from "../src/client/features/writing/model.ts";
 import { parseOptions } from "../src/content/options.ts";
 const question = (id) => ({
   id,
@@ -44,6 +48,31 @@ test("practice transitions retain answer IDs, block changes after checking, and 
     "prepared questions must never be mutated",
   );
   assert.equal(practiceReducer(retry, { type: "clear" }), null);
+});
+test("writing actions keep repeated occurrences independent and reset attempts without losing source identity", () => {
+  const source = { id: "a-repeat" };
+  const entry = { form: "人人", meaning: "people", kind: "word" };
+  let session = createWritingSession(entry, source, "p0001");
+  const original = structuredClone(session);
+  session = writingReducer(session, { type: "stroke", index: 0, stroke: 1 });
+  session = writingReducer(session, { type: "mistake", index: 1 });
+  session = writingReducer(session, { type: "complete", index: 0 });
+  assert.equal(session.progress[0].completed, true);
+  assert.equal(session.progress[1].stroke, 0);
+  assert.equal(session.progress[1].mistakes, 1);
+  assert.equal(original.progress[0].stroke, 0);
+  session = writingReducer(session, { type: "restart-character", index: 0 });
+  assert.equal(session.progress[0].attempt, 1);
+  assert.equal(session.progress[1].mistakes, 1);
+  session = writingReducer(session, { type: "restart" });
+  assert.deepEqual(session.sourceAnnotationIds, ["a-repeat"]);
+  assert.equal(session.pageId, "p0001");
+  assert.equal(session.attempt, 1);
+  assert.ok(
+    session.progress.every(
+      (p) => !p.completed && p.stroke === 0 && p.mistakes === 0,
+    ),
+  );
 });
 test("CLI option parsing distinguishes flags and values and reports incomplete commands", () => {
   assert.deepEqual(

@@ -3,12 +3,12 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import { createRequire } from "node:module";
-import { demonstrateRemainingStrokes } from "../app/hanzi.js";
+import { demonstrateRemainingStrokes } from "../src/client/features/writing/hanzi.ts";
 import {
   writingCharacters,
   createWritingSession,
   updateWritingCharacter,
-} from "../app/writing-model.js";
+} from "../src/client/features/writing/model.ts";
 
 test("writing targets preserve repeated Han characters and exclude punctuation, Latin and spaces", () => {
   assert.deepEqual(writingCharacters("你好！谢谢你。 AI 123"), [
