@@ -130,6 +130,23 @@ p=f.open();q=p.new_page();q.insert_text((80,100),'你好',fontname='china-s',fon
       /connect-src 'self'/,
     );
     assert.match(await response.text(), /\/assets\//);
+    response = await get(
+      base,
+      "/hanzi-data/" + encodeURIComponent("你") + ".json",
+    );
+    assert.equal(response.status, 200);
+    assert.match(response.headers.get("content-type"), /application\/json/);
+    const strokes = await response.json();
+    assert.equal(strokes.strokes.length, 7);
+    assert.equal(strokes.medians.length, 7);
+    for (const target of [
+      "package.json",
+      "ARPHICPL.TXT",
+      "%2e%2e%2fpackage.json",
+      "%F0%A0%80%80.json",
+    ]) {
+      assert.equal((await get(base, "/hanzi-data/" + target)).status, 404);
+    }
     let cat = await (await get(base, "/api/catalog")).json();
     assert.equal(cat.documents.length, 1);
     assert.equal(cat.documents[0].contentRevision, 1);
