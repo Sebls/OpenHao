@@ -46,14 +46,16 @@ export function CharacterHistory({ entry }) {
           <figcaption>{meaning}</figcaption>
         </figure>
       )}
-      <SequenceLayoutControls
-        label="Character history layout"
-        layout={layout}
-        onChange={changeLayout}
-        rowLabel="Roll"
-        gridLabel="Matrix"
-        showLabels
-      />
+      <div className="stroke-progression-header">
+        <p className="field-label">Character evolution</p>
+        <SequenceLayoutControls
+          label="Character history layout"
+          layout={layout}
+          onChange={changeLayout}
+          rowLabel="Scrolling row"
+          gridLabel="Grid"
+        />
+      </div>
       <div
         key={character}
         className={`stroke-sequence history-sequence${layout === "grid" ? " is-grid" : ""}`}

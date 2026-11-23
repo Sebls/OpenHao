@@ -105,3 +105,9 @@ Production build and all five writing tests passed. In the Codex in-app browser,
 In the Codex in-app browser, opened 家 in Lesson 1 and checked the Home illustration, script labels and recorded periods. Verified that Matrix wraps the sequence and that scrolling Roll reaches the modern 家. Checked the shorter 课 sequence and the omitted section for 们. A render check confirmed that all seven simplified/traditional pairs share historical glyphs and finish with the exact selected character.
 
 Compared all 91 local historical SVGs with the pinned upstream files, active glyph ID ledger, period indexes and per-glyph CC0 provenance records. The production build passed. Twelve automated tests passed. The HTTP integration test could not start its own loopback server under the execution sandbox, while the existing local server was available for browser review.
+
+### Evolution explanations and controls · 2026-11-23
+
+Added locally bundled, source-linked English origin notes for all 28 history records. Notes distinguish pictorial origins, sound components, later forms, and disputed readings. The history header now matches Stroke by stroke: a text label followed by icon-only row/grid controls with accessible labels and selected states. Existing historical glyphs and published lesson revisions remain unchanged.
+
+Production build and all 13 automated tests passed; the HTTP integration test passed after permitting its temporary loopback listener. In the Codex in-app browser, reviewed 见 in row and grid layouts, confirmed that switching to 不 updates the note and its source link, and restored 见 to the row layout. The explanation remains visible beneath the forms in both modes. Screenshot: `output/character-evolution-review.jpg`. This focused desktop review does not repeat the responsive, offline, or full accessibility acceptance matrix.
