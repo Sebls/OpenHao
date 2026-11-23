@@ -977,7 +977,18 @@ function Practice({
         )}
         <div className="options">
           {q.options.map((o) => (
-            <label key={o.id} className={s.choice === o.id ? "chosen" : ""}>
+            <label
+              key={o.id}
+              className={
+                s.checked && o.id === q.correctOptionId
+                  ? "answer-correct"
+                  : s.checked && s.choice === o.id
+                    ? "answer-incorrect"
+                    : s.choice === o.id
+                      ? "chosen"
+                      : ""
+              }
+            >
               <input
                 type="radio"
                 name={q.id}
@@ -987,6 +998,12 @@ function Practice({
               <span lang={/[\u3400-\u9fff]/.test(o.text) ? "zh-CN" : "en"}>
                 {o.text}
               </span>
+              {s.checked && o.id === q.correctOptionId && (
+                <span className="answer-label">✓ Correct answer</span>
+              )}
+              {s.checked && s.choice === o.id && o.id !== q.correctOptionId && (
+                <span className="answer-label">✕ Your answer</span>
+              )}
             </label>
           ))}
         </div>

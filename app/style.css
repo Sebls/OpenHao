@@ -17,6 +17,10 @@
   --selected: rgb(5 98 239 / 7%);
   --primary: #0562ef;
   --on-primary: #fff;
+  --correct: #18733b;
+  --correct-surface: #edf8f0;
+  --incorrect: #b42318;
+  --incorrect-surface: #fff1f0;
   --mono: "Geist Mono Variable", "Geist Mono", ui-monospace, monospace;
   color: var(--text);
   background: var(--canvas);
@@ -606,11 +610,40 @@ pre {
   background: var(--selected);
   box-shadow: inset 2px 0 var(--primary);
 }
+.options .answer-correct {
+  background: var(--correct-surface);
+  box-shadow: inset 3px 0 var(--correct);
+}
+.options .answer-incorrect {
+  background: var(--incorrect-surface);
+  box-shadow: inset 3px 0 var(--incorrect);
+}
+.answer-correct {
+  color: var(--correct);
+}
+.answer-incorrect {
+  color: var(--incorrect);
+}
+.options .answer-label {
+  margin-left: auto;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-align: right;
+}
+.options:has(input:disabled) label {
+  cursor: default;
+}
 .options input {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
   accent-color: var(--primary);
+}
+.options .answer-correct input {
+  accent-color: var(--correct);
+}
+.options .answer-incorrect input {
+  accent-color: var(--incorrect);
 }
 .practice progress {
   display: block;
