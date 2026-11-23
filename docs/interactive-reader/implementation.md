@@ -81,6 +81,20 @@ Machine-readable v1 schemas are in `schemas/`; additional integrity/reference ch
 
 ## Development verification
 
+### Stroke order and handwriting
+
+Writing instructions are hidden by default behind the small **Writing help** question-mark icon beside the completion count. Click it (or use Enter/Space when focused) to show or hide the guidance without affecting practice progress.
+
+Select a single character in the reader and expand **Stroke order**, then choose **Play stroke order**. This section uses the same disclosure style as Phonetic transcription and contains the character's writing-practice action. Playback is optional and supports pause/resume and replay. Reader playback is available only for single-character entries; words and sentences retain their existing exploration of constituent parts.
+
+From any character, word, or sentence detail, choose **Practise writing** to start a separate handwriting session. All character boards appear together in source order, at 160px with 16px horizontal gaps, and wrap to additional rows on smaller screens. Repeated characters keep independent progress. Draw with a mouse, finger, or pen; strokes must follow the supplied order and direction. Two missed attempts reveal a hint. Pinyin for the full target appears above the boards; each board displays a reviewed pronunciation from the target's linked character entries, with unavailable or ambiguous readings left explicit rather than guessed.
+
+Each board has a small **play** icon and **restart** icon with accessible labels and 44px targets. Play keeps accepted strokes visible, demonstrates only the remaining strokes, then automatically restores the pre-example drawing state without awarding completion or changing retries. Restart clears accepted strokes but keeps that character's retry count. Written characters remain visible beside unfinished ones. The summary appears automatically when all characters are written or explicitly skipped; **Practise again** restarts the whole exercise. The writing page has no **See original context** action; **Return to reading** returns to the reader, and the **Writing** navigation item resumes every board's progress. Multiple-choice source links and character-only reader playback remain separate. Reloading resets learner progress.
+
+Hanzi Writer 3.7.3 and `hanzi-writer-data` 2.0.1 are npm dependencies. All character data is served locally at `/hanzi-data/<character>.json`; the CDN default is replaced with a local loader. The production server and Vite development server support that route. Restart an already-running production server after this application update, then reload the browser. Later content publication still requires no restart. Missing character data produces retry/skip controls rather than marking an exercise as successfully written. All currently published reviewed learning targets are covered by installed data, verified by an automated check.
+
+The rendering adapter uses Hanzi Writer's renderer override with SVG coordinates and scoped pointer listeners. Pointer capture supports drawing outside the board boundary, and cleanup aborts listeners and cancels quizzes/animations. Character data derives from Make Me a Hanzi / Arphic Technology under the Arphic Public License, retained in `node_modules/hanzi-writer-data/ARPHICPL.TXT`; Hanzi Writer code is MIT-licensed. See the [upstream documentation](https://hanziwriter.org/docs.html).
+
 ```sh
 npm run setup:extractor
 npm test

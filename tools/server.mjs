@@ -2,6 +2,7 @@ import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
 import { ROOT, read, safe, catalog } from "./library.mjs";
+import { serveHanziData } from "./hanzi-data.mjs";
 const port = Number(process.env.PORT || 4173);
 let cached = { documents: [], issues: [] },
   fingerprint = "";
@@ -100,6 +101,7 @@ const server = http.createServer((req, res) => {
     const pathname = decodeURIComponent(
       new URL(req.url, "http://localhost").pathname,
     );
+    if (serveHanziData(req, res)) return;
     if (pathname === "/api/catalog") {
       res.setHeader("Content-Type", "application/json");
       res.setHeader("Cache-Control", "no-store");
