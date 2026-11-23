@@ -186,33 +186,44 @@ function WritingBoard({
           </button>
         </div>
       )}
+      {mode === "watch" && !error && (
+        <div className="character-controls">
+          <button
+            className="icon-control"
+            aria-label={
+              playing && !paused
+                ? `Pause stroke order for ${character}`
+                : paused
+                  ? `Resume stroke order for ${character}`
+                  : `Play stroke order for ${character}`
+            }
+            title={
+              playing && !paused
+                ? "Pause stroke order"
+                : paused
+                  ? "Resume stroke order"
+                  : "Play stroke order"
+            }
+            disabled={!instance.current}
+            onClick={() => {
+              if (!playing) return void play();
+              if (paused) instance.current.resumeAnimation();
+              else instance.current.pauseAnimation();
+              setPaused(!paused);
+              setStatus(
+                paused
+                  ? "Watch the stroke order and direction."
+                  : "Animation paused.",
+              );
+            }}
+          >
+            <span aria-hidden="true">{playing && !paused ? "Ⅱ" : "▷"}</span>
+          </button>
+        </div>
+      )}
       <p role="status">{status}</p>
-      {error ? (
+      {error && (
         <button onClick={() => setRetry((n) => n + 1)}>Retry loading</button>
-      ) : (
-        mode === "watch" && (
-          <div className="actions">
-            <button disabled={!instance.current || playing} onClick={play}>
-              ▷ Play stroke order
-            </button>
-            {playing && (
-              <button
-                onClick={() => {
-                  if (paused) instance.current.resumeAnimation();
-                  else instance.current.pauseAnimation();
-                  setPaused(!paused);
-                  setStatus(
-                    paused
-                      ? "Watch the stroke order and direction."
-                      : "Animation paused.",
-                  );
-                }}
-              >
-                {paused ? "Resume animation" : "Pause animation"}
-              </button>
-            )}
-          </div>
-        )
       )}
     </div>
   );

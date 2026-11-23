@@ -769,7 +769,7 @@ pre {
   justify-content: center;
   gap: 4px;
 }
-.character-controls .icon-control {
+.icon-control {
   flex: none;
   width: 44px;
   height: 44px;
@@ -779,7 +779,7 @@ pre {
   font-size: 1.25rem;
   background: none;
 }
-.character-controls .icon-control:hover {
+.icon-control:hover {
   color: var(--primary);
   background: var(--selected);
 }
