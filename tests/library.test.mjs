@@ -13,7 +13,7 @@ import {
 const temp = fs.mkdtempSync(path.join(os.tmpdir(), "chinois-test-"));
 process.env.CHINOIS_DATA_ROOT = path.join(temp, "data");
 const { ROOT, read, write, hash, seal, validate, current, safe, catalog } =
-  await import("../tools/library.mjs");
+  await import("../src/content/library/index.ts");
 const command = (cmd, args = [], ok = true) => {
   const r = spawnSync(process.execPath, ["tools/content.mjs", cmd, ...args], {
     encoding: "utf8",

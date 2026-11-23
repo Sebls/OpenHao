@@ -11,7 +11,7 @@ test("local HTTP delivery, automatic discovery, pinned revisions, invalid packag
     data = path.join(temp, "data"),
     env = { ...process.env, CHINOIS_DATA_ROOT: data, PORT: "0" };
   // Source-independent HTTP fixture uses a tiny, known PDF and the production package shape.
-  const { read, write, seal } = await import("../tools/library.mjs");
+  const { read, write, seal } = await import("../src/content/library/index.ts");
   const pdf = path.join(temp, "source.pdf");
   const p = spawnSync(
     ".venv/bin/python",
