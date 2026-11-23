@@ -5,7 +5,11 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
-import { eligibleQuestions, shuffle, isCorrect } from "../app/model.js";
+import {
+  eligibleQuestions,
+  shuffle,
+  isCorrect,
+} from "../src/client/features/practice/model.ts";
 const temp = fs.mkdtempSync(path.join(os.tmpdir(), "chinois-test-"));
 process.env.CHINOIS_DATA_ROOT = path.join(temp, "data");
 const { ROOT, read, write, hash, seal, validate, current, safe, catalog } =
@@ -314,7 +318,8 @@ test("documented valid and invalid authoring fixtures match the versioned schema
 });
 
 test("selected containers include their own child occurrences without selecting repeats elsewhere", async () => {
-  const { selectionScope } = await import("../app/model.js");
+  const { selectionScope } =
+    await import("../src/client/features/practice/model.ts");
   const anchor = (start, end) => ({
     pageId: "p0001",
     extractionRevision: 1,
