@@ -1,0 +1,27 @@
+/* Structure: reference 2. Typography and palette: reference 1. */
+:root {
+  font:
+    16px/1.6 "Geist Variable",
+    "Geist",
+    "PingFang SC",
+    "Microsoft YaHei",
+    sans-serif;
+  font-synthesis: none;
+  font-optical-sizing: auto;
+  color-scheme: light;
+  --canvas: #fff;
+  --surface: #fff;
+  --text: #0b1015;
+  --muted: rgb(11 16 21 / 68%);
+  --line: rgb(11 16 21 / 18%);
+  --selected: rgb(5 98 239 / 7%);
+  --primary: #0562ef;
+  --on-primary: #fff;
+  --correct: #18733b;
+  --correct-surface: #edf8f0;
+  --incorrect: #b42318;
+  --incorrect-surface: #fff1f0;
+  --mono: "Geist Mono Variable", "Geist Mono", ui-monospace, monospace;
+  color: var(--text);
+  background: var(--canvas);
+}

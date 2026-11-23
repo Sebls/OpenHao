@@ -11,7 +11,7 @@ test("local HTTP delivery, automatic discovery, pinned revisions, invalid packag
     data = path.join(temp, "data"),
     env = { ...process.env, CHINOIS_DATA_ROOT: data, PORT: "0" };
   // Source-independent HTTP fixture uses a tiny, known PDF and the production package shape.
-  const { read, write, seal } = await import("../tools/library.mjs");
+  const { read, write, seal } = await import("../src/content/library/index.ts");
   const pdf = path.join(temp, "source.pdf");
   const p = spawnSync(
     ".venv/bin/python",
@@ -24,10 +24,14 @@ p=f.open();q=p.new_page();q.insert_text((80,100),'你好',fontname='china-s',fon
   );
   assert.equal(p.status, 0, p.stderr);
   const cli = (c, a = []) => {
-    const r = spawnSync(process.execPath, ["tools/content.mjs", c, ...a], {
-      env,
-      encoding: "utf8",
-    });
+    const r = spawnSync(
+      process.execPath,
+      ["--import", "tsx", "src/content/cli.ts", c, ...a],
+      {
+        env,
+        encoding: "utf8",
+      },
+    );
     assert.equal(r.status, 0, r.stderr + r.stdout);
     return r;
   };
@@ -93,7 +97,7 @@ p=f.open();q=p.new_page();q.insert_text((80,100),'你好',fontname='china-s',fon
   cli("publish", ["--id", "http-fixture"]);
   let child;
   async function start() {
-    child = spawn(process.execPath, ["tools/server.mjs"], {
+    child = spawn(process.execPath, ["--import", "tsx", "src/server/main.ts"], {
       env,
       stdio: ["ignore", "pipe", "pipe"],
     });

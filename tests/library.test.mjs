@@ -1,3 +1,4 @@
+import { anchorRects } from "../src/client/features/reader/geometry.ts";
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
@@ -8,17 +9,20 @@ import {
   eligibleQuestions,
   shuffle,
   isCorrect,
-  anchorRects,
-} from "../app/model.js";
+} from "../src/client/features/practice/model.ts";
 const temp = fs.mkdtempSync(path.join(os.tmpdir(), "chinois-test-"));
 process.env.CHINOIS_DATA_ROOT = path.join(temp, "data");
 const { ROOT, read, write, hash, seal, validate, current, safe, catalog } =
-  await import("../tools/library.mjs");
+  await import("../src/content/library/index.ts");
 const command = (cmd, args = [], ok = true) => {
-  const r = spawnSync(process.execPath, ["tools/content.mjs", cmd, ...args], {
-    encoding: "utf8",
-    env: process.env,
-  });
+  const r = spawnSync(
+    process.execPath,
+    ["--import", "tsx", "src/content/cli.ts", cmd, ...args],
+    {
+      encoding: "utf8",
+      env: process.env,
+    },
+  );
   if (ok) assert.equal(r.status, 0, r.stderr + r.stdout);
   else assert.notEqual(r.status, 0);
   return r;
@@ -314,7 +318,8 @@ test("documented valid and invalid authoring fixtures match the versioned schema
 });
 
 test("selected containers include their own child occurrences without selecting repeats elsewhere", async () => {
-  const { selectionScope } = await import("../app/model.js");
+  const { selectionScope } =
+    await import("../src/client/features/practice/model.ts");
   const anchor = (start, end) => ({
     pageId: "p0001",
     extractionRevision: 1,

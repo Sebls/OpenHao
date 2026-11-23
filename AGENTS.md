@@ -29,3 +29,7 @@ The React implementation is now authorized and present. Start the library with `
 ## Visual design and browser review
 
 Follow the [current visual design and reference roles](docs/interactive-reader/design-references/README.md): reference 2 supplies minimal structure and spacing; reference 1 supplies fonts, colors and finishing details. The original JSON files live alongside that guide. Always prefer reviewing content and interface changes in the agent browser, such as the Codex browser. Record review limitations without requiring a separate installed-browser review.
+
+## TypeScript architecture
+
+See [module ownership and development](docs/interactive-reader/typescript-architecture.md). Application source lives in `src/client`, `src/server`, and `src/content`; shared contracts live in `src/contracts`. Keep platform dependencies within their runtime, use typed session actions, and preserve version 1 library compatibility. Run `npm run typecheck`, `npm run lint`, `npm test`, and `npm run build` after a code refactor, plus agent-browser review of affected flows. Use `npm run dev` for the complete local development app with hot reload.

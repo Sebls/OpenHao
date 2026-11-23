@@ -2,7 +2,7 @@
 
 The starter collection contains 28 histories, with seven simplified/traditional pairs sharing their historical forms. It covers 21 of the 22 distinct characters in the currently prepared Lesson 1. There is no entry for 们 (們) in this collection.
 
-Each directory is named for the first character's Unicode code point in lowercase hexadecimal. Its `entry.json` lists the supported modern characters and the historical forms in display order. An optional `meaning.svg` is an original illustration with an English caption in the entry.
+Each directory is named for the first character's Unicode code point in lowercase hexadecimal. Its matching [`entry.json` in the source metadata collection](../../src/client/features/learning-details/history/) lists the supported modern characters and the historical forms in display order. An optional `meaning.svg` is an original illustration with an English caption in the entry.
 
 Each entry also has an `origin` object: a concise English `text`, a list of `sources` with a display `label` and `url`, and a `reviewedAt` date. The notes were authored and checked against the linked CUHK character database, Han Dian, and other cited references on 2026-11-23. They distinguish pictures, sound components, later characters, and disputed interpretations. They explain representative forms rather than asserting that every example is a direct ancestor of the next one. Traditional and simplified forms share the same note. Notes are bundled locally for offline study; opening an optional source link requires internet access.
 

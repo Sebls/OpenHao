@@ -1,0 +1,242 @@
+.details {
+  position: sticky;
+  /* Isolate the scroll surface when the reader is hidden and revealed. */
+  contain: layout paint;
+  top: 24px;
+  border-left: 1px solid var(--line);
+  background: var(--surface);
+  padding: 0 0 0 28px;
+  max-height: calc(100dvh - 48px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+.detail-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail-top .eyebrow {
+  margin: 0;
+}
+.detail-top button {
+  border: 0;
+  font-size: 24px;
+  padding: 0;
+  width: 44px;
+}
+.details h2 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+  margin: 20px 0 12px;
+}
+.meaning {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: var(--text);
+}
+.field-label {
+  display: block;
+  font: 0.6875rem/1.5 var(--mono);
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.pronunciation {
+  margin: 20px 0 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+.pronunciation-transcription {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  align-items: center;
+}
+.ipa-transcription {
+  color: var(--muted);
+}
+.speech {
+  margin-top: 4px;
+}
+.speech-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+}
+.speech-controls .icon-control {
+  width: 28px;
+  height: 28px;
+  min-height: 28px;
+  font-size: 0.9375rem;
+}
+.speech-info {
+  position: relative;
+}
+.speech-tooltip {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 240px;
+  max-width: calc(100vw - 64px);
+  z-index: 2;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--surface, #fff);
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+.speech-info:hover .speech-tooltip,
+.speech-info:focus-within .speech-tooltip {
+  display: block;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.pronunciation-note {
+  font-size: 0.8125rem;
+  margin: 12px 0 0;
+}
+.speech p {
+  font-size: 0.8125rem;
+  margin: 12px 0 0;
+}
+.details > details {
+  margin: 24px 0;
+}
+.details details p {
+  font-size: 0.875rem;
+  margin-top: 12px;
+}
+.parts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 16px 0;
+}
+.parts button {
+  text-align: left;
+  font-size: 0.875rem;
+}
+.parts span {
+  font-size: 20px;
+}
+.full {
+  width: 100%;
+  margin-top: 12px;
+}
+.quiet {
+  display: block;
+  margin: 12px auto 0;
+  border: 0;
+  background: none;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+.details input,
+.feedback input {
+  width: 100%;
+  font: 0.75rem/1.6 var(--mono);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 12px;
+  border-radius: 4px;
+}
+summary {
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  min-height: 44px;
+  padding: 10px 0;
+}
+details > p {
+  margin-top: 12px;
+}
+pre {
+  font:
+    1.125rem/1.9 "Geist Variable",
+    "PingFang SC",
+    "Microsoft YaHei",
+    sans-serif;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  padding: 24px 0;
+  margin: 0;
+}
+.companion {
+  margin: 24px 0 48px;
+}
+.companion > details {
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+  margin-top: 16px;
+}
+.companion p {
+  font-size: 0.875rem;
+}
+.companion label {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.units {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.units button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 76px;
+  padding: 12px 16px;
+}
+.units button[hidden] {
+  display: none;
+}
+.units button span {
+  font-size: 24px;
+}
+.units small {
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+.banner {
+  background: var(--selected);
+  border-left: 2px solid var(--primary);
+  color: var(--text);
+  padding: 16px 20px;
+  margin: 16px 5%;
+}
+.study > .banner {
+  margin: 0 0 24px;
+}
+.coverage {
+  padding: 12px 16px;
+  border-left: 2px solid var(--line);
+}
+
+/* Keep long companion content independent of the outer reading page. */
+.units,
+.companion pre {
+  max-height: 50dvh;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  padding-inline: 6px;
+  padding-block: 6px;
+}
+.companion pre {
+  padding-block: 24px;
+}

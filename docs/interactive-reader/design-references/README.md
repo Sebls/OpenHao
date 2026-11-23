@@ -1,6 +1,6 @@
 # Current visual design and reference roles
 
-Updated 2026-11-22. This guide records the user's reference choices and the styles implemented in [app/style.css](../../../app/style.css). It overrides conflicting older palette, font, panel and appearance guidance. Original PDF pages retain their source layout, text and artwork.
+Updated 2026-11-22. This guide records the user's reference choices and the styles implemented in [global.css](../../../src/client/styles/global.css). It overrides conflicting older palette, font, panel and appearance guidance. Original PDF pages retain their source layout, text and artwork.
 
 ## Reference ownership
 
@@ -29,7 +29,7 @@ Use the selected light appearance regardless of system theme. Do not invert sour
 
 ## Typography
 
-Geist Variable and Geist Mono Variable are installed through Fontsource, imported by [app/main.jsx](../../../app/main.jsx), and bundled into the local build. Studying requires no remote font service. Chinese text falls back to available Chinese fonts, including PingFang SC and Microsoft YaHei; retain fallback coverage for pinyin and IPA.
+Geist Variable and Geist Mono Variable are installed through Fontsource, imported by [main.tsx](../../../src/client/main.tsx), and bundled into the local build. Studying requires no remote font service. Chinese text falls back to available Chinese fonts, including PingFang SC and Microsoft YaHei; retain fallback coverage for pinyin and IPA.
 
 | Element                             | Current treatment                                                                     |
 | ----------------------------------- | ------------------------------------------------------------------------------------- |

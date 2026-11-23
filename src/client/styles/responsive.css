@@ -1,0 +1,163 @@
+@media (max-width: 1100px) {
+  .document-heading {
+    align-items: start;
+    flex-direction: column;
+  }
+  .reading-layout.with-details {
+    gap: 28px;
+    grid-template-columns: minmax(0, 1fr) 290px;
+  }
+}
+@media (max-width: 850px) {
+  .top {
+    padding: 16px 24px;
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+  }
+  .local {
+    display: none;
+  }
+  .top nav {
+    gap: 20px;
+  }
+  .brand small {
+    display: none;
+  }
+  .study {
+    padding: 32px 24px;
+  }
+  .library {
+    margin: 56px auto;
+    padding: 0 24px;
+  }
+  .intro {
+    margin-bottom: 56px;
+  }
+  .document {
+    grid-template-columns: 130px minmax(0, 1fr);
+    gap: 28px;
+  }
+  .book-mark {
+    min-height: 210px;
+  }
+  .reader-tools {
+    align-items: start;
+    flex-wrap: wrap;
+  }
+  .reader-tools label {
+    flex-wrap: wrap;
+  }
+  .reading-layout.with-details {
+    display: block;
+    max-width: 600px;
+    margin: auto;
+  }
+  .reading-layout.with-details > .page-column {
+    display: none;
+  }
+  .reading-layout.with-details > .details {
+    position: relative;
+    inset: auto;
+    max-height: calc(100dvh - 48px);
+    overflow: auto;
+    border: 0;
+    padding: 0;
+  }
+  .details:focus {
+    outline: 0;
+  }
+  .wide-close {
+    display: none;
+  }
+  .narrow-close {
+    display: inline;
+    font-size: 0.875rem;
+  }
+  .detail-top button {
+    width: auto;
+    padding: 8px;
+  }
+  .practice {
+    margin: 32px auto;
+  }
+  .document-heading h1 > span {
+    display: block;
+    margin: 12px 0 0;
+  }
+}
+@media (max-width: 500px) {
+  .top {
+    padding: 12px 20px;
+    grid-template-columns: 1fr;
+  }
+  .brand {
+    font-size: 17px;
+    gap: 8px;
+  }
+  .brand > span {
+    font-size: 26px;
+  }
+  .top nav {
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .top nav button {
+    font-size: 0.8125rem;
+  }
+  .library,
+  .study {
+    padding-inline: 20px;
+  }
+  .library {
+    margin-top: 40px;
+  }
+  .document {
+    grid-template-columns: 1fr;
+  }
+  .book-mark {
+    min-height: 140px;
+  }
+  .book-mark > span {
+    writing-mode: horizontal-tb;
+    font-size: 40px;
+  }
+  .book-mark small {
+    margin-top: 12px;
+  }
+  .library-label {
+    align-items: start;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .actions {
+    width: 100%;
+  }
+  .actions button {
+    flex: 1;
+  }
+  .reader-tools > div {
+    flex-wrap: wrap;
+  }
+  .practice legend {
+    font-size: 1.375rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
+@media (prefers-contrast: more) {
+  :root {
+    --line: #0b1015;
+    --muted: #0b1015;
+  }
+  button,
+  select {
+    border-width: 2px;
+  }
+  .hotspot {
+    border-bottom: 2px solid var(--primary);
+  }
+}
