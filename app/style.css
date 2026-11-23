@@ -666,6 +666,20 @@ pre {
   border-top: 1px solid var(--line);
   padding-top: 28px;
 }
+.feedback.answer-correct {
+  border-top: 3px solid var(--correct);
+}
+.feedback.answer-incorrect {
+  border-top: 3px solid var(--incorrect);
+}
+.feedback > p,
+.feedback > h4,
+.feedback > details {
+  color: var(--text);
+}
+.feedback h4 {
+  margin-bottom: 8px;
+}
 .feedback details {
   margin-top: 24px;
 }

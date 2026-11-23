@@ -1023,9 +1023,12 @@ function Practice({
           Check answer
         </button>
       ) : (
-        <div className="feedback" role="status">
+        <div
+          className={`feedback ${correct ? "answer-correct" : "answer-incorrect"}`}
+          role="status"
+        >
           <h3>
-            {correct ? "✓ Correct" : "Incorrect — let’s take another look"}
+            {correct ? "✓ Correct" : "✕ Incorrect — let’s take another look"}
           </h3>
           {!correct && (
             <p>
@@ -1033,6 +1036,7 @@ function Practice({
               {q.options.find((o) => o.id === q.correctOptionId).text}
             </p>
           )}
+          <h4>Why this answer</h4>
           <p>{q.explanation}</p>
           <button onClick={() => source(q)}>See original context</button>{" "}
           <button
