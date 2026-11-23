@@ -65,6 +65,7 @@ export function Source({
         .catch(() => {})
         .then(async () => {
           if (cancelled) return;
+          if (!host.current?.clientWidth) return;
           setRendered(false);
           try {
             const p = await pdf.getPage(page.pageNumber);

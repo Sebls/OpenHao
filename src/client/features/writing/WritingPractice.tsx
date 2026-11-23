@@ -75,7 +75,7 @@ export function WritingPractice({
   const [helpOpen, setHelpOpen] = useState(false);
   const heading = useRef<HTMLHeadingElement>(null);
   useEffect(() => {
-    if (visible) heading.current?.focus();
+    if (visible) heading.current?.focus({ preventScroll: true });
   }, [visible]);
   const written = s.progress.filter((p) => p.completed).length;
   const skipped = s.progress.filter((p) => p.skipped).length;

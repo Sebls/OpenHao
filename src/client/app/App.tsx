@@ -48,8 +48,9 @@ export function App() {
   const [session, dispatchPractice] = useReducer(practiceReducer, null);
   const [writingSession, dispatchWriting] = useReducer(writingReducer, null);
   const speech = useSpeech(),
-    scroll = useRef(0),
+    scroll = useRef({ library: 0, reader: 0, practice: 0, writing: 0 }),
     pageScroll = useRef<HTMLDivElement | null>(null),
+    narrowReaderScroll = useRef<number | null>(null),
     trigger = useRef<HTMLElement | null>(null),
     details = useRef<HTMLElement | null>(null);
   useEffect(() => {
@@ -66,13 +67,21 @@ export function App() {
     return () => clearInterval(t);
   }, []);
   useLayoutEffect(() => {
+    window.scrollTo({
+      top: scroll.current[view],
+      left: 0,
+      behavior: "instant",
+    });
+  }, [view]);
+  useLayoutEffect(() => {
     pageScroll.current?.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    narrowReaderScroll.current = null;
+    trigger.current = null;
   }, [doc?.manifest.documentId, doc?.manifest.contentRevision, pageNo]);
   useEffect(() => {
     function key(e: KeyboardEvent) {
       if (e.key === "Escape" && active) {
-        setActive(null);
-        trigger.current?.focus();
+        closeDetails();
       }
     }
     window.addEventListener("keydown", key);
@@ -94,6 +103,9 @@ export function App() {
     try {
       setError("");
       const data = await getDocument(manifest);
+      scroll.current[view] = window.scrollY;
+      scroll.current.reader = keep ? window.scrollY : 0;
+      narrowReaderScroll.current = null;
       setDoc(data);
       if (!keep) {
         setPageNo(
@@ -106,22 +118,48 @@ export function App() {
       setActive(null);
       if (keep) dispatchWriting({ type: "clear" });
       setView("reader");
+      requestAnimationFrame(() =>
+        window.scrollTo({ top: scroll.current.reader, behavior: "instant" }),
+      );
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     }
   }
+  function closeDetails() {
+    setActive(null);
+    requestAnimationFrame(() => {
+      if (narrowReaderScroll.current !== null) {
+        window.scrollTo({
+          top: narrowReaderScroll.current,
+          behavior: "instant",
+        });
+        narrowReaderScroll.current = null;
+      }
+      trigger.current?.focus({ preventScroll: true });
+    });
+  }
   function choose(a: Annotation, event?: MouseEvent<HTMLElement>) {
-    trigger.current =
-      event?.currentTarget instanceof HTMLElement ? event.currentTarget : null;
+    if (event?.currentTarget instanceof HTMLElement)
+      trigger.current = event.currentTarget;
+    else if (!active) trigger.current = null;
+    if (!active && window.innerWidth <= 850)
+      narrowReaderScroll.current = window.scrollY;
     setActive(a);
-    if (window.innerWidth < 850)
-      requestAnimationFrame(() => details.current?.focus());
+    if (window.innerWidth <= 850)
+      requestAnimationFrame(() => {
+        details.current?.focus({ preventScroll: true });
+        if (details.current)
+          window.scrollTo({
+            top:
+              window.scrollY + details.current.getBoundingClientRect().top - 24,
+            behavior: "instant",
+          });
+      });
   }
   function switchView(next: "library" | "reader" | "practice" | "writing") {
-    if (view === "reader") scroll.current = window.scrollY;
+    if (next === view) return;
+    scroll.current[view] = window.scrollY;
     setView(next);
-    if (next === "reader")
-      requestAnimationFrame(() => window.scrollTo(0, scroll.current));
   }
   function begin(selected: Set<string> | null) {
     if (!doc) return;
@@ -134,6 +172,7 @@ export function App() {
     }
     dispatchPractice({ type: "start", questions: bank });
     setNotice("");
+    scroll.current.practice = 0;
     switchView("practice");
   }
   function beginWriting() {
@@ -148,8 +187,8 @@ export function App() {
         content.entries.entries,
       ),
     });
+    scroll.current.writing = 0;
     switchView("writing");
-    requestAnimationFrame(() => window.scrollTo(0, 0));
   }
   function back() {
     speech.stop();
@@ -254,10 +293,9 @@ export function App() {
           {error}
         </p>
       )}
-      {view === "library" ? (
-        <Library catalog={catalog} open={open} />
-      ) : (
-        <main className="study">
+      {view === "library" && <Library catalog={catalog} open={open} />}
+      {doc && (
+        <main className="study" hidden={view === "library"}>
           <div className="document-heading">
             <div>
               <p className="eyebrow">{m?.title}</p>
@@ -429,10 +467,7 @@ export function App() {
                   reference={reference!}
                   visible={view === "reader"}
                   detailsRef={details}
-                  onClose={() => {
-                    setActive(null);
-                    trigger.current?.focus();
-                  }}
+                  onClose={closeDetails}
                   onToggle={toggle}
                   onPractise={beginWriting}
                   choose={choose}
