@@ -97,7 +97,7 @@ p=f.open();q=p.new_page();q.insert_text((80,100),'你好',fontname='china-s',fon
   cli("publish", ["--id", "http-fixture"]);
   let child;
   async function start() {
-    child = spawn(process.execPath, ["tools/server.mjs"], {
+    child = spawn(process.execPath, ["--import", "tsx", "src/server/main.ts"], {
       env,
       stdio: ["ignore", "pipe", "pipe"],
     });
