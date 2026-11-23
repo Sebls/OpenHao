@@ -20,7 +20,10 @@
     "content:list": "node tools/content.mjs list",
     "content:lookup": "node tools/content.mjs lookup",
     "content:repair": "node tools/content.mjs repair",
-    "content:diagnose": "node tools/content.mjs diagnose"
+    "content:diagnose": "node tools/content.mjs diagnose",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "format:json": "prettier \"**/*.json\" --write"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.3.0",
@@ -32,6 +35,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.56.1",
+    "prettier": "3.10.1",
     "vite": "^7.2.2"
   }
 }
