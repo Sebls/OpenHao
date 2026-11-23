@@ -1,0 +1,25 @@
+{
+  "documentId": "example",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-greeting",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 你好 mean here?",
+      "promptLanguage": "en",
+      "options": [
+        { "id": "hello", "text": "Hello" },
+        { "id": "bye", "text": "Goodbye" }
+      ],
+      "correctOptionId": "hello",
+      "explanation": "你好 is a greeting.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": ["a-greeting"],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

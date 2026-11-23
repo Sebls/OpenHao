@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["documentId", "pageId", "extractionRevision"],
+  "properties": {
+    "documentId": { "type": "string" },
+    "pageId": { "type": "string" },
+    "extractionRevision": { "type": "integer", "minimum": 1 },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "form",
+          "meaning",
+          "pronunciations",
+          "reviewStatus"
+        ],
+        "properties": {
+          "kind": {
+            "enum": ["character", "word", "expression", "sentence", "grammar"]
+          },
+          "form": { "type": "string", "minLength": 1 },
+          "meaning": { "type": "string", "minLength": 1 },
+          "pronunciations": { "type": "array" },
+          "reviewStatus": { "enum": ["draft", "reviewed", "needs-review"] }
+        }
+      }
+    },
+    "annotations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "entryId", "kind", "anchors", "reviewStatus"],
+        "properties": {
+          "anchors": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "pageId",
+                "extractionRevision",
+                "start",
+                "end",
+                "exactText",
+                "characterIds"
+              ],
+              "properties": {
+                "start": { "type": "integer", "minimum": 0 },
+                "end": { "type": "integer", "minimum": 1 },
+                "exactText": { "type": "string", "minLength": 1 },
+                "characterIds": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "category",
+          "prompt",
+          "promptLanguage",
+          "options",
+          "correctOptionId",
+          "explanation",
+          "explanationLanguage",
+          "sourceAnnotationIds",
+          "requiresAudio",
+          "origin",
+          "reviewStatus"
+        ],
+        "properties": {
+          "type": { "const": "single-choice" },
+          "category": {
+            "enum": [
+              "character-identification",
+              "zh-to-en",
+              "en-to-zh",
+              "sentence-comprehension",
+              "missing-word",
+              "grammar-comprehension",
+              "listening-comprehension"
+            ]
+          },
+          "prompt": { "type": "string", "minLength": 1 },
+          "options": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "required": ["id", "text"],
+              "properties": {
+                "id": { "type": "string", "minLength": 1 },
+                "text": { "type": "string", "minLength": 1 }
+              }
+            }
+          },
+          "explanation": { "type": "string", "minLength": 1 },
+          "sourceAnnotationIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          },
+          "requiresAudio": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

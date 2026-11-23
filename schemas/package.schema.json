@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "documentId",
+    "contentRevision",
+    "title",
+    "sourceLanguage",
+    "translationLanguage",
+    "source",
+    "pages",
+    "files",
+    "learningProfile",
+    "createdAt",
+    "updatedAt",
+    "provenance"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "documentId": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "contentRevision": { "type": "integer", "minimum": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "sourceLanguage": { "type": "string" },
+    "translationLanguage": { "const": "en" },
+    "source": {
+      "type": "object",
+      "required": ["pathBase", "path", "sha256", "bytes", "pageCount"],
+      "properties": {
+        "pathBase": { "const": "data-root" },
+        "path": { "type": "string", "pattern": "^pdfs/[a-z0-9-]+\\.pdf$" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "bytes": { "type": "integer", "minimum": 1 },
+        "pageCount": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "pageNumber",
+          "width",
+          "height",
+          "state",
+          "questionAvailability"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^p[0-9]{4}$" },
+          "pageNumber": { "type": "integer", "minimum": 1 },
+          "width": { "type": "number", "exclusiveMinimum": 0 },
+          "height": { "type": "number", "exclusiveMinimum": 0 },
+          "state": {
+            "enum": ["not-prepared", "extracted", "needs-review", "ready"]
+          },
+          "questionAvailability": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "extractionRevision": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+    },
+    "learningProfile": { "type": "object" },
+    "createdAt": { "type": "string" },
+    "updatedAt": { "type": "string" },
+    "provenance": { "type": "object" }
+  }
+}

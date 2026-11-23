@@ -1,0 +1,22 @@
+{
+  "documentId": "example",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-broken",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Broken fixture: only one choice",
+      "promptLanguage": "en",
+      "options": [{ "id": "only", "text": "Hello" }],
+      "correctOptionId": "missing",
+      "explanation": "This record must be rejected.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "draft"
+    }
+  ]
+}
