@@ -8,7 +8,7 @@ import { eligibleQuestions, shuffle, isCorrect, anchorRects } from "./model.js";
 import { StrokeOrder, WritingPractice } from "./Writing.jsx";
 import { CharacterHistory } from "./CharacterHistory.jsx";
 import { createWritingSession } from "./writing-model.js";
-import "./style.css";
+import "../src/client/styles/global.css";
 pdfjs.GlobalWorkerOptions.workerSrc = worker;
 const api = async (url) => {
   const r = await fetch(url);
