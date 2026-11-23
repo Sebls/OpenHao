@@ -938,12 +938,12 @@ function Practice({
         {mistakes.map((q) => (
           <article key={q.id}>
             <h3>{q.prompt}</h3>
-            <p>
-              Your answer:{" "}
+            <p className="answer-incorrect">
+              ✕ Your answer:{" "}
               {q.options.find((o) => o.id === s.answers[q.id])?.text}
             </p>
-            <p>
-              Correct answer:{" "}
+            <p className="answer-correct">
+              ✓ Correct answer:{" "}
               {q.options.find((o) => o.id === q.correctOptionId).text}
             </p>
             <p>{q.explanation}</p>

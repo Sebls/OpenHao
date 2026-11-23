@@ -71,3 +71,5 @@ At 1100px and below, document actions move below the heading and the detail colu
 Always prefer reviewing content and interface changes in the agent browser, such as the Codex browser. Review the prepared content, source fidelity, reader/detail relationship, practice feedback and responsive controls there when relevant. Record limitations such as unavailable local speech or clipboard access; do not claim an unobserved result.
 
 The redesign passed a production build and local HTTP availability check, and the localhost preview was opened in Codex. An interaction or visual review of the redesign has not been recorded. See [verification](../verification.md) for historical evidence and current limits.
+
+Practice feedback update · 2026-11-23: After checking an answer, show the correct option in green and a selected incorrect option in red, with explicit labels and symbols. Keep choices neutral before submission. The result heading uses the matching color, followed by the prepared explanation under “Why this answer.” Mistake review uses the same answer colors.
