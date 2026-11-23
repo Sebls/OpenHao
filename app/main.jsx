@@ -1,13 +1,196 @@
 import React, { useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
+import * as pdfjs from "pdfjs-dist";
+import worker from "pdfjs-dist/build/pdf.worker.min.mjs?url";
 import "@fontsource-variable/geist";
 import "@fontsource-variable/geist-mono";
+import { anchorRects } from "./model.js";
 import "./style.css";
+pdfjs.GlobalWorkerOptions.workerSrc = worker;
 const api = async (url) => {
   const r = await fetch(url);
   if (!r.ok) throw Error("The material could not be loaded. Try reopening it.");
   return r.json();
 };
+const pinyin = (e) =>
+  e?.pronunciations?.find((p) => p.system === "pinyin")?.value;
+function Source({ manifest, page, content, selected, onSelect }) {
+  const canvas = useRef(),
+    host = useRef(),
+    [pdf, setPdf] = useState(null),
+    [error, setError] = useState(""),
+    [rendered, setRendered] = useState(false),
+    [preview, setPreview] = useState(null);
+  useEffect(() => {
+    const task = pdfjs.getDocument({
+      url: `/pdf/${manifest.documentId}/${manifest.contentRevision}`,
+      cMapUrl: "/pdfjs/cmaps/",
+      cMapPacked: true,
+      standardFontDataUrl: "/pdfjs/standard_fonts/",
+      wasmUrl: "/pdfjs/wasm/",
+    });
+    task.promise
+      .then(setPdf)
+      .catch(() =>
+        setError(
+          "The original page could not be opened. Use the original PDF link.",
+        ),
+      );
+    return () => {
+      task.destroy();
+      setPdf(null);
+    };
+  }, [manifest.documentId, manifest.contentRevision]);
+  useEffect(() => {
+    if (!pdf) return;
+    let cancelled = false,
+      renderTask;
+    let chain = Promise.resolve();
+    const draw = () => {
+      chain = chain
+        .catch(() => {})
+        .then(async () => {
+          if (cancelled) return;
+          setRendered(false);
+          try {
+            const p = await pdf.getPage(page.pageNumber);
+            if (cancelled) return;
+            const width = host.current.clientWidth,
+              scale = width / p.getViewport({ scale: 1 }).width,
+              dpr = Math.min(devicePixelRatio || 1, 2),
+              viewport = p.getViewport({ scale: scale * dpr });
+            canvas.current.width = viewport.width;
+            canvas.current.height = viewport.height;
+            renderTask = p.render({
+              canvasContext: canvas.current.getContext("2d"),
+              viewport,
+            });
+            await renderTask.promise;
+            if (!cancelled) {
+              setRendered(true);
+              setError("");
+            }
+          } catch (e) {
+            if (!cancelled && e.name !== "RenderingCancelledException")
+              setError(
+                "Page display failed. Try another page or open the original PDF.",
+              );
+          }
+        });
+    };
+    draw();
+    const observer = new ResizeObserver(() => {
+      renderTask?.cancel();
+      draw();
+    });
+    observer.observe(host.current);
+    return () => {
+      cancelled = true;
+      observer.disconnect();
+      renderTask?.cancel();
+    };
+  }, [pdf, page.pageNumber]);
+  const anns =
+      content?.annotations.annotations.filter(
+        (a) => a.reviewStatus === "reviewed",
+      ) || [],
+    entries = new Map(content?.entries.entries.map((e) => [e.id, e]) || []);
+  const selectAt = (event) => {
+    const r = host.current.getBoundingClientRect(),
+      x = (event.clientX - r.left) / r.width,
+      y = (event.clientY - r.top) / r.height;
+    const hits = anns.filter((a) =>
+      anchorRects(a, content.layout).some(
+        ([l, t, w, h]) => x >= l && x <= l + w && y >= t && y <= t + h,
+      ),
+    );
+    return hits.sort(
+      (a, b) =>
+        (({ word: 0, expression: 1, character: 2, sentence: 3 })[a.kind] ?? 4) -
+        ({ word: 0, expression: 1, character: 2, sentence: 3 }[b.kind] ?? 4),
+    )[0];
+  };
+  return (
+    <>
+      <div
+        className="source"
+        ref={host}
+        style={{ aspectRatio: `${page.width}/${page.height}` }}
+        onClick={(e) => {
+          const a = selectAt(e);
+          if (a) onSelect(a);
+        }}
+        onMouseMove={(e) => {
+          const a = selectAt(e);
+          setPreview(
+            a
+              ? {
+                  entry: entries.get(a.entryId),
+                  x: Math.min(
+                    e.clientX - host.current.getBoundingClientRect().left,
+                    host.current.clientWidth - 220,
+                  ),
+                  y: e.clientY - host.current.getBoundingClientRect().top,
+                }
+              : null,
+          );
+        }}
+        onMouseLeave={() => setPreview(null)}
+      >
+        <canvas
+          ref={canvas}
+          aria-label={`Original PDF, physical page ${page.pageNumber}. Learning text and controls follow below.`}
+          role="img"
+        />
+        {rendered &&
+          anns
+            .filter(
+              (a) =>
+                a.kind === "word" ||
+                a.kind === "expression" ||
+                a.id === selected?.id,
+            )
+            .flatMap((a) =>
+              anchorRects(a, content.layout).map(([x, y, w, h], i) => (
+                <span
+                  key={a.id + i}
+                  className={`hotspot ${selected?.id === a.id ? "active" : ""}`}
+                  style={{
+                    left: x * 100 + "%",
+                    top: y * 100 + "%",
+                    width: w * 100 + "%",
+                    height: h * 100 + "%",
+                  }}
+                />
+              )),
+            )}
+        {!rendered && !error && (
+          <div className="loading">Opening original page…</div>
+        )}
+        {error && <p role="alert">{error}</p>}
+        {preview?.entry && (
+          <div
+            className="preview"
+            style={{ left: Math.max(0, preview.x), top: preview.y + 30 }}
+          >
+            <strong lang="zh-CN">{preview.entry.form}</strong> ·{" "}
+            {pinyin(preview.entry)}
+            <br />
+            {preview.entry.meaning}
+          </div>
+        )}
+      </div>
+      <a
+        className="original-link"
+        href={`/pdf/${manifest.documentId}/${manifest.contentRevision}`}
+        target="_blank"
+        rel="noreferrer"
+      >
+        Open original PDF ↗
+      </a>
+    </>
+  );
+}
 function App() {
   const [catalog, setCatalog] = useState({ documents: [], issues: [] }),
     [error, setError] = useState(""),
@@ -268,17 +451,84 @@ function App() {
                 <div className="page-scroll">
                   <div style={{ width: zoom + "%" }}>
                     {m && (
-                      <a
-                        className="original-link"
-                        href={`/pdf/${m.documentId}/${m.contentRevision}`}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Open original PDF ↗
-                      </a>
+                      <Source
+                        manifest={m}
+                        page={page}
+                        content={content}
+                        selected={active}
+                        onSelect={choose}
+                      />
                     )}
                   </div>
                 </div>
+                {content ? (
+                  <section className="companion">
+                    <details open>
+                      <summary>Text companion & learning units</summary>
+                      <p>
+                        Select a word on the page or explore the same material
+                        below.
+                      </p>
+                      {content.review.issues?.length > 0 && (
+                        <p className="coverage">
+                          Some small decorative text is not transcribed; see
+                          coverage notes below.
+                        </p>
+                      )}
+                      <pre lang="zh-CN">{content.text}</pre>
+                      <label>
+                        Explore{" "}
+                        <select
+                          id="unit-kind"
+                          value={unitKind}
+                          onChange={(e) => setUnitKind(e.target.value)}
+                        >
+                          <option value="word">Words</option>
+                          <option value="character">Characters</option>
+                          <option value="sentence">Sentences</option>
+                          <option value="all">All units</option>
+                        </select>
+                      </label>
+                      <div className="units">
+                        {content.annotations.annotations
+                          .filter((a) => a.reviewStatus === "reviewed")
+                          .map((a) => {
+                            const e = content.entries.entries.find(
+                              (e) => e.id === a.entryId,
+                            );
+                            return (
+                              <button
+                                key={a.id}
+                                data-unit-kind={a.kind}
+                                hidden={
+                                  unitKind !== "all" && a.kind !== unitKind
+                                }
+                                aria-pressed={active?.id === a.id}
+                                onClick={(event) => choose(a, event)}
+                              >
+                                <span lang="zh-CN">{e.form}</span>
+                                <small>{pinyin(e)}</small>
+                              </button>
+                            );
+                          })}
+                      </div>
+                    </details>
+                    <details>
+                      <summary>Page coverage notes</summary>
+                      {content.review.issues.map((i, n) => (
+                        <p key={n}>{i.reason || i.message}</p>
+                      ))}
+                    </details>
+                  </section>
+                ) : (
+                  <div className="companion">
+                    <h2>This page is not prepared yet</h2>
+                    <p>
+                      You can read the original page. Ask the agent to prepare
+                      physical page {pageNo} for explanations and practice.
+                    </p>
+                  </div>
+                )}
               </section>
             </div>
           </div>
