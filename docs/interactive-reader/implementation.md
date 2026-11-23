@@ -113,3 +113,7 @@ The user's two repository JSON references supersede the earlier Navy/Teal/Beige 
 Fonts are supplied through the Fontsource variable-font packages and included in the build; no runtime font service is required. Source PDF artwork and text retain their original appearance. Always prefer the agent browser, such as the Codex browser, for content and interface review. The styling change was verified with a production build and local HTTP availability; the preview was opened in Codex, without an interaction review.
 
 See [current visual design and reference roles](design-references/README.md) for the complete implemented style details.
+
+## TypeScript structure · 2026-11-23
+
+The browser, local server, and content commands now live under `src/client`, `src/server`, and `src/content`, with shared definitions in `src/contracts`. See [TypeScript architecture and development](typescript-architecture.md) for module ownership, state, runtime validation, commands, and checks. The Python extractor remains in `tools/`. Existing npm launch and preparation commands, private library paths, revision publication, and correction references remain compatible.

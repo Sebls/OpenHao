@@ -1,6 +1,6 @@
 # Chinese study library
 
-A local React reader for learning Chinese from original PDF pages. Select words for concise English explanations, Mandarin pinyin, separately labeled IPA and available local pronunciation; practise reviewed multiple-choice questions.
+A local React and TypeScript reader for learning Chinese from original PDF pages. Select words for concise English explanations, Mandarin pinyin, separately labeled IPA and available local pronunciation; practise reviewed multiple-choice questions.
 
 ## Start
 
@@ -19,13 +19,14 @@ Lesson 1 of New HSK 1 is prepared on this computer. The unchanged five-page orig
 
 Ask the agent to prepare a PDF and specific physical pages, or give it a copied item reference. It follows [the preparation skill](skills/prepare-material/SKILL.md), preserves accepted pages, validates content and publishes locally. The library discovers changes automatically.
 
+- [TypeScript architecture and development](docs/interactive-reader/typescript-architecture.md)
 - [Installation, study, preparation and backup guide](docs/interactive-reader/implementation.md)
 - [Verification and known limitations](docs/interactive-reader/verification.md)
 - [Current visual design and reference roles](docs/interactive-reader/design-references/README.md)
 - [Requirements and design documents](docs/interactive-reader/README.md)
 - [Agent instructions](AGENTS.md)
 
-Preparation tools additionally need Python 3: `npm run setup:extractor`. Run `npm test` for content/publication/server checks and `npm run build` after app changes.
+Preparation tools additionally need Python 3: `npm run setup:extractor`. Run `npm run dev` for development with hot reload. Run `npm run typecheck`, `npm run lint`, and `npm test` for validation, then `npm run build` after app changes.
 
 Prefer the agent browser, such as the Codex browser, when reviewing content or interface changes.
 

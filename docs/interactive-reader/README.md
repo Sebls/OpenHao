@@ -1,6 +1,6 @@
 # Interactive Language Learning Reader
 
-Status: React implementation and repository preparation skill added on 2026-11-22. Start with [installation and usage](implementation.md), [verification and limitations](verification.md), and the [executable preparation skill](../../skills/prepare-material/SKILL.md). The documents below retain the original handoff/design requirements; historical statements about work not having started refer to that earlier snapshot.
+Status: React implementation and repository preparation skill added on 2026-11-22. See [TypeScript architecture and development](typescript-architecture.md). Start with [installation and usage](implementation.md), [verification and limitations](verification.md), and the [executable preparation skill](../../skills/prepare-material/SKILL.md). The documents below retain the original handoff/design requirements; historical statements about work not having started refer to that earlier snapshot.
 
 The new system connects **Reading → Understanding → Pronunciation → Practice** around the original learning document.
 
