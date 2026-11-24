@@ -17,12 +17,14 @@ export function Source({
   page,
   content,
   selected,
+  showRegions,
   onSelect,
 }: {
   manifest: Manifest;
   page: Page;
   content?: PageContent;
   selected: Annotation | null;
+  showRegions: boolean;
   onSelect: (annotation: Annotation) => void;
 }) {
   const canvas = useRef<HTMLCanvasElement>(null),
@@ -169,16 +171,12 @@ export function Source({
         />
         {rendered &&
           anns
-            .filter(
-              (a) =>
-                a.kind === "word" ||
-                a.kind === "expression" ||
-                a.id === selected?.id,
-            )
+            .filter((a) => showRegions || a.id === selected?.id)
             .flatMap((a) =>
               anchorRects(a, content!.layout).map(([x, y, w, h], i) => (
                 <span
                   key={a.id + i}
+                  aria-hidden="true"
                   className={`hotspot ${selected?.id === a.id ? "active" : ""}`}
                   style={{
                     left: x * 100 + "%",

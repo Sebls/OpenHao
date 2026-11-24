@@ -44,6 +44,7 @@ export function App() {
     [selection, setSelection] = useState(new Set<string>()),
     [notice, setNotice] = useState(""),
     [zoom, setZoom] = useState(100),
+    [showRegions, setShowRegions] = useState(false),
     [unitKind, setUnitKind] = useState("word");
   const [session, dispatchPractice] = useReducer(practiceReducer, null);
   const [writingSession, dispatchWriting] = useReducer(writingReducer, null);
@@ -405,17 +406,36 @@ export function App() {
                   →
                 </button>
               </div>
-              <label>
-                Page size{" "}
-                <select
-                  value={zoom}
-                  onChange={(e) => setZoom(Number(e.target.value))}
+              <div>
+                <button
+                  type="button"
+                  className="region-toggle"
+                  aria-label="Show clickable regions"
+                  title={
+                    showRegions
+                      ? "Hide clickable regions"
+                      : "Show clickable regions"
+                  }
+                  aria-pressed={showRegions}
+                  onClick={() => setShowRegions((shown) => !shown)}
                 >
-                  <option value={100}>Fit width</option>
-                  <option value={125}>125%</option>
-                  <option value={150}>150%</option>
-                </select>
-              </label>
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8 3H3v5M16 3h5v5M21 16v5h-5M8 21H3v-5" />
+                    <rect x="7" y="8" width="10" height="8" rx="1" />
+                  </svg>
+                </button>
+                <label>
+                  Page size{" "}
+                  <select
+                    value={zoom}
+                    onChange={(e) => setZoom(Number(e.target.value))}
+                  >
+                    <option value={100}>Fit width</option>
+                    <option value={125}>125%</option>
+                    <option value={150}>150%</option>
+                  </select>
+                </label>
+              </div>
             </div>
             <div className={`reading-layout ${entry ? "with-details" : ""}`}>
               <section className="page-column" aria-label="PDF reader">
@@ -433,6 +453,7 @@ export function App() {
                         page={page}
                         content={content}
                         selected={active}
+                        showRegions={showRegions}
                         onSelect={choose}
                       />
                     )}
