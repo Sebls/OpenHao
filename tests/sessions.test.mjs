@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { questionPhrase } from "../src/client/features/practice/model.ts";
 import { practiceReducer } from "../src/client/features/practice/session.ts";
 import {
   createWritingSession,
@@ -86,4 +87,89 @@ test("CLI option parsing distinguishes flags and values and reports incomplete c
   assert.throws(() => parseOptions(["--pages", "--ocr"]), /Provide a value/);
   assert.throws(() => parseOptions(["--unknown"]), /Unknown option/);
   assert.throws(() => parseOptions(["lesson"]), /Expected --option/);
+});
+
+test("questionPhrase resolves linked sentence-comprehension phrases without duplicating or spoiling audio", () => {
+  const pages = {
+    p0026: {
+      entries: {
+        entries: [
+          { id: "e-1", form: "妈妈吃肉，可是不吃羊肉。" },
+          { id: "e-2", form: "我去北京。" },
+        ],
+      },
+      annotations: {
+        annotations: [{ id: "a-1", entryId: "e-1" }],
+      },
+    },
+  };
+  assert.equal(
+    questionPhrase(
+      {
+        category: "sentence-comprehension",
+        prompt: "What does Mum avoid eating in this sentence?",
+        entryIds: ["e-1"],
+        sourceAnnotationIds: ["a-1"],
+        requiresAudio: false,
+        pageId: "p0026",
+      },
+      pages,
+    ),
+    "妈妈吃肉，可是不吃羊肉。",
+  );
+  assert.equal(
+    questionPhrase(
+      {
+        category: "sentence-comprehension",
+        prompt: "What does Mum avoid eating in this sentence?",
+        sourceAnnotationIds: ["a-1"],
+        requiresAudio: false,
+        pageId: "p0026",
+      },
+      pages,
+    ),
+    "妈妈吃肉，可是不吃羊肉。",
+  );
+  assert.equal(
+    questionPhrase(
+      {
+        category: "sentence-comprehension",
+        prompt: "What does 我去北京。 say?",
+        entryIds: ["e-2"],
+        sourceAnnotationIds: [],
+        requiresAudio: false,
+        pageId: "p0026",
+      },
+      pages,
+    ),
+    null,
+  );
+  assert.equal(
+    questionPhrase(
+      {
+        category: "sentence-comprehension",
+        prompt: "Listen and choose.",
+        entryIds: ["e-1"],
+        sourceAnnotationIds: ["a-1"],
+        requiresAudio: true,
+        pageId: "p0026",
+      },
+      pages,
+    ),
+    null,
+  );
+  assert.equal(
+    questionPhrase(
+      {
+        category: "zh-to-en",
+        prompt: "Translate 妈妈",
+        entryIds: ["e-1"],
+        sourceAnnotationIds: ["a-1"],
+        requiresAudio: false,
+        pageId: "p0026",
+      },
+      pages,
+    ),
+    null,
+  );
 });

@@ -505,6 +505,7 @@ export function App() {
               restart={begin}
               back={back}
               manifest={m!}
+              pages={doc.pages}
             />
           )}
           {writingSession && (

@@ -1,7 +1,11 @@
-import type { Manifest, Question } from "../../../contracts/content.ts";
+import type {
+  Manifest,
+  PageContent,
+  Question,
+} from "../../../contracts/content.ts";
 import { PronunciationButton } from "../speech/PronunciationButton.tsx";
 import type { Speech } from "../speech/useSpeech.ts";
-import { isCorrect } from "./model.ts";
+import { isCorrect, questionPhrase } from "./model.ts";
 import type { PracticeAction, PracticeSession } from "./session.ts";
 export function Practice({
   session: s,
@@ -11,6 +15,7 @@ export function Practice({
   restart,
   back,
   manifest,
+  pages,
 }: {
   session: PracticeSession;
   dispatch: (action: PracticeAction) => void;
@@ -19,6 +24,7 @@ export function Practice({
   restart: (selection: Set<string> | null) => void;
   back: () => void;
   manifest: Manifest;
+  pages: Record<string, PageContent>;
 }) {
   const q = s.questions[s.index],
     done = s.index >= s.questions.length;
@@ -34,10 +40,17 @@ export function Practice({
           This is your session result. Take your time with the words that need
           another look.
         </p>
-        {mistakes.map((q) => (
-          <article key={q.id}>
-            <h3>{q.prompt}</h3>
-            <p className="answer-incorrect">
+        {mistakes.map((q) => {
+          const mistakePhrase = questionPhrase(q, pages);
+          return (
+            <article key={q.id}>
+              <h3>{q.prompt}</h3>
+              {mistakePhrase && (
+                <p className="practice-phrase" lang="zh-CN">
+                  {mistakePhrase}
+                </p>
+              )}
+              <p className="answer-incorrect">
               ✕ Your answer:{" "}
               {q.options.find((o) => o.id === s.answers[q.id])?.text}
             </p>
@@ -48,7 +61,8 @@ export function Practice({
             <p>{q.explanation}</p>
             <button onClick={() => source(q)}>See original context</button>
           </article>
-        ))}
+          );
+        })}
         {mistakes.length > 0 && (
           <button
             className="primary"
@@ -62,7 +76,8 @@ export function Practice({
       </section>
     );
   }
-  const correct = isCorrect(q, s.choice);
+  const correct = isCorrect(q, s.choice),
+    phrase = questionPhrase(q, pages);
   return (
     <section className="practice">
       <p className="eyebrow">
@@ -72,6 +87,11 @@ export function Practice({
       <progress max={s.questions.length} value={s.index} />
       <fieldset disabled={s.checked}>
         <legend>{q.prompt}</legend>
+        {phrase && (
+          <p className="practice-phrase" lang="zh-CN">
+            {phrase}
+          </p>
+        )}
         {q.requiresAudio && (
           <PronunciationButton speech={speech} text={q.speechTarget || ""} />
         )}
