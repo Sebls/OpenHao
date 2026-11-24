@@ -52,3 +52,32 @@ export function shuffle<T>(options: readonly T[], random = Math.random): T[] {
 }
 export const isCorrect = (q: Question, id: string | null | undefined) =>
   q.correctOptionId === id;
+
+/** Returns the target Chinese phrase for sentence-comprehension items when not already in the prompt. */
+export function questionPhrase(
+  question: Question,
+  pages: Record<string, PageContent>,
+): string | null {
+  if (question.category !== "sentence-comprehension" || question.requiresAudio) {
+    return null;
+  }
+  const pageList =
+    question.pageId && pages[question.pageId]
+      ? [pages[question.pageId], ...Object.values(pages)]
+      : Object.values(pages);
+  for (const page of pageList) {
+    const entries = page.entries?.entries || [];
+    for (const entryId of question.entryIds || []) {
+      const form = entries.find((e) => e.id === entryId)?.form?.trim();
+      if (form) return question.prompt.includes(form) ? null : form;
+    }
+    const annotations = page.annotations?.annotations || [];
+    for (const annotationId of question.sourceAnnotationIds || []) {
+      const entryId = annotations.find((a) => a.id === annotationId)?.entryId;
+      if (!entryId) continue;
+      const form = entries.find((e) => e.id === entryId)?.form?.trim();
+      if (form) return question.prompt.includes(form) ? null : form;
+    }
+  }
+  return null;
+}
