@@ -1,0 +1,464 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 好吃 describe?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "food that tastes good"
+        },
+        {
+          "id": "o2",
+          "text": "a drink that tastes good"
+        },
+        {
+          "id": "o3",
+          "text": "something long"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "好吃 is used for tasty food; 好喝 is used for drinks.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0149"
+      ],
+      "entryIds": [
+        "e-p0005-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means time available in this dialogue?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "工夫"
+        },
+        {
+          "id": "o2",
+          "text": "书法"
+        },
+        {
+          "id": "o3",
+          "text": "汉字"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "工夫 gōngfu here refers to time, as in 我没有工夫.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0447"
+      ],
+      "entryIds": [
+        "e-p0005-0101"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the character meaning only.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "只"
+        },
+        {
+          "id": "o2",
+          "text": "用"
+        },
+        {
+          "id": "o3",
+          "text": "名"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "只 zhǐ means only and comes before the verb.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0103"
+      ],
+      "entryIds": [
+        "e-p0005-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does Marie ask permission to use?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "a spoon"
+        },
+        {
+          "id": "o2",
+          "text": "chopsticks"
+        },
+        {
+          "id": "o3",
+          "text": "a headscarf"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "勺儿 sháor means spoon.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0475"
+      ],
+      "entryIds": [
+        "e-p0005-0116"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Where is the spoon from, according to Li Yu?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Japan"
+        },
+        {
+          "id": "o2",
+          "text": "China"
+        },
+        {
+          "id": "o3",
+          "text": "France"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "日本 means Japan; she says it is a Japanese spoon.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0480"
+      ],
+      "entryIds": [
+        "e-p0005-0121"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does Marie want to drink right now?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Coca-Cola"
+        },
+        {
+          "id": "o2",
+          "text": "tea"
+        },
+        {
+          "id": "o3",
+          "text": "water"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "She likes tea, but 现在很想喝可口可乐 says she now really wants Coca-Cola.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0485"
+      ],
+      "entryIds": [
+        "e-p0005-0126"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does Teacher Zhang teach?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "calligraphy"
+        },
+        {
+          "id": "o2",
+          "text": "French"
+        },
+        {
+          "id": "o3",
+          "text": "cooking"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "书法老师 means calligraphy teacher; the surname precedes the title.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0491"
+      ],
+      "entryIds": [
+        "e-p0005-0132"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source question: 你会___会用筷子？",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "不"
+        },
+        {
+          "id": "o2",
+          "text": "没"
+        },
+        {
+          "id": "o3",
+          "text": "只"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "会不会 is the affirmative-negative question about knowing how to use chopsticks.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0469"
+      ],
+      "entryIds": [
+        "e-p0005-0110"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 我的 stand for here?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "mine, with the magazine understood"
+        },
+        {
+          "id": "o2",
+          "text": "my name"
+        },
+        {
+          "id": "o3",
+          "text": "I am reading you"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "的 allows the possessed noun to be omitted: 我的 is mine.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0502"
+      ],
+      "entryIds": [
+        "e-p0005-0142"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-010",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What reason does Li Yu give?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "she has no time"
+        },
+        {
+          "id": "o2",
+          "text": "she has no magazine"
+        },
+        {
+          "id": "o3",
+          "text": "she cannot write her name"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没有工夫 means have no time available.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0507"
+      ],
+      "entryIds": [
+        "e-p0005-0147"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-011",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "How is 去你的 used in this conversation?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "a dismissive retort to teasing"
+        },
+        {
+          "id": "o2",
+          "text": "a polite thank-you"
+        },
+        {
+          "id": "o3",
+          "text": "an ordinary name introduction"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "It is a colloquial retort like cut it out or get lost; tone and relationship matter.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0411"
+      ],
+      "entryIds": [
+        "e-p0005-0097"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-012",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "写"
+        },
+        {
+          "id": "o2",
+          "text": "画"
+        },
+        {
+          "id": "o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "写 is xiě, write.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0240"
+      ],
+      "entryIds": [
+        "e-p0005-0072"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "写"
+    }
+  ]
+}

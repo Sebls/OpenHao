@@ -1,0 +1,274 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 火車頭 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-001-o1",
+          "text": "locomotive"
+        },
+        {
+          "id": "q-p0004-001-o2",
+          "text": "photograph"
+        },
+        {
+          "id": "q-p0004-001-o3",
+          "text": "table"
+        }
+      ],
+      "correctOptionId": "q-p0004-001-o1",
+      "explanation": "火車頭 is the traditional spelling of 火车头, locomotive.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0045"
+      ],
+      "entryIds": [
+        "e-p0004-0030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose study or learn in traditional characters.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-002-o1",
+          "text": "學習"
+        },
+        {
+          "id": "q-p0004-002-o2",
+          "text": "日報"
+        },
+        {
+          "id": "q-p0004-002-o3",
+          "text": "法國"
+        }
+      ],
+      "correctOptionId": "q-p0004-002-o1",
+      "explanation": "學習 xuéxí is study or learn; its simplified form is 学习.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0058"
+      ],
+      "entryIds": [
+        "e-p0004-0039"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which is the traditional yes/no question particle?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-003-o1",
+          "text": "嗎"
+        },
+        {
+          "id": "q-p0004-003-o2",
+          "text": "習"
+        },
+        {
+          "id": "q-p0004-003-o3",
+          "text": "頭"
+        }
+      ],
+      "correctOptionId": "q-p0004-003-o1",
+      "explanation": "嗎 ma is the traditional form of 吗.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0042"
+      ],
+      "entryIds": [
+        "e-p0004-0028"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What can she do in this source sentence?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-004-o1",
+          "text": "speak Japanese and French"
+        },
+        {
+          "id": "q-p0004-004-o2",
+          "text": "sell locomotives"
+        },
+        {
+          "id": "q-p0004-004-o3",
+          "text": "read English newspapers"
+        }
+      ],
+      "correctOptionId": "q-p0004-004-o1",
+      "explanation": "會說 expresses the ability to speak. 日文 and 法文 identify the two languages.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0077"
+      ],
+      "entryIds": [
+        "e-p0004-0048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the traditional source sentence: 這是我的書 __ 報。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-005-o1",
+          "text": "和"
+        },
+        {
+          "id": "q-p0004-005-o2",
+          "text": "也"
+        },
+        {
+          "id": "q-p0004-005-o3",
+          "text": "嗎"
+        }
+      ],
+      "correctOptionId": "q-p0004-005-o1",
+      "explanation": "和 connects 書 (book) and 報 (newspaper).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0111"
+      ],
+      "entryIds": [
+        "e-p0004-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What makes this a yes/no question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-006-o1",
+          "text": "the final particle 嗎"
+        },
+        {
+          "id": "q-p0004-006-o2",
+          "text": "the plural suffix 們"
+        },
+        {
+          "id": "q-p0004-006-o3",
+          "text": "the noun 本子"
+        }
+      ],
+      "correctOptionId": "q-p0004-006-o1",
+      "explanation": "Sentence-final 嗎 marks the yes/no question; 們 only marks plural you.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0090"
+      ],
+      "entryIds": [
+        "e-p0004-0054"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which traditional word matches?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-007-o1",
+          "text": "日報"
+        },
+        {
+          "id": "q-p0004-007-o2",
+          "text": "日本"
+        },
+        {
+          "id": "q-p0004-007-o3",
+          "text": "日文"
+        }
+      ],
+      "correctOptionId": "q-p0004-007-o1",
+      "explanation": "The target is 日報 rìbào, daily newspaper.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0010"
+      ],
+      "entryIds": [
+        "e-p0004-0009"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      },
+      "speechTarget": "日報"
+    }
+  ]
+}

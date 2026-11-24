@@ -1,0 +1,236 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 有 mean here?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "have"
+        },
+        {
+          "id": "o2",
+          "text": "buy"
+        },
+        {
+          "id": "o3",
+          "text": "sell"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有 means have; 没有 is its negative.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which character is used to negate 有?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没"
+        },
+        {
+          "id": "o2",
+          "text": "很"
+        },
+        {
+          "id": "o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没有 means not have.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the written character for buy.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "买"
+        },
+        {
+          "id": "o2",
+          "text": "卖"
+        },
+        {
+          "id": "o3",
+          "text": "相"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "买 mǎi is buy; 卖 mài is sell.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0012"
+      ],
+      "entryIds": [
+        "e-p0001-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What can 想 express before a verb?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "want to do something"
+        },
+        {
+          "id": "o2",
+          "text": "finish doing something"
+        },
+        {
+          "id": "o3",
+          "text": "be unable to do something"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "想去 means want to go.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0016"
+      ],
+      "entryIds": [
+        "e-p0001-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 心 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "heart; mind"
+        },
+        {
+          "id": "o2",
+          "text": "street"
+        },
+        {
+          "id": "o3",
+          "text": "moon"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "心 means heart or mind; it is also used as a component.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0021"
+      ],
+      "entryIds": [
+        "e-p0001-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "很"
+        },
+        {
+          "id": "o2",
+          "text": "有"
+        },
+        {
+          "id": "o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "很 is hěn, very or quite.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "很"
+    }
+  ]
+}

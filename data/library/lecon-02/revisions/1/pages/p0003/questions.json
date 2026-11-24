@@ -1,0 +1,312 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 小说 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-001-o1",
+          "text": "novel; fiction"
+        },
+        {
+          "id": "q-p0003-001-o2",
+          "text": "daily newspaper"
+        },
+        {
+          "id": "q-p0003-001-o3",
+          "text": "business card"
+        }
+      ],
+      "correctOptionId": "q-p0003-001-o1",
+      "explanation": "小说 xiǎoshuō is a novel or fiction.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0061"
+      ],
+      "entryIds": [
+        "e-p0003-0038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose engineer.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-002-o1",
+          "text": "工程师"
+        },
+        {
+          "id": "q-p0003-002-o2",
+          "text": "日本人"
+        },
+        {
+          "id": "q-p0003-002-o3",
+          "text": "男朋友"
+        }
+      ],
+      "correctOptionId": "q-p0003-002-o1",
+      "explanation": "工程师 gōngchéngshī is an occupation: engineer.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0127"
+      ],
+      "entryIds": [
+        "e-p0003-0061"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which is the simplified character for practise or study?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-003-o1",
+          "text": "习"
+        },
+        {
+          "id": "q-p0003-003-o2",
+          "text": "也"
+        },
+        {
+          "id": "q-p0003-003-o3",
+          "text": "马"
+        }
+      ],
+      "correctOptionId": "q-p0003-003-o1",
+      "explanation": "习 xí is the simplified form of 習 and occurs in 学习.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Which languages can she speak?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-004-o1",
+          "text": "Japanese and French"
+        },
+        {
+          "id": "q-p0003-004-o2",
+          "text": "Chinese and English"
+        },
+        {
+          "id": "q-p0003-004-o3",
+          "text": "English and Japanese"
+        }
+      ],
+      "correctOptionId": "q-p0003-004-o1",
+      "explanation": "日文 is Japanese; 法文 is French; 也 adds also.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0183"
+      ],
+      "entryIds": [
+        "e-p0003-0077"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source sentence: 这是我的书 __ 报。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-005-o1",
+          "text": "和"
+        },
+        {
+          "id": "q-p0003-005-o2",
+          "text": "吗"
+        },
+        {
+          "id": "q-p0003-005-o3",
+          "text": "也"
+        }
+      ],
+      "correctOptionId": "q-p0003-005-o1",
+      "explanation": "和 joins the two nouns 书 and 报: book and newspaper.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0217"
+      ],
+      "entryIds": [
+        "e-p0003-0089"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 的 link in 你们的本子?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-006-o1",
+          "text": "the owners 你们 to 本子"
+        },
+        {
+          "id": "q-p0003-006-o2",
+          "text": "a verb to its past tense"
+        },
+        {
+          "id": "q-p0003-006-o3",
+          "text": "two language names"
+        }
+      ],
+      "correctOptionId": "q-p0003-006-o1",
+      "explanation": "的 marks possession or modification: your notebook, addressing several people.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0196"
+      ],
+      "entryIds": [
+        "e-p0003-0080"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does this sentence say about the boyfriend?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-007-o1",
+          "text": "He is not French."
+        },
+        {
+          "id": "q-p0003-007-o2",
+          "text": "He does not speak French."
+        },
+        {
+          "id": "q-p0003-007-o3",
+          "text": "He is not a friend."
+        }
+      ],
+      "correctOptionId": "q-p0003-007-o1",
+      "explanation": "不是法国人 negates nationality. The sentence does not say which languages he speaks.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0244"
+      ],
+      "entryIds": [
+        "e-p0003-0099"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Choose the word you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-008-o1",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0003-008-o2",
+          "text": "小说"
+        },
+        {
+          "id": "q-p0003-008-o3",
+          "text": "日报"
+        }
+      ],
+      "correctOptionId": "q-p0003-008-o1",
+      "explanation": "The spoken target is 朋友 péngyou, friend.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0011"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      },
+      "speechTarget": "朋友"
+    }
+  ]
+}

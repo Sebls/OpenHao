@@ -1,0 +1,198 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does the door sign 拉 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Pull"
+        },
+        {
+          "id": "o2",
+          "text": "Push"
+        },
+        {
+          "id": "o3",
+          "text": "Modest"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "拉 (lā) means Pull; 推 (tuī) means Push.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which character means 'Push' on an entrance door?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "推"
+        },
+        {
+          "id": "o2",
+          "text": "拉"
+        },
+        {
+          "id": "o3",
+          "text": "红"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "推 (tuī) means Push.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0006"
+      ],
+      "entryIds": [
+        "e-p0005-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What is the antonym of 谦虚 (modest)?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "骄傲 (proud; arrogant)"
+        },
+        {
+          "id": "o2",
+          "text": "抵抗 (resist)"
+        },
+        {
+          "id": "o3",
+          "text": "农业 (agriculture)"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "骄傲 (jiāo'ào) is the antonym of 谦虚 (qiānxū).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which of the Four Modernizations does 农业 refer to?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "agriculture"
+        },
+        {
+          "id": "o2",
+          "text": "industry"
+        },
+        {
+          "id": "o3",
+          "text": "national defense"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "农业 (nóngyè) means agriculture.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0011"
+      ],
+      "entryIds": [
+        "e-p0005-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the word you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "科学技术"
+        },
+        {
+          "id": "o2",
+          "text": "身体好"
+        },
+        {
+          "id": "o3",
+          "text": "红糖"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "科学技术 (kēxué jìshù) means science and technology.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0013"
+      ],
+      "entryIds": [
+        "e-p0005-0013"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "科学技术"
+    }
+  ]
+}

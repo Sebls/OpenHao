@@ -1,0 +1,33 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "2141ef3af8881a135722f0c7b7953509b4edbd26564bb92a0601fd1afcdadb6a",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, source visual comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "full cover slide",
+      "reason": "French-only cover slide ('Cours de révision leçon 0- leçon 1') contains zero Chinese characters or learning units; kept in 'extracted' (non-ready) state.",
+      "nextAction": "Start study on page 2; no Chinese annotations are needed on page 1."
+    }
+  ],
+  "checks": [
+    "Compared full-page source render against extracted text.txt and layout.json",
+    "Confirmed zero Chinese characters, diagrams, decorative seals, or hidden text",
+    "Classified cover title lines as heading in layout.json",
+    "Verified page remains non-ready ('extracted') with empty entries, annotations, and questions"
+  ],
+  "coverage": {
+    "embeddedCharacters": 33,
+    "hanziCharacters": 0,
+    "annotatedOccurrences": 0,
+    "entries": 0,
+    "reviewedQuestions": 0,
+    "extractionScope": "Physical page 1 (French-only cover slide)",
+    "annotationScope": "None — French title-only slide with zero Chinese learning units"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 朋友 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-001-o1",
+          "text": "friend"
+        },
+        {
+          "id": "q-p0002-001-o2",
+          "text": "newspaper"
+        },
+        {
+          "id": "q-p0002-001-o3",
+          "text": "locomotive"
+        }
+      ],
+      "correctOptionId": "q-p0002-001-o1",
+      "explanation": "朋友 péngyou means friend. The second syllable you is neutral.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose locomotive.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-002-o1",
+          "text": "火车头"
+        },
+        {
+          "id": "q-p0002-002-o2",
+          "text": "木头"
+        },
+        {
+          "id": "q-p0002-002-o3",
+          "text": "朋友"
+        }
+      ],
+      "correctOptionId": "q-p0002-002-o1",
+      "explanation": "火车头 huǒchētóu is a locomotive. 头 keeps its full second tone here.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0036"
+      ],
+      "entryIds": [
+        "e-p0002-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means she or her?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-003-o1",
+          "text": "她"
+        },
+        {
+          "id": "q-p0002-003-o2",
+          "text": "他"
+        },
+        {
+          "id": "q-p0002-003-o3",
+          "text": "也"
+        }
+      ],
+      "correctOptionId": "q-p0002-003-o1",
+      "explanation": "她 is she/her. It shares the pronunciation tā with 他.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0048"
+      ],
+      "entryIds": [
+        "e-p0002-0030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 日文 mean in the vocabulary?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-004-o1",
+          "text": "Japanese language"
+        },
+        {
+          "id": "q-p0002-004-o2",
+          "text": "Japan as a country"
+        },
+        {
+          "id": "q-p0002-004-o3",
+          "text": "a Japanese person"
+        }
+      ],
+      "correctOptionId": "q-p0002-004-o1",
+      "explanation": "日文 is Japanese as a language; 日本 is Japan and 日本人 is a Japanese person.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0019"
+      ],
+      "entryIds": [
+        "e-p0002-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In 会说, what does 会 express?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-005-o1",
+          "text": "a learned ability"
+        },
+        {
+          "id": "q-p0002-005-o2",
+          "text": "a completed action"
+        },
+        {
+          "id": "q-p0002-005-o3",
+          "text": "a plural subject"
+        }
+      ],
+      "correctOptionId": "q-p0002-005-o1",
+      "explanation": "会 huì before 说 expresses knowing how to speak a language.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0034"
+      ],
+      "entryIds": [
+        "e-p0002-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which word do you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-006-o1",
+          "text": "木头"
+        },
+        {
+          "id": "q-p0002-006-o2",
+          "text": "火车头"
+        },
+        {
+          "id": "q-p0002-006-o3",
+          "text": "日文"
+        }
+      ],
+      "correctOptionId": "q-p0002-006-o1",
+      "explanation": "The target is 木头 mùtou, wood; tou is neutral.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0039"
+      ],
+      "entryIds": [
+        "e-p0002-0022"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      },
+      "speechTarget": "木头"
+    }
+  ]
+}

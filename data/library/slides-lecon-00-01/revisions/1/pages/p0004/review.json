@@ -1,0 +1,34 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "textSha256": "249939ea7f242fc010e8e9156a6885551f6f6a4082fb4d926851ba4a171c3637",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, source visual comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "reason": "Sentence-level IPA is omitted on the 4 sentence entries (我去北京, 男人看报，女人看书, 妈妈开车, 我叫白勺); reviewed pinyin, English meanings, and word/expression/character IPA cover all items.",
+      "nextAction": "Use the reviewed word, expression, and character IPA; add sentence-level IPA only after dedicated prosodic review."
+    }
+  ],
+  "checks": [
+    "Compared source.png visually against text.txt and layout.json (confirmed bullet 1 merged string '吃羊肉吃鱼开门种田种茶' segments cleanly into 5 expressions)",
+    "Classified French header as heading and Chinese lines as label",
+    "Reviewed expression vs word/sentence hierarchy, proper name 白勺 ('Bai Shao'), neutral tone in 妈妈, and polyphonic 种 zhòng",
+    "Verified constituentIds from sentences -> words -> characters and expressions -> characters",
+    "Reviewed all 7 single-choice questions across all 7 categories for single defensible answer and single-annotation scope"
+  ],
+  "coverage": {
+    "embeddedCharacters": 56,
+    "hanziCharacters": 31,
+    "annotatedOccurrences": 52,
+    "entries": 44,
+    "sentences": 4,
+    "reviewedQuestions": 7,
+    "extractionScope": "Physical page 4 complete embedded Unicode text",
+    "annotationScope": "All 5 expressions, 4 sentences, 12 word occurrences, and 31 Hanzi occurrences; French heading and bullet markers excluded"
+  }
+}

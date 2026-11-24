@@ -1,0 +1,178 @@
+{
+  "documentId": "lecon-01",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 工厂 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-001-o1",
+          "text": "factory"
+        },
+        {
+          "id": "q-p0001-001-o2",
+          "text": "worker"
+        },
+        {
+          "id": "q-p0001-001-o3",
+          "text": "school"
+        }
+      ],
+      "correctOptionId": "q-p0001-001-o1",
+      "explanation": "工厂 is a place: a factory. 工人 means worker.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose the word meaning worker.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-002-o1",
+          "text": "工人"
+        },
+        {
+          "id": "q-p0001-002-o2",
+          "text": "工厂"
+        },
+        {
+          "id": "q-p0001-002-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0001-002-o1",
+      "explanation": "工人 means worker; the second character 人 means person.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0024"
+      ],
+      "entryIds": [
+        "e-p0001-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character is jade?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-003-o1",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0001-003-o2",
+          "text": "王"
+        },
+        {
+          "id": "q-p0001-003-o3",
+          "text": "本"
+        }
+      ],
+      "correctOptionId": "q-p0001-003-o1",
+      "explanation": "玉 has the extra dot that distinguishes it from 王.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0008"
+      ],
+      "entryIds": [
+        "e-p0001-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 不 do before a verb?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-004-o1",
+          "text": "makes it negative"
+        },
+        {
+          "id": "q-p0001-004-o2",
+          "text": "makes it plural"
+        },
+        {
+          "id": "q-p0001-004-o3",
+          "text": "makes it past tense"
+        }
+      ],
+      "correctOptionId": "q-p0001-004-o1",
+      "explanation": "不 makes the verb negative. It does not indicate plurality or past time.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0006"
+      ],
+      "entryIds": [
+        "e-p0001-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which word do you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-005-o1",
+          "text": "工厂"
+        },
+        {
+          "id": "q-p0001-005-o2",
+          "text": "工人"
+        },
+        {
+          "id": "q-p0001-005-o3",
+          "text": "本子"
+        }
+      ],
+      "correctOptionId": "q-p0001-005-o1",
+      "explanation": "The spoken word is 工厂 gōngchǎng, factory.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "工厂"
+    }
+  ]
+}

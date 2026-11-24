@@ -1,0 +1,289 @@
+{
+  "documentId": "slides-lecon-02",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 哪国人 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Person of which country"
+        },
+        {
+          "id": "o1",
+          "text": "Person from Beijing"
+        },
+        {
+          "id": "o2",
+          "text": "French person"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "哪国人 (nǎ guó rén) literally means “person of which country” and asks someone’s nationality.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0041"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which expression means “cannot; do not know how to”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "不是"
+        },
+        {
+          "id": "o1",
+          "text": "不会"
+        },
+        {
+          "id": "o2",
+          "text": "哪国"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "不会 (bú huì) means “cannot” or “do not know how to,” while 不是 means “is not” and 哪国 means “which country.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0091"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written character means “to speak”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "说"
+        },
+        {
+          "id": "o1",
+          "text": "会"
+        },
+        {
+          "id": "o2",
+          "text": "是"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "说 (shuō) means “to speak,” while 会 means “can” and 是 means “to be.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0072"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 你是北京人吗？ ask?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Are you from Beijing?"
+        },
+        {
+          "id": "o1",
+          "text": "Can you speak Chinese?"
+        },
+        {
+          "id": "o2",
+          "text": "What nationality are you?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你是北京人吗？ asks “Are you from Beijing?” (literally “Are you a Beijing person?”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the negative reply: ___，我不是北京人。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "不是"
+        },
+        {
+          "id": "o1",
+          "text": "不会"
+        },
+        {
+          "id": "o2",
+          "text": "哪国"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "A negative answer to 你是北京人吗？ begins with 不是 (“No”), matching 我不是北京人 (“I am not from Beijing”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0023"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How are nationality words like 英国人 and 日本人 formed?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Add 人 after the country name"
+        },
+        {
+          "id": "o1",
+          "text": "Add 文 after the country name"
+        },
+        {
+          "id": "o2",
+          "text": "Add 吗 after the country name"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Adding 人 (“person”) after a country name forms a nationality noun (e.g., 法国人, 中国人, 日本人, 英国人).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0045"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. What is the speaker asking?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Can you speak Chinese?"
+        },
+        {
+          "id": "o1",
+          "text": "Are you from Beijing?"
+        },
+        {
+          "id": "o2",
+          "text": "Which country are you from?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The spoken question is 你会说中文吗？ (“Can you speak Chinese?”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0066"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你会说中文吗？",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which nationality did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "French"
+        },
+        {
+          "id": "o1",
+          "text": "Japanese"
+        },
+        {
+          "id": "o2",
+          "text": "British"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The spoken word is 英国人 (Yīngguórén), meaning “British person / British.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0062"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "英国人",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    }
+  ]
+}

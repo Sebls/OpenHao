@@ -1,0 +1,63 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "textSha256": "fdf7e7ccf67389850c3d0f5e0f6daf5cc0fd37959a2c9750e37686cf53cd3c34",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Gemini agent, separate self-review after authoring; not human or independent review",
+  "reviewedAt": "2026-11-24T10:23:24.716260+00:00",
+  "checks": [
+    "Compared original source.png render with Vision OCR transcript and geometry, including spread halves, reading order, and manual corrections.",
+    "Separate linguistic review checked tone-mark pinyin, broad Mandarin IPA (omitting uncertain/sentence/proper-name IPA), neutral tones (刀子, 哥哥, 太太, 先生, 工夫, 本子, 买卖), polyphonic readings (种 zhǒng, 音乐 yuè), and natural English translations.",
+    "Separate question review checked one defensible answer, distinct plausible distractors, explanations, and page-scoped sourceAnnotationIds."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 3; reviewed learning content with partial reference OCR. No coverage percentage is claimed.",
+    "roles": "Reviewed passage ②, Mémento, Contrôle reading passages, and Leçons 1-5 review tables.",
+    "transcriptCodePoints": 2305,
+    "locatedRecords": 1964,
+    "manualCharacterBoxes": 0,
+    "entries": 32,
+    "entriesByKind": {
+      "word": 20,
+      "character": 1,
+      "sentence": 11
+    },
+    "occurrences": 32,
+    "reviewedIPAEntries": 17,
+    "entriesWithoutReviewedIPA": 15,
+    "questions": 7,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 3,
+    "multilineNote": "Separate line anchors for wrapped sentences where present; not applicable where count is zero."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0003",
+      "reason": "Reference OCR remains partial for small French notes, faint tracing copies, and non-anchored grid/stroke diagrams.",
+      "nextAction": "Consult the unchanged original page for reference regions; keep uncertain OCR out of reviewed learning units and practice."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0003",
+      "reason": "15 entries omit IPA (sentences, names, or rhotic forms); all learning entries have reviewed tone-mark pinyin.",
+      "nextAction": "Leave IPA absent unless exact contextual transcription is reviewed."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0003",
+      "reason": "Listening questions require successful local browser playback; disconnected audible playback has not been independently verified.",
+      "nextAction": "Retain runtime gating on completed local playback."
+    }
+  ]
+}

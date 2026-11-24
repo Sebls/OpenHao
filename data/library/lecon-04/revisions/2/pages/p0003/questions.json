@@ -1,0 +1,388 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 筷子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "chopsticks"
+        },
+        {
+          "id": "o2",
+          "text": "spoon"
+        },
+        {
+          "id": "o3",
+          "text": "chair"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "筷子 kuàizi means chopsticks.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0128"
+      ],
+      "entryIds": [
+        "e-p0003-0067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means calligraphy?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "书法"
+        },
+        {
+          "id": "o2",
+          "text": "画报"
+        },
+        {
+          "id": "o3",
+          "text": "头巾"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "书法 shūfǎ is calligraphy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0157"
+      ],
+      "entryIds": [
+        "e-p0003-0073"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the character meaning still or also here.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "还"
+        },
+        {
+          "id": "o2",
+          "text": "那"
+        },
+        {
+          "id": "o3",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "还 is hái in these readings; huán is a different reading meaning return.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0009"
+      ],
+      "entryIds": [
+        "e-p0003-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is the speaker going to buy?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "pictures and a white headscarf"
+        },
+        {
+          "id": "o2",
+          "text": "a magazine and chopsticks"
+        },
+        {
+          "id": "o3",
+          "text": "a chair and a spoon"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "画儿 means pictures; 白头巾 is a white headscarf.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0348"
+      ],
+      "entryIds": [
+        "e-p0003-0123"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What can her mother draw or paint?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "landscapes and bamboo"
+        },
+        {
+          "id": "o2",
+          "text": "only horses"
+        },
+        {
+          "id": "o3",
+          "text": "business cards and magazines"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "会 expresses ability; 也 adds bamboo to the landscape painting.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0352"
+      ],
+      "entryIds": [
+        "e-p0003-0127"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source question: 我___看你的画报吗？",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "可以"
+        },
+        {
+          "id": "o2",
+          "text": "名字"
+        },
+        {
+          "id": "o3",
+          "text": "山水"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可以 asks permission: may I look at your illustrated magazine?",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0353"
+      ],
+      "entryIds": [
+        "e-p0003-0128"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 还 mean here?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "still"
+        },
+        {
+          "id": "o2",
+          "text": "return something"
+        },
+        {
+          "id": "o3",
+          "text": "only"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "还 hái before 不会 means still cannot; huán is another reading.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0357"
+      ],
+      "entryIds": [
+        "e-p0003-0132"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is the speaker asking?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "whether the storybook is yours"
+        },
+        {
+          "id": "o2",
+          "text": "whether you can write a book"
+        },
+        {
+          "id": "o3",
+          "text": "whether the picture is expensive"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "你的 means yours; the noun is understood from context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0355"
+      ],
+      "entryIds": [
+        "e-p0003-0130"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 有工夫 mean here?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "have time available"
+        },
+        {
+          "id": "o2",
+          "text": "know martial arts"
+        },
+        {
+          "id": "o3",
+          "text": "have a factory"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "工夫 gōngfu refers to available time in this lesson.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0052"
+      ],
+      "entryIds": [
+        "e-p0003-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "竹"
+        },
+        {
+          "id": "o2",
+          "text": "巾"
+        },
+        {
+          "id": "o3",
+          "text": "还"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "竹 is zhú, bamboo.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0011"
+      ],
+      "entryIds": [
+        "e-p0003-0008"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "竹"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "textSha256": "47dacbe43ea399b80353192b9d58a36a8a35312b876cf8c08375a178523fdc8a",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, separate self-review after authoring; not human or independent review",
+  "reviewedAt": "2026-11-24T10:11:59.817608+00:00",
+  "checks": [
+    "Compared all seven original source images with text and geometry, including handwritten character inventories, faint dialogue words, illustration-free page structure, source roles and reading order within each spread half.",
+    "Separate extraction review corrected missed characters, OCR-confused forms and merged-character boxes using individually inspected glyph bounds. Original PDF bytes remain unchanged.",
+    "Separate linguistic review checked 还 hái, 只 zhǐ, 长 cháng versus 厂长 zhǎng, standalone 都 dū versus sentence dōu, neutral suffixes in 名字/筷子/工夫/衣服/漂亮, rhotic 儿, 不 tone changes, permission 可以 versus ability 会, surname/title order and natural sentence translations.",
+    "Separate question review checked one defensible answer, distinct plausible distractors, explanation, selected-page source scope and stable source IDs. Listening remains gated by local playback.",
+    "Source-linked SVG diagnostics regenerated after final text/geometry edits. Same final character boxes checked over original source at page scale, enlarged corrected vocabulary/dialogue/memento regions and cropped-page vocabulary.",
+    "Browser reader/word/character/multiline and practice review follows this first validated local publication."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 6; reviewed learning content with partial reference OCR. No coverage percentage is claimed.",
+    "roles": "Child/drawing dialogue, complete memento reading including wrapped questions, all 25 recognition-grid cells, surviving characters in unfilled Chinese gap exercises, and all 9 complete component-exercise characters. French translation prompts and pinyin dictation remain reference-only; source blanks are never guessed or filled.",
+    "transcriptCodePoints": 1644,
+    "locatedRecords": 1428,
+    "manualCharacterBoxes": 14,
+    "learningLines": 66,
+    "entries": 181,
+    "entriesByKind": {
+      "word": 35,
+      "character": 114,
+      "expression": 1,
+      "sentence": 31
+    },
+    "occurrences": 381,
+    "reviewedIPAEntries": 87,
+    "entriesWithoutReviewedIPA": 94,
+    "questions": 10,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 4,
+    "multilineNote": "Separate line anchors for wrapped reading/dialogue/memento on physical pages 3, 5 and 6; not applicable where count is zero."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0006",
+      "reason": "Reference OCR remains partial or uncertain for small French/printed pinyin, faint tracing repetitions and incomplete stroke or historical diagrams. Reviewed learning regions are defined in coverage; extraction completeness is not claimed.",
+      "nextAction": "Consult the unchanged original page for reference regions; keep uncertain OCR out of reviewed learning units and practice."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0006",
+      "reason": "94 entries have no reviewed IPA, particularly sentences, names, rhotic and contextual-neutral readings. All learning entries have reviewed tone-mark pinyin.",
+      "nextAction": "Leave IPA absent until that exact contextual pronunciation can be reviewed."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0006",
+      "reason": "Listening questions require successful local browser playback; disconnected audible playback has not been independently verified.",
+      "nextAction": "Retain runtime gating on completed local playback; text study remains available."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0006",
+      "reason": "The recognition/component exercises include isolated polyphonic characters such as 角, 几, 佣 and 娜. The notes label the selected reading and alternatives. Unfilled source gap prompts are partial transcription, not completed model sentences.",
+      "nextAction": "Use contextual whole-word readings; no unique-pronunciation question is authored for these isolated characters."
+    }
+  ]
+}

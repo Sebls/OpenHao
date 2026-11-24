@@ -1,0 +1,312 @@
+{
+  "documentId": "lecon-00-histoire-caracteres",
+  "pageId": "p0023",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0023-001",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What number is 二十三?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "23"
+        },
+        {
+          "id": "o2",
+          "text": "32"
+        },
+        {
+          "id": "o3",
+          "text": "13"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "二十 is twenty; 三 adds three.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0124"
+      ],
+      "entryIds": [
+        "e-p0023-052"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-002",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose “train”.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "火山口"
+        },
+        {
+          "id": "o2",
+          "text": "火车"
+        },
+        {
+          "id": "o3",
+          "text": "小手"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "火车 is the word for train.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0129"
+      ],
+      "entryIds": [
+        "e-p0023-057"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-003",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我去北京。 say?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "I am going to Beijing."
+        },
+        {
+          "id": "o2",
+          "text": "Mum drives a car."
+        },
+        {
+          "id": "o3",
+          "text": "The man reads a newspaper."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我 = I, 去 = go, 北京 = Beijing.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0136"
+      ],
+      "entryIds": [
+        "e-p0023-064"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-004",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the woman read in this sentence?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "a book"
+        },
+        {
+          "id": "o2",
+          "text": "a newspaper"
+        },
+        {
+          "id": "o3",
+          "text": "a map"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "女人看书 means the woman reads a book; the man reads a newspaper.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0137"
+      ],
+      "entryIds": [
+        "e-p0023-065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-005",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Which reading does 种 have in 种田, “cultivate fields”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "zhòng"
+        },
+        {
+          "id": "o2",
+          "text": "zhǒng"
+        },
+        {
+          "id": "o3",
+          "text": "zhōng"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The verb plant or cultivate is zhòng.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0134"
+      ],
+      "entryIds": [
+        "e-p0023-062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-006",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Which name does the speaker give?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Bai Mushao"
+        },
+        {
+          "id": "o2",
+          "text": "Beijing"
+        },
+        {
+          "id": "o3",
+          "text": "Shanghai"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我叫 introduces the speaker’s name, 白木勺, Bai Mushao.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0139"
+      ],
+      "entryIds": [
+        "e-p0023-067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-007",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete “Mum drives a car”: 妈妈＿车。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "开"
+        },
+        {
+          "id": "o2",
+          "text": "看"
+        },
+        {
+          "id": "o3",
+          "text": "吃"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "开车 means drive a car.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0138"
+      ],
+      "entryIds": [
+        "e-p0023-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-008",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the meaning.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "white"
+        },
+        {
+          "id": "o2",
+          "text": "north"
+        },
+        {
+          "id": "o3",
+          "text": "tea"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "白 means white.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0031"
+      ],
+      "entryIds": [
+        "e-p0023-031"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      },
+      "speechTarget": "白"
+    }
+  ]
+}

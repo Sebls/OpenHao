@@ -1,0 +1,198 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does the component 禾 relate to?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-001-o1",
+          "text": "grain crops"
+        },
+        {
+          "id": "q-p0001-001-o2",
+          "text": "water"
+        },
+        {
+          "id": "q-p0001-001-o3",
+          "text": "speech"
+        }
+      ],
+      "correctOptionId": "q-p0001-001-o1",
+      "explanation": "禾 hé is the grain or cereal component. It does not always determine the meaning of the whole character.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0026"
+      ],
+      "entryIds": [
+        "e-p0001-0025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose the character meaning moon or month.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-002-o1",
+          "text": "月"
+        },
+        {
+          "id": "q-p0001-002-o2",
+          "text": "禾"
+        },
+        {
+          "id": "q-p0001-002-o3",
+          "text": "日"
+        }
+      ],
+      "correctOptionId": "q-p0001-002-o1",
+      "explanation": "月 yuè means moon or month. The same shape can represent the historical flesh component in some characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0019"
+      ],
+      "entryIds": [
+        "e-p0001-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written character means he or him?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-003-o1",
+          "text": "他"
+        },
+        {
+          "id": "q-p0001-003-o2",
+          "text": "她"
+        },
+        {
+          "id": "q-p0001-003-o3",
+          "text": "也"
+        }
+      ],
+      "correctOptionId": "q-p0001-003-o1",
+      "explanation": "他 and 她 both sound tā, but 他 is he/him and 她 is she/her.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0010"
+      ],
+      "entryIds": [
+        "e-p0001-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does sentence-final 吗 usually do?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-004-o1",
+          "text": "makes a yes/no question"
+        },
+        {
+          "id": "q-p0001-004-o2",
+          "text": "makes a noun plural"
+        },
+        {
+          "id": "q-p0001-004-o3",
+          "text": "marks past tense"
+        }
+      ],
+      "correctOptionId": "q-p0001-004-o1",
+      "explanation": "The neutral particle 吗 turns a statement into a yes/no question.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0015"
+      ],
+      "entryIds": [
+        "e-p0001-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which character do you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-005-o1",
+          "text": "这"
+        },
+        {
+          "id": "q-p0001-005-o2",
+          "text": "月"
+        },
+        {
+          "id": "q-p0001-005-o3",
+          "text": "禾"
+        }
+      ],
+      "correctOptionId": "q-p0001-005-o1",
+      "explanation": "The target is 这 zhè, this.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      },
+      "speechTarget": "这"
+    }
+  ]
+}

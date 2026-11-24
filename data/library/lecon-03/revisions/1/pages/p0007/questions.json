@@ -1,0 +1,388 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0007-001",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 法院 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "court of law"
+        },
+        {
+          "id": "o2",
+          "text": "judge"
+        },
+        {
+          "id": "o3",
+          "text": "constitution"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "法院 names the institution; 法官 is judge and 宪法 is constitution.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0076"
+      ],
+      "entryIds": [
+        "e-p0007-0070"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-002",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means headscarf?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "头巾"
+        },
+        {
+          "id": "o2",
+          "text": "头发"
+        },
+        {
+          "id": "o3",
+          "text": "同学"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "头巾 tóujīn means headscarf; 头发 means hair.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0091"
+      ],
+      "entryIds": [
+        "e-p0007-0082"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-003",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the character meaning harsh or severe.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "苛"
+        },
+        {
+          "id": "o2",
+          "text": "哥"
+        },
+        {
+          "id": "o3",
+          "text": "可"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "苛 kē contains the grass component above 可.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0071"
+      ],
+      "entryIds": [
+        "e-p0007-0065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-004",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Where did the speaker meet the old schoolmate?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "beside the well"
+        },
+        {
+          "id": "o2",
+          "text": "at the university"
+        },
+        {
+          "id": "o3",
+          "text": "in a court of law"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "在水井旁边 gives the location: beside the well.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0007"
+      ],
+      "entryIds": [
+        "e-p0007-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-005",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Where is the black mole?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "on the left side of her chin"
+        },
+        {
+          "id": "o2",
+          "text": "on her right hand"
+        },
+        {
+          "id": "o3",
+          "text": "on her forehead"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "下巴 is chin; 左边 means left side.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0029"
+      ],
+      "entryIds": [
+        "e-p0007-0029"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-006",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 左右 mean after the number?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "approximately"
+        },
+        {
+          "id": "o2",
+          "text": "on the left side"
+        },
+        {
+          "id": "o3",
+          "text": "on the right side"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "After a number, 左右 means about or approximately.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0044"
+      ],
+      "entryIds": [
+        "e-p0007-0042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-007",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Who is 拿破仑?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Napoleon"
+        },
+        {
+          "id": "o2",
+          "text": "Charles de Gaulle"
+        },
+        {
+          "id": "o3",
+          "text": "André Martin"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "拿破仑 Nápòlún is the established Chinese transcription of Napoleon.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0103"
+      ],
+      "entryIds": [
+        "e-p0007-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-008",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which place is 枫丹白露?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Fontainebleau"
+        },
+        {
+          "id": "o2",
+          "text": "Paris"
+        },
+        {
+          "id": "o3",
+          "text": "Xi’an"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "枫丹白露 is the established Chinese name Fontainebleau; keep it as a place name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0111"
+      ],
+      "entryIds": [
+        "e-p0007-0095"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-009",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which literary title is 悭吝人?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "The Miser"
+        },
+        {
+          "id": "o2",
+          "text": "The Red and the Black"
+        },
+        {
+          "id": "o3",
+          "text": "The Lady of the Camellias"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "悭吝人 is The Miser, Molière’s play L’Avare. The source’s grouping as novels is imprecise.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0133"
+      ],
+      "entryIds": [
+        "e-p0007-0111"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-010",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "法"
+        },
+        {
+          "id": "o2",
+          "text": "官"
+        },
+        {
+          "id": "o3",
+          "text": "院"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "法 is fǎ; the other choices are guān and yuàn.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0074"
+      ],
+      "entryIds": [
+        "e-p0007-0068"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "法"
+    }
+  ]
+}

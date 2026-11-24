@@ -1,0 +1,351 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 鱼汤 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-001-o1",
+          "text": "fish soup"
+        },
+        {
+          "id": "q-p0006-001-o2",
+          "text": "fish head"
+        },
+        {
+          "id": "q-p0006-001-o3",
+          "text": "locomotive"
+        }
+      ],
+      "correctOptionId": "q-p0006-001-o1",
+      "explanation": "鱼 is fish and 汤 is soup.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0029"
+      ],
+      "entryIds": [
+        "e-p0006-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose girlfriend in the description under the memento.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-002-o1",
+          "text": "女朋友"
+        },
+        {
+          "id": "q-p0006-002-o2",
+          "text": "男朋友"
+        },
+        {
+          "id": "q-p0006-002-o3",
+          "text": "工程师"
+        }
+      ],
+      "correctOptionId": "q-p0006-002-o1",
+      "explanation": "女朋友 identifies the speaker’s girlfriend in this description.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0140"
+      ],
+      "entryIds": [
+        "e-p0006-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means do or make in this lesson?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-003-o1",
+          "text": "作"
+        },
+        {
+          "id": "q-p0006-003-o2",
+          "text": "坐"
+        },
+        {
+          "id": "q-p0006-003-o3",
+          "text": "昨"
+        }
+      ],
+      "correctOptionId": "q-p0006-003-o1",
+      "explanation": "工作 is written with 作. 坐 is a different character meaning sit.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0054"
+      ],
+      "entryIds": [
+        "e-p0006-0031"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is the woman’s name?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-004-o1",
+          "text": "Wang Guoyu"
+        },
+        {
+          "id": "q-p0006-004-o2",
+          "text": "Wang You"
+        },
+        {
+          "id": "q-p0006-004-o3",
+          "text": "Tian Xi"
+        }
+      ],
+      "correctOptionId": "q-p0006-004-o1",
+      "explanation": "王国玉 is a personal name with the family name Wang first.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0144"
+      ],
+      "entryIds": [
+        "e-p0006-0078"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Which statement matches the source?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-005-o1",
+          "text": "She can speak French and studies Japanese."
+        },
+        {
+          "id": "q-p0006-005-o2",
+          "text": "She can speak Japanese and studies French."
+        },
+        {
+          "id": "q-p0006-005-o3",
+          "text": "She studies English and does not speak French."
+        }
+      ],
+      "correctOptionId": "q-p0006-005-o1",
+      "explanation": "会说法文 is can speak French; 学习日文 is studies Japanese.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0165"
+      ],
+      "entryIds": [
+        "e-p0006-0083"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-006",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 他不工作。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-006-o1",
+          "text": "He does not work."
+        },
+        {
+          "id": "q-p0006-006-o2",
+          "text": "He is not an engineer."
+        },
+        {
+          "id": "q-p0006-006-o3",
+          "text": "He cannot speak."
+        }
+      ],
+      "correctOptionId": "q-p0006-006-o1",
+      "explanation": "不 negates 工作, work. No occupation is named.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0050"
+      ],
+      "entryIds": [
+        "e-p0006-0028"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-007",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the printed gap exercise: 这是火车 __ 。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-007-o1",
+          "text": "头"
+        },
+        {
+          "id": "q-p0006-007-o2",
+          "text": "天"
+        },
+        {
+          "id": "q-p0006-007-o3",
+          "text": "大"
+        }
+      ],
+      "correctOptionId": "q-p0006-007-o1",
+      "explanation": "火车头 means locomotive. The visible choices contrast similar written shapes.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0284",
+        "a-p0006-0281"
+      ],
+      "entryIds": [
+        "e-p0006-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-008",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Where is 也 placed in this question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-008-o1",
+          "text": "after the subject 她 and before 是"
+        },
+        {
+          "id": "q-p0006-008-o2",
+          "text": "after the final question particle"
+        },
+        {
+          "id": "q-p0006-008-o3",
+          "text": "inside the noun 朋友"
+        }
+      ],
+      "correctOptionId": "q-p0006-008-o1",
+      "explanation": "也 follows the subject and precedes the verb: 她也是… .",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0062"
+      ],
+      "entryIds": [
+        "e-p0006-0038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-009",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Choose the phrase you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-009-o1",
+          "text": "鱼头"
+        },
+        {
+          "id": "q-p0006-009-o2",
+          "text": "鱼汤"
+        },
+        {
+          "id": "q-p0006-009-o3",
+          "text": "木头"
+        }
+      ],
+      "correctOptionId": "q-p0006-009-o1",
+      "explanation": "The target is 鱼头 yú tóu, fish head.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      },
+      "speechTarget": "鱼头"
+    }
+  ]
+}

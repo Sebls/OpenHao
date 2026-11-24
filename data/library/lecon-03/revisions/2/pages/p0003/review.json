@@ -1,0 +1,67 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "textSha256": "499058e0820ae571ec2513adcff5d6b44e5a4a16a14012ee77d6325aceaaf9b8",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, separate self-review after authoring; not human or independent review",
+  "reviewedAt": "2026-11-24T09:30:24.187517+00:00",
+  "checks": [
+    "Compared every requested source image with OCR, main Chinese reading, vocabulary, illustration labels, tracing and component roles.",
+    "Corrected unpublished OCR with original individual OCR geometry or separately measured missing glyph boxes; rebuilt Unicode code-point offsets and containment.",
+    "Separate linguistic review checked tone changes on 不, neutral suffixes, 大夫 dàifu, 相片 xiàngpiàn, 买卖 mǎimai, 容易 róngyì, names/title order and natural English translations.",
+    "Separate question review checked each answer and distractor, ambiguity, selected-page source scope, stable IDs, explanation and audio gating.",
+    "Character lists and confusion exercises are not treated as compounds merely because adjacent glyphs resemble a word. No answers to open blanks are guessed.",
+    "Source-linked SVG diagnostics regenerated after final extraction repairs; inspected at page scale and enlarged vocabulary/tracing/grid scale. Browser review follows first validated publication."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 3; reviewed learning content with partial reference OCR. No coverage percentage is claimed.",
+    "roles": "Written and oral vocabulary, legible full characters in the source notes, and all 18 numbered exercises (20 sentence units).",
+    "transcriptCodePoints": 1492,
+    "locatedRecords": 1254,
+    "manualCharacterBoxes": 18,
+    "learningLines": 56,
+    "entries": 150,
+    "entriesByKind": {
+      "word": 41,
+      "character": 89,
+      "sentence": 20
+    },
+    "occurrences": 320,
+    "reviewedIPAEntries": 84,
+    "entriesWithoutReviewedIPA": 66,
+    "questions": 11,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 0,
+    "multilineNote": "Wrapped sentences on page 4 and page 6; vertical grid words use one real glyph anchor per cell on page 6. Not applicable where count is zero."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0003",
+      "reason": "Reference OCR is partial or uncertain for faint tracing repeats, historical/stroke drawings, small French/pinyin text and mixed-script quotation discussion. Only designated visually checked learning regions are enriched; OCR completeness is not claimed.",
+      "nextAction": "Consult the unchanged original for reference-only regions. Do not treat unreviewed reference OCR fragments as vocabulary."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0003",
+      "reason": "66 entries have no reviewed IPA, especially sentence/name, rhotic or contextual-neutral forms. Reviewed pinyin remains available.",
+      "nextAction": "Keep IPA absent until that exact reading can be reviewed."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0003",
+      "reason": "Listening requires successful local browser playback. Disconnected audibility is not independently verified.",
+      "nextAction": "Runtime listening eligibility remains gated by completed local playback."
+    }
+  ]
+}

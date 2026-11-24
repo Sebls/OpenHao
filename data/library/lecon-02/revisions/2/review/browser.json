@@ -1,0 +1,24 @@
+{
+  "documentId": "lecon-02",
+  "reviewer": "Codex agent self-review; no human or independent review claimed",
+  "reviewedAt": "2026-11-24T09:10:53.445382+00:00",
+  "browser": "Codex in-app browser",
+  "url": "http://localhost:4173",
+  "observations": [
+    "Catalog lists all seven pages as Ready to study.",
+    "Original scanned pages render; character, word and two-line sentence overlays inspected at fit width and 150% page size.",
+    "Character 这 displays English meaning, tone-mark pinyin and IPA.",
+    "名片 displays business-card meaning, pinyin, IPA and constituent characters.",
+    "Selected multiline question 你妈妈作什么工作？ yields exactly its one source-bound grammar question.",
+    "Correct choice the kind of job produces Correct and the prepared explanation. See original context returns to page 5 with selection and page-size state retained.",
+    "Local pronunciation of 这 progressed Playing -> Finished. This does not independently verify audible offline operation.",
+    "Corrected isolated 友 on p0001 and neutral 字 in 名字 on p0003/p0005 by scoped entry repairs."
+  ],
+  "limitations": [
+    "One isolated p0005 reference-transcript reading-order defect remains and is disclosed in page review; the unchanged scan is authoritative. No incorrect full-sentence teaching unit was generated from the fragment.",
+    "Faint traditional oral vocabulary, repeated tracing models, historical shapes, small French/pinyin reference text remain partial OCR.",
+    "Some manual grid rectangles are conservative ink bounds; edge strokes can extend beyond a rectangle, but each maps to its own visible source glyph.",
+    "381 entries include reviewed IPA; the remaining 231 retain pinyin without unreviewed IPA.",
+    "This is a content review of representative affected flows, not exhaustive UI or disconnected audio acceptance."
+  ]
+}

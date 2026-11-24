@@ -1,0 +1,79 @@
+{
+  "documentId": "lecon-00-histoire-caracteres",
+  "pageId": "p0010",
+  "extractionRevision": 1,
+  "textSha256": "8141df8ea870671f03c2c2002d8097896d0df648d33bb0a060e892150e5e65ba",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex — separate self-review pass, no human or independent reviewer",
+  "checks": [
+    "Compared all five selected rendered scans with OCR output; located missing whole-character examples manually before freezing revision 1.",
+    "Reviewed selected whole-character boxes, source quotes, role classification and page-local Unicode code-point anchors.",
+    "Reviewed polyphonic 种 zhòng, 看 kàn, 长 cháng and source-dependent readings; neutral syllable in 妈妈; 不 before 吃.",
+    "Reviewed city names and personal name 白木勺 as names; checked natural English sentence translations.",
+    "Reviewed all question choices for exactly one defensible answer, scope and source references.",
+    "Listening questions require successful local playback at runtime; disconnected audibility is not claimed.",
+    "Final pronunciation-note correction: 女人 agrees with displayed nǚrén; standalone 妈 mā is distinguished from neutral second syllable in māma. Stable IDs and source extraction preserved."
+  ],
+  "coverage": {
+    "physicalPage": 10,
+    "transcriptCodePoints": 1578,
+    "characterGeometryRecords": 1382,
+    "reviewedLearningEntries": 43,
+    "reviewedOccurrences": 82,
+    "reviewedQuestions": 6,
+    "entriesWithReviewedIPA": 28,
+    "roles": {
+      "learning": "Whole characters, exercise phrases and complete reading sentences that could be visually verified.",
+      "instructions": "French source instructions retained as OCR text; not translated into invented Chinese learning targets.",
+      "diagrams": "Full selected glyphs only; intermediate stroke stages and faint tracing copies excluded.",
+      "headerFooter": "Retained as OCR, not learning targets."
+    },
+    "scope": "Requested physical pages only. Counts describe authored records, not a percentage of all visible glyphs. Partial extraction/annotation coverage is explicit."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0010",
+      "reason": "Handwritten intermediate stroke fragments, small source pinyin/French labels and faint repeated tracing models are imperfectly recovered by OCR. These regions are not learning targets; the unchanged source remains authoritative.",
+      "nextAction": "Use source.png/PDF for these regions. A later explicitly scoped extraction correction can transcribe them more completely."
+    },
+    {
+      "severity": "info",
+      "recordIds": [
+        "e-p0010-001",
+        "e-p0010-002",
+        "e-p0010-028",
+        "e-p0010-029",
+        "e-p0010-030",
+        "e-p0010-031",
+        "e-p0010-032",
+        "e-p0010-033",
+        "e-p0010-034",
+        "e-p0010-036",
+        "e-p0010-037",
+        "e-p0010-038",
+        "e-p0010-039",
+        "e-p0010-040",
+        "e-p0010-043"
+      ],
+      "reason": "Reviewed IPA is not available for these entries; tone-mark pinyin is available.",
+      "nextAction": "Add IPA only after a targeted linguistic review; no inferred IPA is displayed."
+    }
+  ],
+  "browserReview": {
+    "environment": "Codex in-app browser, localhost:4173",
+    "observed": [
+      "Catalog exposes ready physical pages 10,12,23,26; French-only page27 remains reference-only.",
+      "Page10 word details and constituent buttons work.",
+      "Page26 complete sentence highlight aligns with original scan; four sentence details are discoverable.",
+      "Page26 practice correct-answer feedback and return-to-source work.",
+      "Page23 character list, IPA and local Mandarin speech work; local Eddy voice reported Finished."
+    ],
+    "limitations": [
+      "Actual disconnected audibility not independently confirmed.",
+      "No multiline Chinese learning sentence occurs among these selected pages; multiline overlay not applicable.",
+      "Source OCR gaps in stroke fragments and faint tracing copies remain explicitly excluded."
+    ]
+  }
+}

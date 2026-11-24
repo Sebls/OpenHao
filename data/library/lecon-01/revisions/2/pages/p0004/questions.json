@@ -1,0 +1,212 @@
+{
+  "documentId": "lecon-01",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 工廠 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-001-o1",
+          "text": "factory"
+        },
+        {
+          "id": "q-p0004-001-o2",
+          "text": "worker"
+        },
+        {
+          "id": "q-p0004-001-o3",
+          "text": "jade"
+        }
+      ],
+      "correctOptionId": "q-p0004-001-o1",
+      "explanation": "工廠 is the traditional spelling of 工厂, factory.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0019"
+      ],
+      "entryIds": [
+        "e-p0004-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose school in traditional characters.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-002-o1",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-002-o2",
+          "text": "文學"
+        },
+        {
+          "id": "q-p0004-002-o3",
+          "text": "工廠"
+        }
+      ],
+      "correctOptionId": "q-p0004-002-o1",
+      "explanation": "學校 xuéxiào means school; 文學 means literature.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which is the traditional character for country?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-003-o1",
+          "text": "國"
+        },
+        {
+          "id": "q-p0004-003-o2",
+          "text": "園"
+        },
+        {
+          "id": "q-p0004-003-o3",
+          "text": "回"
+        }
+      ],
+      "correctOptionId": "q-p0004-003-o1",
+      "explanation": "國 is country; its simplified form is 国.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0056"
+      ],
+      "entryIds": [
+        "e-p0004-0039"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我們不吃魚。 say?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-004-o1",
+          "text": "We do not eat fish."
+        },
+        {
+          "id": "q-p0004-004-o2",
+          "text": "We do not grow tea."
+        },
+        {
+          "id": "q-p0004-004-o3",
+          "text": "We are not from Beijing."
+        }
+      ],
+      "correctOptionId": "q-p0004-004-o1",
+      "explanation": "我們 is we, 不 negates 吃 (eat), and 魚 is fish.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0084"
+      ],
+      "entryIds": [
+        "e-p0004-0051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 們 add in 我們?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-005-o1",
+          "text": "plural meaning for the pronoun"
+        },
+        {
+          "id": "q-p0004-005-o2",
+          "text": "past tense"
+        },
+        {
+          "id": "q-p0004-005-o3",
+          "text": "a question"
+        }
+      ],
+      "correctOptionId": "q-p0004-005-o1",
+      "explanation": "們 is the traditional form of 们. 我們 means we/us.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0043"
+      ],
+      "entryIds": [
+        "e-p0004-0034"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which traditional word matches?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-006-o1",
+          "text": "文學"
+        },
+        {
+          "id": "q-p0004-006-o2",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-006-o3",
+          "text": "工廠"
+        }
+      ],
+      "correctOptionId": "q-p0004-006-o1",
+      "explanation": "The target is 文學 wénxué, literature.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "文學"
+    }
+  ]
+}

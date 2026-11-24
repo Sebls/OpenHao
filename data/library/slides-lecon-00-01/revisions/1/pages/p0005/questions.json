@@ -1,0 +1,253 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 大夫 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Doctor"
+        },
+        {
+          "id": "o1",
+          "text": "Factory"
+        },
+        {
+          "id": "o2",
+          "text": "Notebook"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "大夫 (dàifu) means “doctor / physician.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 本子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Notebook"
+        },
+        {
+          "id": "o1",
+          "text": "Older brother"
+        },
+        {
+          "id": "o2",
+          "text": "Literature"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "本子 (běnzi) means “notebook / exercise book.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-037"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means “factory”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "工厂"
+        },
+        {
+          "id": "o1",
+          "text": "学校"
+        },
+        {
+          "id": "o2",
+          "text": "工人"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "工厂 (gōngchǎng) means “factory”; 学校 is school and 工人 is worker.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-041"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means “who”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "谁"
+        },
+        {
+          "id": "o1",
+          "text": "这"
+        },
+        {
+          "id": "o2",
+          "text": "那"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "谁 (shéi) means “who”; 这 is this and 那 is that.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means “not”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "不"
+        },
+        {
+          "id": "o1",
+          "text": "是"
+        },
+        {
+          "id": "o2",
+          "text": "玉"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "不 (bù) is the negation word “not”; 是 is to be and 玉 is jade.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-053"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How is 的 used after a pronoun such as 我 (I)?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "It shows possession, like “my”."
+        },
+        {
+          "id": "o1",
+          "text": "It turns a sentence into a yes/no question."
+        },
+        {
+          "id": "o2",
+          "text": "It marks past tense."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "的 attaches after a pronoun or noun to mark possession or modification, as in 我的本子 (“my notebook”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which question word did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "What"
+        },
+        {
+          "id": "o1",
+          "text": "Who"
+        },
+        {
+          "id": "o2",
+          "text": "Not"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The spoken word is 什么 (shénme), “what.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-054"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "什么"
+    }
+  ]
+}

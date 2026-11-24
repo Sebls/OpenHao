@@ -1,0 +1,33 @@
+{
+  "documentId": "slides-lecon-02",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "78e2cbf9a58365e54daf8521c35e02ed5bef0d3d34c515d1bc5657df29a6e9a9",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, source visual comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "full slide",
+      "pageId": "p0001",
+      "reason": "Leçon 2 is a French title-only cover slide with 0 Chinese learning units; kept non-ready as extracted.",
+      "nextAction": "No Chinese authoring required unless Chinese cover content is added later."
+    }
+  ],
+  "checks": [
+    "Compared p0001 source.png visually against text.txt ('Leçon 2')",
+    "Classified line l0001 role as heading without altering geometry or text",
+    "Verified 0 Hanzi and 0 Chinese learning units; left page state as extracted"
+  ],
+  "coverage": {
+    "embeddedCharacters": 7,
+    "chineseCharacters": 0,
+    "annotatedOccurrences": 0,
+    "entries": 0,
+    "reviewedQuestions": 0,
+    "extractionScope": "Physical page 1 of 4 (cover slide)",
+    "annotationScope": "None; French title-only cover slide excluded from Chinese study"
+  }
+}

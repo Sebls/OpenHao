@@ -1,0 +1,236 @@
+{
+  "documentId": "lecon-00-histoire-caracteres",
+  "pageId": "p0012",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0012-001",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What meaning is shown for 明?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "bright; clear"
+        },
+        {
+          "id": "o2",
+          "text": "male"
+        },
+        {
+          "id": "o3",
+          "text": "rest"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The source gloss is clarity; 明 means bright or clear.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0052"
+      ],
+      "entryIds": [
+        "e-p0012-047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0012-002",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose the character meaning “rest”.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "休"
+        },
+        {
+          "id": "o2",
+          "text": "男"
+        },
+        {
+          "id": "o3",
+          "text": "泪"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "休 means rest.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0041"
+      ],
+      "entryIds": [
+        "e-p0012-037"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0012-003",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means a grove or woods?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "林"
+        },
+        {
+          "id": "o2",
+          "text": "明"
+        },
+        {
+          "id": "o3",
+          "text": "拿"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "林 is woods or a grove; its two 木 components are visible on the source page.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0013"
+      ],
+      "entryIds": [
+        "e-p0012-013"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0012-004",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 泪 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "treasure"
+        },
+        {
+          "id": "o2",
+          "text": "a tear from the eye"
+        },
+        {
+          "id": "o3",
+          "text": "dust"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "泪 means a tear; the table shows the water component with 目, eye.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0047"
+      ],
+      "entryIds": [
+        "e-p0012-042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0012-005",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the source’s 妈 = 女 + 马 example, which component provides a sound clue?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "马"
+        },
+        {
+          "id": "o2",
+          "text": "女"
+        },
+        {
+          "id": "o3",
+          "text": "Both mean mother"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "马 mǎ provides a sound clue for 妈 mā. A phonetic component need not preserve the same tone.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0042"
+      ],
+      "entryIds": [
+        "e-p0012-038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0012-006",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the meaning.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "hand"
+        },
+        {
+          "id": "o2",
+          "text": "eye"
+        },
+        {
+          "id": "o3",
+          "text": "moon"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "手 means hand.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0020"
+      ],
+      "entryIds": [
+        "e-p0012-020"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      },
+      "speechTarget": "手"
+    }
+  ]
+}

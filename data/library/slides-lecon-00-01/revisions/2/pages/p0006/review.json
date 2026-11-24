@@ -1,0 +1,34 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "textSha256": "c365f9be49f8cea7d2ff6217c7b875d9d1da98449e6138bdd2f5a10142d6a944",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, source visual comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "reason": "Sentence-level IPA is omitted on the 12 Q&A sentence entries; reviewed pinyin, English meanings, and word/character IPA cover all items.",
+      "nextAction": "Use the reviewed word and character IPA; add sentence-level IPA only after dedicated prosodic review."
+    }
+  ],
+  "checks": [
+    "Compared source.png visually against text.txt and layout.json across all 6 Q&A pairs",
+    "Classified French header as heading and Q&A lines as dialogue",
+    "Reviewed proper name 小山 ('Xiaoshan'), possessive 我的, question-word placement (什么), and half-third tone in 小山/本子",
+    "Verified constituentIds from sentences -> words -> characters",
+    "Reviewed all 7 single-choice questions across all 7 categories, scoping listening question q-p0006-007 to 我爱吃羊肉。 for single-sentence and page practice compatibility"
+  ],
+  "coverage": {
+    "embeddedCharacters": 100,
+    "hanziCharacters": 58,
+    "annotatedOccurrences": 114,
+    "entries": 60,
+    "sentences": 12,
+    "reviewedQuestions": 7,
+    "extractionScope": "Physical page 6 complete embedded Unicode text",
+    "annotationScope": "All 12 Q&A sentences, 44 word occurrences, and 58 Hanzi occurrences; French heading and bullet markers excluded"
+  }
+}

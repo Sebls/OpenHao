@@ -1,0 +1,93 @@
+{
+  "documentId": "lecon-01",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "textSha256": "06491dbf6a5c190efdfec8baa7989fbf8c885554c136adfb2a8942fe59d5e03d",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex — separate source/linguistic/question self-review pass; no independent or human review claimed",
+  "checks": [
+    "Compared each requested rendered source with transcript, classified line roles, isolated stroke-stage and low-contrast OCR uncertainty.",
+    "Reviewed principal characters and exact source-form anchors, separate repeated occurrences and traditional spellings; manual boxes measured on source render.",
+    "Reviewed 大夫 dàifu, neutral 子/们/的/哥哥/妈妈/爱人/木头, contextual 不 bú before 是/认识, 种 zhòng and 看 kàn.",
+    "Reviewed personal names, family-name-first order, 田中书 as a name, English sentence meanings and the proverb.",
+    "Reviewed all question prompts, single correct option IDs, non-equivalent distractors, explanations and page-scoped source references.",
+    "Reviewed diagnostic geometry at reduced and enlarged sizes; main glyphs, word spans and page-5 multiline sentence use genuine OCR or individually measured character geometry.",
+    "Listening uses browser local speech and remains gated by successful playback; disconnected audibility is not established by source review."
+  ],
+  "coverage": {
+    "physicalPage": 4,
+    "transcriptCodePoints": 976,
+    "characterGeometryRecords": 736,
+    "reviewedLearningEntries": 95,
+    "reviewedOccurrences": 193,
+    "reviewedQuestions": 6,
+    "entriesWithReviewedIPA": 67,
+    "entriesWithoutIPA": 28,
+    "entryKinds": {
+      "word": 23,
+      "character": 53,
+      "sentence": 18,
+      "expression": 1
+    },
+    "lineRoleCounts": {
+      "instructions-or-reference-ocr": 47,
+      "learning-vocabulary": 13,
+      "learning-reading": 13,
+      "tracing-reference-ocr": 31,
+      "learning-tracing-model": 17
+    },
+    "reviewedAnchoredCharacterIds": 151,
+    "multilineAnchors": "Not applicable: prepared source units on this page use one printed line.",
+    "scope": "All seven requested physical pages. Counts are authored records, not percentages of all visible glyphs. Source/OCR and annotation coverage are distinct."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0004",
+      "reason": "Partial OCR/reference coverage: historical shapes, partial stroke diagrams, small French text and printed pinyin can contain recognition errors or omissions. These are reference material, not reviewed linguistic units.",
+      "nextAction": "Use the unchanged original scan for diagrams, instructions and low-confidence transcript text."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0004",
+      "recordIds": [
+        "e-p0004-0014",
+        "e-p0004-0017",
+        "e-p0004-0030",
+        "e-p0004-0033",
+        "e-p0004-0034",
+        "e-p0004-0035",
+        "e-p0004-0036",
+        "e-p0004-0042",
+        "e-p0004-0043",
+        "e-p0004-0047",
+        "e-p0004-0048",
+        "e-p0004-0051",
+        "e-p0004-0056",
+        "e-p0004-0058",
+        "e-p0004-0063",
+        "e-p0004-0064",
+        "e-p0004-0068",
+        "e-p0004-0069",
+        "e-p0004-0070",
+        "e-p0004-0072",
+        "e-p0004-0073",
+        "e-p0004-0075",
+        "e-p0004-0076",
+        "e-p0004-0079",
+        "e-p0004-0080",
+        "e-p0004-0082",
+        "e-p0004-0086",
+        "e-p0004-0087"
+      ],
+      "reason": "28 entries have no sufficiently reviewed matching IPA, including sentences and proper names. Pinyin and English remain available.",
+      "nextAction": "Leave IPA omitted until the exact reading and context can be reviewed; never substitute pinyin into an IPA field."
+    },
+    {
+      "severity": "warning",
+      "reason": "Traditional-character reading sentences and principal dark tracing models are prepared. Several faint oral-vocabulary cells and the repeated grey tracing copies remain incomplete in OCR and have no learning annotations.",
+      "nextAction": "Read those cells from the original page; use prepared equivalent vocabulary and the principal models."
+    }
+  ]
+}

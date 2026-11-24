@@ -1,0 +1,314 @@
+{
+  "documentId": "lecon-01",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0007-001",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 国王 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-001-o1",
+          "text": "king"
+        },
+        {
+          "id": "q-p0007-001-o2",
+          "text": "kingdom"
+        },
+        {
+          "id": "q-p0007-001-o3",
+          "text": "country"
+        }
+      ],
+      "correctOptionId": "q-p0007-001-o1",
+      "explanation": "国王 is king; reversing the characters gives 王国, kingdom.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0104"
+      ],
+      "entryIds": [
+        "e-p0007-0065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-002",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose kingdom.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-002-o1",
+          "text": "王国"
+        },
+        {
+          "id": "q-p0007-002-o2",
+          "text": "国王"
+        },
+        {
+          "id": "q-p0007-002-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0007-002-o1",
+      "explanation": "王国 wángguó means kingdom. Character order changes the word.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0107"
+      ],
+      "entryIds": [
+        "e-p0007-0066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-003",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means water?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-003-o1",
+          "text": "水"
+        },
+        {
+          "id": "q-p0007-003-o2",
+          "text": "手"
+        },
+        {
+          "id": "q-p0007-003-o3",
+          "text": "木"
+        }
+      ],
+      "correctOptionId": "q-p0007-003-o1",
+      "explanation": "水 shuǐ is water; 手 shǒu is hand. The dialogue contrasts them.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0059"
+      ],
+      "entryIds": [
+        "e-p0007-0043"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-004",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is his occupation in 他是农民。?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-004-o1",
+          "text": "farmer"
+        },
+        {
+          "id": "q-p0007-004-o2",
+          "text": "doctor"
+        },
+        {
+          "id": "q-p0007-004-o3",
+          "text": "carpenter"
+        }
+      ],
+      "correctOptionId": "q-p0007-004-o1",
+      "explanation": "农民 nóngmín means farmer.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0090"
+      ],
+      "entryIds": [
+        "e-p0007-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-005",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Who does not know the speaker?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-005-o1",
+          "text": "a group of women or girls"
+        },
+        {
+          "id": "q-p0007-005-o2",
+          "text": "one man"
+        },
+        {
+          "id": "q-p0007-005-o3",
+          "text": "the speaker’s mother alone"
+        }
+      ],
+      "correctOptionId": "q-p0007-005-o1",
+      "explanation": "她们 refers to a female group; 不认识我 means do not know me.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0097"
+      ],
+      "entryIds": [
+        "e-p0007-0061"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-006",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Which interpretation matches the proverb?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-006-o1",
+          "text": "The powerful prey on those weaker than themselves."
+        },
+        {
+          "id": "q-p0007-006-o2",
+          "text": "Everyone eats the same food."
+        },
+        {
+          "id": "q-p0007-006-o3",
+          "text": "Small fish are always safe from bigger fish."
+        }
+      ],
+      "correctOptionId": "q-p0007-006-o1",
+      "explanation": "The food-chain image compares unequal power: big fish eat small fish, which eat tiny shrimp.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0144"
+      ],
+      "entryIds": [
+        "e-p0007-0083"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-007",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Why do 国王 and 王国 have different meanings?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-007-o1",
+          "text": "their character order is different"
+        },
+        {
+          "id": "q-p0007-007-o2",
+          "text": "one is plural"
+        },
+        {
+          "id": "q-p0007-007-o3",
+          "text": "one is past tense"
+        }
+      ],
+      "correctOptionId": "q-p0007-007-o1",
+      "explanation": "国王 means king; 王国 means kingdom. The order of the components matters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0104"
+      ],
+      "entryIds": [
+        "e-p0007-0065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-008",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "How should 王小青 be treated in translation?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-008-o1",
+          "text": "a personal name: Wang Xiaoqing"
+        },
+        {
+          "id": "q-p0007-008-o2",
+          "text": "a phrase meaning king small green"
+        },
+        {
+          "id": "q-p0007-008-o3",
+          "text": "a country name"
+        }
+      ],
+      "correctOptionId": "q-p0007-008-o1",
+      "explanation": "王 is the family name; 小青 is the given name. Keep the name rather than translating each character.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0128"
+      ],
+      "entryIds": [
+        "e-p0007-0069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-009",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Choose the word you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-009-o1",
+          "text": "王国"
+        },
+        {
+          "id": "q-p0007-009-o2",
+          "text": "国王"
+        },
+        {
+          "id": "q-p0007-009-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0007-009-o1",
+      "explanation": "The target is 王国 wángguó, kingdom.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0107"
+      ],
+      "entryIds": [
+        "e-p0007-0066"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "王国"
+    }
+  ]
+}

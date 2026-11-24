@@ -1,0 +1,274 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 买卖 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "business; trade"
+        },
+        {
+          "id": "o2",
+          "text": "literature"
+        },
+        {
+          "id": "o3",
+          "text": "notebook"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "买卖 (mǎimai) literally combines 买 (buy) and 卖 (sell) to mean business or trade.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0011"
+      ],
+      "entryIds": [
+        "e-p0003-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means 'traditional'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "传统"
+        },
+        {
+          "id": "o2",
+          "text": "音乐"
+        },
+        {
+          "id": "o3",
+          "text": "工作"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "传统 (chuántǒng) means tradition or traditional.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0031"
+      ],
+      "entryIds": [
+        "e-p0003-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In passage ②, which languages can Yamamoto speak?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Japanese and Chinese"
+        },
+        {
+          "id": "o2",
+          "text": "English and French"
+        },
+        {
+          "id": "o3",
+          "text": "Chinese and French"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The text states: 只会说日文和中文 (he can only speak Japanese and Chinese).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How is 有 (to have) negated in '可是我没有刀子'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没有"
+        },
+        {
+          "id": "o2",
+          "text": "不有"
+        },
+        {
+          "id": "o3",
+          "text": "还不是"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有 is always negated with 没 (没有), never with 不.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0018"
+      ],
+      "entryIds": [
+        "e-p0003-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choose the word that means 'how many': 你想买___本子？",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "多少"
+        },
+        {
+          "id": "o2",
+          "text": "常常"
+        },
+        {
+          "id": "o3",
+          "text": "传统"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "多少 (duōshao) asks 'how many' or 'how much'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0023"
+      ],
+      "entryIds": [
+        "e-p0003-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means 'to write'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "写"
+        },
+        {
+          "id": "o2",
+          "text": "画"
+        },
+        {
+          "id": "o3",
+          "text": "学"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "写 (xiě) means to write, as in 写汉字.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0029"
+      ],
+      "entryIds": [
+        "e-p0003-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "田老师常常去法国。"
+        },
+        {
+          "id": "o2",
+          "text": "我很饿，可是我没有刀子。"
+        },
+        {
+          "id": "o3",
+          "text": "王大夫有很多工作。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "田老师常常去法国 means 'Teacher Tian often goes to France.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0015"
+      ],
+      "entryIds": [
+        "e-p0003-0026"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "田老师常常去法国。"
+    }
+  ]
+}

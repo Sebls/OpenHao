@@ -1,0 +1,36 @@
+{
+  "documentId": "slides-lecon-02",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "267e549efd33b40aafde24bb1edcd0fdb6737453b6f466543b92e7297d6bf1bb",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, source visual comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "French slide heading",
+      "pageId": "p0002",
+      "reason": "The French heading “vocabulaire” is classified as a heading and excluded from Chinese learning units; all 64 Hanzi on the slide are anchored with reviewed pinyin and IPA.",
+      "nextAction": "No action needed unless bilingual French/English heading annotations are requested."
+    }
+  ],
+  "checks": [
+    "Compared all 17 Chinese vocabulary lines and heading against p0002 source.png",
+    "Segmented unspaced horizontal vocabulary rows using explicit Unicode code-point boundaries",
+    "Verified 作买卖 orthography preserved verbatim and explained alongside modern 做买卖",
+    "Reviewed 3rd-tone sandhi in 法语 (Fǎyǔ [fa³⁵ y²¹⁴]), neutral tones (名字, 朋友, 桌子, 吗, 啊), and erhua (相片儿)",
+    "Reviewed all 8 vocabulary questions for single defensible answer and non-overlapping distractors"
+  ],
+  "coverage": {
+    "embeddedCharacters": 75,
+    "chineseCharacters": 64,
+    "annotatedOccurrences": 97,
+    "entries": 72,
+    "vocabularyItems": 33,
+    "reviewedQuestions": 8,
+    "extractionScope": "Physical page 2 of 4; all embedded characters verified",
+    "annotationScope": "All 33 Chinese vocabulary items and all 64 Hanzi occurrences; French heading “vocabulaire” excluded"
+  }
+}

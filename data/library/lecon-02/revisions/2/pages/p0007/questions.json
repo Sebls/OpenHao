@@ -1,0 +1,388 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0007-001",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 王朝 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-001-o1",
+          "text": "dynasty"
+        },
+        {
+          "id": "q-p0007-001-o2",
+          "text": "prince"
+        },
+        {
+          "id": "q-p0007-001-o3",
+          "text": "king"
+        }
+      ],
+      "correctOptionId": "q-p0007-001-o1",
+      "explanation": "王朝 wángcháo means dynasty. 朝 is cháo here, not zhāo.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0009"
+      ],
+      "entryIds": [
+        "e-p0007-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-002",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose judge.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-002-o1",
+          "text": "法官"
+        },
+        {
+          "id": "q-p0007-002-o2",
+          "text": "王子"
+        },
+        {
+          "id": "q-p0007-002-o3",
+          "text": "学生"
+        }
+      ],
+      "correctOptionId": "q-p0007-002-o1",
+      "explanation": "法官 fǎguān is a judge.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0012"
+      ],
+      "entryIds": [
+        "e-p0007-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-003",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written character means lake?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-003-o1",
+          "text": "湖"
+        },
+        {
+          "id": "q-p0007-003-o2",
+          "text": "理"
+        },
+        {
+          "id": "q-p0007-003-o3",
+          "text": "草"
+        }
+      ],
+      "correctOptionId": "q-p0007-003-o1",
+      "explanation": "湖 hú means lake and has the water component on the left.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0105"
+      ],
+      "entryIds": [
+        "e-p0007-0069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-004",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is his name according to the answer?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-004-o1",
+          "text": "Tian Xi"
+        },
+        {
+          "id": "q-p0007-004-o2",
+          "text": "Wang You"
+        },
+        {
+          "id": "q-p0007-004-o3",
+          "text": "Li You"
+        }
+      ],
+      "correctOptionId": "q-p0007-004-o1",
+      "explanation": "The first clause rejects Wang You; the second gives Tian Xi as the name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0081"
+      ],
+      "entryIds": [
+        "e-p0007-0060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-005",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source vocabulary word meaning review: 复 __ 。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-005-o1",
+          "text": "习"
+        },
+        {
+          "id": "q-p0007-005-o2",
+          "text": "头"
+        },
+        {
+          "id": "q-p0007-005-o3",
+          "text": "子"
+        }
+      ],
+      "correctOptionId": "q-p0007-005-o1",
+      "explanation": "复习 fùxí means review material already studied.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0004"
+      ],
+      "entryIds": [
+        "e-p0007-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-006",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What kind of response does final 吗 invite?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-006-o1",
+          "text": "a yes/no answer about ability"
+        },
+        {
+          "id": "q-p0007-006-o2",
+          "text": "a personal name"
+        },
+        {
+          "id": "q-p0007-006-o3",
+          "text": "a number of people"
+        }
+      ],
+      "correctOptionId": "q-p0007-006-o1",
+      "explanation": "This asks whether the mother can speak French; 会说 is a natural affirmative response.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0059"
+      ],
+      "entryIds": [
+        "e-p0007-0048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-007",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which currency is 日元?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-007-o1",
+          "text": "Japanese yen"
+        },
+        {
+          "id": "q-p0007-007-o2",
+          "text": "Chinese yuan"
+        },
+        {
+          "id": "q-p0007-007-o3",
+          "text": "US dollar"
+        }
+      ],
+      "correctOptionId": "q-p0007-007-o1",
+      "explanation": "日元 rìyuán is the Japanese yen.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0014"
+      ],
+      "entryIds": [
+        "e-p0007-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-008",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which country is 古巴?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-008-o1",
+          "text": "Cuba"
+        },
+        {
+          "id": "q-p0007-008-o2",
+          "text": "Canada"
+        },
+        {
+          "id": "q-p0007-008-o3",
+          "text": "Mexico"
+        }
+      ],
+      "correctOptionId": "q-p0007-008-o1",
+      "explanation": "古巴 Gǔbā is a phonetic name for Cuba.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0127"
+      ],
+      "entryIds": [
+        "e-p0007-0084"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-009",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "How should 习和学 be understood in the names exercise?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-009-o1",
+          "text": "Xi Hexue, a personal name"
+        },
+        {
+          "id": "q-p0007-009-o2",
+          "text": "an instruction to study together"
+        },
+        {
+          "id": "q-p0007-009-o3",
+          "text": "the name of a country"
+        }
+      ],
+      "correctOptionId": "q-p0007-009-o1",
+      "explanation": "习 is the family name and 和学 is the given name in this list.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0123"
+      ],
+      "entryIds": [
+        "e-p0007-0082"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-010",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which country name do you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-010-o1",
+          "text": "加拿大"
+        },
+        {
+          "id": "q-p0007-010-o2",
+          "text": "古巴"
+        },
+        {
+          "id": "q-p0007-010-o3",
+          "text": "墨西哥"
+        }
+      ],
+      "correctOptionId": "q-p0007-010-o1",
+      "explanation": "The target is 加拿大 Jiānádà, Canada.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0135"
+      ],
+      "entryIds": [
+        "e-p0007-0092"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      },
+      "speechTarget": "加拿大"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 德国 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Germany"
+        },
+        {
+          "id": "o2",
+          "text": "friendship"
+        },
+        {
+          "id": "o3",
+          "text": "exercise"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "德国 (Déguó) means Germany.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means 'famous'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "有名"
+        },
+        {
+          "id": "o2",
+          "text": "友谊"
+        },
+        {
+          "id": "o3",
+          "text": "练习"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有名 (yǒumíng) means famous.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In '我很饿，我去买羊肉。', what is the speaker going to buy?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "mutton / lamb"
+        },
+        {
+          "id": "o2",
+          "text": "white jade"
+        },
+        {
+          "id": "o3",
+          "text": "a landscape painting"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "羊肉 (yángròu) means mutton or lamb.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What is a 火车头?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "locomotive"
+        },
+        {
+          "id": "o2",
+          "text": "knife blade"
+        },
+        {
+          "id": "o3",
+          "text": "older cousin"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "火车头 (huǒchētóu) means locomotive.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0019"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In '我会画火车头。', where does 什么 go to turn it into a question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "After 画: 你会画什么？"
+        },
+        {
+          "id": "o2",
+          "text": "Before 你: 什么你会画？"
+        },
+        {
+          "id": "o3",
+          "text": "At the very end after 吗: 你会画火车头吗？"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "In Chinese, question words like 什么 stay in the same position as the answer (after the verb 画).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0017"
+      ],
+      "entryIds": [
+        "e-p0004-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "这本书很有名。"
+        },
+        {
+          "id": "o2",
+          "text": "他不工作，他学法国文学。"
+        },
+        {
+          "id": "o3",
+          "text": "这是中国的白玉，这种玉很贵。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "这本书很有名 means 'This book is very famous.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "这本书很有名。"
+    }
+  ]
+}

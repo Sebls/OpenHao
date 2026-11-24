@@ -1,0 +1,64 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "38f836dd349657236150eea43f53aa7ceb0718075efa9f3229f90320ec6fa00f",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, separate self-review after authoring; not human or independent review",
+  "reviewedAt": "2026-11-24T10:11:59.706478+00:00",
+  "checks": [
+    "Compared all seven original source images with text and geometry, including handwritten character inventories, faint dialogue words, illustration-free page structure, source roles and reading order within each spread half.",
+    "Separate extraction review corrected missed characters, OCR-confused forms and merged-character boxes using individually inspected glyph bounds. Original PDF bytes remain unchanged.",
+    "Separate linguistic review checked 还 hái, 只 zhǐ, 长 cháng versus 厂长 zhǎng, standalone 都 dū versus sentence dōu, neutral suffixes in 名字/筷子/工夫/衣服/漂亮, rhotic 儿, 不 tone changes, permission 可以 versus ability 会, surname/title order and natural sentence translations.",
+    "Separate question review checked one defensible answer, distinct plausible distractors, explanation, selected-page source scope and stable source IDs. Listening remains gated by local playback.",
+    "Source-linked SVG diagnostics regenerated after final text/geometry edits. Same final character boxes checked over original source at page scale, enlarged corrected vocabulary/dialogue/memento regions and cropped-page vocabulary.",
+    "Browser reader/word/character/multiline and practice review follows this first validated local publication."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 1; reviewed learning content with partial reference OCR. No coverage percentage is claimed.",
+    "roles": "All 17 main lesson characters, roof-component example characters 宅宫室宝 and right-city-component examples 郊都邦, plus principal 对儿长 models and 画儿. Incomplete stroke stages, radicals and historical drawings remain reference-only.",
+    "transcriptCodePoints": 1108,
+    "locatedRecords": 990,
+    "manualCharacterBoxes": 22,
+    "learningLines": 18,
+    "entries": 27,
+    "entriesByKind": {
+      "character": 26,
+      "word": 1
+    },
+    "occurrences": 35,
+    "reviewedIPAEntries": 18,
+    "entriesWithoutReviewedIPA": 9,
+    "questions": 7,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 0,
+    "multilineNote": "Separate line anchors for wrapped reading/dialogue/memento on physical pages 3, 5 and 6; not applicable where count is zero."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0001",
+      "reason": "Reference OCR remains partial or uncertain for small French/printed pinyin, faint tracing repetitions and incomplete stroke or historical diagrams. Reviewed learning regions are defined in coverage; extraction completeness is not claimed.",
+      "nextAction": "Consult the unchanged original page for reference regions; keep uncertain OCR out of reviewed learning units and practice."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0001",
+      "reason": "9 entries have no reviewed IPA, particularly sentences, names, rhotic and contextual-neutral readings. All learning entries have reviewed tone-mark pinyin.",
+      "nextAction": "Leave IPA absent until that exact contextual pronunciation can be reviewed."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0001",
+      "reason": "Listening questions require successful local browser playback; disconnected audible playback has not been independently verified.",
+      "nextAction": "Retain runtime gating on completed local playback; text study remains available."
+    }
+  ]
+}

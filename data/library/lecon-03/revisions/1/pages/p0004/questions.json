@@ -1,0 +1,312 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does the traditional word 雜誌 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "magazine"
+        },
+        {
+          "id": "o2",
+          "text": "grammar"
+        },
+        {
+          "id": "o3",
+          "text": "teacher"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "雜誌 is the traditional spelling of 杂志, magazine.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0024"
+      ],
+      "entryIds": [
+        "e-p0004-0024"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which traditional word means teacher?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "老師"
+        },
+        {
+          "id": "o2",
+          "text": "語法"
+        },
+        {
+          "id": "o3",
+          "text": "貴姓"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "老師 lǎoshī means teacher.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the traditional character for buy.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "買"
+        },
+        {
+          "id": "o2",
+          "text": "賣"
+        },
+        {
+          "id": "o3",
+          "text": "想"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "買 corresponds to simplified 买, buy; 賣 is sell.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0071"
+      ],
+      "entryIds": [
+        "e-p0004-0059"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is being asked?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "whether you have Chinese-language newspapers"
+        },
+        {
+          "id": "o2",
+          "text": "whether you sell books in French"
+        },
+        {
+          "id": "o3",
+          "text": "whether your teacher is busy"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有沒有 asks whether someone has something.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0133"
+      ],
+      "entryIds": [
+        "e-p0004-0101"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source contrast: 我很忙，___我哥哥不忙。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "可是"
+        },
+        {
+          "id": "o2",
+          "text": "沒有"
+        },
+        {
+          "id": "o3",
+          "text": "相片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可是 means but and connects the contrasting clauses.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0056"
+      ],
+      "entryIds": [
+        "e-p0004-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What is the whole expression 作買賣?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "do business"
+        },
+        {
+          "id": "o2",
+          "text": "buy a photograph"
+        },
+        {
+          "id": "o3",
+          "text": "sell a friend"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "作買賣 means do business; the source uses 作 where modern writing commonly uses 做.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0109"
+      ],
+      "entryIds": [
+        "e-p0004-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What warning does this sentence give?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "watch your head"
+        },
+        {
+          "id": "o2",
+          "text": "watch your newspaper"
+        },
+        {
+          "id": "o3",
+          "text": "do not buy it"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "小心 means be careful, and 頭 means head.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0262"
+      ],
+      "entryIds": [
+        "e-p0004-0134"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "想"
+        },
+        {
+          "id": "o2",
+          "text": "相"
+        },
+        {
+          "id": "o3",
+          "text": "片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "想 is xiǎng, think or want; 相 in 相片 is xiàng.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0069"
+      ],
+      "entryIds": [
+        "e-p0004-0057"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "想"
+    }
+  ]
+}

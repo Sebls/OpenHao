@@ -1,0 +1,350 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which place is 巴黎?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Paris"
+        },
+        {
+          "id": "o2",
+          "text": "Hangzhou"
+        },
+        {
+          "id": "o3",
+          "text": "Xi’an"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "巴黎 Bālí is Paris.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0155"
+      ],
+      "entryIds": [
+        "e-p0006-0075"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means photograph?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "相片"
+        },
+        {
+          "id": "o2",
+          "text": "朋友"
+        },
+        {
+          "id": "o3",
+          "text": "本子"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "相片 xiàngpiàn means photograph.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0160"
+      ],
+      "entryIds": [
+        "e-p0006-0078"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the character meaning a water well.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "井"
+        },
+        {
+          "id": "o2",
+          "text": "早"
+        },
+        {
+          "id": "o3",
+          "text": "左"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "井 jǐng means a well; 水井 is a water well.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0366"
+      ],
+      "entryIds": [
+        "e-p0006-0188"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is this question asking?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "where you would like to go"
+        },
+        {
+          "id": "o2",
+          "text": "what you want to buy"
+        },
+        {
+          "id": "o3",
+          "text": "who your teacher is"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "想去 means would like to go; 哪儿 asks where.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0069"
+      ],
+      "entryIds": [
+        "e-p0006-0044"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Who sells books in French?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Lao Wang’s elder brother"
+        },
+        {
+          "id": "o2",
+          "text": "Lao Wang’s mother"
+        },
+        {
+          "id": "o3",
+          "text": "Dr Sun"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "老王的哥哥 is Lao Wang’s elder brother; 卖法文书 means sells books in French.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0209"
+      ],
+      "entryIds": [
+        "e-p0006-0105"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-006",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source phrase: 王大夫___相片儿",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "的"
+        },
+        {
+          "id": "o2",
+          "text": "吗"
+        },
+        {
+          "id": "o3",
+          "text": "不"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "的 links the photograph to Dr Wang.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0164"
+      ],
+      "entryIds": [
+        "e-p0006-0081"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-007",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 太忙 mean in this sentence?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "too busy"
+        },
+        {
+          "id": "o2",
+          "text": "not very busy"
+        },
+        {
+          "id": "o3",
+          "text": "not busy at all"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "太 means too or excessively; there is no 不 before 太忙 here.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0165"
+      ],
+      "entryIds": [
+        "e-p0006-0082"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-008",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does the vertical grid word 买卖 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "business; trade"
+        },
+        {
+          "id": "o2",
+          "text": "friend"
+        },
+        {
+          "id": "o3",
+          "text": "factory"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The vertical adjacent 买 and 卖 form the noun 买卖 mǎimai, business.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0380"
+      ],
+      "entryIds": [
+        "e-p0006-0195"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-009",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "太"
+        },
+        {
+          "id": "o2",
+          "text": "大"
+        },
+        {
+          "id": "o3",
+          "text": "夫"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "太 is tài, too; 大 meaning big is dà.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0183"
+      ],
+      "entryIds": [
+        "e-p0006-0090"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "太"
+    }
+  ]
+}

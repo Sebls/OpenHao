@@ -1,0 +1,61 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "395194629d0fd13166220d3346de28ac3dda36115a93f88c36fe874cfb51d7cf",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Gemini agent, separate self-review after authoring; not human or independent review",
+  "reviewedAt": "2026-11-24T10:23:24.656617+00:00",
+  "checks": [
+    "Compared original source.png render with Vision OCR transcript and geometry, including spread halves, reading order, and manual corrections.",
+    "Separate linguistic review checked tone-mark pinyin, broad Mandarin IPA (omitting uncertain/sentence/proper-name IPA), neutral tones (刀子, 哥哥, 太太, 先生, 工夫, 本子, 买卖), polyphonic readings (种 zhǒng, 音乐 yuè), and natural English translations.",
+    "Separate question review checked one defensible answer, distinct plausible distractors, explanations, and page-scoped sourceAnnotationIds."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 1; reviewed learning content with partial reference OCR. No coverage percentage is claimed.",
+    "roles": "Reviewed all four Lesson 5 target characters (刀, 饿, 常, 师), the food radical 饣 and its example characters (食, 饭, 饱, 馆, 饼), and the written vocabulary list (刀子, 饿, 常常, 不常, 老师).",
+    "transcriptCodePoints": 1199,
+    "locatedRecords": 1080,
+    "manualCharacterBoxes": 1,
+    "entries": 12,
+    "entriesByKind": {
+      "character": 8,
+      "word": 3,
+      "expression": 1
+    },
+    "occurrences": 20,
+    "reviewedIPAEntries": 12,
+    "entriesWithoutReviewedIPA": 0,
+    "questions": 6,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 0,
+    "multilineNote": "Separate line anchors for wrapped sentences where present; not applicable where count is zero."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0001",
+      "reason": "Reference OCR remains partial for small French notes, faint tracing copies, and non-anchored grid/stroke diagrams.",
+      "nextAction": "Consult the unchanged original page for reference regions; keep uncertain OCR out of reviewed learning units and practice."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0001",
+      "reason": "0 entries omit IPA (sentences, names, or rhotic forms); all learning entries have reviewed tone-mark pinyin.",
+      "nextAction": "Leave IPA absent unless exact contextual transcription is reviewed."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0001",
+      "reason": "Listening questions require successful local browser playback; disconnected audible playback has not been independently verified.",
+      "nextAction": "Retain runtime gating on completed local playback."
+    }
+  ]
+}

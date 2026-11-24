@@ -1,0 +1,464 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 名片 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-001-o1",
+          "text": "business card"
+        },
+        {
+          "id": "q-p0005-001-o2",
+          "text": "photograph"
+        },
+        {
+          "id": "q-p0005-001-o3",
+          "text": "newspaper"
+        }
+      ],
+      "correctOptionId": "q-p0005-001-o1",
+      "explanation": "名片 míngpiàn is a business card.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0173"
+      ],
+      "entryIds": [
+        "e-p0005-0081"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose business or trade.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-002-o1",
+          "text": "买卖"
+        },
+        {
+          "id": "q-p0005-002-o2",
+          "text": "小说"
+        },
+        {
+          "id": "q-p0005-002-o3",
+          "text": "名字"
+        }
+      ],
+      "correctOptionId": "q-p0005-002-o1",
+      "explanation": "买卖 mǎimai is the noun business or trade; the second syllable is neutral.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0140"
+      ],
+      "entryIds": [
+        "e-p0005-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means sell?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-003-o1",
+          "text": "卖"
+        },
+        {
+          "id": "q-p0005-003-o2",
+          "text": "买"
+        },
+        {
+          "id": "q-p0005-003-o3",
+          "text": "想"
+        }
+      ],
+      "correctOptionId": "q-p0005-003-o1",
+      "explanation": "卖 mài is sell; 买 mǎi is buy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0148"
+      ],
+      "entryIds": [
+        "e-p0005-0072"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the speaker sell?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-004-o1",
+          "text": "locomotives"
+        },
+        {
+          "id": "q-p0005-004-o2",
+          "text": "books"
+        },
+        {
+          "id": "q-p0005-004-o3",
+          "text": "photographs"
+        }
+      ],
+      "correctOptionId": "q-p0005-004-o1",
+      "explanation": "卖 means sell, and 火车头 means locomotive.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0159"
+      ],
+      "entryIds": [
+        "e-p0005-0075"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Which name is introduced by this sentence?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-005-o1",
+          "text": "Yamamoto"
+        },
+        {
+          "id": "q-p0005-005-o2",
+          "text": "Li Yu"
+        },
+        {
+          "id": "q-p0005-005-o3",
+          "text": "Wang Tian"
+        }
+      ],
+      "correctOptionId": "q-p0005-005-o1",
+      "explanation": "山本 is a Japanese surname, Yamamoto, read Shānběn in the Chinese text.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0067"
+      ],
+      "entryIds": [
+        "e-p0005-0048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What ability does the speaker say he lacks?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-006-o1",
+          "text": "speaking English"
+        },
+        {
+          "id": "q-p0005-006-o2",
+          "text": "reading French"
+        },
+        {
+          "id": "q-p0005-006-o3",
+          "text": "writing Japanese"
+        }
+      ],
+      "correctOptionId": "q-p0005-006-o1",
+      "explanation": "不会说英文 means cannot speak English. 不 becomes bú before huì.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0082"
+      ],
+      "entryIds": [
+        "e-p0005-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Whose newspaper is it?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-007-o1",
+          "text": "Yamamoto’s"
+        },
+        {
+          "id": "q-p0005-007-o2",
+          "text": "the speaker’s"
+        },
+        {
+          "id": "q-p0005-007-o3",
+          "text": "Li Yu’s"
+        }
+      ],
+      "correctOptionId": "q-p0005-007-o1",
+      "explanation": "The first clause denies my newspaper; the second identifies 山本 as the owner.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0197"
+      ],
+      "entryIds": [
+        "e-p0005-0090"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is the mother’s occupation?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-008-o1",
+          "text": "engineer"
+        },
+        {
+          "id": "q-p0005-008-o2",
+          "text": "judge"
+        },
+        {
+          "id": "q-p0005-008-o3",
+          "text": "doctor"
+        }
+      ],
+      "correctOptionId": "q-p0005-008-o1",
+      "explanation": "工程师 means engineer.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0321"
+      ],
+      "entryIds": [
+        "e-p0005-0121"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source sentence: 这是我 __ 名片。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-009-o1",
+          "text": "的"
+        },
+        {
+          "id": "q-p0005-009-o2",
+          "text": "也"
+        },
+        {
+          "id": "q-p0005-009-o3",
+          "text": "吗"
+        }
+      ],
+      "correctOptionId": "q-p0005-009-o1",
+      "explanation": "的 links the owner 我 to 名片: my business card.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0174"
+      ],
+      "entryIds": [
+        "e-p0005-0082"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-010",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 什么 ask for in this wrapped question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-010-o1",
+          "text": "the kind of job"
+        },
+        {
+          "id": "q-p0005-010-o2",
+          "text": "the mother’s age"
+        },
+        {
+          "id": "q-p0005-010-o3",
+          "text": "the owner of a newspaper"
+        }
+      ],
+      "correctOptionId": "q-p0005-010-o1",
+      "explanation": "什么工作 asks what work or job. The question continues on the next printed line.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0410"
+      ],
+      "entryIds": [
+        "e-p0005-0134"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-011",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 会 say about speaking English?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-011-o1",
+          "text": "the person has learned how to do it"
+        },
+        {
+          "id": "q-p0005-011-o2",
+          "text": "the action happened yesterday"
+        },
+        {
+          "id": "q-p0005-011-o3",
+          "text": "the subject is plural"
+        }
+      ],
+      "correctOptionId": "q-p0005-011-o1",
+      "explanation": "会 before a verb expresses learned ability in this question.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0073"
+      ],
+      "entryIds": [
+        "e-p0005-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0005-012",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Choose the word you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-012-o1",
+          "text": "名片"
+        },
+        {
+          "id": "q-p0005-012-o2",
+          "text": "名字"
+        },
+        {
+          "id": "q-p0005-012-o3",
+          "text": "小说"
+        }
+      ],
+      "correctOptionId": "q-p0005-012-o1",
+      "explanation": "名片 míngpiàn is business card, distinct from 名字 míngzi, name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0173"
+      ],
+      "entryIds": [
+        "e-p0005-0081"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      },
+      "speechTarget": "名片"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 面包 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "bread"
+        },
+        {
+          "id": "o2",
+          "text": "magazine"
+        },
+        {
+          "id": "o3",
+          "text": "company"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "面包 (miànbāo) means bread.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0022"
+      ],
+      "entryIds": [
+        "e-p0002-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "How do you say 'sorry' in Chinese?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "对不起"
+        },
+        {
+          "id": "o2",
+          "text": "没什么"
+        },
+        {
+          "id": "o3",
+          "text": "有工夫"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "对不起 (duìbuqǐ) means 'sorry'; 没什么 means 'it's nothing'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In '这种面包很好吃，我很喜欢。', what does Yamamoto say about the bread?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "It is delicious and he likes it very much"
+        },
+        {
+          "id": "o2",
+          "text": "It is very expensive"
+        },
+        {
+          "id": "o3",
+          "text": "He does not want any more"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "好吃 means delicious, and 我很喜欢 means 'I like it very much'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0024"
+      ],
+      "entryIds": [
+        "e-p0002-0037"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choose the measure word for slices of bread: 这是五___面包。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "片"
+        },
+        {
+          "id": "o2",
+          "text": "种"
+        },
+        {
+          "id": "o3",
+          "text": "来"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "片 (piàn) is the measure word for thin slices of bread.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In '我……我不会开车。', what does 不会 express?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Not knowing how to do a learned skill"
+        },
+        {
+          "id": "o2",
+          "text": "Not having free time"
+        },
+        {
+          "id": "o3",
+          "text": "Not liking something"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "会 / 不会 expresses whether one knows how to perform a learned skill like driving (开车).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0041"
+      ],
+      "entryIds": [
+        "e-p0002-0042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means 'kind' or 'sort' in 这种刀子?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "种"
+        },
+        {
+          "id": "o2",
+          "text": "片"
+        },
+        {
+          "id": "o3",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "种 (zhǒng) means kind or sort.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0011"
+      ],
+      "entryIds": [
+        "e-p0002-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 有工夫 mean in '你现在有工夫吗？'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "to have free time"
+        },
+        {
+          "id": "o2",
+          "text": "to be too busy"
+        },
+        {
+          "id": "o3",
+          "text": "to know how to drive"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "工夫 (gōngfu) means free time or spare time.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0031"
+      ],
+      "entryIds": [
+        "e-p0002-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the phrase you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没什么"
+        },
+        {
+          "id": "o2",
+          "text": "对不起"
+        },
+        {
+          "id": "o3",
+          "text": "英国公司"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没什么 (méi shénme) means 'it's nothing / never mind'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "没什么"
+    }
+  ]
+}

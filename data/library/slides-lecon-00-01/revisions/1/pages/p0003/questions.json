@@ -1,0 +1,289 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 北京 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Beijing"
+        },
+        {
+          "id": "o1",
+          "text": "Newspaper"
+        },
+        {
+          "id": "o2",
+          "text": "Mountain"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "北京 (Běijīng) is Beijing, the capital of China.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 茶 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Tea"
+        },
+        {
+          "id": "o1",
+          "text": "Water"
+        },
+        {
+          "id": "o2",
+          "text": "Fish"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "茶 (chá) means “tea.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-052"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means “book”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "书"
+        },
+        {
+          "id": "o1",
+          "text": "报"
+        },
+        {
+          "id": "o2",
+          "text": "木"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "书 (shū) means “book”; 报 is newspaper and 木 is wood/tree.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which character means “to go”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "去"
+        },
+        {
+          "id": "o1",
+          "text": "吃"
+        },
+        {
+          "id": "o2",
+          "text": "看"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "去 (qù) means “to go”; 吃 is to eat and 看 is to look/read.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-044"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character represents “mountain”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "山"
+        },
+        {
+          "id": "o1",
+          "text": "水"
+        },
+        {
+          "id": "o2",
+          "text": "火"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "山 (shān) means “mountain”; 水 is water and 火 is fire.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character represents “door”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "门"
+        },
+        {
+          "id": "o1",
+          "text": "口"
+        },
+        {
+          "id": "o2",
+          "text": "手"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "门 (mén) means “door”; 口 is mouth and 手 is hand.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which place name did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Beijing"
+        },
+        {
+          "id": "o1",
+          "text": "Mountain"
+        },
+        {
+          "id": "o2",
+          "text": "Farmland"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The spoken place name is 北京 (Běijīng).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-069"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "北京"
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which animal did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Horse"
+        },
+        {
+          "id": "o1",
+          "text": "Fish"
+        },
+        {
+          "id": "o2",
+          "text": "Sheep"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The spoken word is 马 (mǎ), “horse.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-016"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "马"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 吃羊肉 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "To eat lamb"
+        },
+        {
+          "id": "o1",
+          "text": "To drink tea"
+        },
+        {
+          "id": "o2",
+          "text": "To open the door"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "吃羊肉 means “to eat lamb / mutton” (吃 to eat + 羊肉 lamb/mutton).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-032"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which phrase means “to open the door”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "开门"
+        },
+        {
+          "id": "o1",
+          "text": "开车"
+        },
+        {
+          "id": "o2",
+          "text": "种田"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "开门 means “to open the door” (开 open + 门 door).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-034"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written character means “newspaper”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "报"
+        },
+        {
+          "id": "o1",
+          "text": "书"
+        },
+        {
+          "id": "o2",
+          "text": "车"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "报 (bào) means “newspaper”; 书 is book and 车 is car.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 男人看报，女人看书 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "The man reads the newspaper, and the woman reads a book."
+        },
+        {
+          "id": "o1",
+          "text": "Mom drives a car to Beijing."
+        },
+        {
+          "id": "o2",
+          "text": "I am eating fish and growing tea."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "男人看报 means “the man reads the newspaper,” and 女人看书 means “the woman reads a book.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence “I am going to Beijing”: 我___北京。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "去"
+        },
+        {
+          "id": "o1",
+          "text": "叫"
+        },
+        {
+          "id": "o2",
+          "text": "吃"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "去 (qù, to go) connects the subject 我 to the destination 北京.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-049"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Why does 开 appear in both 开门 and 开车?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "It means “to open” with 门 (door) and “to drive” with 车 (car)."
+        },
+        {
+          "id": "o1",
+          "text": "It is a plural marker for people."
+        },
+        {
+          "id": "o2",
+          "text": "It turns a statement into a question."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "开 has related action senses: “to open” before 门 (door) and “to drive/operate” before 车 (vehicle).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-045"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. What did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Mom drives a car."
+        },
+        {
+          "id": "o1",
+          "text": "My name is Bai Shao."
+        },
+        {
+          "id": "o2",
+          "text": "I am going to Beijing."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The spoken sentence is 妈妈开车, “Mom drives a car.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-051"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "妈妈开车"
+    }
+  ]
+}

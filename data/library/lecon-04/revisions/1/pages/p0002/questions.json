@@ -1,0 +1,312 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 汉字 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Chinese character"
+        },
+        {
+          "id": "o2",
+          "text": "Chinese language"
+        },
+        {
+          "id": "o3",
+          "text": "business card"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "汉字 is a written Chinese character; 汉语 is the language.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means name?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "名字"
+        },
+        {
+          "id": "o2",
+          "text": "有名"
+        },
+        {
+          "id": "o3",
+          "text": "名片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名字 míngzi means name; 有名 is famous and 名片 is business card.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0018"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What is a 名片?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "business card"
+        },
+        {
+          "id": "o2",
+          "text": "painting"
+        },
+        {
+          "id": "o3",
+          "text": "headscarf"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名片 míngpiàn is a business or name card.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the character meaning write.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "写"
+        },
+        {
+          "id": "o2",
+          "text": "画"
+        },
+        {
+          "id": "o3",
+          "text": "只"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "写 xiě means write; 画 means draw.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0026"
+      ],
+      "entryIds": [
+        "e-p0002-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 画报 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "illustrated magazine"
+        },
+        {
+          "id": "o2",
+          "text": "calligraphy"
+        },
+        {
+          "id": "o3",
+          "text": "spoken language"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "画报 huàbào is an illustrated magazine or pictorial.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0044"
+      ],
+      "entryIds": [
+        "e-p0002-0024"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What can 可以 express in a permission question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "may; be allowed to"
+        },
+        {
+          "id": "o2",
+          "text": "have already finished"
+        },
+        {
+          "id": "o3",
+          "text": "be named"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可以 can ask permission; 会 instead concerns a learned skill.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0069"
+      ],
+      "entryIds": [
+        "e-p0002-0035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 有用 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "useful"
+        },
+        {
+          "id": "o2",
+          "text": "expensive"
+        },
+        {
+          "id": "o3",
+          "text": "famous"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有用 yǒuyòng means useful.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0064"
+      ],
+      "entryIds": [
+        "e-p0002-0033"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "用"
+        },
+        {
+          "id": "o2",
+          "text": "以"
+        },
+        {
+          "id": "o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "用 is yòng, use.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0063"
+      ],
+      "entryIds": [
+        "e-p0002-0032"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "用"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "new-hsk-1",
+  "contentRevision": 1,
+  "baseRevision": 0,
+  "title": "New HSK 1 · Lessons 1–5",
+  "sourceLanguage": "zh-CN",
+  "translationLanguage": "en",
+  "source": {
+    "pathBase": "data-root",
+    "path": "pdfs/new-hsk-1.pdf",
+    "sha256": "f87ec075d921793e9943559d9e5129e6bc2c4ea9b453283c6ca6f97d8ce7d75b",
+    "bytes": 45710226,
+    "pageCount": 5
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "width": 595.5,
+      "height": 842.25,
+      "mediaBox": [
+        0,
+        7.829981327056885,
+        595.5,
+        850.0799560546875
+      ],
+      "cropBox": [
+        0,
+        0,
+        595.5,
+        842.25
+      ],
+      "rotation": 0,
+      "id": "p0001",
+      "state": "ready",
+      "questionAvailability": [
+        "zh-to-en",
+        "en-to-zh",
+        "character-identification",
+        "sentence-comprehension",
+        "missing-word",
+        "grammar-comprehension",
+        "listening-comprehension"
+      ],
+      "extractionRevision": 1
+    },
+    {
+      "pageNumber": 2,
+      "width": 595.5,
+      "height": 842.25,
+      "mediaBox": [
+        0,
+        7.829981327056885,
+        595.5,
+        850.0799560546875
+      ],
+      "cropBox": [
+        0,
+        0,
+        595.5,
+        842.25
+      ],
+      "rotation": 0,
+      "id": "p0002",
+      "state": "not-prepared",
+      "questionAvailability": []
+    },
+    {
+      "pageNumber": 3,
+      "width": 595.5,
+      "height": 842.25,
+      "mediaBox": [
+        0,
+        7.829981327056885,
+        595.5,
+        850.0799560546875
+      ],
+      "cropBox": [
+        0,
+        0,
+        595.5,
+        842.25
+      ],
+      "rotation": 0,
+      "id": "p0003",
+      "state": "not-prepared",
+      "questionAvailability": []
+    },
+    {
+      "pageNumber": 4,
+      "width": 595.5,
+      "height": 842.25,
+      "mediaBox": [
+        0,
+        7.829981327056885,
+        595.5,
+        850.0799560546875
+      ],
+      "cropBox": [
+        0,
+        0,
+        595.5,
+        842.25
+      ],
+      "rotation": 0,
+      "id": "p0004",
+      "state": "not-prepared",
+      "questionAvailability": []
+    },
+    {
+      "pageNumber": 5,
+      "width": 595.5,
+      "height": 842.25,
+      "mediaBox": [
+        0,
+        7.829981327056885,
+        595.5,
+        850.0799560546875
+      ],
+      "cropBox": [
+        0,
+        0,
+        595.5,
+        842.25
+      ],
+      "rotation": 0,
+      "id": "p0005",
+      "state": "not-prepared",
+      "questionAvailability": []
+    }
+  ],
+  "files": {
+    "pages/p0001/annotations.json": "8025ee8f70d9ca194ea8fbe0f491d55d17a4472866ce92cafd2a91e3028b29ce",
+    "pages/p0001/diagnostic.svg": "7872c1d6e119561659d889f5d0c7eb232d39caa14ab84df1bceb291b6043c7c4",
+    "pages/p0001/entries.json": "3f49739f0b9569762f2d200b79b5385acbdf03eb32c1646983f6500b97fc2737",
+    "pages/p0001/layout.json": "184ab18eb013e18ce3b5b12debcae6cf88863be9da7774e6175cd91821c48c98",
+    "pages/p0001/questions.json": "e1c94b6aab4a687a7a3725ea2f07eeb68dd5af33b8fb1700aec2636e9410244d",
+    "pages/p0001/review.json": "6e7c169fb70cd7cd119cf0267f68220fd93691b2d5e7cc79e954e95ed69cd855",
+    "pages/p0001/source.png": "64f2f8f6a844b08651f59b7f06f5603e31da1e10709e8b55557f1952874356d0",
+    "pages/p0001/text.txt": "e734e716bac43ead025550268ffa8292c0c0e7d282c4c580a24a2d8ee19765b5",
+    "review/report.json": "26443e864b8b33a1e11a71cfff0cd530af22c2618cf3f9bff03c42843afa360c"
+  },
+  "learningProfile": {
+    "version": 1,
+    "translationLanguage": "en",
+    "interfaceLanguage": "en",
+    "level": "complete-beginner",
+    "language": "zh-CN",
+    "variety": "Mandarin",
+    "primaryTranscription": "pinyin-tone-marks",
+    "secondaryTranscription": "ipa",
+    "sourceFirst": true,
+    "maxSupplementalExamples": 1
+  },
+  "createdAt": "2026-11-22T01:17:42.749Z",
+  "updatedAt": "2026-11-22T01:23:11.652Z",
+  "provenance": {
+    "extractor": "PyMuPDF",
+    "version": "1.26.7",
+    "agentReview": "Lesson 1 source, beginner teaching, pronunciation and question review; partial decorative-text coverage disclosed"
+  }
+}

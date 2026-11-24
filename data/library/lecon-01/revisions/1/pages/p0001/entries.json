@@ -1,0 +1,711 @@
+{
+  "documentId": "lecon-01",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "entries": [
+    {
+      "id": "e-p0001-0001",
+      "kind": "word",
+      "form": "是工厂",
+      "language": "zh-CN",
+      "meaning": "is a factory",
+      "explanation": "A short phrase; the subject comes before 是.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shì gōngchǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "是工厂",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      },
+      "constituentIds": [
+        "e-p0001-0003",
+        "e-p0001-0004",
+        "e-p0001-0005"
+      ]
+    },
+    {
+      "id": "e-p0001-0002",
+      "kind": "word",
+      "form": "工厂",
+      "language": "zh-CN",
+      "meaning": "factory",
+      "explanation": "Third tone on chǎng. Traditional form: 工廠.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gōngchǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʊŋ⁵⁵ tʂʰɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "工厂",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      },
+      "constituentIds": [
+        "e-p0001-0004",
+        "e-p0001-0005"
+      ]
+    },
+    {
+      "id": "e-p0001-0003",
+      "kind": "character",
+      "form": "是",
+      "language": "zh-CN",
+      "meaning": "be; am, is, are",
+      "explanation": "Connects a person or thing to its identity. Do not normally use 是 directly before a descriptive adjective.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɻ̩⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0004",
+      "kind": "character",
+      "form": "工",
+      "language": "zh-CN",
+      "meaning": "work",
+      "explanation": "Occurs in 工人 (worker) and 工厂 (factory).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʊŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "工",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0005",
+      "kind": "character",
+      "form": "厂",
+      "language": "zh-CN",
+      "meaning": "factory",
+      "explanation": "A complete character in 工厂. The similar-looking cliff component is discussed separately in the source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʰɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "厂",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0006",
+      "kind": "character",
+      "form": "不",
+      "language": "zh-CN",
+      "meaning": "not",
+      "explanation": "Negates a verb. Before another fourth-tone syllable it is pronounced bú, as in 不是 bú shì.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "不",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0007",
+      "kind": "character",
+      "form": "王",
+      "language": "zh-CN",
+      "meaning": "king; Wang (surname)",
+      "explanation": "As a family name, write Wáng. A person's name is not translated as the ordinary word king.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wáng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "王",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0008",
+      "kind": "character",
+      "form": "玉",
+      "language": "zh-CN",
+      "meaning": "jade",
+      "explanation": "Also used in personal names; retain the name in translation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[y⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "玉",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0009",
+      "kind": "character",
+      "form": "国",
+      "language": "zh-CN",
+      "meaning": "country; nation",
+      "explanation": "Occurs in 中国 (China). Traditional form: 國.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kwɔ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0010",
+      "kind": "character",
+      "form": "本",
+      "language": "zh-CN",
+      "meaning": "root; book or notebook",
+      "explanation": "Here it appears in 本子 (notebook); it can also count bound books.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "běn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pən²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "本",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0011",
+      "kind": "word",
+      "form": "什么",
+      "language": "zh-CN",
+      "meaning": "what",
+      "explanation": "Neutral me. Place it where the unknown information would go.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shénme",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂən³⁵ mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "什么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      },
+      "constituentIds": [
+        "e-p0001-0017",
+        "e-p0001-0018"
+      ]
+    },
+    {
+      "id": "e-p0001-0012",
+      "kind": "word",
+      "form": "你们",
+      "language": "zh-CN",
+      "meaning": "you (plural)",
+      "explanation": "Addresses more than one person; men is neutral.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐmen",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ni²¹ mən]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "你们",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      },
+      "constituentIds": [
+        "e-p0001-0020",
+        "e-p0001-0021"
+      ]
+    },
+    {
+      "id": "e-p0001-0013",
+      "kind": "character",
+      "form": "子",
+      "language": "zh-CN",
+      "meaning": "child; son",
+      "explanation": "The lexical reading is zǐ. As the noun suffix in 本子 and 勺子 it is neutral zi.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsɹ̩²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "子",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0014",
+      "kind": "character",
+      "form": "学",
+      "language": "zh-CN",
+      "meaning": "learn; study",
+      "explanation": "In 文学 it contributes the idea of a field of learning. Traditional form: 學.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xué",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥe³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "学",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0015",
+      "kind": "character",
+      "form": "好",
+      "language": "zh-CN",
+      "meaning": "good; well",
+      "explanation": "In 你好 it forms a greeting with 你. Read hǎo for good; hào is a different reading meaning like or be fond of.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "好",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0016",
+      "kind": "character",
+      "form": "文",
+      "language": "zh-CN",
+      "meaning": "writing; language; literature",
+      "explanation": "Occurs in 中文 (Chinese language) and 文学 (literature).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0017",
+      "kind": "character",
+      "form": "什",
+      "language": "zh-CN",
+      "meaning": "part of 什么 (what)",
+      "explanation": "Read shén in 什么; its other reading shí is not used here.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "什",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0018",
+      "kind": "character",
+      "form": "么",
+      "language": "zh-CN",
+      "meaning": "part of 什么 (what)",
+      "explanation": "A neutral-tone syllable. Learn 什么 as a complete word. Traditional form: 麼.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "me",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0019",
+      "kind": "character",
+      "form": "心",
+      "language": "zh-CN",
+      "meaning": "heart; mind",
+      "explanation": "In 小心 the whole expression means be careful.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕin⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "心",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0020",
+      "kind": "character",
+      "form": "你",
+      "language": "zh-CN",
+      "meaning": "you",
+      "explanation": "Singular you. 你们 is plural you.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ni²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "你",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0021",
+      "kind": "character",
+      "form": "们",
+      "language": "zh-CN",
+      "meaning": "plural suffix for people",
+      "explanation": "Neutral tone. Used with pronouns, such as 我们 and 你们; do not add it to every noun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "men",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mən]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "们",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    },
+    {
+      "id": "e-p0001-0022",
+      "kind": "word",
+      "form": "工人",
+      "language": "zh-CN",
+      "meaning": "worker",
+      "explanation": "A person employed in manual or industrial work here.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gōngrén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʊŋ⁵⁵ ɻən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "工人",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      },
+      "constituentIds": [
+        "e-p0001-0004",
+        "e-p0001-0023"
+      ]
+    },
+    {
+      "id": "e-p0001-0023",
+      "kind": "character",
+      "form": "人",
+      "language": "zh-CN",
+      "meaning": "person; people",
+      "explanation": "A nationality plus 人 identifies a person from that country.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "rén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʐən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; tone digits show pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "人",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; no independent or human review claimed."
+      }
+    }
+  ]
+}

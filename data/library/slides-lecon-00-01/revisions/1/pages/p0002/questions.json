@@ -1,0 +1,253 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 你好 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hello"
+        },
+        {
+          "id": "o1",
+          "text": "Seven"
+        },
+        {
+          "id": "o2",
+          "text": "My name is"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你好 is the standard greeting meaning “hello.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which phrase means “my name is / I am called”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你好"
+        },
+        {
+          "id": "o1",
+          "text": "我叫"
+        },
+        {
+          "id": "o2",
+          "text": "十"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我叫 introduces your name (“I am called”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written character is the number “four”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "四"
+        },
+        {
+          "id": "o1",
+          "text": "五"
+        },
+        {
+          "id": "o2",
+          "text": "九"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "四 (sì) is four; 五 is five and 九 is nine.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written character is the number “eight”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "六"
+        },
+        {
+          "id": "o1",
+          "text": "七"
+        },
+        {
+          "id": "o2",
+          "text": "八"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "八 (bā) is eight; 六 is six and 七 is seven.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the counting sequence: 一, 二, ___, 四, 五.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "三"
+        },
+        {
+          "id": "o1",
+          "text": "六"
+        },
+        {
+          "id": "o2",
+          "text": "十"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "三 (sān, three) comes between 二 (two) and 四 (four).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What comes directly after 我叫 when introducing yourself?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Your name"
+        },
+        {
+          "id": "o1",
+          "text": "A number from one to ten"
+        },
+        {
+          "id": "o2",
+          "text": "The greeting 你好"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我叫 is followed directly by the speaker’s name (我叫 + name).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which meaning did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hello"
+        },
+        {
+          "id": "o1",
+          "text": "My name is"
+        },
+        {
+          "id": "o2",
+          "text": "Ten"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The spoken greeting is 你好, “hello.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-025"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "你好"
+    }
+  ]
+}

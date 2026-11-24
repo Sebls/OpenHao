@@ -1,7 +1,9 @@
 node_modules/
 dist/
 .venv/
-data/
+data/*
+!data/library/
+!data/pdfs/
 test-results/
 playwright-report/
 .DS_Store

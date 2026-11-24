@@ -1,0 +1,27 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "f62d09a0decfcdef65529b72b0118b439f950cf95fb36e9af654983bb874afbe",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, source visual comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-23",
+  "issues": [],
+  "checks": [
+    "Compared source.png visually against text.txt and layout.json (confirmed merged '二三' and '五六七' lines split cleanly at character level)",
+    "Classified French header as heading and Chinese rows as label",
+    "Reviewed Mandarin tone-mark pinyin, Chao-numeral IPA, third-tone sandhi on 你好 ([ni³⁵ xɑʊ²¹⁴]), and half-third tone on 我叫 ([wɔ²¹ tɕjɑʊ⁵¹])",
+    "Verified constituentIds down to character entries for every word and expression",
+    "Reviewed all 7 single-choice questions for single defensible answer, unique options, and coherent single-annotation scope"
+  ],
+  "coverage": {
+    "embeddedCharacters": 53,
+    "hanziCharacters": 14,
+    "annotatedOccurrences": 26,
+    "entries": 26,
+    "reviewedQuestions": 7,
+    "extractionScope": "Physical page 2 complete embedded Unicode text",
+    "annotationScope": "All 14 Hanzi across numerals 1–10, 你好, and 我叫; French heading and bullet markers excluded"
+  }
+}

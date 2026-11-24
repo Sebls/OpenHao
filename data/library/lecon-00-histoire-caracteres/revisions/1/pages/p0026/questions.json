@@ -1,0 +1,350 @@
+{
+  "documentId": "lecon-00-histoire-caracteres",
+  "pageId": "p0026",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0026-001",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which city is 上海?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Shanghai"
+        },
+        {
+          "id": "o2",
+          "text": "Guangzhou"
+        },
+        {
+          "id": "o3",
+          "text": "Lhasa"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "上海 is Shanghai.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0093"
+      ],
+      "entryIds": [
+        "e-p0026-062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-002",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose the Mandarin name for Lhasa.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "上海"
+        },
+        {
+          "id": "o2",
+          "text": "广州"
+        },
+        {
+          "id": "o3",
+          "text": "拉萨"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "拉萨 is Lāsà, Lhasa.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0095"
+      ],
+      "entryIds": [
+        "e-p0026-064"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-003",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does Mum avoid eating in this sentence?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "mutton or lamb"
+        },
+        {
+          "id": "o2",
+          "text": "all meat"
+        },
+        {
+          "id": "o3",
+          "text": "fish"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "She eats meat, but does not eat 羊肉, mutton or lamb.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0096"
+      ],
+      "entryIds": [
+        "e-p0026-065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-004",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does he want to learn?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "to drive"
+        },
+        {
+          "id": "o2",
+          "text": "to read Chinese books"
+        },
+        {
+          "id": "o3",
+          "text": "to grow tea"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学开车 means learn to drive.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0097"
+      ],
+      "entryIds": [
+        "e-p0026-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-005",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does she really like doing?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "reading books in Chinese"
+        },
+        {
+          "id": "o2",
+          "text": "driving to Beijing"
+        },
+        {
+          "id": "o3",
+          "text": "eating lamb"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "爱看中文书 means like reading books written in Chinese.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0098"
+      ],
+      "entryIds": [
+        "e-p0026-067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-006",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 常 contribute to 我常去北京。?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "often"
+        },
+        {
+          "id": "o2",
+          "text": "never"
+        },
+        {
+          "id": "o3",
+          "text": "yesterday"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "常 expresses frequency: I often go to Beijing.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0099"
+      ],
+      "entryIds": [
+        "e-p0026-068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-007",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete “He wants to learn to drive”: 他要＿开车。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "学"
+        },
+        {
+          "id": "o2",
+          "text": "吃"
+        },
+        {
+          "id": "o3",
+          "text": "报"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学 means learn; 学开车 means learn to drive.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0097"
+      ],
+      "entryIds": [
+        "e-p0026-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-008",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means learn or study?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "学"
+        },
+        {
+          "id": "o2",
+          "text": "车"
+        },
+        {
+          "id": "o3",
+          "text": "肉"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学 means learn or study.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0066"
+      ],
+      "entryIds": [
+        "e-p0026-046"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-009",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the city.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Guangzhou"
+        },
+        {
+          "id": "o2",
+          "text": "Shanghai"
+        },
+        {
+          "id": "o3",
+          "text": "Lhasa"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "广州 is Guǎngzhōu, Guangzhou.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0094"
+      ],
+      "entryIds": [
+        "e-p0026-063"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      },
+      "speechTarget": "广州"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 刀子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "knife"
+        },
+        {
+          "id": "o2",
+          "text": "teacher"
+        },
+        {
+          "id": "o3",
+          "text": "meal"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "刀子 (dāozi) means knife.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0010"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which character means hungry?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "饿"
+        },
+        {
+          "id": "o2",
+          "text": "常"
+        },
+        {
+          "id": "o3",
+          "text": "师"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "饿 (è) means hungry and uses the food radical 饣.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character is read shī and used in 老师 (teacher)?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "师"
+        },
+        {
+          "id": "o2",
+          "text": "刀"
+        },
+        {
+          "id": "o3",
+          "text": "飽"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "师 (shī) means master/teacher and appears in 老师.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 常常 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "often"
+        },
+        {
+          "id": "o2",
+          "text": "seldom"
+        },
+        {
+          "id": "o3",
+          "text": "full"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "常常 (chángcháng) means often or frequently.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0013"
+      ],
+      "entryIds": [
+        "e-p0001-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How do you negate 常 (often) to say 'not often'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "不常"
+        },
+        {
+          "id": "o2",
+          "text": "常常"
+        },
+        {
+          "id": "o3",
+          "text": "很飽"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "不常 (bù cháng) places 不 before 常 to mean 'not often'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0019"
+      ],
+      "entryIds": [
+        "e-p0001-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the word you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "老师"
+        },
+        {
+          "id": "o2",
+          "text": "刀子"
+        },
+        {
+          "id": "o3",
+          "text": "常常"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "老师 (lǎoshī) means teacher.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0015"
+      ],
+      "entryIds": [
+        "e-p0001-0008"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "老师"
+    }
+  ]
+}

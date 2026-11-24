@@ -1,0 +1,27 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "textSha256": "638b1e1f76a3179505efb16fc316a084b116d78ad4f0cf69a20246625d4f2105",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, source visual comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-23",
+  "issues": [],
+  "checks": [
+    "Compared source.png visually against text.txt and layout.json across all 4 bulleted rows (confirmed '说北京' splits into '说' and '北京')",
+    "Classified French header as heading and vocabulary lines as label",
+    "Reviewed polyphonic readings (种 zhòng 'to plant/grow', 中 zhōng, 看 kàn), half-third tone in 北京 ([peɪ²¹ tɕiŋ⁵⁵]), and surname note on 白/勺",
+    "Verified constituentIds down to character entries for every word",
+    "Reviewed all 8 single-choice questions for single defensible answer, unique options, and single-annotation scope"
+  ],
+  "coverage": {
+    "embeddedCharacters": 64,
+    "hanziCharacters": 35,
+    "annotatedOccurrences": 69,
+    "entries": 69,
+    "reviewedQuestions": 8,
+    "extractionScope": "Physical page 3 complete embedded Unicode text",
+    "annotationScope": "All 35 Lesson 0 Hanzi (33 single-character words and 北京); French heading and bullet markers excluded"
+  }
+}

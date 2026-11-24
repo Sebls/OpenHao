@@ -1,0 +1,426 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0007-001",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 字幕 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "subtitles"
+        },
+        {
+          "id": "o2",
+          "text": "intonation"
+        },
+        {
+          "id": "o3",
+          "text": "sign language"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "字幕 zìmù means subtitles.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-002",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means art gallery?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "画廊"
+        },
+        {
+          "id": "o2",
+          "text": "国画"
+        },
+        {
+          "id": "o3",
+          "text": "名画"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "画廊 is an art gallery; 国画 is Chinese painting and 名画 is a famous painting.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0010"
+      ],
+      "entryIds": [
+        "e-p0007-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-003",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character contains the water component 氵?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "渴"
+        },
+        {
+          "id": "o2",
+          "text": "恕"
+        },
+        {
+          "id": "o3",
+          "text": "桔"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "渴 kě has 氵 on its left; 恕 contains 心 and 桔 contains 木.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0046"
+      ],
+      "entryIds": [
+        "e-p0007-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-004",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 餐巾 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "napkin"
+        },
+        {
+          "id": "o2",
+          "text": "headscarf"
+        },
+        {
+          "id": "o3",
+          "text": "clothes"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "餐巾 cānjīn means a napkin used at a meal.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0007"
+      ],
+      "entryIds": [
+        "e-p0007-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-005",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How is 长 read in 厂长 meaning factory director?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "zhǎng"
+        },
+        {
+          "id": "o2",
+          "text": "cháng"
+        },
+        {
+          "id": "o3",
+          "text": "zhàng"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "长 is zhǎng meaning head or chief in 厂长; cháng means long.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0086"
+      ],
+      "entryIds": [
+        "e-p0007-0073"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-006",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Where does the speaker’s elder brother often travel?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Asia"
+        },
+        {
+          "id": "o2",
+          "text": "France"
+        },
+        {
+          "id": "o3",
+          "text": "Japan only"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "亚洲 is Asia; 常去…旅行 means often travel to….",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0149"
+      ],
+      "entryIds": [
+        "e-p0007-0122"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-007",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Who is Wang Meiju?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Wang Guisong’s younger sister"
+        },
+        {
+          "id": "o2",
+          "text": "the speaker’s elder brother"
+        },
+        {
+          "id": "o3",
+          "text": "Wang Guisong’s teacher"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "王贵松的妹妹 means Wang Guisong’s younger sister.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0150"
+      ],
+      "entryIds": [
+        "e-p0007-0123"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-008",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source sentence: 你的___很漂亮。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "衣服"
+        },
+        {
+          "id": "o2",
+          "text": "名片"
+        },
+        {
+          "id": "o3",
+          "text": "语调"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The source says your clothes, 衣服, are beautiful.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0151"
+      ],
+      "entryIds": [
+        "e-p0007-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-009",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does the idiom 寸步难行 convey?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "being unable to move a step or make progress"
+        },
+        {
+          "id": "o2",
+          "text": "having plenty of time"
+        },
+        {
+          "id": "o3",
+          "text": "leaving quickly on a journey"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Literally even a tiny step is hard to take; figuratively it is very hard to proceed.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0052"
+      ],
+      "entryIds": [
+        "e-p0007-0046"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-010",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What information is this question asking for?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "the reason he hits you"
+        },
+        {
+          "id": "o2",
+          "text": "the name of his teacher"
+        },
+        {
+          "id": "o3",
+          "text": "the price of his clothes"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "为什么 wèishénme means why; the sentence does not state the reason.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0152"
+      ],
+      "entryIds": [
+        "e-p0007-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-011",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "贵"
+        },
+        {
+          "id": "o2",
+          "text": "长"
+        },
+        {
+          "id": "o3",
+          "text": "名"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "贵 is guì, expensive or honourable depending on context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0015"
+      ],
+      "entryIds": [
+        "e-p0007-0015"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "贵"
+    }
+  ]
+}

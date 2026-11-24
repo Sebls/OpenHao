@@ -1,0 +1,236 @@
+{
+  "documentId": "lecon-00-histoire-caracteres",
+  "pageId": "p0010",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0010-001",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 小山 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "small mountain"
+        },
+        {
+          "id": "o2",
+          "text": "big fish"
+        },
+        {
+          "id": "o3",
+          "text": "white horse"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "小 means small; 山 means mountain.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0064"
+      ],
+      "entryIds": [
+        "e-p0010-031"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0010-002",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose “big white horse”.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "小白马"
+        },
+        {
+          "id": "o2",
+          "text": "大白马"
+        },
+        {
+          "id": "o3",
+          "text": "小白门"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "大 = big, 白 = white, 马 = horse.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0073"
+      ],
+      "entryIds": [
+        "e-p0010-038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0010-003",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means mountain?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "山"
+        },
+        {
+          "id": "o2",
+          "text": "木"
+        },
+        {
+          "id": "o3",
+          "text": "肉"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "山 is mountain; 木 is tree or wood; 肉 is meat.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0026"
+      ],
+      "entryIds": [
+        "e-p0010-021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0010-004",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What food does 羊肉 name?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "horse meat"
+        },
+        {
+          "id": "o2",
+          "text": "fish"
+        },
+        {
+          "id": "o3",
+          "text": "mutton or lamb"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "羊肉 is meat from a sheep.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0068"
+      ],
+      "entryIds": [
+        "e-p0010-035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0010-005",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete “small white door”: 小白＿.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "马"
+        },
+        {
+          "id": "o2",
+          "text": "门"
+        },
+        {
+          "id": "o3",
+          "text": "山"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "门 means door; 马 is horse and 山 is mountain.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0075"
+      ],
+      "entryIds": [
+        "e-p0010-040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0010-006",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the meaning.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "woman"
+        },
+        {
+          "id": "o2",
+          "text": "white horse"
+        },
+        {
+          "id": "o3",
+          "text": "small mountain"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "女人 means woman.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0076"
+      ],
+      "entryIds": [
+        "e-p0010-041"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      },
+      "speechTarget": "女人"
+    }
+  ]
+}

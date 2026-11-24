@@ -1,0 +1,388 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 小人书 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "small illustrated storybook"
+        },
+        {
+          "id": "o2",
+          "text": "business card"
+        },
+        {
+          "id": "o3",
+          "text": "illustrated magazine"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "小人书 is a small picture-story book or comic booklet.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0015"
+      ],
+      "entryIds": [
+        "e-p0006-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means business card?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "名片"
+        },
+        {
+          "id": "o2",
+          "text": "相片儿"
+        },
+        {
+          "id": "o3",
+          "text": "花儿"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名片 míngpiàn is a business card; 相片儿 is a photograph.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0165"
+      ],
+      "entryIds": [
+        "e-p0006-0067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character in the component exercise contains the cloth component 巾?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "帐"
+        },
+        {
+          "id": "o2",
+          "text": "胀"
+        },
+        {
+          "id": "o3",
+          "text": "何"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "帐 contains 巾 on the left; 胀 has the flesh component instead.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0343"
+      ],
+      "entryIds": [
+        "e-p0006-0143"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is the child drawing?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "a big horse and bamboo"
+        },
+        {
+          "id": "o2",
+          "text": "his father and mother"
+        },
+        {
+          "id": "o3",
+          "text": "tables and chairs"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "大马 is a big horse, and 竹子 means bamboo.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0361"
+      ],
+      "entryIds": [
+        "e-p0006-0161"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the drawing represent?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "the child’s mother"
+        },
+        {
+          "id": "o2",
+          "text": "a flower"
+        },
+        {
+          "id": "o3",
+          "text": "a landscape"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The child says it is his mother, 我妈妈, rather than a flower.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0368"
+      ],
+      "entryIds": [
+        "e-p0006-0168"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-006",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is the speaker showing?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "a business card"
+        },
+        {
+          "id": "o2",
+          "text": "a magazine"
+        },
+        {
+          "id": "o3",
+          "text": "a photograph"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名片 is a business card.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0373"
+      ],
+      "entryIds": [
+        "e-p0006-0173"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-007",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source description: 你的头巾太___。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "长"
+        },
+        {
+          "id": "o2",
+          "text": "贵"
+        },
+        {
+          "id": "o3",
+          "text": "忙"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The source says the headscarf is too long, 太长.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0378"
+      ],
+      "entryIds": [
+        "e-p0006-0178"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-008",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What contrast does 可是 introduce?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "writing characters is useful, but the speaker has no time to learn"
+        },
+        {
+          "id": "o2",
+          "text": "the speaker has time, but writing is useless"
+        },
+        {
+          "id": "o3",
+          "text": "the speaker can paint, but cannot read a magazine"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可是 means but; 没有工夫学 means have no time to learn.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0380"
+      ],
+      "entryIds": [
+        "e-p0006-0180"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-009",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the reply tease the person about?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "only having time to visit his girlfriend"
+        },
+        {
+          "id": "o2",
+          "text": "only having time to buy a scarf"
+        },
+        {
+          "id": "o3",
+          "text": "only drawing bamboo"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "只有工夫去看你的女朋友 says the person only has time to visit his girlfriend.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0381"
+      ],
+      "entryIds": [
+        "e-p0006-0181"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0006-010",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "画"
+        },
+        {
+          "id": "o2",
+          "text": "写"
+        },
+        {
+          "id": "o3",
+          "text": "用"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "画 is huà, draw or painting.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0043"
+      ],
+      "entryIds": [
+        "e-p0006-0029"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "画"
+    }
+  ]
+}

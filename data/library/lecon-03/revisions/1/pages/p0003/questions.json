@@ -1,0 +1,426 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 窗户 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "window"
+        },
+        {
+          "id": "o2",
+          "text": "table"
+        },
+        {
+          "id": "o3",
+          "text": "door"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "窗户 chuānghu means window.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0029"
+      ],
+      "entryIds": [
+        "e-p0003-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means magazine?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "杂志"
+        },
+        {
+          "id": "o2",
+          "text": "语法"
+        },
+        {
+          "id": "o3",
+          "text": "相片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "杂志 zázhì means magazine.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0049"
+      ],
+      "entryIds": [
+        "e-p0003-0043"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the respectful singular you.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "您"
+        },
+        {
+          "id": "o2",
+          "text": "你"
+        },
+        {
+          "id": "o3",
+          "text": "们"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "您 is respectful singular you; 你 is ordinary singular you.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0018"
+      ],
+      "entryIds": [
+        "e-p0003-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Who is not busy in this sentence?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "the speaker’s elder brother"
+        },
+        {
+          "id": "o2",
+          "text": "the speaker"
+        },
+        {
+          "id": "o3",
+          "text": "both people"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The first clause says I am busy; 我哥哥不忙 says my elder brother is not busy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0097"
+      ],
+      "entryIds": [
+        "e-p0003-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does Dr Ma have?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "many small notebooks"
+        },
+        {
+          "id": "o2",
+          "text": "many magazines"
+        },
+        {
+          "id": "o3",
+          "text": "a photograph of his brother"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "小本子 means small notebooks; 很多 means many.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0144"
+      ],
+      "entryIds": [
+        "e-p0003-0103"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source question: 你有___有中文报？",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没"
+        },
+        {
+          "id": "o2",
+          "text": "不"
+        },
+        {
+          "id": "o3",
+          "text": "吗"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The affirmative-negative pattern is 有没有; 不有 is not the negative of 有.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0172"
+      ],
+      "entryIds": [
+        "e-p0003-0112"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 不太 mean here?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "not very"
+        },
+        {
+          "id": "o2",
+          "text": "not at all"
+        },
+        {
+          "id": "o3",
+          "text": "very much"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "不太忙 means not very busy. It does not mean not busy at all.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0181"
+      ],
+      "entryIds": [
+        "e-p0003-0116"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the speaker not have?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "his photograph"
+        },
+        {
+          "id": "o2",
+          "text": "his books"
+        },
+        {
+          "id": "o3",
+          "text": "his newspaper"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "他的相片 means his photograph.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0218"
+      ],
+      "entryIds": [
+        "e-p0003-0127"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Whose book is it?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Dr Tian’s"
+        },
+        {
+          "id": "o2",
+          "text": "Dr Ma’s"
+        },
+        {
+          "id": "o3",
+          "text": "Wang Wenyou’s"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "田大夫的书 means Dr Tian’s book.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0313"
+      ],
+      "entryIds": [
+        "e-p0003-0148"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 您 convey in this question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "respectful address to one person"
+        },
+        {
+          "id": "o2",
+          "text": "address to several people"
+        },
+        {
+          "id": "o3",
+          "text": "a reference to a third person"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "您 is respectful singular you.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0119"
+      ],
+      "entryIds": [
+        "e-p0003-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-011",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "忙"
+        },
+        {
+          "id": "o2",
+          "text": "难"
+        },
+        {
+          "id": "o3",
+          "text": "长"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "忙 is máng, busy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0028"
+      ],
+      "entryIds": [
+        "e-p0003-0025"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "忙"
+    }
+  ]
+}

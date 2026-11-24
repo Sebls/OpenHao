@@ -1,0 +1,62 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "a4993bcb0168b45d34157efb04594720d0870bac4f255829efabceee76f60d13",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, separate self-review after authoring; not independent or human review",
+  "reviewedAt": "2026-11-24T09:07:07.131438+00:00",
+  "checks": [
+    "Compared every requested page source.png with OCR and designated learning regions, including faint characters and illustration/diagram roles.",
+    "Preserved source spelling, repeated occurrences, Unicode code-point offsets and exact individual character anchors.",
+    "Distinct linguistic review of contextual polyphony, negative-tone sandhi, neutral suffixes, proper names, source 作 versus modern 做, and natural English translations.",
+    "Distinct question review of each correct answer, all distractors, selected scope, stable IDs, explanations and runtime audio gating.",
+    "Regenerated source-linked SVG diagnostics after final extraction repairs; inspected source and overlays at page scale and enlarged dialogue/grid scale.",
+    "Agent-browser inspection follows first validated local publication; concrete results recorded separately."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 1; partial reference transcription, reviewed learning regions as described below. No percentage is claimed.",
+    "roles": "15 introductory characters; moon/cereal components and selected component examples. Historical shapes and stroke stages excluded.",
+    "transcriptCodePoints": 2251,
+    "locatedRecords": 2135,
+    "manualCharacterBoxes": 19,
+    "learningLines": 12,
+    "entries": 26,
+    "entriesByKind": {
+      "character": 26
+    },
+    "occurrences": 28,
+    "reviewedIPAEntries": 15,
+    "entriesWithoutReviewedIPA": 11,
+    "questions": 5,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": "Two exact source line anchors on p0005 question 你妈妈作什么工作？; not applicable on this page."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0001",
+      "reason": "Reference OCR is incomplete or uncertain for low-contrast text, small pinyin/French glosses, historical component drawings, intermediate stroke shapes and faint tracing copies. Such regions are not presented as reviewed learning content.",
+      "nextAction": "Use the unchanged original page for these reference regions. Preserve this limitation; a future extraction migration would need explicit scope for accepted pages."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0001",
+      "reason": "11 entries have no reviewed IPA, mainly sentence/name or contextual-neutral readings. Reviewed tone-mark pinyin is available.",
+      "nextAction": "Leave IPA absent rather than synthesize an uncertain transcription."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0001",
+      "reason": "Listening questions require successful local browser playback at runtime. Disconnected audibility has not been independently tested.",
+      "nextAction": "Use the local Mandarin playback control; listening remains gated until completion."
+    }
+  ]
+}

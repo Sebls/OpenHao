@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "slides-lecon-02",
+  "contentRevision": 1,
+  "baseRevision": 0,
+  "title": "Lesson 2 · Slides",
+  "sourceLanguage": "zh-CN",
+  "translationLanguage": "en",
+  "source": {
+    "pathBase": "data-root",
+    "path": "pdfs/slides-lecon-02.pdf",
+    "sha256": "d36b76c293c940385cdfb0e3718a146608eed231c89d9fa38ff107756a4c79d2",
+    "bytes": 55732,
+    "pageCount": 4
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "width": 959.760009765625,
+      "height": 540,
+      "mediaBox": [
+        0,
+        0,
+        959.760009765625,
+        540
+      ],
+      "cropBox": [
+        0,
+        0,
+        959.760009765625,
+        540
+      ],
+      "rotation": 0,
+      "id": "p0001",
+      "state": "extracted",
+      "questionAvailability": [],
+      "extractionRevision": 1
+    },
+    {
+      "pageNumber": 2,
+      "width": 959.760009765625,
+      "height": 540,
+      "mediaBox": [
+        0,
+        0,
+        959.760009765625,
+        540
+      ],
+      "cropBox": [
+        0,
+        0,
+        959.760009765625,
+        540
+      ],
+      "rotation": 0,
+      "id": "p0002",
+      "state": "ready",
+      "questionAvailability": [
+        "zh-to-en",
+        "en-to-zh",
+        "character-identification",
+        "grammar-comprehension",
+        "listening-comprehension"
+      ],
+      "extractionRevision": 1
+    },
+    {
+      "pageNumber": 3,
+      "width": 959.760009765625,
+      "height": 540,
+      "mediaBox": [
+        0,
+        0,
+        959.760009765625,
+        540
+      ],
+      "cropBox": [
+        0,
+        0,
+        959.760009765625,
+        540
+      ],
+      "rotation": 0,
+      "id": "p0003",
+      "state": "ready",
+      "questionAvailability": [
+        "zh-to-en",
+        "en-to-zh",
+        "character-identification",
+        "sentence-comprehension",
+        "missing-word",
+        "grammar-comprehension",
+        "listening-comprehension"
+      ],
+      "extractionRevision": 1
+    },
+    {
+      "pageNumber": 4,
+      "width": 959.760009765625,
+      "height": 540,
+      "mediaBox": [
+        0,
+        0,
+        959.760009765625,
+        540
+      ],
+      "cropBox": [
+        0,
+        0,
+        959.760009765625,
+        540
+      ],
+      "rotation": 0,
+      "id": "p0004",
+      "state": "ready",
+      "questionAvailability": [
+        "zh-to-en",
+        "en-to-zh",
+        "character-identification",
+        "sentence-comprehension",
+        "missing-word",
+        "grammar-comprehension",
+        "listening-comprehension"
+      ],
+      "extractionRevision": 1
+    }
+  ],
+  "files": {
+    "pages/p0001/annotations.json": "22b56151c19d7b6d3fe85a9d3869d13f04eb45117ecdfd34185e170d04a91960",
+    "pages/p0001/diagnostic.svg": "f8389560a6075d3b9a2773f6ab3f63cd00a9ca61b8ab660d4927a2eb84024906",
+    "pages/p0001/entries.json": "0b01752ee6383b9f024abc7f23f31389fd13fdc78bdc38490a4f78fa15b2c419",
+    "pages/p0001/layout.json": "cecddb638a523c2eddcd4f88d409d3b64329c4f835679108215edbd125280c97",
+    "pages/p0001/questions.json": "ffb1c8813bbcfff4abdd4b4c797527516946076928b4615e9501c6d027e08bff",
+    "pages/p0001/review.json": "9cda0c1fea5078dad1a4637db686d52e21ef6da33fe44a54c2d3eead3d9a0d74",
+    "pages/p0001/source.png": "e05571deab07932b8350598c1196df0ec1b7262044da21d31cb2348f07cb9c4a",
+    "pages/p0001/text.txt": "78e2cbf9a58365e54daf8521c35e02ed5bef0d3d34c515d1bc5657df29a6e9a9",
+    "pages/p0002/annotations.json": "1b2d9eeb77419c4a4feecd97e8ec3cabfb4e0ad8f3e5b15132f0deda5979ed17",
+    "pages/p0002/diagnostic.svg": "44eebf225fa73302717d9fb4dfd741a3061c6833dfef61e668e06132030cc9c5",
+    "pages/p0002/entries.json": "6b572e999c19e4fda0f97eeabcf7b7f3cb00f6b4d20c1136d86e1969d5b88701",
+    "pages/p0002/layout.json": "b0e9972b7dbb49b81f147280b4ebfeffa07d71206e6107d6898dbc2c2047d65b",
+    "pages/p0002/questions.json": "10d37441b9dcdee6de22975e0920e9e668e80541eca4131f929e5c986b38dc86",
+    "pages/p0002/review.json": "cc0cc167e05d7d5ff11847596cc2a836b424dcf9796b4524074a71834566c20e",
+    "pages/p0002/source.png": "193df3f8f901acd0b3fd532e915fc15454340a8cc766fee1b71825f3f9c216f2",
+    "pages/p0002/text.txt": "267e549efd33b40aafde24bb1edcd0fdb6737453b6f466543b92e7297d6bf1bb",
+    "pages/p0003/annotations.json": "8c55c7b85df33bf4e0a796c8aa3869c9567705b6662c5405e3323a24e70f365d",
+    "pages/p0003/diagnostic.svg": "c298eb24e9bfbea8102336422505b4b553c5d10515bd95636b2dccbd27df9438",
+    "pages/p0003/entries.json": "6d698a8118e59c975cc65154af324cc2d7e62449d654ab3ad1812b522645b69d",
+    "pages/p0003/layout.json": "99fa64a5ba73c75d3017058323c8eaf0532abc98de78ec8b25c8c82498adb714",
+    "pages/p0003/questions.json": "9b00ede8b2ff41e6dfd4d63b1fb650b61cdbee1a91adedec4af34161e8347e89",
+    "pages/p0003/review.json": "3b43ca77d5046ff63290431c50a623f23a5401164bd0c1dbaaa7c529ef0dd168",
+    "pages/p0003/source.png": "23df34e25f956815dda3cdbc87c1ec4b2eb6ddac0ffc392e1ff7840b35eb202e",
+    "pages/p0003/text.txt": "f464ec5bc2284e898faf9744f714fc1cc31793299d375dc488f1eb1ba6e20399",
+    "pages/p0004/annotations.json": "d357dd022521e588bc0053a02fe2c297346c6d0161bd2cc9b6751858c7276388",
+    "pages/p0004/diagnostic.svg": "7bf05aa4110ef020b4a359a88e98e9dfe07f5a176435e42de6f6e1ee77566315",
+    "pages/p0004/entries.json": "c287ad2a8b4d3cbc370dcc408817107eead9827ce557bc260e24146ebf51f7a1",
+    "pages/p0004/layout.json": "cd67f62a389f25cefd41346fd986ce694a0d7996e1618c26f9ab9a76f610c2cb",
+    "pages/p0004/questions.json": "50a24c73377c46058e3f44322b8778b82fd83f976d18fde956a9afc428d3d2a2",
+    "pages/p0004/review.json": "06f3a6d481e20d96a5dce3e9f0ffe68a056aaafda40c9d1525c926c1e058ffbb",
+    "pages/p0004/source.png": "0bf2f00ffff582745a71f81791fec9c0b0749c9042f129c8ff5b97a296318457",
+    "pages/p0004/text.txt": "e8a87d1ecbe32304ce2d949e6b9e9a1a8c8ab758cab55de4ca13696d2e9f6d66",
+    "review/report.json": "bf22772949053fa4be416ae3241b32c630ddc402b5d53c489792732726323ba5"
+  },
+  "learningProfile": {
+    "version": 1,
+    "translationLanguage": "en",
+    "interfaceLanguage": "en",
+    "level": "complete-beginner",
+    "language": "zh-CN",
+    "variety": "Mandarin",
+    "primaryTranscription": "pinyin-tone-marks",
+    "secondaryTranscription": "ipa",
+    "sourceFirst": true,
+    "maxSupplementalExamples": 1
+  },
+  "createdAt": "2026-11-23T22:01:07.527Z",
+  "updatedAt": "2026-11-23T22:04:30.467Z",
+  "provenance": {
+    "extractor": "PyMuPDF",
+    "version": "1.26.7",
+    "agentReview": "Codex agent source visual comparison, linguistic review, and single-choice question review across pages 1–4; page 1 kept extracted as French title-only cover slide"
+  }
+}

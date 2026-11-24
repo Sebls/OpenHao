@@ -1,0 +1,312 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does the traditional word 畫報 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "illustrated magazine"
+        },
+        {
+          "id": "o2",
+          "text": "business card"
+        },
+        {
+          "id": "o3",
+          "text": "Chinese character"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "畫報 is the traditional form of 画报, illustrated magazine.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means headscarf?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "頭巾"
+        },
+        {
+          "id": "o2",
+          "text": "書法"
+        },
+        {
+          "id": "o3",
+          "text": "漢字"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "頭巾 tóujīn means headscarf.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0024"
+      ],
+      "entryIds": [
+        "e-p0004-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the traditional character for write.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "寫"
+        },
+        {
+          "id": "o2",
+          "text": "畫"
+        },
+        {
+          "id": "o3",
+          "text": "漢"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "寫 corresponds to simplified 写; 畫 means draw.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is this question asking?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "whether you are still busy"
+        },
+        {
+          "id": "o2",
+          "text": "whether your headscarf is long"
+        },
+        {
+          "id": "o3",
+          "text": "whether you can draw bamboo"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "還 hái means still here; 很忙 means very busy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0271"
+      ],
+      "entryIds": [
+        "e-p0004-0128"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source phrase: 你的___",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "畫報"
+        },
+        {
+          "id": "o2",
+          "text": "筷子"
+        },
+        {
+          "id": "o3",
+          "text": "頭巾"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The source asks permission to look at your illustrated magazine, 你的畫報.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0273"
+      ],
+      "entryIds": [
+        "e-p0004-0130"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 會不會 ask about?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "whether someone knows how to do something"
+        },
+        {
+          "id": "o2",
+          "text": "whether someone owns something"
+        },
+        {
+          "id": "o3",
+          "text": "whether something is expensive"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "會 before a verb concerns ability; 會不會 is an affirmative-negative question.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0280"
+      ],
+      "entryIds": [
+        "e-p0004-0137"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Whose headscarf is this?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "hers"
+        },
+        {
+          "id": "o2",
+          "text": "mine"
+        },
+        {
+          "id": "o3",
+          "text": "his"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "她的 means her or hers; 這是她的頭巾 means this is her headscarf.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0274"
+      ],
+      "entryIds": [
+        "e-p0004-0131"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "語"
+        },
+        {
+          "id": "o2",
+          "text": "畫"
+        },
+        {
+          "id": "o3",
+          "text": "寫"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "語 is yǔ, language or speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0257"
+      ],
+      "entryIds": [
+        "e-p0004-0120"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "語"
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "In 您贵姓？, what is being asked?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "the person’s family name"
+        },
+        {
+          "id": "o2",
+          "text": "the price of a newspaper"
+        },
+        {
+          "id": "o3",
+          "text": "the person’s age"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "贵姓 is a respectful way to ask for a family name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0398"
+      ],
+      "entryIds": [
+        "e-p0005-0129"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means easy?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "容易"
+        },
+        {
+          "id": "o2",
+          "text": "有名"
+        },
+        {
+          "id": "o3",
+          "text": "地方"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "容易 róngyì means easy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0255"
+      ],
+      "entryIds": [
+        "e-p0005-0083"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written form is respectful singular you?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "您"
+        },
+        {
+          "id": "o2",
+          "text": "你"
+        },
+        {
+          "id": "o3",
+          "text": "他"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "您 is respectful singular you.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0323"
+      ],
+      "entryIds": [
+        "e-p0005-0110"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does Li Yu ask Marie?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "whether she has a Chinese name"
+        },
+        {
+          "id": "o2",
+          "text": "whether she has a newspaper"
+        },
+        {
+          "id": "o3",
+          "text": "whether her mother is well"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "中文名字 means Chinese name; 有…吗 asks whether she has one.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What family name does the speaker give?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Sun"
+        },
+        {
+          "id": "o2",
+          "text": "Li"
+        },
+        {
+          "id": "o3",
+          "text": "Tian"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "姓 introduces a family name; 孙 is Sun.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0408"
+      ],
+      "entryIds": [
+        "e-p0005-0132"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Which newspapers does the speaker say they have?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "only Chinese-language newspapers"
+        },
+        {
+          "id": "o2",
+          "text": "only English-language newspapers"
+        },
+        {
+          "id": "o3",
+          "text": "both English- and Chinese-language newspapers"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The speaker has no 英文报 and says 就有中文报, only Chinese-language newspapers.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0175"
+      ],
+      "entryIds": [
+        "e-p0005-0065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source sentence: 我妈妈___很好。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "也"
+        },
+        {
+          "id": "o2",
+          "text": "吗"
+        },
+        {
+          "id": "o3",
+          "text": "没"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "也 means also and goes before 很好.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0360"
+      ],
+      "entryIds": [
+        "e-p0005-0120"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 呢 do in this conversation?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "asks what about your mother"
+        },
+        {
+          "id": "o2",
+          "text": "makes the word mother plural"
+        },
+        {
+          "id": "o3",
+          "text": "means no mother"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "呢 asks the parallel question what about… in the existing conversation.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0350"
+      ],
+      "entryIds": [
+        "e-p0005-0116"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Why does the speaker say they do not want to study Japanese?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "they find its grammar too difficult"
+        },
+        {
+          "id": "o2",
+          "text": "they have no Japanese books"
+        },
+        {
+          "id": "o3",
+          "text": "their mother is too busy"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The dialogue gives 太难, too difficult, as the speaker’s reason.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0294"
+      ],
+      "entryIds": [
+        "e-p0005-0097"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-010",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What is 玛丽 in the dialogue?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Marie’s Chinese name"
+        },
+        {
+          "id": "o2",
+          "text": "the ordinary word for magazine"
+        },
+        {
+          "id": "o3",
+          "text": "Dr Sun’s title"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "玛丽 is a personal-name transcription; it is not translated as agate-beauty.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0015"
+      ],
+      "entryIds": [
+        "e-p0005-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0005-011",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "贵"
+        },
+        {
+          "id": "o2",
+          "text": "对"
+        },
+        {
+          "id": "o3",
+          "text": "忙"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "贵 is guì; here its lexical meaning is expensive or honourable, depending on the expression.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0197"
+      ],
+      "entryIds": [
+        "e-p0005-0070"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "贵"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 对 mean in the character table?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "correct; right"
+        },
+        {
+          "id": "o2",
+          "text": "long"
+        },
+        {
+          "id": "o3",
+          "text": "write"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "对 duì means correct or right.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which character means long?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "长"
+        },
+        {
+          "id": "o2",
+          "text": "名"
+        },
+        {
+          "id": "o3",
+          "text": "巾"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "长 cháng describes length; zhǎng is a different contextual reading.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the written character meaning a written character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "字"
+        },
+        {
+          "id": "o2",
+          "text": "名"
+        },
+        {
+          "id": "o3",
+          "text": "汉"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "字 zì means a written character.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0005"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 竹 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "bamboo"
+        },
+        {
+          "id": "o2",
+          "text": "cloth"
+        },
+        {
+          "id": "o3",
+          "text": "palace"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "竹 zhú means bamboo.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0017"
+      ],
+      "entryIds": [
+        "e-p0001-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How does 儿 work in 画儿 huàr?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "It adds an r ending to the preceding syllable."
+        },
+        {
+          "id": "o2",
+          "text": "It is a separate full ér syllable here."
+        },
+        {
+          "id": "o3",
+          "text": "It makes the word plural."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "In this rhotic word, 儿 merges into the preceding syllable; it does not mark plural.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0031"
+      ],
+      "entryIds": [
+        "e-p0001-0027"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 郊 refer to in the component examples?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "suburbs; outskirts"
+        },
+        {
+          "id": "o2",
+          "text": "capital city"
+        },
+        {
+          "id": "o3",
+          "text": "palace"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "郊 jiāo means suburbs or outskirts; 都 dū is capital.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0022"
+      ],
+      "entryIds": [
+        "e-p0001-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "对"
+        },
+        {
+          "id": "o2",
+          "text": "长"
+        },
+        {
+          "id": "o3",
+          "text": "竹"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "对 is duì, correct.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "对"
+    }
+  ]
+}
