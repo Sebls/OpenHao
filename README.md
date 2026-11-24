@@ -20,6 +20,7 @@ Lesson 1 of New HSK 1 is prepared on this computer. The unchanged five-page orig
 Ask the agent to prepare a PDF and specific physical pages, or give it a copied item reference. It follows [the preparation skill](skills/prepare-material/SKILL.md), preserves accepted pages, validates content and publishes locally. The library discovers changes automatically.
 
 - [TypeScript architecture and development](docs/interactive-reader/typescript-architecture.md)
+- [Branches and GitHub Pages deployment](docs/interactive-reader/branches-and-deployment.md)
 - [Installation, study, preparation and backup guide](docs/interactive-reader/implementation.md)
 - [Verification and known limitations](docs/interactive-reader/verification.md)
 - [Current visual design and reference roles](docs/interactive-reader/design-references/README.md)
