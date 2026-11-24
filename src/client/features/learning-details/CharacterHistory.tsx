@@ -36,8 +36,7 @@ const historyByCharacter = new Map(
 
 export function CharacterHistory({ entry }: { entry: Entry }) {
   const character = entry.form;
-  const history =
-    entry.kind === "character" ? historyByCharacter.get(character) : undefined;
+  const history = historyByCharacter.get(character);
   const [layout, changeLayout] = useSequenceLayout(
     "reader.character-history-layout",
   );
