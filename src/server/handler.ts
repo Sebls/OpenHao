@@ -29,12 +29,14 @@ export function handleRequest(req: IncomingMessage, res: ServerResponse) {
       new URL(req.url || "/", "http://localhost").pathname,
     );
     if (serveHanziData(req, res)) return;
-    if (pathname === "/api/catalog") {
+    if (pathname === "/api/catalog" || pathname === "/api/catalog.json") {
       res.setHeader("Content-Type", "application/json");
       res.setHeader("Cache-Control", "no-store");
       return res.end(JSON.stringify(scan()));
     }
-    const match = pathname.match(/^\/api\/document\/([a-z0-9-]+)\/(\d+)$/);
+    const match = pathname.match(
+      /^\/api\/document\/([a-z0-9-]+)\/(\d+)(?:\.json)?$/,
+    );
     if (match) {
       const m = valid.get(`${match[1]}/${match[2]}`);
       if (!m) throw Error("Unknown validated revision");
@@ -78,7 +80,7 @@ export function handleRequest(req: IncomingMessage, res: ServerResponse) {
         ),
       );
     }
-    const pdf = pathname.match(/^\/pdf\/([a-z0-9-]+)\/(\d+)$/);
+    const pdf = pathname.match(/^\/pdf\/([a-z0-9-]+)\/(\d+)(?:\.pdf)?$/);
     if (pdf) {
       const m = valid.get(`${pdf[1]}/${pdf[2]}`);
       if (!m) throw Error("Unknown source");

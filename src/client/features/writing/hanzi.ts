@@ -58,7 +58,7 @@ export async function loadCharacter(
   signal?: AbortSignal,
 ): Promise<CharacterData> {
   const response = await fetch(
-    `/hanzi-data/${encodeURIComponent(character)}.json`,
+    `${import.meta.env.BASE_URL}hanzi-data/${encodeURIComponent(character)}.json`,
     { signal },
   );
   if (!response.ok)

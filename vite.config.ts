@@ -3,6 +3,7 @@ import { scan } from "./src/server/catalog.ts";
 import { handleRequest } from "./src/server/handler.ts";
 
 export default defineConfig({
+  base: process.env.VITE_BASE_PATH || "/",
   esbuild: { jsx: "automatic" },
   server: { host: "127.0.0.1" },
   plugins: [

@@ -11,6 +11,7 @@
     "start": "tsx src/server/main.ts",
     "dev": "vite --host 127.0.0.1",
     "build": "npm run typecheck && vite build",
+    "build:pages": "npm run build && tsx src/content/exportStatic.ts",
     "test": "node --import tsx --test tests/*.test.mjs",
     "setup:extractor": "python3 -m venv .venv && .venv/bin/python -m pip install -r tools/requirements.txt",
     "content:inspect": "tsx src/content/cli.ts inspect",

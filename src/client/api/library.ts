@@ -10,10 +10,11 @@ async function get<T>(url: string): Promise<T> {
   // Only the loopback server's validated catalog/revisions are consumed here.
   return response.json() as Promise<T>;
 }
-export const getCatalog = () => get<Catalog>("/api/catalog");
+const base = import.meta.env.BASE_URL;
+export const getCatalog = () => get<Catalog>(`${base}api/catalog.json`);
 export async function getDocument(manifest: Manifest): Promise<StudyDocument> {
   const data = await get<StudyDocument>(
-    `/api/document/${manifest.documentId}/${manifest.contentRevision}`,
+    `${base}api/document/${manifest.documentId}/${manifest.contentRevision}.json`,
   );
   return {
     ...data,

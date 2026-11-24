@@ -38,12 +38,13 @@ export function Source({
       y: number;
     } | null>(null);
   useEffect(() => {
+    const base = import.meta.env.BASE_URL;
     const task = pdfjs.getDocument({
-      url: `/pdf/${manifest.documentId}/${manifest.contentRevision}`,
-      cMapUrl: "/pdfjs/cmaps/",
+      url: `${base}pdf/${manifest.documentId}/${manifest.contentRevision}.pdf`,
+      cMapUrl: `${base}pdfjs/cmaps/`,
       cMapPacked: true,
-      standardFontDataUrl: "/pdfjs/standard_fonts/",
-      wasmUrl: "/pdfjs/wasm/",
+      standardFontDataUrl: `${base}pdfjs/standard_fonts/`,
+      wasmUrl: `${base}pdfjs/wasm/`,
     });
     task.promise
       .then(setPdf)
@@ -205,7 +206,7 @@ export function Source({
       </div>
       <a
         className="original-link"
-        href={`/pdf/${manifest.documentId}/${manifest.contentRevision}`}
+        href={`${import.meta.env.BASE_URL}pdf/${manifest.documentId}/${manifest.contentRevision}.pdf`}
         target="_blank"
         rel="noreferrer"
       >
