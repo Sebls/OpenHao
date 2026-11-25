@@ -98,6 +98,12 @@ export function handleRequest(req: IncomingMessage, res: ServerResponse) {
         ? path.resolve("dist/index.html")
         : safe(path.resolve("dist"), pathname.slice(1));
     if (!fs.existsSync(local) || !fs.statSync(local).isFile()) {
+      if (!path.extname(pathname)) {
+        const index = path.resolve("dist/index.html");
+        if (fs.existsSync(index) && fs.statSync(index).isFile()) {
+          return sendFile(req, res, index);
+        }
+      }
       res.writeHead(404);
       return res.end("Not found");
     }
