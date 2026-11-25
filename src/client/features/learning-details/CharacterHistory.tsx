@@ -3,6 +3,7 @@ import type { Entry } from "../../../contracts/content.ts";
 import {
   SequenceLayoutControls,
   useSequenceLayout,
+  useSequenceOverflow,
 } from "../../ui/SequenceLayout.tsx";
 interface CharacterHistoryRecord {
   characters: string[];
@@ -37,9 +38,14 @@ const historyByCharacter = new Map(
 export function CharacterHistory({ entry }: { entry: Entry }) {
   const character = entry.form;
   const history = historyByCharacter.get(character);
-  const [layout, changeLayout] = useSequenceLayout(
+  const { ref, overflows } = useSequenceOverflow(
+    (history?.forms.length ?? 0) + 1,
+    88,
+  );
+  const [preferredLayout, changeLayout] = useSequenceLayout(
     "reader.character-history-layout",
   );
+  const layout = overflows ? preferredLayout : "row";
   if (!history) return null;
 
   const { assetPath, forms, meaning, origin } = history;
@@ -60,24 +66,28 @@ export function CharacterHistory({ entry }: { entry: Entry }) {
       )}
       <div className="stroke-progression-header">
         <p className="field-label">Character evolution</p>
-        <SequenceLayoutControls
-          label="Character history layout"
-          layout={layout}
-          onChange={changeLayout}
-          rowLabel="Scrolling row"
-          gridLabel="Grid"
-        />
+        {overflows && (
+          <SequenceLayoutControls
+            label="Character history layout"
+            layout={layout}
+            onChange={changeLayout}
+            rowLabel="Scrolling row"
+            gridLabel="Grid"
+          />
+        )}
       </div>
       <div
-        key={character}
+        ref={ref}
         className={`stroke-sequence history-sequence${layout === "grid" ? " is-grid" : ""}`}
         role="region"
         aria-label={
-          layout === "row"
-            ? "Character forms, scroll horizontally for more"
-            : "Character forms in a grid"
+          !overflows
+            ? "Character forms"
+            : layout === "row"
+              ? "Character forms, scroll horizontally for more"
+              : "Character forms in a grid"
         }
-        tabIndex={layout === "row" ? 0 : undefined}
+        tabIndex={overflows && layout === "row" ? 0 : undefined}
       >
         <ol>
           {forms.map((form) => (

@@ -3,6 +3,7 @@
 }
 .hanzi-grid {
   width: min(100%, 260px);
+  margin-inline: auto;
   aspect-ratio: 1;
   border: 1px solid var(--line);
   background:
@@ -84,8 +85,8 @@
 }
 .stroke-sequence.is-grid ol {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 72px));
-  gap: 6px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 72px), 72px));
+  gap: 8px;
   width: 100%;
 }
 .stroke-sequence.is-grid .stroke-step {
@@ -151,8 +152,8 @@
   width: 88px;
 }
 .history-sequence.is-grid ol {
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 76px), 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 88px), 88px));
+  gap: 8px;
 }
 .history-sequence.is-grid li {
   width: auto;

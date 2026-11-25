@@ -3,10 +3,6 @@
     align-items: start;
     flex-direction: column;
   }
-  .reading-layout.with-details {
-    gap: 28px;
-    grid-template-columns: minmax(0, 1fr) 290px;
-  }
 }
 @media (max-width: 850px) {
   .top {
@@ -51,6 +47,9 @@
     display: block;
     max-width: 600px;
     margin: auto;
+  }
+  .details-resizer {
+    display: none;
   }
   .reading-layout.with-details > .page-column {
     display: none;

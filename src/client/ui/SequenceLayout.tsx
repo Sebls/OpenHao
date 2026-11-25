@@ -1,5 +1,5 @@
 export type SequenceLayout = "row" | "grid";
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 
 export function useSequenceLayout(preference: string) {
   const [layout, setLayout] = useState<SequenceLayout>(() => {
@@ -76,4 +76,24 @@ export function SequenceLayoutControls({
       </button>
     </div>
   );
+}
+
+// Show layout choices only when a single row would overflow the available width.
+export function useSequenceOverflow(count: number, itemWidth: number) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [width, setWidth] = useState(0);
+  useLayoutEffect(() => {
+    const element = ref.current;
+    if (!element) return;
+    const observer = new ResizeObserver(([entry]) =>
+      setWidth(entry.contentRect.width),
+    );
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, [count]);
+  return {
+    ref,
+    overflows:
+      width > 0 && count * itemWidth + Math.max(0, count - 1) * 8 > width,
+  };
 }

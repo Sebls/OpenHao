@@ -21,6 +21,8 @@ import { Practice } from "../features/practice/Practice.tsx";
 import { eligibleQuestions } from "../features/practice/model.ts";
 import { practiceReducer } from "../features/practice/session.ts";
 import { LearningUnits } from "../features/reader/LearningUnits.tsx";
+import { PdfViewport } from "../features/reader/PdfViewport.tsx";
+import { ReadingLayout } from "../features/reader/ReadingLayout.tsx";
 import { Source } from "../features/reader/Source.tsx";
 import { anchorRects } from "../features/reader/geometry.ts";
 import { useSpeech } from "../features/speech/useSpeech.ts";
@@ -229,8 +231,18 @@ export function App() {
             behavior: "instant",
           });
           container.scrollTo({
-            top: target[1] * source.clientHeight - 40,
-            left: target[0] * source.clientWidth - 40,
+            top:
+              source.getBoundingClientRect().top -
+              container.getBoundingClientRect().top +
+              container.scrollTop +
+              target[1] * source.clientHeight -
+              40,
+            left:
+              source.getBoundingClientRect().left -
+              container.getBoundingClientRect().left +
+              container.scrollLeft +
+              target[0] * source.clientWidth -
+              40,
             behavior: "instant",
           });
         }
@@ -424,41 +436,48 @@ export function App() {
                     <rect x="7" y="8" width="10" height="8" rx="1" />
                   </svg>
                 </button>
-                <label>
-                  Page size{" "}
-                  <select
-                    value={zoom}
-                    onChange={(e) => setZoom(Number(e.target.value))}
-                  >
-                    <option value={100}>Fit width</option>
-                    <option value={125}>125%</option>
-                    <option value={150}>150%</option>
-                  </select>
-                </label>
               </div>
             </div>
-            <div className={`reading-layout ${entry ? "with-details" : ""}`}>
+            <ReadingLayout
+              details={
+                entry ? (
+                  <LearningDetails
+                    key={active!.id}
+                    entry={entry}
+                    active={active!}
+                    content={content!}
+                    speech={speech}
+                    selection={selection}
+                    reference={reference!}
+                    visible={view === "reader"}
+                    detailsRef={details}
+                    onClose={closeDetails}
+                    onToggle={toggle}
+                    onPractise={beginWriting}
+                    choose={choose}
+                  />
+                ) : null
+              }
+            >
               <section className="page-column" aria-label="PDF reader">
-                <div
-                  className="page-scroll"
-                  ref={pageScroll}
-                  tabIndex={0}
-                  role="region"
-                  aria-label="Scrollable original page"
+                <PdfViewport
+                  viewportRef={pageScroll}
+                  zoom={zoom}
+                  onZoom={setZoom}
+                  pageRatio={page ? page.width / page.height : 1}
+                  originalHref={`${import.meta.env.BASE_URL}pdf/${m!.documentId}/${m!.contentRevision}.pdf`}
                 >
-                  <div style={{ width: zoom + "%" }}>
-                    {m && page && (
-                      <Source
-                        manifest={m!}
-                        page={page}
-                        content={content}
-                        selected={active}
-                        showRegions={showRegions}
-                        onSelect={choose}
-                      />
-                    )}
-                  </div>
-                </div>
+                  {m && page && (
+                    <Source
+                      manifest={m!}
+                      page={page}
+                      content={content}
+                      selected={active}
+                      showRegions={showRegions}
+                      onSelect={choose}
+                    />
+                  )}
+                </PdfViewport>
                 {content ? (
                   <LearningUnits
                     unitKind={unitKind}
@@ -477,24 +496,7 @@ export function App() {
                   </div>
                 )}
               </section>
-              {entry && (
-                <LearningDetails
-                  key={active!.id}
-                  entry={entry}
-                  active={active!}
-                  content={content!}
-                  speech={speech}
-                  selection={selection}
-                  reference={reference!}
-                  visible={view === "reader"}
-                  detailsRef={details}
-                  onClose={closeDetails}
-                  onToggle={toggle}
-                  onPractise={beginWriting}
-                  choose={choose}
-                />
-              )}
-            </div>
+            </ReadingLayout>
           </div>
           {view === "practice" && session && (
             <Practice

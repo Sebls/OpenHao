@@ -204,14 +204,6 @@ export function Source({
           </div>
         )}
       </div>
-      <a
-        className="original-link"
-        href={`${import.meta.env.BASE_URL}pdf/${manifest.documentId}/${manifest.contentRevision}.pdf`}
-        target="_blank"
-        rel="noreferrer"
-      >
-        Open original PDF ↗
-      </a>
     </>
   );
 }
