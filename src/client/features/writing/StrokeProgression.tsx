@@ -1,6 +1,7 @@
 import {
   SequenceLayoutControls,
   useSequenceLayout,
+  useSequenceOverflow,
 } from "../../ui/SequenceLayout.tsx";
 import { strokeDiagramTransform } from "./hanzi.ts";
 export function StrokeProgression({
@@ -10,9 +11,11 @@ export function StrokeProgression({
   character: string;
   strokes: string[];
 }) {
-  const [layout, changeLayout] = useSequenceLayout(
+  const { ref, overflows } = useSequenceOverflow(strokes.length, 72);
+  const [preferredLayout, changeLayout] = useSequenceLayout(
     "reader.stroke-progression-layout",
   );
+  const layout = overflows ? preferredLayout : "row";
   return (
     <section
       className="stroke-progression"
@@ -20,23 +23,28 @@ export function StrokeProgression({
     >
       <div className="stroke-progression-header">
         <p className="field-label">Stroke by stroke</p>
-        <SequenceLayoutControls
-          label="Stroke diagram layout"
-          layout={layout}
-          onChange={changeLayout}
-          rowLabel="Scrolling row"
-          gridLabel="Four-column grid"
-        />
+        {overflows && (
+          <SequenceLayoutControls
+            label="Stroke diagram layout"
+            layout={layout}
+            onChange={changeLayout}
+            rowLabel="Scrolling row"
+            gridLabel="Grid"
+          />
+        )}
       </div>
       <div
+        ref={ref}
         className={`stroke-sequence ${layout === "grid" ? "is-grid" : ""}`}
         role="region"
         aria-label={
-          layout === "row"
-            ? "Stroke diagrams, scroll horizontally for more"
-            : "Stroke diagrams in four columns"
+          !overflows
+            ? "Stroke diagrams"
+            : layout === "row"
+              ? "Stroke diagrams, scroll horizontally for more"
+              : "Stroke diagrams in a grid"
         }
-        tabIndex={layout === "row" ? 0 : undefined}
+        tabIndex={overflows && layout === "row" ? 0 : undefined}
       >
         <ol>
           {strokes.map((_, index) => (
