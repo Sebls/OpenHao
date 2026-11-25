@@ -1,0 +1,324 @@
+{
+  "documentId": "new-hsk-1",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 请问 mean at the start of a question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Excuse me / may I ask"
+        },
+        {
+          "id": "o1",
+          "text": "I’m sorry"
+        },
+        {
+          "id": "o2",
+          "text": "Nice to meet you"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "请问 is a polite opener meaning “excuse me” or “may I ask.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which expression means “It’s okay / never mind”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "对不起"
+        },
+        {
+          "id": "o1",
+          "text": "没关系"
+        },
+        {
+          "id": "o2",
+          "text": "请问"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没关系 is the standard polite reply to 对不起 (“sorry”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means “to be called” in 我叫李文?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "是"
+        },
+        {
+          "id": "o1",
+          "text": "叫"
+        },
+        {
+          "id": "o2",
+          "text": "问"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "叫 (jiào) means “to be called”; 是 means “to be” and 问 means “to ask.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In Dialogue 2.2, who is speaker B actually?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Annie (安妮)"
+        },
+        {
+          "id": "o1",
+          "text": "Bai Jiayue (白家月)"
+        },
+        {
+          "id": "o2",
+          "text": "Li Wen (李文)"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Speaker B says 我不是安妮,我是白家月 (“I’m not Annie, I’m Bai Jiayue”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the apology response: A：对不起! B：___！",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "没关系"
+        },
+        {
+          "id": "o1",
+          "text": "请问"
+        },
+        {
+          "id": "o2",
+          "text": "很高兴"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "没关系 (“it’s okay”) is the natural response to 对不起.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0073"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Where is 也 (“also”) placed in 我也很高兴?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "After 高兴"
+        },
+        {
+          "id": "o1",
+          "text": "Before 很高兴"
+        },
+        {
+          "id": "o2",
+          "text": "At the very end of the sentence"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "也 precedes the predicate, coming right after the subject 我 and before 很高兴.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0112"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 认识 mean in 很高兴认识你?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "To ask"
+        },
+        {
+          "id": "o1",
+          "text": "To meet / know (someone)"
+        },
+        {
+          "id": "o2",
+          "text": "To be called"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "认识 means to meet or know a person.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0107"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which meaning did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "I’m sorry"
+        },
+        {
+          "id": "o1",
+          "text": "Excuse me"
+        },
+        {
+          "id": "o2",
+          "text": "It’s okay"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "对不起 means “I’m sorry.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0069"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "对不起"
+    },
+    {
+      "id": "q-p0002-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which meaning did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "What is your name?"
+        },
+        {
+          "id": "o1",
+          "text": "Nice to meet you"
+        },
+        {
+          "id": "o2",
+          "text": "It’s okay"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "很高兴认识你 means “Nice to meet you.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0101"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "很高兴认识你"
+    }
+  ]
+}

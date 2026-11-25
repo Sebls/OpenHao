@@ -1,0 +1,429 @@
+{
+  "documentId": "new-hsk-1",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 你好 mean in this lesson?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hello"
+        },
+        {
+          "id": "o1",
+          "text": "Thank you"
+        },
+        {
+          "id": "o2",
+          "text": "Goodbye"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你好 is the greeting “hello” to one person.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which expression means “thank you”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "再见"
+        },
+        {
+          "id": "o1",
+          "text": "谢谢"
+        },
+        {
+          "id": "o2",
+          "text": "您好"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "谢谢 expresses thanks.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written character is the respectful singular “you”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你"
+        },
+        {
+          "id": "o1",
+          "text": "们"
+        },
+        {
+          "id": "o2",
+          "text": "您"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "您 is respectful singular “you”; 你 is the ordinary form.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0037"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 老师，您好！ communicate?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "A respectful greeting to the teacher"
+        },
+        {
+          "id": "o1",
+          "text": "A farewell to students"
+        },
+        {
+          "id": "o2",
+          "text": "Thanks to a classmate"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The speaker greets the teacher respectfully, using 您.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the farewell to students: 同学们，___！",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "再见"
+        },
+        {
+          "id": "o1",
+          "text": "谢谢"
+        },
+        {
+          "id": "o2",
+          "text": "您好"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "再见 means goodbye; the other options express thanks or a singular respectful greeting.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0070"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 们 add in 你们?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Respect for one person"
+        },
+        {
+          "id": "o1",
+          "text": "More than one person"
+        },
+        {
+          "id": "o2",
+          "text": "A question"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "们 turns 你, “you” singular, into 你们, “you” plural.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0044"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 不客气 mean as a reply to thanks?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Good morning"
+        },
+        {
+          "id": "o1",
+          "text": "You’re welcome"
+        },
+        {
+          "id": "o2",
+          "text": "See you again"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "不客气 is the polite response to 谢谢.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-008",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Who is addressed by 王老师?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Teacher Wang"
+        },
+        {
+          "id": "o1",
+          "text": "Student Wang"
+        },
+        {
+          "id": "o2",
+          "text": "Everyone"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "王 is the surname Wang; 老师 means teacher.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-009",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose “goodbye.”",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "大家"
+        },
+        {
+          "id": "o1",
+          "text": "再见"
+        },
+        {
+          "id": "o2",
+          "text": "谢谢"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "再见 is the parting expression.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-010",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In 你们好！, how many people are being greeted?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "One person respectfully"
+        },
+        {
+          "id": "o1",
+          "text": "More than one person"
+        },
+        {
+          "id": "o2",
+          "text": "No one"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "你们 is plural “you.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0045"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-011",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which meaning did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Thank you"
+        },
+        {
+          "id": "o1",
+          "text": "Hello"
+        },
+        {
+          "id": "o2",
+          "text": "Goodbye"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The spoken greeting is 你好, “hello.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0011"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你好",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-012",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which meaning did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Teacher"
+        },
+        {
+          "id": "o1",
+          "text": "You’re welcome"
+        },
+        {
+          "id": "o2",
+          "text": "Goodbye"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "再见 means goodbye.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-0069"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "再见",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}

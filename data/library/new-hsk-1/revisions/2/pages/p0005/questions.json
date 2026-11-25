@@ -1,0 +1,324 @@
+{
+  "documentId": "new-hsk-1",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 休息 mean in 我今天休息?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "To cook"
+        },
+        {
+          "id": "o1",
+          "text": "To rest / be off work"
+        },
+        {
+          "id": "o2",
+          "text": "To get off work"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "休息 means to rest or take a day off.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means “computer”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "电脑"
+        },
+        {
+          "id": "o1",
+          "text": "饺子"
+        },
+        {
+          "id": "o2",
+          "text": "星期"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "电脑 (literally “electric brain”) means computer.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0148"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character is the third-person pronoun “it”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "她"
+        },
+        {
+          "id": "o1",
+          "text": "它"
+        },
+        {
+          "id": "o2",
+          "text": "他"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "它 (tā) means “it”; 他 is “he” and 她 is “she.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0185"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In Dialogue 5.1, what day of the week is September 8?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Monday"
+        },
+        {
+          "id": "o1",
+          "text": "Saturday"
+        },
+        {
+          "id": "o2",
+          "text": "Sunday"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Speaker B answers 星期日 (“Sunday”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the question about a learned skill: 你___做饭吗?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "会"
+        },
+        {
+          "id": "o1",
+          "text": "很"
+        },
+        {
+          "id": "o2",
+          "text": "真"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "会 expresses knowing how to do a learned skill like cooking.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In 9月8号, which order does Chinese use for dates?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Day before month"
+        },
+        {
+          "id": "o1",
+          "text": "Month before day"
+        },
+        {
+          "id": "o2",
+          "text": "Either order"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Chinese puts the larger unit first: 月 (month) before 号 (day).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0029"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 真好看 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Really nice-looking"
+        },
+        {
+          "id": "o1",
+          "text": "Getting off work"
+        },
+        {
+          "id": "o2",
+          "text": "Some dishes"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "真好看 means “really good-looking / nice.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0168"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which meaning did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "What is today’s date?"
+        },
+        {
+          "id": "o1",
+          "text": "Do you know how to cook?"
+        },
+        {
+          "id": "o2",
+          "text": "Is this your new computer?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "今天几号? means “What is today’s date?”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0017"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "今天几号?"
+    },
+    {
+      "id": "q-p0005-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which meaning did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "I like it a lot too."
+        },
+        {
+          "id": "o1",
+          "text": "I am resting today."
+        },
+        {
+          "id": "o2",
+          "text": "I also cook on Sundays."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我也很喜欢它 means “I like it a lot too.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0174"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我也很喜欢它。"
+    }
+  ]
+}

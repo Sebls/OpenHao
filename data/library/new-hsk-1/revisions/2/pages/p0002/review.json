@@ -1,0 +1,39 @@
+{
+  "documentId": "new-hsk-1",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "fc036767cc8dec257d273ce47a6cefc44db65f2b6def6383aeb0542d6c55a789",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Antigravity agent, source comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "warning",
+      "region": "decorative seals",
+      "reason": "The small red decorative seals are visible in the original but are not in the embedded text layer and are excluded from learning and practice.",
+      "nextAction": "Optional: transcribe with a compatible Chinese OCR tool if decorative seal text is desired."
+    },
+    {
+      "severity": "info",
+      "reason": "Sentence-level IPA is omitted; reviewed character and word IPA is provided, and pinyin and English meanings cover all dialogue sentences.",
+      "nextAction": "Add sentence-level IPA only after separate phonetic review."
+    }
+  ],
+  "checks": [
+    "Compared all Lesson 2 dialogue lines and heading to full-page source render",
+    "Preserved punctuation, spacing, and original text exactly",
+    "Reviewed tone sandhi in 你好, 不是, and neutral tones in 什么, 名字, 对不起, 没关系, 认识",
+    "Reviewed each question for one correct answer and no synonymous distractors",
+    "Character boxes from MuPDF rawdict, not line-box division"
+  ],
+  "coverage": {
+    "embeddedCharacters": 198,
+    "annotatedOccurrences": 126,
+    "entries": 68,
+    "dialogueSentences": 12,
+    "reviewedQuestions": 9,
+    "extractionScope": "Physical page 2 only; decorative seal gaps explicitly recorded",
+    "annotationScope": "All main dialogue and lesson-heading Hanzi; headers, footer slogans and track numbers excluded from teaching"
+  }
+}

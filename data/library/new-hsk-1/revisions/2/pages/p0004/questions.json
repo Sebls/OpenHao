@@ -1,0 +1,324 @@
+{
+  "documentId": "new-hsk-1",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 没有 mean in 我没有哥哥?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Have two"
+        },
+        {
+          "id": "o1",
+          "text": "Do not have"
+        },
+        {
+          "id": "o2",
+          "text": "How many"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没有 negates 有, meaning “do/does not have.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0081"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word is used for “two” before a measure word like 个?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "二"
+        },
+        {
+          "id": "o1",
+          "text": "两"
+        },
+        {
+          "id": "o2",
+          "text": "四"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Use 两 before measure words (两个孩子), not 二.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character is the measure word used for family members in 四口人?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "个"
+        },
+        {
+          "id": "o1",
+          "text": "口"
+        },
+        {
+          "id": "o2",
+          "text": "岁"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "口 is the measure word for people in a family (四口人).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0101"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In Dialogue 4.3, how old is speaker B’s daughter?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Five"
+        },
+        {
+          "id": "o1",
+          "text": "Twelve"
+        },
+        {
+          "id": "o2",
+          "text": "Twenty"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "她今年十二 means “She is twelve this year.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0205"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the question about a young child’s age: 您儿子___岁?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "几"
+        },
+        {
+          "id": "o1",
+          "text": "多大"
+        },
+        {
+          "id": "o2",
+          "text": "呢"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "几岁 asks a young child’s age; 多大 is used without 岁.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0176"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How do you negate 有 (“to have”)?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "不有"
+        },
+        {
+          "id": "o1",
+          "text": "没有"
+        },
+        {
+          "id": "o2",
+          "text": "没是"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有 is always negated with 没 (没有), never 不.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0081"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 多少 mean in 她有多少个学生?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "How old"
+        },
+        {
+          "id": "o1",
+          "text": "How many"
+        },
+        {
+          "id": "o2",
+          "text": "This year"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "多少 asks “how many” or “how much.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which meaning did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "She has twenty students."
+        },
+        {
+          "id": "o1",
+          "text": "I have two children."
+        },
+        {
+          "id": "o2",
+          "text": "He is five years old."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "她有二十个学生 means “She has twenty students.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0048"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "她有二十个学生。"
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which meaning did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "How many people are in your family?"
+        },
+        {
+          "id": "o1",
+          "text": "Is this your son?"
+        },
+        {
+          "id": "o2",
+          "text": "How old is your daughter?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你家有几口人？ means “How many people are in your family?”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0091"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "你家有几口人?"
+    }
+  ]
+}

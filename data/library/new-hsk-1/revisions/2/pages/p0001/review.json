@@ -1,0 +1,39 @@
+{
+  "documentId": "new-hsk-1",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "e734e716bac43ead025550268ffa8292c0c0e7d282c4c580a24a2d8ee19765b5",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, source comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-22",
+  "issues": [
+    {
+      "severity": "warning",
+      "region": "decorative seals and illustration label",
+      "reason": "The small red decorative seals and tiny illustration label are visible in the original but are not in the embedded text layer. Their exact glyphs are not confidently transcribed; they are excluded from learning and practice. Local Tesseract is installed for an incompatible CPU and cannot run.",
+      "nextAction": "Optional: inspect at higher magnification or install a working Chinese OCR tool for decorative-text completion."
+    },
+    {
+      "severity": "info",
+      "reason": "Sentence-level and mixed Latin/name IPA are not supplied; reviewed character and word IPA is available. Pinyin and English meanings cover all dialogue sentences.",
+      "nextAction": "Use the reviewed word-level IPA; add sentence transcriptions only after review."
+    }
+  ],
+  "checks": [
+    "Compared all Lesson 1 dialogue lines and headings to full-page source render",
+    "Preserved punctuation and original text exactly",
+    "Reviewed respectful 您, plural 们, name/title order, neutral tones and third-tone changes",
+    "Reviewed each question for one correct answer and no synonymous distractors",
+    "Character boxes from MuPDF rawdict, not line-box division"
+  ],
+  "coverage": {
+    "embeddedCharacters": 154,
+    "annotatedOccurrences": 77,
+    "entries": 47,
+    "dialogueSentences": 10,
+    "reviewedQuestions": 12,
+    "extractionScope": "Physical page 1 only; decorative-text gaps explicitly recorded",
+    "annotationScope": "All main dialogue and lesson-heading Hanzi; headers, footer slogans and small decorative labels excluded from teaching"
+  }
+}
