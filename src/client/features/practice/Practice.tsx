@@ -7,60 +7,79 @@ import { PronunciationButton } from "../speech/PronunciationButton.tsx";
 import type { Speech } from "../speech/useSpeech.ts";
 import { isCorrect, questionPhrase } from "./model.ts";
 import type { PracticeAction, PracticeSession } from "./session.ts";
+import { formatTopicLabel, questionTopic } from "./topics.ts";
+
 export function Practice({
   session: s,
   dispatch,
+  onAnswer,
+  onNext,
   speech,
   source,
-  restart,
+  newSession,
   back,
   manifest,
   pages,
 }: {
   session: PracticeSession;
   dispatch: (action: PracticeAction) => void;
+  onAnswer: (question: Question, correct: boolean) => void;
+  onNext: () => void;
   speech: Speech;
   source: (question: Question) => void;
-  restart: (selection: Set<string> | null) => void;
+  newSession: () => void;
   back: () => void;
   manifest: Manifest;
   pages: Record<string, PageContent>;
 }) {
-  const q = s.questions[s.index],
-    done = s.index >= s.questions.length;
+  const q = s.questions[s.index];
+  const done = s.finished || !q || s.index >= s.questions.length;
+
   if (done) {
-    const mistakes = s.questions.filter((q) => !isCorrect(q, s.answers[q.id]));
+    const records =
+      s.records.length > 0
+        ? s.records
+        : s.questions
+            .filter((item) => s.answers[item.id] !== undefined)
+            .map((item) => ({
+              question: item,
+              choice: s.answers[item.id],
+              correct: isCorrect(item, s.answers[item.id]),
+            }));
+    const mistakes = records.filter((r) => !r.correct);
+    const total = records.length;
     return (
       <section className="practice">
         <p className="eyebrow">SESSION COMPLETE</p>
         <h2>
-          {s.questions.length - mistakes.length} of {s.questions.length} correct
+          {total - mistakes.length} of {total} correct
         </h2>
         <p>
           This is your session result. Take your time with the words that need
           another look.
         </p>
-        {mistakes.map((q) => {
-          const mistakePhrase = questionPhrase(q, pages);
+        {mistakes.map((rec, idx) => {
+          const item = rec.question;
+          const mistakePhrase = questionPhrase(item, pages);
           return (
-            <article key={q.id}>
-              <h3>{q.prompt}</h3>
+            <article key={`${item.id}-${idx}`}>
+              <h3>{item.prompt}</h3>
               {mistakePhrase && (
                 <p className="practice-phrase" lang="zh-CN">
                   {mistakePhrase}
                 </p>
               )}
               <p className="answer-incorrect">
-              ✕ Your answer:{" "}
-              {q.options.find((o) => o.id === s.answers[q.id])?.text}
-            </p>
-            <p className="answer-correct">
-              ✓ Correct answer:{" "}
-              {q.options.find((o) => o.id === q.correctOptionId)?.text}
-            </p>
-            <p>{q.explanation}</p>
-            <button onClick={() => source(q)}>See original context</button>
-          </article>
+                ✕ Your answer:{" "}
+                {item.options.find((o) => o.id === rec.choice)?.text}
+              </p>
+              <p className="answer-correct">
+                ✓ Correct answer:{" "}
+                {item.options.find((o) => o.id === item.correctOptionId)?.text}
+              </p>
+              <p>{item.explanation}</p>
+              <button onClick={() => source(item)}>See original context</button>
+            </article>
           );
         })}
         {mistakes.length > 0 && (
@@ -72,19 +91,36 @@ export function Practice({
           </button>
         )}{" "}
         <button onClick={back}>Return to reading</button>{" "}
-        <button onClick={() => restart(null)}>New document session</button>
+        <button onClick={newSession}>New session</button>
       </section>
     );
   }
-  const correct = isCorrect(q, s.choice),
-    phrase = questionPhrase(q, pages);
+
+  const isInfinite = s.mode === "infinite";
+  const totalCount = s.targetCount ?? s.questions.length;
+  const correct = isCorrect(q, s.choice);
+  const phrase = questionPhrase(q, pages);
+  const topicLabel = formatTopicLabel(questionTopic(q));
+
   return (
     <section className="practice">
-      <p className="eyebrow">
-        QUESTION {s.index + 1} OF {s.questions.length} ·{" "}
-        {q.category.replaceAll("-", " ")}
-      </p>
-      <progress max={s.questions.length} value={s.index} />
+      <div className="practice-header-row">
+        <p className="eyebrow">
+          {isInfinite
+            ? `QUESTION ${s.index + 1} · INFINITE · ${topicLabel.toUpperCase()}`
+            : `QUESTION ${s.index + 1} OF ${totalCount} · ${topicLabel.toUpperCase()}`}
+        </p>
+        {isInfinite && (
+          <button
+            type="button"
+            className="quiet"
+            onClick={() => dispatch({ type: "finish" })}
+          >
+            Finish session
+          </button>
+        )}
+      </div>
+      {!isInfinite && <progress max={totalCount} value={s.index} />}
       <fieldset disabled={s.checked}>
         <legend>{q.prompt}</legend>
         {phrase && (
@@ -129,13 +165,18 @@ export function Practice({
         </div>
       </fieldset>
       {!s.checked ? (
-        <button
-          className="primary"
-          disabled={!s.choice}
-          onClick={() => dispatch({ type: "check" })}
-        >
-          Check answer
-        </button>
+        <div className="practice-actions-inline">
+          <button
+            className="primary"
+            disabled={!s.choice}
+            onClick={() => {
+              dispatch({ type: "check" });
+              onAnswer(q, correct);
+            }}
+          >
+            Check answer
+          </button>
+        </div>
       ) : (
         <div
           className={`feedback ${correct ? "answer-correct" : "answer-incorrect"}`}
@@ -152,13 +193,14 @@ export function Practice({
           )}
           <h4>Why this answer</h4>
           <p>{q.explanation}</p>
-          <button onClick={() => source(q)}>See original context</button>{" "}
-          <button
-            className="primary"
-            onClick={() => dispatch({ type: "next" })}
-          >
-            {s.index + 1 === s.questions.length ? "See results" : "Continue →"}
-          </button>
+          <div className="practice-actions-inline">
+            <button onClick={() => source(q)}>See original context</button>
+            <button className="primary" onClick={onNext}>
+              {!isInfinite && s.index + 1 >= totalCount
+                ? "See results"
+                : "Continue →"}
+            </button>
+          </div>
           <details>
             <summary>Correction reference</summary>
             <input

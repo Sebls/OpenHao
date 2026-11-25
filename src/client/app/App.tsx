@@ -20,8 +20,19 @@ import { LearningDetails } from "../features/learning-details/LearningDetails.ts
 import { documentTitle } from "../features/library/documentTitle.ts";
 import { Library } from "../features/library/Library.tsx";
 import { Practice } from "../features/practice/Practice.tsx";
+import { PracticeSetup } from "../features/practice/PracticeSetup.tsx";
+import { selectNextQuestion } from "../features/practice/engine.ts";
+import {
+  loadPracticeHistory,
+  recordAnswer,
+  savePracticeHistory,
+  topicStatsSummary,
+} from "../features/practice/history.ts";
 import { eligibleQuestions } from "../features/practice/model.ts";
-import { practiceReducer } from "../features/practice/session.ts";
+import {
+  type PracticeMode,
+  practiceReducer,
+} from "../features/practice/session.ts";
 import { LearningUnits } from "../features/reader/LearningUnits.tsx";
 import { PdfViewport } from "../features/reader/PdfViewport.tsx";
 import { ReadingLayout } from "../features/reader/ReadingLayout.tsx";
@@ -48,7 +59,9 @@ export function App() {
     [route, setRoute] = useState<AppRoute | null>(() =>
       parseRoute(window.location.pathname + window.location.search, BASE_URL),
     ),
-    [selection, setSelection] = useState(new Set<string>()),
+    [practiceHistory, setPracticeHistory] = useState(() =>
+      loadPracticeHistory(),
+    ),
     [notice, setNotice] = useState(""),
     [zoom, setZoom] = useState(100),
     [showRegions, setShowRegions] = useState(false),
@@ -155,7 +168,6 @@ export function App() {
         activePracticeKey.current = "";
         activeWritingKey.current = "";
         setDoc(data);
-        setSelection(new Set());
         setLastPracticeRoute(null);
         setLastWritingRoute(null);
         dispatchPractice({ type: "clear" });
@@ -219,20 +231,18 @@ export function App() {
           d.contentRevision > m.contentRevision,
       );
 
-  // Start/sync Practice session when on a practice route.
+  // Sync Practice scope when on a practice route; clear stale session on scope change.
   useEffect(() => {
     if (!route || route.view !== "practice" || !doc || !activeDocMatchesRoute) {
       return;
     }
     setLastPracticeRoute(route);
-    const key = `${doc.manifest.documentId}:${doc.manifest.contentRevision}:${route.pageNumber ?? ""}:${(route.items ?? []).join(",")}:${speech.working}`;
+    const key = `${doc.manifest.documentId}:${doc.manifest.contentRevision}:${route.pageNumber ?? ""}:${speech.working}`;
     if (activePracticeKey.current === key) return;
     activePracticeKey.current = key;
 
     let selected: Set<string> | null = null;
-    if (route.items && route.items.length > 0) {
-      selected = new Set(route.items);
-    } else if (route.pageNumber !== undefined) {
+    if (route.pageNumber !== undefined) {
       const targetPage = doc.manifest.pages.find(
         (p) => p.pageNumber === route.pageNumber,
       );
@@ -243,15 +253,14 @@ export function App() {
     }
 
     const bank = eligibleQuestions(doc.pages, selected, speech.working);
+    dispatchPractice({ type: "clear" });
     if (!bank.length) {
-      dispatchPractice({ type: "clear" });
       setNotice(
-        "No reviewed questions cover this selection. Add a word or sentence, or practise the prepared document.",
+        "No reviewed questions cover this selection. Practise the prepared document or another page.",
       );
       return;
     }
     setNotice("");
-    dispatchPractice({ type: "start", questions: bank });
   }, [route, doc, activeDocMatchesRoute, speech.working]);
 
   // Start/sync Writing session when on a writing route.
@@ -410,29 +419,32 @@ export function App() {
       });
   }
 
-  function begin(selected: Set<string> | null, pageFilter?: number) {
+  function openPracticeSetup(pageFilter?: number) {
     if (!doc || !m) return;
+    let selected: Set<string> | null = null;
+    if (pageFilter !== undefined) {
+      const targetPage = m.pages.find((p) => p.pageNumber === pageFilter);
+      const pageContent = targetPage && doc.pages[targetPage.id];
+      selected = new Set(
+        pageContent?.annotations.annotations.map((a) => a.id) || [],
+      );
+    }
     const bank = eligibleQuestions(doc.pages, selected, speech.working);
     if (!bank.length) {
       setNotice(
-        "No reviewed questions cover this selection. Add a word or sentence, or practise the prepared document.",
+        "No reviewed questions cover this selection. Practise the prepared document or another page.",
       );
       return;
     }
     setNotice("");
     scroll.current.practice = 0;
     activePracticeKey.current = "";
+    dispatchPractice({ type: "clear" });
     if (pageFilter !== undefined) {
       navigate({
         view: "practice",
         documentId: m.documentId,
         pageNumber: pageFilter,
-      });
-    } else if (selected) {
-      navigate({
-        view: "practice",
-        documentId: m.documentId,
-        items: [...selected],
       });
     } else {
       navigate({ view: "practice", documentId: m.documentId });
@@ -462,16 +474,6 @@ export function App() {
       view: "reader",
       documentId: m.documentId,
       pageNumber: lastReaderPage.current,
-    });
-  }
-
-  function toggle() {
-    if (!active) return;
-    setSelection((old) => {
-      const n = new Set(old);
-      if (n.has(active.id)) n.delete(active.id);
-      else n.add(active.id);
-      return n;
     });
   }
 
@@ -578,12 +580,13 @@ export function App() {
                 onClick={() => {
                   if (
                     session &&
+                    !session.finished &&
                     lastPracticeRoute &&
                     lastPracticeRoute.documentId === m.documentId
                   ) {
                     navigate(lastPracticeRoute);
                   } else {
-                    begin(null);
+                    openPracticeSetup();
                   }
                 }}
               >
@@ -642,36 +645,16 @@ export function App() {
               {view === "reader" ? (
                 <>
                   <button
-                    onClick={() => begin(selection)}
-                    disabled={!selection.size}
-                  >
-                    Practise selection ({selection.size})
-                  </button>
-                  <button
-                    onClick={() =>
-                      begin(
-                        new Set(
-                          content?.annotations.annotations.map((a) => a.id) ||
-                            [],
-                        ),
-                        pageNo,
-                      )
-                    }
+                    onClick={() => openPracticeSetup(pageNo)}
                     disabled={!content}
                   >
                     Practise page
                   </button>
                   <button
                     className="primary"
-                    onClick={() =>
-                      session &&
-                      lastPracticeRoute &&
-                      lastPracticeRoute.documentId === m?.documentId
-                        ? navigate(lastPracticeRoute)
-                        : begin(null)
-                    }
+                    onClick={() => openPracticeSetup()}
                   >
-                    {session ? "Resume practice" : "Practise document"}
+                    Practise document
                   </button>
                 </>
               ) : (
@@ -775,12 +758,10 @@ export function App() {
                     active={active!}
                     content={content!}
                     speech={speech}
-                    selection={selection}
                     reference={reference!}
                     visible={view === "reader"}
                     detailsRef={details}
                     onClose={closeDetails}
-                    onToggle={toggle}
                     onPractise={beginWriting}
                     choose={choose}
                   />
@@ -826,18 +807,109 @@ export function App() {
               </section>
             </ReadingLayout>
           </div>
-          {view === "practice" && session && (
-            <Practice
-              session={session}
-              dispatch={dispatchPractice}
-              speech={speech}
-              source={returnSource}
-              restart={() => begin(null)}
-              back={back}
-              manifest={m!}
-              pages={doc.pages}
-            />
-          )}
+          {view === "practice" &&
+            (() => {
+              const practicePageNo =
+                route?.view === "practice" ? route.pageNumber : undefined;
+              let selected: Set<string> | null = null;
+              if (practicePageNo !== undefined) {
+                const targetPage = m!.pages.find(
+                  (p) => p.pageNumber === practicePageNo,
+                );
+                const pageContent = targetPage && doc.pages[targetPage.id];
+                selected = new Set(
+                  pageContent?.annotations.annotations.map((a) => a.id) || [],
+                );
+              }
+              const practiceBank = eligibleQuestions(
+                doc.pages,
+                selected,
+                speech.working,
+              );
+              const scopeLabel =
+                practicePageNo !== undefined
+                  ? `Page ${practicePageNo}`
+                  : "Whole document";
+
+              const startAdaptiveSession = (
+                mode: PracticeMode,
+                targetCount: number | null,
+              ) => {
+                const first = selectNextQuestion(
+                  practiceBank,
+                  practiceHistory,
+                  doc.pages,
+                );
+                if (!first) return;
+                dispatchPractice({
+                  type: "start",
+                  questions: [first],
+                  mode,
+                  targetCount,
+                });
+              };
+
+              const handleAnswer = (question: Question, correct: boolean) => {
+                const nextHistory = recordAnswer(
+                  practiceHistory,
+                  question,
+                  correct,
+                  doc.pages,
+                );
+                setPracticeHistory(nextHistory);
+                savePracticeHistory(nextHistory);
+              };
+
+              const handleNext = () => {
+                if (!session) return;
+                if (
+                  session.mode === "fixed" &&
+                  session.targetCount !== null &&
+                  session.index + 1 >= session.targetCount
+                ) {
+                  dispatchPractice({ type: "next" });
+                  return;
+                }
+                if (session.index + 1 < session.questions.length) {
+                  dispatchPractice({ type: "next" });
+                  return;
+                }
+                const currentQ = session.questions[session.index];
+                const nextQ = selectNextQuestion(
+                  practiceBank,
+                  practiceHistory,
+                  doc.pages,
+                  { lastQuestionId: currentQ?.id },
+                );
+                dispatchPractice({
+                  type: "next",
+                  nextQuestion: nextQ ?? undefined,
+                });
+              };
+
+              return session ? (
+                <Practice
+                  session={session}
+                  dispatch={dispatchPractice}
+                  onAnswer={handleAnswer}
+                  onNext={handleNext}
+                  speech={speech}
+                  source={returnSource}
+                  newSession={() => dispatchPractice({ type: "clear" })}
+                  back={back}
+                  manifest={m!}
+                  pages={doc.pages}
+                />
+              ) : (
+                <PracticeSetup
+                  scopeLabel={scopeLabel}
+                  questionCount={practiceBank.length}
+                  topicStats={topicStatsSummary(practiceBank, practiceHistory)}
+                  onStart={startAdaptiveSession}
+                  onBack={back}
+                />
+              );
+            })()}
           {writingSession && (
             <WritingPractice
               key={writingSession.id}

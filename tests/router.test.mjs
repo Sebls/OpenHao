@@ -51,20 +51,6 @@ test("parseRoute and formatRoute handle library, reader, practice, and writing r
     "/doc/lecon-01/practice?page=2",
   );
 
-  assert.deepEqual(parseRoute("/doc/lecon-01/practice?items=a1,a2,a3"), {
-    view: "practice",
-    documentId: "lecon-01",
-    items: ["a1", "a2", "a3"],
-  });
-  assert.equal(
-    formatRoute({
-      view: "practice",
-      documentId: "lecon-01",
-      items: ["a1", "a2", "a3"],
-    }),
-    "/doc/lecon-01/practice?items=a1%2Ca2%2Ca3",
-  );
-
   assert.deepEqual(parseRoute("/doc/lecon-01/writing/4/ann-9"), {
     view: "writing",
     documentId: "lecon-01",

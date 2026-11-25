@@ -15,12 +15,10 @@ interface Props {
   active: Annotation;
   content: PageContent;
   speech: Speech;
-  selection: Set<string>;
   reference: string;
   visible: boolean;
   detailsRef: RefObject<HTMLElement | null>;
   onClose: () => void;
-  onToggle: () => void;
   onPractise: () => void;
   choose: (annotation: Annotation) => void;
 }
@@ -29,12 +27,10 @@ export function LearningDetails({
   active,
   content,
   speech,
-  selection,
   reference,
   visible,
   detailsRef,
   onClose,
-  onToggle,
   onPractise,
   choose,
 }: Props) {
@@ -183,15 +179,6 @@ export function LearningDetails({
             ))}
         </div>
       </details>
-      <button
-        className="primary full"
-        onClick={onToggle}
-        aria-pressed={selection.has(active.id)}
-      >
-        {selection.has(active.id)
-          ? "✓ Remove from practice"
-          : "+ Add to practice"}
-      </button>
       <button
         className="quiet"
         onClick={async () => {
