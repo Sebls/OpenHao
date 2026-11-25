@@ -1,12 +1,16 @@
 export type SequenceLayout = "row" | "grid";
 import { useLayoutEffect, useRef, useState } from "react";
 
-export function useSequenceLayout(preference: string) {
+export function useSequenceLayout(
+  preference: string,
+  defaultLayout: SequenceLayout = "row",
+) {
   const [layout, setLayout] = useState<SequenceLayout>(() => {
     try {
-      return localStorage.getItem(preference) === "grid" ? "grid" : "row";
+      const saved = localStorage.getItem(preference);
+      return saved === "grid" || saved === "row" ? saved : defaultLayout;
     } catch {
-      return "row";
+      return defaultLayout;
     }
   });
 

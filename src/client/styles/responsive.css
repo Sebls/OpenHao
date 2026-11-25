@@ -10,9 +10,6 @@
     grid-template-columns: 1fr auto;
     gap: 16px;
   }
-  .local {
-    display: none;
-  }
   .top nav {
     gap: 20px;
   }
@@ -158,5 +155,12 @@
   }
   .hotspot {
     border-bottom: 2px solid var(--primary);
+  }
+}
+
+@media (max-width: 500px) {
+  .library-actions {
+    width: 100%;
+    justify-content: space-between;
   }
 }

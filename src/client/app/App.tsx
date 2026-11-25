@@ -16,6 +16,7 @@ import type {
 } from "../../contracts/content.ts";
 import { getCatalog, getDocument } from "../api/library.ts";
 import { LearningDetails } from "../features/learning-details/LearningDetails.tsx";
+import { documentTitle } from "../features/library/documentTitle.ts";
 import { Library } from "../features/library/Library.tsx";
 import { Practice } from "../features/practice/Practice.tsx";
 import { eligibleQuestions } from "../features/practice/model.ts";
@@ -61,9 +62,7 @@ export function App() {
       getCatalog()
         .then(setCatalog)
         .catch(() =>
-          setError(
-            "The local library is unavailable. Check that npm start is running.",
-          ),
+          setError("The library is unavailable. Try refreshing the page."),
         );
     update();
     const t = setInterval(update, 4000);
@@ -260,9 +259,9 @@ export function App() {
         <button
           className="brand"
           onClick={() => switchView("library")}
-          aria-label="Study library"
+          aria-label="OpenHao library"
         >
-          <span lang="zh-CN">学</span> Chinese <small>STUDY LIBRARY</small>
+          <span lang="zh-CN">好</span> OpenHao <small>STUDY LIBRARY</small>
         </button>
         <nav aria-label="Main navigation">
           <button
@@ -299,7 +298,6 @@ export function App() {
             </>
           )}
         </nav>
-        <span className="local">On your computer</span>
       </header>
       {error && (
         <p className="banner" role="alert">
@@ -311,7 +309,7 @@ export function App() {
         <main className="study" hidden={view === "library"}>
           <div className="document-heading">
             <div>
-              <p className="eyebrow">{m?.title}</p>
+              <p className="eyebrow">{m ? documentTitle(m) : ""}</p>
               <h1>
                 {view === "reader"
                   ? `Page ${pageNo}`
