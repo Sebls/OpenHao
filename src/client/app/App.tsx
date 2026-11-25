@@ -1,5 +1,6 @@
 import type { MouseEvent } from "react";
 import {
+  useCallback,
   useEffect,
   useLayoutEffect,
   useReducer,
@@ -32,35 +33,95 @@ import {
   createWritingSession,
   writingReducer,
 } from "../features/writing/model.ts";
+import { type AppRoute, formatRoute, parseRoute } from "./router.ts";
+
+const BASE_URL = import.meta.env.BASE_URL;
+
 export function App() {
   const [catalog, setCatalog] = useState<Catalog>({
       documents: [],
       issues: [],
     }),
+    [catalogLoaded, setCatalogLoaded] = useState(false),
     [error, setError] = useState(""),
     [doc, setDoc] = useState<StudyDocument | null>(null),
-    [view, setView] = useState<"library" | "reader" | "practice" | "writing">(
-      "library",
+    [route, setRoute] = useState<AppRoute | null>(() =>
+      parseRoute(window.location.pathname + window.location.search, BASE_URL),
     ),
-    [pageNo, setPageNo] = useState(1),
-    [active, setActive] = useState<Annotation | null>(null),
     [selection, setSelection] = useState(new Set<string>()),
     [notice, setNotice] = useState(""),
     [zoom, setZoom] = useState(100),
     [showRegions, setShowRegions] = useState(false),
-    [unitKind, setUnitKind] = useState("word");
+    [unitKind, setUnitKind] = useState("word"),
+    [lastPracticeRoute, setLastPracticeRoute] = useState<Extract<
+      AppRoute,
+      { view: "practice" }
+    > | null>(null),
+    [lastWritingRoute, setLastWritingRoute] = useState<Extract<
+      AppRoute,
+      { view: "writing" }
+    > | null>(null);
   const [session, dispatchPractice] = useReducer(practiceReducer, null);
   const [writingSession, dispatchWriting] = useReducer(writingReducer, null);
   const speech = useSpeech(),
+    speechRef = useRef(speech),
     scroll = useRef({ library: 0, reader: 0, practice: 0, writing: 0 }),
+    lastReaderPage = useRef(1),
+    activePracticeKey = useRef(""),
+    activeWritingKey = useRef(""),
     pageScroll = useRef<HTMLDivElement | null>(null),
     narrowReaderScroll = useRef<number | null>(null),
     trigger = useRef<HTMLElement | null>(null),
     details = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    speechRef.current = speech;
+  }, [speech]);
+
+  const view = route?.view ?? "library";
+  const viewRef = useRef(view);
+  useEffect(() => {
+    viewRef.current = view;
+  }, [view]);
+
+  const navigate = useCallback(
+    (next: AppRoute, options?: { replace?: boolean }) => {
+      const url = formatRoute(next, BASE_URL);
+      const current = window.location.pathname + window.location.search;
+      if (url !== current) {
+        if (options?.replace) {
+          window.history.replaceState(null, "", url);
+        } else {
+          window.history.pushState(null, "", url);
+        }
+      }
+      if (next.view !== viewRef.current) {
+        scroll.current[viewRef.current] = window.scrollY;
+      }
+      setRoute(next);
+    },
+    [],
+  );
+
+  useEffect(() => {
+    const onPopState = () => {
+      speechRef.current.stop();
+      setNotice("");
+      setRoute(
+        parseRoute(window.location.pathname + window.location.search, BASE_URL),
+      );
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
+
   useEffect(() => {
     const update = () =>
       getCatalog()
-        .then(setCatalog)
+        .then((data) => {
+          setCatalog(data);
+          setCatalogLoaded(true);
+        })
         .catch(() =>
           setError("The library is unavailable. Try refreshing the page."),
         );
@@ -68,30 +129,86 @@ export function App() {
     const t = setInterval(update, 4000);
     return () => clearInterval(t);
   }, []);
-  useLayoutEffect(() => {
-    window.scrollTo({
-      top: scroll.current[view],
-      left: 0,
-      behavior: "instant",
-    });
-  }, [view]);
-  useLayoutEffect(() => {
-    pageScroll.current?.scrollTo({ top: 0, left: 0, behavior: "instant" });
-    narrowReaderScroll.current = null;
-    trigger.current = null;
-  }, [doc?.manifest.documentId, doc?.manifest.contentRevision, pageNo]);
+
+  // Load document whenever the route targets a document that is not yet loaded.
+  const routeDocId =
+    route && route.view !== "library" ? route.documentId : null;
   useEffect(() => {
-    function key(e: KeyboardEvent) {
-      if (e.key === "Escape" && active) {
-        closeDetails();
-      }
+    if (!routeDocId || !catalogLoaded) return;
+    const manifest = catalog.documents.find((d) => d.documentId === routeDocId);
+    if (!manifest) {
+      setError(`The document "${routeDocId}" could not be found.`);
+      return;
     }
-    window.addEventListener("keydown", key);
-    return () => window.removeEventListener("keydown", key);
-  }, [active]);
-  const m = doc?.manifest,
-    page = m?.pages[pageNo - 1],
+    if (doc && doc.manifest.documentId === manifest.documentId) return;
+
+    let cancelled = false;
+    setError("");
+    getDocument(manifest)
+      .then((data) => {
+        if (cancelled) return;
+        const firstReady =
+          data.manifest.pages.find((p) => p.state === "ready")?.pageNumber || 1;
+        lastReaderPage.current = firstReady;
+        scroll.current.reader = 0;
+        narrowReaderScroll.current = null;
+        activePracticeKey.current = "";
+        activeWritingKey.current = "";
+        setDoc(data);
+        setSelection(new Set());
+        setLastPracticeRoute(null);
+        setLastWritingRoute(null);
+        dispatchPractice({ type: "clear" });
+        dispatchWriting({ type: "clear" });
+      })
+      .catch((e) => {
+        if (cancelled) return;
+        setError(e instanceof Error ? e.message : String(e));
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [routeDocId, catalogLoaded, catalog.documents, doc]);
+
+  const m = doc?.manifest;
+  const activeDocMatchesRoute = Boolean(
+    m && route && route.view !== "library" && m.documentId === route.documentId,
+  );
+
+  // Normalize /doc/:id -> /doc/:id/page/:pageNumber and clamp out-of-range page numbers.
+  useEffect(() => {
+    if (!route || route.view !== "reader" || !m || !activeDocMatchesRoute) {
+      return;
+    }
+    const totalPages = m.source.pageCount || 1;
+    const defaultPage =
+      m.pages.find((p) => p.state === "ready")?.pageNumber || 1;
+    if (route.pageNumber === undefined) {
+      navigate({ ...route, pageNumber: defaultPage }, { replace: true });
+    } else if (route.pageNumber > totalPages) {
+      navigate({ ...route, pageNumber: totalPages }, { replace: true });
+    }
+  }, [route, m, activeDocMatchesRoute, navigate]);
+
+  const pageNo =
+    route?.view === "reader" && route.pageNumber
+      ? Math.min(route.pageNumber, m?.source.pageCount || route.pageNumber)
+      : lastReaderPage.current;
+
+  useEffect(() => {
+    if (route?.view === "reader" && route.pageNumber && activeDocMatchesRoute) {
+      lastReaderPage.current = pageNo;
+    }
+  }, [route, pageNo, activeDocMatchesRoute]);
+
+  const page = m?.pages[pageNo - 1],
     content = page && doc?.pages[page.id],
+    active =
+      route?.view === "reader" && route.annotationId && content
+        ? content.annotations.annotations.find(
+            (a) => a.id === route.annotationId,
+          ) || null
+        : null,
     entry =
       active && content?.entries.entries.find((e) => e.id === active.entryId),
     newer =
@@ -101,34 +218,116 @@ export function App() {
           d.documentId === m.documentId &&
           d.contentRevision > m.contentRevision,
       );
-  async function open(manifest: Manifest, keep = false) {
-    try {
-      setError("");
-      const data = await getDocument(manifest);
-      scroll.current[view] = window.scrollY;
-      scroll.current.reader = keep ? window.scrollY : 0;
-      narrowReaderScroll.current = null;
-      setDoc(data);
-      if (!keep) {
-        setPageNo(
-          data.manifest.pages.find((p) => p.state === "ready")?.pageNumber || 1,
-        );
-        setSelection(new Set());
-        dispatchPractice({ type: "clear" });
-        dispatchWriting({ type: "clear" });
-      }
-      setActive(null);
-      if (keep) dispatchWriting({ type: "clear" });
-      setView("reader");
-      requestAnimationFrame(() =>
-        window.scrollTo({ top: scroll.current.reader, behavior: "instant" }),
-      );
-    } catch (e) {
-      setError(e instanceof Error ? e.message : String(e));
+
+  // Start/sync Practice session when on a practice route.
+  useEffect(() => {
+    if (!route || route.view !== "practice" || !doc || !activeDocMatchesRoute) {
+      return;
     }
-  }
-  function closeDetails() {
-    setActive(null);
+    setLastPracticeRoute(route);
+    const key = `${doc.manifest.documentId}:${doc.manifest.contentRevision}:${route.pageNumber ?? ""}:${(route.items ?? []).join(",")}:${speech.working}`;
+    if (activePracticeKey.current === key) return;
+    activePracticeKey.current = key;
+
+    let selected: Set<string> | null = null;
+    if (route.items && route.items.length > 0) {
+      selected = new Set(route.items);
+    } else if (route.pageNumber !== undefined) {
+      const targetPage = doc.manifest.pages.find(
+        (p) => p.pageNumber === route.pageNumber,
+      );
+      const pageContent = targetPage && doc.pages[targetPage.id];
+      selected = new Set(
+        pageContent?.annotations.annotations.map((a) => a.id) || [],
+      );
+    }
+
+    const bank = eligibleQuestions(doc.pages, selected, speech.working);
+    if (!bank.length) {
+      dispatchPractice({ type: "clear" });
+      setNotice(
+        "No reviewed questions cover this selection. Add a word or sentence, or practise the prepared document.",
+      );
+      return;
+    }
+    setNotice("");
+    dispatchPractice({ type: "start", questions: bank });
+  }, [route, doc, activeDocMatchesRoute, speech.working]);
+
+  // Start/sync Writing session when on a writing route.
+  useEffect(() => {
+    if (!route || route.view !== "writing" || !doc || !activeDocMatchesRoute) {
+      return;
+    }
+    const key = `${doc.manifest.documentId}:${doc.manifest.contentRevision}:${route.pageNumber}:${route.annotationId}`;
+    if (activeWritingKey.current === key) return;
+    activeWritingKey.current = key;
+
+    const targetPage = doc.manifest.pages.find(
+      (p) => p.pageNumber === route.pageNumber,
+    );
+    const targetContent = targetPage && doc.pages[targetPage.id];
+    const targetAnn = targetContent?.annotations.annotations.find(
+      (a) => a.id === route.annotationId,
+    );
+    const targetEntry =
+      targetAnn &&
+      targetContent?.entries.entries.find((e) => e.id === targetAnn.entryId);
+
+    if (!targetPage || !targetContent || !targetAnn || !targetEntry) {
+      dispatchWriting({ type: "clear" });
+      setError(
+        `The writing item "${route.annotationId}" on page ${route.pageNumber} could not be found.`,
+      );
+      return;
+    }
+    setError("");
+    setLastWritingRoute(route);
+    dispatchWriting({
+      type: "start",
+      session: createWritingSession(
+        targetEntry,
+        targetAnn,
+        targetPage.id,
+        targetContent.entries.entries,
+      ),
+    });
+  }, [route, doc, activeDocMatchesRoute]);
+
+  useEffect(() => {
+    if (route === null) {
+      document.title = "Not found · OpenHao";
+    } else if (route.view === "library") {
+      document.title = "OpenHao · Study library";
+    } else if (route.view === "reader" && m) {
+      document.title = `Page ${pageNo} · ${documentTitle(m)} · OpenHao`;
+    } else if (route.view === "practice" && m) {
+      document.title = `Practice · ${documentTitle(m)} · OpenHao`;
+    } else if (route.view === "writing" && writingSession) {
+      document.title = `Writing ${writingSession.form} · OpenHao`;
+    }
+  }, [route, m, pageNo, writingSession]);
+
+  useLayoutEffect(() => {
+    window.scrollTo({
+      top: scroll.current[view],
+      left: 0,
+      behavior: "instant",
+    });
+  }, [view]);
+
+  useLayoutEffect(() => {
+    pageScroll.current?.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    narrowReaderScroll.current = null;
+    trigger.current = null;
+  }, [doc?.manifest.documentId, doc?.manifest.contentRevision, pageNo]);
+
+  const closeDetails = useCallback(() => {
+    if (!m) return;
+    navigate(
+      { view: "reader", documentId: m.documentId, pageNumber: pageNo },
+      { replace: true },
+    );
     requestAnimationFrame(() => {
       if (narrowReaderScroll.current !== null) {
         window.scrollTo({
@@ -139,14 +338,66 @@ export function App() {
       }
       trigger.current?.focus({ preventScroll: true });
     });
+  }, [m, pageNo, navigate]);
+
+  useEffect(() => {
+    function key(e: KeyboardEvent) {
+      if (e.key === "Escape" && active) {
+        closeDetails();
+      }
+    }
+    window.addEventListener("keydown", key);
+    return () => window.removeEventListener("keydown", key);
+  }, [active, closeDetails]);
+
+  async function open(manifest: Manifest, keep = false) {
+    if (!keep) {
+      setError("");
+      setNotice("");
+      navigate({ view: "reader", documentId: manifest.documentId });
+      return;
+    }
+    try {
+      setError("");
+      const data = await getDocument(manifest);
+      scroll.current.reader = window.scrollY;
+      narrowReaderScroll.current = null;
+      activePracticeKey.current = "";
+      activeWritingKey.current = "";
+      setDoc(data);
+      dispatchWriting({ type: "clear" });
+      navigate(
+        {
+          view: "reader",
+          documentId: manifest.documentId,
+          pageNumber: pageNo,
+        },
+        { replace: true },
+      );
+      requestAnimationFrame(() =>
+        window.scrollTo({ top: scroll.current.reader, behavior: "instant" }),
+      );
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    }
   }
+
   function choose(a: Annotation, event?: MouseEvent<HTMLElement>) {
+    if (!m) return;
     if (event?.currentTarget instanceof HTMLElement)
       trigger.current = event.currentTarget;
     else if (!active) trigger.current = null;
     if (!active && window.innerWidth <= 850)
       narrowReaderScroll.current = window.scrollY;
-    setActive(a);
+    navigate(
+      {
+        view: "reader",
+        documentId: m.documentId,
+        pageNumber: pageNo,
+        annotationId: a.id,
+      },
+      { replace: true },
+    );
     if (window.innerWidth <= 850)
       requestAnimationFrame(() => {
         details.current?.focus({ preventScroll: true });
@@ -158,13 +409,9 @@ export function App() {
           });
       });
   }
-  function switchView(next: "library" | "reader" | "practice" | "writing") {
-    if (next === view) return;
-    scroll.current[view] = window.scrollY;
-    setView(next);
-  }
-  function begin(selected: Set<string> | null) {
-    if (!doc) return;
+
+  function begin(selected: Set<string> | null, pageFilter?: number) {
+    if (!doc || !m) return;
     const bank = eligibleQuestions(doc.pages, selected, speech.working);
     if (!bank.length) {
       setNotice(
@@ -172,30 +419,52 @@ export function App() {
       );
       return;
     }
-    dispatchPractice({ type: "start", questions: bank });
     setNotice("");
     scroll.current.practice = 0;
-    switchView("practice");
+    activePracticeKey.current = "";
+    if (pageFilter !== undefined) {
+      navigate({
+        view: "practice",
+        documentId: m.documentId,
+        pageNumber: pageFilter,
+      });
+    } else if (selected) {
+      navigate({
+        view: "practice",
+        documentId: m.documentId,
+        items: [...selected],
+      });
+    } else {
+      navigate({ view: "practice", documentId: m.documentId });
+    }
   }
+
   function beginWriting() {
-    if (!entry || !active || !page || !content) return;
+    if (!entry || !active || !page || !content || !m) return;
     speech.stop();
-    dispatchWriting({
-      type: "start",
-      session: createWritingSession(
-        entry,
-        active,
-        page.id,
-        content.entries.entries,
-      ),
-    });
     scroll.current.writing = 0;
-    switchView("writing");
+    navigate({
+      view: "writing",
+      documentId: m.documentId,
+      pageNumber: pageNo,
+      annotationId: active.id,
+    });
   }
+
   function back() {
+    if (!m) {
+      navigate({ view: "library" });
+      return;
+    }
     speech.stop();
-    switchView("reader");
+    setNotice("");
+    navigate({
+      view: "reader",
+      documentId: m.documentId,
+      pageNumber: lastReaderPage.current,
+    });
   }
+
   function toggle() {
     if (!active) return;
     setSelection((old) => {
@@ -205,21 +474,31 @@ export function App() {
       return n;
     });
   }
+
   function returnSource(q: Question) {
     if (!doc || !m) return;
     const id = q.sourceAnnotationIds[0];
     let target: Rect | undefined;
+    let targetPageNo = lastReaderPage.current;
+    let targetAnnotationId: string | undefined;
     for (const [p, data] of Object.entries(doc.pages)) {
       const a = data.annotations.annotations.find((a) => a.id === id);
       if (a) {
         const targetPage = m.pages.find((p2) => p2.id === p);
-        if (targetPage) setPageNo(targetPage.pageNumber);
-        setActive(a);
+        if (targetPage) targetPageNo = targetPage.pageNumber;
+        targetAnnotationId = a.id;
         target = anchorRects(a, data.layout)[0];
         break;
       }
     }
-    back();
+    speech.stop();
+    setNotice("");
+    navigate({
+      view: "reader",
+      documentId: m.documentId,
+      pageNumber: targetPageNo,
+      annotationId: targetAnnotationId,
+    });
     requestAnimationFrame(() =>
       requestAnimationFrame(() => {
         const container = pageScroll.current;
@@ -248,65 +527,99 @@ export function App() {
       }),
     );
   }
+
   const reference =
     active &&
     m &&
     page &&
     `${m.documentId}:${page.id}:annotation:${active.id}@r${m.contentRevision}`;
+
   return (
     <>
       <header className="top">
         <button
           className="brand"
-          onClick={() => switchView("library")}
+          onClick={() => {
+            setError("");
+            setNotice("");
+            navigate({ view: "library" });
+          }}
           aria-label="OpenHao library"
         >
           <span lang="zh-CN">好</span> OpenHao <small>STUDY LIBRARY</small>
         </button>
         <nav aria-label="Main navigation">
           <button
-            aria-current={view === "library" ? "page" : undefined}
-            onClick={() => switchView("library")}
+            aria-current={route?.view === "library" ? "page" : undefined}
+            onClick={() => {
+              setError("");
+              setNotice("");
+              navigate({ view: "library" });
+            }}
           >
             Library
           </button>
-          {doc && (
+          {doc && m && (
             <>
               <button
-                aria-current={view === "reader" ? "page" : undefined}
-                onClick={() => switchView("reader")}
+                aria-current={route?.view === "reader" ? "page" : undefined}
+                onClick={() =>
+                  navigate({
+                    view: "reader",
+                    documentId: m.documentId,
+                    pageNumber: lastReaderPage.current,
+                  })
+                }
               >
                 Read
               </button>
               <button
-                aria-current={view === "practice" ? "page" : undefined}
+                aria-current={route?.view === "practice" ? "page" : undefined}
                 onClick={() => {
-                  if (session) switchView("practice");
-                  else begin(null);
+                  if (
+                    session &&
+                    lastPracticeRoute &&
+                    lastPracticeRoute.documentId === m.documentId
+                  ) {
+                    navigate(lastPracticeRoute);
+                  } else {
+                    begin(null);
+                  }
                 }}
               >
                 Practice
               </button>
-              {writingSession && (
-                <button
-                  aria-current={view === "writing" ? "page" : undefined}
-                  onClick={() => switchView("writing")}
-                >
-                  Writing
-                </button>
-              )}
+              {writingSession &&
+                lastWritingRoute &&
+                lastWritingRoute.documentId === m.documentId && (
+                  <button
+                    aria-current={
+                      route?.view === "writing" ? "page" : undefined
+                    }
+                    onClick={() => navigate(lastWritingRoute)}
+                  >
+                    Writing
+                  </button>
+                )}
             </>
           )}
         </nav>
       </header>
+      {route === null && (
+        <p className="banner" role="alert">
+          This page could not be found.
+        </p>
+      )}
       {error && (
         <p className="banner" role="alert">
           {error}
         </p>
       )}
-      {view === "library" && <Library catalog={catalog} open={open} />}
-      {doc && (
-        <main className="study" hidden={view === "library"}>
+      {(route === null || route.view === "library") && (
+        <Library catalog={catalog} open={open} />
+      )}
+      {doc && route && route.view !== "library" && (
+        <main className="study">
           <div className="document-heading">
             <div>
               <p className="eyebrow">{m ? documentTitle(m) : ""}</p>
@@ -341,6 +654,7 @@ export function App() {
                           content?.annotations.annotations.map((a) => a.id) ||
                             [],
                         ),
+                        pageNo,
                       )
                     }
                     disabled={!content}
@@ -350,7 +664,11 @@ export function App() {
                   <button
                     className="primary"
                     onClick={() =>
-                      session ? switchView("practice") : begin(null)
+                      session &&
+                      lastPracticeRoute &&
+                      lastPracticeRoute.documentId === m?.documentId
+                        ? navigate(lastPracticeRoute)
+                        : begin(null)
                     }
                   >
                     {session ? "Resume practice" : "Practise document"}
@@ -380,10 +698,14 @@ export function App() {
               <div>
                 <button
                   disabled={pageNo === 1}
-                  onClick={() => {
-                    setPageNo((n) => n - 1);
-                    setActive(null);
-                  }}
+                  onClick={() =>
+                    m &&
+                    navigate({
+                      view: "reader",
+                      documentId: m.documentId,
+                      pageNumber: pageNo - 1,
+                    })
+                  }
                   aria-label="Previous page"
                 >
                   ←
@@ -392,10 +714,14 @@ export function App() {
                   Physical page{" "}
                   <select
                     value={pageNo}
-                    onChange={(e) => {
-                      setPageNo(Number(e.target.value));
-                      setActive(null);
-                    }}
+                    onChange={(e) =>
+                      m &&
+                      navigate({
+                        view: "reader",
+                        documentId: m.documentId,
+                        pageNumber: Number(e.target.value),
+                      })
+                    }
                   >
                     {m?.pages.map((p) => (
                       <option key={p.id} value={p.pageNumber}>
@@ -407,10 +733,14 @@ export function App() {
                 </label>
                 <button
                   disabled={pageNo === m?.source.pageCount}
-                  onClick={() => {
-                    setPageNo((n) => n + 1);
-                    setActive(null);
-                  }}
+                  onClick={() =>
+                    m &&
+                    navigate({
+                      view: "reader",
+                      documentId: m.documentId,
+                      pageNumber: pageNo + 1,
+                    })
+                  }
                   aria-label="Next page"
                 >
                   →
@@ -463,7 +793,7 @@ export function App() {
                   zoom={zoom}
                   onZoom={setZoom}
                   pageRatio={page ? page.width / page.height : 1}
-                  originalHref={`${import.meta.env.BASE_URL}pdf/${m!.documentId}/${m!.contentRevision}.pdf`}
+                  originalHref={`${BASE_URL}pdf/${m!.documentId}/${m!.contentRevision}.pdf`}
                 >
                   {m && page && (
                     <Source
@@ -502,7 +832,7 @@ export function App() {
               dispatch={dispatchPractice}
               speech={speech}
               source={returnSource}
-              restart={begin}
+              restart={() => begin(null)}
               back={back}
               manifest={m!}
               pages={doc.pages}
