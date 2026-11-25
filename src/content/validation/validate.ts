@@ -239,6 +239,8 @@ export function validate(
           fail("Invalid question options: " + q.id, p.id);
         if (q.requiresAudio && !q.speechTarget)
           fail("Missing speech target", p.id);
+        if (q.topic !== undefined && !q.topic.trim())
+          fail("Empty question topic: " + q.id, p.id);
         for (const id of q.sourceAnnotationIds) {
           const a = am.get(id);
           if (

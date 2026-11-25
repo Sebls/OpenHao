@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Commits"
+  short_description: "Propose focused commits with messages and file lists"
+  default_prompt: "Use $plan-commits to propose small, scoped commits for the current repository changes, with Commitizen-style messages and exact files per commit."
