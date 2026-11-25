@@ -10,7 +10,6 @@ export type AppRoute =
       view: "practice";
       documentId: string;
       pageNumber?: number;
-      items?: string[];
     }
   | {
       view: "writing";
@@ -86,18 +85,10 @@ export function parseRoute(
   // /doc/:documentId/practice
   if (segments.length === 3 && segments[2] === "practice") {
     const pageNumber = parsePositiveInt(url.searchParams.get("page"));
-    const itemsParam = url.searchParams.get("items");
-    const items = itemsParam
-      ? itemsParam
-          .split(",")
-          .map((item) => item.trim())
-          .filter(Boolean)
-      : undefined;
     return {
       view: "practice",
       documentId,
       ...(pageNumber !== undefined ? { pageNumber } : {}),
-      ...(items && items.length > 0 ? { items } : {}),
     };
   }
 
@@ -141,9 +132,6 @@ export function formatRoute(route: AppRoute, baseUrl = "/"): string {
       const params = new URLSearchParams();
       if (route.pageNumber !== undefined) {
         params.set("page", String(route.pageNumber));
-      }
-      if (route.items && route.items.length > 0) {
-        params.set("items", route.items.join(","));
       }
       const qs = params.toString();
       return qs ? `${pathname}?${qs}` : pathname;
