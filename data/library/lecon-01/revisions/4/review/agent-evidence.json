@@ -1,0 +1,81 @@
+{
+  "documentId": "lecon-01",
+  "requestedPhysicalPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "sourceSha256": "d7f82eb9ffa38d6a8abc0504bcd6af0afa0ef72a9987d01629994cdd9546229b",
+  "reviewer": "Codex — separate self-review; no human or independent review",
+  "totals": {
+    "entries": 622,
+    "occurrences": 1275,
+    "questions": 57,
+    "ipa": 345
+  },
+  "pages": [
+    {
+      "pageId": "p0001",
+      "reviewedEntries": 20,
+      "reviewedOccurrences": 30,
+      "questions": 5
+    },
+    {
+      "pageId": "p0002",
+      "reviewedEntries": 24,
+      "reviewedOccurrences": 46,
+      "questions": 6
+    },
+    {
+      "pageId": "p0003",
+      "reviewedEntries": 96,
+      "reviewedOccurrences": 247,
+      "questions": 9
+    },
+    {
+      "pageId": "p0004",
+      "reviewedEntries": 95,
+      "reviewedOccurrences": 193,
+      "questions": 6
+    },
+    {
+      "pageId": "p0005",
+      "reviewedEntries": 142,
+      "reviewedOccurrences": 377,
+      "questions": 13
+    },
+    {
+      "pageId": "p0006",
+      "reviewedEntries": 158,
+      "reviewedOccurrences": 228,
+      "questions": 9
+    },
+    {
+      "pageId": "p0007",
+      "reviewedEntries": 87,
+      "reviewedOccurrences": 154,
+      "questions": 9
+    }
+  ],
+  "browserReview": {
+    "environment": "Codex in-app browser, localhost:4173",
+    "observations": [
+      "Catalog discovered the new seven-page document; every requested page marked Ready to study.",
+      "Physical page 1: genuine 工厂 word highlights and English/pinyin/IPA details and constituent controls.",
+      "Physical page 5: sentence across two printed lines highlights both source regions at Fit width and 150%; meaningful Chinese/English/pinyin and repeated character constituents.",
+      "Selected that sentence for practice; exactly one eligible question appeared; correct answer feedback and See original context returned to its source.",
+      "Explored 我 from the sentence; local Mandarin voice Eddy (Chinese (China mainland)) reached Playing then Finished.",
+      "Physical page 6: manually located 工 in recognition grid highlighted its own cell and showed character detail and local stroke diagrams.",
+      "Four unintended page-1 word groupings across independent header cells disabled using scoped repair; stable IDs, frozen extraction and unrelated pages preserved."
+    ],
+    "limitations": [
+      "No independently verified disconnected audio/audibility check.",
+      "Ancient/stroke-stage diagrams, faint tracing copies and low-confidence OCR reference text remain explicit partial coverage.",
+      "IPA omitted for 277 reviewed entries where no exact contextual reviewed transcription was available."
+    ]
+  }
+}

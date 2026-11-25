@@ -1,0 +1,715 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 刀子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "knife"
+        },
+        {
+          "id": "o2",
+          "text": "teacher"
+        },
+        {
+          "id": "o3",
+          "text": "meal"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "刀子 (dāozi) means knife.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0010"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which character means hungry?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "饿"
+        },
+        {
+          "id": "o2",
+          "text": "常"
+        },
+        {
+          "id": "o3",
+          "text": "师"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "饿 (è) means hungry and uses the food radical 饣.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character is read shī and used in 老师 (teacher)?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "师"
+        },
+        {
+          "id": "o2",
+          "text": "刀"
+        },
+        {
+          "id": "o3",
+          "text": "飽"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "师 (shī) means master/teacher and appears in 老师.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 常常 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "often"
+        },
+        {
+          "id": "o2",
+          "text": "seldom"
+        },
+        {
+          "id": "o3",
+          "text": "full"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "常常 (chángcháng) means often or frequently.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0013"
+      ],
+      "entryIds": [
+        "e-p0001-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How do you negate 常 (often) to say 'not often'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "不常"
+        },
+        {
+          "id": "o2",
+          "text": "常常"
+        },
+        {
+          "id": "o3",
+          "text": "很飽"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "不常 (bù cháng) places 不 before 常 to mean 'not often'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0019"
+      ],
+      "entryIds": [
+        "e-p0001-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the word you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "老师"
+        },
+        {
+          "id": "o2",
+          "text": "刀子"
+        },
+        {
+          "id": "o3",
+          "text": "常常"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "老师 (lǎoshī) means teacher.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0015"
+      ],
+      "entryIds": [
+        "e-p0001-0008"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "老师"
+    },
+    {
+      "id": "q-p0001-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 不常 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-007-o1",
+          "text": "not often; seldom"
+        },
+        {
+          "id": "q-p0001-007-o2",
+          "text": "knife"
+        },
+        {
+          "id": "q-p0001-007-o3",
+          "text": "often; frequently"
+        }
+      ],
+      "correctOptionId": "q-p0001-007-o1",
+      "explanation": "不常 (bù cháng) means \"not often; seldom\". Negation of 常 with 不 (bù).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0019"
+      ],
+      "entryIds": [
+        "e-p0001-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-008",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"knife\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-008-o1",
+          "text": "常常"
+        },
+        {
+          "id": "q-p0001-008-o2",
+          "text": "老师"
+        },
+        {
+          "id": "q-p0001-008-o3",
+          "text": "刀子"
+        }
+      ],
+      "correctOptionId": "q-p0001-008-o3",
+      "explanation": "\"knife\" is 刀子 (dāozi).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0010"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-009",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"dāo\" meaning \"knife; blade\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-009-o1",
+          "text": "常"
+        },
+        {
+          "id": "q-p0001-009-o2",
+          "text": "刀"
+        },
+        {
+          "id": "q-p0001-009-o3",
+          "text": "饿"
+        }
+      ],
+      "correctOptionId": "q-p0001-009-o2",
+      "explanation": "刀 is pronounced dāo and means \"knife; blade\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-010",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-010-o1",
+          "text": "刀子"
+        },
+        {
+          "id": "q-p0001-010-o2",
+          "text": "常常"
+        },
+        {
+          "id": "q-p0001-010-o3",
+          "text": "老师"
+        }
+      ],
+      "correctOptionId": "q-p0001-010-o1",
+      "explanation": "The audio speaks 刀子 (dāozi), meaning \"knife\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0010"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "刀子",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-011",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 刀子?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-011-o1",
+          "text": "often; frequently"
+        },
+        {
+          "id": "q-p0001-011-o2",
+          "text": "teacher"
+        },
+        {
+          "id": "q-p0001-011-o3",
+          "text": "knife"
+        }
+      ],
+      "correctOptionId": "q-p0001-011-o3",
+      "explanation": "刀子 (dāozi) means \"knife\". Everyday word for a knife; 子 carries a neutral tone.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0010"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-012",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 老师 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-012-o1",
+          "text": "often; frequently"
+        },
+        {
+          "id": "q-p0001-012-o2",
+          "text": "teacher"
+        },
+        {
+          "id": "q-p0001-012-o3",
+          "text": "knife"
+        }
+      ],
+      "correctOptionId": "q-p0001-012-o2",
+      "explanation": "老师 (lǎoshī) means \"teacher\". Common respectful term for a teacher, combining 老 (old/experienced) and 师 (master).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0015"
+      ],
+      "entryIds": [
+        "e-p0001-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-013",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"often; frequently\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-013-o1",
+          "text": "常常"
+        },
+        {
+          "id": "q-p0001-013-o2",
+          "text": "刀子"
+        },
+        {
+          "id": "q-p0001-013-o3",
+          "text": "老师"
+        }
+      ],
+      "correctOptionId": "q-p0001-013-o1",
+      "explanation": "\"often; frequently\" is 常常 (chángcháng).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0013"
+      ],
+      "entryIds": [
+        "e-p0001-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-014",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"è\" meaning \"hungry; to be hungry\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-014-o1",
+          "text": "刀"
+        },
+        {
+          "id": "q-p0001-014-o2",
+          "text": "常"
+        },
+        {
+          "id": "q-p0001-014-o3",
+          "text": "饿"
+        }
+      ],
+      "correctOptionId": "q-p0001-014-o3",
+      "explanation": "饿 is pronounced è and means \"hungry; to be hungry\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-015",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese expression.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-015-o1",
+          "text": "常常"
+        },
+        {
+          "id": "q-p0001-015-o2",
+          "text": "不常"
+        },
+        {
+          "id": "q-p0001-015-o3",
+          "text": "刀子"
+        }
+      ],
+      "correctOptionId": "q-p0001-015-o2",
+      "explanation": "The audio speaks 不常 (bù cháng), meaning \"not often; seldom\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0019"
+      ],
+      "entryIds": [
+        "e-p0001-0007"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "不常",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-016",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 常常?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-016-o1",
+          "text": "often; frequently"
+        },
+        {
+          "id": "q-p0001-016-o2",
+          "text": "knife"
+        },
+        {
+          "id": "q-p0001-016-o3",
+          "text": "teacher"
+        }
+      ],
+      "correctOptionId": "q-p0001-016-o1",
+      "explanation": "常常 (chángcháng) means \"often; frequently\". Reduplicated adverb placed before the verb.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0013"
+      ],
+      "entryIds": [
+        "e-p0001-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-017",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 刀 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-017-o1",
+          "text": "hungry; to be hungry"
+        },
+        {
+          "id": "q-p0001-017-o2",
+          "text": "often; frequently"
+        },
+        {
+          "id": "q-p0001-017-o3",
+          "text": "knife; blade"
+        }
+      ],
+      "correctOptionId": "q-p0001-017-o3",
+      "explanation": "刀 (dāo) means \"knife; blade\". A pictograph of a curved blade with a handle. Appears in 刀子 (knife).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-018",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"not often; seldom\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-018-o1",
+          "text": "常常"
+        },
+        {
+          "id": "q-p0001-018-o2",
+          "text": "不常"
+        },
+        {
+          "id": "q-p0001-018-o3",
+          "text": "刀子"
+        }
+      ],
+      "correctOptionId": "q-p0001-018-o2",
+      "explanation": "\"not often; seldom\" is 不常 (bù cháng).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0019"
+      ],
+      "entryIds": [
+        "e-p0001-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-019",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"cháng\" meaning \"often; frequently\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-019-o1",
+          "text": "常"
+        },
+        {
+          "id": "q-p0001-019-o2",
+          "text": "刀"
+        },
+        {
+          "id": "q-p0001-019-o3",
+          "text": "饿"
+        }
+      ],
+      "correctOptionId": "q-p0001-019-o1",
+      "explanation": "常 is pronounced cháng and means \"often; frequently\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-020",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-020-o1",
+          "text": "饿"
+        },
+        {
+          "id": "q-p0001-020-o2",
+          "text": "常"
+        },
+        {
+          "id": "q-p0001-020-o3",
+          "text": "刀"
+        }
+      ],
+      "correctOptionId": "q-p0001-020-o3",
+      "explanation": "The audio speaks 刀 (dāo), meaning \"knife; blade\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "刀",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,1131 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does the traditional word 畫報 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "illustrated magazine"
+        },
+        {
+          "id": "o2",
+          "text": "business card"
+        },
+        {
+          "id": "o3",
+          "text": "Chinese character"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "畫報 is the traditional form of 画报, illustrated magazine.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means headscarf?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "頭巾"
+        },
+        {
+          "id": "o2",
+          "text": "書法"
+        },
+        {
+          "id": "o3",
+          "text": "漢字"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "頭巾 tóujīn means headscarf.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0024"
+      ],
+      "entryIds": [
+        "e-p0004-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the traditional character for write.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "寫"
+        },
+        {
+          "id": "o2",
+          "text": "畫"
+        },
+        {
+          "id": "o3",
+          "text": "漢"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "寫 corresponds to simplified 写; 畫 means draw.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is this question asking?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "whether you are still busy"
+        },
+        {
+          "id": "o2",
+          "text": "whether your headscarf is long"
+        },
+        {
+          "id": "o3",
+          "text": "whether you can draw bamboo"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "還 hái means still here; 很忙 means very busy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0271"
+      ],
+      "entryIds": [
+        "e-p0004-0128"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source phrase: 你的___",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "畫報"
+        },
+        {
+          "id": "o2",
+          "text": "筷子"
+        },
+        {
+          "id": "o3",
+          "text": "頭巾"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The source asks permission to look at your illustrated magazine, 你的畫報.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0273"
+      ],
+      "entryIds": [
+        "e-p0004-0130"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 會不會 ask about?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "whether someone knows how to do something"
+        },
+        {
+          "id": "o2",
+          "text": "whether someone owns something"
+        },
+        {
+          "id": "o3",
+          "text": "whether something is expensive"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "會 before a verb concerns ability; 會不會 is an affirmative-negative question.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0280"
+      ],
+      "entryIds": [
+        "e-p0004-0137"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Whose headscarf is this?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "hers"
+        },
+        {
+          "id": "o2",
+          "text": "mine"
+        },
+        {
+          "id": "o3",
+          "text": "his"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "她的 means her or hers; 這是她的頭巾 means this is her headscarf.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0274"
+      ],
+      "entryIds": [
+        "e-p0004-0131"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "語"
+        },
+        {
+          "id": "o2",
+          "text": "畫"
+        },
+        {
+          "id": "o3",
+          "text": "寫"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "語 is yǔ, language or speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0257"
+      ],
+      "entryIds": [
+        "e-p0004-0120"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "語"
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我叫王田。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-009-o1",
+          "text": "Is this your name?"
+        },
+        {
+          "id": "q-p0004-009-o2",
+          "text": "My name is Wang Tian."
+        },
+        {
+          "id": "q-p0004-009-o3",
+          "text": "I am going to buy pictures and a white headscarf."
+        }
+      ],
+      "correctOptionId": "q-p0004-009-o2",
+      "explanation": "「我叫王田。」 (Wǒ jiào Wáng Tián.) means \"My name is Wang Tian.\". Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0267"
+      ],
+      "entryIds": [
+        "e-p0004-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 可以 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-010-o1",
+          "text": "may; can; be allowed to"
+        },
+        {
+          "id": "q-p0004-010-o2",
+          "text": "Chinese character"
+        },
+        {
+          "id": "q-p0004-010-o3",
+          "text": "picture; drawing (rhotic form)"
+        }
+      ],
+      "correctOptionId": "q-p0004-010-o1",
+      "explanation": "可以 (kěyǐ) means \"may; can; be allowed to\". Often asks permission: 我可以看吗？ May I look? 会 instead concerns knowing how to do something.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-011",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"may; can; be allowed to\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-011-o1",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-011-o2",
+          "text": "畫兒"
+        },
+        {
+          "id": "q-p0004-011-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0004-011-o3",
+      "explanation": "\"may; can; be allowed to\" is 可以 (kěyǐ).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-012",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"zì\" meaning \"written character\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-012-o1",
+          "text": "以"
+        },
+        {
+          "id": "q-p0004-012-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0004-012-o3",
+          "text": "可"
+        }
+      ],
+      "correctOptionId": "q-p0004-012-o2",
+      "explanation": "字 is pronounced zì and means \"written character\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-013",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我叫____。」 (My name is Wang Tian.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-013-o1",
+          "text": "王田"
+        },
+        {
+          "id": "q-p0004-013-o2",
+          "text": "可以"
+        },
+        {
+          "id": "q-p0004-013-o3",
+          "text": "漢字"
+        }
+      ],
+      "correctOptionId": "q-p0004-013-o1",
+      "explanation": "The missing word is 王田 (Wáng Tián, \"Wang Tian (personal name)\"), completing 「我叫王田。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0267"
+      ],
+      "entryIds": [
+        "e-p0004-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-014",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-014-o1",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-014-o2",
+          "text": "畫兒"
+        },
+        {
+          "id": "q-p0004-014-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0004-014-o3",
+      "explanation": "The audio speaks 可以 (kěyǐ), meaning \"may; can; be allowed to\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "可以",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-015",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 可以?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-015-o1",
+          "text": "picture; drawing (rhotic form)"
+        },
+        {
+          "id": "q-p0004-015-o2",
+          "text": "may; can; be allowed to"
+        },
+        {
+          "id": "q-p0004-015-o3",
+          "text": "Chinese character"
+        }
+      ],
+      "correctOptionId": "q-p0004-015-o2",
+      "explanation": "可以 (kěyǐ) means \"may; can; be allowed to\". Often asks permission: 我可以看吗？ May I look? 会 instead concerns knowing how to do something.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-016",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我去買畫兒和白頭巾。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-016-o1",
+          "text": "I am going to buy pictures and a white headscarf."
+        },
+        {
+          "id": "q-p0004-016-o2",
+          "text": "My name is Wang Tian."
+        },
+        {
+          "id": "q-p0004-016-o3",
+          "text": "Is this your name?"
+        }
+      ],
+      "correctOptionId": "q-p0004-016-o1",
+      "explanation": "「我去買畫兒和白頭巾。」 (Wǒ qù mǎi huàr hé bái tóujīn.) means \"I am going to buy pictures and a white headscarf.\". Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0268"
+      ],
+      "entryIds": [
+        "e-p0004-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-017",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 漢字 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-017-o1",
+          "text": "may; can; be allowed to"
+        },
+        {
+          "id": "q-p0004-017-o2",
+          "text": "picture; drawing (rhotic form)"
+        },
+        {
+          "id": "q-p0004-017-o3",
+          "text": "Chinese character"
+        }
+      ],
+      "correctOptionId": "q-p0004-017-o3",
+      "explanation": "漢字 (hànzì) means \"Chinese character\". A written character; 字 has full fourth tone here. Traditional written form in this occurrence.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-018",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Chinese character\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-018-o1",
+          "text": "畫兒"
+        },
+        {
+          "id": "q-p0004-018-o2",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-018-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0004-018-o2",
+      "explanation": "\"Chinese character\" is 漢字 (hànzì).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-019",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"kě\" meaning \"can; may (in 可是: but)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-019-o1",
+          "text": "可"
+        },
+        {
+          "id": "q-p0004-019-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0004-019-o3",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "q-p0004-019-o1",
+      "explanation": "可 is pronounced kě and means \"can; may (in 可是: but)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-020",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我去買____和白頭巾。」 (I am going to buy pictures and a white headscarf.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-020-o1",
+          "text": "可以"
+        },
+        {
+          "id": "q-p0004-020-o2",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-020-o3",
+          "text": "畫兒"
+        }
+      ],
+      "correctOptionId": "q-p0004-020-o3",
+      "explanation": "The missing word is 畫兒 (huàr, \"picture; drawing (rhotic form)\"), completing 「我去買畫兒和白頭巾。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0268"
+      ],
+      "entryIds": [
+        "e-p0004-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-021",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese expression.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-021-o1",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-021-o2",
+          "text": "去你的"
+        },
+        {
+          "id": "q-p0004-021-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0004-021-o2",
+      "explanation": "The audio speaks 去你的 (qù nǐ de), meaning \"oh, get lost!; cut it out!\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0070"
+      ],
+      "entryIds": [
+        "e-p0004-0053"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "去你的",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-022",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 漢字?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-022-o1",
+          "text": "Chinese character"
+        },
+        {
+          "id": "q-p0004-022-o2",
+          "text": "may; can; be allowed to"
+        },
+        {
+          "id": "q-p0004-022-o3",
+          "text": "picture; drawing (rhotic form)"
+        }
+      ],
+      "correctOptionId": "q-p0004-022-o1",
+      "explanation": "漢字 (hànzì) means \"Chinese character\". A written character; 字 has full fourth tone here. Traditional written form in this occurrence.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-023",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「這是你的名字嗎？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-023-o1",
+          "text": "My name is Wang Tian."
+        },
+        {
+          "id": "q-p0004-023-o2",
+          "text": "I am going to buy pictures and a white headscarf."
+        },
+        {
+          "id": "q-p0004-023-o3",
+          "text": "Is this your name?"
+        }
+      ],
+      "correctOptionId": "q-p0004-023-o3",
+      "explanation": "「這是你的名字嗎？」 (Zhè shì nǐ de míngzi ma?) means \"Is this your name?\". Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0269"
+      ],
+      "entryIds": [
+        "e-p0004-0126"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-024",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 畫兒 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-024-o1",
+          "text": "Chinese character"
+        },
+        {
+          "id": "q-p0004-024-o2",
+          "text": "picture; drawing (rhotic form)"
+        },
+        {
+          "id": "q-p0004-024-o3",
+          "text": "may; can; be allowed to"
+        }
+      ],
+      "correctOptionId": "q-p0004-024-o2",
+      "explanation": "畫兒 (huàr) means \"picture; drawing (rhotic form)\". 儿 merges into the preceding syllable as an r ending, not a separate ér. Traditional written form in this occurrence.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-025",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"picture; drawing (rhotic form)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-025-o1",
+          "text": "畫兒"
+        },
+        {
+          "id": "q-p0004-025-o2",
+          "text": "可以"
+        },
+        {
+          "id": "q-p0004-025-o3",
+          "text": "漢字"
+        }
+      ],
+      "correctOptionId": "q-p0004-025-o1",
+      "explanation": "\"picture; drawing (rhotic form)\" is 畫兒 (huàr).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-026",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"yǐ\" meaning \"by means of; according to (lexical character)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-026-o1",
+          "text": "字"
+        },
+        {
+          "id": "q-p0004-026-o2",
+          "text": "可"
+        },
+        {
+          "id": "q-p0004-026-o3",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "q-p0004-026-o3",
+      "explanation": "以 is pronounced yǐ and means \"by means of; according to (lexical character)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-027",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「這是你的____嗎？」 (Is this your name?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-027-o1",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-027-o2",
+          "text": "名字"
+        },
+        {
+          "id": "q-p0004-027-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0004-027-o2",
+      "explanation": "The missing word is 名字 (míngzi, \"name\"), completing 「這是你的名字嗎？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0269"
+      ],
+      "entryIds": [
+        "e-p0004-0126"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-028",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-028-o1",
+          "text": "我叫王田。"
+        },
+        {
+          "id": "q-p0004-028-o2",
+          "text": "我去買畫兒和白頭巾。"
+        },
+        {
+          "id": "q-p0004-028-o3",
+          "text": "這是你的名字嗎？"
+        }
+      ],
+      "correctOptionId": "q-p0004-028-o1",
+      "explanation": "The audio speaks 我叫王田。 (Wǒ jiào Wáng Tián.), meaning \"My name is Wang Tian.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0267"
+      ],
+      "entryIds": [
+        "e-p0004-0124"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我叫王田。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-029",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 畫兒?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-029-o1",
+          "text": "may; can; be allowed to"
+        },
+        {
+          "id": "q-p0004-029-o2",
+          "text": "Chinese character"
+        },
+        {
+          "id": "q-p0004-029-o3",
+          "text": "picture; drawing (rhotic form)"
+        }
+      ],
+      "correctOptionId": "q-p0004-029-o3",
+      "explanation": "畫兒 (huàr) means \"picture; drawing (rhotic form)\". 儿 merges into the preceding syllable as an r ending, not a separate ér. Traditional written form in this occurrence.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-030",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「中國勺兒很好看。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-030-o1",
+          "text": "I am going to buy pictures and a white headscarf."
+        },
+        {
+          "id": "q-p0004-030-o2",
+          "text": "Chinese spoons are very attractive."
+        },
+        {
+          "id": "q-p0004-030-o3",
+          "text": "My name is Wang Tian."
+        }
+      ],
+      "correctOptionId": "q-p0004-030-o2",
+      "explanation": "「中國勺兒很好看。」 (Zhōngguó sháor hěn hǎokàn.) means \"Chinese spoons are very attractive.\". Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0270"
+      ],
+      "entryIds": [
+        "e-p0004-0127"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-031",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 好吃 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-031-o1",
+          "text": "tasty; good to eat"
+        },
+        {
+          "id": "q-p0004-031-o2",
+          "text": "may; can; be allowed to"
+        },
+        {
+          "id": "q-p0004-031-o3",
+          "text": "Chinese character"
+        }
+      ],
+      "correctOptionId": "q-p0004-031-o1",
+      "explanation": "好吃 (hǎochī) means \"tasty; good to eat\". Used for food. Compare 好喝 for drinks and 好看 for appearance or something enjoyable to look at.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0013"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-032",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"illustrated magazine; pictorial\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-032-o1",
+          "text": "可以"
+        },
+        {
+          "id": "q-p0004-032-o2",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-032-o3",
+          "text": "畫報"
+        }
+      ],
+      "correctOptionId": "q-p0004-032-o3",
+      "explanation": "\"illustrated magazine; pictorial\" is 畫報 (huàbào).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

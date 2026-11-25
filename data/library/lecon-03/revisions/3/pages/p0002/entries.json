@@ -1,0 +1,972 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "entries": [
+    {
+      "id": "e-p0002-0001",
+      "kind": "character",
+      "form": "多",
+      "language": "zh-CN",
+      "meaning": "many; much",
+      "explanation": "很多 means many or a lot. After a noun, …很多 means there are many of it.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "duō",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[twɔ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "多",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0002",
+      "kind": "character",
+      "form": "夕",
+      "language": "zh-CN",
+      "meaning": "evening",
+      "explanation": "A complete character used as a component in 多.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "夕",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0003",
+      "kind": "character",
+      "form": "可",
+      "language": "zh-CN",
+      "meaning": "can; may; part of 可是 (but)",
+      "explanation": "Learn 可是 as the whole conjunction but. The source's starred gloss refers to this compound use.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʰɤ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "可",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0004",
+      "kind": "word",
+      "form": "可是",
+      "language": "zh-CN",
+      "meaning": "but; however",
+      "explanation": "Connects two contrasting statements.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kěshì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "可是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0002-0003",
+        "e-p0002-0005"
+      ]
+    },
+    {
+      "id": "e-p0002-0005",
+      "kind": "character",
+      "form": "是",
+      "language": "zh-CN",
+      "meaning": "be; am, is, are",
+      "explanation": "Connects a subject to an identity. 可是 is a separate whole word meaning but.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɻ̩⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0006",
+      "kind": "character",
+      "form": "口",
+      "language": "zh-CN",
+      "meaning": "mouth; opening",
+      "explanation": "A complete character and a component.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʰoʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "口",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0007",
+      "kind": "character",
+      "form": "老",
+      "language": "zh-CN",
+      "meaning": "old; senior",
+      "explanation": "老人 means an older person. 老 before a surname is a familiar form of address, such as 老王, Lao Wang.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "老",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0008",
+      "kind": "character",
+      "form": "夫",
+      "language": "zh-CN",
+      "meaning": "man; husband (lexical character)",
+      "explanation": "In 大夫 (doctor) this syllable is neutral fu, not fū.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fū",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fu⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0009",
+      "kind": "word",
+      "form": "大夫",
+      "language": "zh-CN",
+      "meaning": "doctor",
+      "explanation": "Special dài reading for 大; the second syllable fu is neutral. A surname comes before the title, as in 孙大夫 Dr Sun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dàifu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[taɪ⁵¹ fu]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "大夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0002-0010",
+        "e-p0002-0011"
+      ]
+    },
+    {
+      "id": "e-p0002-0010",
+      "kind": "character",
+      "form": "大",
+      "language": "zh-CN",
+      "meaning": "doctor (first syllable of 大夫)",
+      "explanation": "Special dài reading in 大夫 dàifu, doctor, unlike dà meaning big.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[taɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "大",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0011",
+      "kind": "character",
+      "form": "夫",
+      "language": "zh-CN",
+      "meaning": "doctor (second syllable of 大夫)",
+      "explanation": "Neutral fu in the complete word 大夫 dàifu, doctor.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fu]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0012",
+      "kind": "character",
+      "form": "大",
+      "language": "zh-CN",
+      "meaning": "big; large",
+      "explanation": "Read dà for big. In 大夫 (doctor), it has the special reading dài.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ta⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "大",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0013",
+      "kind": "character",
+      "form": "太",
+      "language": "zh-CN",
+      "meaning": "too; excessively",
+      "explanation": "太忙 means too busy. 不太 means not very or not particularly; 不 is pronounced bú before fourth-tone tài.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰaɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "太",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0014",
+      "kind": "character",
+      "form": "哥",
+      "language": "zh-CN",
+      "meaning": "elder brother",
+      "explanation": "哥哥 gēge normally has a neutral second syllable.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gē",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kɤ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "哥",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0015",
+      "kind": "word",
+      "form": "哥哥",
+      "language": "zh-CN",
+      "meaning": "elder brother",
+      "explanation": "Neutral second syllable ge.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gēge",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kɤ⁵⁵ kɤ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "哥哥",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0002-0014",
+        "e-p0002-0016"
+      ]
+    },
+    {
+      "id": "e-p0002-0016",
+      "kind": "character",
+      "form": "哥",
+      "language": "zh-CN",
+      "meaning": "neutral ge in this word",
+      "explanation": "This occurrence is a neutral syllable. Select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ge",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "哥",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0017",
+      "kind": "character",
+      "form": "您",
+      "language": "zh-CN",
+      "meaning": "you (respectful singular)",
+      "explanation": "Used to address an older person or someone politely. It has the second tone, distinct from 你 nǐ.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nín",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nin³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "您",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0018",
+      "kind": "character",
+      "form": "你",
+      "language": "zh-CN",
+      "meaning": "you",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ni²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "你",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0019",
+      "kind": "character",
+      "form": "心",
+      "language": "zh-CN",
+      "meaning": "heart; mind",
+      "explanation": "A complete character. The vertical-heart component is a shape variant, not a separate everyday word.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕin⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "心",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0020",
+      "kind": "character",
+      "form": "忙",
+      "language": "zh-CN",
+      "meaning": "busy",
+      "explanation": "A descriptive predicate: 我很忙 means I am busy.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "máng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "忙",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0021",
+      "kind": "character",
+      "form": "买",
+      "language": "zh-CN",
+      "meaning": "buy",
+      "explanation": "Third tone mǎi contrasts with fourth-tone 卖 mài, sell.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mǎi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[maɪ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "买",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0022",
+      "kind": "word",
+      "form": "买卖",
+      "language": "zh-CN",
+      "meaning": "business; trade",
+      "explanation": "Neutral mai in this noun. Compare 买 mǎi (buy) and 卖 mài (sell).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mǎimai",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "买卖",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0002-0021",
+        "e-p0002-0023"
+      ]
+    },
+    {
+      "id": "e-p0002-0023",
+      "kind": "character",
+      "form": "卖",
+      "language": "zh-CN",
+      "meaning": "neutral mai in this word",
+      "explanation": "This occurrence is a neutral syllable. Select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mai",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "卖",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0024",
+      "kind": "character",
+      "form": "卖",
+      "language": "zh-CN",
+      "meaning": "sell",
+      "explanation": "Fourth tone mài contrasts with third-tone 买 mǎi. In the noun 买卖 the second syllable is neutral mai.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[maɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "卖",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0025",
+      "kind": "character",
+      "form": "十",
+      "language": "zh-CN",
+      "meaning": "ten",
+      "explanation": "Also a character component; do not assign meanings to intermediate stroke diagrams.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɻ̩³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "十",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0026",
+      "kind": "character",
+      "form": "賣",
+      "language": "zh-CN",
+      "meaning": "sell",
+      "explanation": "Fourth tone mài contrasts with third-tone 买 mǎi. In the noun 买卖 the second syllable is neutral mai. This occurrence uses traditional characters.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[maɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "賣",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0027",
+      "kind": "character",
+      "form": "相",
+      "language": "zh-CN",
+      "meaning": "part of 相片 (photograph); appearance",
+      "explanation": "Read xiàng in 相片 xiàngpiàn. The source's historical gloss observe usually has the reading xiāng; it is not the meaning of the whole word photograph.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiàng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑŋ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "相",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0028",
+      "kind": "word",
+      "form": "相片",
+      "language": "zh-CN",
+      "meaning": "photograph",
+      "explanation": "Read xiàng, fourth tone, in this word; 片 is also fourth tone.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiàngpiàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "相片",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0002-0027",
+        "e-p0002-0030"
+      ]
+    },
+    {
+      "id": "e-p0002-0029",
+      "kind": "word",
+      "form": "相片儿",
+      "language": "zh-CN",
+      "meaning": "photograph (northern rhotic form)",
+      "explanation": "儿 is a rhotic ending, not a separate syllable. The ordinary non-rhotic word is 相片 xiàngpiàn.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiàngpiānr",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑŋ⁵¹ pʰjɑɻ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "相片儿",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0002-0027",
+        "e-p0002-0030"
+      ]
+    },
+    {
+      "id": "e-p0002-0030",
+      "kind": "character",
+      "form": "片",
+      "language": "zh-CN",
+      "meaning": "slice; flat piece",
+      "explanation": "Read piàn in 相片 (photograph). The rhotic form 相片儿 merges 儿 into the preceding syllable.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "piàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰjɛn⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "片",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0031",
+      "kind": "character",
+      "form": "木",
+      "language": "zh-CN",
+      "meaning": "wood; tree",
+      "explanation": "A complete character also used as a component.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mu⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "木",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0032",
+      "kind": "character",
+      "form": "目",
+      "language": "zh-CN",
+      "meaning": "eye",
+      "explanation": "A complete character also used as a component in 相.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "目",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0002-0033",
+      "kind": "character",
+      "form": "想",
+      "language": "zh-CN",
+      "meaning": "think; want; would like",
+      "explanation": "Before a verb, 想 expresses a wish to do it. 很想 means really want to.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "想",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    }
+  ]
+}

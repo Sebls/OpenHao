@@ -1,0 +1,858 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 汉字 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Chinese character"
+        },
+        {
+          "id": "o2",
+          "text": "Chinese language"
+        },
+        {
+          "id": "o3",
+          "text": "business card"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "汉字 is a written Chinese character; 汉语 is the language.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means name?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "名字"
+        },
+        {
+          "id": "o2",
+          "text": "有名"
+        },
+        {
+          "id": "o3",
+          "text": "名片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名字 míngzi means name; 有名 is famous and 名片 is business card.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0018"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What is a 名片?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "business card"
+        },
+        {
+          "id": "o2",
+          "text": "painting"
+        },
+        {
+          "id": "o3",
+          "text": "headscarf"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名片 míngpiàn is a business or name card.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the character meaning write.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "写"
+        },
+        {
+          "id": "o2",
+          "text": "画"
+        },
+        {
+          "id": "o3",
+          "text": "只"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "写 xiě means write; 画 means draw.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0026"
+      ],
+      "entryIds": [
+        "e-p0002-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 画报 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "illustrated magazine"
+        },
+        {
+          "id": "o2",
+          "text": "calligraphy"
+        },
+        {
+          "id": "o3",
+          "text": "spoken language"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "画报 huàbào is an illustrated magazine or pictorial.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0044"
+      ],
+      "entryIds": [
+        "e-p0002-0024"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What can 可以 express in a permission question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "may; be allowed to"
+        },
+        {
+          "id": "o2",
+          "text": "have already finished"
+        },
+        {
+          "id": "o3",
+          "text": "be named"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可以 can ask permission; 会 instead concerns a learned skill.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0069"
+      ],
+      "entryIds": [
+        "e-p0002-0035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 有用 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "useful"
+        },
+        {
+          "id": "o2",
+          "text": "expensive"
+        },
+        {
+          "id": "o3",
+          "text": "famous"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有用 yǒuyòng means useful.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0064"
+      ],
+      "entryIds": [
+        "e-p0002-0033"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "用"
+        },
+        {
+          "id": "o2",
+          "text": "以"
+        },
+        {
+          "id": "o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "用 is yòng, use.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0063"
+      ],
+      "entryIds": [
+        "e-p0002-0032"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "用"
+    },
+    {
+      "id": "q-p0002-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 汉语 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-009-o1",
+          "text": "business card; name card"
+        },
+        {
+          "id": "q-p0002-009-o2",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0002-009-o3",
+          "text": "Chinese character"
+        }
+      ],
+      "correctOptionId": "q-p0002-009-o2",
+      "explanation": "汉语 (Hànyǔ) means \"Chinese (language)\". A language name; distinguish 汉字 (written Chinese character).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-010",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Chinese (language)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-010-o1",
+          "text": "汉语"
+        },
+        {
+          "id": "q-p0002-010-o2",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0002-010-o3",
+          "text": "名片"
+        }
+      ],
+      "correctOptionId": "q-p0002-010-o1",
+      "explanation": "\"Chinese (language)\" is 汉语 (Hànyǔ).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-011",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"hàn\" meaning \"Han; Chinese (in compounds)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-011-o1",
+          "text": "语"
+        },
+        {
+          "id": "q-p0002-011-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0002-011-o3",
+          "text": "汉"
+        }
+      ],
+      "correctOptionId": "q-p0002-011-o3",
+      "explanation": "汉 is pronounced hàn and means \"Han; Chinese (in compounds)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-012",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-012-o1",
+          "text": "名片"
+        },
+        {
+          "id": "q-p0002-012-o2",
+          "text": "汉语"
+        },
+        {
+          "id": "q-p0002-012-o3",
+          "text": "汉字"
+        }
+      ],
+      "correctOptionId": "q-p0002-012-o2",
+      "explanation": "The audio speaks 汉语 (Hànyǔ), meaning \"Chinese (language)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "汉语",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-013",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 汉语?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-013-o1",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0002-013-o2",
+          "text": "Chinese character"
+        },
+        {
+          "id": "q-p0002-013-o3",
+          "text": "business card; name card"
+        }
+      ],
+      "correctOptionId": "q-p0002-013-o1",
+      "explanation": "汉语 (Hànyǔ) means \"Chinese (language)\". A language name; distinguish 汉字 (written Chinese character).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-014",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 名字 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-014-o1",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0002-014-o2",
+          "text": "Chinese character"
+        },
+        {
+          "id": "q-p0002-014-o3",
+          "text": "name"
+        }
+      ],
+      "correctOptionId": "q-p0002-014-o3",
+      "explanation": "名字 (míngzi) means \"name\". Neutral zi. 姓 asks for the family name; 名字 asks for a name more generally.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0018"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-015",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Chinese character\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-015-o1",
+          "text": "名片"
+        },
+        {
+          "id": "q-p0002-015-o2",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0002-015-o3",
+          "text": "汉语"
+        }
+      ],
+      "correctOptionId": "q-p0002-015-o2",
+      "explanation": "\"Chinese character\" is 汉字 (hànzì).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-016",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"yǔ\" meaning \"language; speech\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-016-o1",
+          "text": "语"
+        },
+        {
+          "id": "q-p0002-016-o2",
+          "text": "汉"
+        },
+        {
+          "id": "q-p0002-016-o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "q-p0002-016-o1",
+      "explanation": "语 is pronounced yǔ and means \"language; speech\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-017",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-017-o1",
+          "text": "语"
+        },
+        {
+          "id": "q-p0002-017-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0002-017-o3",
+          "text": "汉"
+        }
+      ],
+      "correctOptionId": "q-p0002-017-o3",
+      "explanation": "The audio speaks 汉 (hàn), meaning \"Han; Chinese (in compounds)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "汉",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-018",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 汉字?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-018-o1",
+          "text": "business card; name card"
+        },
+        {
+          "id": "q-p0002-018-o2",
+          "text": "Chinese character"
+        },
+        {
+          "id": "q-p0002-018-o3",
+          "text": "Chinese (language)"
+        }
+      ],
+      "correctOptionId": "q-p0002-018-o2",
+      "explanation": "汉字 (hànzì) means \"Chinese character\". A written character; 字 has full fourth tone here.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-019",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 有名 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-019-o1",
+          "text": "famous; well known"
+        },
+        {
+          "id": "q-p0002-019-o2",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0002-019-o3",
+          "text": "Chinese character"
+        }
+      ],
+      "correctOptionId": "q-p0002-019-o1",
+      "explanation": "有名 (yǒumíng) means \"famous; well known\". Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0019"
+      ],
+      "entryIds": [
+        "e-p0002-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-020",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"business card; name card\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-020-o1",
+          "text": "汉语"
+        },
+        {
+          "id": "q-p0002-020-o2",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0002-020-o3",
+          "text": "名片"
+        }
+      ],
+      "correctOptionId": "q-p0002-020-o3",
+      "explanation": "\"business card; name card\" is 名片 (míngpiàn).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-021",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"zì\" meaning \"written character\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-021-o1",
+          "text": "语"
+        },
+        {
+          "id": "q-p0002-021-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0002-021-o3",
+          "text": "汉"
+        }
+      ],
+      "correctOptionId": "q-p0002-021-o2",
+      "explanation": "字 is pronounced zì and means \"written character\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0007"
+      ],
+      "entryIds": [
+        "e-p0002-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-022",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 名片?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-022-o1",
+          "text": "business card; name card"
+        },
+        {
+          "id": "q-p0002-022-o2",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0002-022-o3",
+          "text": "Chinese character"
+        }
+      ],
+      "correctOptionId": "q-p0002-022-o1",
+      "explanation": "名片 (míngpiàn) means \"business card; name card\". A card giving a person's name and contact details.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-023",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 画儿 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-023-o1",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0002-023-o2",
+          "text": "Chinese character"
+        },
+        {
+          "id": "q-p0002-023-o3",
+          "text": "picture; drawing (rhotic form)"
+        }
+      ],
+      "correctOptionId": "q-p0002-023-o3",
+      "explanation": "画儿 (huàr) means \"picture; drawing (rhotic form)\". 儿 merges into the preceding syllable as an r ending, not a separate ér.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0031"
+      ],
+      "entryIds": [
+        "e-p0002-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-024",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"famous; well known\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-024-o1",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0002-024-o2",
+          "text": "有名"
+        },
+        {
+          "id": "q-p0002-024-o3",
+          "text": "汉语"
+        }
+      ],
+      "correctOptionId": "q-p0002-024-o2",
+      "explanation": "\"famous; well known\" is 有名 (yǒumíng).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0019"
+      ],
+      "entryIds": [
+        "e-p0002-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

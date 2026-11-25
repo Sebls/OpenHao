@@ -1,0 +1,1204 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 鱼汤 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-001-o1",
+          "text": "fish soup"
+        },
+        {
+          "id": "q-p0006-001-o2",
+          "text": "fish head"
+        },
+        {
+          "id": "q-p0006-001-o3",
+          "text": "locomotive"
+        }
+      ],
+      "correctOptionId": "q-p0006-001-o1",
+      "explanation": "鱼 is fish and 汤 is soup.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0029"
+      ],
+      "entryIds": [
+        "e-p0006-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose girlfriend in the description under the memento.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-002-o1",
+          "text": "女朋友"
+        },
+        {
+          "id": "q-p0006-002-o2",
+          "text": "男朋友"
+        },
+        {
+          "id": "q-p0006-002-o3",
+          "text": "工程师"
+        }
+      ],
+      "correctOptionId": "q-p0006-002-o1",
+      "explanation": "女朋友 identifies the speaker’s girlfriend in this description.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0140"
+      ],
+      "entryIds": [
+        "e-p0006-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means do or make in this lesson?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-003-o1",
+          "text": "作"
+        },
+        {
+          "id": "q-p0006-003-o2",
+          "text": "坐"
+        },
+        {
+          "id": "q-p0006-003-o3",
+          "text": "昨"
+        }
+      ],
+      "correctOptionId": "q-p0006-003-o1",
+      "explanation": "工作 is written with 作. 坐 is a different character meaning sit.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0054"
+      ],
+      "entryIds": [
+        "e-p0006-0031"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is the woman’s name?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-004-o1",
+          "text": "Wang Guoyu"
+        },
+        {
+          "id": "q-p0006-004-o2",
+          "text": "Wang You"
+        },
+        {
+          "id": "q-p0006-004-o3",
+          "text": "Tian Xi"
+        }
+      ],
+      "correctOptionId": "q-p0006-004-o1",
+      "explanation": "王国玉 is a personal name with the family name Wang first.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0144"
+      ],
+      "entryIds": [
+        "e-p0006-0078"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Which statement matches the source?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-005-o1",
+          "text": "She can speak French and studies Japanese."
+        },
+        {
+          "id": "q-p0006-005-o2",
+          "text": "She can speak Japanese and studies French."
+        },
+        {
+          "id": "q-p0006-005-o3",
+          "text": "She studies English and does not speak French."
+        }
+      ],
+      "correctOptionId": "q-p0006-005-o1",
+      "explanation": "会说法文 is can speak French; 学习日文 is studies Japanese.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0165"
+      ],
+      "entryIds": [
+        "e-p0006-0083"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-006",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 他不工作。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-006-o1",
+          "text": "He does not work."
+        },
+        {
+          "id": "q-p0006-006-o2",
+          "text": "He is not an engineer."
+        },
+        {
+          "id": "q-p0006-006-o3",
+          "text": "He cannot speak."
+        }
+      ],
+      "correctOptionId": "q-p0006-006-o1",
+      "explanation": "不 negates 工作, work. No occupation is named.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0050"
+      ],
+      "entryIds": [
+        "e-p0006-0028"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-007",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the printed gap exercise: 这是火车 __ 。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-007-o1",
+          "text": "头"
+        },
+        {
+          "id": "q-p0006-007-o2",
+          "text": "天"
+        },
+        {
+          "id": "q-p0006-007-o3",
+          "text": "大"
+        }
+      ],
+      "correctOptionId": "q-p0006-007-o1",
+      "explanation": "火车头 means locomotive. The visible choices contrast similar written shapes.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0284",
+        "a-p0006-0281"
+      ],
+      "entryIds": [
+        "e-p0006-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-008",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Where is 也 placed in this question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-008-o1",
+          "text": "after the subject 她 and before 是"
+        },
+        {
+          "id": "q-p0006-008-o2",
+          "text": "after the final question particle"
+        },
+        {
+          "id": "q-p0006-008-o3",
+          "text": "inside the noun 朋友"
+        }
+      ],
+      "correctOptionId": "q-p0006-008-o1",
+      "explanation": "也 follows the subject and precedes the verb: 她也是… .",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0062"
+      ],
+      "entryIds": [
+        "e-p0006-0038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0006-009",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Choose the phrase you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-009-o1",
+          "text": "鱼头"
+        },
+        {
+          "id": "q-p0006-009-o2",
+          "text": "鱼汤"
+        },
+        {
+          "id": "q-p0006-009-o3",
+          "text": "木头"
+        }
+      ],
+      "correctOptionId": "q-p0006-009-o1",
+      "explanation": "The target is 鱼头 yú tóu, fish head.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      },
+      "speechTarget": "鱼头"
+    },
+    {
+      "id": "q-p0006-010",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你要鱼头吗？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-010-o1",
+          "text": "Would you like a fish head?"
+        },
+        {
+          "id": "q-p0006-010-o2",
+          "text": "Do you drink fish soup?"
+        },
+        {
+          "id": "q-p0006-010-o3",
+          "text": "French people really like drinking fish soup. (The speaker’s claim in this dialogue.)"
+        }
+      ],
+      "correctOptionId": "q-p0006-010-o1",
+      "explanation": "「你要鱼头吗？」 (Nǐ yào yú tóu ma?) means \"Would you like a fish head?\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0002"
+      ],
+      "entryIds": [
+        "e-p0006-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-011",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 鱼头 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-011-o1",
+          "text": "China"
+        },
+        {
+          "id": "q-p0006-011-o2",
+          "text": "Chinese person; Chinese people"
+        },
+        {
+          "id": "q-p0006-011-o3",
+          "text": "fish head"
+        }
+      ],
+      "correctOptionId": "q-p0006-011-o3",
+      "explanation": "鱼头 (yú tóu) means \"fish head\". Here 头 is full second-tone tóu.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-012",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"fish head\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-012-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0006-012-o2",
+          "text": "鱼头"
+        },
+        {
+          "id": "q-p0006-012-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0006-012-o2",
+      "explanation": "\"fish head\" is 鱼头 (yú tóu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-013",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"nǐ\" meaning \"you\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-013-o1",
+          "text": "你"
+        },
+        {
+          "id": "q-p0006-013-o2",
+          "text": "要"
+        },
+        {
+          "id": "q-p0006-013-o3",
+          "text": "鱼"
+        }
+      ],
+      "correctOptionId": "q-p0006-013-o1",
+      "explanation": "你 is pronounced nǐ and means \"you\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0003"
+      ],
+      "entryIds": [
+        "e-p0006-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-014",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「你要____吗？」 (Would you like a fish head?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-014-o1",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0006-014-o2",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0006-014-o3",
+          "text": "鱼头"
+        }
+      ],
+      "correctOptionId": "q-p0006-014-o3",
+      "explanation": "The missing word is 鱼头 (yú tóu, \"fish head\"), completing 「你要鱼头吗？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0002"
+      ],
+      "entryIds": [
+        "e-p0006-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-015",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-015-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0006-015-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0006-015-o3",
+          "text": "鱼头"
+        }
+      ],
+      "correctOptionId": "q-p0006-015-o2",
+      "explanation": "The audio speaks 中国 (Zhōngguó), meaning \"China\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0008"
+      ],
+      "entryIds": [
+        "e-p0006-0008"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "中国",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-016",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 鱼头?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-016-o1",
+          "text": "fish head"
+        },
+        {
+          "id": "q-p0006-016-o2",
+          "text": "China"
+        },
+        {
+          "id": "q-p0006-016-o3",
+          "text": "Chinese person; Chinese people"
+        }
+      ],
+      "correctOptionId": "q-p0006-016-o1",
+      "explanation": "鱼头 (yú tóu) means \"fish head\". Here 头 is full second-tone tóu.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-017",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你喝鱼汤吗？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-017-o1",
+          "text": "Would you like a fish head?"
+        },
+        {
+          "id": "q-p0006-017-o2",
+          "text": "French people really like drinking fish soup. (The speaker’s claim in this dialogue.)"
+        },
+        {
+          "id": "q-p0006-017-o3",
+          "text": "Do you drink fish soup?"
+        }
+      ],
+      "correctOptionId": "q-p0006-017-o3",
+      "explanation": "「你喝鱼汤吗？」 (Nǐ hē yú tāng ma?) means \"Do you drink fish soup?\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0030"
+      ],
+      "entryIds": [
+        "e-p0006-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-018",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 中国 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-018-o1",
+          "text": "Chinese person; Chinese people"
+        },
+        {
+          "id": "q-p0006-018-o2",
+          "text": "China"
+        },
+        {
+          "id": "q-p0006-018-o3",
+          "text": "fish head"
+        }
+      ],
+      "correctOptionId": "q-p0006-018-o2",
+      "explanation": "中国 (Zhōngguó) means \"China\". The name of the country.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0008"
+      ],
+      "entryIds": [
+        "e-p0006-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-019",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"China\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-019-o1",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0006-019-o2",
+          "text": "鱼头"
+        },
+        {
+          "id": "q-p0006-019-o3",
+          "text": "中国人"
+        }
+      ],
+      "correctOptionId": "q-p0006-019-o1",
+      "explanation": "\"China\" is 中国 (Zhōngguó).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0008"
+      ],
+      "entryIds": [
+        "e-p0006-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-020",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"yào\" meaning \"want; would like\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-020-o1",
+          "text": "你"
+        },
+        {
+          "id": "q-p0006-020-o2",
+          "text": "鱼"
+        },
+        {
+          "id": "q-p0006-020-o3",
+          "text": "要"
+        }
+      ],
+      "correctOptionId": "q-p0006-020-o3",
+      "explanation": "要 is pronounced yào and means \"want; would like\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0004"
+      ],
+      "entryIds": [
+        "e-p0006-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-021",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「你喝____吗？」 (Do you drink fish soup?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-021-o1",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0006-021-o2",
+          "text": "鱼汤"
+        },
+        {
+          "id": "q-p0006-021-o3",
+          "text": "鱼头"
+        }
+      ],
+      "correctOptionId": "q-p0006-021-o2",
+      "explanation": "The missing word is 鱼汤 (yú tāng, \"fish soup\"), completing 「你喝鱼汤吗？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0030"
+      ],
+      "entryIds": [
+        "e-p0006-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-022",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-022-o1",
+          "text": "你要鱼头吗？"
+        },
+        {
+          "id": "q-p0006-022-o2",
+          "text": "你喝鱼汤吗？"
+        },
+        {
+          "id": "q-p0006-022-o3",
+          "text": "法国人很爱喝鱼汤。"
+        }
+      ],
+      "correctOptionId": "q-p0006-022-o1",
+      "explanation": "The audio speaks 你要鱼头吗？ (Nǐ yào yú tóu ma?), meaning \"Would you like a fish head?\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0002"
+      ],
+      "entryIds": [
+        "e-p0006-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你要鱼头吗？",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-023",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 中国?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-023-o1",
+          "text": "fish head"
+        },
+        {
+          "id": "q-p0006-023-o2",
+          "text": "Chinese person; Chinese people"
+        },
+        {
+          "id": "q-p0006-023-o3",
+          "text": "China"
+        }
+      ],
+      "correctOptionId": "q-p0006-023-o3",
+      "explanation": "中国 (Zhōngguó) means \"China\". The name of the country.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0008"
+      ],
+      "entryIds": [
+        "e-p0006-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-024",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「法国人很爱喝鱼汤。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-024-o1",
+          "text": "Do you drink fish soup?"
+        },
+        {
+          "id": "q-p0006-024-o2",
+          "text": "French people really like drinking fish soup. (The speaker’s claim in this dialogue.)"
+        },
+        {
+          "id": "q-p0006-024-o3",
+          "text": "Would you like a fish head?"
+        }
+      ],
+      "correctOptionId": "q-p0006-024-o2",
+      "explanation": "「法国人很爱喝鱼汤。」 (Fǎguó rén hěn ài hē yú tāng.) means \"French people really like drinking fish soup. (The speaker’s claim in this dialogue.)\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0039"
+      ],
+      "entryIds": [
+        "e-p0006-0025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-025",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 中国人 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-025-o1",
+          "text": "Chinese person; Chinese people"
+        },
+        {
+          "id": "q-p0006-025-o2",
+          "text": "fish head"
+        },
+        {
+          "id": "q-p0006-025-o3",
+          "text": "China"
+        }
+      ],
+      "correctOptionId": "q-p0006-025-o1",
+      "explanation": "中国人 (Zhōngguó rén) means \"Chinese person; Chinese people\". 中国 plus 人 identifies someone from China.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0009"
+      ],
+      "entryIds": [
+        "e-p0006-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-026",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Chinese person; Chinese people\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-026-o1",
+          "text": "鱼头"
+        },
+        {
+          "id": "q-p0006-026-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0006-026-o3",
+          "text": "中国人"
+        }
+      ],
+      "correctOptionId": "q-p0006-026-o3",
+      "explanation": "\"Chinese person; Chinese people\" is 中国人 (Zhōngguó rén).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0009"
+      ],
+      "entryIds": [
+        "e-p0006-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-027",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"yú\" meaning \"fish\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-027-o1",
+          "text": "要"
+        },
+        {
+          "id": "q-p0006-027-o2",
+          "text": "鱼"
+        },
+        {
+          "id": "q-p0006-027-o3",
+          "text": "你"
+        }
+      ],
+      "correctOptionId": "q-p0006-027-o2",
+      "explanation": "鱼 is pronounced yú and means \"fish\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0005"
+      ],
+      "entryIds": [
+        "e-p0006-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-028",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「____很爱喝鱼汤。」 (French people really like drinking fish soup. (The speaker’s claim in this dialogue.))",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-028-o1",
+          "text": "法国人"
+        },
+        {
+          "id": "q-p0006-028-o2",
+          "text": "鱼头"
+        },
+        {
+          "id": "q-p0006-028-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0006-028-o1",
+      "explanation": "The missing word is 法国人 (Fǎguó rén, \"French person; French people\"), completing 「法国人很爱喝鱼汤。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0039"
+      ],
+      "entryIds": [
+        "e-p0006-0025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-029",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-029-o1",
+          "text": "要"
+        },
+        {
+          "id": "q-p0006-029-o2",
+          "text": "鱼"
+        },
+        {
+          "id": "q-p0006-029-o3",
+          "text": "你"
+        }
+      ],
+      "correctOptionId": "q-p0006-029-o3",
+      "explanation": "The audio speaks 你 (nǐ), meaning \"you\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0003"
+      ],
+      "entryIds": [
+        "e-p0006-0003"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-030",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 中国人?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-030-o1",
+          "text": "China"
+        },
+        {
+          "id": "q-p0006-030-o2",
+          "text": "Chinese person; Chinese people"
+        },
+        {
+          "id": "q-p0006-030-o3",
+          "text": "fish head"
+        }
+      ],
+      "correctOptionId": "q-p0006-030-o2",
+      "explanation": "中国人 (Zhōngguó rén) means \"Chinese person; Chinese people\". 中国 plus 人 identifies someone from China.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0009"
+      ],
+      "entryIds": [
+        "e-p0006-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-031",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「这是火车头。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-031-o1",
+          "text": "This is a locomotive."
+        },
+        {
+          "id": "q-p0006-031-o2",
+          "text": "Would you like a fish head?"
+        },
+        {
+          "id": "q-p0006-031-o3",
+          "text": "Do you drink fish soup?"
+        }
+      ],
+      "correctOptionId": "q-p0006-031-o1",
+      "explanation": "「这是火车头。」 (Zhè shì huǒchētóu.) means \"This is a locomotive.\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0056"
+      ],
+      "entryIds": [
+        "e-p0006-0033"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-032",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 法国 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-032-o1",
+          "text": "fish head"
+        },
+        {
+          "id": "q-p0006-032-o2",
+          "text": "China"
+        },
+        {
+          "id": "q-p0006-032-o3",
+          "text": "France"
+        }
+      ],
+      "correctOptionId": "q-p0006-032-o3",
+      "explanation": "法国 (Fǎguó) means \"France\". A country name. The third tone on Fǎ precedes second-tone guó.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0010"
+      ],
+      "entryIds": [
+        "e-p0006-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-033",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"France\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-033-o1",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0006-033-o2",
+          "text": "法国"
+        },
+        {
+          "id": "q-p0006-033-o3",
+          "text": "鱼头"
+        }
+      ],
+      "correctOptionId": "q-p0006-033-o2",
+      "explanation": "\"France\" is 法国 (Fǎguó).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0010"
+      ],
+      "entryIds": [
+        "e-p0006-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-034",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"tóu\" meaning \"head (lexical character)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0006-034-o1",
+          "text": "头"
+        },
+        {
+          "id": "q-p0006-034-o2",
+          "text": "你"
+        },
+        {
+          "id": "q-p0006-034-o3",
+          "text": "要"
+        }
+      ],
+      "correctOptionId": "q-p0006-034-o1",
+      "explanation": "头 is pronounced tóu and means \"head (lexical character)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0006"
+      ],
+      "entryIds": [
+        "e-p0006-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

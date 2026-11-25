@@ -1,0 +1,1336 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 面包 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "bread"
+        },
+        {
+          "id": "o2",
+          "text": "magazine"
+        },
+        {
+          "id": "o3",
+          "text": "company"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "面包 (miànbāo) means bread.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0022"
+      ],
+      "entryIds": [
+        "e-p0002-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "How do you say 'sorry' in Chinese?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "对不起"
+        },
+        {
+          "id": "o2",
+          "text": "没什么"
+        },
+        {
+          "id": "o3",
+          "text": "有工夫"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "对不起 (duìbuqǐ) means 'sorry'; 没什么 means 'it's nothing'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In '这种面包很好吃，我很喜欢。', what does Yamamoto say about the bread?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "It is delicious and he likes it very much"
+        },
+        {
+          "id": "o2",
+          "text": "It is very expensive"
+        },
+        {
+          "id": "o3",
+          "text": "He does not want any more"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "好吃 means delicious, and 我很喜欢 means 'I like it very much'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0024"
+      ],
+      "entryIds": [
+        "e-p0002-0037"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choose the measure word for slices of bread: 这是五___面包。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "片"
+        },
+        {
+          "id": "o2",
+          "text": "种"
+        },
+        {
+          "id": "o3",
+          "text": "来"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "片 (piàn) is the measure word for thin slices of bread.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In '我……我不会开车。', what does 不会 express?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Not knowing how to do a learned skill"
+        },
+        {
+          "id": "o2",
+          "text": "Not having free time"
+        },
+        {
+          "id": "o3",
+          "text": "Not liking something"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "会 / 不会 expresses whether one knows how to perform a learned skill like driving (开车).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0041"
+      ],
+      "entryIds": [
+        "e-p0002-0042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means 'kind' or 'sort' in 这种刀子?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "种"
+        },
+        {
+          "id": "o2",
+          "text": "片"
+        },
+        {
+          "id": "o3",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "种 (zhǒng) means kind or sort.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0011"
+      ],
+      "entryIds": [
+        "e-p0002-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 有工夫 mean in '你现在有工夫吗？'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "to have free time"
+        },
+        {
+          "id": "o2",
+          "text": "to be too busy"
+        },
+        {
+          "id": "o3",
+          "text": "to know how to drive"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "工夫 (gōngfu) means free time or spare time.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0031"
+      ],
+      "entryIds": [
+        "e-p0002-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the phrase you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没什么"
+        },
+        {
+          "id": "o2",
+          "text": "对不起"
+        },
+        {
+          "id": "o3",
+          "text": "英国公司"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没什么 (méi shénme) means 'it's nothing / never mind'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "没什么"
+    },
+    {
+      "id": "q-p0002-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「这是你的刀子吗？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-009-o1",
+          "text": "I am very hungry."
+        },
+        {
+          "id": "q-p0002-009-o2",
+          "text": "Is this your knife?"
+        },
+        {
+          "id": "q-p0002-009-o3",
+          "text": "This kind of knife is very nice, but very expensive."
+        }
+      ],
+      "correctOptionId": "q-p0002-009-o2",
+      "explanation": "「这是你的刀子吗？」 (Zhè shì nǐ de dāozi ma?) means \"Is this your knife?\". Uses 的 for possession and 吗 to form a yes/no question.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0008"
+      ],
+      "entryIds": [
+        "e-p0002-0031"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-010",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 公司 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-010-o1",
+          "text": "company; firm"
+        },
+        {
+          "id": "q-p0002-010-o2",
+          "text": "mister; sir; husband"
+        },
+        {
+          "id": "q-p0002-010-o3",
+          "text": "Mrs.; wife"
+        }
+      ],
+      "correctOptionId": "q-p0002-010-o1",
+      "explanation": "公司 (gōngsī) means \"company; firm\". A business or enterprise.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-011",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"company; firm\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-011-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-011-o2",
+          "text": "太太"
+        },
+        {
+          "id": "q-p0002-011-o3",
+          "text": "公司"
+        }
+      ],
+      "correctOptionId": "q-p0002-011-o3",
+      "explanation": "\"company; firm\" is 公司 (gōngsī).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-012",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"zhè\" meaning \"this\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-012-o1",
+          "text": "种"
+        },
+        {
+          "id": "q-p0002-012-o2",
+          "text": "这"
+        },
+        {
+          "id": "q-p0002-012-o3",
+          "text": "那"
+        }
+      ],
+      "correctOptionId": "q-p0002-012-o2",
+      "explanation": "这 is pronounced zhè and means \"this\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0010"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-013",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「____是你的刀子吗？」 (Is this your knife?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-013-o1",
+          "text": "这"
+        },
+        {
+          "id": "q-p0002-013-o2",
+          "text": "那"
+        },
+        {
+          "id": "q-p0002-013-o3",
+          "text": "种"
+        }
+      ],
+      "correctOptionId": "q-p0002-013-o1",
+      "explanation": "The missing character is 这 (zhè, \"this\"), completing 「这是你的刀子吗？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0008"
+      ],
+      "entryIds": [
+        "e-p0002-0031"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-014",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-014-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-014-o2",
+          "text": "太太"
+        },
+        {
+          "id": "q-p0002-014-o3",
+          "text": "公司"
+        }
+      ],
+      "correctOptionId": "q-p0002-014-o3",
+      "explanation": "The audio speaks 公司 (gōngsī), meaning \"company; firm\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "公司",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-015",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 公司?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-015-o1",
+          "text": "Mrs.; wife"
+        },
+        {
+          "id": "q-p0002-015-o2",
+          "text": "company; firm"
+        },
+        {
+          "id": "q-p0002-015-o3",
+          "text": "mister; sir; husband"
+        }
+      ],
+      "correctOptionId": "q-p0002-015-o2",
+      "explanation": "公司 (gōngsī) means \"company; firm\". A business or enterprise.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-016",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「这种刀子很好看，可是很贵。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-016-o1",
+          "text": "This kind of knife is very nice, but very expensive."
+        },
+        {
+          "id": "q-p0002-016-o2",
+          "text": "Is this your knife?"
+        },
+        {
+          "id": "q-p0002-016-o3",
+          "text": "I am very hungry."
+        }
+      ],
+      "correctOptionId": "q-p0002-016-o1",
+      "explanation": "「这种刀子很好看，可是很贵。」 (Zhè zhǒng dāozi hěn hǎokàn, kěshì hěn guì.) means \"This kind of knife is very nice, but very expensive.\". 这种 means 'this kind of'; 可是 contrasts the two clauses.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0009"
+      ],
+      "entryIds": [
+        "e-p0002-0032"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-017",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 对不起 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-017-o1",
+          "text": "company; firm"
+        },
+        {
+          "id": "q-p0002-017-o2",
+          "text": "mister; sir; husband"
+        },
+        {
+          "id": "q-p0002-017-o3",
+          "text": "sorry; excuse me"
+        }
+      ],
+      "correctOptionId": "q-p0002-017-o3",
+      "explanation": "对不起 (duìbuqǐ) means \"sorry; excuse me\". Polite apology. 不 is pronounced in a neutral or light tone in this fixed phrase.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-018",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"it's nothing; never mind\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-018-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-018-o2",
+          "text": "没什么"
+        },
+        {
+          "id": "q-p0002-018-o3",
+          "text": "公司"
+        }
+      ],
+      "correctOptionId": "q-p0002-018-o2",
+      "explanation": "\"it's nothing; never mind\" is 没什么 (méi shénme).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-019",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"nà\" meaning \"that\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-019-o1",
+          "text": "那"
+        },
+        {
+          "id": "q-p0002-019-o2",
+          "text": "这"
+        },
+        {
+          "id": "q-p0002-019-o3",
+          "text": "种"
+        }
+      ],
+      "correctOptionId": "q-p0002-019-o1",
+      "explanation": "那 is pronounced nà and means \"that\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0040"
+      ],
+      "entryIds": [
+        "e-p0002-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-020",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「这种刀子很____，可是很贵。」 (This kind of knife is very nice, but very expensive.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-020-o1",
+          "text": "公司"
+        },
+        {
+          "id": "q-p0002-020-o2",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-020-o3",
+          "text": "好看"
+        }
+      ],
+      "correctOptionId": "q-p0002-020-o3",
+      "explanation": "The missing word is 好看 (hǎokàn, \"good-looking; nice\"), completing 「这种刀子很好看，可是很贵。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0009"
+      ],
+      "entryIds": [
+        "e-p0002-0032"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-021",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese expression.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-021-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-021-o2",
+          "text": "对不起"
+        },
+        {
+          "id": "q-p0002-021-o3",
+          "text": "公司"
+        }
+      ],
+      "correctOptionId": "q-p0002-021-o2",
+      "explanation": "The audio speaks 对不起 (duìbuqǐ), meaning \"sorry; excuse me\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "对不起",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-022",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 对不起?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-022-o1",
+          "text": "sorry; excuse me"
+        },
+        {
+          "id": "q-p0002-022-o2",
+          "text": "company; firm"
+        },
+        {
+          "id": "q-p0002-022-o3",
+          "text": "mister; sir; husband"
+        }
+      ],
+      "correctOptionId": "q-p0002-022-o1",
+      "explanation": "对不起 (duìbuqǐ) means \"sorry; excuse me\". Polite apology. 不 is pronounced in a neutral or light tone in this fixed phrase.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-023",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我很饿。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-023-o1",
+          "text": "Is this your knife?"
+        },
+        {
+          "id": "q-p0002-023-o2",
+          "text": "This kind of knife is very nice, but very expensive."
+        },
+        {
+          "id": "q-p0002-023-o3",
+          "text": "I am very hungry."
+        }
+      ],
+      "correctOptionId": "q-p0002-023-o3",
+      "explanation": "「我很饿。」 (Wǒ hěn è.) means \"I am very hungry.\". Adjectives like 饿 take 很 as a neutral linker in simple statements.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0015"
+      ],
+      "entryIds": [
+        "e-p0002-0033"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-024",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 没什么 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-024-o1",
+          "text": "mister; sir; husband"
+        },
+        {
+          "id": "q-p0002-024-o2",
+          "text": "it's nothing; never mind"
+        },
+        {
+          "id": "q-p0002-024-o3",
+          "text": "company; firm"
+        }
+      ],
+      "correctOptionId": "q-p0002-024-o2",
+      "explanation": "没什么 (méi shénme) means \"it's nothing; never mind\". Common polite reply to 对不起 (sorry).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-025",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"mister; sir; husband\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-025-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-025-o2",
+          "text": "公司"
+        },
+        {
+          "id": "q-p0002-025-o3",
+          "text": "太太"
+        }
+      ],
+      "correctOptionId": "q-p0002-025-o1",
+      "explanation": "\"mister; sir; husband\" is 先生 (xiānsheng).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-026",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"piàn\" meaning \"slice; flat piece\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-026-o1",
+          "text": "这"
+        },
+        {
+          "id": "q-p0002-026-o2",
+          "text": "那"
+        },
+        {
+          "id": "q-p0002-026-o3",
+          "text": "片"
+        }
+      ],
+      "correctOptionId": "q-p0002-026-o3",
+      "explanation": "片 is pronounced piàn and means \"slice; flat piece\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-027",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「你常去看你____吗？」 (Do you often go to see your older brother?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-027-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-027-o2",
+          "text": "哥哥"
+        },
+        {
+          "id": "q-p0002-027-o3",
+          "text": "公司"
+        }
+      ],
+      "correctOptionId": "q-p0002-027-o2",
+      "explanation": "The missing word is 哥哥 (gēge, \"older brother\"), completing 「你常去看你哥哥吗？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-028",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-028-o1",
+          "text": "这是你的刀子吗？"
+        },
+        {
+          "id": "q-p0002-028-o2",
+          "text": "这种刀子很好看，可是很贵。"
+        },
+        {
+          "id": "q-p0002-028-o3",
+          "text": "我很饿。"
+        }
+      ],
+      "correctOptionId": "q-p0002-028-o1",
+      "explanation": "The audio speaks 这是你的刀子吗？ (Zhè shì nǐ de dāozi ma?), meaning \"Is this your knife?\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0008"
+      ],
+      "entryIds": [
+        "e-p0002-0031"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "这是你的刀子吗？",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-029",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 没什么?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-029-o1",
+          "text": "company; firm"
+        },
+        {
+          "id": "q-p0002-029-o2",
+          "text": "mister; sir; husband"
+        },
+        {
+          "id": "q-p0002-029-o3",
+          "text": "it's nothing; never mind"
+        }
+      ],
+      "correctOptionId": "q-p0002-029-o3",
+      "explanation": "没什么 (méi shénme) means \"it's nothing; never mind\". Common polite reply to 对不起 (sorry).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-030",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「他是我们的老师。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-030-o1",
+          "text": "This kind of knife is very nice, but very expensive."
+        },
+        {
+          "id": "q-p0002-030-o2",
+          "text": "He is our teacher."
+        },
+        {
+          "id": "q-p0002-030-o3",
+          "text": "Is this your knife?"
+        }
+      ],
+      "correctOptionId": "q-p0002-030-o2",
+      "explanation": "「他是我们的老师。」 (Tā shì wǒmen de lǎoshī.) means \"He is our teacher.\". 我们 (we/us) + 的 forms 'our'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0016"
+      ],
+      "entryIds": [
+        "e-p0002-0034"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-031",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 先生 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-031-o1",
+          "text": "mister; sir; husband"
+        },
+        {
+          "id": "q-p0002-031-o2",
+          "text": "company; firm"
+        },
+        {
+          "id": "q-p0002-031-o3",
+          "text": "Mrs.; wife"
+        }
+      ],
+      "correctOptionId": "q-p0002-031-o1",
+      "explanation": "先生 (xiānsheng) means \"mister; sir; husband\". Used after a surname as 'Mr.' (e.g. 马力山先生), or on its own as 'sir'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-032",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Mrs.; wife\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-032-o1",
+          "text": "公司"
+        },
+        {
+          "id": "q-p0002-032-o2",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-032-o3",
+          "text": "太太"
+        }
+      ],
+      "correctOptionId": "q-p0002-032-o3",
+      "explanation": "\"Mrs.; wife\" is 太太 (tàitai).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-033",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"lái\" meaning \"to come\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-033-o1",
+          "text": "那"
+        },
+        {
+          "id": "q-p0002-033-o2",
+          "text": "来"
+        },
+        {
+          "id": "q-p0002-033-o3",
+          "text": "这"
+        }
+      ],
+      "correctOptionId": "q-p0002-033-o2",
+      "explanation": "来 is pronounced lái and means \"to come\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0027"
+      ],
+      "entryIds": [
+        "e-p0002-0013"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-034",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「这是五片____。」 (These are five slices of bread.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-034-o1",
+          "text": "面包"
+        },
+        {
+          "id": "q-p0002-034-o2",
+          "text": "公司"
+        },
+        {
+          "id": "q-p0002-034-o3",
+          "text": "先生"
+        }
+      ],
+      "correctOptionId": "q-p0002-034-o1",
+      "explanation": "The missing word is 面包 (miànbāo, \"bread\"), completing 「这是五片面包。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0020"
+      ],
+      "entryIds": [
+        "e-p0002-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-035",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-035-o1",
+          "text": "那"
+        },
+        {
+          "id": "q-p0002-035-o2",
+          "text": "种"
+        },
+        {
+          "id": "q-p0002-035-o3",
+          "text": "这"
+        }
+      ],
+      "correctOptionId": "q-p0002-035-o3",
+      "explanation": "The audio speaks 这 (zhè), meaning \"this\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0010"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "这",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-036",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 先生?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-036-o1",
+          "text": "Mrs.; wife"
+        },
+        {
+          "id": "q-p0002-036-o2",
+          "text": "mister; sir; husband"
+        },
+        {
+          "id": "q-p0002-036-o3",
+          "text": "company; firm"
+        }
+      ],
+      "correctOptionId": "q-p0002-036-o2",
+      "explanation": "先生 (xiānsheng) means \"mister; sir; husband\". Used after a surname as 'Mr.' (e.g. 马力山先生), or on its own as 'sir'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-037",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你常去看你哥哥吗？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-037-o1",
+          "text": "Do you often go to see your older brother?"
+        },
+        {
+          "id": "q-p0002-037-o2",
+          "text": "Is this your knife?"
+        },
+        {
+          "id": "q-p0002-037-o3",
+          "text": "This kind of knife is very nice, but very expensive."
+        }
+      ],
+      "correctOptionId": "q-p0002-037-o1",
+      "explanation": "「你常去看你哥哥吗？」 (Nǐ cháng qù kàn nǐ gēge ma?) means \"Do you often go to see your older brother?\". 常去看 combines 'often' + 'go' + 'see/visit'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-038",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 太太 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-038-o1",
+          "text": "company; firm"
+        },
+        {
+          "id": "q-p0002-038-o2",
+          "text": "mister; sir; husband"
+        },
+        {
+          "id": "q-p0002-038-o3",
+          "text": "Mrs.; wife"
+        }
+      ],
+      "correctOptionId": "q-p0002-038-o3",
+      "explanation": "太太 (tàitai) means \"Mrs.; wife\". Polite term for a married woman or someone's wife.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

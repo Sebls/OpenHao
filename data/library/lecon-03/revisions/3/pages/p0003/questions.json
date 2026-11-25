@@ -1,0 +1,1211 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 窗户 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "window"
+        },
+        {
+          "id": "o2",
+          "text": "table"
+        },
+        {
+          "id": "o3",
+          "text": "door"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "窗户 chuānghu means window.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0029"
+      ],
+      "entryIds": [
+        "e-p0003-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means magazine?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "杂志"
+        },
+        {
+          "id": "o2",
+          "text": "语法"
+        },
+        {
+          "id": "o3",
+          "text": "相片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "杂志 zázhì means magazine.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0049"
+      ],
+      "entryIds": [
+        "e-p0003-0043"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the respectful singular you.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "您"
+        },
+        {
+          "id": "o2",
+          "text": "你"
+        },
+        {
+          "id": "o3",
+          "text": "们"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "您 is respectful singular you; 你 is ordinary singular you.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0018"
+      ],
+      "entryIds": [
+        "e-p0003-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Who is not busy in this sentence?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "the speaker’s elder brother"
+        },
+        {
+          "id": "o2",
+          "text": "the speaker"
+        },
+        {
+          "id": "o3",
+          "text": "both people"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The first clause says I am busy; 我哥哥不忙 says my elder brother is not busy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0097"
+      ],
+      "entryIds": [
+        "e-p0003-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does Dr Ma have?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "many small notebooks"
+        },
+        {
+          "id": "o2",
+          "text": "many magazines"
+        },
+        {
+          "id": "o3",
+          "text": "a photograph of his brother"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "小本子 means small notebooks; 很多 means many.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0144"
+      ],
+      "entryIds": [
+        "e-p0003-0103"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source question: 你有___有中文报？",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没"
+        },
+        {
+          "id": "o2",
+          "text": "不"
+        },
+        {
+          "id": "o3",
+          "text": "吗"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The affirmative-negative pattern is 有没有; 不有 is not the negative of 有.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0172"
+      ],
+      "entryIds": [
+        "e-p0003-0112"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 不太 mean here?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "not very"
+        },
+        {
+          "id": "o2",
+          "text": "not at all"
+        },
+        {
+          "id": "o3",
+          "text": "very much"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "不太忙 means not very busy. It does not mean not busy at all.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0181"
+      ],
+      "entryIds": [
+        "e-p0003-0116"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the speaker not have?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "his photograph"
+        },
+        {
+          "id": "o2",
+          "text": "his books"
+        },
+        {
+          "id": "o3",
+          "text": "his newspaper"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "他的相片 means his photograph.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0218"
+      ],
+      "entryIds": [
+        "e-p0003-0127"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Whose book is it?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Dr Tian’s"
+        },
+        {
+          "id": "o2",
+          "text": "Dr Ma’s"
+        },
+        {
+          "id": "o3",
+          "text": "Wang Wenyou’s"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "田大夫的书 means Dr Tian’s book.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0313"
+      ],
+      "entryIds": [
+        "e-p0003-0148"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 您 convey in this question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "respectful address to one person"
+        },
+        {
+          "id": "o2",
+          "text": "address to several people"
+        },
+        {
+          "id": "o3",
+          "text": "a reference to a third person"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "您 is respectful singular you.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0119"
+      ],
+      "entryIds": [
+        "e-p0003-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-011",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "忙"
+        },
+        {
+          "id": "o2",
+          "text": "难"
+        },
+        {
+          "id": "o3",
+          "text": "长"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "忙 is máng, busy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0028"
+      ],
+      "entryIds": [
+        "e-p0003-0025"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "忙"
+    },
+    {
+      "id": "q-p0003-012",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我想去买书和报。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-012-o1",
+          "text": "What is your French friend called? (Respectful you.)"
+        },
+        {
+          "id": "q-p0003-012-o2",
+          "text": "I want to go and buy books and newspapers."
+        },
+        {
+          "id": "q-p0003-012-o3",
+          "text": "I am busy, but my elder brother is not."
+        }
+      ],
+      "correctOptionId": "q-p0003-012-o2",
+      "explanation": "「我想去买书和报。」 (Wǒ xiǎng qù mǎi shū hé bào.) means \"I want to go and buy books and newspapers.\". Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0108"
+      ],
+      "entryIds": [
+        "e-p0003-0079"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-013",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 没有 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-013-o1",
+          "text": "not have; there is no"
+        },
+        {
+          "id": "q-p0003-013-o2",
+          "text": "but; however"
+        },
+        {
+          "id": "q-p0003-013-o3",
+          "text": "doctor"
+        }
+      ],
+      "correctOptionId": "q-p0003-013-o1",
+      "explanation": "没有 (méiyǒu) means \"not have; there is no\". The negative of 有; do not replace 没 with 不 here.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-014",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"not have; there is no\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-014-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0003-014-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0003-014-o3",
+          "text": "没有"
+        }
+      ],
+      "correctOptionId": "q-p0003-014-o3",
+      "explanation": "\"not have; there is no\" is 没有 (méiyǒu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-015",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"yǒu\" meaning \"have; there is or are\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-015-o1",
+          "text": "很"
+        },
+        {
+          "id": "q-p0003-015-o2",
+          "text": "有"
+        },
+        {
+          "id": "q-p0003-015-o3",
+          "text": "没"
+        }
+      ],
+      "correctOptionId": "q-p0003-015-o2",
+      "explanation": "有 is pronounced yǒu and means \"have; there is or are\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-016",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我很忙，____我哥哥不忙。」 (I am busy, but my elder brother is not.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-016-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0003-016-o2",
+          "text": "没有"
+        },
+        {
+          "id": "q-p0003-016-o3",
+          "text": "大夫"
+        }
+      ],
+      "correctOptionId": "q-p0003-016-o1",
+      "explanation": "The missing word is 可是 (kěshì, \"but; however\"), completing 「我很忙，可是我哥哥不忙。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0097"
+      ],
+      "entryIds": [
+        "e-p0003-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-017",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-017-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0003-017-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0003-017-o3",
+          "text": "没有"
+        }
+      ],
+      "correctOptionId": "q-p0003-017-o3",
+      "explanation": "The audio speaks 没有 (méiyǒu), meaning \"not have; there is no\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "没有",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-018",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 没有?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-018-o1",
+          "text": "doctor"
+        },
+        {
+          "id": "q-p0003-018-o2",
+          "text": "not have; there is no"
+        },
+        {
+          "id": "q-p0003-018-o3",
+          "text": "but; however"
+        }
+      ],
+      "correctOptionId": "q-p0003-018-o2",
+      "explanation": "没有 (méiyǒu) means \"not have; there is no\". The negative of 有; do not replace 没 with 不 here.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-019",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「您的法国朋友叫什么？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-019-o1",
+          "text": "What is your French friend called? (Respectful you.)"
+        },
+        {
+          "id": "q-p0003-019-o2",
+          "text": "I am busy, but my elder brother is not."
+        },
+        {
+          "id": "q-p0003-019-o3",
+          "text": "I want to go and buy books and newspapers."
+        }
+      ],
+      "correctOptionId": "q-p0003-019-o1",
+      "explanation": "「您的法国朋友叫什么？」 (Nín de Fǎguó péngyou jiào shénme?) means \"What is your French friend called? (Respectful you.)\". Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0119"
+      ],
+      "entryIds": [
+        "e-p0003-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-020",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 可是 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-020-o1",
+          "text": "not have; there is no"
+        },
+        {
+          "id": "q-p0003-020-o2",
+          "text": "doctor"
+        },
+        {
+          "id": "q-p0003-020-o3",
+          "text": "but; however"
+        }
+      ],
+      "correctOptionId": "q-p0003-020-o3",
+      "explanation": "可是 (kěshì) means \"but; however\". Connects two contrasting statements.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0007"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-021",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"but; however\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-021-o1",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0003-021-o2",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0003-021-o3",
+          "text": "没有"
+        }
+      ],
+      "correctOptionId": "q-p0003-021-o2",
+      "explanation": "\"but; however\" is 可是 (kěshì).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0007"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-022",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"méi\" meaning \"not have; not (for past actions)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-022-o1",
+          "text": "没"
+        },
+        {
+          "id": "q-p0003-022-o2",
+          "text": "有"
+        },
+        {
+          "id": "q-p0003-022-o3",
+          "text": "很"
+        }
+      ],
+      "correctOptionId": "q-p0003-022-o1",
+      "explanation": "没 is pronounced méi and means \"not have; not (for past actions)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0003"
+      ],
+      "entryIds": [
+        "e-p0003-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-023",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我想去____书和报。」 (I want to go and buy books and newspapers.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-023-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0003-023-o2",
+          "text": "没"
+        },
+        {
+          "id": "q-p0003-023-o3",
+          "text": "买"
+        }
+      ],
+      "correctOptionId": "q-p0003-023-o3",
+      "explanation": "The missing character is 买 (mǎi, \"buy\"), completing 「我想去买书和报。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0108"
+      ],
+      "entryIds": [
+        "e-p0003-0079"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-024",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-024-o1",
+          "text": "您的法国朋友叫什么？"
+        },
+        {
+          "id": "q-p0003-024-o2",
+          "text": "我很忙，可是我哥哥不忙。"
+        },
+        {
+          "id": "q-p0003-024-o3",
+          "text": "我想去买书和报。"
+        }
+      ],
+      "correctOptionId": "q-p0003-024-o2",
+      "explanation": "The audio speaks 我很忙，可是我哥哥不忙。 (Wǒ hěn máng, kěshì wǒ gēge bù máng.), meaning \"I am busy, but my elder brother is not.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0097"
+      ],
+      "entryIds": [
+        "e-p0003-0074"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我很忙，可是我哥哥不忙。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-025",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 可是?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-025-o1",
+          "text": "but; however"
+        },
+        {
+          "id": "q-p0003-025-o2",
+          "text": "not have; there is no"
+        },
+        {
+          "id": "q-p0003-025-o3",
+          "text": "doctor"
+        }
+      ],
+      "correctOptionId": "q-p0003-025-o1",
+      "explanation": "可是 (kěshì) means \"but; however\". Connects two contrasting statements.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0007"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-026",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你的女朋友很好看。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-026-o1",
+          "text": "I am busy, but my elder brother is not."
+        },
+        {
+          "id": "q-p0003-026-o2",
+          "text": "I want to go and buy books and newspapers."
+        },
+        {
+          "id": "q-p0003-026-o3",
+          "text": "Your girlfriend is very good-looking."
+        }
+      ],
+      "correctOptionId": "q-p0003-026-o3",
+      "explanation": "「你的女朋友很好看。」 (Nǐ de nǚ péngyou hěn hǎokàn.) means \"Your girlfriend is very good-looking.\". Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0131"
+      ],
+      "entryIds": [
+        "e-p0003-0096"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-027",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 大夫 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-027-o1",
+          "text": "but; however"
+        },
+        {
+          "id": "q-p0003-027-o2",
+          "text": "doctor"
+        },
+        {
+          "id": "q-p0003-027-o3",
+          "text": "not have; there is no"
+        }
+      ],
+      "correctOptionId": "q-p0003-027-o2",
+      "explanation": "大夫 (dàifu) means \"doctor\". Special dài reading for 大; the second syllable fu is neutral. A surname comes before the title, as in 孙大夫 Dr Sun.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0010"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-028",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"doctor\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-028-o1",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0003-028-o2",
+          "text": "没有"
+        },
+        {
+          "id": "q-p0003-028-o3",
+          "text": "可是"
+        }
+      ],
+      "correctOptionId": "q-p0003-028-o1",
+      "explanation": "\"doctor\" is 大夫 (dàifu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0010"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-029",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"hěn\" meaning \"very; quite\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-029-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0003-029-o2",
+          "text": "没"
+        },
+        {
+          "id": "q-p0003-029-o3",
+          "text": "很"
+        }
+      ],
+      "correctOptionId": "q-p0003-029-o3",
+      "explanation": "很 is pronounced hěn and means \"very; quite\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0005"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-030",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「您的法国朋友叫____？」 (What is your French friend called? (Respectful you.))",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-030-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0003-030-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0003-030-o3",
+          "text": "没有"
+        }
+      ],
+      "correctOptionId": "q-p0003-030-o2",
+      "explanation": "The missing word is 什么 (shénme, \"what\"), completing 「您的法国朋友叫什么？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0119"
+      ],
+      "entryIds": [
+        "e-p0003-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-031",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-031-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0003-031-o2",
+          "text": "没"
+        },
+        {
+          "id": "q-p0003-031-o3",
+          "text": "很"
+        }
+      ],
+      "correctOptionId": "q-p0003-031-o1",
+      "explanation": "The audio speaks 有 (yǒu), meaning \"have; there is or are\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "有",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-032",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 大夫?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-032-o1",
+          "text": "not have; there is no"
+        },
+        {
+          "id": "q-p0003-032-o2",
+          "text": "but; however"
+        },
+        {
+          "id": "q-p0003-032-o3",
+          "text": "doctor"
+        }
+      ],
+      "correctOptionId": "q-p0003-032-o3",
+      "explanation": "大夫 (dàifu) means \"doctor\". Special dài reading for 大; the second syllable fu is neutral. A surname comes before the title, as in 孙大夫 Dr Sun.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0010"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-033",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我的法国朋友作买卖。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-033-o1",
+          "text": "I want to go and buy books and newspapers."
+        },
+        {
+          "id": "q-p0003-033-o2",
+          "text": "My French friend is in business."
+        },
+        {
+          "id": "q-p0003-033-o3",
+          "text": "I am busy, but my elder brother is not."
+        }
+      ],
+      "correctOptionId": "q-p0003-033-o2",
+      "explanation": "「我的法国朋友作买卖。」 (Wǒ de Fǎguó péngyou zuò mǎimai.) means \"My French friend is in business.\". Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0159"
+      ],
+      "entryIds": [
+        "e-p0003-0108"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-034",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 老人 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-034-o1",
+          "text": "older person"
+        },
+        {
+          "id": "q-p0003-034-o2",
+          "text": "not have; there is no"
+        },
+        {
+          "id": "q-p0003-034-o3",
+          "text": "but; however"
+        }
+      ],
+      "correctOptionId": "q-p0003-034-o1",
+      "explanation": "老人 (lǎorén) means \"older person\". A whole word for an elderly person.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0011"
+      ],
+      "entryIds": [
+        "e-p0003-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

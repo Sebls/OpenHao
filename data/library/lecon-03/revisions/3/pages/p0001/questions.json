@@ -1,0 +1,713 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 有 mean here?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "have"
+        },
+        {
+          "id": "o2",
+          "text": "buy"
+        },
+        {
+          "id": "o3",
+          "text": "sell"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有 means have; 没有 is its negative.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which character is used to negate 有?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没"
+        },
+        {
+          "id": "o2",
+          "text": "很"
+        },
+        {
+          "id": "o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没有 means not have.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the written character for buy.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "买"
+        },
+        {
+          "id": "o2",
+          "text": "卖"
+        },
+        {
+          "id": "o3",
+          "text": "相"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "买 mǎi is buy; 卖 mài is sell.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0012"
+      ],
+      "entryIds": [
+        "e-p0001-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What can 想 express before a verb?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "want to do something"
+        },
+        {
+          "id": "o2",
+          "text": "finish doing something"
+        },
+        {
+          "id": "o3",
+          "text": "be unable to do something"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "想去 means want to go.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0016"
+      ],
+      "entryIds": [
+        "e-p0001-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 心 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "heart; mind"
+        },
+        {
+          "id": "o2",
+          "text": "street"
+        },
+        {
+          "id": "o3",
+          "text": "moon"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "心 means heart or mind; it is also used as a component.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0021"
+      ],
+      "entryIds": [
+        "e-p0001-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "很"
+        },
+        {
+          "id": "o2",
+          "text": "有"
+        },
+        {
+          "id": "o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "很 is hěn, very or quite.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "很"
+    },
+    {
+      "id": "q-p0001-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 没 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-007-o1",
+          "text": "not have; not (for past actions)"
+        },
+        {
+          "id": "q-p0001-007-o2",
+          "text": "have; there is or are"
+        },
+        {
+          "id": "q-p0001-007-o3",
+          "text": "very; quite"
+        }
+      ],
+      "correctOptionId": "q-p0001-007-o1",
+      "explanation": "没 (méi) means \"not have; not (for past actions)\". Here it negates 有. 没有 means do not have; 没 alone can be a short reply meaning no.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-008",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese character means \"have; there is or are\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-008-o1",
+          "text": "没"
+        },
+        {
+          "id": "q-p0001-008-o2",
+          "text": "很"
+        },
+        {
+          "id": "q-p0001-008-o3",
+          "text": "有"
+        }
+      ],
+      "correctOptionId": "q-p0001-008-o3",
+      "explanation": "\"have; there is or are\" is 有 (yǒu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-009",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"yǒu\" meaning \"have; there is or are\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-009-o1",
+          "text": "很"
+        },
+        {
+          "id": "q-p0001-009-o2",
+          "text": "有"
+        },
+        {
+          "id": "q-p0001-009-o3",
+          "text": "没"
+        }
+      ],
+      "correctOptionId": "q-p0001-009-o2",
+      "explanation": "有 is pronounced yǒu and means \"have; there is or are\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-010",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-010-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0001-010-o2",
+          "text": "没"
+        },
+        {
+          "id": "q-p0001-010-o3",
+          "text": "很"
+        }
+      ],
+      "correctOptionId": "q-p0001-010-o1",
+      "explanation": "The audio speaks 有 (yǒu), meaning \"have; there is or are\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "有",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-011",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 有?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-011-o1",
+          "text": "not have; not (for past actions)"
+        },
+        {
+          "id": "q-p0001-011-o2",
+          "text": "very; quite"
+        },
+        {
+          "id": "q-p0001-011-o3",
+          "text": "have; there is or are"
+        }
+      ],
+      "correctOptionId": "q-p0001-011-o3",
+      "explanation": "有 (yǒu) means \"have; there is or are\". Negate 有 with 没有 méiyǒu, not 不有. 很多 means many or a lot.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-012",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 很 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-012-o1",
+          "text": "not have; not (for past actions)"
+        },
+        {
+          "id": "q-p0001-012-o2",
+          "text": "very; quite"
+        },
+        {
+          "id": "q-p0001-012-o3",
+          "text": "have; there is or are"
+        }
+      ],
+      "correctOptionId": "q-p0001-012-o2",
+      "explanation": "很 (hěn) means \"very; quite\". Before a descriptive adjective it can make a natural statement without a strong very meaning. 很想 means really want to.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-013",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese character means \"very; quite\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-013-o1",
+          "text": "很"
+        },
+        {
+          "id": "q-p0001-013-o2",
+          "text": "有"
+        },
+        {
+          "id": "q-p0001-013-o3",
+          "text": "没"
+        }
+      ],
+      "correctOptionId": "q-p0001-013-o1",
+      "explanation": "\"very; quite\" is 很 (hěn).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-014",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"méi\" meaning \"not have; not (for past actions)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-014-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0001-014-o2",
+          "text": "很"
+        },
+        {
+          "id": "q-p0001-014-o3",
+          "text": "没"
+        }
+      ],
+      "correctOptionId": "q-p0001-014-o3",
+      "explanation": "没 is pronounced méi and means \"not have; not (for past actions)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-015",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 没?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-015-o1",
+          "text": "very; quite"
+        },
+        {
+          "id": "q-p0001-015-o2",
+          "text": "not have; not (for past actions)"
+        },
+        {
+          "id": "q-p0001-015-o3",
+          "text": "have; there is or are"
+        }
+      ],
+      "correctOptionId": "q-p0001-015-o2",
+      "explanation": "没 (méi) means \"not have; not (for past actions)\". Here it negates 有. 没有 means do not have; 没 alone can be a short reply meaning no.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-016",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 多 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-016-o1",
+          "text": "many; much"
+        },
+        {
+          "id": "q-p0001-016-o2",
+          "text": "have; there is or are"
+        },
+        {
+          "id": "q-p0001-016-o3",
+          "text": "not have; not (for past actions)"
+        }
+      ],
+      "correctOptionId": "q-p0001-016-o1",
+      "explanation": "多 (duō) means \"many; much\". 很多 means many or a lot. After a noun, …很多 means there are many of it.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-017",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese character means \"many; much\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-017-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0001-017-o2",
+          "text": "没"
+        },
+        {
+          "id": "q-p0001-017-o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "q-p0001-017-o3",
+      "explanation": "\"many; much\" is 多 (duō).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-018",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"hěn\" meaning \"very; quite\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-018-o1",
+          "text": "没"
+        },
+        {
+          "id": "q-p0001-018-o2",
+          "text": "很"
+        },
+        {
+          "id": "q-p0001-018-o3",
+          "text": "有"
+        }
+      ],
+      "correctOptionId": "q-p0001-018-o2",
+      "explanation": "很 is pronounced hěn and means \"very; quite\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-019",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 很?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-019-o1",
+          "text": "very; quite"
+        },
+        {
+          "id": "q-p0001-019-o2",
+          "text": "have; there is or are"
+        },
+        {
+          "id": "q-p0001-019-o3",
+          "text": "not have; not (for past actions)"
+        }
+      ],
+      "correctOptionId": "q-p0001-019-o1",
+      "explanation": "很 (hěn) means \"very; quite\". Before a descriptive adjective it can make a natural statement without a strong very meaning. 很想 means really want to.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-020",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 可 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-020-o1",
+          "text": "have; there is or are"
+        },
+        {
+          "id": "q-p0001-020-o2",
+          "text": "not have; not (for past actions)"
+        },
+        {
+          "id": "q-p0001-020-o3",
+          "text": "can; may; part of 可是 (but)"
+        }
+      ],
+      "correctOptionId": "q-p0001-020-o3",
+      "explanation": "可 (kě) means \"can; may; part of 可是 (but)\". Learn 可是 as the whole conjunction but. The source's starred gloss refers to this compound use.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0005"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

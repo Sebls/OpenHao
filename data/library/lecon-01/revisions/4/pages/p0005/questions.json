@@ -1,0 +1,1303 @@
+{
+  "documentId": "lecon-01",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "In 他爱人是大夫。, what is the spouse’s job?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-001-o1",
+          "text": "doctor"
+        },
+        {
+          "id": "q-p0005-001-o2",
+          "text": "factory worker"
+        },
+        {
+          "id": "q-p0005-001-o3",
+          "text": "teacher"
+        }
+      ],
+      "correctOptionId": "q-p0005-001-o1",
+      "explanation": "大夫 dàifu means doctor. 爱人 identifies the spouse.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0168"
+      ],
+      "entryIds": [
+        "e-p0005-0075"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose white jade.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-002-o1",
+          "text": "白玉"
+        },
+        {
+          "id": "q-p0005-002-o2",
+          "text": "木头"
+        },
+        {
+          "id": "q-p0005-002-o3",
+          "text": "中文书"
+        }
+      ],
+      "correctOptionId": "q-p0005-002-o1",
+      "explanation": "白玉 is white jade. 木头 means wood.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0194"
+      ],
+      "entryIds": [
+        "e-p0005-0089"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means buy?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-003-o1",
+          "text": "买"
+        },
+        {
+          "id": "q-p0005-003-o2",
+          "text": "卖"
+        },
+        {
+          "id": "q-p0005-003-o3",
+          "text": "去"
+        }
+      ],
+      "correctOptionId": "q-p0005-003-o1",
+      "explanation": "买 mǎi means buy; 卖 mài means sell.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0271"
+      ],
+      "entryIds": [
+        "e-p0005-0110"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What name does 我叫李玉。 introduce?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-004-o1",
+          "text": "Li Yu"
+        },
+        {
+          "id": "q-p0005-004-o2",
+          "text": "Li Tian"
+        },
+        {
+          "id": "q-p0005-004-o3",
+          "text": "Wang Yuxin"
+        }
+      ],
+      "correctOptionId": "q-p0005-004-o1",
+      "explanation": "李玉 is Li Yu, with the family name Li first.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0050"
+      ],
+      "entryIds": [
+        "e-p0005-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is being identified in 那是我的本子。?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-005-o1",
+          "text": "my notebook"
+        },
+        {
+          "id": "q-p0005-005-o2",
+          "text": "my elder brother"
+        },
+        {
+          "id": "q-p0005-005-o3",
+          "text": "my school"
+        }
+      ],
+      "correctOptionId": "q-p0005-005-o1",
+      "explanation": "那 is that, 我的 is my, and 本子 means notebook.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0120"
+      ],
+      "entryIds": [
+        "e-p0005-0056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 他爱人是大夫。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-006-o1",
+          "text": "His spouse is a doctor."
+        },
+        {
+          "id": "q-p0005-006-o2",
+          "text": "His elder brother is a worker."
+        },
+        {
+          "id": "q-p0005-006-o3",
+          "text": "He likes doctors."
+        }
+      ],
+      "correctOptionId": "q-p0005-006-o1",
+      "explanation": "爱人 is the noun spouse here; it is not the verb phrase love people.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0170"
+      ],
+      "entryIds": [
+        "e-p0005-0077"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What two things does the speaker study?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-007-o1",
+          "text": "Chinese and Chinese literature"
+        },
+        {
+          "id": "q-p0005-007-o2",
+          "text": "Chinese and factory work"
+        },
+        {
+          "id": "q-p0005-007-o3",
+          "text": "Chinese literature and medicine"
+        }
+      ],
+      "correctOptionId": "q-p0005-007-o1",
+      "explanation": "和 joins 中文 and 中国文学. The full source sentence spans two printed lines.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0377"
+      ],
+      "entryIds": [
+        "e-p0005-0142"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What would Marie like to drink?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-008-o1",
+          "text": "Chinese tea"
+        },
+        {
+          "id": "q-p0005-008-o2",
+          "text": "water"
+        },
+        {
+          "id": "q-p0005-008-o3",
+          "text": "soup"
+        }
+      ],
+      "correctOptionId": "q-p0005-008-o1",
+      "explanation": "The source says she wants tea, specifically 中国茶, Chinese tea.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0239"
+      ],
+      "entryIds": [
+        "e-p0005-0102"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source sentence: 我去 __ 鸡。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-009-o1",
+          "text": "买"
+        },
+        {
+          "id": "q-p0005-009-o2",
+          "text": "喝"
+        },
+        {
+          "id": "q-p0005-009-o3",
+          "text": "种"
+        }
+      ],
+      "correctOptionId": "q-p0005-009-o1",
+      "explanation": "The source says 我去买鸡: I will go and buy chicken.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0266"
+      ],
+      "entryIds": [
+        "e-p0005-0108"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-010",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 的 do in 我的本子?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-010-o1",
+          "text": "links the owner 我 to 本子"
+        },
+        {
+          "id": "q-p0005-010-o2",
+          "text": "makes 本子 plural"
+        },
+        {
+          "id": "q-p0005-010-o3",
+          "text": "turns the sentence into a question"
+        }
+      ],
+      "correctOptionId": "q-p0005-010-o1",
+      "explanation": "的 marks the possessive relationship: my notebook.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0119"
+      ],
+      "entryIds": [
+        "e-p0005-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-011",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How is 不 pronounced before 是?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-011-o1",
+          "text": "bú"
+        },
+        {
+          "id": "q-p0005-011-o2",
+          "text": "bù"
+        },
+        {
+          "id": "q-p0005-011-o3",
+          "text": "bǔ"
+        }
+      ],
+      "correctOptionId": "q-p0005-011-o1",
+      "explanation": "Before fourth-tone shì, 不 changes from bù to bú.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0006"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-012",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 木头 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-012-o1",
+          "text": "wood"
+        },
+        {
+          "id": "q-p0005-012-o2",
+          "text": "white jade"
+        },
+        {
+          "id": "q-p0005-012-o3",
+          "text": "chicken"
+        }
+      ],
+      "correctOptionId": "q-p0005-012-o1",
+      "explanation": "木头 mùtou means wood; tou is neutral.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0193"
+      ],
+      "entryIds": [
+        "e-p0005-0088"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-013",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which phrase do you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-013-o1",
+          "text": "买鸡"
+        },
+        {
+          "id": "q-p0005-013-o2",
+          "text": "喝茶"
+        },
+        {
+          "id": "q-p0005-013-o3",
+          "text": "种茶"
+        }
+      ],
+      "correctOptionId": "q-p0005-013-o1",
+      "explanation": "买鸡 mǎi jī means buy chicken.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0265"
+      ],
+      "entryIds": [
+        "e-p0005-0107"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "买鸡"
+    },
+    {
+      "id": "q-p0005-014",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我叫Marie。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-014-o1",
+          "text": "I am not Chinese."
+        },
+        {
+          "id": "q-p0005-014-o2",
+          "text": "I like drinking tea, eating sweets, and reading books."
+        },
+        {
+          "id": "q-p0005-014-o3",
+          "text": "My name is Marie."
+        }
+      ],
+      "correctOptionId": "q-p0005-014-o3",
+      "explanation": "「我叫Marie。」 (Wǒ jiào Marie.) means \"My name is Marie.\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0007"
+      ],
+      "entryIds": [
+        "e-p0005-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-015",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 中文 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-015-o1",
+          "text": "Chinese person; Chinese people"
+        },
+        {
+          "id": "q-p0005-015-o2",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0005-015-o3",
+          "text": "China"
+        }
+      ],
+      "correctOptionId": "q-p0005-015-o2",
+      "explanation": "中文 (Zhōngwén) means \"Chinese (language)\". The Chinese language, distinct from 中国 (China).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-016",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Chinese (language)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-016-o1",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-016-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0005-016-o3",
+          "text": "中国人"
+        }
+      ],
+      "correctOptionId": "q-p0005-016-o1",
+      "explanation": "\"Chinese (language)\" is 中文 (Zhōngwén).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-017",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"wǒ\" meaning \"I; me\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-017-o1",
+          "text": "叫"
+        },
+        {
+          "id": "q-p0005-017-o2",
+          "text": "不"
+        },
+        {
+          "id": "q-p0005-017-o3",
+          "text": "我"
+        }
+      ],
+      "correctOptionId": "q-p0005-017-o3",
+      "explanation": "我 is pronounced wǒ and means \"I; me\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0009"
+      ],
+      "entryIds": [
+        "e-p0005-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-018",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「____叫Marie。」 (My name is Marie.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-018-o1",
+          "text": "不"
+        },
+        {
+          "id": "q-p0005-018-o2",
+          "text": "我"
+        },
+        {
+          "id": "q-p0005-018-o3",
+          "text": "叫"
+        }
+      ],
+      "correctOptionId": "q-p0005-018-o2",
+      "explanation": "The missing character is 我 (wǒ, \"I; me\"), completing 「我叫Marie。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0007"
+      ],
+      "entryIds": [
+        "e-p0005-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-019",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-019-o1",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-019-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0005-019-o3",
+          "text": "中国人"
+        }
+      ],
+      "correctOptionId": "q-p0005-019-o1",
+      "explanation": "The audio speaks 中文 (Zhōngwén), meaning \"Chinese (language)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "中文",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-020",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 中文?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-020-o1",
+          "text": "China"
+        },
+        {
+          "id": "q-p0005-020-o2",
+          "text": "Chinese person; Chinese people"
+        },
+        {
+          "id": "q-p0005-020-o3",
+          "text": "Chinese (language)"
+        }
+      ],
+      "correctOptionId": "q-p0005-020-o3",
+      "explanation": "中文 (Zhōngwén) means \"Chinese (language)\". The Chinese language, distinct from 中国 (China).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-021",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我不是中国人。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-021-o1",
+          "text": "I like drinking tea, eating sweets, and reading books."
+        },
+        {
+          "id": "q-p0005-021-o2",
+          "text": "I am not Chinese."
+        },
+        {
+          "id": "q-p0005-021-o3",
+          "text": "My name is Marie."
+        }
+      ],
+      "correctOptionId": "q-p0005-021-o2",
+      "explanation": "「我不是中国人。」 (Wǒ bú shì Zhōngguó rén.) means \"I am not Chinese.\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0008"
+      ],
+      "entryIds": [
+        "e-p0005-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-022",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 中国 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-022-o1",
+          "text": "China"
+        },
+        {
+          "id": "q-p0005-022-o2",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0005-022-o3",
+          "text": "Chinese person; Chinese people"
+        }
+      ],
+      "correctOptionId": "q-p0005-022-o1",
+      "explanation": "中国 (Zhōngguó) means \"China\". The name of the country.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-023",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"China\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-023-o1",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-023-o2",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0005-023-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0005-023-o3",
+      "explanation": "\"China\" is 中国 (Zhōngguó).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-024",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"jiào\" meaning \"be called; call\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-024-o1",
+          "text": "不"
+        },
+        {
+          "id": "q-p0005-024-o2",
+          "text": "叫"
+        },
+        {
+          "id": "q-p0005-024-o3",
+          "text": "我"
+        }
+      ],
+      "correctOptionId": "q-p0005-024-o2",
+      "explanation": "叫 is pronounced jiào and means \"be called; call\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0010"
+      ],
+      "entryIds": [
+        "e-p0005-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-025",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我不是____。」 (I am not Chinese.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-025-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0005-025-o2",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-025-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0005-025-o1",
+      "explanation": "The missing word is 中国人 (Zhōngguó rén, \"Chinese person; Chinese people\"), completing 「我不是中国人。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0008"
+      ],
+      "entryIds": [
+        "e-p0005-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-026",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese expression.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-026-o1",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-026-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0005-026-o3",
+          "text": "你好"
+        }
+      ],
+      "correctOptionId": "q-p0005-026-o3",
+      "explanation": "The audio speaks 你好 (nǐ hǎo), meaning \"hello\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0040"
+      ],
+      "entryIds": [
+        "e-p0005-0029"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你好",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-027",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 中国?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-027-o1",
+          "text": "Chinese person; Chinese people"
+        },
+        {
+          "id": "q-p0005-027-o2",
+          "text": "China"
+        },
+        {
+          "id": "q-p0005-027-o3",
+          "text": "Chinese (language)"
+        }
+      ],
+      "correctOptionId": "q-p0005-027-o2",
+      "explanation": "中国 (Zhōngguó) means \"China\". The name of the country.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-028",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我爱喝茶，爱吃糖，爱看书。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-028-o1",
+          "text": "I like drinking tea, eating sweets, and reading books."
+        },
+        {
+          "id": "q-p0005-028-o2",
+          "text": "My name is Marie."
+        },
+        {
+          "id": "q-p0005-028-o3",
+          "text": "I am not Chinese."
+        }
+      ],
+      "correctOptionId": "q-p0005-028-o1",
+      "explanation": "「我爱喝茶，爱吃糖，爱看书。」 (Wǒ ài hē chá, ài chī táng, ài kàn shū.) means \"I like drinking tea, eating sweets, and reading books.\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0027"
+      ],
+      "entryIds": [
+        "e-p0005-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-029",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 中国人 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-029-o1",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0005-029-o2",
+          "text": "China"
+        },
+        {
+          "id": "q-p0005-029-o3",
+          "text": "Chinese person; Chinese people"
+        }
+      ],
+      "correctOptionId": "q-p0005-029-o3",
+      "explanation": "中国人 (Zhōngguó rén) means \"Chinese person; Chinese people\". 中国 plus 人 identifies someone from China.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-030",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Chinese person; Chinese people\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-030-o1",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0005-030-o2",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0005-030-o3",
+          "text": "中文"
+        }
+      ],
+      "correctOptionId": "q-p0005-030-o2",
+      "explanation": "\"Chinese person; Chinese people\" is 中国人 (Zhōngguó rén).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-031",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"bú\" meaning \"not\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-031-o1",
+          "text": "不"
+        },
+        {
+          "id": "q-p0005-031-o2",
+          "text": "我"
+        },
+        {
+          "id": "q-p0005-031-o3",
+          "text": "叫"
+        }
+      ],
+      "correctOptionId": "q-p0005-031-o1",
+      "explanation": "不 is pronounced bú and means \"not\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0012"
+      ],
+      "entryIds": [
+        "e-p0005-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-032",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我爱____，爱吃糖，爱看书。」 (I like drinking tea, eating sweets, and reading books.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-032-o1",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-032-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0005-032-o3",
+          "text": "喝茶"
+        }
+      ],
+      "correctOptionId": "q-p0005-032-o3",
+      "explanation": "The missing word is 喝茶 (hē chá, \"drink tea\"), completing 「我爱喝茶，爱吃糖，爱看书。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0027"
+      ],
+      "entryIds": [
+        "e-p0005-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-033",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-033-o1",
+          "text": "我爱喝茶，爱吃糖，爱看书。"
+        },
+        {
+          "id": "q-p0005-033-o2",
+          "text": "我叫Marie。"
+        },
+        {
+          "id": "q-p0005-033-o3",
+          "text": "我不是中国人。"
+        }
+      ],
+      "correctOptionId": "q-p0005-033-o2",
+      "explanation": "The audio speaks 我叫Marie。 (Wǒ jiào Marie.), meaning \"My name is Marie.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0007"
+      ],
+      "entryIds": [
+        "e-p0005-0006"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我叫Marie。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-034",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 中国人?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-034-o1",
+          "text": "Chinese person; Chinese people"
+        },
+        {
+          "id": "q-p0005-034-o2",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0005-034-o3",
+          "text": "China"
+        }
+      ],
+      "correctOptionId": "q-p0005-034-o1",
+      "explanation": "中国人 (Zhōngguó rén) means \"Chinese person; Chinese people\". 中国 plus 人 identifies someone from China.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-035",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你好！」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-035-o1",
+          "text": "My name is Marie."
+        },
+        {
+          "id": "q-p0005-035-o2",
+          "text": "I am not Chinese."
+        },
+        {
+          "id": "q-p0005-035-o3",
+          "text": "Hello!"
+        }
+      ],
+      "correctOptionId": "q-p0005-035-o3",
+      "explanation": "「你好！」 (Nǐ hǎo!) means \"Hello!\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0041"
+      ],
+      "entryIds": [
+        "e-p0005-0030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-036",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 学习 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-036-o1",
+          "text": "China"
+        },
+        {
+          "id": "q-p0005-036-o2",
+          "text": "study; learn"
+        },
+        {
+          "id": "q-p0005-036-o3",
+          "text": "Chinese (language)"
+        }
+      ],
+      "correctOptionId": "q-p0005-036-o2",
+      "explanation": "学习 (xuéxí) means \"study; learn\". A verb. Both syllables retain their lexical tones.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-037",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"study; learn\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-037-o1",
+          "text": "学习"
+        },
+        {
+          "id": "q-p0005-037-o2",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-037-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0005-037-o1",
+      "explanation": "\"study; learn\" is 学习 (xuéxí).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-038",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"shì\" meaning \"be; am, is, are\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0005-038-o1",
+          "text": "我"
+        },
+        {
+          "id": "q-p0005-038-o2",
+          "text": "叫"
+        },
+        {
+          "id": "q-p0005-038-o3",
+          "text": "是"
+        }
+      ],
+      "correctOptionId": "q-p0005-038-o3",
+      "explanation": "是 is pronounced shì and means \"be; am, is, are\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0013"
+      ],
+      "entryIds": [
+        "e-p0005-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

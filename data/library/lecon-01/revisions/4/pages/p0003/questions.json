@@ -1,0 +1,1167 @@
+{
+  "documentId": "lecon-01",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "In this lesson, what does 大夫 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-001-o1",
+          "text": "doctor"
+        },
+        {
+          "id": "q-p0003-001-o2",
+          "text": "elder brother"
+        },
+        {
+          "id": "q-p0003-001-o3",
+          "text": "spouse"
+        }
+      ],
+      "correctOptionId": "q-p0003-001-o1",
+      "explanation": "大夫 dàifu means doctor. 大 is dài here, and fu is neutral.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0070"
+      ],
+      "entryIds": [
+        "e-p0003-0039"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose we / us.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-002-o1",
+          "text": "我们"
+        },
+        {
+          "id": "q-p0003-002-o2",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-002-o3",
+          "text": "什么"
+        }
+      ],
+      "correctOptionId": "q-p0003-002-o1",
+      "explanation": "我们 wǒmen is we or us; 你们 is plural you.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means learn?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-003-o1",
+          "text": "学"
+        },
+        {
+          "id": "q-p0003-003-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0003-003-o3",
+          "text": "子"
+        }
+      ],
+      "correctOptionId": "q-p0003-003-o1",
+      "explanation": "学 xué is learn; 字 means written character and 子 means child.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0019"
+      ],
+      "entryIds": [
+        "e-p0003-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is the speaker reading in 我看中文报。?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-004-o1",
+          "text": "a newspaper in Chinese"
+        },
+        {
+          "id": "q-p0003-004-o2",
+          "text": "a Chinese-language book"
+        },
+        {
+          "id": "q-p0003-004-o3",
+          "text": "a notebook"
+        }
+      ],
+      "correctOptionId": "q-p0003-004-o1",
+      "explanation": "看 means read with 报, and 中文报 is a Chinese-language newspaper.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0148"
+      ],
+      "entryIds": [
+        "e-p0003-0060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Who is Tian Zhongshu in this exercise?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-005-o1",
+          "text": "the speaker’s mother"
+        },
+        {
+          "id": "q-p0003-005-o2",
+          "text": "the speaker’s elder brother"
+        },
+        {
+          "id": "q-p0003-005-o3",
+          "text": "the speaker’s doctor"
+        }
+      ],
+      "correctOptionId": "q-p0003-005-o1",
+      "explanation": "田中书 is a personal name. 我妈妈 means my mother.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0175"
+      ],
+      "entryIds": [
+        "e-p0003-0075"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source sentence: 我种 __ 。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-006-o1",
+          "text": "茶"
+        },
+        {
+          "id": "q-p0003-006-o2",
+          "text": "鱼"
+        },
+        {
+          "id": "q-p0003-006-o3",
+          "text": "车"
+        }
+      ],
+      "correctOptionId": "q-p0003-006-o1",
+      "explanation": "The source says 我种茶: I grow tea. 种 is zhòng when it means grow.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0216"
+      ],
+      "entryIds": [
+        "e-p0003-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In 你们学什么？, what does 什么 ask for?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-007-o1",
+          "text": "the thing being studied"
+        },
+        {
+          "id": "q-p0003-007-o2",
+          "text": "the number of students"
+        },
+        {
+          "id": "q-p0003-007-o3",
+          "text": "the place of study"
+        }
+      ],
+      "correctOptionId": "q-p0003-007-o1",
+      "explanation": "什么 occupies the object position after 学: what do you study?",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0135"
+      ],
+      "entryIds": [
+        "e-p0003-0058"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 爱人 mean in this lesson?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-008-o1",
+          "text": "spouse"
+        },
+        {
+          "id": "q-p0003-008-o2",
+          "text": "lover in a secret affair"
+        },
+        {
+          "id": "q-p0003-008-o3",
+          "text": "elder brother"
+        }
+      ],
+      "correctOptionId": "q-p0003-008-o1",
+      "explanation": "In this mainland-Chinese context, 爱人 means husband or wife.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0080"
+      ],
+      "entryIds": [
+        "e-p0003-0047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Choose the expression you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-009-o1",
+          "text": "小心"
+        },
+        {
+          "id": "q-p0003-009-o2",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0003-009-o3",
+          "text": "工人"
+        }
+      ],
+      "correctOptionId": "q-p0003-009-o1",
+      "explanation": "小心 xiǎoxīn means be careful.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0030"
+      ],
+      "entryIds": [
+        "e-p0003-0021"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "小心"
+    },
+    {
+      "id": "q-p0003-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我学中文。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-010-o1",
+          "text": "I study Chinese."
+        },
+        {
+          "id": "q-p0003-010-o2",
+          "text": "We are workers."
+        },
+        {
+          "id": "q-p0003-010-o3",
+          "text": "We are Chinese workers."
+        }
+      ],
+      "correctOptionId": "q-p0003-010-o1",
+      "explanation": "「我学中文。」 (Wǒ xué Zhōngwén.) means \"I study Chinese.\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0105"
+      ],
+      "entryIds": [
+        "e-p0003-0053"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-011",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 你们 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-011-o1",
+          "text": "we; us"
+        },
+        {
+          "id": "q-p0003-011-o2",
+          "text": "notebook"
+        },
+        {
+          "id": "q-p0003-011-o3",
+          "text": "you (plural)"
+        }
+      ],
+      "correctOptionId": "q-p0003-011-o3",
+      "explanation": "你们 (nǐmen) means \"you (plural)\". Addresses more than one person; men is neutral.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-012",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"you (plural)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-012-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0003-012-o2",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-012-o3",
+          "text": "我们"
+        }
+      ],
+      "correctOptionId": "q-p0003-012-o2",
+      "explanation": "\"you (plural)\" is 你们 (nǐmen).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-013",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"nǐ\" meaning \"you\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-013-o1",
+          "text": "你"
+        },
+        {
+          "id": "q-p0003-013-o2",
+          "text": "们"
+        },
+        {
+          "id": "q-p0003-013-o3",
+          "text": "我"
+        }
+      ],
+      "correctOptionId": "q-p0003-013-o1",
+      "explanation": "你 is pronounced nǐ and means \"you\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-014",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我学____。」 (I study Chinese.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-014-o1",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-014-o2",
+          "text": "我们"
+        },
+        {
+          "id": "q-p0003-014-o3",
+          "text": "中文"
+        }
+      ],
+      "correctOptionId": "q-p0003-014-o3",
+      "explanation": "The missing word is 中文 (Zhōngwén, \"Chinese (language)\"), completing 「我学中文。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0105"
+      ],
+      "entryIds": [
+        "e-p0003-0053"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-015",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-015-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0003-015-o2",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-015-o3",
+          "text": "我们"
+        }
+      ],
+      "correctOptionId": "q-p0003-015-o2",
+      "explanation": "The audio speaks 你们 (nǐmen), meaning \"you (plural)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你们",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-016",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 你们?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-016-o1",
+          "text": "you (plural)"
+        },
+        {
+          "id": "q-p0003-016-o2",
+          "text": "we; us"
+        },
+        {
+          "id": "q-p0003-016-o3",
+          "text": "notebook"
+        }
+      ],
+      "correctOptionId": "q-p0003-016-o1",
+      "explanation": "你们 (nǐmen) means \"you (plural)\". Addresses more than one person; men is neutral.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-017",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我们是工人。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-017-o1",
+          "text": "I study Chinese."
+        },
+        {
+          "id": "q-p0003-017-o2",
+          "text": "We are Chinese workers."
+        },
+        {
+          "id": "q-p0003-017-o3",
+          "text": "We are workers."
+        }
+      ],
+      "correctOptionId": "q-p0003-017-o3",
+      "explanation": "「我们是工人。」 (Wǒmen shì gōngrén.) means \"We are workers.\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0116"
+      ],
+      "entryIds": [
+        "e-p0003-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-018",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 我们 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-018-o1",
+          "text": "notebook"
+        },
+        {
+          "id": "q-p0003-018-o2",
+          "text": "we; us"
+        },
+        {
+          "id": "q-p0003-018-o3",
+          "text": "you (plural)"
+        }
+      ],
+      "correctOptionId": "q-p0003-018-o2",
+      "explanation": "我们 (wǒmen) means \"we; us\". Neutral men. Chinese uses the same form as subject or object.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-019",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"notebook\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-019-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0003-019-o2",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-019-o3",
+          "text": "我们"
+        }
+      ],
+      "correctOptionId": "q-p0003-019-o1",
+      "explanation": "\"notebook\" is 本子 (běnzi).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-020",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"men\" meaning \"plural suffix for people\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-020-o1",
+          "text": "你"
+        },
+        {
+          "id": "q-p0003-020-o2",
+          "text": "我"
+        },
+        {
+          "id": "q-p0003-020-o3",
+          "text": "们"
+        }
+      ],
+      "correctOptionId": "q-p0003-020-o3",
+      "explanation": "们 is pronounced men and means \"plural suffix for people\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0004"
+      ],
+      "entryIds": [
+        "e-p0003-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-021",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「____是工人。」 (We are workers.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-021-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0003-021-o2",
+          "text": "我们"
+        },
+        {
+          "id": "q-p0003-021-o3",
+          "text": "你们"
+        }
+      ],
+      "correctOptionId": "q-p0003-021-o2",
+      "explanation": "The missing word is 我们 (wǒmen, \"we; us\"), completing 「我们是工人。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0116"
+      ],
+      "entryIds": [
+        "e-p0003-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-022",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-022-o1",
+          "text": "我学中文。"
+        },
+        {
+          "id": "q-p0003-022-o2",
+          "text": "我们是工人。"
+        },
+        {
+          "id": "q-p0003-022-o3",
+          "text": "我们是中国工人。"
+        }
+      ],
+      "correctOptionId": "q-p0003-022-o1",
+      "explanation": "The audio speaks 我学中文。 (Wǒ xué Zhōngwén.), meaning \"I study Chinese.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0105"
+      ],
+      "entryIds": [
+        "e-p0003-0053"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我学中文。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-023",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 我们?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-023-o1",
+          "text": "you (plural)"
+        },
+        {
+          "id": "q-p0003-023-o2",
+          "text": "notebook"
+        },
+        {
+          "id": "q-p0003-023-o3",
+          "text": "we; us"
+        }
+      ],
+      "correctOptionId": "q-p0003-023-o3",
+      "explanation": "我们 (wǒmen) means \"we; us\". Neutral men. Chinese uses the same form as subject or object.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-024",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我们是中国工人。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-024-o1",
+          "text": "We are workers."
+        },
+        {
+          "id": "q-p0003-024-o2",
+          "text": "We are Chinese workers."
+        },
+        {
+          "id": "q-p0003-024-o3",
+          "text": "I study Chinese."
+        }
+      ],
+      "correctOptionId": "q-p0003-024-o2",
+      "explanation": "「我们是中国工人。」 (Wǒmen shì Zhōngguó gōngrén.) means \"We are Chinese workers.\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0117"
+      ],
+      "entryIds": [
+        "e-p0003-0056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-025",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 本子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-025-o1",
+          "text": "notebook"
+        },
+        {
+          "id": "q-p0003-025-o2",
+          "text": "you (plural)"
+        },
+        {
+          "id": "q-p0003-025-o3",
+          "text": "we; us"
+        }
+      ],
+      "correctOptionId": "q-p0003-025-o1",
+      "explanation": "本子 (běnzi) means \"notebook\". Neutral zi. Do not translate each character separately to guess the whole word.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-026",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"spoon\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-026-o1",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-026-o2",
+          "text": "我们"
+        },
+        {
+          "id": "q-p0003-026-o3",
+          "text": "勺子"
+        }
+      ],
+      "correctOptionId": "q-p0003-026-o3",
+      "explanation": "\"spoon\" is 勺子 (sháozi).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0013"
+      ],
+      "entryIds": [
+        "e-p0003-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-027",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"wǒ\" meaning \"I; me\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-027-o1",
+          "text": "们"
+        },
+        {
+          "id": "q-p0003-027-o2",
+          "text": "我"
+        },
+        {
+          "id": "q-p0003-027-o3",
+          "text": "你"
+        }
+      ],
+      "correctOptionId": "q-p0003-027-o2",
+      "explanation": "我 is pronounced wǒ and means \"I; me\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0008"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-028",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我们是____。」 (We are Chinese workers.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-028-o1",
+          "text": "中国工人"
+        },
+        {
+          "id": "q-p0003-028-o2",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-028-o3",
+          "text": "我们"
+        }
+      ],
+      "correctOptionId": "q-p0003-028-o1",
+      "explanation": "The missing word is 中国工人 (Zhōngguó gōngrén, \"Chinese worker; Chinese workers\"), completing 「我们是中国工人。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0117"
+      ],
+      "entryIds": [
+        "e-p0003-0056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-029",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-029-o1",
+          "text": "们"
+        },
+        {
+          "id": "q-p0003-029-o2",
+          "text": "我"
+        },
+        {
+          "id": "q-p0003-029-o3",
+          "text": "你"
+        }
+      ],
+      "correctOptionId": "q-p0003-029-o3",
+      "explanation": "The audio speaks 你 (nǐ), meaning \"you\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-030",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 本子?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-030-o1",
+          "text": "we; us"
+        },
+        {
+          "id": "q-p0003-030-o2",
+          "text": "notebook"
+        },
+        {
+          "id": "q-p0003-030-o3",
+          "text": "you (plural)"
+        }
+      ],
+      "correctOptionId": "q-p0003-030-o2",
+      "explanation": "本子 (běnzi) means \"notebook\". Neutral zi. Do not translate each character separately to guess the whole word.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-031",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我们学文学，你们学什么？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-031-o1",
+          "text": "We study literature. What do you study?"
+        },
+        {
+          "id": "q-p0003-031-o2",
+          "text": "I study Chinese."
+        },
+        {
+          "id": "q-p0003-031-o3",
+          "text": "We are workers."
+        }
+      ],
+      "correctOptionId": "q-p0003-031-o1",
+      "explanation": "「我们学文学，你们学什么？」 (Wǒmen xué wénxué, nǐmen xué shénme?) means \"We study literature. What do you study?\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0134"
+      ],
+      "entryIds": [
+        "e-p0003-0057"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-032",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 勺子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-032-o1",
+          "text": "you (plural)"
+        },
+        {
+          "id": "q-p0003-032-o2",
+          "text": "we; us"
+        },
+        {
+          "id": "q-p0003-032-o3",
+          "text": "spoon"
+        }
+      ],
+      "correctOptionId": "q-p0003-032-o3",
+      "explanation": "勺子 (sháozi) means \"spoon\". Neutral zi is a noun suffix here.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0013"
+      ],
+      "entryIds": [
+        "e-p0003-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-033",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"literature\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-033-o1",
+          "text": "我们"
+        },
+        {
+          "id": "q-p0003-033-o2",
+          "text": "文学"
+        },
+        {
+          "id": "q-p0003-033-o3",
+          "text": "你们"
+        }
+      ],
+      "correctOptionId": "q-p0003-033-o2",
+      "explanation": "\"literature\" is 文学 (wénxué).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0014"
+      ],
+      "entryIds": [
+        "e-p0003-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-034",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"běn\" meaning \"root; book or notebook\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-034-o1",
+          "text": "本"
+        },
+        {
+          "id": "q-p0003-034-o2",
+          "text": "你"
+        },
+        {
+          "id": "q-p0003-034-o3",
+          "text": "们"
+        }
+      ],
+      "correctOptionId": "q-p0003-034-o1",
+      "explanation": "本 is pronounced běn and means \"root; book or notebook\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0015"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

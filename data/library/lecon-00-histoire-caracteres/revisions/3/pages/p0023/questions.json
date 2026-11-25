@@ -1,0 +1,1131 @@
+{
+  "documentId": "lecon-00-histoire-caracteres",
+  "pageId": "p0023",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0023-001",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What number is 二十三?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "23"
+        },
+        {
+          "id": "o2",
+          "text": "32"
+        },
+        {
+          "id": "o3",
+          "text": "13"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "二十 is twenty; 三 adds three.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0124"
+      ],
+      "entryIds": [
+        "e-p0023-052"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-002",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose “train”.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "火山口"
+        },
+        {
+          "id": "o2",
+          "text": "火车"
+        },
+        {
+          "id": "o3",
+          "text": "小手"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "火车 is the word for train.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0129"
+      ],
+      "entryIds": [
+        "e-p0023-057"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-003",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我去北京。 say?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "I am going to Beijing."
+        },
+        {
+          "id": "o2",
+          "text": "Mum drives a car."
+        },
+        {
+          "id": "o3",
+          "text": "The man reads a newspaper."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我 = I, 去 = go, 北京 = Beijing.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0136"
+      ],
+      "entryIds": [
+        "e-p0023-064"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-004",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the woman read in this sentence?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "a book"
+        },
+        {
+          "id": "o2",
+          "text": "a newspaper"
+        },
+        {
+          "id": "o3",
+          "text": "a map"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "女人看书 means the woman reads a book; the man reads a newspaper.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0137"
+      ],
+      "entryIds": [
+        "e-p0023-065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-005",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Which reading does 种 have in 种田, “cultivate fields”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "zhòng"
+        },
+        {
+          "id": "o2",
+          "text": "zhǒng"
+        },
+        {
+          "id": "o3",
+          "text": "zhōng"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The verb plant or cultivate is zhòng.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0134"
+      ],
+      "entryIds": [
+        "e-p0023-062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-006",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Which name does the speaker give?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Bai Mushao"
+        },
+        {
+          "id": "o2",
+          "text": "Beijing"
+        },
+        {
+          "id": "o3",
+          "text": "Shanghai"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我叫 introduces the speaker’s name, 白木勺, Bai Mushao.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0139"
+      ],
+      "entryIds": [
+        "e-p0023-067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-007",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete “Mum drives a car”: 妈妈＿车。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "开"
+        },
+        {
+          "id": "o2",
+          "text": "看"
+        },
+        {
+          "id": "o3",
+          "text": "吃"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "开车 means drive a car.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0138"
+      ],
+      "entryIds": [
+        "e-p0023-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-008",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the meaning.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "white"
+        },
+        {
+          "id": "o2",
+          "text": "north"
+        },
+        {
+          "id": "o3",
+          "text": "tea"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "白 means white.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0031"
+      ],
+      "entryIds": [
+        "e-p0023-031"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      },
+      "speechTarget": "白"
+    },
+    {
+      "id": "q-p0023-009",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「妈妈开车。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-009-o1",
+          "text": "The man reads a newspaper; the woman reads a book."
+        },
+        {
+          "id": "q-p0023-009-o2",
+          "text": "Mum drives a car."
+        },
+        {
+          "id": "q-p0023-009-o3",
+          "text": "I am going to Beijing."
+        }
+      ],
+      "correctOptionId": "q-p0023-009-o2",
+      "explanation": "「妈妈开车。」 (māma kāi chē) means \"Mum drives a car.\". 妈妈 has a neutral second syllable; 开车 means drive.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0138"
+      ],
+      "entryIds": [
+        "e-p0023-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-010",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 大山 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-010-o1",
+          "text": "big mountain"
+        },
+        {
+          "id": "q-p0023-010-o2",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0023-010-o3",
+          "text": "white horse"
+        }
+      ],
+      "correctOptionId": "q-p0023-010-o1",
+      "explanation": "大山 (dà shān) means \"big mountain\". 大 describes 山.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0119"
+      ],
+      "entryIds": [
+        "e-p0023-047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-011",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"big mountain\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-011-o1",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0023-011-o2",
+          "text": "白马"
+        },
+        {
+          "id": "q-p0023-011-o3",
+          "text": "大山"
+        }
+      ],
+      "correctOptionId": "q-p0023-011-o3",
+      "explanation": "\"big mountain\" is 大山 (dà shān).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0119"
+      ],
+      "entryIds": [
+        "e-p0023-047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-012",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"yī\" meaning \"one\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-012-o1",
+          "text": "三"
+        },
+        {
+          "id": "q-p0023-012-o2",
+          "text": "一"
+        },
+        {
+          "id": "q-p0023-012-o3",
+          "text": "二"
+        }
+      ],
+      "correctOptionId": "q-p0023-012-o2",
+      "explanation": "一 is pronounced yī and means \"one\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0001"
+      ],
+      "entryIds": [
+        "e-p0023-001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-013",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我去____。」 (I am going to Beijing.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-013-o1",
+          "text": "北京"
+        },
+        {
+          "id": "q-p0023-013-o2",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0023-013-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0023-013-o1",
+      "explanation": "The missing word is 北京 (Běijīng, \"Beijing\"), completing 「我去北京。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0136"
+      ],
+      "entryIds": [
+        "e-p0023-064"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-014",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-014-o1",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0023-014-o2",
+          "text": "白马"
+        },
+        {
+          "id": "q-p0023-014-o3",
+          "text": "大山"
+        }
+      ],
+      "correctOptionId": "q-p0023-014-o3",
+      "explanation": "The audio speaks 大山 (dà shān), meaning \"big mountain\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0119"
+      ],
+      "entryIds": [
+        "e-p0023-047"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "大山",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-015",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 大山?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-015-o1",
+          "text": "white horse"
+        },
+        {
+          "id": "q-p0023-015-o2",
+          "text": "big mountain"
+        },
+        {
+          "id": "q-p0023-015-o3",
+          "text": "mutton; lamb (meat)"
+        }
+      ],
+      "correctOptionId": "q-p0023-015-o2",
+      "explanation": "大山 (dà shān) means \"big mountain\". 大 describes 山.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0119"
+      ],
+      "entryIds": [
+        "e-p0023-047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-016",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 羊肉 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-016-o1",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0023-016-o2",
+          "text": "big mountain"
+        },
+        {
+          "id": "q-p0023-016-o3",
+          "text": "white horse"
+        }
+      ],
+      "correctOptionId": "q-p0023-016-o1",
+      "explanation": "羊肉 (yángròu) means \"mutton; lamb (meat)\". Meat from a sheep.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0120"
+      ],
+      "entryIds": [
+        "e-p0023-048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-017",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"mutton; lamb (meat)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-017-o1",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0023-017-o2",
+          "text": "白马"
+        },
+        {
+          "id": "q-p0023-017-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0023-017-o3",
+      "explanation": "\"mutton; lamb (meat)\" is 羊肉 (yángròu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0120"
+      ],
+      "entryIds": [
+        "e-p0023-048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-018",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"èr\" meaning \"two\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-018-o1",
+          "text": "三"
+        },
+        {
+          "id": "q-p0023-018-o2",
+          "text": "二"
+        },
+        {
+          "id": "q-p0023-018-o3",
+          "text": "一"
+        }
+      ],
+      "correctOptionId": "q-p0023-018-o2",
+      "explanation": "二 is pronounced èr and means \"two\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0002"
+      ],
+      "entryIds": [
+        "e-p0023-002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-019",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「男人看报，____看书。」 (The man reads a newspaper; the woman reads a book.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-019-o1",
+          "text": "女人"
+        },
+        {
+          "id": "q-p0023-019-o2",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0023-019-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0023-019-o1",
+      "explanation": "The missing word is 女人 (nǚrén, \"woman\"), completing 「男人看报，女人看书。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0137"
+      ],
+      "entryIds": [
+        "e-p0023-065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-020",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-020-o1",
+          "text": "男人看报，女人看书。"
+        },
+        {
+          "id": "q-p0023-020-o2",
+          "text": "妈妈开车。"
+        },
+        {
+          "id": "q-p0023-020-o3",
+          "text": "我去北京。"
+        }
+      ],
+      "correctOptionId": "q-p0023-020-o3",
+      "explanation": "The audio speaks 我去北京。 (wǒ qù Běijīng), meaning \"I am going to Beijing.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0136"
+      ],
+      "entryIds": [
+        "e-p0023-064"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我去北京。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-021",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 羊肉?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-021-o1",
+          "text": "white horse"
+        },
+        {
+          "id": "q-p0023-021-o2",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0023-021-o3",
+          "text": "big mountain"
+        }
+      ],
+      "correctOptionId": "q-p0023-021-o2",
+      "explanation": "羊肉 (yángròu) means \"mutton; lamb (meat)\". Meat from a sheep.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0120"
+      ],
+      "entryIds": [
+        "e-p0023-048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-022",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 白马 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-022-o1",
+          "text": "white horse"
+        },
+        {
+          "id": "q-p0023-022-o2",
+          "text": "big mountain"
+        },
+        {
+          "id": "q-p0023-022-o3",
+          "text": "mutton; lamb (meat)"
+        }
+      ],
+      "correctOptionId": "q-p0023-022-o1",
+      "explanation": "白马 (bái mǎ) means \"white horse\". The colour 白 comes before 马.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0121"
+      ],
+      "entryIds": [
+        "e-p0023-049"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-023",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"white horse\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-023-o1",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0023-023-o2",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0023-023-o3",
+          "text": "白马"
+        }
+      ],
+      "correctOptionId": "q-p0023-023-o3",
+      "explanation": "\"white horse\" is 白马 (bái mǎ).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0121"
+      ],
+      "entryIds": [
+        "e-p0023-049"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-024",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"sān\" meaning \"three\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-024-o1",
+          "text": "二"
+        },
+        {
+          "id": "q-p0023-024-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0023-024-o3",
+          "text": "一"
+        }
+      ],
+      "correctOptionId": "q-p0023-024-o2",
+      "explanation": "三 is pronounced sān and means \"three\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0003"
+      ],
+      "entryIds": [
+        "e-p0023-003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-025",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「____说我叫白木勺。」 (I say that my name is Bai Mushao.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-025-o1",
+          "text": "我"
+        },
+        {
+          "id": "q-p0023-025-o2",
+          "text": "一"
+        },
+        {
+          "id": "q-p0023-025-o3",
+          "text": "二"
+        }
+      ],
+      "correctOptionId": "q-p0023-025-o1",
+      "explanation": "The missing character is 我 (wǒ, \"I; me\"), completing 「我说我叫白木勺。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0139"
+      ],
+      "entryIds": [
+        "e-p0023-067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-026",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-026-o1",
+          "text": "二"
+        },
+        {
+          "id": "q-p0023-026-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0023-026-o3",
+          "text": "一"
+        }
+      ],
+      "correctOptionId": "q-p0023-026-o3",
+      "explanation": "The audio speaks 一 (yī), meaning \"one\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0001"
+      ],
+      "entryIds": [
+        "e-p0023-001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "一",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-027",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 白马?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-027-o1",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0023-027-o2",
+          "text": "white horse"
+        },
+        {
+          "id": "q-p0023-027-o3",
+          "text": "big mountain"
+        }
+      ],
+      "correctOptionId": "q-p0023-027-o2",
+      "explanation": "白马 (bái mǎ) means \"white horse\". The colour 白 comes before 马.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0121"
+      ],
+      "entryIds": [
+        "e-p0023-049"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-028",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 大白马 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-028-o1",
+          "text": "big white horse"
+        },
+        {
+          "id": "q-p0023-028-o2",
+          "text": "big mountain"
+        },
+        {
+          "id": "q-p0023-028-o3",
+          "text": "mutton; lamb (meat)"
+        }
+      ],
+      "correctOptionId": "q-p0023-028-o1",
+      "explanation": "大白马 (dà bái mǎ) means \"big white horse\". 大 and 白 both describe 马.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0122"
+      ],
+      "entryIds": [
+        "e-p0023-050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-029",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"big white horse\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-029-o1",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0023-029-o2",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0023-029-o3",
+          "text": "大白马"
+        }
+      ],
+      "correctOptionId": "q-p0023-029-o3",
+      "explanation": "\"big white horse\" is 大白马 (dà bái mǎ).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0122"
+      ],
+      "entryIds": [
+        "e-p0023-050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-030",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"sì\" meaning \"four\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-030-o1",
+          "text": "二"
+        },
+        {
+          "id": "q-p0023-030-o2",
+          "text": "四"
+        },
+        {
+          "id": "q-p0023-030-o3",
+          "text": "一"
+        }
+      ],
+      "correctOptionId": "q-p0023-030-o2",
+      "explanation": "四 is pronounced sì and means \"four\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0004"
+      ],
+      "entryIds": [
+        "e-p0023-004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-031",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 大白马?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-031-o1",
+          "text": "big white horse"
+        },
+        {
+          "id": "q-p0023-031-o2",
+          "text": "big mountain"
+        },
+        {
+          "id": "q-p0023-031-o3",
+          "text": "mutton; lamb (meat)"
+        }
+      ],
+      "correctOptionId": "q-p0023-031-o1",
+      "explanation": "大白马 (dà bái mǎ) means \"big white horse\". 大 and 白 both describe 马.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0122"
+      ],
+      "entryIds": [
+        "e-p0023-050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-032",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 女人 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0023-032-o1",
+          "text": "big mountain"
+        },
+        {
+          "id": "q-p0023-032-o2",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0023-032-o3",
+          "text": "woman"
+        }
+      ],
+      "correctOptionId": "q-p0023-032-o3",
+      "explanation": "女人 (nǚrén) means \"woman\". 女 means female; 人 means person. The standard reading shown here is nǚrén.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0023-0123"
+      ],
+      "entryIds": [
+        "e-p0023-051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

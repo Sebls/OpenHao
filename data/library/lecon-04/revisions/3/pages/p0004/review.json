@@ -1,0 +1,94 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "textSha256": "79878fd95d4fc2358ce08f818232ab1b3616ae35840f3313a35ec21bb30fef99",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, separate self-review after authoring; not human or independent review",
+  "reviewedAt": "2026-11-24T10:14:47.850916+00:00",
+  "checks": [
+    "Compared all seven original source images with text and geometry, including handwritten character inventories, faint dialogue words, illustration-free page structure, source roles and reading order within each spread half.",
+    "Separate extraction review corrected missed characters, OCR-confused forms and merged-character boxes using individually inspected glyph bounds. Original PDF bytes remain unchanged.",
+    "Separate linguistic review checked 还 hái, 只 zhǐ, 长 cháng versus 厂长 zhǎng, standalone 都 dū versus sentence dōu, neutral suffixes in 名字/筷子/工夫/衣服/漂亮, rhotic 儿, 不 tone changes, permission 可以 versus ability 会, surname/title order and natural sentence translations.",
+    "Separate question review checked one defensible answer, distinct plausible distractors, explanation, selected-page source scope and stable source IDs. Listening remains gated by local playback.",
+    "Source-linked SVG diagnostics regenerated after final text/geometry edits. Same final character boxes checked over original source at page scale, enlarged corrected vocabulary/dialogue/memento regions and cropped-page vocabulary.",
+    "Browser reader/word/character/multiline and practice review follows this first validated local publication.",
+    "Agent-browser reading/details/multiline/practice/source-return review passed; exact scoped entry repair corrects inherited character gloss/pronunciation and the storybook possessive explanation. Dependent questions remain correct without edits.",
+    "Expanded reviewed question bank across page-scoped entries and annotations; verified distinct options, single correct option ID, and page-local sourceAnnotationIds."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 4; reviewed learning content with partial reference OCR. No coverage percentage is claimed.",
+    "roles": "Traditional oral vocabulary and all 12 numbered reading exercises (15 sentence units), all 17 principal dark tracing models and 9 full traditional comparison models. The source retains its mixed-script 没有用. Faint tracing repetitions are reference-only.",
+    "transcriptCodePoints": 1400,
+    "locatedRecords": 1100,
+    "manualCharacterBoxes": 33,
+    "learningLines": 69,
+    "entries": 138,
+    "entriesByKind": {
+      "character": 84,
+      "word": 35,
+      "expression": 4,
+      "sentence": 15
+    },
+    "occurrences": 281,
+    "reviewedIPAEntries": 81,
+    "entriesWithoutReviewedIPA": 57,
+    "questions": 8,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 0,
+    "multilineNote": "Separate line anchors for wrapped reading/dialogue/memento on physical pages 3, 5 and 6; not applicable where count is zero.",
+    "reviewedQuestions": 32
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0004",
+      "reason": "Reference OCR remains partial or uncertain for small French/printed pinyin, faint tracing repetitions and incomplete stroke or historical diagrams. Reviewed learning regions are defined in coverage; extraction completeness is not claimed.",
+      "nextAction": "Consult the unchanged original page for reference regions; keep uncertain OCR out of reviewed learning units and practice."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0004",
+      "reason": "57 entries have no reviewed IPA, particularly sentences, names, rhotic and contextual-neutral readings. All learning entries have reviewed tone-mark pinyin.",
+      "nextAction": "Leave IPA absent until that exact contextual pronunciation can be reviewed."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0004",
+      "reason": "Listening questions require successful local browser playback; disconnected audible playback has not been independently verified.",
+      "nextAction": "Retain runtime gating on completed local playback; text study remains available."
+    }
+  ],
+  "browserReview": {
+    "documentId": "lecon-04",
+    "reviewer": "Codex agent, not human or independent review",
+    "reviewedAt": "2026-11-24T10:14:47.850916+00:00",
+    "url": "http://localhost:4173/",
+    "initialRevision": 1,
+    "checks": [
+      "Library detected the new lesson without restart and showed physical pages 1–7 ready.",
+      "Page 1 画儿 details showed the reviewed rhotic-word explanation; navigating to 画 showed huà and IPA [xwa⁵¹], with the original character highlighted.",
+      "Deliberate local character pronunciation reached Playing then Finished. This is completed browser playback, not independently verified disconnected audibility.",
+      "Page 3 sentence selector displayed all 15 reviewed reading units. 小人书是你的吗？ showed the English translation and source highlight split over its actual two printed lines, including the manually recovered 的.",
+      "Adding that exact sentence and choosing Practise selection yielded exactly one sentence-comprehension question. Choosing whether the storybook is yours gave correct feedback and the explanation; See original context restored physical page 3, the selected sentence and its details.",
+      "Page 4 sentence inventory showed the traditional source forms, including 會寫漢字 and 還; page 7 displayed the cropped-page reading inventory.",
+      "Page 7 他是你们的厂长吗？ showed factory director and chǎngzhǎng, with constituent 长 labelled head/chief.",
+      "Browser review prompted exact scoped entry repairs: simplify reused 是 gloss, restore full tóu in 头巾 constituents and add a concise possessive explanation for the reviewed storybook question."
+    ],
+    "limitations": [
+      "Reference OCR remains partial for small French/pinyin, faint tracing repeats and historical/stroke reference diagrams.",
+      "388 initial entries omitted unreviewed IPA; final scoped pronunciation repairs add three reviewed single-character IPA values.",
+      "No independent human linguistic review or independently verified disconnected audible playback."
+    ],
+    "followUp": "Only ten explicitly scoped entries and affected page review evidence are changed in revision 2. Frozen extraction, occurrence/question IDs and unrelated records remain byte-identical."
+  }
+}

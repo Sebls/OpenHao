@@ -1,0 +1,1135 @@
+{
+  "documentId": "lecon-00-histoire-caracteres",
+  "pageId": "p0026",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0026-001",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which city is 上海?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Shanghai"
+        },
+        {
+          "id": "o2",
+          "text": "Guangzhou"
+        },
+        {
+          "id": "o3",
+          "text": "Lhasa"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "上海 is Shanghai.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0093"
+      ],
+      "entryIds": [
+        "e-p0026-062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-002",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose the Mandarin name for Lhasa.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "上海"
+        },
+        {
+          "id": "o2",
+          "text": "广州"
+        },
+        {
+          "id": "o3",
+          "text": "拉萨"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "拉萨 is Lāsà, Lhasa.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0095"
+      ],
+      "entryIds": [
+        "e-p0026-064"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-003",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does Mum avoid eating in this sentence?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "mutton or lamb"
+        },
+        {
+          "id": "o2",
+          "text": "all meat"
+        },
+        {
+          "id": "o3",
+          "text": "fish"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "She eats meat, but does not eat 羊肉, mutton or lamb.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0096"
+      ],
+      "entryIds": [
+        "e-p0026-065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-004",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does he want to learn?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "to drive"
+        },
+        {
+          "id": "o2",
+          "text": "to read Chinese books"
+        },
+        {
+          "id": "o3",
+          "text": "to grow tea"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学开车 means learn to drive.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0097"
+      ],
+      "entryIds": [
+        "e-p0026-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-005",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does she really like doing?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "reading books in Chinese"
+        },
+        {
+          "id": "o2",
+          "text": "driving to Beijing"
+        },
+        {
+          "id": "o3",
+          "text": "eating lamb"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "爱看中文书 means like reading books written in Chinese.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0098"
+      ],
+      "entryIds": [
+        "e-p0026-067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-006",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 常 contribute to 我常去北京。?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "often"
+        },
+        {
+          "id": "o2",
+          "text": "never"
+        },
+        {
+          "id": "o3",
+          "text": "yesterday"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "常 expresses frequency: I often go to Beijing.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0099"
+      ],
+      "entryIds": [
+        "e-p0026-068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-007",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete “He wants to learn to drive”: 他要＿开车。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "学"
+        },
+        {
+          "id": "o2",
+          "text": "吃"
+        },
+        {
+          "id": "o3",
+          "text": "报"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学 means learn; 学开车 means learn to drive.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0097"
+      ],
+      "entryIds": [
+        "e-p0026-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-008",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means learn or study?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "学"
+        },
+        {
+          "id": "o2",
+          "text": "车"
+        },
+        {
+          "id": "o3",
+          "text": "肉"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学 means learn or study.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0066"
+      ],
+      "entryIds": [
+        "e-p0026-046"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-009",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the city.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Guangzhou"
+        },
+        {
+          "id": "o2",
+          "text": "Shanghai"
+        },
+        {
+          "id": "o3",
+          "text": "Lhasa"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "广州 is Guǎngzhōu, Guangzhou.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0094"
+      ],
+      "entryIds": [
+        "e-p0026-063"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      },
+      "speechTarget": "广州"
+    },
+    {
+      "id": "q-p0026-010",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我常去北京。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-010-o1",
+          "text": "I often go to Beijing."
+        },
+        {
+          "id": "q-p0026-010-o2",
+          "text": "Mum eats meat, but she does not eat mutton or lamb."
+        },
+        {
+          "id": "q-p0026-010-o3",
+          "text": "He wants to learn to drive."
+        }
+      ],
+      "correctOptionId": "q-p0026-010-o1",
+      "explanation": "「我常去北京。」 (wǒ cháng qù Běijīng) means \"I often go to Beijing.\". 常 comes before 去 and expresses frequency.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0099"
+      ],
+      "entryIds": [
+        "e-p0026-068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-011",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 羊肉 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-011-o1",
+          "text": "eat mutton or lamb"
+        },
+        {
+          "id": "q-p0026-011-o2",
+          "text": "Shanghai"
+        },
+        {
+          "id": "q-p0026-011-o3",
+          "text": "mutton; lamb (meat)"
+        }
+      ],
+      "correctOptionId": "q-p0026-011-o3",
+      "explanation": "羊肉 (yángròu) means \"mutton; lamb (meat)\". Meat from a sheep.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0091"
+      ],
+      "entryIds": [
+        "e-p0026-060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-012",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"mutton; lamb (meat)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-012-o1",
+          "text": "上海"
+        },
+        {
+          "id": "q-p0026-012-o2",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0026-012-o3",
+          "text": "吃羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-012-o2",
+      "explanation": "\"mutton; lamb (meat)\" is 羊肉 (yángròu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0091"
+      ],
+      "entryIds": [
+        "e-p0026-060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-013",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"sān\" meaning \"three\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-013-o1",
+          "text": "三"
+        },
+        {
+          "id": "q-p0026-013-o2",
+          "text": "六"
+        },
+        {
+          "id": "q-p0026-013-o3",
+          "text": "四"
+        }
+      ],
+      "correctOptionId": "q-p0026-013-o1",
+      "explanation": "三 is pronounced sān and means \"three\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0001"
+      ],
+      "entryIds": [
+        "e-p0026-001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-014",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「妈妈吃肉，可是不____。」 (Mum eats meat, but she does not eat mutton or lamb.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-014-o1",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0026-014-o2",
+          "text": "上海"
+        },
+        {
+          "id": "q-p0026-014-o3",
+          "text": "吃羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-014-o3",
+      "explanation": "The missing word is 吃羊肉 (chī yángròu, \"eat mutton or lamb\"), completing 「妈妈吃肉，可是不吃羊肉。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0096"
+      ],
+      "entryIds": [
+        "e-p0026-065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-015",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-015-o1",
+          "text": "上海"
+        },
+        {
+          "id": "q-p0026-015-o2",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0026-015-o3",
+          "text": "吃羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-015-o2",
+      "explanation": "The audio speaks 羊肉 (yángròu), meaning \"mutton; lamb (meat)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0091"
+      ],
+      "entryIds": [
+        "e-p0026-060"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "羊肉",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-016",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 羊肉?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-016-o1",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0026-016-o2",
+          "text": "eat mutton or lamb"
+        },
+        {
+          "id": "q-p0026-016-o3",
+          "text": "Shanghai"
+        }
+      ],
+      "correctOptionId": "q-p0026-016-o1",
+      "explanation": "羊肉 (yángròu) means \"mutton; lamb (meat)\". Meat from a sheep.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0091"
+      ],
+      "entryIds": [
+        "e-p0026-060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-017",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 吃羊肉 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-017-o1",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0026-017-o2",
+          "text": "Shanghai"
+        },
+        {
+          "id": "q-p0026-017-o3",
+          "text": "eat mutton or lamb"
+        }
+      ],
+      "correctOptionId": "q-p0026-017-o3",
+      "explanation": "吃羊肉 (chī yángròu) means \"eat mutton or lamb\". 吃 is followed by the food.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0092"
+      ],
+      "entryIds": [
+        "e-p0026-061"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-018",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"eat mutton or lamb\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-018-o1",
+          "text": "上海"
+        },
+        {
+          "id": "q-p0026-018-o2",
+          "text": "吃羊肉"
+        },
+        {
+          "id": "q-p0026-018-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-018-o2",
+      "explanation": "\"eat mutton or lamb\" is 吃羊肉 (chī yángròu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0092"
+      ],
+      "entryIds": [
+        "e-p0026-061"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-019",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"liù\" meaning \"six\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-019-o1",
+          "text": "六"
+        },
+        {
+          "id": "q-p0026-019-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0026-019-o3",
+          "text": "四"
+        }
+      ],
+      "correctOptionId": "q-p0026-019-o1",
+      "explanation": "六 is pronounced liù and means \"six\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0002"
+      ],
+      "entryIds": [
+        "e-p0026-002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-020",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「她很爱看____书。」 (She really likes reading books in Chinese.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-020-o1",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0026-020-o2",
+          "text": "吃羊肉"
+        },
+        {
+          "id": "q-p0026-020-o3",
+          "text": "中文"
+        }
+      ],
+      "correctOptionId": "q-p0026-020-o3",
+      "explanation": "The missing word is 中文 (Zhōngwén, \"Chinese (written language)\"), completing 「她很爱看中文书。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0098"
+      ],
+      "entryIds": [
+        "e-p0026-067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-021",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-021-o1",
+          "text": "她很爱看中文书。"
+        },
+        {
+          "id": "q-p0026-021-o2",
+          "text": "妈妈吃肉，可是不吃羊肉。"
+        },
+        {
+          "id": "q-p0026-021-o3",
+          "text": "他要学开车。"
+        }
+      ],
+      "correctOptionId": "q-p0026-021-o2",
+      "explanation": "The audio speaks 妈妈吃肉，可是不吃羊肉。 (māma chī ròu, kěshì bù chī yángròu), meaning \"Mum eats meat, but she does not eat mutton or lamb.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0096"
+      ],
+      "entryIds": [
+        "e-p0026-065"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "妈妈吃肉，可是不吃羊肉。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-022",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 吃羊肉?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-022-o1",
+          "text": "eat mutton or lamb"
+        },
+        {
+          "id": "q-p0026-022-o2",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0026-022-o3",
+          "text": "Shanghai"
+        }
+      ],
+      "correctOptionId": "q-p0026-022-o1",
+      "explanation": "吃羊肉 (chī yángròu) means \"eat mutton or lamb\". 吃 is followed by the food.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0092"
+      ],
+      "entryIds": [
+        "e-p0026-061"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-023",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 广州 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-023-o1",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0026-023-o2",
+          "text": "eat mutton or lamb"
+        },
+        {
+          "id": "q-p0026-023-o3",
+          "text": "Guangzhou"
+        }
+      ],
+      "correctOptionId": "q-p0026-023-o3",
+      "explanation": "广州 (Guǎngzhōu) means \"Guangzhou\". A city name; keep it as a name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0094"
+      ],
+      "entryIds": [
+        "e-p0026-063"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-024",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Shanghai\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-024-o1",
+          "text": "吃羊肉"
+        },
+        {
+          "id": "q-p0026-024-o2",
+          "text": "上海"
+        },
+        {
+          "id": "q-p0026-024-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-024-o2",
+      "explanation": "\"Shanghai\" is 上海 (Shànghǎi).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0093"
+      ],
+      "entryIds": [
+        "e-p0026-062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-025",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"sì\" meaning \"four\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-025-o1",
+          "text": "四"
+        },
+        {
+          "id": "q-p0026-025-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0026-025-o3",
+          "text": "六"
+        }
+      ],
+      "correctOptionId": "q-p0026-025-o1",
+      "explanation": "四 is pronounced sì and means \"four\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0003"
+      ],
+      "entryIds": [
+        "e-p0026-003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-026",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我常去____。」 (I often go to Beijing.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-026-o1",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0026-026-o2",
+          "text": "吃羊肉"
+        },
+        {
+          "id": "q-p0026-026-o3",
+          "text": "北京"
+        }
+      ],
+      "correctOptionId": "q-p0026-026-o3",
+      "explanation": "The missing word is 北京 (Běijīng, \"Beijing\"), completing 「我常去北京。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0099"
+      ],
+      "entryIds": [
+        "e-p0026-068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-027",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-027-o1",
+          "text": "四"
+        },
+        {
+          "id": "q-p0026-027-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0026-027-o3",
+          "text": "六"
+        }
+      ],
+      "correctOptionId": "q-p0026-027-o2",
+      "explanation": "The audio speaks 三 (sān), meaning \"three\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0001"
+      ],
+      "entryIds": [
+        "e-p0026-001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "三",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-028",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 上海?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-028-o1",
+          "text": "Shanghai"
+        },
+        {
+          "id": "q-p0026-028-o2",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0026-028-o3",
+          "text": "eat mutton or lamb"
+        }
+      ],
+      "correctOptionId": "q-p0026-028-o1",
+      "explanation": "上海 (Shànghǎi) means \"Shanghai\". A city name; keep it as a name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0093"
+      ],
+      "entryIds": [
+        "e-p0026-062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-029",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 拉萨 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-029-o1",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0026-029-o2",
+          "text": "eat mutton or lamb"
+        },
+        {
+          "id": "q-p0026-029-o3",
+          "text": "Lhasa"
+        }
+      ],
+      "correctOptionId": "q-p0026-029-o3",
+      "explanation": "拉萨 (Lāsà) means \"Lhasa\". The Mandarin name of Lhasa.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0095"
+      ],
+      "entryIds": [
+        "e-p0026-064"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-030",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Guangzhou\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-030-o1",
+          "text": "吃羊肉"
+        },
+        {
+          "id": "q-p0026-030-o2",
+          "text": "广州"
+        },
+        {
+          "id": "q-p0026-030-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-030-o2",
+      "explanation": "\"Guangzhou\" is 广州 (Guǎngzhōu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0094"
+      ],
+      "entryIds": [
+        "e-p0026-063"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-031",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"qī\" meaning \"seven\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-031-o1",
+          "text": "七"
+        },
+        {
+          "id": "q-p0026-031-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0026-031-o3",
+          "text": "六"
+        }
+      ],
+      "correctOptionId": "q-p0026-031-o1",
+      "explanation": "七 is pronounced qī and means \"seven\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0004"
+      ],
+      "entryIds": [
+        "e-p0026-004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-032",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 广州?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0026-032-o1",
+          "text": "mutton; lamb (meat)"
+        },
+        {
+          "id": "q-p0026-032-o2",
+          "text": "eat mutton or lamb"
+        },
+        {
+          "id": "q-p0026-032-o3",
+          "text": "Guangzhou"
+        }
+      ],
+      "correctOptionId": "q-p0026-032-o3",
+      "explanation": "广州 (Guǎngzhōu) means \"Guangzhou\". A city name; keep it as a name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0026-0094"
+      ],
+      "entryIds": [
+        "e-p0026-063"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

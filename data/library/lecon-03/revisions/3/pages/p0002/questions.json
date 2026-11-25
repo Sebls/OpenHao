@@ -1,0 +1,790 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 您 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "you (respectful singular)"
+        },
+        {
+          "id": "o2",
+          "text": "we"
+        },
+        {
+          "id": "o3",
+          "text": "they"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "您 is a respectful form of singular you.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0024"
+      ],
+      "entryIds": [
+        "e-p0002-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which character means busy?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "忙"
+        },
+        {
+          "id": "o2",
+          "text": "老"
+        },
+        {
+          "id": "o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "忙 máng means busy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0027"
+      ],
+      "entryIds": [
+        "e-p0002-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the written character for sell.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "卖"
+        },
+        {
+          "id": "o2",
+          "text": "买"
+        },
+        {
+          "id": "o3",
+          "text": "太"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "卖 mài is sell; 买 mǎi is buy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0032"
+      ],
+      "entryIds": [
+        "e-p0002-0023"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 相片儿 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "photograph"
+        },
+        {
+          "id": "o2",
+          "text": "notebook"
+        },
+        {
+          "id": "o3",
+          "text": "magazine"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "相片儿 is the northern rhotic form of 相片, photograph.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0044"
+      ],
+      "entryIds": [
+        "e-p0002-0029"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 哥哥 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "elder brother"
+        },
+        {
+          "id": "o2",
+          "text": "father"
+        },
+        {
+          "id": "o3",
+          "text": "younger sister"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "哥哥 gēge means elder brother; the second syllable is neutral.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Which pronunciation belongs to 大夫 meaning doctor?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "dàifu, with neutral fu"
+        },
+        {
+          "id": "o2",
+          "text": "dà fū, both full tones"
+        },
+        {
+          "id": "o3",
+          "text": "dǎifu, with third-tone 大"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "大 has the special dài reading in 大夫, and fu is neutral.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0014"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How is the noun 买卖 (business) pronounced?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "mǎimai, with neutral mai"
+        },
+        {
+          "id": "o2",
+          "text": "mǎi mài, both full lexical tones"
+        },
+        {
+          "id": "o3",
+          "text": "mài mǎi, sell then buy"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The noun meaning business has neutral mai; the separate verbs are 买 mǎi and 卖 mài.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0030"
+      ],
+      "entryIds": [
+        "e-p0002-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "买"
+        },
+        {
+          "id": "o2",
+          "text": "卖"
+        },
+        {
+          "id": "o3",
+          "text": "忙"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "买 is mǎi, buy; distinguish the fourth tone in 卖 mài.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0029"
+      ],
+      "entryIds": [
+        "e-p0002-0021"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "买"
+    },
+    {
+      "id": "q-p0002-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 可是 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-009-o1",
+          "text": "elder brother"
+        },
+        {
+          "id": "q-p0002-009-o2",
+          "text": "but; however"
+        },
+        {
+          "id": "q-p0002-009-o3",
+          "text": "doctor"
+        }
+      ],
+      "correctOptionId": "q-p0002-009-o2",
+      "explanation": "可是 (kěshì) means \"but; however\". Connects two contrasting statements.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-010",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"but; however\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-010-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0002-010-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0002-010-o3",
+          "text": "哥哥"
+        }
+      ],
+      "correctOptionId": "q-p0002-010-o1",
+      "explanation": "\"but; however\" is 可是 (kěshì).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-011",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"duō\" meaning \"many; much\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-011-o1",
+          "text": "夕"
+        },
+        {
+          "id": "q-p0002-011-o2",
+          "text": "可"
+        },
+        {
+          "id": "q-p0002-011-o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "q-p0002-011-o3",
+      "explanation": "多 is pronounced duō and means \"many; much\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-012",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-012-o1",
+          "text": "哥哥"
+        },
+        {
+          "id": "q-p0002-012-o2",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0002-012-o3",
+          "text": "大夫"
+        }
+      ],
+      "correctOptionId": "q-p0002-012-o2",
+      "explanation": "The audio speaks 可是 (kěshì), meaning \"but; however\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "可是",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-013",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 可是?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-013-o1",
+          "text": "but; however"
+        },
+        {
+          "id": "q-p0002-013-o2",
+          "text": "doctor"
+        },
+        {
+          "id": "q-p0002-013-o3",
+          "text": "elder brother"
+        }
+      ],
+      "correctOptionId": "q-p0002-013-o1",
+      "explanation": "可是 (kěshì) means \"but; however\". Connects two contrasting statements.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-014",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 大夫 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-014-o1",
+          "text": "but; however"
+        },
+        {
+          "id": "q-p0002-014-o2",
+          "text": "elder brother"
+        },
+        {
+          "id": "q-p0002-014-o3",
+          "text": "doctor"
+        }
+      ],
+      "correctOptionId": "q-p0002-014-o3",
+      "explanation": "大夫 (dàifu) means \"doctor\". Special dài reading for 大; the second syllable fu is neutral. A surname comes before the title, as in 孙大夫 Dr Sun.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0014"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-015",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"doctor\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-015-o1",
+          "text": "哥哥"
+        },
+        {
+          "id": "q-p0002-015-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0002-015-o3",
+          "text": "可是"
+        }
+      ],
+      "correctOptionId": "q-p0002-015-o2",
+      "explanation": "\"doctor\" is 大夫 (dàifu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0014"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-016",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"xī\" meaning \"evening\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-016-o1",
+          "text": "夕"
+        },
+        {
+          "id": "q-p0002-016-o2",
+          "text": "多"
+        },
+        {
+          "id": "q-p0002-016-o3",
+          "text": "可"
+        }
+      ],
+      "correctOptionId": "q-p0002-016-o1",
+      "explanation": "夕 is pronounced xī and means \"evening\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-017",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-017-o1",
+          "text": "夕"
+        },
+        {
+          "id": "q-p0002-017-o2",
+          "text": "可"
+        },
+        {
+          "id": "q-p0002-017-o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "q-p0002-017-o3",
+      "explanation": "The audio speaks 多 (duō), meaning \"many; much\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "多",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-018",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 哥哥?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-018-o1",
+          "text": "doctor"
+        },
+        {
+          "id": "q-p0002-018-o2",
+          "text": "elder brother"
+        },
+        {
+          "id": "q-p0002-018-o3",
+          "text": "but; however"
+        }
+      ],
+      "correctOptionId": "q-p0002-018-o2",
+      "explanation": "哥哥 (gēge) means \"elder brother\". Neutral second syllable ge.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-019",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 买卖 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-019-o1",
+          "text": "business; trade"
+        },
+        {
+          "id": "q-p0002-019-o2",
+          "text": "but; however"
+        },
+        {
+          "id": "q-p0002-019-o3",
+          "text": "doctor"
+        }
+      ],
+      "correctOptionId": "q-p0002-019-o1",
+      "explanation": "买卖 (mǎimai) means \"business; trade\". Neutral mai in this noun. Compare 买 mǎi (buy) and 卖 mài (sell).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0030"
+      ],
+      "entryIds": [
+        "e-p0002-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-020",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"elder brother\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-020-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0002-020-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0002-020-o3",
+          "text": "哥哥"
+        }
+      ],
+      "correctOptionId": "q-p0002-020-o3",
+      "explanation": "\"elder brother\" is 哥哥 (gēge).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-021",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"kě\" meaning \"can; may; part of 可是 (but)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-021-o1",
+          "text": "夕"
+        },
+        {
+          "id": "q-p0002-021-o2",
+          "text": "可"
+        },
+        {
+          "id": "q-p0002-021-o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "q-p0002-021-o2",
+      "explanation": "可 is pronounced kě and means \"can; may; part of 可是 (but)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-022",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 相片?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0002-022-o1",
+          "text": "photograph"
+        },
+        {
+          "id": "q-p0002-022-o2",
+          "text": "but; however"
+        },
+        {
+          "id": "q-p0002-022-o3",
+          "text": "doctor"
+        }
+      ],
+      "correctOptionId": "q-p0002-022-o1",
+      "explanation": "相片 (xiàngpiàn) means \"photograph\". Read xiàng, fourth tone, in this word; 片 is also fourth tone.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0043"
+      ],
+      "entryIds": [
+        "e-p0002-0028"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

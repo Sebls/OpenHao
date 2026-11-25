@@ -1,0 +1,60 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "textSha256": "faf4b2e798e008338799d386475320a1de472c2d8d4f9c83e3ccba6ffa8425ce",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Gemini agent, separate self-review after authoring; not human or independent review",
+  "reviewedAt": "2026-11-24T10:23:24.748962+00:00",
+  "checks": [
+    "Compared original source.png render with Vision OCR transcript and geometry, including spread halves, reading order, and manual corrections.",
+    "Separate linguistic review checked tone-mark pinyin, broad Mandarin IPA (omitting uncertain/sentence/proper-name IPA), neutral tones (刀子, 哥哥, 太太, 先生, 工夫, 本子, 买卖), polyphonic readings (种 zhǒng, 音乐 yuè), and natural English translations.",
+    "Separate question review checked one defensible answer, distinct plausible distractors, explanations, and page-scoped sourceAnnotationIds.",
+    "Expanded reviewed question bank across page-scoped entries and annotations; verified distinct options, single correct option ID, and page-local sourceAnnotationIds."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 5; reviewed learning content with partial reference OCR. No coverage percentage is claimed.",
+    "roles": "Reviewed Exercise 12 dictionary/cultural items: antonyms (谦虚/骄傲, 屈服/抵抗), door signs (拉, 推), Three Goods, Four Modernizations, and Eight-Treasure Rice ingredients.",
+    "transcriptCodePoints": 1232,
+    "locatedRecords": 1153,
+    "manualCharacterBoxes": 1,
+    "entries": 16,
+    "entriesByKind": {
+      "word": 14,
+      "character": 2
+    },
+    "occurrences": 16,
+    "reviewedIPAEntries": 16,
+    "entriesWithoutReviewedIPA": 0,
+    "questions": 5,
+    "questionCategories": [
+      "en-to-zh",
+      "listening-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 0,
+    "multilineNote": "Separate line anchors for wrapped sentences where present; not applicable where count is zero.",
+    "reviewedQuestions": 24
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0005",
+      "reason": "Reference OCR remains partial for small French notes, faint tracing copies, and non-anchored grid/stroke diagrams.",
+      "nextAction": "Consult the unchanged original page for reference regions; keep uncertain OCR out of reviewed learning units and practice."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0005",
+      "reason": "0 entries omit IPA (sentences, names, or rhotic forms); all learning entries have reviewed tone-mark pinyin.",
+      "nextAction": "Leave IPA absent unless exact contextual transcription is reviewed."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0005",
+      "reason": "Listening questions require successful local browser playback; disconnected audible playback has not been independently verified.",
+      "nextAction": "Retain runtime gating on completed local playback."
+    }
+  ]
+}

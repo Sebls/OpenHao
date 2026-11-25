@@ -1,0 +1,1122 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 德国 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Germany"
+        },
+        {
+          "id": "o2",
+          "text": "friendship"
+        },
+        {
+          "id": "o3",
+          "text": "exercise"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "德国 (Déguó) means Germany.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means 'famous'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "有名"
+        },
+        {
+          "id": "o2",
+          "text": "友谊"
+        },
+        {
+          "id": "o3",
+          "text": "练习"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有名 (yǒumíng) means famous.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In '我很饿，我去买羊肉。', what is the speaker going to buy?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "mutton / lamb"
+        },
+        {
+          "id": "o2",
+          "text": "white jade"
+        },
+        {
+          "id": "o3",
+          "text": "a landscape painting"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "羊肉 (yángròu) means mutton or lamb.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What is a 火车头?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "locomotive"
+        },
+        {
+          "id": "o2",
+          "text": "knife blade"
+        },
+        {
+          "id": "o3",
+          "text": "older cousin"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "火车头 (huǒchētóu) means locomotive.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0019"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In '我会画火车头。', where does 什么 go to turn it into a question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "After 画: 你会画什么？"
+        },
+        {
+          "id": "o2",
+          "text": "Before 你: 什么你会画？"
+        },
+        {
+          "id": "o3",
+          "text": "At the very end after 吗: 你会画火车头吗？"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "In Chinese, question words like 什么 stay in the same position as the answer (after the verb 画).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0017"
+      ],
+      "entryIds": [
+        "e-p0004-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "这本书很有名。"
+        },
+        {
+          "id": "o2",
+          "text": "他不工作，他学法国文学。"
+        },
+        {
+          "id": "o3",
+          "text": "这是中国的白玉，这种玉很贵。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "这本书很有名 means 'This book is very famous.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "这本书很有名。"
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「这本书很有名。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-007-o1",
+          "text": "This book is very famous."
+        },
+        {
+          "id": "q-p0004-007-o2",
+          "text": "My older brother's girlfriend knows how to paint landscape paintings."
+        },
+        {
+          "id": "q-p0004-007-o3",
+          "text": "My mother is Chinese, but she cannot speak Mandarin."
+        }
+      ],
+      "correctOptionId": "q-p0004-007-o1",
+      "explanation": "「这本书很有名。」 (Zhè běn shū hěn yǒumíng.) means \"This book is very famous.\". 本 is the measure word for books (书).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 刀刃 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-008-o1",
+          "text": "older male cousin"
+        },
+        {
+          "id": "q-p0004-008-o2",
+          "text": "advisor; thesis supervisor"
+        },
+        {
+          "id": "q-p0004-008-o3",
+          "text": "knife blade; edge of a knife"
+        }
+      ],
+      "correctOptionId": "q-p0004-008-o3",
+      "explanation": "刀刃 (dāorèn) means \"knife blade; edge of a knife\". Combines 刀 (knife) and 刃 (blade edge).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"knife blade; edge of a knife\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-009-o1",
+          "text": "导师"
+        },
+        {
+          "id": "q-p0004-009-o2",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-009-o3",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "q-p0004-009-o2",
+      "explanation": "\"knife blade; edge of a knife\" is 刀刃 (dāorèn).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「这本书很____。」 (This book is very famous.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-010-o1",
+          "text": "有名"
+        },
+        {
+          "id": "q-p0004-010-o2",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-010-o3",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "q-p0004-010-o1",
+      "explanation": "The missing word is 有名 (yǒumíng, \"famous; well-known\"), completing 「这本书很有名。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-011",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-011-o1",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-011-o2",
+          "text": "导师"
+        },
+        {
+          "id": "q-p0004-011-o3",
+          "text": "刀刃"
+        }
+      ],
+      "correctOptionId": "q-p0004-011-o3",
+      "explanation": "The audio speaks 刀刃 (dāorèn), meaning \"knife blade; edge of a knife\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "刀刃",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-012",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 刀刃?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-012-o1",
+          "text": "advisor; thesis supervisor"
+        },
+        {
+          "id": "q-p0004-012-o2",
+          "text": "knife blade; edge of a knife"
+        },
+        {
+          "id": "q-p0004-012-o3",
+          "text": "older male cousin"
+        }
+      ],
+      "correctOptionId": "q-p0004-012-o2",
+      "explanation": "刀刃 (dāorèn) means \"knife blade; edge of a knife\". Combines 刀 (knife) and 刃 (blade edge).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-013",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我哥哥的女朋友会画山水画儿。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-013-o1",
+          "text": "My older brother's girlfriend knows how to paint landscape paintings."
+        },
+        {
+          "id": "q-p0004-013-o2",
+          "text": "This book is very famous."
+        },
+        {
+          "id": "q-p0004-013-o3",
+          "text": "My mother is Chinese, but she cannot speak Mandarin."
+        }
+      ],
+      "correctOptionId": "q-p0004-013-o1",
+      "explanation": "「我哥哥的女朋友会画山水画儿。」 (Wǒ gēge de nǚpéngyou huì huà shānshuǐhuàr.) means \"My older brother's girlfriend knows how to paint landscape paintings.\". 会 indicates an acquired artistic skill.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-014",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 表哥 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-014-o1",
+          "text": "knife blade; edge of a knife"
+        },
+        {
+          "id": "q-p0004-014-o2",
+          "text": "advisor; thesis supervisor"
+        },
+        {
+          "id": "q-p0004-014-o3",
+          "text": "older male cousin"
+        }
+      ],
+      "correctOptionId": "q-p0004-014-o3",
+      "explanation": "表哥 (biǎogē) means \"older male cousin\". Maternal or paternal aunt's son older than oneself.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-015",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"older male cousin\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-015-o1",
+          "text": "导师"
+        },
+        {
+          "id": "q-p0004-015-o2",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-015-o3",
+          "text": "刀刃"
+        }
+      ],
+      "correctOptionId": "q-p0004-015-o2",
+      "explanation": "\"older male cousin\" is 表哥 (biǎogē).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-016",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我哥哥的女朋友会画____。」 (My older brother's girlfriend knows how to paint landscape paintings.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-016-o1",
+          "text": "山水画儿"
+        },
+        {
+          "id": "q-p0004-016-o2",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-016-o3",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "q-p0004-016-o1",
+      "explanation": "The missing word is 山水画儿 (shānshuǐhuàr, \"landscape painting\"), completing 「我哥哥的女朋友会画山水画儿。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-017",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-017-o1",
+          "text": "这本书很有名。"
+        },
+        {
+          "id": "q-p0004-017-o2",
+          "text": "我妈妈是中国人，可是她不会说汉语。"
+        },
+        {
+          "id": "q-p0004-017-o3",
+          "text": "我哥哥的女朋友会画山水画儿。"
+        }
+      ],
+      "correctOptionId": "q-p0004-017-o3",
+      "explanation": "The audio speaks 我哥哥的女朋友会画山水画儿。 (Wǒ gēge de nǚpéngyou huì huà shānshuǐhuàr.), meaning \"My older brother's girlfriend knows how to paint landscape paintings.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0016"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我哥哥的女朋友会画山水画儿。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-018",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 表哥?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-018-o1",
+          "text": "advisor; thesis supervisor"
+        },
+        {
+          "id": "q-p0004-018-o2",
+          "text": "older male cousin"
+        },
+        {
+          "id": "q-p0004-018-o3",
+          "text": "knife blade; edge of a knife"
+        }
+      ],
+      "correctOptionId": "q-p0004-018-o2",
+      "explanation": "表哥 (biǎogē) means \"older male cousin\". Maternal or paternal aunt's son older than oneself.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-019",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我妈妈是中国人，可是她不会说汉语。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-019-o1",
+          "text": "My mother is Chinese, but she cannot speak Mandarin."
+        },
+        {
+          "id": "q-p0004-019-o2",
+          "text": "This book is very famous."
+        },
+        {
+          "id": "q-p0004-019-o3",
+          "text": "My older brother's girlfriend knows how to paint landscape paintings."
+        }
+      ],
+      "correctOptionId": "q-p0004-019-o1",
+      "explanation": "「我妈妈是中国人，可是她不会说汉语。」 (Wǒ māma shì Zhōngguórén, kěshì tā bú huì shuō Hànyǔ.) means \"My mother is Chinese, but she cannot speak Mandarin.\". Contrasts nationality with language ability.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-020",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 导师 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-020-o1",
+          "text": "knife blade; edge of a knife"
+        },
+        {
+          "id": "q-p0004-020-o2",
+          "text": "older male cousin"
+        },
+        {
+          "id": "q-p0004-020-o3",
+          "text": "advisor; thesis supervisor"
+        }
+      ],
+      "correctOptionId": "q-p0004-020-o3",
+      "explanation": "导师 (dǎoshī) means \"advisor; thesis supervisor\". 导 (guide) + 师 (teacher/master).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-021",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"advisor; thesis supervisor\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-021-o1",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-021-o2",
+          "text": "导师"
+        },
+        {
+          "id": "q-p0004-021-o3",
+          "text": "刀刃"
+        }
+      ],
+      "correctOptionId": "q-p0004-021-o2",
+      "explanation": "\"advisor; thesis supervisor\" is 导师 (dǎoshī).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-022",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我____是中国人，可是她不会说汉语。」 (My mother is Chinese, but she cannot speak Mandarin.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-022-o1",
+          "text": "妈妈"
+        },
+        {
+          "id": "q-p0004-022-o2",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-022-o3",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "q-p0004-022-o1",
+      "explanation": "The missing word is 妈妈 (māma, \"mom; mother\"), completing 「我妈妈是中国人，可是她不会说汉语。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-023",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 导师?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-023-o1",
+          "text": "knife blade; edge of a knife"
+        },
+        {
+          "id": "q-p0004-023-o2",
+          "text": "older male cousin"
+        },
+        {
+          "id": "q-p0004-023-o3",
+          "text": "advisor; thesis supervisor"
+        }
+      ],
+      "correctOptionId": "q-p0004-023-o3",
+      "explanation": "导师 (dǎoshī) means \"advisor; thesis supervisor\". 导 (guide) + 师 (teacher/master).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-024",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「王大夫是我哥哥的好朋友。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-024-o1",
+          "text": "My older brother's girlfriend knows how to paint landscape paintings."
+        },
+        {
+          "id": "q-p0004-024-o2",
+          "text": "Doctor Wang is my older brother's good friend."
+        },
+        {
+          "id": "q-p0004-024-o3",
+          "text": "This book is very famous."
+        }
+      ],
+      "correctOptionId": "q-p0004-024-o2",
+      "explanation": "「王大夫是我哥哥的好朋友。」 (Wáng dàifu shì wǒ gēge de hǎo péngyou.) means \"Doctor Wang is my older brother's good friend.\". 的 links multiple modifiers.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0014"
+      ],
+      "entryIds": [
+        "e-p0004-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-025",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 练习 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-025-o1",
+          "text": "exercise; to practice"
+        },
+        {
+          "id": "q-p0004-025-o2",
+          "text": "knife blade; edge of a knife"
+        },
+        {
+          "id": "q-p0004-025-o3",
+          "text": "older male cousin"
+        }
+      ],
+      "correctOptionId": "q-p0004-025-o1",
+      "explanation": "练习 (liànxí) means \"exercise; to practice\". Noun or verb meaning practice/exercise.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-026",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Germany\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-026-o1",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-026-o2",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-026-o3",
+          "text": "德国"
+        }
+      ],
+      "correctOptionId": "q-p0004-026-o3",
+      "explanation": "\"Germany\" is 德国 (Déguó).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-027",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我很饿，我去买____。」 (I am very hungry; I am going to buy mutton.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-027-o1",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-027-o2",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0004-027-o3",
+          "text": "刀刃"
+        }
+      ],
+      "correctOptionId": "q-p0004-027-o2",
+      "explanation": "The missing word is 羊肉 (yángròu, \"mutton; lamb\"), completing 「我很饿，我去买羊肉。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-028",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 德国?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-028-o1",
+          "text": "Germany"
+        },
+        {
+          "id": "q-p0004-028-o2",
+          "text": "knife blade; edge of a knife"
+        },
+        {
+          "id": "q-p0004-028-o3",
+          "text": "older male cousin"
+        }
+      ],
+      "correctOptionId": "q-p0004-028-o1",
+      "explanation": "德国 (Déguó) means \"Germany\". Country name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-029",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你会画什么？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-029-o1",
+          "text": "This book is very famous."
+        },
+        {
+          "id": "q-p0004-029-o2",
+          "text": "My older brother's girlfriend knows how to paint landscape paintings."
+        },
+        {
+          "id": "q-p0004-029-o3",
+          "text": "What can you draw?"
+        }
+      ],
+      "correctOptionId": "q-p0004-029-o3",
+      "explanation": "「你会画什么？」 (Nǐ huì huà shénme?) means \"What can you draw?\". 什么 sits in the object position after 画.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0017"
+      ],
+      "entryIds": [
+        "e-p0004-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-030",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 友谊 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-030-o1",
+          "text": "older male cousin"
+        },
+        {
+          "id": "q-p0004-030-o2",
+          "text": "friendship"
+        },
+        {
+          "id": "q-p0004-030-o3",
+          "text": "knife blade; edge of a knife"
+        }
+      ],
+      "correctOptionId": "q-p0004-030-o2",
+      "explanation": "友谊 (yǒuyì) means \"friendship\". Formal word for friendship.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0006"
+      ],
+      "entryIds": [
+        "e-p0004-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-031",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"exercise; to practice\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-031-o1",
+          "text": "练习"
+        },
+        {
+          "id": "q-p0004-031-o2",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-031-o3",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "q-p0004-031-o1",
+      "explanation": "\"exercise; to practice\" is 练习 (liànxí).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-032",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我会画____。」 (I can draw a locomotive.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-032-o1",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-032-o2",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-032-o3",
+          "text": "火车头"
+        }
+      ],
+      "correctOptionId": "q-p0004-032-o3",
+      "explanation": "The missing word is 火车头 (huǒchētóu, \"locomotive\"), completing 「我会画火车头。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0018"
+      ],
+      "entryIds": [
+        "e-p0004-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

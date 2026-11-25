@@ -1,0 +1,1071 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0007-001",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 王朝 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-001-o1",
+          "text": "dynasty"
+        },
+        {
+          "id": "q-p0007-001-o2",
+          "text": "prince"
+        },
+        {
+          "id": "q-p0007-001-o3",
+          "text": "king"
+        }
+      ],
+      "correctOptionId": "q-p0007-001-o1",
+      "explanation": "王朝 wángcháo means dynasty. 朝 is cháo here, not zhāo.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0009"
+      ],
+      "entryIds": [
+        "e-p0007-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-002",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose judge.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-002-o1",
+          "text": "法官"
+        },
+        {
+          "id": "q-p0007-002-o2",
+          "text": "王子"
+        },
+        {
+          "id": "q-p0007-002-o3",
+          "text": "学生"
+        }
+      ],
+      "correctOptionId": "q-p0007-002-o1",
+      "explanation": "法官 fǎguān is a judge.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0012"
+      ],
+      "entryIds": [
+        "e-p0007-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-003",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written character means lake?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-003-o1",
+          "text": "湖"
+        },
+        {
+          "id": "q-p0007-003-o2",
+          "text": "理"
+        },
+        {
+          "id": "q-p0007-003-o3",
+          "text": "草"
+        }
+      ],
+      "correctOptionId": "q-p0007-003-o1",
+      "explanation": "湖 hú means lake and has the water component on the left.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0105"
+      ],
+      "entryIds": [
+        "e-p0007-0069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-004",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is his name according to the answer?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-004-o1",
+          "text": "Tian Xi"
+        },
+        {
+          "id": "q-p0007-004-o2",
+          "text": "Wang You"
+        },
+        {
+          "id": "q-p0007-004-o3",
+          "text": "Li You"
+        }
+      ],
+      "correctOptionId": "q-p0007-004-o1",
+      "explanation": "The first clause rejects Wang You; the second gives Tian Xi as the name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0081"
+      ],
+      "entryIds": [
+        "e-p0007-0060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-005",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source vocabulary word meaning review: 复 __ 。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-005-o1",
+          "text": "习"
+        },
+        {
+          "id": "q-p0007-005-o2",
+          "text": "头"
+        },
+        {
+          "id": "q-p0007-005-o3",
+          "text": "子"
+        }
+      ],
+      "correctOptionId": "q-p0007-005-o1",
+      "explanation": "复习 fùxí means review material already studied.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0004"
+      ],
+      "entryIds": [
+        "e-p0007-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-006",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What kind of response does final 吗 invite?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-006-o1",
+          "text": "a yes/no answer about ability"
+        },
+        {
+          "id": "q-p0007-006-o2",
+          "text": "a personal name"
+        },
+        {
+          "id": "q-p0007-006-o3",
+          "text": "a number of people"
+        }
+      ],
+      "correctOptionId": "q-p0007-006-o1",
+      "explanation": "This asks whether the mother can speak French; 会说 is a natural affirmative response.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0059"
+      ],
+      "entryIds": [
+        "e-p0007-0048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-007",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which currency is 日元?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-007-o1",
+          "text": "Japanese yen"
+        },
+        {
+          "id": "q-p0007-007-o2",
+          "text": "Chinese yuan"
+        },
+        {
+          "id": "q-p0007-007-o3",
+          "text": "US dollar"
+        }
+      ],
+      "correctOptionId": "q-p0007-007-o1",
+      "explanation": "日元 rìyuán is the Japanese yen.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0014"
+      ],
+      "entryIds": [
+        "e-p0007-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-008",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which country is 古巴?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-008-o1",
+          "text": "Cuba"
+        },
+        {
+          "id": "q-p0007-008-o2",
+          "text": "Canada"
+        },
+        {
+          "id": "q-p0007-008-o3",
+          "text": "Mexico"
+        }
+      ],
+      "correctOptionId": "q-p0007-008-o1",
+      "explanation": "古巴 Gǔbā is a phonetic name for Cuba.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0127"
+      ],
+      "entryIds": [
+        "e-p0007-0084"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-009",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "How should 习和学 be understood in the names exercise?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-009-o1",
+          "text": "Xi Hexue, a personal name"
+        },
+        {
+          "id": "q-p0007-009-o2",
+          "text": "an instruction to study together"
+        },
+        {
+          "id": "q-p0007-009-o3",
+          "text": "the name of a country"
+        }
+      ],
+      "correctOptionId": "q-p0007-009-o1",
+      "explanation": "习 is the family name and 和学 is the given name in this list.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0123"
+      ],
+      "entryIds": [
+        "e-p0007-0082"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0007-010",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which country name do you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-010-o1",
+          "text": "加拿大"
+        },
+        {
+          "id": "q-p0007-010-o2",
+          "text": "古巴"
+        },
+        {
+          "id": "q-p0007-010-o3",
+          "text": "墨西哥"
+        }
+      ],
+      "correctOptionId": "q-p0007-010-o1",
+      "explanation": "The target is 加拿大 Jiānádà, Canada.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0135"
+      ],
+      "entryIds": [
+        "e-p0007-0092"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      },
+      "speechTarget": "加拿大"
+    },
+    {
+      "id": "q-p0007-011",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你的男朋友叫王友吗？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-011-o1",
+          "text": "I do not study Japanese."
+        },
+        {
+          "id": "q-p0007-011-o2",
+          "text": "Can your mother speak French?"
+        },
+        {
+          "id": "q-p0007-011-o3",
+          "text": "Is your boyfriend called Wang You?"
+        }
+      ],
+      "correctOptionId": "q-p0007-011-o3",
+      "explanation": "「你的男朋友叫王友吗？」 (Nǐ de nán péngyou jiào Wáng Yǒu ma?) means \"Is your boyfriend called Wang You?\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0040"
+      ],
+      "entryIds": [
+        "e-p0007-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-012",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 友好 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-012-o1",
+          "text": "beginning; start"
+        },
+        {
+          "id": "q-p0007-012-o2",
+          "text": "friendly; amicable"
+        },
+        {
+          "id": "q-p0007-012-o3",
+          "text": "review; revise lessons"
+        }
+      ],
+      "correctOptionId": "q-p0007-012-o2",
+      "explanation": "友好 (yǒuhǎo) means \"friendly; amicable\". Lexical third tones are written; the first rises before the second in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-013",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"friendly; amicable\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-013-o1",
+          "text": "友好"
+        },
+        {
+          "id": "q-p0007-013-o2",
+          "text": "复习"
+        },
+        {
+          "id": "q-p0007-013-o3",
+          "text": "开头"
+        }
+      ],
+      "correctOptionId": "q-p0007-013-o1",
+      "explanation": "\"friendly; amicable\" is 友好 (yǒuhǎo).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-014",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"yǒu\" meaning \"friend; friendly\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-014-o1",
+          "text": "好"
+        },
+        {
+          "id": "q-p0007-014-o2",
+          "text": "习"
+        },
+        {
+          "id": "q-p0007-014-o3",
+          "text": "友"
+        }
+      ],
+      "correctOptionId": "q-p0007-014-o3",
+      "explanation": "友 is pronounced yǒu and means \"friend; friendly\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0002"
+      ],
+      "entryIds": [
+        "e-p0007-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-015",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「你的____叫王友吗？」 (Is your boyfriend called Wang You?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-015-o1",
+          "text": "复习"
+        },
+        {
+          "id": "q-p0007-015-o2",
+          "text": "男朋友"
+        },
+        {
+          "id": "q-p0007-015-o3",
+          "text": "友好"
+        }
+      ],
+      "correctOptionId": "q-p0007-015-o2",
+      "explanation": "The missing word is 男朋友 (nán péngyou, \"boyfriend\"), completing 「你的男朋友叫王友吗？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0040"
+      ],
+      "entryIds": [
+        "e-p0007-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-016",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-016-o1",
+          "text": "友好"
+        },
+        {
+          "id": "q-p0007-016-o2",
+          "text": "复习"
+        },
+        {
+          "id": "q-p0007-016-o3",
+          "text": "开头"
+        }
+      ],
+      "correctOptionId": "q-p0007-016-o1",
+      "explanation": "The audio speaks 友好 (yǒuhǎo), meaning \"friendly; amicable\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "友好",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-017",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 友好?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-017-o1",
+          "text": "review; revise lessons"
+        },
+        {
+          "id": "q-p0007-017-o2",
+          "text": "beginning; start"
+        },
+        {
+          "id": "q-p0007-017-o3",
+          "text": "friendly; amicable"
+        }
+      ],
+      "correctOptionId": "q-p0007-017-o3",
+      "explanation": "友好 (yǒuhǎo) means \"friendly; amicable\". Lexical third tones are written; the first rises before the second in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-018",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我不学日文。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-018-o1",
+          "text": "Can your mother speak French?"
+        },
+        {
+          "id": "q-p0007-018-o2",
+          "text": "I do not study Japanese."
+        },
+        {
+          "id": "q-p0007-018-o3",
+          "text": "Is your boyfriend called Wang You?"
+        }
+      ],
+      "correctOptionId": "q-p0007-018-o2",
+      "explanation": "「我不学日文。」 (Wǒ bù xué Rìwén.) means \"I do not study Japanese.\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0051"
+      ],
+      "entryIds": [
+        "e-p0007-0043"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-019",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 复习 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-019-o1",
+          "text": "review; revise lessons"
+        },
+        {
+          "id": "q-p0007-019-o2",
+          "text": "friendly; amicable"
+        },
+        {
+          "id": "q-p0007-019-o3",
+          "text": "beginning; start"
+        }
+      ],
+      "correctOptionId": "q-p0007-019-o1",
+      "explanation": "复习 (fùxí) means \"review; revise lessons\". Go over material already studied.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0004"
+      ],
+      "entryIds": [
+        "e-p0007-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-020",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"review; revise lessons\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-020-o1",
+          "text": "友好"
+        },
+        {
+          "id": "q-p0007-020-o2",
+          "text": "开头"
+        },
+        {
+          "id": "q-p0007-020-o3",
+          "text": "复习"
+        }
+      ],
+      "correctOptionId": "q-p0007-020-o3",
+      "explanation": "\"review; revise lessons\" is 复习 (fùxí).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0004"
+      ],
+      "entryIds": [
+        "e-p0007-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-021",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"hǎo\" meaning \"good; well\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-021-o1",
+          "text": "习"
+        },
+        {
+          "id": "q-p0007-021-o2",
+          "text": "好"
+        },
+        {
+          "id": "q-p0007-021-o3",
+          "text": "友"
+        }
+      ],
+      "correctOptionId": "q-p0007-021-o2",
+      "explanation": "好 is pronounced hǎo and means \"good; well\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0003"
+      ],
+      "entryIds": [
+        "e-p0007-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-022",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我不学____。」 (I do not study Japanese.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-022-o1",
+          "text": "日文"
+        },
+        {
+          "id": "q-p0007-022-o2",
+          "text": "友好"
+        },
+        {
+          "id": "q-p0007-022-o3",
+          "text": "复习"
+        }
+      ],
+      "correctOptionId": "q-p0007-022-o1",
+      "explanation": "The missing word is 日文 (Rìwén, \"Japanese (language)\"), completing 「我不学日文。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0051"
+      ],
+      "entryIds": [
+        "e-p0007-0043"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-023",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-023-o1",
+          "text": "我不学日文。"
+        },
+        {
+          "id": "q-p0007-023-o2",
+          "text": "你妈妈会说法文吗？"
+        },
+        {
+          "id": "q-p0007-023-o3",
+          "text": "你的男朋友叫王友吗？"
+        }
+      ],
+      "correctOptionId": "q-p0007-023-o3",
+      "explanation": "The audio speaks 你的男朋友叫王友吗？ (Nǐ de nán péngyou jiào Wáng Yǒu ma?), meaning \"Is your boyfriend called Wang You?\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0040"
+      ],
+      "entryIds": [
+        "e-p0007-0036"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你的男朋友叫王友吗？",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-024",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 复习?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-024-o1",
+          "text": "beginning; start"
+        },
+        {
+          "id": "q-p0007-024-o2",
+          "text": "review; revise lessons"
+        },
+        {
+          "id": "q-p0007-024-o3",
+          "text": "friendly; amicable"
+        }
+      ],
+      "correctOptionId": "q-p0007-024-o2",
+      "explanation": "复习 (fùxí) means \"review; revise lessons\". Go over material already studied.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0004"
+      ],
+      "entryIds": [
+        "e-p0007-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-025",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你妈妈会说法文吗？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-025-o1",
+          "text": "Can your mother speak French?"
+        },
+        {
+          "id": "q-p0007-025-o2",
+          "text": "Is your boyfriend called Wang You?"
+        },
+        {
+          "id": "q-p0007-025-o3",
+          "text": "I do not study Japanese."
+        }
+      ],
+      "correctOptionId": "q-p0007-025-o1",
+      "explanation": "「你妈妈会说法文吗？」 (Nǐ māma huì shuō Fǎwén ma?) means \"Can your mother speak French?\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0059"
+      ],
+      "entryIds": [
+        "e-p0007-0048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-026",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 开头 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-026-o1",
+          "text": "friendly; amicable"
+        },
+        {
+          "id": "q-p0007-026-o2",
+          "text": "review; revise lessons"
+        },
+        {
+          "id": "q-p0007-026-o3",
+          "text": "beginning; start"
+        }
+      ],
+      "correctOptionId": "q-p0007-026-o3",
+      "explanation": "开头 (kāitóu) means \"beginning; start\". Here 头 has a full tone in the word meaning beginning.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0005"
+      ],
+      "entryIds": [
+        "e-p0007-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-027",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"beginning; start\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-027-o1",
+          "text": "复习"
+        },
+        {
+          "id": "q-p0007-027-o2",
+          "text": "开头"
+        },
+        {
+          "id": "q-p0007-027-o3",
+          "text": "友好"
+        }
+      ],
+      "correctOptionId": "q-p0007-027-o2",
+      "explanation": "\"beginning; start\" is 开头 (kāitóu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0005"
+      ],
+      "entryIds": [
+        "e-p0007-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-028",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"xí\" meaning \"practise; study\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-028-o1",
+          "text": "习"
+        },
+        {
+          "id": "q-p0007-028-o2",
+          "text": "友"
+        },
+        {
+          "id": "q-p0007-028-o3",
+          "text": "好"
+        }
+      ],
+      "correctOptionId": "q-p0007-028-o1",
+      "explanation": "习 is pronounced xí and means \"practise; study\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0006"
+      ],
+      "entryIds": [
+        "e-p0007-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-029",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「你____会说法文吗？」 (Can your mother speak French?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-029-o1",
+          "text": "友好"
+        },
+        {
+          "id": "q-p0007-029-o2",
+          "text": "复习"
+        },
+        {
+          "id": "q-p0007-029-o3",
+          "text": "妈妈"
+        }
+      ],
+      "correctOptionId": "q-p0007-029-o3",
+      "explanation": "The missing word is 妈妈 (māma, \"mum; mother\"), completing 「你妈妈会说法文吗？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0059"
+      ],
+      "entryIds": [
+        "e-p0007-0048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-030",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-030-o1",
+          "text": "习"
+        },
+        {
+          "id": "q-p0007-030-o2",
+          "text": "友"
+        },
+        {
+          "id": "q-p0007-030-o3",
+          "text": "好"
+        }
+      ],
+      "correctOptionId": "q-p0007-030-o2",
+      "explanation": "The audio speaks 友 (yǒu), meaning \"friend; friendly\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0002"
+      ],
+      "entryIds": [
+        "e-p0007-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "友",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

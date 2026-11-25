@@ -1,0 +1,66 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "c8820ac5ea5741d58ed2cda1e0bd5ecd96f7a6f9860a7cd9b061b0f587219fc1",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, separate self-review after authoring; not human or independent review",
+  "reviewedAt": "2026-11-24T10:11:59.716978+00:00",
+  "checks": [
+    "Compared all seven original source images with text and geometry, including handwritten character inventories, faint dialogue words, illustration-free page structure, source roles and reading order within each spread half.",
+    "Separate extraction review corrected missed characters, OCR-confused forms and merged-character boxes using individually inspected glyph bounds. Original PDF bytes remain unchanged.",
+    "Separate linguistic review checked 还 hái, 只 zhǐ, 长 cháng versus 厂长 zhǎng, standalone 都 dū versus sentence dōu, neutral suffixes in 名字/筷子/工夫/衣服/漂亮, rhotic 儿, 不 tone changes, permission 可以 versus ability 会, surname/title order and natural sentence translations.",
+    "Separate question review checked one defensible answer, distinct plausible distractors, explanation, selected-page source scope and stable source IDs. Listening remains gated by local playback.",
+    "Source-linked SVG diagnostics regenerated after final text/geometry edits. Same final character boxes checked over original source at page scale, enlarged corrected vocabulary/dialogue/memento regions and cropped-page vocabulary.",
+    "Browser reader/word/character/multiline and practice review follows this first validated local publication.",
+    "Expanded reviewed question bank across page-scoped entries and annotations; verified distinct options, single correct option ID, and page-local sourceAnnotationIds."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 2; reviewed learning content with partial reference OCR. No coverage percentage is claimed.",
+    "roles": "Principal 汉字名写那画语只用以 models and the printed compound examples, including 汉语/汉字, 名字/有名/名片, 画儿/山水画儿/画画儿/画报, language words and 可以. Intermediate stroke forms remain reference-only.",
+    "transcriptCodePoints": 1736,
+    "locatedRecords": 1456,
+    "manualCharacterBoxes": 2,
+    "learningLines": 28,
+    "entries": 36,
+    "entriesByKind": {
+      "character": 20,
+      "word": 16
+    },
+    "occurrences": 72,
+    "reviewedIPAEntries": 25,
+    "entriesWithoutReviewedIPA": 11,
+    "questions": 8,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 0,
+    "multilineNote": "Separate line anchors for wrapped reading/dialogue/memento on physical pages 3, 5 and 6; not applicable where count is zero.",
+    "reviewedQuestions": 24
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0002",
+      "reason": "Reference OCR remains partial or uncertain for small French/printed pinyin, faint tracing repetitions and incomplete stroke or historical diagrams. Reviewed learning regions are defined in coverage; extraction completeness is not claimed.",
+      "nextAction": "Consult the unchanged original page for reference regions; keep uncertain OCR out of reviewed learning units and practice."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0002",
+      "reason": "11 entries have no reviewed IPA, particularly sentences, names, rhotic and contextual-neutral readings. All learning entries have reviewed tone-mark pinyin.",
+      "nextAction": "Leave IPA absent until that exact contextual pronunciation can be reviewed."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0002",
+      "reason": "Listening questions require successful local browser playback; disconnected audible playback has not been independently verified.",
+      "nextAction": "Retain runtime gating on completed local playback; text study remains available."
+    }
+  ]
+}

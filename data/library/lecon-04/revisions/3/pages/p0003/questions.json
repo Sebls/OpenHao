@@ -1,0 +1,1207 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 筷子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "chopsticks"
+        },
+        {
+          "id": "o2",
+          "text": "spoon"
+        },
+        {
+          "id": "o3",
+          "text": "chair"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "筷子 kuàizi means chopsticks.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0128"
+      ],
+      "entryIds": [
+        "e-p0003-0067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means calligraphy?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "书法"
+        },
+        {
+          "id": "o2",
+          "text": "画报"
+        },
+        {
+          "id": "o3",
+          "text": "头巾"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "书法 shūfǎ is calligraphy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0157"
+      ],
+      "entryIds": [
+        "e-p0003-0073"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the character meaning still or also here.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "还"
+        },
+        {
+          "id": "o2",
+          "text": "那"
+        },
+        {
+          "id": "o3",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "还 is hái in these readings; huán is a different reading meaning return.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0009"
+      ],
+      "entryIds": [
+        "e-p0003-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is the speaker going to buy?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "pictures and a white headscarf"
+        },
+        {
+          "id": "o2",
+          "text": "a magazine and chopsticks"
+        },
+        {
+          "id": "o3",
+          "text": "a chair and a spoon"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "画儿 means pictures; 白头巾 is a white headscarf.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0348"
+      ],
+      "entryIds": [
+        "e-p0003-0123"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What can her mother draw or paint?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "landscapes and bamboo"
+        },
+        {
+          "id": "o2",
+          "text": "only horses"
+        },
+        {
+          "id": "o3",
+          "text": "business cards and magazines"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "会 expresses ability; 也 adds bamboo to the landscape painting.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0352"
+      ],
+      "entryIds": [
+        "e-p0003-0127"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source question: 我___看你的画报吗？",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "可以"
+        },
+        {
+          "id": "o2",
+          "text": "名字"
+        },
+        {
+          "id": "o3",
+          "text": "山水"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可以 asks permission: may I look at your illustrated magazine?",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0353"
+      ],
+      "entryIds": [
+        "e-p0003-0128"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 还 mean here?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "still"
+        },
+        {
+          "id": "o2",
+          "text": "return something"
+        },
+        {
+          "id": "o3",
+          "text": "only"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "还 hái before 不会 means still cannot; huán is another reading.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0357"
+      ],
+      "entryIds": [
+        "e-p0003-0132"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is the speaker asking?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "whether the storybook is yours"
+        },
+        {
+          "id": "o2",
+          "text": "whether you can write a book"
+        },
+        {
+          "id": "o3",
+          "text": "whether the picture is expensive"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "你的 means yours; the noun is understood from context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0355"
+      ],
+      "entryIds": [
+        "e-p0003-0130"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 有工夫 mean here?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "have time available"
+        },
+        {
+          "id": "o2",
+          "text": "know martial arts"
+        },
+        {
+          "id": "o3",
+          "text": "have a factory"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "工夫 gōngfu refers to available time in this lesson.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0052"
+      ],
+      "entryIds": [
+        "e-p0003-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "竹"
+        },
+        {
+          "id": "o2",
+          "text": "巾"
+        },
+        {
+          "id": "o3",
+          "text": "还"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "竹 is zhú, bamboo.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0011"
+      ],
+      "entryIds": [
+        "e-p0003-0008"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "竹"
+    },
+    {
+      "id": "q-p0003-011",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「这是你的名字吗？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-011-o1",
+          "text": "I am going to buy pictures and a white headscarf."
+        },
+        {
+          "id": "q-p0003-011-o2",
+          "text": "Chinese spoons are very attractive."
+        },
+        {
+          "id": "q-p0003-011-o3",
+          "text": "Is this your name?"
+        }
+      ],
+      "correctOptionId": "q-p0003-011-o3",
+      "explanation": "「这是你的名字吗？」 (Zhè shì nǐ de míngzi ma?) means \"Is this your name?\". Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0349"
+      ],
+      "entryIds": [
+        "e-p0003-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-012",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 贵姓 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-012-o1",
+          "text": "bamboo"
+        },
+        {
+          "id": "q-p0003-012-o2",
+          "text": "your surname (respectful question)"
+        },
+        {
+          "id": "q-p0003-012-o3",
+          "text": "headscarf"
+        }
+      ],
+      "correctOptionId": "q-p0003-012-o2",
+      "explanation": "贵姓 (guì xìng) means \"your surname (respectful question)\". Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-013",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"your surname (respectful question)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-013-o1",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-013-o2",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-013-o3",
+          "text": "竹子"
+        }
+      ],
+      "correctOptionId": "q-p0003-013-o1",
+      "explanation": "\"your surname (respectful question)\" is 贵姓 (guì xìng).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-014",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"guì\" meaning \"expensive; honourable\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-014-o1",
+          "text": "姓"
+        },
+        {
+          "id": "q-p0003-014-o2",
+          "text": "巾"
+        },
+        {
+          "id": "q-p0003-014-o3",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "q-p0003-014-o3",
+      "explanation": "贵 is pronounced guì and means \"expensive; honourable\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-015",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我去买画儿和白____。」 (I am going to buy pictures and a white headscarf.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-015-o1",
+          "text": "竹子"
+        },
+        {
+          "id": "q-p0003-015-o2",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-015-o3",
+          "text": "贵姓"
+        }
+      ],
+      "correctOptionId": "q-p0003-015-o2",
+      "explanation": "The missing word is 头巾 (tóujīn, \"headscarf\"), completing 「我去买画儿和白头巾。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0348"
+      ],
+      "entryIds": [
+        "e-p0003-0123"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-016",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-016-o1",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-016-o2",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-016-o3",
+          "text": "竹子"
+        }
+      ],
+      "correctOptionId": "q-p0003-016-o1",
+      "explanation": "The audio speaks 贵姓 (guì xìng), meaning \"your surname (respectful question)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "贵姓",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-017",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 贵姓?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-017-o1",
+          "text": "headscarf"
+        },
+        {
+          "id": "q-p0003-017-o2",
+          "text": "bamboo"
+        },
+        {
+          "id": "q-p0003-017-o3",
+          "text": "your surname (respectful question)"
+        }
+      ],
+      "correctOptionId": "q-p0003-017-o3",
+      "explanation": "贵姓 (guì xìng) means \"your surname (respectful question)\". Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-018",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「中国勺儿很好看。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-018-o1",
+          "text": "Is this your name?"
+        },
+        {
+          "id": "q-p0003-018-o2",
+          "text": "Chinese spoons are very attractive."
+        },
+        {
+          "id": "q-p0003-018-o3",
+          "text": "I am going to buy pictures and a white headscarf."
+        }
+      ],
+      "correctOptionId": "q-p0003-018-o2",
+      "explanation": "「中国勺儿很好看。」 (Zhōngguó sháor hěn hǎokàn.) means \"Chinese spoons are very attractive.\". Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0350"
+      ],
+      "entryIds": [
+        "e-p0003-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-019",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 头巾 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-019-o1",
+          "text": "headscarf"
+        },
+        {
+          "id": "q-p0003-019-o2",
+          "text": "your surname (respectful question)"
+        },
+        {
+          "id": "q-p0003-019-o3",
+          "text": "bamboo"
+        }
+      ],
+      "correctOptionId": "q-p0003-019-o1",
+      "explanation": "头巾 (tóujīn) means \"headscarf\". Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-020",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"headscarf\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-020-o1",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-020-o2",
+          "text": "竹子"
+        },
+        {
+          "id": "q-p0003-020-o3",
+          "text": "头巾"
+        }
+      ],
+      "correctOptionId": "q-p0003-020-o3",
+      "explanation": "\"headscarf\" is 头巾 (tóujīn).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-021",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"xìng\" meaning \"have the family name; surname\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-021-o1",
+          "text": "巾"
+        },
+        {
+          "id": "q-p0003-021-o2",
+          "text": "姓"
+        },
+        {
+          "id": "q-p0003-021-o3",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "q-p0003-021-o2",
+      "explanation": "姓 is pronounced xìng and means \"have the family name; surname\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0004"
+      ],
+      "entryIds": [
+        "e-p0003-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-022",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「这是你的____吗？」 (Is this your name?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-022-o1",
+          "text": "名字"
+        },
+        {
+          "id": "q-p0003-022-o2",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-022-o3",
+          "text": "头巾"
+        }
+      ],
+      "correctOptionId": "q-p0003-022-o1",
+      "explanation": "The missing word is 名字 (míngzi, \"name\"), completing 「这是你的名字吗？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0349"
+      ],
+      "entryIds": [
+        "e-p0003-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-023",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese expression.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-023-o1",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-023-o2",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-023-o3",
+          "text": "有工夫"
+        }
+      ],
+      "correctOptionId": "q-p0003-023-o3",
+      "explanation": "The audio speaks 有工夫 (yǒu gōngfu), meaning \"have time available\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0052"
+      ],
+      "entryIds": [
+        "e-p0003-0036"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "有工夫",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-024",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 头巾?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-024-o1",
+          "text": "bamboo"
+        },
+        {
+          "id": "q-p0003-024-o2",
+          "text": "headscarf"
+        },
+        {
+          "id": "q-p0003-024-o3",
+          "text": "your surname (respectful question)"
+        }
+      ],
+      "correctOptionId": "q-p0003-024-o2",
+      "explanation": "头巾 (tóujīn) means \"headscarf\". Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-025",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你们还很忙吗？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-025-o1",
+          "text": "Are you still very busy?"
+        },
+        {
+          "id": "q-p0003-025-o2",
+          "text": "I am going to buy pictures and a white headscarf."
+        },
+        {
+          "id": "q-p0003-025-o3",
+          "text": "Is this your name?"
+        }
+      ],
+      "correctOptionId": "q-p0003-025-o1",
+      "explanation": "「你们还很忙吗？」 (Nǐmen hái hěn máng ma?) means \"Are you still very busy?\". Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0351"
+      ],
+      "entryIds": [
+        "e-p0003-0126"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-026",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 竹子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-026-o1",
+          "text": "your surname (respectful question)"
+        },
+        {
+          "id": "q-p0003-026-o2",
+          "text": "headscarf"
+        },
+        {
+          "id": "q-p0003-026-o3",
+          "text": "bamboo"
+        }
+      ],
+      "correctOptionId": "q-p0003-026-o3",
+      "explanation": "竹子 (zhúzi) means \"bamboo\". Neutral noun suffix zi.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-027",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"bamboo\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-027-o1",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-027-o2",
+          "text": "竹子"
+        },
+        {
+          "id": "q-p0003-027-o3",
+          "text": "贵姓"
+        }
+      ],
+      "correctOptionId": "q-p0003-027-o2",
+      "explanation": "\"bamboo\" is 竹子 (zhúzi).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-028",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"jīn\" meaning \"cloth; scarf (lexical character)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-028-o1",
+          "text": "巾"
+        },
+        {
+          "id": "q-p0003-028-o2",
+          "text": "贵"
+        },
+        {
+          "id": "q-p0003-028-o3",
+          "text": "姓"
+        }
+      ],
+      "correctOptionId": "q-p0003-028-o1",
+      "explanation": "巾 is pronounced jīn and means \"cloth; scarf (lexical character)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0005"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-029",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「中国勺儿很____。」 (Chinese spoons are very attractive.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-029-o1",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-029-o2",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-029-o3",
+          "text": "好看"
+        }
+      ],
+      "correctOptionId": "q-p0003-029-o3",
+      "explanation": "The missing word is 好看 (hǎokàn, \"good-looking; nice to look at; enjoyable to read\"), completing 「中国勺儿很好看。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0350"
+      ],
+      "entryIds": [
+        "e-p0003-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-030",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-030-o1",
+          "text": "中国勺儿很好看。"
+        },
+        {
+          "id": "q-p0003-030-o2",
+          "text": "我去买画儿和白头巾。"
+        },
+        {
+          "id": "q-p0003-030-o3",
+          "text": "这是你的名字吗？"
+        }
+      ],
+      "correctOptionId": "q-p0003-030-o2",
+      "explanation": "The audio speaks 我去买画儿和白头巾。 (Wǒ qù mǎi huàr hé bái tóujīn.), meaning \"I am going to buy pictures and a white headscarf.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0348"
+      ],
+      "entryIds": [
+        "e-p0003-0123"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我去买画儿和白头巾。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-031",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 竹子?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-031-o1",
+          "text": "bamboo"
+        },
+        {
+          "id": "q-p0003-031-o2",
+          "text": "your surname (respectful question)"
+        },
+        {
+          "id": "q-p0003-031-o3",
+          "text": "headscarf"
+        }
+      ],
+      "correctOptionId": "q-p0003-031-o1",
+      "explanation": "竹子 (zhúzi) means \"bamboo\". Neutral noun suffix zi.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-032",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我可以看你的画报吗？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-032-o1",
+          "text": "I am going to buy pictures and a white headscarf."
+        },
+        {
+          "id": "q-p0003-032-o2",
+          "text": "Is this your name?"
+        },
+        {
+          "id": "q-p0003-032-o3",
+          "text": "May I look at your illustrated magazine?"
+        }
+      ],
+      "correctOptionId": "q-p0003-032-o3",
+      "explanation": "「我可以看你的画报吗？」 (Wǒ kěyǐ kàn nǐ de huàbào ma?) means \"May I look at your illustrated magazine?\". Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0353"
+      ],
+      "entryIds": [
+        "e-p0003-0128"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-033",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 汉语 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-033-o1",
+          "text": "headscarf"
+        },
+        {
+          "id": "q-p0003-033-o2",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0003-033-o3",
+          "text": "your surname (respectful question)"
+        }
+      ],
+      "correctOptionId": "q-p0003-033-o2",
+      "explanation": "汉语 (Hànyǔ) means \"Chinese (language)\". A language name; distinguish 汉字 (written Chinese character).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0016"
+      ],
+      "entryIds": [
+        "e-p0003-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-034",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Chinese (language)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-034-o1",
+          "text": "汉语"
+        },
+        {
+          "id": "q-p0003-034-o2",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-034-o3",
+          "text": "头巾"
+        }
+      ],
+      "correctOptionId": "q-p0003-034-o1",
+      "explanation": "\"Chinese (language)\" is 汉语 (Hànyǔ).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0016"
+      ],
+      "entryIds": [
+        "e-p0003-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}
