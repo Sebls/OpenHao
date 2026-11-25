@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0008",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0008-001",
+      "pageId": "p0008",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我想去超市买东西。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "I want to go to the supermarket to buy things."
+        },
+        {
+          "id": "o1",
+          "text": "I take a taxi to the supermarket."
+        },
+        {
+          "id": "o2",
+          "text": "My brother does not want to rest."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我想 (I want) + 去超市 (to go to the supermarket) + 买东西 (to buy things).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0008-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0008-002",
+      "pageId": "p0008",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the question: 我们___去？ (How are we going?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "怎么"
+        },
+        {
+          "id": "o1",
+          "text": "什么"
+        },
+        {
+          "id": "o2",
+          "text": "几"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "怎么 (zěnme) is placed before a verb to ask 'how'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0008-0069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0008-003",
+      "pageId": "p0008",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 坐出租车 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "to take a taxi"
+        },
+        {
+          "id": "o1",
+          "text": "to eat dinner"
+        },
+        {
+          "id": "o2",
+          "text": "to go to the night market"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "坐 means 'to ride/take' and 出租车 means 'taxi'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0008-0058"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0008-004",
+      "pageId": "p0008",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which sentence means 'My older brother does not want to rest.'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我哥哥不想休息。"
+        },
+        {
+          "id": "o1",
+          "text": "我想去超市。"
+        },
+        {
+          "id": "o2",
+          "text": "她怎么去夜市？"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我哥哥 (my older brother) + 不想 (does not want) + 休息 (to rest).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0008-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0008-005",
+      "pageId": "p0008",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我们怎么去？"
+        },
+        {
+          "id": "o1",
+          "text": "她怎么去夜市？"
+        },
+        {
+          "id": "o2",
+          "text": "我想去超市。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我们怎么去？ means 'How are we going?'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0008-0069"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我们怎么去？"
+    }
+  ]
+}

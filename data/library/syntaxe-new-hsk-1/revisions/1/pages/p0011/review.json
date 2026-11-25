@@ -1,0 +1,39 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0011",
+  "extractionRevision": 1,
+  "textSha256": "94b8cd3d58c5be8116d475e6c811f452fbca77745ee4c5afcebf6ab83efdb929",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Antigravity agent, source comparison and separate linguistic/question review",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "header, footer, and decorative seals",
+      "reason": "Repeated page header (学而时习之), footer (自强不息，厚德载物), and red decorative seals are excluded from teaching annotations.",
+      "nextAction": "No action needed for study; decorative seals remain outside practice."
+    },
+    {
+      "severity": "info",
+      "reason": "Sentence-level IPA is omitted; reviewed word-level and character-level IPA and tone-mark pinyin cover all annotated learning units.",
+      "nextAction": "Use word and character details for IPA guidance."
+    }
+  ],
+  "checks": [
+    "Compared extracted text.txt and layout.json against rendered source.png",
+    "Preserved original source text and Unicode code-point offsets exactly",
+    "Reviewed tone sandhi (3rd-tone sandhi, 不 bú/bù, 一 yì/yí), neutral tones, and contextual meanings",
+    "Verified single-choice questions have distinct options, one defensible answer, and same-page sourceAnnotationIds",
+    "Character boxes derived from MuPDF rawdict without line-box division"
+  ],
+  "coverage": {
+    "embeddedCharacters": 419,
+    "annotatedOccurrences": 124,
+    "entries": 85,
+    "dialogueSentences": 6,
+    "reviewedQuestions": 5,
+    "extractionScope": "Physical page 11 only",
+    "annotationScope": "All instructional Chinese sentences, grammar targets, words, and characters; repeated header/footer slogans and decorative seals excluded"
+  }
+}

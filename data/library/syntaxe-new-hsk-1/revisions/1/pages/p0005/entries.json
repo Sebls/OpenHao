@@ -1,0 +1,1908 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "entries": [
+    {
+      "id": "e-p0005-sent-001",
+      "kind": "sentence",
+      "form": "你叫什么名字？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "What is your name?",
+      "explanation": "Basic S + V + O question; 什么 stays in the object position.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ jiào shénme míngzi?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你叫什么名字？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "S + V + O"
+    },
+    {
+      "id": "e-p0005-char-001",
+      "kind": "character",
+      "form": "你",
+      "sourceLanguage": "zh-CN",
+      "meaning": "you (singular)",
+      "explanation": "Singular second-person pronoun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ni²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-002",
+      "kind": "character",
+      "form": "叫",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to be called; to call",
+      "explanation": "Used to state or ask someone's name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕjɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "叫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-word-001",
+      "kind": "word",
+      "form": "什么",
+      "sourceLanguage": "zh-CN",
+      "meaning": "what",
+      "explanation": "Interrogative pronoun placed in the position of the answer.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shénme",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂən³⁵ mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "什么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "pronoun"
+    },
+    {
+      "id": "e-p0005-char-003",
+      "kind": "character",
+      "form": "什",
+      "sourceLanguage": "zh-CN",
+      "meaning": "what (in 什么)",
+      "explanation": "First character of 什么 (what).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "什",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-004",
+      "kind": "character",
+      "form": "么",
+      "sourceLanguage": "zh-CN",
+      "meaning": "interrogative/suffix particle",
+      "explanation": "Neutral-tone suffix in 什么, 怎么, 怎么样.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "me",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-word-002",
+      "kind": "word",
+      "form": "名字",
+      "sourceLanguage": "zh-CN",
+      "meaning": "name",
+      "explanation": "Refers to a person's full name or given name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "míngzi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[miŋ³⁵ tsɿ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "名字",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0005-char-005",
+      "kind": "character",
+      "form": "名",
+      "sourceLanguage": "zh-CN",
+      "meaning": "name; given name",
+      "explanation": "Used in 名字 (name) and 第一名 (first place).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "míng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[miŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "名",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-006",
+      "kind": "character",
+      "form": "字",
+      "sourceLanguage": "zh-CN",
+      "meaning": "character; word",
+      "explanation": "Refers to a written Chinese character.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsʅ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "字",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-002",
+      "kind": "sentence",
+      "form": "我叫白家月。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "My name is Bai Jiayue.",
+      "explanation": "Answers 你叫什么名字？ using the same S + V + O order.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ jiào Bái Jiāyuè.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我叫白家月。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "S + V + O"
+    },
+    {
+      "id": "e-p0005-char-007",
+      "kind": "character",
+      "form": "我",
+      "sourceLanguage": "zh-CN",
+      "meaning": "I; me",
+      "explanation": "First-person singular pronoun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wɔ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-word-003",
+      "kind": "word",
+      "form": "白家月",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Bai Jiayue (person's name)",
+      "explanation": "A Chinese personal name (surname 白 + given name 家月).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Bái Jiāyuè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[paɪ³⁵ tɕja⁵⁵ ɥɛ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "白家月",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "proper noun"
+    },
+    {
+      "id": "e-p0005-char-008",
+      "kind": "character",
+      "form": "白",
+      "sourceLanguage": "zh-CN",
+      "meaning": "white; surname Bai",
+      "explanation": "Used here as the surname Bai in 白家月.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bái",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[paɪ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "白",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-009",
+      "kind": "character",
+      "form": "家",
+      "sourceLanguage": "zh-CN",
+      "meaning": "home; family",
+      "explanation": "Means home or family; also a measure word for establishments (一家电影院).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕja⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "家",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-010",
+      "kind": "character",
+      "form": "月",
+      "sourceLanguage": "zh-CN",
+      "meaning": "month; moon",
+      "explanation": "Means month or moon; also used in the given name 白家月.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yuè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɥɛ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "月",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-003",
+      "kind": "sentence",
+      "form": "我是老师。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "I am a teacher.",
+      "explanation": "是 links the subject 我 to the noun 老师.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ shì lǎoshī.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我是老师。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "S + 是 + O"
+    },
+    {
+      "id": "e-p0005-char-011",
+      "kind": "character",
+      "form": "是",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to be",
+      "explanation": "Links a subject to a noun or noun phrase.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂʅ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-word-004",
+      "kind": "word",
+      "form": "老师",
+      "sourceLanguage": "zh-CN",
+      "meaning": "teacher",
+      "explanation": "Common respectful title and noun for teacher.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǎoshī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lɑʊ²¹⁴ ʂʅ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "老师",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0005-char-012",
+      "kind": "character",
+      "form": "老",
+      "sourceLanguage": "zh-CN",
+      "meaning": "old; experienced",
+      "explanation": "Used respectfully in 老师 (teacher).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "老",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-013",
+      "kind": "character",
+      "form": "师",
+      "sourceLanguage": "zh-CN",
+      "meaning": "teacher; master",
+      "explanation": "Combined with 老 to form 老师 (teacher).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂʅ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "师",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-004",
+      "kind": "sentence",
+      "form": "我是法国人。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "I am French.",
+      "explanation": "Country name + 人 expresses nationality.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ shì Fǎguórén.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我是法国人。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "是 sentence"
+    },
+    {
+      "id": "e-p0005-word-005",
+      "kind": "word",
+      "form": "法国人",
+      "sourceLanguage": "zh-CN",
+      "meaning": "French person",
+      "explanation": "法国 (France) + 人 (person).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Fǎguórén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fa²¹⁴ kwɔ³⁵ ʐən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "法国人",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0005-char-014",
+      "kind": "character",
+      "form": "法",
+      "sourceLanguage": "zh-CN",
+      "meaning": "method; law; France",
+      "explanation": "Used in 语法 (grammar) and 法国 (France).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fa²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "法",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-015",
+      "kind": "character",
+      "form": "国",
+      "sourceLanguage": "zh-CN",
+      "meaning": "country; nation",
+      "explanation": "Combined with country roots, e.g., 法国 (France), 中国 (China).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kwɔ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-016",
+      "kind": "character",
+      "form": "人",
+      "sourceLanguage": "zh-CN",
+      "meaning": "person; people",
+      "explanation": "Combined with a country name to mean nationality (法国人).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "rén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʐən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "人",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-005",
+      "kind": "sentence",
+      "form": "她是中文老师。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "She is a Chinese teacher.",
+      "explanation": "中文 modifies 老师.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Tā shì Zhōngwén lǎoshī.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "她是中文老师。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "是 sentence"
+    },
+    {
+      "id": "e-p0005-char-017",
+      "kind": "character",
+      "form": "她",
+      "sourceLanguage": "zh-CN",
+      "meaning": "she; her",
+      "explanation": "Third-person singular feminine pronoun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰa⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "她",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-word-006",
+      "kind": "word",
+      "form": "中文",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Chinese language",
+      "explanation": "Refers to the Chinese language (spoken or written).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngwén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʊŋ⁵⁵ wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0005-char-018",
+      "kind": "character",
+      "form": "中",
+      "sourceLanguage": "zh-CN",
+      "meaning": "middle; China",
+      "explanation": "Used in 中文 (Chinese language) and 中国 (China).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʊŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-019",
+      "kind": "character",
+      "form": "文",
+      "sourceLanguage": "zh-CN",
+      "meaning": "language; writing",
+      "explanation": "Used in 中文 (Chinese language) and the name 李文.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-006",
+      "kind": "sentence",
+      "form": "我老师不是法国人。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "My teacher is not French.",
+      "explanation": "Negate 是 with 不 (pronounced bú before 4th-tone 是).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ lǎoshī bú shì Fǎguórén.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我老师不是法国人。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "不是 negation"
+    },
+    {
+      "id": "e-p0005-word-007",
+      "kind": "word",
+      "form": "不是",
+      "sourceLanguage": "zh-CN",
+      "meaning": "is not",
+      "explanation": "Negation of 是; 不 changes to 2nd tone (bú) before 4th-tone 是.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bú shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu³⁵ ʂʅ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "不是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "verb phrase"
+    },
+    {
+      "id": "e-p0005-char-020",
+      "kind": "character",
+      "form": "不",
+      "sourceLanguage": "zh-CN",
+      "meaning": "not; no",
+      "explanation": "Here 不 is pronounced in the 2nd tone (bú) because the following syllable has a 4th tone.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bú",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "不",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-007",
+      "kind": "sentence",
+      "form": "十四是十四。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Fourteen is fourteen.",
+      "explanation": "Classic tone-distinction practice for shí vs sì.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Shísì shì shísì.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "十四是十四。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "是 sentence"
+    },
+    {
+      "id": "e-p0005-word-008",
+      "kind": "word",
+      "form": "十四",
+      "sourceLanguage": "zh-CN",
+      "meaning": "fourteen",
+      "explanation": "十 (10) + 四 (4).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shísì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂʅ³⁵ sɿ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "十四",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "numeral"
+    },
+    {
+      "id": "e-p0005-char-021",
+      "kind": "character",
+      "form": "十",
+      "sourceLanguage": "zh-CN",
+      "meaning": "ten",
+      "explanation": "Number ten.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂʅ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "十",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-022",
+      "kind": "character",
+      "form": "四",
+      "sourceLanguage": "zh-CN",
+      "meaning": "four",
+      "explanation": "Number four.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "sì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[sɿ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "四",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-008",
+      "kind": "sentence",
+      "form": "十四不是四十。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Fourteen is not forty.",
+      "explanation": "Contrasts 14 (shísì) and 40 (sìshí).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Shísì bú shì sìshí.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "十四不是四十。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "不是 negation"
+    },
+    {
+      "id": "e-p0005-word-009",
+      "kind": "word",
+      "form": "四十",
+      "sourceLanguage": "zh-CN",
+      "meaning": "forty",
+      "explanation": "四 (4) + 十 (10).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "sìshí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[sɿ⁵¹ ʂʅ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "四十",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "numeral"
+    },
+    {
+      "id": "e-p0005-sent-009",
+      "kind": "sentence",
+      "form": "白家月的中文老师",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Bai Jiayue's Chinese teacher",
+      "explanation": "Possessive particle 的 links possessor and noun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Bái Jiāyuè de Zhōngwén lǎoshī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "白家月的中文老师",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Possessive 的"
+    },
+    {
+      "id": "e-p0005-char-023",
+      "kind": "character",
+      "form": "的",
+      "sourceLanguage": "zh-CN",
+      "meaning": "possessive/attributive particle",
+      "explanation": "Links a modifier or possessor to a noun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "de",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "的",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-010",
+      "kind": "sentence",
+      "form": "你的中文名字",
+      "sourceLanguage": "zh-CN",
+      "meaning": "your Chinese name",
+      "explanation": "的 marks possession ('your').",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐ de Zhōngwén míngzi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你的中文名字",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Possessive 的"
+    },
+    {
+      "id": "e-p0005-sent-011",
+      "kind": "sentence",
+      "form": "我老师的学生",
+      "sourceLanguage": "zh-CN",
+      "meaning": "my teacher's student",
+      "explanation": "的 links 我老师 to 学生.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒ lǎoshī de xuésheng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我老师的学生",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Possessive 的"
+    },
+    {
+      "id": "e-p0005-word-010",
+      "kind": "word",
+      "form": "学生",
+      "sourceLanguage": "zh-CN",
+      "meaning": "student",
+      "explanation": "Note the neutral tone on 生 (sheng).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xuésheng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥɛ³⁵ ʂəŋ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "学生",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0005-char-024",
+      "kind": "character",
+      "form": "学",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to study; to learn",
+      "explanation": "Used in 学生 (student), 学校 (school), 中文 (in 学中文).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xué",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥɛ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "学",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-025",
+      "kind": "character",
+      "form": "生",
+      "sourceLanguage": "zh-CN",
+      "meaning": "student; life; to be born",
+      "explanation": "Used in 学生 (student) and 生病 (to fall ill).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shēng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂəŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "生",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-012",
+      "kind": "sentence",
+      "form": "你同学的妈妈",
+      "sourceLanguage": "zh-CN",
+      "meaning": "your classmate's mom",
+      "explanation": "的 links 你同学 to 妈妈.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐ tóngxué de māma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你同学的妈妈",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Possessive 的"
+    },
+    {
+      "id": "e-p0005-word-011",
+      "kind": "word",
+      "form": "同学",
+      "sourceLanguage": "zh-CN",
+      "meaning": "classmate",
+      "explanation": "Literally 'study together'.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tóngxué",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰʊŋ³⁵ ɕɥɛ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "同学",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0005-char-026",
+      "kind": "character",
+      "form": "同",
+      "sourceLanguage": "zh-CN",
+      "meaning": "same; together",
+      "explanation": "Used in 同学 (classmate).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tóng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰʊŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "同",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-word-012",
+      "kind": "word",
+      "form": "妈妈",
+      "sourceLanguage": "zh-CN",
+      "meaning": "mom; mother",
+      "explanation": "Second syllable takes a neutral tone.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "māma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma⁵⁵ ma]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "妈妈",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0005-char-027",
+      "kind": "character",
+      "form": "妈",
+      "sourceLanguage": "zh-CN",
+      "meaning": "mom; mother",
+      "explanation": "Duplicated as 妈妈 (mom).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "妈",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-013",
+      "kind": "sentence",
+      "form": "你也很忙吗？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Are you also very busy?",
+      "explanation": "Adding 吗 at the end turns a statement into a yes-no question.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ yě hěn máng ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你也很忙吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "吗 question"
+    },
+    {
+      "id": "e-p0005-char-028",
+      "kind": "character",
+      "form": "也",
+      "sourceLanguage": "zh-CN",
+      "meaning": "also; too",
+      "explanation": "Placed before the verb or adjective to mean 'also'.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[jɛ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "也",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-029",
+      "kind": "character",
+      "form": "很",
+      "sourceLanguage": "zh-CN",
+      "meaning": "very",
+      "explanation": "Common degree adverb before adjectives (often unstressed 'quite/very').",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hěn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xən²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "很",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-030",
+      "kind": "character",
+      "form": "忙",
+      "sourceLanguage": "zh-CN",
+      "meaning": "busy",
+      "explanation": "Adjective meaning busy.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "máng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "忙",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-031",
+      "kind": "character",
+      "form": "吗",
+      "sourceLanguage": "zh-CN",
+      "meaning": "yes-no question particle",
+      "explanation": "Placed at the end of a statement to turn it into a yes-no question.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "吗",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-014",
+      "kind": "sentence",
+      "form": "你是他的中文老师吗？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Are you his Chinese teacher?",
+      "explanation": "Statement + 吗 forms a yes-no question.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ shì tā de Zhōngwén lǎoshī ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你是他的中文老师吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "吗 question"
+    },
+    {
+      "id": "e-p0005-char-032",
+      "kind": "character",
+      "form": "他",
+      "sourceLanguage": "zh-CN",
+      "meaning": "he; him",
+      "explanation": "Third-person singular masculine pronoun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰa⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "他",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-sent-015",
+      "kind": "sentence",
+      "form": "你有姐姐吗？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Do you have an older sister?",
+      "explanation": "Yes-no question with 有 and 吗.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ yǒu jiějie ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你有姐姐吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "吗 question"
+    },
+    {
+      "id": "e-p0005-char-033",
+      "kind": "character",
+      "form": "有",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to have; there is",
+      "explanation": "Expresses possession or existence; negated with 没 (没有).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[joʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "有",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-word-013",
+      "kind": "word",
+      "form": "姐姐",
+      "sourceLanguage": "zh-CN",
+      "meaning": "older sister",
+      "explanation": "Second syllable takes a neutral tone.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiějie",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕjɛ²¹⁴ tɕjɛ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "姐姐",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0005-char-034",
+      "kind": "character",
+      "form": "姐",
+      "sourceLanguage": "zh-CN",
+      "meaning": "older sister",
+      "explanation": "Duplicated as 姐姐 (older sister).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕjɛ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "姐",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-word-014",
+      "kind": "word",
+      "form": "第二课",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Lesson 2",
+      "explanation": "Ordinal prefix 第 + 二 (two) + 课 (lesson).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dì-èr kè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ti⁵¹ ɑɚ⁵¹ kʰɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "第二课",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun phrase"
+    },
+    {
+      "id": "e-p0005-char-035",
+      "kind": "character",
+      "form": "第",
+      "sourceLanguage": "zh-CN",
+      "meaning": "ordinal prefix",
+      "explanation": "Placed before a number to form an ordinal (e.g., 第一 'first').",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ti⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "第",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-036",
+      "kind": "character",
+      "form": "二",
+      "sourceLanguage": "zh-CN",
+      "meaning": "two",
+      "explanation": "Number two, used in counting, dates, and compound numbers.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "èr",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɑɚ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "二",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-char-037",
+      "kind": "character",
+      "form": "课",
+      "sourceLanguage": "zh-CN",
+      "meaning": "lesson; class",
+      "explanation": "Refers to a lesson in a textbook or a school class.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʰɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "课",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-word-015",
+      "kind": "word",
+      "form": "语法",
+      "sourceLanguage": "zh-CN",
+      "meaning": "grammar; syntax",
+      "explanation": "The rules and structure of a language.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǔfǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[y²¹⁴ fa²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "语法",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0005-char-038",
+      "kind": "character",
+      "form": "语",
+      "sourceLanguage": "zh-CN",
+      "meaning": "language; speech",
+      "explanation": "Used in words like 语法 (grammar) and 汉语 (Chinese language).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[y²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "语",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0005-word-016",
+      "kind": "word",
+      "form": "第三课",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Lesson 3",
+      "explanation": "Ordinal prefix 第 + 三 (three) + 课 (lesson).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dì-sān kè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ti⁵¹ san⁵⁵ kʰɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "第三课",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun phrase"
+    },
+    {
+      "id": "e-p0005-char-039",
+      "kind": "character",
+      "form": "三",
+      "sourceLanguage": "zh-CN",
+      "meaning": "three",
+      "explanation": "Number three.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "sān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[san⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "三",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    }
+  ]
+}

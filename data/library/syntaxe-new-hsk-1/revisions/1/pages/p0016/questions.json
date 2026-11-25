@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0016",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0016-001",
+      "pageId": "p0016",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "When negating a completed past action like 看了 ('watched'), what happens to 了?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Use 没看 and omit 了"
+        },
+        {
+          "id": "o1",
+          "text": "Keep 了 as 没看了"
+        },
+        {
+          "id": "o2",
+          "text": "Use 不看了"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "In Mandarin, past negation uses 没 + verb without aspectual 了 (e.g., 没看).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0016-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0016-002",
+      "pageId": "p0016",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 同学们都没听见老师说话。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "None of the classmates heard the teacher speak."
+        },
+        {
+          "id": "o1",
+          "text": "All of the classmates went to China."
+        },
+        {
+          "id": "o2",
+          "text": "We all know how to write Chinese characters now."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "都 + 没 + verb expresses 'none of them ...'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0016-0063"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0016-003",
+      "pageId": "p0016",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 我喜欢喝中国茶,还喜欢吃中国菜。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "I like drinking Chinese tea, and I also like eating Chinese food."
+        },
+        {
+          "id": "o1",
+          "text": "Teacher Wang is from Beijing, and Li Wen is also from Beijing."
+        },
+        {
+          "id": "o2",
+          "text": "I bought a new computer."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "喝中国茶 is 'drink Chinese tea', 还喜欢 is 'also like', and 吃中国菜 is 'eat Chinese food'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0016-0110"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0016-004",
+      "pageId": "p0016",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which separable verb means 'to sleep'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "睡觉"
+        },
+        {
+          "id": "o1",
+          "text": "下班"
+        },
+        {
+          "id": "o2",
+          "text": "生病"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "睡觉 (shuìjiào) is a separable verb-object compound meaning 'to sleep'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0016-0143"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0016-005",
+      "pageId": "p0016",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我们都会写汉字了。"
+        },
+        {
+          "id": "o1",
+          "text": "我喜欢这个,也喜欢那个。"
+        },
+        {
+          "id": "o2",
+          "text": "我和我的朋友们都去了中国。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我们都会写汉字了。 means 'We all know how to write Chinese characters now.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0016-0040"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我们都会写汉字了。"
+    }
+  ]
+}

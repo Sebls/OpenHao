@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Which word is used to negate 有 ('to have')?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "没"
+        },
+        {
+          "id": "o1",
+          "text": "不"
+        },
+        {
+          "id": "o2",
+          "text": "呢"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "有 is always negated with 没 (没有), never with 不.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choose the correct word for 'two' before a measure word: ___本书 (two books)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "两"
+        },
+        {
+          "id": "o1",
+          "text": "二"
+        },
+        {
+          "id": "o2",
+          "text": "十"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Use 两 (liǎng) instead of 二 (èr) directly before a measure word like 本.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0117"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Which measure word is used to count family members in 四___人?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "口"
+        },
+        {
+          "id": "o1",
+          "text": "本"
+        },
+        {
+          "id": "o2",
+          "text": "个"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "口 (kǒu) is the dedicated measure word for counting members of a household/family.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0115"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我有两个哥哥，你呢？ mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "I have two older brothers, and you?"
+        },
+        {
+          "id": "o1",
+          "text": "I have two younger sisters, and you?"
+        },
+        {
+          "id": "o2",
+          "text": "I am Chinese, and you?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "哥哥 means older brother, 两 means two, and 你呢？ means 'and you?'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我是中国人，你呢？"
+        },
+        {
+          "id": "o1",
+          "text": "我叫白家月，你呢？"
+        },
+        {
+          "id": "o2",
+          "text": "我有妹妹"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我是中国人，你呢？ means 'I am Chinese, and you?'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-0045"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我是中国人，你呢？"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0012",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0012-001",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 这个杯子不贵,我很喜欢。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "This cup is not expensive; I like it a lot."
+        },
+        {
+          "id": "o1",
+          "text": "This dish is not very delicious; I don't like it."
+        },
+        {
+          "id": "o2",
+          "text": "My room is not big."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "杯子 is 'cup', 不贵 is 'not expensive', 我很喜欢 is 'I like it a lot'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0039"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0012-002",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In Mandarin, when an adjective is the predicate (e.g., 那个苹果好吃), do you use 是 ('to be')?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "No, use the adjective directly (or with 很/真/不)"
+        },
+        {
+          "id": "o1",
+          "text": "Yes, always put 是 before the adjective"
+        },
+        {
+          "id": "o2",
+          "text": "Only at the end of the sentence"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Adjectival predicates do not take 是; they take degree adverbs like 很 or 真, or negation 不.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0012-003",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the question: 这本书___? (How is this book?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "怎么样"
+        },
+        {
+          "id": "o1",
+          "text": "什么"
+        },
+        {
+          "id": "o2",
+          "text": "几号"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "怎么样 (zěnmeyàng) asks 'how is it?'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0052"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0012-004",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which spoken unit of Chinese currency equals 1 yuan?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "块"
+        },
+        {
+          "id": "o1",
+          "text": "毛"
+        },
+        {
+          "id": "o2",
+          "text": "分"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "块 (kuài) is the spoken unit for 1 yuan (formal 元).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0091"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0012-005",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我的房间不大。"
+        },
+        {
+          "id": "o1",
+          "text": "那个苹果好吃。"
+        },
+        {
+          "id": "o2",
+          "text": "很好看。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我的房间不大。 means 'My room is not big.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0012-0012"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我的房间不大。"
+    }
+  ]
+}

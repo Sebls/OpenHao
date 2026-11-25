@@ -1,0 +1,1781 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0014",
+  "extractionRevision": 1,
+  "entries": [
+    {
+      "id": "e-p0014-sent-001",
+      "kind": "sentence",
+      "form": "下雨了。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "It's raining.",
+      "explanation": "Subjectless weather sentence with modal 了 marking a new state.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Xiàyǔ le.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "下雨了。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Subjectless + 了"
+    },
+    {
+      "id": "e-p0014-word-001",
+      "kind": "word",
+      "form": "下雨",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to rain",
+      "explanation": "Verb-object compound.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiàyǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕja⁵¹ y²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "下雨",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "verb"
+    },
+    {
+      "id": "e-p0014-char-001",
+      "kind": "character",
+      "form": "下",
+      "sourceLanguage": "zh-CN",
+      "meaning": "down; under; next; finish",
+      "explanation": "Location ('under/below'), time (下午), or verb (下班 'finish work').",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xià",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕja⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "下",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-002",
+      "kind": "character",
+      "form": "雨",
+      "sourceLanguage": "zh-CN",
+      "meaning": "rain",
+      "explanation": "Noun meaning rain (下雨了 'it's raining').",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[y²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "雨",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-003",
+      "kind": "character",
+      "form": "了",
+      "sourceLanguage": "zh-CN",
+      "meaning": "modal / aspectual particle",
+      "explanation": "Marks a change of state (下雨了) or a completed action (看了).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "le",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "了",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-002",
+      "kind": "sentence",
+      "form": "下雪了。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "It's snowing.",
+      "explanation": "Subjectless weather sentence.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Xiàxuě le.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "下雪了。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Subjectless + 了"
+    },
+    {
+      "id": "e-p0014-word-002",
+      "kind": "word",
+      "form": "下雪",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to snow",
+      "explanation": "Verb-object compound.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiàxuě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕja⁵¹ ɕɥɛ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "下雪",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "verb"
+    },
+    {
+      "id": "e-p0014-char-004",
+      "kind": "character",
+      "form": "雪",
+      "sourceLanguage": "zh-CN",
+      "meaning": "snow",
+      "explanation": "Means snow (下雪了); also used in the given name 小雪.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xuě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥɛ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "雪",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-003",
+      "kind": "sentence",
+      "form": "上课了。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Class has started.",
+      "explanation": "Subjectless sentence marking a new situation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Shàngkè le.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "上课了。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Subjectless + 了"
+    },
+    {
+      "id": "e-p0014-word-003",
+      "kind": "word",
+      "form": "上课",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to attend class; class begins",
+      "explanation": "Separable verb-object compound.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shàngkè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɑŋ⁵¹ kʰɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "上课",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "verb"
+    },
+    {
+      "id": "e-p0014-char-005",
+      "kind": "character",
+      "form": "上",
+      "sourceLanguage": "zh-CN",
+      "meaning": "up; on; above; to attend",
+      "explanation": "Location ('on/above'), time (上午), or verb (上课 'attend class').",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shàng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɑŋ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "上",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-006",
+      "kind": "character",
+      "form": "课",
+      "sourceLanguage": "zh-CN",
+      "meaning": "lesson; class",
+      "explanation": "Refers to a lesson in a textbook or a school class.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʰɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "课",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-004",
+      "kind": "sentence",
+      "form": "真漂亮!",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Really pretty!",
+      "explanation": "Exclamatory subjectless phrase.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhēn piàoliang!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "真漂亮!",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Subjectless"
+    },
+    {
+      "id": "e-p0014-char-007",
+      "kind": "character",
+      "form": "真",
+      "sourceLanguage": "zh-CN",
+      "meaning": "really; truly",
+      "explanation": "Adverb meaning really (真不少, 真漂亮).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhēn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂən⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "真",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-word-004",
+      "kind": "word",
+      "form": "漂亮",
+      "sourceLanguage": "zh-CN",
+      "meaning": "pretty; beautiful",
+      "explanation": "Adjective meaning pretty.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "piàoliang",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰjɑʊ⁵¹ ljɑŋ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "漂亮",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "adjective"
+    },
+    {
+      "id": "e-p0014-char-008",
+      "kind": "character",
+      "form": "漂",
+      "sourceLanguage": "zh-CN",
+      "meaning": "pretty (in 漂亮)",
+      "explanation": "First character of 漂亮 (pretty).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "piào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰjɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "漂",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-009",
+      "kind": "character",
+      "form": "亮",
+      "sourceLanguage": "zh-CN",
+      "meaning": "bright",
+      "explanation": "Neutral tone in 漂亮 (pretty).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "liang",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ljɑŋ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "亮",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-005",
+      "kind": "sentence",
+      "form": "对不起!",
+      "sourceLanguage": "zh-CN",
+      "meaning": "I'm sorry!",
+      "explanation": "Fixed polite expression.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Duìbuqǐ!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "对不起!",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Expression"
+    },
+    {
+      "id": "e-p0014-word-005",
+      "kind": "word",
+      "form": "对不起",
+      "sourceLanguage": "zh-CN",
+      "meaning": "sorry; excuse me",
+      "explanation": "Standard apology.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "duìbuqǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tweɪ⁵¹ pu tɕʰi²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "对不起",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "expression"
+    },
+    {
+      "id": "e-p0014-char-010",
+      "kind": "character",
+      "form": "对",
+      "sourceLanguage": "zh-CN",
+      "meaning": "correct; toward",
+      "explanation": "Used in 对不起 (sorry).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "duì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tweɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "对",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-011",
+      "kind": "character",
+      "form": "不",
+      "sourceLanguage": "zh-CN",
+      "meaning": "not; no",
+      "explanation": "Standard negation adverb (4th tone by default; changes to 2nd tone bú before another 4th tone).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "不",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-012",
+      "kind": "character",
+      "form": "起",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to rise; get up",
+      "explanation": "Used in 对不起 (sorry) and 起床 (get out of bed).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "qǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕʰi²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "起",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-006",
+      "kind": "sentence",
+      "form": "没关系!",
+      "sourceLanguage": "zh-CN",
+      "meaning": "It doesn't matter! / No problem!",
+      "explanation": "Fixed response to 对不起.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Méi guānxi!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "没关系!",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Expression"
+    },
+    {
+      "id": "e-p0014-word-006",
+      "kind": "word",
+      "form": "没关系",
+      "sourceLanguage": "zh-CN",
+      "meaning": "it doesn't matter; never mind",
+      "explanation": "Standard response to an apology.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "méi guānxi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[meɪ³⁵ kwan⁵⁵ ɕi]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "没关系",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "expression"
+    },
+    {
+      "id": "e-p0014-char-013",
+      "kind": "character",
+      "form": "没",
+      "sourceLanguage": "zh-CN",
+      "meaning": "not (have / past)",
+      "explanation": "Negates 有 (没有) and past actions (没去, 没看).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "méi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[meɪ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "没",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-014",
+      "kind": "character",
+      "form": "关",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to close; relation",
+      "explanation": "Used in 没关系 (it doesn't matter).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kwan⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "关",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-015",
+      "kind": "character",
+      "form": "系",
+      "sourceLanguage": "zh-CN",
+      "meaning": "relation; system",
+      "explanation": "Neutral tone in 没关系 (it doesn't matter).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕi]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "系",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-007",
+      "kind": "sentence",
+      "form": "十二点了,吃午饭吧。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "It's 12 o'clock now, let's eat lunch.",
+      "explanation": "了 marks the arrival of a new time/state.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Shí'èr diǎn le, chī wǔfàn ba.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "十二点了,吃午饭吧。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Modal 了"
+    },
+    {
+      "id": "e-p0014-word-007",
+      "kind": "word",
+      "form": "十二",
+      "sourceLanguage": "zh-CN",
+      "meaning": "twelve",
+      "explanation": "十 (10) + 二 (2).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shí'èr",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂʅ³⁵ ɑɚ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "十二",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "numeral"
+    },
+    {
+      "id": "e-p0014-char-016",
+      "kind": "character",
+      "form": "十",
+      "sourceLanguage": "zh-CN",
+      "meaning": "ten",
+      "explanation": "Number ten.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂʅ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "十",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-017",
+      "kind": "character",
+      "form": "二",
+      "sourceLanguage": "zh-CN",
+      "meaning": "two",
+      "explanation": "Number two, used in counting, dates, and compound numbers.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "èr",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɑɚ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "二",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-018",
+      "kind": "character",
+      "form": "点",
+      "sourceLanguage": "zh-CN",
+      "meaning": "o'clock; dot; a bit",
+      "explanation": "Used for telling the hour (九点 '9 o'clock').",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "diǎn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tjɛn²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "点",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-019",
+      "kind": "character",
+      "form": "吃",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to eat",
+      "explanation": "Verb meaning to eat.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʰʅ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "吃",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-word-008",
+      "kind": "word",
+      "form": "午饭",
+      "sourceLanguage": "zh-CN",
+      "meaning": "lunch",
+      "explanation": "午 (noon) + 饭 (meal).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǔfàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wu²¹⁴ fan⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "午饭",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0014-char-020",
+      "kind": "character",
+      "form": "午",
+      "sourceLanguage": "zh-CN",
+      "meaning": "noon",
+      "explanation": "Used in 上午 (morning), 中午 (noon), 下午 (afternoon).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wu²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "午",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-021",
+      "kind": "character",
+      "form": "饭",
+      "sourceLanguage": "zh-CN",
+      "meaning": "meal; cooked rice",
+      "explanation": "Noun meaning meal or rice (做饭, 午饭, 晚饭).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fan⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "饭",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-022",
+      "kind": "character",
+      "form": "吧",
+      "sourceLanguage": "zh-CN",
+      "meaning": "suggestion particle",
+      "explanation": "Softens a suggestion or proposal ('let's...', 'how about...').",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ba",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pa]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "吧",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-008",
+      "kind": "sentence",
+      "form": "弟弟起床了吗?",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Has younger brother gotten up?",
+      "explanation": "了 + 吗 asks whether a change has occurred.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Dìdi qǐchuáng le ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "弟弟起床了吗?",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "Modal 了"
+    },
+    {
+      "id": "e-p0014-word-009",
+      "kind": "word",
+      "form": "弟弟",
+      "sourceLanguage": "zh-CN",
+      "meaning": "younger brother",
+      "explanation": "Second syllable takes a neutral tone.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dìdi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ti⁵¹ ti]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "弟弟",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0014-char-023",
+      "kind": "character",
+      "form": "弟",
+      "sourceLanguage": "zh-CN",
+      "meaning": "younger brother",
+      "explanation": "Duplicated as 弟弟 (younger brother).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ti⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "弟",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-word-010",
+      "kind": "word",
+      "form": "起床",
+      "sourceLanguage": "zh-CN",
+      "meaning": "to get up (out of bed)",
+      "explanation": "Separable verb-object compound.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "qǐchuáng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕʰi²¹⁴ tʂʰwɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "起床",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "verb"
+    },
+    {
+      "id": "e-p0014-char-024",
+      "kind": "character",
+      "form": "床",
+      "sourceLanguage": "zh-CN",
+      "meaning": "bed",
+      "explanation": "Used in 起床 (to get out of bed).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chuáng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʰwɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "床",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-025",
+      "kind": "character",
+      "form": "吗",
+      "sourceLanguage": "zh-CN",
+      "meaning": "yes-no question particle",
+      "explanation": "Placed at the end of a statement to turn it into a yes-no question.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "吗",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-009",
+      "kind": "sentence",
+      "form": "没起床呢。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Not up yet.",
+      "explanation": "没 + V + 呢 means 'not yet'.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Méi qǐchuáng ne.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "没起床呢。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "没……呢"
+    },
+    {
+      "id": "e-p0014-char-026",
+      "kind": "character",
+      "form": "呢",
+      "sourceLanguage": "zh-CN",
+      "meaning": "modal / follow-up question particle",
+      "explanation": "Used for 'and you?' (你呢？) or to mark an ongoing/affirmative state.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ne",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "呢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-010",
+      "kind": "sentence",
+      "form": "今天太冷了",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Today is too cold",
+      "explanation": "太 + adj. + 了 expresses 'too / so ...'.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Jīntiān tài lěng le",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "今天太冷了",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "太……了"
+    },
+    {
+      "id": "e-p0014-word-011",
+      "kind": "word",
+      "form": "今天",
+      "sourceLanguage": "zh-CN",
+      "meaning": "today",
+      "explanation": "Time word for today.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jīntiān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕin⁵⁵ tʰjɛn⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "今天",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0014-char-027",
+      "kind": "character",
+      "form": "今",
+      "sourceLanguage": "zh-CN",
+      "meaning": "now; today",
+      "explanation": "Used in 今天 (today) and 今年 (this year).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕin⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "今",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-028",
+      "kind": "character",
+      "form": "天",
+      "sourceLanguage": "zh-CN",
+      "meaning": "day; sky",
+      "explanation": "Means day; also used in 今天 (today), 星期天 (Sunday).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tiān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰjɛn⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "天",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-029",
+      "kind": "character",
+      "form": "太",
+      "sourceLanguage": "zh-CN",
+      "meaning": "too; extremely",
+      "explanation": "Used in the pattern 太……了 (too / so ...!).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰaɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "太",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-030",
+      "kind": "character",
+      "form": "冷",
+      "sourceLanguage": "zh-CN",
+      "meaning": "cold",
+      "explanation": "Adjective meaning cold.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lěng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ləŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "冷",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-011",
+      "kind": "sentence",
+      "form": "这个杯子太小了",
+      "sourceLanguage": "zh-CN",
+      "meaning": "This cup is too small",
+      "explanation": "太 + adj. + 了.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhège bēizi tài xiǎo le",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "这个杯子太小了",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "太……了"
+    },
+    {
+      "id": "e-p0014-char-031",
+      "kind": "character",
+      "form": "这",
+      "sourceLanguage": "zh-CN",
+      "meaning": "this",
+      "explanation": "Demonstrative pronoun 'this'.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "这",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-032",
+      "kind": "character",
+      "form": "个",
+      "sourceLanguage": "zh-CN",
+      "meaning": "general measure word",
+      "explanation": "The most common general measure word in Mandarin.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "个",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-word-012",
+      "kind": "word",
+      "form": "杯子",
+      "sourceLanguage": "zh-CN",
+      "meaning": "cup; glass",
+      "explanation": "杯 + neutral-tone suffix 子.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bēizi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[peɪ⁵⁵ tsɿ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "杯子",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun"
+    },
+    {
+      "id": "e-p0014-char-033",
+      "kind": "character",
+      "form": "杯",
+      "sourceLanguage": "zh-CN",
+      "meaning": "cup; glass",
+      "explanation": "Used as a measure word (一杯) or in 杯子 (cup).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bēi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[peɪ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "杯",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-034",
+      "kind": "character",
+      "form": "子",
+      "sourceLanguage": "zh-CN",
+      "meaning": "noun suffix",
+      "explanation": "Neutral-tone noun suffix in 儿子, 本子, 杯子, 桌子.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsɿ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "子",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-035",
+      "kind": "character",
+      "form": "小",
+      "sourceLanguage": "zh-CN",
+      "meaning": "small; little",
+      "explanation": "Adjective meaning small.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "小",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-sent-012",
+      "kind": "sentence",
+      "form": "我们今天太高兴了",
+      "sourceLanguage": "zh-CN",
+      "meaning": "We are so happy today",
+      "explanation": "太 + adj. + 了.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒmen jīntiān tài gāoxìng le",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我们今天太高兴了",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "太……了"
+    },
+    {
+      "id": "e-p0014-char-036",
+      "kind": "character",
+      "form": "我",
+      "sourceLanguage": "zh-CN",
+      "meaning": "I; me",
+      "explanation": "First-person singular pronoun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wɔ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-word-013",
+      "kind": "word",
+      "form": "高兴",
+      "sourceLanguage": "zh-CN",
+      "meaning": "happy; glad",
+      "explanation": "Adjective meaning happy.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gāoxìng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kɑʊ⁵⁵ ɕiŋ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "高兴",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "adjective"
+    },
+    {
+      "id": "e-p0014-char-037",
+      "kind": "character",
+      "form": "高",
+      "sourceLanguage": "zh-CN",
+      "meaning": "tall; high",
+      "explanation": "First character of 高兴 (happy).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gāo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kɑʊ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "高",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-char-038",
+      "kind": "character",
+      "form": "兴",
+      "sourceLanguage": "zh-CN",
+      "meaning": "mood; interest",
+      "explanation": "4th tone in 高兴 (happy).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xìng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕiŋ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "兴",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "e-p0014-word-014",
+      "kind": "word",
+      "form": "第十二课",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Lesson 12",
+      "explanation": "Ordinal prefix 第 + 十二 (twelve) + 课 (lesson).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dì-shí'èr kè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ti⁵¹ ʂʅ³⁵ ɑɚ⁵¹ kʰɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "第十二课",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      },
+      "grammar": "noun phrase"
+    },
+    {
+      "id": "e-p0014-char-039",
+      "kind": "character",
+      "form": "第",
+      "sourceLanguage": "zh-CN",
+      "meaning": "ordinal prefix",
+      "explanation": "Placed before a number to form an ordinal (e.g., 第一 'first').",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ti⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "第",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    }
+  ]
+}

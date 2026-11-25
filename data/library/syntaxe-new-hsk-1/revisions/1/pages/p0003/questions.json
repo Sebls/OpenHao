@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 儿子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "son"
+        },
+        {
+          "id": "o1",
+          "text": "daughter"
+        },
+        {
+          "id": "o2",
+          "text": "ear"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "儿子 (érzi) means 'son'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means 'daughter'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "儿子"
+        },
+        {
+          "id": "o1",
+          "text": "女儿"
+        },
+        {
+          "id": "o2",
+          "text": "耳朵"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "女儿 (nǚ'ér) means 'daughter'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character is used as the retroflex suffix (-r) in 这儿 and 哪儿?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "儿"
+        },
+        {
+          "id": "o1",
+          "text": "耳"
+        },
+        {
+          "id": "o2",
+          "text": "几"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "儿 (r) attaches to the end of words like 这儿 (zhèr, 'here') and 哪儿 (nǎr, 'where').",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 哪儿 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "here"
+        },
+        {
+          "id": "o1",
+          "text": "there"
+        },
+        {
+          "id": "o2",
+          "text": "where"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "哪儿 (nǎr) means 'where'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the word you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "这儿"
+        },
+        {
+          "id": "o1",
+          "text": "哪儿"
+        },
+        {
+          "id": "o2",
+          "text": "玩儿"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "这儿 (zhèr) means 'here'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0024"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "这儿"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Antigravity agent, visual inspection against source.png",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "warning",
+      "region": "full page diagrams",
+      "reason": "Page 2 consists solely of articulation diagrams with Latin initial labels (zh, ch, sh, r, z, c, s, j, q, x) inside raster images and zero embedded text.",
+      "nextAction": "Keep as visual reference page in extracted state."
+    }
+  ],
+  "checks": [
+    "Inspected rendered source.png against extracted text.txt",
+    "Confirmed page is non-instructional reference/cover material and kept as extracted"
+  ],
+  "coverage": {
+    "embeddedCharacters": 0,
+    "annotatedOccurrences": 0,
+    "entries": 0,
+    "dialogueSentences": 0,
+    "reviewedQuestions": 0,
+    "extractionScope": "Physical page 2 visually inspected",
+    "annotationScope": "Phonetic articulation diagram page (images only with Latin pinyin labels zh/ch/sh/r, z/c/s, j/q/x); no embedded Chinese text; kept as extracted reference-only diagram."
+  }
+}

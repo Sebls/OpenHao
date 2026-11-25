@@ -1,0 +1,45 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0017",
+  "extractionRevision": 1,
+  "textSha256": "341f31028adebb9c479566989c869d2596fdc2f8b2fb06fa65d8e7bbe03fde68",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Antigravity agent, source comparison and separate linguistic/question review",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "header, footer, and decorative seals",
+      "reason": "Repeated page header (学而时习之), footer (自强不息，厚德载物), and red decorative seals are excluded from teaching annotations.",
+      "nextAction": "No action needed for study; decorative seals remain outside practice."
+    },
+    {
+      "severity": "info",
+      "reason": "Sentence-level IPA is omitted; reviewed word-level and character-level IPA and tone-mark pinyin cover all annotated learning units.",
+      "nextAction": "Use word and character details for IPA guidance."
+    },
+    {
+      "severity": "warning",
+      "region": "Question 5 (你家有口人？)",
+      "reason": "Source PDF omits 几 in 你家有口人？ and uses a two-column layout interleaved in text.txt. Anchors map to exact extracted characters and note standard phrasing 你家有几口人？.",
+      "nextAction": "No extraction edit needed; explanation clarifies standard phrasing."
+    }
+  ],
+  "checks": [
+    "Compared extracted text.txt and layout.json against rendered source.png",
+    "Preserved original source text and Unicode code-point offsets exactly",
+    "Reviewed tone sandhi (3rd-tone sandhi, 不 bú/bù, 一 yì/yí), neutral tones, and contextual meanings",
+    "Verified single-choice questions have distinct options, one defensible answer, and same-page sourceAnnotationIds",
+    "Character boxes derived from MuPDF rawdict without line-box division"
+  ],
+  "coverage": {
+    "embeddedCharacters": 361,
+    "annotatedOccurrences": 212,
+    "entries": 104,
+    "dialogueSentences": 18,
+    "reviewedQuestions": 5,
+    "extractionScope": "Physical page 17 only",
+    "annotationScope": "All instructional Chinese sentences, grammar targets, words, and characters; repeated header/footer slogans and decorative seals excluded"
+  }
+}

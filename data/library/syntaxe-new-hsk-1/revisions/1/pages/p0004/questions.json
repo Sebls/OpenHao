@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How is 不 pronounced before a 4th-tone syllable such as 是, 在, 会, or 看?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "2nd tone (bú)"
+        },
+        {
+          "id": "o1",
+          "text": "4th tone (bù)"
+        },
+        {
+          "id": "o2",
+          "text": "1st tone (bū)"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "When 不 precedes a 4th-tone syllable, its tone changes from 4th (bù) to 2nd (bú).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "When two 3rd-tone syllables appear together, such as in 你好, how is the first syllable pronounced?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "2nd tone (ní hǎo)"
+        },
+        {
+          "id": "o1",
+          "text": "1st tone (nī hǎo)"
+        },
+        {
+          "id": "o2",
+          "text": "4th tone (nì hǎo)"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "In a sequence of two 3rd tones, the first changes to a 2nd tone (rising).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 很好 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "very good"
+        },
+        {
+          "id": "o1",
+          "text": "I want"
+        },
+        {
+          "id": "o2",
+          "text": "hello"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "很好 (hěn hǎo) means 'very good'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which character means 'to eat'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "吃"
+        },
+        {
+          "id": "o1",
+          "text": "来"
+        },
+        {
+          "id": "o2",
+          "text": "打"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "吃 (chī) means 'to eat'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the phrase you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你好"
+        },
+        {
+          "id": "o1",
+          "text": "很好"
+        },
+        {
+          "id": "o2",
+          "text": "我想"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "很好 (hěn hǎo) means 'very good'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "很好"
+    }
+  ]
+}

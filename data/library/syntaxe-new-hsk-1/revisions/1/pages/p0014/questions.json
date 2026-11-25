@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0014",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0014-001",
+      "pageId": "p0014",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 下雪了。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "It's snowing."
+        },
+        {
+          "id": "o1",
+          "text": "It's raining."
+        },
+        {
+          "id": "o2",
+          "text": "Class has started."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "下雪 means 'to snow', and 了 marks that it has started.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0014-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0014-002",
+      "pageId": "p0014",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "How do you respond to 对不起! ('I'm sorry!')?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "没关系!"
+        },
+        {
+          "id": "o1",
+          "text": "真漂亮!"
+        },
+        {
+          "id": "o2",
+          "text": "上课了。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "没关系! (Méi guānxi!) means 'It doesn't matter / No problem!'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0014-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0014-003",
+      "pageId": "p0014",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the exclamation: 我们今天___高兴___! (We are so happy today!)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "太……了"
+        },
+        {
+          "id": "o1",
+          "text": "很……吗"
+        },
+        {
+          "id": "o2",
+          "text": "不……呢"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "太 + adjective + 了 expresses 'so / too ...!'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0014-0073"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0014-004",
+      "pageId": "p0014",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 没起床呢。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Not up (out of bed) yet."
+        },
+        {
+          "id": "o1",
+          "text": "Already got up."
+        },
+        {
+          "id": "o2",
+          "text": "Going to sleep now."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "没 + verb + 呢 means 'has not done ... yet'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0014-0051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0014-005",
+      "pageId": "p0014",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the expression you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "对不起!"
+        },
+        {
+          "id": "o1",
+          "text": "没关系!"
+        },
+        {
+          "id": "o2",
+          "text": "真漂亮!"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "对不起! (Duìbuqǐ!) means 'I'm sorry!'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0014-0021"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "对不起!"
+    }
+  ]
+}

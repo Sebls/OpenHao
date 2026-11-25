@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0010",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0010-001",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 房间里有一只小猫。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "There is a kitten inside the room."
+        },
+        {
+          "id": "o1",
+          "text": "Xiaoxue's phone is on the table."
+        },
+        {
+          "id": "o2",
+          "text": "Let's go outside the bookstore."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "房间里 means 'inside the room', 有 means 'there is', and 一只小猫 means 'a kitten'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0010-002",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which location word means 'outside'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "外"
+        },
+        {
+          "id": "o1",
+          "text": "里"
+        },
+        {
+          "id": "o2",
+          "text": "前"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "外 (wài) means 'outside', whereas 里 means 'inside' and 前 means 'front'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0010-003",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 小雪的手机___桌子上呢。 (Xiaoxue's phone is on the table.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "在"
+        },
+        {
+          "id": "o1",
+          "text": "去"
+        },
+        {
+          "id": "o2",
+          "text": "能"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "在 (zài) locates something at a place.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0010-004",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 你明天上午在哪儿买菜? mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Where will you buy groceries tomorrow morning?"
+        },
+        {
+          "id": "o1",
+          "text": "Can you arrive home at 2:00 pm tomorrow?"
+        },
+        {
+          "id": "o2",
+          "text": "His dad worked at the hospital yesterday evening."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "在哪儿 asks 'where', and 买菜 means 'buy vegetables/groceries'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0010-005",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "房间里有一只小猫。"
+        },
+        {
+          "id": "o1",
+          "text": "我们去书店外吧。"
+        },
+        {
+          "id": "o2",
+          "text": "今天早上爸爸能去医院。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我们去书店外吧。 means 'Let's go outside the bookstore.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0010-0012"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我们去书店外吧。"
+    }
+  ]
+}

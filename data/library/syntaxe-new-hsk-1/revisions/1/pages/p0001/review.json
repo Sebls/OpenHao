@@ -1,0 +1,31 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "c592174022cfcb7b4cc333d46d53f4220829579aaae34a6164dcc7fab3f91b5c",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Antigravity agent, visual inspection against source.png",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "cover page",
+      "reason": "Front cover page with title, panda illustration, and decorative seals; kept in extracted state as a reference-only cover.",
+      "nextAction": "No learning questions required for cover page."
+    }
+  ],
+  "checks": [
+    "Inspected rendered source.png against extracted text.txt",
+    "Confirmed page is non-instructional reference/cover material and kept as extracted"
+  ],
+  "coverage": {
+    "embeddedCharacters": 41,
+    "annotatedOccurrences": 0,
+    "entries": 0,
+    "dialogueSentences": 0,
+    "reviewedQuestions": 0,
+    "extractionScope": "Physical page 1 visually inspected",
+    "annotationScope": "Cover page with title (HSK 1 语法 / Syntaxe), motto header/footer, and decorative red seals; kept as extracted reference-only cover."
+  }
+}

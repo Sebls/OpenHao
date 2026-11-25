@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0017",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0017-001",
+      "pageId": "p0017",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 你姓什么？ mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "What is your family name?"
+        },
+        {
+          "id": "o1",
+          "text": "Where do you live?"
+        },
+        {
+          "id": "o2",
+          "text": "What is your major?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "姓 (xìng) specifically asks for someone's surname / family name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0017-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0017-002",
+      "pageId": "p0017",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which question asks 'Where do you live?'",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你住在哪儿？"
+        },
+        {
+          "id": "o1",
+          "text": "你去过中国吗？"
+        },
+        {
+          "id": "o2",
+          "text": "你几年级？"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "住在哪儿 means 'live where'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0017-0092"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0017-003",
+      "pageId": "p0017",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 你去过中国吗？ mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Have you ever been to China?"
+        },
+        {
+          "id": "o1",
+          "text": "Do you want to go to China?"
+        },
+        {
+          "id": "o2",
+          "text": "Why do you want to study Chinese?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "过 (guo) after 去 indicates past experience ('have ever been').",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0017-0108"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0017-004",
+      "pageId": "p0017",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the answer: 我学中文，___…… (I study Chinese, because ...)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "因为"
+        },
+        {
+          "id": "o1",
+          "text": "为什么"
+        },
+        {
+          "id": "o2",
+          "text": "以后"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "为什么 asks 'why', and 因为 (yīnwèi) introduces the reason ('because').",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0017-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0017-005",
+      "pageId": "p0017",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the question you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你是哪国人？"
+        },
+        {
+          "id": "o1",
+          "text": "你的专业是什么？"
+        },
+        {
+          "id": "o2",
+          "text": "你喜欢做什么？"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你是哪国人？ asks 'What is your nationality?'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0017-0016"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "你是哪国人？"
+    }
+  ]
+}

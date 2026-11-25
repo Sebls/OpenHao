@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0007-001",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 今天几号？ mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "What is today's date?"
+        },
+        {
+          "id": "o1",
+          "text": "What day of the week is tomorrow?"
+        },
+        {
+          "id": "o2",
+          "text": "How old is your sister?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "今天 means 'today' and 几号 asks for the day of the month.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0007-002",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which sentence means 'I can make noodles.'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我会做面条儿。"
+        },
+        {
+          "id": "o1",
+          "text": "你会做饭吗？"
+        },
+        {
+          "id": "o2",
+          "text": "我不会做菜。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我会做面条儿。 uses 会 (know how to) + 做 (make) + 面条儿 (noodles).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0111"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0007-003",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means 'years old' when stating age?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "岁"
+        },
+        {
+          "id": "o1",
+          "text": "号"
+        },
+        {
+          "id": "o2",
+          "text": "年"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "岁 (suì) is used after a number to state age (e.g., 十二岁 '12 years old').",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0007-004",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 昨天星期天。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Yesterday was Sunday."
+        },
+        {
+          "id": "o1",
+          "text": "Today is Thursday."
+        },
+        {
+          "id": "o2",
+          "text": "Tomorrow is Saturday."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "昨天 is 'yesterday' and 星期天 is 'Sunday'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0096"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0007-005",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你会做饭吗？"
+        },
+        {
+          "id": "o1",
+          "text": "我不会做菜。"
+        },
+        {
+          "id": "o2",
+          "text": "我妹妹十二岁。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你会做饭吗？ means 'Can you cook?'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0104"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "你会做饭吗？"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我老师不是法国人。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "My teacher is not French."
+        },
+        {
+          "id": "o1",
+          "text": "My teacher is French."
+        },
+        {
+          "id": "o2",
+          "text": "My classmate is not French."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我老师 (my teacher) + 不是 (is not) + 法国人 (French person).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0039"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Which particle is placed at the end of a statement to form a yes-no question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "吗"
+        },
+        {
+          "id": "o1",
+          "text": "的"
+        },
+        {
+          "id": "o2",
+          "text": "也"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "吗 (ma) turns a declarative sentence into a yes-no question.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0113"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the phrase: 你同学___妈妈 (your classmate's mom)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "的"
+        },
+        {
+          "id": "o1",
+          "text": "吗"
+        },
+        {
+          "id": "o2",
+          "text": "是"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The possessive particle 的 links the possessor 你同学 to 妈妈.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0099"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 十四不是四十。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Fourteen is not forty."
+        },
+        {
+          "id": "o1",
+          "text": "Forty is not fourteen."
+        },
+        {
+          "id": "o2",
+          "text": "Fourteen is fourteen."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "十四 is 14, 不是 is 'is not', and 四十 is 40.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0059"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你叫什么名字？"
+        },
+        {
+          "id": "o1",
+          "text": "我叫白家月。"
+        },
+        {
+          "id": "o2",
+          "text": "我是老师。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你叫什么名字？ asks 'What is your name?'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "你叫什么名字？"
+    }
+  ]
+}

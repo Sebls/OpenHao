@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0013",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0013-001",
+      "pageId": "p0013",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 这件衣服好看不好看? mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Is this piece of clothing good-looking or not?"
+        },
+        {
+          "id": "o1",
+          "text": "Did you go to school?"
+        },
+        {
+          "id": "o2",
+          "text": "Are you still attending university?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "好看不好看 is an A-not-A question asking if the clothing (衣服) is good-looking.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0013-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0013-002",
+      "pageId": "p0013",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How do you form an A-not-A question for a past action with 去 ('to go')?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "去没去"
+        },
+        {
+          "id": "o1",
+          "text": "去不去"
+        },
+        {
+          "id": "o2",
+          "text": "是不是去"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Past actions are negated with 没, so the A-not-A form is 去没去.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0013-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0013-003",
+      "pageId": "p0013",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 妈妈要去超市。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Mom is going to the supermarket."
+        },
+        {
+          "id": "o1",
+          "text": "Mom is in the supermarket."
+        },
+        {
+          "id": "o2",
+          "text": "Mom bought fruit at the supermarket."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "要 (yào) before 去超市 indicates an intention or plan ('going to').",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0013-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0013-004",
+      "pageId": "p0013",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which sentence means 'We are studying / reading.'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我们读书呢。"
+        },
+        {
+          "id": "o1",
+          "text": "你去没去学校?"
+        },
+        {
+          "id": "o2",
+          "text": "他今天要和小朋友玩。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我们读书呢。 uses 呢 to indicate an ongoing action.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0013-0056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0013-005",
+      "pageId": "p0013",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你还在读大学吗?"
+        },
+        {
+          "id": "o1",
+          "text": "妈妈要去超市。"
+        },
+        {
+          "id": "o2",
+          "text": "我们读书呢。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "妈妈要去超市。 means 'Mom is going to the supermarket.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0013-0074"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "妈妈要去超市。"
+    }
+  ]
+}

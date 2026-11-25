@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0011",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0011-001",
+      "pageId": "p0011",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 电影院 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "cinema"
+        },
+        {
+          "id": "o1",
+          "text": "supermarket"
+        },
+        {
+          "id": "o2",
+          "text": "school"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "电影 (movie) + 院 (hall) = 电影院 (cinema).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0011-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0011-002",
+      "pageId": "p0011",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which prefix turns a cardinal number into an ordinal (e.g., 'first', 'second')?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "第"
+        },
+        {
+          "id": "o1",
+          "text": "每"
+        },
+        {
+          "id": "o2",
+          "text": "都"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "第 (dì) placed before a number forms ordinals like 第一 (first).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0011-0100"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0011-003",
+      "pageId": "p0011",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 安妮每天下午两点在家里学中文。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Annie studies Chinese at home every day at 2:00 pm."
+        },
+        {
+          "id": "o1",
+          "text": "Annie eats lunch at school tomorrow at noon."
+        },
+        {
+          "id": "o2",
+          "text": "Annie met outside the cinema yesterday at 7:00 pm."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "每天下午两点 is 'every day at 2:00 pm', 在家里 is 'at home', 学中文 is 'studies Chinese'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0011-0059"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0011-004",
+      "pageId": "p0011",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means 'behind / back side'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "后边"
+        },
+        {
+          "id": "o1",
+          "text": "前边"
+        },
+        {
+          "id": "o2",
+          "text": "外边"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "后边 (hòubian) means 'behind'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0011-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0011-005",
+      "pageId": "p0011",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "安妮每天下午两点在家里学中文。"
+        },
+        {
+          "id": "o1",
+          "text": "陈天中明天中午在学校吃午饭。"
+        },
+        {
+          "id": "o2",
+          "text": "桌子上 有一只小猫"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "陈天中明天中午在学校吃午饭。 means 'Chen Tianzhong will eat lunch at school tomorrow at noon.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0011-0080"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "陈天中明天中午在学校吃午饭。"
+    }
+  ]
+}

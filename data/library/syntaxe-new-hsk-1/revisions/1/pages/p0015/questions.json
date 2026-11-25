@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0015",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0015-001",
+      "pageId": "p0015",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我可以再问您一个问题吗? mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "May I ask you one more question?"
+        },
+        {
+          "id": "o1",
+          "text": "You can call and ask briefly."
+        },
+        {
+          "id": "o2",
+          "text": "Please give me a glass of milk."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "可以 means 'may', 再问 means 'ask again/more', 您 is polite 'you', and 一个问题 is 'a question'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0015-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0015-002",
+      "pageId": "p0015",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What is the effect of placing 一下 after a verb (e.g., 请休息一下)?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "It softens the action to mean 'a bit / briefly'."
+        },
+        {
+          "id": "o1",
+          "text": "It turns the sentence into a past-tense negative."
+        },
+        {
+          "id": "o2",
+          "text": "It marks the plural of a noun."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Verb + 一下 (yíxià) makes requests and actions sound casual, brief, and polite.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0015-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0015-003",
+      "pageId": "p0015",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 请给我一杯牛奶。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Please give me a glass of milk."
+        },
+        {
+          "id": "o1",
+          "text": "Bai Jiayue gives Annie an apple."
+        },
+        {
+          "id": "o2",
+          "text": "Yes, please sit down!"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "请给我 (please give me) + 一杯牛奶 (a glass of milk).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0015-0065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0015-004",
+      "pageId": "p0015",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which sentence means 'I ask the teacher two questions.'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我问老师两个问题。"
+        },
+        {
+          "id": "o1",
+          "text": "你们可以看这本书。"
+        },
+        {
+          "id": "o2",
+          "text": "你看一下吧。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我 (I) + 问 (ask) + 老师 (teacher) + 两个问题 (two questions).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0015-0088"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0015-005",
+      "pageId": "p0015",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "可以,请坐!"
+        },
+        {
+          "id": "o1",
+          "text": "请休息一下。"
+        },
+        {
+          "id": "o2",
+          "text": "请给我一杯牛奶。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "请休息一下。 means 'Please rest for a bit.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0015-0050"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "请休息一下。"
+    }
+  ]
+}

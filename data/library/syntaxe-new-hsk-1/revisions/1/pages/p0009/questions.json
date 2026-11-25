@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1",
+  "pageId": "p0009",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0009-001",
+      "pageId": "p0009",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What time is 中午十二点半?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "12:30 pm (noon)"
+        },
+        {
+          "id": "o1",
+          "text": "8:00 am"
+        },
+        {
+          "id": "o2",
+          "text": "4:00 pm"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "中午 is noon, 十二点 is 12 o'clock, and 半 is half.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0009-0084"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0009-002",
+      "pageId": "p0009",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In a Chinese sentence with both time and place, which order is correct?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Subject + Time + Place + Verb"
+        },
+        {
+          "id": "o1",
+          "text": "Subject + Verb + Place + Time"
+        },
+        {
+          "id": "o2",
+          "text": "Place + Subject + Verb + Time"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Time expressions come before location expressions (e.g., 她今天上午十点半在学校上课).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0009-0044"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0009-003",
+      "pageId": "p0009",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我们下午三点见吧。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Let's meet at 3:00 pm."
+        },
+        {
+          "id": "o1",
+          "text": "We eat lunch at noon."
+        },
+        {
+          "id": "o2",
+          "text": "Go buy it at the supermarket."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "下午三点 is 3:00 pm, 见 is 'meet', and 吧 makes it a suggestion.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0009-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0009-004",
+      "pageId": "p0009",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means 'morning (before noon)'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "上午"
+        },
+        {
+          "id": "o1",
+          "text": "下午"
+        },
+        {
+          "id": "o2",
+          "text": "晚上"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "上午 (shàngwǔ) means morning / am.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0009-0049"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0009-005",
+      "pageId": "p0009",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我们下午三点见吧。"
+        },
+        {
+          "id": "o1",
+          "text": "好的。"
+        },
+        {
+          "id": "o2",
+          "text": "超市没有卖。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我们下午三点见吧。 means 'Let's meet at 3:00 pm.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0009-0001"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我们下午三点见吧。"
+    }
+  ]
+}
