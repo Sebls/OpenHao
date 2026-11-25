@@ -64,6 +64,7 @@ export interface Question {
   id: string;
   type: "single-choice";
   category: QuestionCategory;
+  topic?: string;
   prompt: string;
   promptLanguage: string;
   options: { id: string; text: string }[];
