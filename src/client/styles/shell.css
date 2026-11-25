@@ -147,13 +147,6 @@ small {
   height: 2px;
   background: var(--primary);
 }
-.local {
-  justify-self: end;
-  color: var(--muted);
-  font: 0.6875rem/1.5 var(--mono);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
 .library {
   max-width: 1120px;
   margin: 80px auto 64px;
@@ -188,7 +181,7 @@ small {
   font-size: 1.5rem;
   margin: 0;
 }
-.library-label > span {
+.library-actions > span {
   color: var(--muted);
   font: 0.75rem/1.5 var(--mono);
 }
@@ -228,17 +221,6 @@ small {
 }
 .document p:not(.eyebrow) {
   margin-bottom: 20px;
-}
-.page-states {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 20px;
-  font-size: 0.8125rem;
-  color: var(--muted);
-  margin: 24px 0;
-}
-.page-states .ready {
-  color: var(--primary);
 }
 .primary {
   background: var(--primary);
@@ -487,4 +469,144 @@ small {
   stroke: currentColor;
   stroke-width: 1.25;
   vertical-align: middle;
+}
+
+.library-actions,
+.library-view-controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.library-view-controls {
+  gap: 2px;
+}
+.library-view-controls .icon-control {
+  width: 36px;
+  height: 36px;
+  min-height: 36px;
+}
+.library-view-controls svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  vertical-align: middle;
+}
+.document-content {
+  min-width: 0;
+}
+.preparation-progress {
+  position: relative;
+  margin: 24px 0;
+  max-width: 520px;
+}
+.preparation-summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+.prepared-pages {
+  flex: none;
+}
+.prepared-pages summary {
+  display: grid;
+  place-items: center;
+  list-style: none;
+  width: 28px;
+  min-height: 28px;
+  padding: 0;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+.prepared-pages summary::-webkit-details-marker {
+  display: none;
+}
+.prepared-pages summary:hover,
+.prepared-pages[open] summary {
+  color: var(--primary);
+  background: var(--selected);
+}
+.prepared-page-info {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: min(100%, 280px);
+  max-width: calc(100vw - 48px);
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  z-index: 2;
+  overflow-wrap: anywhere;
+}
+.document .prepared-page-info p {
+  margin: 0;
+  font-size: 0.8125rem;
+}
+.document .prepared-page-info p + p {
+  margin-top: 12px;
+}
+.preparation-progress progress {
+  display: block;
+  appearance: none;
+  border: 0;
+  width: 100%;
+  height: 5px;
+  margin-top: 10px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: var(--line);
+  color: var(--primary);
+}
+.preparation-progress progress::-webkit-progress-bar {
+  background: var(--line);
+  border-radius: 3px;
+}
+.preparation-progress progress::-webkit-progress-value {
+  background: var(--primary);
+  border-radius: 3px;
+}
+.preparation-progress progress::-moz-progress-bar {
+  background: var(--primary);
+  border-radius: 3px;
+}
+.documents.is-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: 0 32px;
+}
+.documents.is-grid .document {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-content: start;
+}
+.documents.is-grid .book-mark {
+  min-height: 180px;
+}
+.documents.is-grid .book-mark > span {
+  writing-mode: horizontal-tb;
+}
+.documents.is-grid .book-mark small {
+  margin-top: 12px;
+}
+.documents.is-grid .document-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex: 1;
+}
+.documents.is-grid .document h2 {
+  font-size: 1.25rem;
+}
+.documents.is-grid .preparation-progress {
+  width: 100%;
+  margin-top: auto;
+  padding-top: 4px;
+}
+.documents.is-grid .document-content > button {
+  margin-top: 0;
 }

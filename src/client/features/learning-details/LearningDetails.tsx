@@ -94,7 +94,7 @@ export function LearningDetails({
               >
                 {speech.available
                   ? `Local Mandarin voice: ${speech.voiceName}. Test playback before listening practice.`
-                  : "Offline pronunciation is unavailable. A local Mandarin voice is needed."}
+                  : "Pronunciation is unavailable. A Mandarin voice on your device is needed."}
               </span>
             </span>
           </div>
@@ -110,7 +110,7 @@ export function LearningDetails({
           >
             {speech.available
               ? speech.status
-              : "Offline pronunciation is unavailable. A local Mandarin voice is needed."}
+              : "Pronunciation is unavailable. A Mandarin voice on your device is needed."}
           </p>
         </div>
         {entry.pronunciationNote && (
