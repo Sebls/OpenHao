@@ -166,6 +166,7 @@ export interface Manifest {
   provenance: Record<string, unknown>;
   repairScope?: string[];
   repairTargets?: { pageId: string; kind: ItemKind; itemId: string }[];
+  questionAdditionScope?: string[];
 }
 export interface Catalog {
   documents: Manifest[];

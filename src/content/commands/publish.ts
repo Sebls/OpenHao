@@ -55,12 +55,16 @@ export function publish(opts: Options) {
           f.startsWith(`pages/${p.id}/`),
         )) {
           if (m.files[f] !== before.files[f]) {
-            if (!m.repairScope?.includes(p.id))
+            const filename = path.basename(f);
+            const isRepair = Boolean(m.repairScope?.includes(p.id));
+            const isQuestionAddition =
+              Boolean(m.questionAdditionScope?.includes(p.id)) &&
+              (filename === "questions.json" || filename === "review.json");
+            if (!isRepair && !isQuestionAddition)
               throw Error(
                 "Existing accepted page modified without scoped repair: " +
                   p.id,
               );
-            const filename = path.basename(f);
             if (
               ![
                 "entries.json",
@@ -92,43 +96,59 @@ export function publish(opts: Options) {
                 newRecords = read<Record<string, RepairRecord[]>>(
                   path.join(dir, f),
                 )[collection];
-              if (
-                oldRecords.length !== newRecords.length ||
-                oldRecords.some((r) => !newRecords.some((n) => n.id === r.id))
-              )
-                throw Error("Item repair must preserve stable IDs");
-              const targets =
-                m.repairTargets?.filter((t) => t.pageId === p.id) || [];
-              const dependentAnnotations = read<AnnotationsFile>(
-                path.join(old, "pages", p.id, "annotations.json"),
-              )
-                .annotations.filter((a) =>
-                  targets.some(
-                    (t) => t.kind === "entry" && t.itemId === a.entryId,
-                  ),
+              if (isQuestionAddition && !isRepair && filename === "questions.json") {
+                if (
+                  newRecords.length < oldRecords.length ||
+                  oldRecords.some((r) => !newRecords.some((n) => n.id === r.id))
                 )
-                .map((a) => a.id);
-              for (const record of oldRecords) {
-                const replacement = newRecords.find((n) => n.id === record.id);
-                if (JSON.stringify(record) === JSON.stringify(replacement))
-                  continue;
-                const direct = targets.some(
-                  (t) => t.kind === namespace && t.itemId === record.id,
-                );
-                const dependent =
-                  namespace === "question" &&
-                  (record.sourceAnnotationIds || []).some(
-                    (id) =>
-                      dependentAnnotations.includes(id) ||
-                      targets.some(
-                        (t) => t.kind === "annotation" && t.itemId === id,
-                      ),
+                  throw Error("Question addition must preserve all existing question IDs");
+                for (const record of oldRecords) {
+                  const replacement = newRecords.find((n) => n.id === record.id);
+                  if (JSON.stringify(record) !== JSON.stringify(replacement))
+                    throw Error(
+                      "Existing question modified during question addition: " +
+                        record.id,
+                    );
+                }
+              } else {
+                if (
+                  oldRecords.length !== newRecords.length ||
+                  oldRecords.some((r) => !newRecords.some((n) => n.id === r.id))
+                )
+                  throw Error("Item repair must preserve stable IDs");
+                const targets =
+                  m.repairTargets?.filter((t) => t.pageId === p.id) || [];
+                const dependentAnnotations = read<AnnotationsFile>(
+                  path.join(old, "pages", p.id, "annotations.json"),
+                )
+                  .annotations.filter((a) =>
+                    targets.some(
+                      (t) => t.kind === "entry" && t.itemId === a.entryId,
+                    ),
+                  )
+                  .map((a) => a.id);
+                for (const record of oldRecords) {
+                  const replacement = newRecords.find((n) => n.id === record.id);
+                  if (JSON.stringify(record) === JSON.stringify(replacement))
+                    continue;
+                  const direct = targets.some(
+                    (t) => t.kind === namespace && t.itemId === record.id,
                   );
-                if (!direct && !dependent)
-                  throw Error(
-                    "Unrelated record modified during item repair: " +
-                      record.id,
-                  );
+                  const dependent =
+                    namespace === "question" &&
+                    (record.sourceAnnotationIds || []).some(
+                      (id) =>
+                        dependentAnnotations.includes(id) ||
+                        targets.some(
+                          (t) => t.kind === "annotation" && t.itemId === id,
+                        ),
+                    );
+                  if (!direct && !dependent)
+                    throw Error(
+                      "Unrelated record modified during item repair: " +
+                        record.id,
+                    );
+                }
               }
             }
           }
