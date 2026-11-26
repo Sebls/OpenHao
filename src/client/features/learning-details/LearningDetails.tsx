@@ -120,7 +120,7 @@ export function LearningDetails({
         visible={visible}
         onPractise={onPractise}
       />
-      <CharacterHistory entry={entry} />
+      <CharacterHistory key={entry.id} entry={entry} />
       {!!entry.constituentIds?.length && (
         <details open>
           <summary>Explore the parts</summary>
