@@ -50,7 +50,7 @@ export function CharacterHistory({ entry }: { entry: Entry }) {
 
   const { assetPath, forms, meaning, origin } = history;
   return (
-    <details className="character-history">
+    <details className="character-history" open>
       <summary>Character history</summary>
       {meaning && (
         <figure className="history-meaning">
