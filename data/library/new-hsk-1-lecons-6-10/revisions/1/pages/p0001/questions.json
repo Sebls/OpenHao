@@ -1,0 +1,358 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "p1-q-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 手机号 mean in Dialogue 6.1?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Mobile phone number"
+        },
+        {
+          "id": "o1",
+          "text": "Home address"
+        },
+        {
+          "id": "o2",
+          "text": "Student ID"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "手机号 combines 手机 (mobile phone) and 号 (number).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p1-a-0133"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means “supermarket”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "饭店"
+        },
+        {
+          "id": "o1",
+          "text": "超市"
+        },
+        {
+          "id": "o2",
+          "text": "学校"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "超市 means supermarket; 饭店 is restaurant/hotel and 学校 is school.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p1-a-0158"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means “to buy”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "吃"
+        },
+        {
+          "id": "o1",
+          "text": "去"
+        },
+        {
+          "id": "o2",
+          "text": "买"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "买 (mǎi) means to buy; 吃 means to eat and 去 means to go.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p1-a-0159"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does B want to buy at the supermarket in Dialogue 6.2?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Steamed buns"
+        },
+        {
+          "id": "o1",
+          "text": "Some milk"
+        },
+        {
+          "id": "o2",
+          "text": "Cooked rice"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "B says 我想买些牛奶 (“I'd like to buy some milk”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p1-a-0216"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choose the missing word: 我们____去？ (How are we going?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "哪儿"
+        },
+        {
+          "id": "o1",
+          "text": "怎么"
+        },
+        {
+          "id": "o2",
+          "text": "多少"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "怎么 asks “how” before a verb such as 去 (to go).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p1-a-0203"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In 坐出租车去, what is the role of 坐?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "It marks taking a vehicle to go somewhere"
+        },
+        {
+          "id": "o1",
+          "text": "It asks for a phone number"
+        },
+        {
+          "id": "o2",
+          "text": "It negates the verb 想"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "坐 + vehicle + 去 means to go somewhere by that vehicle (here, by taxi).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p1-a-0222"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the meaning of what you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "I want to go to the supermarket to buy things."
+        },
+        {
+          "id": "o1",
+          "text": "Where are we going to eat dinner on Sunday?"
+        },
+        {
+          "id": "o2",
+          "text": "The steamed buns over there are very delicious."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The audio says 我想去超市买东西 (“I want to go to the supermarket to buy things”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p1-a-0214"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我想去超市买东西。"
+    },
+    {
+      "id": "p1-q-008",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 好吃 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Delicious"
+        },
+        {
+          "id": "o1",
+          "text": "Expensive"
+        },
+        {
+          "id": "o2",
+          "text": "Tomorrow"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "好吃 (hǎochī) literally means “good to eat,” i.e., delicious.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p1-a-0188"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-009",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "How do you say “Sunday” in Dialogue 6.3?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "明天"
+        },
+        {
+          "id": "o1",
+          "text": "星期天"
+        },
+        {
+          "id": "o2",
+          "text": "晚饭"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "星期天 means Sunday; 明天 means tomorrow and 晚饭 means dinner.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p1-a-0172"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-010",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In Dialogue 6.3, why does A want to go to Xi'an Restaurant?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Because the steamed buns over there are very delicious"
+        },
+        {
+          "id": "o1",
+          "text": "Because it is next to the supermarket"
+        },
+        {
+          "id": "o2",
+          "text": "Because they want to buy milk"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "A says 那边的包子非常好吃,我想吃包子。",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p1-a-0219"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}

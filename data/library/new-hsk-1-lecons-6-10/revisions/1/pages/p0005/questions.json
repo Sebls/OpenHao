@@ -1,0 +1,358 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "p5-q-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 多少钱一个 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "How much is one?"
+        },
+        {
+          "id": "o1",
+          "text": "Where are the cups?"
+        },
+        {
+          "id": "o2",
+          "text": "What color is this?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "多少钱 asks “how much money,” and 一个 means “one (piece).”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p5-a-0178"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means “inexpensive / cheap”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "便宜"
+        },
+        {
+          "id": "o1",
+          "text": "贵"
+        },
+        {
+          "id": "o2",
+          "text": "好看"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "便宜 (piányi) means inexpensive/cheap; 贵 means expensive and 好看 means good-looking.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p5-a-0168"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means “to wear”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "买"
+        },
+        {
+          "id": "o1",
+          "text": "穿"
+        },
+        {
+          "id": "o2",
+          "text": "卖"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "穿 (chuān) means to wear; 买 means to buy.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p5-a-0232"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In Dialogue 10.2, how much does B charge for the apples in the end?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "3.50 yuan"
+        },
+        {
+          "id": "o1",
+          "text": "7.20 yuan"
+        },
+        {
+          "id": "o2",
+          "text": "7 yuan"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "B says 这些七块二,七块钱吧 (“These come to 7.20, let's make it 7 yuan”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p5-a-0262"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choose the missing measure word: 这____一百元，怎么样？ (This piece of clothing is 100 yuan...)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "个"
+        },
+        {
+          "id": "o1",
+          "text": "件"
+        },
+        {
+          "id": "o2",
+          "text": "本"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "件 (jiàn) is the measure word for clothes; 个 is general and 本 is for books.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p5-a-0224"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In 女孩子穿的衣服, what does 的 do?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "It links the modifying clause 女孩子穿 to the noun 衣服"
+        },
+        {
+          "id": "o1",
+          "text": "It marks past tense"
+        },
+        {
+          "id": "o2",
+          "text": "It turns the sentence into a question"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "女孩子穿的衣服 means “clothes that girls wear,” using 的 before the noun 衣服.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p5-a-0268"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the matching English meaning.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Excuse me, do you have cups?"
+        },
+        {
+          "id": "o1",
+          "text": "I'd like to buy two jin of apples."
+        },
+        {
+          "id": "o2",
+          "text": "It looks nice, and it's not expensive either."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The audio says 请问,有杯子吗? (“Excuse me, do you have cups?”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p5-a-0254"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "请问,有杯子吗?"
+    },
+    {
+      "id": "p5-q-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 杯子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cup / mug"
+        },
+        {
+          "id": "o1",
+          "text": "Apple"
+        },
+        {
+          "id": "o2",
+          "text": "Clothes"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "杯子 (bēizi) means cup or mug.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p5-a-0172"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "How do you say “these” in Dialogue 10.1?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "这些"
+        },
+        {
+          "id": "o1",
+          "text": "那些"
+        },
+        {
+          "id": "o2",
+          "text": "这边"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "这些 means these; 那些 means those and 这边 means over here.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p5-a-0180"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-010",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Why can't Xiaoming wear the clothes in Dialogue 10.3?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Because they are clothes for girls"
+        },
+        {
+          "id": "o1",
+          "text": "Because they are too expensive"
+        },
+        {
+          "id": "o2",
+          "text": "Because the shop has no clothes"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "A says 不能。这些是女孩子穿的衣服, 男孩子的衣服在那儿。",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p5-a-0268"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}

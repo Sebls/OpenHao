@@ -1,0 +1,358 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "p3-q-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 小猫 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Kitten / little cat"
+        },
+        {
+          "id": "o1",
+          "text": "Little dog"
+        },
+        {
+          "id": "o2",
+          "text": "Doctor"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "小 means little and 猫 means cat.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p3-a-0137"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means “under” (as in 桌子下)?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "前"
+        },
+        {
+          "id": "o1",
+          "text": "下"
+        },
+        {
+          "id": "o2",
+          "text": "里"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "下 means under/below; 前 means in front of and 里 means inside.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p3-a-0150"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character is the pronoun “it” for animals?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "他"
+        },
+        {
+          "id": "o1",
+          "text": "她"
+        },
+        {
+          "id": "o2",
+          "text": "它"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "它 (tā) is used for animals and objects; 他 is “he” and 她 is “she”.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p3-a-0143"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Where is the kitten in Dialogue 8.1?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "In front of the bookstore"
+        },
+        {
+          "id": "o1",
+          "text": "Under the table"
+        },
+        {
+          "id": "o2",
+          "text": "At the hospital"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "A says 它在桌子下呢 (“It's under the table”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p3-a-0216"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choose the missing word: 我____看见，它在哪儿呢？ (I didn't see it...)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "不"
+        },
+        {
+          "id": "o1",
+          "text": "没"
+        },
+        {
+          "id": "o2",
+          "text": "也"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Use 没 (not 不) to negate 看见 (saw/noticed).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p3-a-0141"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In 在学校书店前见吧, why does 在学校书店前 come before 见?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "In Mandarin, location phrases precede the action verb"
+        },
+        {
+          "id": "o1",
+          "text": "Location words always come at the end of the sentence"
+        },
+        {
+          "id": "o2",
+          "text": "见 cannot take a location"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Mandarin places 在 + location before the verb: 在学校书店前见.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p3-a-0219"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the matching English meaning.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Let's meet in front of the school bookstore."
+        },
+        {
+          "id": "o1",
+          "text": "It's under the table."
+        },
+        {
+          "id": "o2",
+          "text": "My dad is also at the hospital."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The audio says 在学校书店前见吧 (“Let's meet in front of the school bookstore”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p3-a-0219"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "在学校书店前见吧。"
+    },
+    {
+      "id": "p3-q-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 病人 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Patient"
+        },
+        {
+          "id": "o1",
+          "text": "Doctor"
+        },
+        {
+          "id": "o2",
+          "text": "Bookstore"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "病人 literally means “sick person,” i.e., a patient.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p3-a-0195"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "How do you say “two doctors”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "二个医生"
+        },
+        {
+          "id": "o1",
+          "text": "两个医生"
+        },
+        {
+          "id": "o2",
+          "text": "两只医生"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Use 两 (not 二) before measure word 个: 两个医生.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p3-a-0210"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In Dialogue 8.2, what will B do at school?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Eat lunch and meet at 2:00"
+        },
+        {
+          "id": "o1",
+          "text": "Go to the hospital"
+        },
+        {
+          "id": "o2",
+          "text": "Look for a kitten"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "B says 我能到。我在学校吃午饭。",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p3-a-0221"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}

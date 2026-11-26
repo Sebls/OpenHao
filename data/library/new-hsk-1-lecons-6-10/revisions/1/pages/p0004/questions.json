@@ -1,0 +1,358 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "p4-q-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 好听 mean in 你唱歌很好听?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pleasant to hear / sounds good"
+        },
+        {
+          "id": "o1",
+          "text": "Delicious"
+        },
+        {
+          "id": "o2",
+          "text": "Busy"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "好听 (hǎotīng) literally means “good to listen to.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p4-a-0266"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which measure word is used for books (like 中文书)?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "只"
+        },
+        {
+          "id": "o1",
+          "text": "本"
+        },
+        {
+          "id": "o2",
+          "text": "家"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "本 (běn) is the measure word for books; 只 is for animals and 家 is for establishments.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p4-a-0221"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means “to read aloud / study” in 读书?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "书"
+        },
+        {
+          "id": "o1",
+          "text": "读"
+        },
+        {
+          "id": "o2",
+          "text": "唱"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "读 (dú) means to read; 书 means book and 唱 means to sing.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p4-a-0135"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Where is the Chinese book in Dialogue 9.2?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "On the chair"
+        },
+        {
+          "id": "o1",
+          "text": "Under the table"
+        },
+        {
+          "id": "o2",
+          "text": "Outside the cinema"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "A says 椅子上有一本中文书 (“There is a Chinese book on the chair”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p4-a-0290"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choose the missing word: 那是____书？ (Whose book is that?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "什么"
+        },
+        {
+          "id": "o1",
+          "text": "谁的"
+        },
+        {
+          "id": "o2",
+          "text": "哪儿"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "谁的 means “whose”.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p4-a-0225"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In 我明天上午在学校学习, what is the word order?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Subject + Time + Place (在...) + Verb"
+        },
+        {
+          "id": "o1",
+          "text": "Subject + Verb + Time + Place"
+        },
+        {
+          "id": "o2",
+          "text": "Place + Subject + Verb + Time"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Mandarin places time (明天上午) and location (在学校) before the verb (学习).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p4-a-0293"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the matching English meaning.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "There is a cinema in front of the school."
+        },
+        {
+          "id": "o1",
+          "text": "I will study at school tomorrow morning."
+        },
+        {
+          "id": "o2",
+          "text": "I also have a puppy."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The audio says 学校前边有一家电影院 (“There is a cinema in front of the school”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p4-a-0286"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "学校前边有一家电影院。"
+    },
+    {
+      "id": "p4-q-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 星期六 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Saturday"
+        },
+        {
+          "id": "o1",
+          "text": "Sunday"
+        },
+        {
+          "id": "o2",
+          "text": "Daytime"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "星期六 is Saturday (literally week-day 6); 星期天 is Sunday.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p4-a-0249"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which phrase means “to watch TV”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "看电影"
+        },
+        {
+          "id": "o1",
+          "text": "看电视"
+        },
+        {
+          "id": "o2",
+          "text": "做饭"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "看电视 means to watch TV; 看电影 is watch a movie and 做饭 is cook.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p4-a-0275"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In Dialogue 9.3, what does B do during the day on Saturday?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Reads at home"
+        },
+        {
+          "id": "o1",
+          "text": "Sings outside with friends"
+        },
+        {
+          "id": "o2",
+          "text": "Cooks and watches TV"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "B says 我白天在家里读书 (“During the day I read at home”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p4-a-0295"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}

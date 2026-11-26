@@ -1,0 +1,358 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "p2-q-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 现在几点 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "What time is it now?"
+        },
+        {
+          "id": "o1",
+          "text": "Where are you now?"
+        },
+        {
+          "id": "o2",
+          "text": "What day is it today?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "现在 means now and 几点 asks what time it is.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p2-a-0144"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "How do you say “2 o'clock” in Mandarin?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "二点"
+        },
+        {
+          "id": "o1",
+          "text": "两点"
+        },
+        {
+          "id": "o2",
+          "text": "二十分"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Always use 两 (liǎng) before 点 for 2 o'clock: 两点.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p2-a-0179"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means “half” (as in 6:30)?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "分"
+        },
+        {
+          "id": "o1",
+          "text": "半"
+        },
+        {
+          "id": "o2",
+          "text": "点"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "半 (bàn) means half; 点 means o'clock and 分 means minute.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p2-a-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In Dialogue 7.2, why doesn't B want to go to the cinema this afternoon?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "B still has things to do"
+        },
+        {
+          "id": "o1",
+          "text": "B is at the hospital"
+        },
+        {
+          "id": "o2",
+          "text": "B is buying groceries"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "B says 我不想去,下午还有事 (“I still have things to do this afternoon”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p2-a-0222"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choose the missing word: 我晚上六点半____。 (I get off work at 6:30 p.m.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "上班"
+        },
+        {
+          "id": "o1",
+          "text": "下班"
+        },
+        {
+          "id": "o2",
+          "text": "上课"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "下班 means to get off work; 上班 means to start work and 上课 means to attend class.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p2-a-0142"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In 我十分钟后去, what does 十分钟后 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ten minutes ago"
+        },
+        {
+          "id": "o1",
+          "text": "In ten minutes / ten minutes later"
+        },
+        {
+          "id": "o2",
+          "text": "At ten o'clock"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Duration + 后 means “after [duration]” or “in [duration]”.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p2-a-0230"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the matching English meaning.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "I'm going to the hospital to start work at 8:00."
+        },
+        {
+          "id": "o1",
+          "text": "I get off work at 6:30 in the evening."
+        },
+        {
+          "id": "o2",
+          "text": "I have class at 10:10 in the morning."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The audio says 我八点去医院上班 (“I'm going to the hospital to start work at 8:00”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p2-a-0228"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我八点去医院上班。"
+    },
+    {
+      "id": "p2-q-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 电影院 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cinema / movie theater"
+        },
+        {
+          "id": "o1",
+          "text": "Hospital"
+        },
+        {
+          "id": "o2",
+          "text": "Office"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "电影院 is a cinema; 医院 is hospital and 办公室 is office.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p2-a-0162"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which phrase means “at home”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "在家里"
+        },
+        {
+          "id": "o1",
+          "text": "在学校"
+        },
+        {
+          "id": "o2",
+          "text": "在店里"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "在家里 means at home; 在学校 is at school and 在店里 is in the shop.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p2-a-0192"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-010",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What time does B finish class tomorrow in Dialogue 7.2?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "2:00 p.m."
+        },
+        {
+          "id": "o1",
+          "text": "4:30 p.m."
+        },
+        {
+          "id": "o2",
+          "text": "6:30 p.m."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "B says 我明天下午两点还上课呢, 四点半下课 (finishes class at 4:30).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "p2-a-0224"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}
