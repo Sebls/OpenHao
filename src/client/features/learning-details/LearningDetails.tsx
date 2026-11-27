@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import type { RefObject } from "react";
 import { useState } from "react";
 import type {
@@ -35,24 +36,25 @@ export function LearningDetails({
   onPractise,
   choose,
 }: Props) {
+  const { t } = useI18n();
   const [copy, setCopy] = useState("");
   return (
     <aside
       className="details"
       tabIndex={-1}
       ref={detailsRef}
-      aria-label="Learning details"
+      aria-label={t("Learning details")}
     >
       <div className="detail-top">
-        <span className="eyebrow">{entry.kind}</span>
+        <span className="eyebrow">{t(entry.kind)}</span>
         <button
           onClick={() => {
             onClose();
           }}
-          aria-label="Close learning details"
+          aria-label={t("Close learning details")}
         >
           <span className="wide-close">×</span>
-          <span className="narrow-close">← Return to page</span>
+          <span className="narrow-close">{t("← Return to page")}</span>
         </button>
       </div>
       <h2 lang="zh-CN">{entry.form}</h2>
@@ -64,8 +66,8 @@ export function LearningDetails({
           {entry.pronunciations.find((p) => p.system === "ipa")?.value && (
             <span
               className="ipa-transcription"
-              aria-label="Phonetic transcription in IPA"
-              title="Phonetic transcription · IPA"
+              aria-label={t("Phonetic transcription in IPA")}
+              title={t("Phonetic transcription · IPA")}
             >
               {entry.pronunciations.find((p) => p.system === "ipa")?.value}
             </span>
@@ -79,7 +81,7 @@ export function LearningDetails({
               <button
                 type="button"
                 className="icon-control"
-                aria-label="Pronunciation information"
+                aria-label={t("Pronunciation information")}
                 aria-describedby="voice-information"
               >
                 <span aria-hidden="true">ⓘ</span>
@@ -90,8 +92,13 @@ export function LearningDetails({
                 className="speech-tooltip"
               >
                 {speech.available
-                  ? `Local Mandarin voice: ${speech.voiceName}. Test playback before listening practice.`
-                  : "Pronunciation is unavailable. A Mandarin voice on your device is needed."}
+                  ? t(
+                      "Local Mandarin voice: {value0}. Test playback before listening practice.",
+                      { value0: speech.voiceName },
+                    )
+                  : t(
+                      "Pronunciation is unavailable. A Mandarin voice on your device is needed.",
+                    )}
               </span>
             </span>
           </div>
@@ -100,14 +107,14 @@ export function LearningDetails({
           <p
             role="status"
             className={
-              speech.available && !speech.status.startsWith("Audio could not")
-                ? "sr-only"
-                : undefined
+              speech.available && !speech.failed ? "sr-only" : undefined
             }
           >
             {speech.available
               ? speech.status
-              : "Pronunciation is unavailable. A Mandarin voice on your device is needed."}
+              : t(
+                  "Pronunciation is unavailable. A Mandarin voice on your device is needed.",
+                )}
           </p>
         </div>
         {entry.pronunciationNote && (
@@ -125,7 +132,7 @@ export function LearningDetails({
       <CharacterHistory key={`character-history:${entry.id}`} entry={entry} />
       {!!entry.constituentIds?.length && (
         <details open>
-          <summary>Explore the parts</summary>
+          <summary>{t("Explore the parts")}</summary>
           <div className="parts">
             {entry.constituentIds?.map((id) => {
               const e = content.entries.entries.find((e) => e.id === id),
@@ -148,12 +155,12 @@ export function LearningDetails({
       )}
       {entry.grammar && (
         <details>
-          <summary>How it works</summary>
+          <summary>{t("How it works")}</summary>
           <p>{entry.grammar}</p>
         </details>
       )}
       <details>
-        <summary>In the original</summary>
+        <summary>{t("In the original")}</summary>
         <p lang="zh-CN">
           {
             content.layout.lines.find(
@@ -176,7 +183,7 @@ export function LearningDetails({
             )
             .map((a) => (
               <button key={a.id} onClick={() => choose(a)}>
-                Explore sentence
+                {t("Explore sentence")}
               </button>
             ))}
         </div>
@@ -186,20 +193,20 @@ export function LearningDetails({
         onClick={async () => {
           try {
             await navigator.clipboard.writeText(reference);
-            setCopy("Reference copied");
+            setCopy(t("Reference copied"));
           } catch {
-            setCopy("Copy the reference below");
+            setCopy(t("Copy the reference below"));
           }
         }}
       >
-        Copy reference
+        {t("Copy reference")}
       </button>
       {copy && (
         <div role="status">
           <small>{copy}</small>
           <input
             readOnly
-            aria-label="Correction reference"
+            aria-label={t("Correction reference")}
             value={reference}
             onFocus={(e) => e.target.select()}
           />

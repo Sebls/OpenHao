@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import { useId, useState } from "react";
 import type { Entry } from "../../../contracts/content.ts";
 import {
@@ -23,6 +24,7 @@ export function ToneContours({
   entry: Entry;
   entries: Entry[];
 }) {
+  const { t } = useI18n();
   const [expanded, setExpanded] = useState(readExpandedPreference);
   const [helpOpen, setHelpOpen] = useState(false);
   const helpId = useId();
@@ -50,12 +52,12 @@ export function ToneContours({
         }
       }}
     >
-      <summary>Pitch guide</summary>
+      <summary>{t("Pitch guide")}</summary>
       <div className="tone-guide-tools">
         <button
           type="button"
           className="icon-control tone-help-button"
-          aria-label="Pitch guide information"
+          aria-label={t("Pitch guide information")}
           aria-expanded={helpOpen}
           aria-controls={helpId}
           onClick={() => setHelpOpen(!helpOpen)}
@@ -64,22 +66,19 @@ export function ToneContours({
         </button>
         {canChangeLayout && (
           <SequenceLayoutControls
-            label="Pitch guide layout"
+            label={t("Pitch guide layout")}
             layout={layout}
             onChange={changeLayout}
-            rowLabel="Tone curves in a scrolling row"
-            gridLabel="Tone curves in a grid"
+            rowLabel={t("Tone curves in a scrolling row")}
+            gridLabel={t("Tone curves in a grid")}
           />
         )}
       </div>
       {helpOpen && (
         <div id={helpId} className="tone-help" role="note">
-          Follow left to right: the dot is your starting pitch; higher curves
-          mean a higher voice. Curves cover Chinese syllables in the written
-          pinyin. Connected speech can change tones (nǐ hǎo is usually spoken ní
-          hǎo). Tone 3 often stays low; the dashed rise is used in isolation or
-          at some phrase endings. Neutral syllables are short and light; ∼ means
-          their pitch varies with context.
+          {t(
+            "Follow left to right: the dot is your starting pitch; higher curves mean a higher voice. Curves cover Chinese syllables in the written pinyin. Connected speech can change tones (nǐ hǎo is usually spoken ní hǎo). Tone 3 often stays low; the dashed rise is used in isolation or at some phrase endings. Neutral syllables are short and light; ∼ means their pitch varies with context.",
+          )}
         </div>
       )}
       <div
@@ -88,8 +87,8 @@ export function ToneContours({
         role="region"
         aria-label={
           layout === "row"
-            ? "Tone curves, scroll horizontally for more"
-            : "Tone curves in reading order"
+            ? t("Tone curves, scroll horizontally for more")
+            : t("Tone curves in reading order")
         }
       >
         <ol>
@@ -101,7 +100,7 @@ export function ToneContours({
                 className={`tone-${syllable.tone}${syllable.segmentStart ? " tone-segment-start" : ""}`}
               >
                 <figure
-                  aria-label={`${syllable.character}, ${syllable.pinyin}: ${syllable.tone ? `tone ${syllable.tone}` : "neutral tone"}, ${guide.label.toLowerCase()}${transcriptions[i] ? `, IPA ${transcriptions[i]}` : ""}`}
+                  aria-label={`${syllable.character}, ${syllable.pinyin}: ${syllable.tone ? t("tone {value0}", { value0: syllable.tone }) : t("neutral tone")}, ${t(guide.label).toLowerCase()}${transcriptions[i] ? t(", IPA {value0}", { value0: transcriptions[i] }) : ""}`}
                 >
                   <span
                     className="tone-character"
@@ -159,15 +158,17 @@ export function ToneContours({
                     {transcriptions[i] && (
                       <span
                         className="tone-ipa"
-                        title="Phonetic transcription · IPA"
+                        title={t("Phonetic transcription · IPA")}
                       >
                         {transcriptions[i]}
                       </span>
                     )}
                     <span>
-                      {syllable.tone ? `Tone ${syllable.tone}` : "Neutral"}
+                      {syllable.tone
+                        ? t("Tone {value0}", { value0: syllable.tone })
+                        : t("Neutral")}
                     </span>
-                    <span className="tone-direction">{guide.label}</span>
+                    <span className="tone-direction">{t(guide.label)}</span>
                   </figcaption>
                 </figure>
               </li>
