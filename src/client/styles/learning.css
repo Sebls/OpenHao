@@ -240,3 +240,130 @@ pre {
 .companion pre {
   padding-block: 24px;
 }
+
+.tone-guide {
+  position: relative;
+}
+.tone-guide > summary {
+  padding-right: 110px;
+}
+.tone-guide-tools {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.tone-guide:not([open]) .tone-guide-tools {
+  display: none;
+}
+.tone-help-button.icon-control {
+  width: 28px;
+  height: 28px;
+  min-height: 28px;
+  font-size: 0.9375rem;
+}
+.tone-help {
+  margin: 4px 0 16px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+.tone-sequence {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding-bottom: 8px;
+}
+.tone-sequence ol {
+  display: flex;
+  gap: 8px;
+  width: max-content;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tone-sequence li {
+  width: 92px;
+  flex: none;
+}
+.tone-sequence.is-grid ol {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 100%;
+}
+.tone-sequence.is-grid li {
+  width: 100%;
+  min-width: 0;
+}
+.tone-sequence .tone-segment-start {
+  border-left: 1px solid var(--line);
+  padding-left: 8px;
+}
+.tone-sequence figure {
+  margin: 0;
+  text-align: center;
+}
+.tone-character {
+  display: block;
+  font-size: 1.125rem;
+  color: var(--text);
+}
+.tone-sequence svg {
+  display: block;
+  width: 100%;
+  height: 72px;
+}
+.tone-reference {
+  fill: none;
+  stroke: var(--line);
+  stroke-width: 0.75;
+}
+.tone-curve {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+.tone-optional {
+  stroke-dasharray: 3 5;
+}
+.tone-neutral {
+  font-size: 30px;
+  fill: currentColor;
+}
+.tone-1 {
+  color: #0562cf;
+}
+.tone-2 {
+  color: #18733b;
+}
+.tone-3 {
+  color: #8650a3;
+}
+.tone-4 {
+  color: #b34e10;
+}
+.tone-0 {
+  color: var(--muted);
+}
+.tone-sequence figcaption span {
+  display: block;
+  font-size: 0.6875rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.tone-sequence figcaption .tone-pinyin {
+  font-size: 0.9375rem;
+  color: var(--text);
+}
+.tone-direction {
+  color: var(--muted);
+}
+.tone-sequence figcaption .tone-ipa {
+  font-size: 0.625rem;
+  color: var(--muted);
+  margin: 2px 0 3px;
+}

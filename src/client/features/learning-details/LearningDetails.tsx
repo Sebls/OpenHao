@@ -10,6 +10,7 @@ import type { Speech } from "../speech/useSpeech.ts";
 import { StrokeOrder } from "../writing/StrokeOrder.tsx";
 import { CharacterHistory } from "./CharacterHistory.tsx";
 import { pinyin } from "./pronunciation.ts";
+import { ToneContours } from "./ToneContours.tsx";
 interface Props {
   entry: Entry;
   active: Annotation;
@@ -114,6 +115,7 @@ export function LearningDetails({
         )}
       </div>
       {entry.explanation && <p>{entry.explanation}</p>}
+      <ToneContours entry={entry} entries={content.entries.entries} />
       <StrokeOrder
         key={`stroke-order:${entry.id}`}
         entry={entry}
