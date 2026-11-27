@@ -1,0 +1,3446 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "entries": [
+    {
+      "id": "e-p0007-0001",
+      "kind": "word",
+      "form": "字幕",
+      "language": "zh-CN",
+      "meaning": "subtitles",
+      "explanation": "Written text displayed for a film or programme.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zìmù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "字幕",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0003",
+        "e-p0007-0004"
+      ]
+    },
+    {
+      "id": "e-p0007-0002",
+      "kind": "word",
+      "form": "语调",
+      "language": "zh-CN",
+      "meaning": "intonation",
+      "explanation": "The pitch pattern of speech; 调 is diào here.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǔdiào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "语调",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0005",
+        "e-p0007-0006"
+      ]
+    },
+    {
+      "id": "e-p0007-0003",
+      "kind": "character",
+      "form": "字",
+      "language": "zh-CN",
+      "meaning": "written character",
+      "explanation": "Full zì in 汉字; neutral zi in 名字 míngzi (name).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsɹ̩⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "字",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0004",
+      "kind": "character",
+      "form": "幕",
+      "language": "zh-CN",
+      "meaning": "curtain; screen",
+      "explanation": "字幕 zìmù means subtitles.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "幕",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0005",
+      "kind": "character",
+      "form": "语",
+      "language": "zh-CN",
+      "meaning": "language; speech",
+      "explanation": "汉语 is Chinese, 法语 is French, 日语 is Japanese; 语法 means grammar.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[y²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "语",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0006",
+      "kind": "character",
+      "form": "调",
+      "language": "zh-CN",
+      "meaning": "tone; tune (in 语调)",
+      "explanation": "语调 yǔdiào means intonation. Tiáo is a different reading in other words.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "diào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "调",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0007",
+      "kind": "word",
+      "form": "餐巾",
+      "language": "zh-CN",
+      "meaning": "napkin",
+      "explanation": "A cloth or paper used at a meal.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cānjīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "餐巾",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0008",
+        "e-p0007-0009"
+      ]
+    },
+    {
+      "id": "e-p0007-0008",
+      "kind": "character",
+      "form": "餐",
+      "language": "zh-CN",
+      "meaning": "meal",
+      "explanation": "餐巾 cānjīn means napkin.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "餐",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0009",
+      "kind": "character",
+      "form": "巾",
+      "language": "zh-CN",
+      "meaning": "cloth; scarf (lexical character)",
+      "explanation": "头巾 tóujīn means headscarf. Learn the whole word.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕin⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "巾",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0010",
+      "kind": "word",
+      "form": "画廊",
+      "language": "zh-CN",
+      "meaning": "art gallery",
+      "explanation": "A place for exhibiting paintings or other art.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "huàláng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "画廊",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0012",
+        "e-p0007-0013"
+      ]
+    },
+    {
+      "id": "e-p0007-0011",
+      "kind": "word",
+      "form": "宝贵",
+      "language": "zh-CN",
+      "meaning": "precious; valuable",
+      "explanation": "A complete adjective, often describing something valued or important.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bǎoguì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "宝贵",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0014",
+        "e-p0007-0015"
+      ]
+    },
+    {
+      "id": "e-p0007-0012",
+      "kind": "character",
+      "form": "画",
+      "language": "zh-CN",
+      "meaning": "draw; painting; picture",
+      "explanation": "As a verb it means draw; as a noun it means a picture or painting. 画画儿 means draw pictures.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "huà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xwa⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "画",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0013",
+      "kind": "character",
+      "form": "廊",
+      "language": "zh-CN",
+      "meaning": "corridor; gallery",
+      "explanation": "画廊 huàláng means art gallery.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "láng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "廊",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0014",
+      "kind": "character",
+      "form": "宝",
+      "language": "zh-CN",
+      "meaning": "treasure; precious thing",
+      "explanation": "宝贵 bǎoguì means precious or valuable.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "宝",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0015",
+      "kind": "character",
+      "form": "贵",
+      "language": "zh-CN",
+      "meaning": "expensive; honourable",
+      "explanation": "Expensive for prices. 贵姓 is a respectful formula asking a surname; in names 贵 is not translated as expensive.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kweɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "贵",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0016",
+      "kind": "word",
+      "form": "国画",
+      "language": "zh-CN",
+      "meaning": "traditional Chinese painting",
+      "explanation": "The painting style, not any picture that happens to be produced in China.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guóhuà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "国画",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0017",
+        "e-p0007-0012"
+      ]
+    },
+    {
+      "id": "e-p0007-0017",
+      "kind": "character",
+      "form": "国",
+      "language": "zh-CN",
+      "meaning": "country; nation",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kwo³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0018",
+      "kind": "word",
+      "form": "口语",
+      "language": "zh-CN",
+      "meaning": "spoken language",
+      "explanation": "Distinguish from written language and from sign language 手语.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kǒuyǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "口语",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0021",
+        "e-p0007-0005"
+      ]
+    },
+    {
+      "id": "e-p0007-0019",
+      "kind": "word",
+      "form": "名画",
+      "language": "zh-CN",
+      "meaning": "famous painting",
+      "explanation": "名 here means famous; it does not mean the painting's name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mínghuà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "名画",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0022",
+        "e-p0007-0012"
+      ]
+    },
+    {
+      "id": "e-p0007-0020",
+      "kind": "word",
+      "form": "手语",
+      "language": "zh-CN",
+      "meaning": "sign language",
+      "explanation": "A visual language using hand movements and other visual signals.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shǒuyǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "手语",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0023",
+        "e-p0007-0005"
+      ]
+    },
+    {
+      "id": "e-p0007-0021",
+      "kind": "character",
+      "form": "口",
+      "language": "zh-CN",
+      "meaning": "mouth",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʰoʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "口",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0022",
+      "kind": "character",
+      "form": "名",
+      "language": "zh-CN",
+      "meaning": "name; fame",
+      "explanation": "名字 means name; 有名 is famous; 名片 is a business card.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "míng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[miŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "名",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0023",
+      "kind": "character",
+      "form": "手",
+      "language": "zh-CN",
+      "meaning": "hand",
+      "explanation": "手语 shǒuyǔ means sign language.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂoʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "手",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0024",
+      "kind": "word",
+      "form": "文字",
+      "language": "zh-CN",
+      "meaning": "writing; written script",
+      "explanation": "Written symbols or a writing system; distinguish spoken language 口语.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wénzì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "文字",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0031",
+        "e-p0007-0003"
+      ]
+    },
+    {
+      "id": "e-p0007-0025",
+      "kind": "word",
+      "form": "法文",
+      "language": "zh-CN",
+      "meaning": "French (language)",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Fǎwén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fa²¹⁴ wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "法文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0030",
+        "e-p0007-0031"
+      ]
+    },
+    {
+      "id": "e-p0007-0026",
+      "kind": "word",
+      "form": "用心",
+      "language": "zh-CN",
+      "meaning": "with care; attentively",
+      "explanation": "Here the source pairs it with the French phrase meaning with care.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yòngxīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "用心",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0028",
+        "e-p0007-0029"
+      ]
+    },
+    {
+      "id": "e-p0007-0027",
+      "kind": "word",
+      "form": "用法",
+      "language": "zh-CN",
+      "meaning": "usage; way of using",
+      "explanation": "How something, such as a word or tool, is used.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yòngfǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "用法",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0028",
+        "e-p0007-0030"
+      ]
+    },
+    {
+      "id": "e-p0007-0028",
+      "kind": "character",
+      "form": "用",
+      "language": "zh-CN",
+      "meaning": "use",
+      "explanation": "用筷子 means use chopsticks. 有用 means useful.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yòng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[jʊŋ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "用",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0029",
+      "kind": "character",
+      "form": "心",
+      "language": "zh-CN",
+      "meaning": "heart",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕin⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "心",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0030",
+      "kind": "character",
+      "form": "法",
+      "language": "zh-CN",
+      "meaning": "law; method",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fa²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "法",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0031",
+      "kind": "character",
+      "form": "文",
+      "language": "zh-CN",
+      "meaning": "writing; language",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0032",
+      "kind": "character",
+      "form": "药",
+      "language": "zh-CN",
+      "meaning": "medicine",
+      "explanation": "吃药 means take medicine. The source leaves an open blank; do not insert an answer into its transcript.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "药",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0033",
+      "kind": "character",
+      "form": "茫",
+      "language": "zh-CN",
+      "meaning": "vast; indistinct; at a loss",
+      "explanation": "A complete character in the radical-identification exercise; its radical is the grass component 艹.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "máng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "茫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0034",
+      "kind": "character",
+      "form": "慌",
+      "language": "zh-CN",
+      "meaning": "flustered; panic",
+      "explanation": "A complete character with the heart component 忄.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "huāng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "慌",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0035",
+      "kind": "character",
+      "form": "谎",
+      "language": "zh-CN",
+      "meaning": "lie; falsehood",
+      "explanation": "A complete character with the speech component 讠.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "huǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "谎",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0036",
+      "kind": "character",
+      "form": "宿",
+      "language": "zh-CN",
+      "meaning": "stay overnight; lodging",
+      "explanation": "The radical is 宀. Other readings xiǔ (a night) and xiù (astronomical lodge) occur in other words; the isolated exercise has no unique pronunciation context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "sù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "宿",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0037",
+      "kind": "character",
+      "form": "噬",
+      "language": "zh-CN",
+      "meaning": "bite; devour",
+      "explanation": "A complete character with the mouth radical 口.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "噬",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0038",
+      "kind": "character",
+      "form": "恕",
+      "language": "zh-CN",
+      "meaning": "forgive; excuse",
+      "explanation": "A complete character with the heart radical 心 below.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "恕",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0039",
+      "kind": "character",
+      "form": "桔",
+      "language": "zh-CN",
+      "meaning": "tangerine (one reading)",
+      "explanation": "Also read jié in 桔梗. The isolated exercise asks for the wood radical 木, not a unique reading.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jú",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "桔",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0040",
+      "kind": "character",
+      "form": "渴",
+      "language": "zh-CN",
+      "meaning": "thirsty",
+      "explanation": "A complete character with the water component 氵.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "渴",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0041",
+      "kind": "word",
+      "form": "寸草不留",
+      "language": "zh-CN",
+      "meaning": "leave nothing alive; destroy completely",
+      "explanation": "Literally not leave even a tiny blade of grass; an idiom for total destruction.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cùn cǎo bù liú",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "寸草不留",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0042",
+        "e-p0007-0043",
+        "e-p0007-0044",
+        "e-p0007-0045"
+      ]
+    },
+    {
+      "id": "e-p0007-0042",
+      "kind": "character",
+      "form": "寸",
+      "language": "zh-CN",
+      "meaning": "cun (traditional unit of length)",
+      "explanation": "Often loosely glossed inch; the traditional unit is not simply identical to the English inch. It appears figuratively in the idioms on page 7.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cùn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "寸",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0043",
+      "kind": "character",
+      "form": "草",
+      "language": "zh-CN",
+      "meaning": "grass",
+      "explanation": "寸草不留 uses grass to convey complete destruction.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "草",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0044",
+      "kind": "character",
+      "form": "不",
+      "language": "zh-CN",
+      "meaning": "not",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "不",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0045",
+      "kind": "character",
+      "form": "留",
+      "language": "zh-CN",
+      "meaning": "leave; remain",
+      "explanation": "不留 means leave none, as in 寸草不留.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "liú",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "留",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0046",
+      "kind": "word",
+      "form": "寸步难行",
+      "language": "zh-CN",
+      "meaning": "unable to move a step; find it very hard to proceed",
+      "explanation": "An idiom: even a tiny step is hard to take. 行 is xíng here.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cùn bù nán xíng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "寸步难行",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0042",
+        "e-p0007-0047",
+        "e-p0007-0048",
+        "e-p0007-0049"
+      ]
+    },
+    {
+      "id": "e-p0007-0047",
+      "kind": "character",
+      "form": "步",
+      "language": "zh-CN",
+      "meaning": "step",
+      "explanation": "寸步难行 means unable to move even a tiny step.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "步",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0048",
+      "kind": "character",
+      "form": "难",
+      "language": "zh-CN",
+      "meaning": "difficult; hard",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nán",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nan³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "难",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0049",
+      "kind": "character",
+      "form": "行",
+      "language": "zh-CN",
+      "meaning": "go; be all right",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xíng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕiŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "行",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0050",
+      "kind": "word",
+      "form": "光阴",
+      "language": "zh-CN",
+      "meaning": "time",
+      "explanation": "A literary word for time, used in the proverb 一寸光阴一寸金.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guāngyīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "光阴",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0052",
+        "e-p0007-0053"
+      ]
+    },
+    {
+      "id": "e-p0007-0051",
+      "kind": "character",
+      "form": "一",
+      "language": "zh-CN",
+      "meaning": "one",
+      "explanation": "一 changes to the rising yí form before fourth-tone cùn.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "一",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0052",
+      "kind": "character",
+      "form": "光",
+      "language": "zh-CN",
+      "meaning": "light",
+      "explanation": "光阴 guāngyīn means time, rather than literal light and shade.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guāng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "光",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0053",
+      "kind": "character",
+      "form": "阴",
+      "language": "zh-CN",
+      "meaning": "shade; yin",
+      "explanation": "光阴 means time in the proverb.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "阴",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0054",
+      "kind": "character",
+      "form": "金",
+      "language": "zh-CN",
+      "meaning": "gold; metal",
+      "explanation": "The proverb compares time to gold to emphasize its value.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "金",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0055",
+      "kind": "character",
+      "form": "烤",
+      "language": "zh-CN",
+      "meaning": "roast; bake",
+      "explanation": "烤鸭 kǎoyā means roast duck.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "烤",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0056",
+      "kind": "character",
+      "form": "慢",
+      "language": "zh-CN",
+      "meaning": "slow",
+      "explanation": "An alternative character in the source's fill-the-blank exercise.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "màn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "慢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0057",
+      "kind": "word",
+      "form": "喜欢",
+      "language": "zh-CN",
+      "meaning": "like",
+      "explanation": "The second syllable huan is commonly neutral.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xǐhuan",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕi²¹ xwɑn]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "喜欢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0062",
+        "e-p0007-0063"
+      ]
+    },
+    {
+      "id": "e-p0007-0058",
+      "kind": "word",
+      "form": "小孩儿",
+      "language": "zh-CN",
+      "meaning": "child (rhotic form)",
+      "explanation": "儿 merges into 孩 hái as an r ending.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎoháir",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "小孩儿",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0059",
+        "e-p0007-0060"
+      ]
+    },
+    {
+      "id": "e-p0007-0059",
+      "kind": "character",
+      "form": "小",
+      "language": "zh-CN",
+      "meaning": "small",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "小",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0060",
+      "kind": "character",
+      "form": "孩",
+      "language": "zh-CN",
+      "meaning": "child",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hái",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "孩",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0061",
+      "kind": "character",
+      "form": "都",
+      "language": "zh-CN",
+      "meaning": "all; both",
+      "explanation": "都 before the verb means all here, rather than dū meaning capital.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dōu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "都",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0062",
+      "kind": "character",
+      "form": "喜",
+      "language": "zh-CN",
+      "meaning": "to like; happy",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕi²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "喜",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0063",
+      "kind": "character",
+      "form": "欢",
+      "language": "zh-CN",
+      "meaning": "neutral huan in this word",
+      "explanation": "This occurrence is a neutral syllable; select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "huan",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xwɑn]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "欢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0064",
+      "kind": "character",
+      "form": "吃",
+      "language": "zh-CN",
+      "meaning": "eat",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʰɻ̩⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "吃",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0065",
+      "kind": "word",
+      "form": "北京",
+      "language": "zh-CN",
+      "meaning": "Beijing",
+      "explanation": "The city name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Běijīng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[peɪ²¹ tɕiŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "北京",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0067",
+        "e-p0007-0068"
+      ]
+    },
+    {
+      "id": "e-p0007-0066",
+      "kind": "word",
+      "form": "北京人",
+      "language": "zh-CN",
+      "meaning": "person from Beijing",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Běijīng rén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "北京人",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0067",
+        "e-p0007-0068",
+        "e-p0007-0069"
+      ]
+    },
+    {
+      "id": "e-p0007-0067",
+      "kind": "character",
+      "form": "北",
+      "language": "zh-CN",
+      "meaning": "north",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "běi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[peɪ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "北",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0068",
+      "kind": "character",
+      "form": "京",
+      "language": "zh-CN",
+      "meaning": "capital (in 北京)",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jīng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕiŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "京",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0069",
+      "kind": "character",
+      "form": "人",
+      "language": "zh-CN",
+      "meaning": "person",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "rén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʐən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "人",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0070",
+      "kind": "character",
+      "form": "常",
+      "language": "zh-CN",
+      "meaning": "often; usual",
+      "explanation": "常 and 常常 both mean often in this lesson. Distinguish 长 cháng (long), which has the same sound.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cháng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʰɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "常",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0071",
+      "kind": "character",
+      "form": "鸭",
+      "language": "zh-CN",
+      "meaning": "duck",
+      "explanation": "北京烤鸭 means Beijing roast duck.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "鸭",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0072",
+      "kind": "word",
+      "form": "你们",
+      "language": "zh-CN",
+      "meaning": "you (plural)",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐmen",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ni²¹ mən]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "你们",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0076",
+        "e-p0007-0077"
+      ]
+    },
+    {
+      "id": "e-p0007-0073",
+      "kind": "word",
+      "form": "厂长",
+      "language": "zh-CN",
+      "meaning": "factory director; factory manager",
+      "explanation": "Read 长 zhǎng meaning head or chief, unlike cháng meaning long.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chǎngzhǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "厂长",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0079",
+        "e-p0007-0080"
+      ]
+    },
+    {
+      "id": "e-p0007-0074",
+      "kind": "character",
+      "form": "他",
+      "language": "zh-CN",
+      "meaning": "he; him",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰa⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "他",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0075",
+      "kind": "character",
+      "form": "是",
+      "language": "zh-CN",
+      "meaning": "be; am, is, are",
+      "explanation": "Connects a subject with an identity: 这是… means this is…. 可是 is a separate whole word meaning but.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɻ̩⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Browser-triggered scoped correction plus separate contextual-language review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0076",
+      "kind": "character",
+      "form": "你",
+      "language": "zh-CN",
+      "meaning": "you",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ni²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "你",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0077",
+      "kind": "character",
+      "form": "们",
+      "language": "zh-CN",
+      "meaning": "plural suffix for people",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "men",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mən]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "们",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0078",
+      "kind": "character",
+      "form": "的",
+      "language": "zh-CN",
+      "meaning": "possessive or modifying particle",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "de",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɤ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "的",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0079",
+      "kind": "character",
+      "form": "厂",
+      "language": "zh-CN",
+      "meaning": "factory",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʰɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "厂",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0080",
+      "kind": "character",
+      "form": "长",
+      "language": "zh-CN",
+      "meaning": "head; chief (in factory director)",
+      "explanation": "In 厂长 chǎngzhǎng, 长 is zhǎng, unlike cháng meaning long.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "长",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0081",
+      "kind": "character",
+      "form": "吗",
+      "language": "zh-CN",
+      "meaning": "yes/no question particle",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "吗",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0082",
+      "kind": "word",
+      "form": "哥哥",
+      "language": "zh-CN",
+      "meaning": "elder brother",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gēge",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kɤ⁵⁵ kɤ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "哥哥",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0086",
+        "e-p0007-0087"
+      ]
+    },
+    {
+      "id": "e-p0007-0083",
+      "kind": "word",
+      "form": "亚洲",
+      "language": "zh-CN",
+      "meaning": "Asia",
+      "explanation": "A continent name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Yàzhōu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "亚洲",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0089",
+        "e-p0007-0090"
+      ]
+    },
+    {
+      "id": "e-p0007-0084",
+      "kind": "word",
+      "form": "旅行",
+      "language": "zh-CN",
+      "meaning": "travel; go on a journey",
+      "explanation": "行 is xíng here, not háng.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǚxíng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "旅行",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0091",
+        "e-p0007-0092"
+      ]
+    },
+    {
+      "id": "e-p0007-0085",
+      "kind": "character",
+      "form": "我",
+      "language": "zh-CN",
+      "meaning": "I; me",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wo²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "我",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0086",
+      "kind": "character",
+      "form": "哥",
+      "language": "zh-CN",
+      "meaning": "elder brother",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gē",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kɤ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "哥",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0087",
+      "kind": "character",
+      "form": "哥",
+      "language": "zh-CN",
+      "meaning": "neutral ge in this word",
+      "explanation": "This occurrence is a neutral syllable; select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ge",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "哥",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0088",
+      "kind": "character",
+      "form": "去",
+      "language": "zh-CN",
+      "meaning": "go",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "qù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕʰy⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "去",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0089",
+      "kind": "character",
+      "form": "亚",
+      "language": "zh-CN",
+      "meaning": "Asia (in 亚洲); second",
+      "explanation": "亚洲 Yàzhōu means Asia; keep the place name in English.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "亚",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0090",
+      "kind": "character",
+      "form": "洲",
+      "language": "zh-CN",
+      "meaning": "continent",
+      "explanation": "亚洲 Yàzhōu means Asia.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhōu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "洲",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0091",
+      "kind": "character",
+      "form": "旅",
+      "language": "zh-CN",
+      "meaning": "travel (in compounds)",
+      "explanation": "旅行 lǚxíng means travel; 行 is xíng in this word.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǚ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "旅",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0092",
+      "kind": "character",
+      "form": "行",
+      "language": "zh-CN",
+      "meaning": "go; travel (in 旅行)",
+      "explanation": "旅行 lǚxíng means travel. 行 is xíng here, not háng.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xíng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕiŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "行",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0093",
+      "kind": "word",
+      "form": "朋友",
+      "language": "zh-CN",
+      "meaning": "friend",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "péngyou",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰəŋ³⁵ joʊ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "朋友",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0098",
+        "e-p0007-0099"
+      ]
+    },
+    {
+      "id": "e-p0007-0094",
+      "kind": "word",
+      "form": "王贵松",
+      "language": "zh-CN",
+      "meaning": "Wang Guisong (personal name)",
+      "explanation": "Wang is the family name; Guisong is the given name. Do not translate the given-name characters literally.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wáng Guìsōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "王贵松",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0101",
+        "e-p0007-0015",
+        "e-p0007-0102"
+      ]
+    },
+    {
+      "id": "e-p0007-0095",
+      "kind": "word",
+      "form": "王美菊",
+      "language": "zh-CN",
+      "meaning": "Wang Meiju (personal name)",
+      "explanation": "Wang is the family name; Meiju is the given name. Keep the name in English.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wáng Měijú",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "王美菊",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0101",
+        "e-p0007-0105",
+        "e-p0007-0106"
+      ]
+    },
+    {
+      "id": "e-p0007-0096",
+      "kind": "word",
+      "form": "妹妹",
+      "language": "zh-CN",
+      "meaning": "younger sister",
+      "explanation": "Neutral second syllable mei.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mèimei",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "妹妹",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0103",
+        "e-p0007-0104"
+      ]
+    },
+    {
+      "id": "e-p0007-0097",
+      "kind": "character",
+      "form": "她",
+      "language": "zh-CN",
+      "meaning": "she; her",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "她",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0098",
+      "kind": "character",
+      "form": "朋",
+      "language": "zh-CN",
+      "meaning": "friend (in compounds)",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "péng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰəŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "朋",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0099",
+      "kind": "character",
+      "form": "友",
+      "language": "zh-CN",
+      "meaning": "neutral you in this word",
+      "explanation": "This occurrence is a neutral syllable; select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "you",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[joʊ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "友",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0100",
+      "kind": "character",
+      "form": "叫",
+      "language": "zh-CN",
+      "meaning": "be called; call",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕjɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "叫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0101",
+      "kind": "character",
+      "form": "王",
+      "language": "zh-CN",
+      "meaning": "king",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wáng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "王",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0102",
+      "kind": "character",
+      "form": "松",
+      "language": "zh-CN",
+      "meaning": "pine; Song (given-name character)",
+      "explanation": "In 王贵松 it belongs to the given name Guisong; keep the personal name in English.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "sōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "松",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0103",
+      "kind": "character",
+      "form": "妹",
+      "language": "zh-CN",
+      "meaning": "younger sister",
+      "explanation": "妹妹 mèimei normally has a neutral second syllable.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mèi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "妹",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0104",
+      "kind": "character",
+      "form": "妹",
+      "language": "zh-CN",
+      "meaning": "neutral mei in this word",
+      "explanation": "This occurrence is a neutral syllable; select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mei",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "妹",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0105",
+      "kind": "character",
+      "form": "美",
+      "language": "zh-CN",
+      "meaning": "beautiful",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "měi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[meɪ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "美",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0106",
+      "kind": "character",
+      "form": "菊",
+      "language": "zh-CN",
+      "meaning": "chrysanthemum; Ju (given-name character)",
+      "explanation": "In 王美菊 it belongs to the given name Meiju; keep the personal name in English.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jú",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "菊",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0107",
+      "kind": "word",
+      "form": "衣服",
+      "language": "zh-CN",
+      "meaning": "clothes; clothing",
+      "explanation": "Neutral fu.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yīfu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "衣服",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0109",
+        "e-p0007-0110"
+      ]
+    },
+    {
+      "id": "e-p0007-0108",
+      "kind": "word",
+      "form": "漂亮",
+      "language": "zh-CN",
+      "meaning": "pretty; beautiful",
+      "explanation": "Neutral liang; 漂 has fourth-tone piào in this word.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "piàoliang",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "漂亮",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0112",
+        "e-p0007-0113"
+      ]
+    },
+    {
+      "id": "e-p0007-0109",
+      "kind": "character",
+      "form": "衣",
+      "language": "zh-CN",
+      "meaning": "clothes (in 衣服)",
+      "explanation": "衣服 yīfu means clothing, with neutral fu.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "衣",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0110",
+      "kind": "character",
+      "form": "服",
+      "language": "zh-CN",
+      "meaning": "neutral fu in this word",
+      "explanation": "This occurrence is a neutral syllable; select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "服",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0111",
+      "kind": "character",
+      "form": "很",
+      "language": "zh-CN",
+      "meaning": "very",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hěn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xən²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "很",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0112",
+      "kind": "character",
+      "form": "漂",
+      "language": "zh-CN",
+      "meaning": "pretty (in 漂亮)",
+      "explanation": "Read piào in 漂亮 piàoliang; other readings occur in different words.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "piào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "漂",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0113",
+      "kind": "character",
+      "form": "亮",
+      "language": "zh-CN",
+      "meaning": "neutral liang in this word",
+      "explanation": "This occurrence is a neutral syllable; select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "liang",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "亮",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0114",
+      "kind": "word",
+      "form": "什么",
+      "language": "zh-CN",
+      "meaning": "what",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shénme",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂən³⁵ mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "什么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0117",
+        "e-p0007-0118"
+      ]
+    },
+    {
+      "id": "e-p0007-0115",
+      "kind": "word",
+      "form": "为什么",
+      "language": "zh-CN",
+      "meaning": "why",
+      "explanation": "为 is wèi, not wéi, in this question word.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wèishénme",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "为什么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0116",
+        "e-p0007-0117",
+        "e-p0007-0118"
+      ]
+    },
+    {
+      "id": "e-p0007-0116",
+      "kind": "character",
+      "form": "为",
+      "language": "zh-CN",
+      "meaning": "for; because of",
+      "explanation": "Read wèi in 为什么 wèishénme, why. Wéi is a different reading.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wèi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "为",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0117",
+      "kind": "character",
+      "form": "什",
+      "language": "zh-CN",
+      "meaning": "what (in 什么)",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "什",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0118",
+      "kind": "character",
+      "form": "么",
+      "language": "zh-CN",
+      "meaning": "suffix in 什么 (what)",
+      "explanation": "Select the complete word or sentence for its contextual meaning. Pinyin uses lexical tone marks; adjacent third tones change in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "me",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript numbers show lexical tone pitch, and neutral syllables omit tone numbers."
+        }
+      ],
+      "speechTarget": "么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0119",
+      "kind": "character",
+      "form": "打",
+      "language": "zh-CN",
+      "meaning": "hit; strike",
+      "explanation": "他为什么打你？ asks why he hits you; the sentence does not specify a reason.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "打",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0007-0120",
+      "kind": "sentence",
+      "form": "一寸光阴一寸金",
+      "language": "zh-CN",
+      "meaning": "An inch of time is an inch of gold. (Time is precious.)",
+      "explanation": "A proverb comparing a small amount of time with gold: value your time. 一 becomes yí before fourth-tone cùn.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Yí cùn guāngyīn yí cùn jīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "一寸光阴一寸金",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0051",
+        "e-p0007-0042",
+        "e-p0007-0052",
+        "e-p0007-0053",
+        "e-p0007-0051",
+        "e-p0007-0042",
+        "e-p0007-0054"
+      ]
+    },
+    {
+      "id": "e-p0007-0121",
+      "kind": "sentence",
+      "form": "他是你们的厂长吗？",
+      "language": "zh-CN",
+      "meaning": "Is he your factory director?",
+      "explanation": "长 is zhǎng meaning head or chief in 厂长; it is cháng meaning long in 头巾太长.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Tā shì nǐmen de chǎngzhǎng ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "他是你们的厂长吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0074",
+        "e-p0007-0075",
+        "e-p0007-0076",
+        "e-p0007-0077",
+        "e-p0007-0078",
+        "e-p0007-0079",
+        "e-p0007-0080",
+        "e-p0007-0081"
+      ]
+    },
+    {
+      "id": "e-p0007-0122",
+      "kind": "sentence",
+      "form": "我哥哥常去亚洲旅行。",
+      "language": "zh-CN",
+      "meaning": "My elder brother often travels in Asia.",
+      "explanation": "Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ gēge cháng qù Yàzhōu lǚxíng.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我哥哥常去亚洲旅行。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0085",
+        "e-p0007-0086",
+        "e-p0007-0087",
+        "e-p0007-0070",
+        "e-p0007-0088",
+        "e-p0007-0089",
+        "e-p0007-0090",
+        "e-p0007-0091",
+        "e-p0007-0092"
+      ]
+    },
+    {
+      "id": "e-p0007-0123",
+      "kind": "sentence",
+      "form": "她的朋友叫王贵松，王贵松的妹妹叫王美菊。",
+      "language": "zh-CN",
+      "meaning": "Her friend is called Wang Guisong, and Wang Guisong's younger sister is called Wang Meiju.",
+      "explanation": "Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Tā de péngyou jiào Wáng Guìsōng, Wáng Guìsōng de mèimei jiào Wáng Měijú.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "她的朋友叫王贵松，王贵松的妹妹叫王美菊。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0097",
+        "e-p0007-0078",
+        "e-p0007-0098",
+        "e-p0007-0099",
+        "e-p0007-0100",
+        "e-p0007-0101",
+        "e-p0007-0015",
+        "e-p0007-0102",
+        "e-p0007-0101",
+        "e-p0007-0015",
+        "e-p0007-0102",
+        "e-p0007-0078",
+        "e-p0007-0103",
+        "e-p0007-0104",
+        "e-p0007-0100",
+        "e-p0007-0101",
+        "e-p0007-0105",
+        "e-p0007-0106"
+      ]
+    },
+    {
+      "id": "e-p0007-0124",
+      "kind": "sentence",
+      "form": "你的衣服很漂亮。",
+      "language": "zh-CN",
+      "meaning": "Your clothes are very beautiful.",
+      "explanation": "Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ de yīfu hěn piàoliang.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你的衣服很漂亮。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0076",
+        "e-p0007-0078",
+        "e-p0007-0109",
+        "e-p0007-0110",
+        "e-p0007-0111",
+        "e-p0007-0112",
+        "e-p0007-0113"
+      ]
+    },
+    {
+      "id": "e-p0007-0125",
+      "kind": "sentence",
+      "form": "他为什么打你？",
+      "language": "zh-CN",
+      "meaning": "Why does he hit you?",
+      "explanation": "Source sentence translated in context. Pinyin keeps lexical third tones; the first of two adjacent third tones normally rises in speech. Read the whole sentence rather than translating characters one by one.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Tā wèishénme dǎ nǐ?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "他为什么打你？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review; not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0007-0074",
+        "e-p0007-0116",
+        "e-p0007-0117",
+        "e-p0007-0118",
+        "e-p0007-0119",
+        "e-p0007-0076"
+      ]
+    }
+  ]
+}

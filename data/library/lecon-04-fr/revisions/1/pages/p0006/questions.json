@@ -1,0 +1,1207 @@
+{
+  "documentId": "lecon-04-fr",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 小人书 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "petit livre illustré"
+        },
+        {
+          "id": "o2",
+          "text": "carte de visite"
+        },
+        {
+          "id": "o3",
+          "text": "magazine illustré"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "小人书 est un petit livre illustré ou une bande dessinée.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0015"
+      ],
+      "entryIds": [
+        "e-p0006-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie carte de visite ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "名片"
+        },
+        {
+          "id": "o2",
+          "text": "相片儿"
+        },
+        {
+          "id": "o3",
+          "text": "花儿"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名片 míngpiàn est une carte de visite ; 相片儿 est une photographie.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0165"
+      ],
+      "entryIds": [
+        "e-p0006-0067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère de l'exercice sur les composants contient le composant tissu 巾 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "帐"
+        },
+        {
+          "id": "o2",
+          "text": "胀"
+        },
+        {
+          "id": "o3",
+          "text": "何"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "帐 contient 巾 à gauche ; 胀 a le composant chair à la place.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0343"
+      ],
+      "entryIds": [
+        "e-p0006-0143"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qu'est-ce que l'enfant dessine ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "un grand cheval et du bambou"
+        },
+        {
+          "id": "o2",
+          "text": "son père et sa mère"
+        },
+        {
+          "id": "o3",
+          "text": "des tables et des chaises"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "大马 est un grand cheval, et 竹子 signifie bambou.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0361"
+      ],
+      "entryIds": [
+        "e-p0006-0161"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que représente le dessin ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "la mère de l'enfant"
+        },
+        {
+          "id": "o2",
+          "text": "une fleur"
+        },
+        {
+          "id": "o3",
+          "text": "un paysage"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "L'enfant dit que c'est sa mère, 我妈妈, et non une fleur.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0368"
+      ],
+      "entryIds": [
+        "e-p0006-0168"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-006",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que montre la personne qui parle ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "une carte de visite"
+        },
+        {
+          "id": "o2",
+          "text": "un magazine"
+        },
+        {
+          "id": "o3",
+          "text": "une photographie"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名片 est une carte de visite.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0373"
+      ],
+      "entryIds": [
+        "e-p0006-0173"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-007",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la description source : 你的头巾太___。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "长"
+        },
+        {
+          "id": "o2",
+          "text": "贵"
+        },
+        {
+          "id": "o3",
+          "text": "忙"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "La source dit que le foulard est trop long, 太长.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0378"
+      ],
+      "entryIds": [
+        "e-p0006-0178"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-008",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quelle opposition introduit 可是 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "écrire les caractères est utile, mais le locuteur n'a pas le temps d'apprendre"
+        },
+        {
+          "id": "o2",
+          "text": "le locuteur a le temps, mais écrire est inutile"
+        },
+        {
+          "id": "o3",
+          "text": "le locuteur sait peindre, mais ne sait pas lire un magazine"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可是 signifie mais ; 没有工夫学 signifie ne pas avoir le temps d'apprendre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0380"
+      ],
+      "entryIds": [
+        "e-p0006-0180"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-009",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Sur quoi la réponse taquine-t-elle la personne ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "n'avoir le temps que d'aller voir sa petite amie"
+        },
+        {
+          "id": "o2",
+          "text": "n'avoir le temps que d'acheter un foulard"
+        },
+        {
+          "id": "o3",
+          "text": "ne dessiner que du bambou"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "只有工夫去看你的女朋友 signifie que la personne n'a le temps que d'aller voir sa petite amie.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0381"
+      ],
+      "entryIds": [
+        "e-p0006-0181"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-010",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "画"
+        },
+        {
+          "id": "o2",
+          "text": "写"
+        },
+        {
+          "id": "o3",
+          "text": "用"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "画 se lit huà, dessiner ou peinture.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0043"
+      ],
+      "entryIds": [
+        "e-p0006-0029"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      },
+      "speechTarget": "画"
+    },
+    {
+      "id": "q-p0006-011",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 会写汉字很有用。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-011-o1",
+          "text": "Non, je ne sais pas."
+        },
+        {
+          "id": "q-p0006-011-o2",
+          "text": "Oui, vous pouvez."
+        },
+        {
+          "id": "q-p0006-011-o3",
+          "text": "Savoir écrire les caractères chinois est très utile."
+        }
+      ],
+      "correctOptionId": "q-p0006-011-o3",
+      "explanation": "« 会写汉字很有用。 » (Huì xiě hànzì hěn yǒuyòng.) signifie « Savoir écrire les caractères chinois est très utile. ». 会 devant un verbe signifie savoir faire. Toute l'activité 会写汉字 est le thème : savoir écrire les caractères chinois est utile.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0351"
+      ],
+      "entryIds": [
+        "e-p0006-0151"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-012",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 玛丽 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-012-o1",
+          "text": "ami"
+        },
+        {
+          "id": "q-p0006-012-o2",
+          "text": "Marie (prénom)"
+        },
+        {
+          "id": "q-p0006-012-o3",
+          "text": "quoi ; quel"
+        }
+      ],
+      "correctOptionId": "q-p0006-012-o2",
+      "explanation": "玛丽 (Mǎlì) signifie « Marie (prénom) ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-013",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Marie (prénom) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-013-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0006-013-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0006-013-o3",
+          "text": "朋友"
+        }
+      ],
+      "correctOptionId": "q-p0006-013-o1",
+      "explanation": "« Marie (prénom) » se dit 玛丽 (Mǎlì).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-014",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « mǎ » signifiant « élément de 玛瑙 (agate) ; caractère utilisé dans les prénoms ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-014-o1",
+          "text": "丽"
+        },
+        {
+          "id": "q-p0006-014-o2",
+          "text": "小"
+        },
+        {
+          "id": "q-p0006-014-o3",
+          "text": "玛"
+        }
+      ],
+      "correctOptionId": "q-p0006-014-o3",
+      "explanation": "玛 se prononce mǎ et signifie « élément de 玛瑙 (agate) ; caractère utilisé dans les prénoms ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0002"
+      ],
+      "entryIds": [
+        "e-p0006-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-015",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 会写____很有用。 » (Savoir écrire les caractères chinois est très utile.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-015-o1",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0006-015-o2",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0006-015-o3",
+          "text": "玛丽"
+        }
+      ],
+      "correctOptionId": "q-p0006-015-o2",
+      "explanation": "Le mot manquant est 汉字 (hànzì, « caractère chinois »), complétant « 会写汉字很有用。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0351"
+      ],
+      "entryIds": [
+        "e-p0006-0151"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-016",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-016-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0006-016-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0006-016-o3",
+          "text": "朋友"
+        }
+      ],
+      "correctOptionId": "q-p0006-016-o1",
+      "explanation": "L'audio prononce 玛丽 (Mǎlì), qui signifie « Marie (prénom) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "玛丽",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-017",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 玛丽 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-017-o1",
+          "text": "quoi ; quel"
+        },
+        {
+          "id": "q-p0006-017-o2",
+          "text": "ami"
+        },
+        {
+          "id": "q-p0006-017-o3",
+          "text": "Marie (prénom)"
+        }
+      ],
+      "correctOptionId": "q-p0006-017-o3",
+      "explanation": "玛丽 (Mǎlì) signifie « Marie (prénom) ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-018",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 不会 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-018-o1",
+          "text": "Oui, vous pouvez."
+        },
+        {
+          "id": "q-p0006-018-o2",
+          "text": "Non, je ne sais pas."
+        },
+        {
+          "id": "q-p0006-018-o3",
+          "text": "Savoir écrire les caractères chinois est très utile."
+        }
+      ],
+      "correctOptionId": "q-p0006-018-o2",
+      "explanation": "« 不会 » (Bú huì) signifie « Non, je ne sais pas. ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0352"
+      ],
+      "entryIds": [
+        "e-p0006-0152"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-019",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 什么 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-019-o1",
+          "text": "quoi ; quel"
+        },
+        {
+          "id": "q-p0006-019-o2",
+          "text": "Marie (prénom)"
+        },
+        {
+          "id": "q-p0006-019-o3",
+          "text": "ami"
+        }
+      ],
+      "correctOptionId": "q-p0006-019-o1",
+      "explanation": "什么 (shénme) signifie « quoi ; quel ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0004"
+      ],
+      "entryIds": [
+        "e-p0006-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-020",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « quoi ; quel » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-020-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0006-020-o2",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0006-020-o3",
+          "text": "什么"
+        }
+      ],
+      "correctOptionId": "q-p0006-020-o3",
+      "explanation": "« quoi ; quel » se dit 什么 (shénme).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0004"
+      ],
+      "entryIds": [
+        "e-p0006-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-021",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « lì » signifiant « beau ; élément de prénoms ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-021-o1",
+          "text": "小"
+        },
+        {
+          "id": "q-p0006-021-o2",
+          "text": "丽"
+        },
+        {
+          "id": "q-p0006-021-o3",
+          "text": "玛"
+        }
+      ],
+      "correctOptionId": "q-p0006-021-o2",
+      "explanation": "丽 se prononce lì et signifie « beau ; élément de prénoms ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0003"
+      ],
+      "entryIds": [
+        "e-p0006-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-022",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 不____ » (Non, je ne sais pas.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-022-o1",
+          "text": "会"
+        },
+        {
+          "id": "q-p0006-022-o2",
+          "text": "玛"
+        },
+        {
+          "id": "q-p0006-022-o3",
+          "text": "丽"
+        }
+      ],
+      "correctOptionId": "q-p0006-022-o1",
+      "explanation": "Le caractère manquant est 会 (huì, « savoir faire (une compétence apprise) ; réunion »), complétant « 不会 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0352"
+      ],
+      "entryIds": [
+        "e-p0006-0152"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-023",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez l'expression chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-023-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0006-023-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0006-023-o3",
+          "text": "有工夫"
+        }
+      ],
+      "correctOptionId": "q-p0006-023-o3",
+      "explanation": "L'audio prononce 有工夫 (yǒu gōngfu), qui signifie « avoir du temps libre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0225"
+      ],
+      "entryIds": [
+        "e-p0006-0091"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "有工夫",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-024",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 什么 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-024-o1",
+          "text": "ami"
+        },
+        {
+          "id": "q-p0006-024-o2",
+          "text": "quoi ; quel"
+        },
+        {
+          "id": "q-p0006-024-o3",
+          "text": "Marie (prénom)"
+        }
+      ],
+      "correctOptionId": "q-p0006-024-o2",
+      "explanation": "什么 (shénme) signifie « quoi ; quel ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0004"
+      ],
+      "entryIds": [
+        "e-p0006-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-025",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 可以。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-025-o1",
+          "text": "Oui, vous pouvez."
+        },
+        {
+          "id": "q-p0006-025-o2",
+          "text": "Savoir écrire les caractères chinois est très utile."
+        },
+        {
+          "id": "q-p0006-025-o3",
+          "text": "Non, je ne sais pas."
+        }
+      ],
+      "correctOptionId": "q-p0006-025-o1",
+      "explanation": "« 可以。 » (Kěyǐ.) signifie « Oui, vous pouvez. ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0353"
+      ],
+      "entryIds": [
+        "e-p0006-0153"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-026",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 朋友 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-026-o1",
+          "text": "Marie (prénom)"
+        },
+        {
+          "id": "q-p0006-026-o2",
+          "text": "quoi ; quel"
+        },
+        {
+          "id": "q-p0006-026-o3",
+          "text": "ami"
+        }
+      ],
+      "correctOptionId": "q-p0006-026-o3",
+      "explanation": "朋友 (péngyou) signifie « ami ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0005"
+      ],
+      "entryIds": [
+        "e-p0006-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-027",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « ami » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-027-o1",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0006-027-o2",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0006-027-o3",
+          "text": "玛丽"
+        }
+      ],
+      "correctOptionId": "q-p0006-027-o2",
+      "explanation": "« ami » se dit 朋友 (péngyou).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0005"
+      ],
+      "entryIds": [
+        "e-p0006-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-028",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « xiǎo » signifiant « petit ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-028-o1",
+          "text": "小"
+        },
+        {
+          "id": "q-p0006-028-o2",
+          "text": "玛"
+        },
+        {
+          "id": "q-p0006-028-o3",
+          "text": "丽"
+        }
+      ],
+      "correctOptionId": "q-p0006-028-o1",
+      "explanation": "小 se prononce xiǎo et signifie « petit ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0007"
+      ],
+      "entryIds": [
+        "e-p0006-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-029",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « ____。 » (Oui, vous pouvez.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-029-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0006-029-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0006-029-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0006-029-o3",
+      "explanation": "Le mot manquant est 可以 (kěyǐ, « pouvoir ; avoir le droit de »), complétant « 可以。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0353"
+      ],
+      "entryIds": [
+        "e-p0006-0153"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-030",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-030-o1",
+          "text": "可以。"
+        },
+        {
+          "id": "q-p0006-030-o2",
+          "text": "会写汉字很有用。"
+        },
+        {
+          "id": "q-p0006-030-o3",
+          "text": "不会"
+        }
+      ],
+      "correctOptionId": "q-p0006-030-o2",
+      "explanation": "L'audio prononce 会写汉字很有用。 (Huì xiě hànzì hěn yǒuyòng.), qui signifie « Savoir écrire les caractères chinois est très utile. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0351"
+      ],
+      "entryIds": [
+        "e-p0006-0151"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "会写汉字很有用。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-031",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 朋友 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-031-o1",
+          "text": "ami"
+        },
+        {
+          "id": "q-p0006-031-o2",
+          "text": "Marie (prénom)"
+        },
+        {
+          "id": "q-p0006-031-o3",
+          "text": "quoi ; quel"
+        }
+      ],
+      "correctOptionId": "q-p0006-031-o1",
+      "explanation": "朋友 (péngyou) signifie « ami ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0005"
+      ],
+      "entryIds": [
+        "e-p0006-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-032",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 这是什么？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-032-o1",
+          "text": "Savoir écrire les caractères chinois est très utile."
+        },
+        {
+          "id": "q-p0006-032-o2",
+          "text": "Non, je ne sais pas."
+        },
+        {
+          "id": "q-p0006-032-o3",
+          "text": "Qu'est-ce que c'est ?"
+        }
+      ],
+      "correctOptionId": "q-p0006-032-o3",
+      "explanation": "« 这是什么？ » (Zhè shì shénme?) signifie « Qu'est-ce que c'est ? ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0354"
+      ],
+      "entryIds": [
+        "e-p0006-0154"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-033",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 小朋友 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-033-o1",
+          "text": "quoi ; quel"
+        },
+        {
+          "id": "q-p0006-033-o2",
+          "text": "enfant ; petit ami (adresse amicale)"
+        },
+        {
+          "id": "q-p0006-033-o3",
+          "text": "Marie (prénom)"
+        }
+      ],
+      "correctOptionId": "q-p0006-033-o2",
+      "explanation": "小朋友 (xiǎo péngyou) signifie « enfant ; petit ami (adresse amicale) ». Marie l'utilise pour s'adresser à un enfant. 友 est neutre you dans 朋友.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0006"
+      ],
+      "entryIds": [
+        "e-p0006-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-034",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « enfant ; petit ami (adresse amicale) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-034-o1",
+          "text": "小朋友"
+        },
+        {
+          "id": "q-p0006-034-o2",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0006-034-o3",
+          "text": "什么"
+        }
+      ],
+      "correctOptionId": "q-p0006-034-o1",
+      "explanation": "« enfant ; petit ami (adresse amicale) » se dit 小朋友 (xiǎo péngyou).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0006"
+      ],
+      "entryIds": [
+        "e-p0006-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

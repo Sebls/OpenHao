@@ -1,0 +1,718 @@
+{
+  "documentId": "lecon-04",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 对 mean in the character table?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "correct; right"
+        },
+        {
+          "id": "o2",
+          "text": "long"
+        },
+        {
+          "id": "o3",
+          "text": "write"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "对 duì means correct or right.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which character means long?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "长"
+        },
+        {
+          "id": "o2",
+          "text": "名"
+        },
+        {
+          "id": "o3",
+          "text": "巾"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "长 cháng describes length; zhǎng is a different contextual reading.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the written character meaning a written character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "字"
+        },
+        {
+          "id": "o2",
+          "text": "名"
+        },
+        {
+          "id": "o3",
+          "text": "汉"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "字 zì means a written character.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0005"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 竹 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "bamboo"
+        },
+        {
+          "id": "o2",
+          "text": "cloth"
+        },
+        {
+          "id": "o3",
+          "text": "palace"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "竹 zhú means bamboo.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0017"
+      ],
+      "entryIds": [
+        "e-p0001-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How does 儿 work in 画儿 huàr?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "It adds an r ending to the preceding syllable."
+        },
+        {
+          "id": "o2",
+          "text": "It is a separate full ér syllable here."
+        },
+        {
+          "id": "o3",
+          "text": "It makes the word plural."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "In this rhotic word, 儿 merges into the preceding syllable; it does not mark plural.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0031"
+      ],
+      "entryIds": [
+        "e-p0001-0027"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 郊 refer to in the component examples?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "suburbs; outskirts"
+        },
+        {
+          "id": "o2",
+          "text": "capital city"
+        },
+        {
+          "id": "o3",
+          "text": "palace"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "郊 jiāo means suburbs or outskirts; 都 dū is capital.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0022"
+      ],
+      "entryIds": [
+        "e-p0001-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0001-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "对"
+        },
+        {
+          "id": "o2",
+          "text": "长"
+        },
+        {
+          "id": "o3",
+          "text": "竹"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "对 is duì, correct.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "对"
+    },
+    {
+      "id": "q-p0001-008",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 画儿 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-008-o1",
+          "text": "Chinese (language)"
+        },
+        {
+          "id": "q-p0001-008-o2",
+          "text": "Chinese character"
+        },
+        {
+          "id": "q-p0001-008-o3",
+          "text": "picture; drawing (rhotic form)"
+        }
+      ],
+      "correctOptionId": "q-p0001-008-o3",
+      "explanation": "画儿 (huàr) means \"picture; drawing (rhotic form)\". 儿 merges into the preceding syllable as an r ending, not a separate ér.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0031"
+      ],
+      "entryIds": [
+        "e-p0001-0027"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-009",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"picture; drawing (rhotic form)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-009-o1",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0001-009-o2",
+          "text": "画儿"
+        },
+        {
+          "id": "q-p0001-009-o3",
+          "text": "汉语"
+        }
+      ],
+      "correctOptionId": "q-p0001-009-o2",
+      "explanation": "\"picture; drawing (rhotic form)\" is 画儿 (huàr).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0031"
+      ],
+      "entryIds": [
+        "e-p0001-0027"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-010",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"duì\" meaning \"correct; right\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-010-o1",
+          "text": "对"
+        },
+        {
+          "id": "q-p0001-010-o2",
+          "text": "儿"
+        },
+        {
+          "id": "q-p0001-010-o3",
+          "text": "长"
+        }
+      ],
+      "correctOptionId": "q-p0001-010-o1",
+      "explanation": "对 is pronounced duì and means \"correct; right\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-011",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-011-o1",
+          "text": "汉语"
+        },
+        {
+          "id": "q-p0001-011-o2",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0001-011-o3",
+          "text": "画儿"
+        }
+      ],
+      "correctOptionId": "q-p0001-011-o3",
+      "explanation": "The audio speaks 画儿 (huàr), meaning \"picture; drawing (rhotic form)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0031"
+      ],
+      "entryIds": [
+        "e-p0001-0027"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "画儿",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-012",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 对?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-012-o1",
+          "text": "long"
+        },
+        {
+          "id": "q-p0001-012-o2",
+          "text": "correct; right"
+        },
+        {
+          "id": "q-p0001-012-o3",
+          "text": "child; rhotic suffix marker"
+        }
+      ],
+      "correctOptionId": "q-p0001-012-o2",
+      "explanation": "对 (duì) means \"correct; right\". 不对 means incorrect. Before fourth-tone duì, 不 is pronounced bú.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-013",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 儿 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-013-o1",
+          "text": "child; rhotic suffix marker"
+        },
+        {
+          "id": "q-p0001-013-o2",
+          "text": "correct; right"
+        },
+        {
+          "id": "q-p0001-013-o3",
+          "text": "long"
+        }
+      ],
+      "correctOptionId": "q-p0001-013-o1",
+      "explanation": "儿 (ér) means \"child; rhotic suffix marker\". As a suffix in 画儿 huàr and 勺儿 sháor, 儿 merges into the preceding syllable as r; it is not a separate ér syllable. Ér is the standalone character reading.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-014",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese character means \"correct; right\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-014-o1",
+          "text": "儿"
+        },
+        {
+          "id": "q-p0001-014-o2",
+          "text": "长"
+        },
+        {
+          "id": "q-p0001-014-o3",
+          "text": "对"
+        }
+      ],
+      "correctOptionId": "q-p0001-014-o3",
+      "explanation": "\"correct; right\" is 对 (duì).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-015",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"ér\" meaning \"child; rhotic suffix marker\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-015-o1",
+          "text": "长"
+        },
+        {
+          "id": "q-p0001-015-o2",
+          "text": "儿"
+        },
+        {
+          "id": "q-p0001-015-o3",
+          "text": "对"
+        }
+      ],
+      "correctOptionId": "q-p0001-015-o2",
+      "explanation": "儿 is pronounced ér and means \"child; rhotic suffix marker\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-016",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-016-o1",
+          "text": "儿"
+        },
+        {
+          "id": "q-p0001-016-o2",
+          "text": "对"
+        },
+        {
+          "id": "q-p0001-016-o3",
+          "text": "长"
+        }
+      ],
+      "correctOptionId": "q-p0001-016-o1",
+      "explanation": "The audio speaks 儿 (ér), meaning \"child; rhotic suffix marker\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "儿",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-017",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 儿?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-017-o1",
+          "text": "correct; right"
+        },
+        {
+          "id": "q-p0001-017-o2",
+          "text": "long"
+        },
+        {
+          "id": "q-p0001-017-o3",
+          "text": "child; rhotic suffix marker"
+        }
+      ],
+      "correctOptionId": "q-p0001-017-o3",
+      "explanation": "儿 (ér) means \"child; rhotic suffix marker\". As a suffix in 画儿 huàr and 勺儿 sháor, 儿 merges into the preceding syllable as r; it is not a separate ér syllable. Ér is the standalone character reading.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-018",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 长 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-018-o1",
+          "text": "child; rhotic suffix marker"
+        },
+        {
+          "id": "q-p0001-018-o2",
+          "text": "long"
+        },
+        {
+          "id": "q-p0001-018-o3",
+          "text": "correct; right"
+        }
+      ],
+      "correctOptionId": "q-p0001-018-o2",
+      "explanation": "长 (cháng) means \"long\". Read cháng for length, as in 头巾太长. In 厂长 (factory director), read zhǎng instead.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-019",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese character means \"child; rhotic suffix marker\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-019-o1",
+          "text": "儿"
+        },
+        {
+          "id": "q-p0001-019-o2",
+          "text": "对"
+        },
+        {
+          "id": "q-p0001-019-o3",
+          "text": "长"
+        }
+      ],
+      "correctOptionId": "q-p0001-019-o1",
+      "explanation": "\"child; rhotic suffix marker\" is 儿 (ér).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-020",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"cháng\" meaning \"long\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0001-020-o1",
+          "text": "对"
+        },
+        {
+          "id": "q-p0001-020-o2",
+          "text": "儿"
+        },
+        {
+          "id": "q-p0001-020-o3",
+          "text": "长"
+        }
+      ],
+      "correctOptionId": "q-p0001-020-o3",
+      "explanation": "长 is pronounced cháng and means \"long\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,1207 @@
+{
+  "documentId": "lecon-04-fr",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 筷子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "baguettes"
+        },
+        {
+          "id": "o2",
+          "text": "cuillère"
+        },
+        {
+          "id": "o3",
+          "text": "chaise"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "筷子 kuàizi signifie baguettes.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0128"
+      ],
+      "entryIds": [
+        "e-p0003-0067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie calligraphie ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "书法"
+        },
+        {
+          "id": "o2",
+          "text": "画报"
+        },
+        {
+          "id": "o3",
+          "text": "头巾"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "书法 shūfǎ signifie calligraphie.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0157"
+      ],
+      "entryIds": [
+        "e-p0003-0073"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choisissez le caractère signifiant encore ou aussi ici.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "还"
+        },
+        {
+          "id": "o2",
+          "text": "那"
+        },
+        {
+          "id": "o3",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "还 se lit hái dans ces lectures ; huán est une autre lecture signifiant rendre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0009"
+      ],
+      "entryIds": [
+        "e-p0003-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qu'est-ce que la personne qui parle va acheter ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "des dessins et un foulard blanc"
+        },
+        {
+          "id": "o2",
+          "text": "un magazine et des baguettes"
+        },
+        {
+          "id": "o3",
+          "text": "une chaise et une cuillère"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "画儿 signifie dessins ; 白头巾 est un foulard blanc.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0348"
+      ],
+      "entryIds": [
+        "e-p0003-0123"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que sait dessiner ou peindre sa mère ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "des paysages et du bambou"
+        },
+        {
+          "id": "o2",
+          "text": "seulement des chevaux"
+        },
+        {
+          "id": "o3",
+          "text": "des cartes de visite et des magazines"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "会 exprime la capacité ; 也 ajoute le bambou à la peinture de paysage.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0352"
+      ],
+      "entryIds": [
+        "e-p0003-0127"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la question source : 我___看你的画报吗？",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "可以"
+        },
+        {
+          "id": "o2",
+          "text": "名字"
+        },
+        {
+          "id": "o3",
+          "text": "山水"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可以 demande la permission : puis-je regarder ton magazine illustré ?",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0353"
+      ],
+      "entryIds": [
+        "e-p0003-0128"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Que signifie 还 ici ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "encore"
+        },
+        {
+          "id": "o2",
+          "text": "rendre quelque chose"
+        },
+        {
+          "id": "o3",
+          "text": "seulement"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "还 hái devant 不会 signifie ne pas encore savoir ; huán est une autre lecture.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0357"
+      ],
+      "entryIds": [
+        "e-p0003-0132"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que demande la personne qui parle ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "si le petit livre illustré est à toi"
+        },
+        {
+          "id": "o2",
+          "text": "si tu sais écrire un livre"
+        },
+        {
+          "id": "o3",
+          "text": "si le dessin est cher"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "你的 signifie le tien ; le nom est sous-entendu par le contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0355"
+      ],
+      "entryIds": [
+        "e-p0003-0130"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 有工夫 ici ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "avoir du temps libre"
+        },
+        {
+          "id": "o2",
+          "text": "connaître les arts martiaux"
+        },
+        {
+          "id": "o3",
+          "text": "avoir une usine"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "工夫 gōngfu désigne le temps disponible dans cette leçon.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0052"
+      ],
+      "entryIds": [
+        "e-p0003-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "竹"
+        },
+        {
+          "id": "o2",
+          "text": "巾"
+        },
+        {
+          "id": "o3",
+          "text": "还"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "竹 se lit zhú, bambou.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0011"
+      ],
+      "entryIds": [
+        "e-p0003-0008"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      },
+      "speechTarget": "竹"
+    },
+    {
+      "id": "q-p0003-011",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 这是你的名字吗？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-011-o1",
+          "text": "Je vais acheter des dessins et un foulard blanc."
+        },
+        {
+          "id": "q-p0003-011-o2",
+          "text": "Les cuillères chinoises sont très jolies."
+        },
+        {
+          "id": "q-p0003-011-o3",
+          "text": "Est-ce que c'est ton nom ?"
+        }
+      ],
+      "correctOptionId": "q-p0003-011-o3",
+      "explanation": "« 这是你的名字吗？ » (Zhè shì nǐ de míngzi ma?) signifie « Est-ce que c'est ton nom ? ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0349"
+      ],
+      "entryIds": [
+        "e-p0003-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-012",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 贵姓 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-012-o1",
+          "text": "bambou"
+        },
+        {
+          "id": "q-p0003-012-o2",
+          "text": "votre nom de famille (question respectueuse)"
+        },
+        {
+          "id": "q-p0003-012-o3",
+          "text": "foulard ; fichu"
+        }
+      ],
+      "correctOptionId": "q-p0003-012-o2",
+      "explanation": "贵姓 (guì xìng) signifie « votre nom de famille (question respectueuse) ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-013",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « votre nom de famille (question respectueuse) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-013-o1",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-013-o2",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-013-o3",
+          "text": "竹子"
+        }
+      ],
+      "correctOptionId": "q-p0003-013-o1",
+      "explanation": "« votre nom de famille (question respectueuse) » se dit 贵姓 (guì xìng).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-014",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « guì » signifiant « cher ; honorable ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-014-o1",
+          "text": "姓"
+        },
+        {
+          "id": "q-p0003-014-o2",
+          "text": "巾"
+        },
+        {
+          "id": "q-p0003-014-o3",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "q-p0003-014-o3",
+      "explanation": "贵 se prononce guì et signifie « cher ; honorable ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-015",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我去买画儿和白____。 » (Je vais acheter des dessins et un foulard blanc.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-015-o1",
+          "text": "竹子"
+        },
+        {
+          "id": "q-p0003-015-o2",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-015-o3",
+          "text": "贵姓"
+        }
+      ],
+      "correctOptionId": "q-p0003-015-o2",
+      "explanation": "Le mot manquant est 头巾 (tóujīn, « foulard ; fichu »), complétant « 我去买画儿和白头巾。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0348"
+      ],
+      "entryIds": [
+        "e-p0003-0123"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-016",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-016-o1",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-016-o2",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-016-o3",
+          "text": "竹子"
+        }
+      ],
+      "correctOptionId": "q-p0003-016-o1",
+      "explanation": "L'audio prononce 贵姓 (guì xìng), qui signifie « votre nom de famille (question respectueuse) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "贵姓",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-017",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 贵姓 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-017-o1",
+          "text": "foulard ; fichu"
+        },
+        {
+          "id": "q-p0003-017-o2",
+          "text": "bambou"
+        },
+        {
+          "id": "q-p0003-017-o3",
+          "text": "votre nom de famille (question respectueuse)"
+        }
+      ],
+      "correctOptionId": "q-p0003-017-o3",
+      "explanation": "贵姓 (guì xìng) signifie « votre nom de famille (question respectueuse) ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-018",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 中国勺儿很好看。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-018-o1",
+          "text": "Est-ce que c'est ton nom ?"
+        },
+        {
+          "id": "q-p0003-018-o2",
+          "text": "Les cuillères chinoises sont très jolies."
+        },
+        {
+          "id": "q-p0003-018-o3",
+          "text": "Je vais acheter des dessins et un foulard blanc."
+        }
+      ],
+      "correctOptionId": "q-p0003-018-o2",
+      "explanation": "« 中国勺儿很好看。 » (Zhōngguó sháor hěn hǎokàn.) signifie « Les cuillères chinoises sont très jolies. ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0350"
+      ],
+      "entryIds": [
+        "e-p0003-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-019",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 头巾 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-019-o1",
+          "text": "foulard ; fichu"
+        },
+        {
+          "id": "q-p0003-019-o2",
+          "text": "votre nom de famille (question respectueuse)"
+        },
+        {
+          "id": "q-p0003-019-o3",
+          "text": "bambou"
+        }
+      ],
+      "correctOptionId": "q-p0003-019-o1",
+      "explanation": "头巾 (tóujīn) signifie « foulard ; fichu ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-020",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « foulard ; fichu » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-020-o1",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-020-o2",
+          "text": "竹子"
+        },
+        {
+          "id": "q-p0003-020-o3",
+          "text": "头巾"
+        }
+      ],
+      "correctOptionId": "q-p0003-020-o3",
+      "explanation": "« foulard ; fichu » se dit 头巾 (tóujīn).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-021",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « xìng » signifiant « porter le nom de famille ; nom de famille ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-021-o1",
+          "text": "巾"
+        },
+        {
+          "id": "q-p0003-021-o2",
+          "text": "姓"
+        },
+        {
+          "id": "q-p0003-021-o3",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "q-p0003-021-o2",
+      "explanation": "姓 se prononce xìng et signifie « porter le nom de famille ; nom de famille ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0004"
+      ],
+      "entryIds": [
+        "e-p0003-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-022",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 这是你的____吗？ » (Est-ce que c'est ton nom ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-022-o1",
+          "text": "名字"
+        },
+        {
+          "id": "q-p0003-022-o2",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-022-o3",
+          "text": "头巾"
+        }
+      ],
+      "correctOptionId": "q-p0003-022-o1",
+      "explanation": "Le mot manquant est 名字 (míngzi, « nom ; prénom »), complétant « 这是你的名字吗？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0349"
+      ],
+      "entryIds": [
+        "e-p0003-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-023",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez l'expression chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-023-o1",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-023-o2",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-023-o3",
+          "text": "有工夫"
+        }
+      ],
+      "correctOptionId": "q-p0003-023-o3",
+      "explanation": "L'audio prononce 有工夫 (yǒu gōngfu), qui signifie « avoir du temps libre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0052"
+      ],
+      "entryIds": [
+        "e-p0003-0036"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "有工夫",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-024",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 头巾 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-024-o1",
+          "text": "bambou"
+        },
+        {
+          "id": "q-p0003-024-o2",
+          "text": "foulard ; fichu"
+        },
+        {
+          "id": "q-p0003-024-o3",
+          "text": "votre nom de famille (question respectueuse)"
+        }
+      ],
+      "correctOptionId": "q-p0003-024-o2",
+      "explanation": "头巾 (tóujīn) signifie « foulard ; fichu ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-025",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 你们还很忙吗？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-025-o1",
+          "text": "Êtes-vous encore très occupés ?"
+        },
+        {
+          "id": "q-p0003-025-o2",
+          "text": "Je vais acheter des dessins et un foulard blanc."
+        },
+        {
+          "id": "q-p0003-025-o3",
+          "text": "Est-ce que c'est ton nom ?"
+        }
+      ],
+      "correctOptionId": "q-p0003-025-o1",
+      "explanation": "« 你们还很忙吗？ » (Nǐmen hái hěn máng ma?) signifie « Êtes-vous encore très occupés ? ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0351"
+      ],
+      "entryIds": [
+        "e-p0003-0126"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-026",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 竹子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-026-o1",
+          "text": "votre nom de famille (question respectueuse)"
+        },
+        {
+          "id": "q-p0003-026-o2",
+          "text": "foulard ; fichu"
+        },
+        {
+          "id": "q-p0003-026-o3",
+          "text": "bambou"
+        }
+      ],
+      "correctOptionId": "q-p0003-026-o3",
+      "explanation": "竹子 (zhúzi) signifie « bambou ». Suffixe nominal neutre zi.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-027",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « bambou » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-027-o1",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-027-o2",
+          "text": "竹子"
+        },
+        {
+          "id": "q-p0003-027-o3",
+          "text": "贵姓"
+        }
+      ],
+      "correctOptionId": "q-p0003-027-o2",
+      "explanation": "« bambou » se dit 竹子 (zhúzi).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-028",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « jīn » signifiant « tissu ; foulard (caractère lexical) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-028-o1",
+          "text": "巾"
+        },
+        {
+          "id": "q-p0003-028-o2",
+          "text": "贵"
+        },
+        {
+          "id": "q-p0003-028-o3",
+          "text": "姓"
+        }
+      ],
+      "correctOptionId": "q-p0003-028-o1",
+      "explanation": "巾 se prononce jīn et signifie « tissu ; foulard (caractère lexical) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0005"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-029",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 中国勺儿很____。 » (Les cuillères chinoises sont très jolies.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-029-o1",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-029-o2",
+          "text": "头巾"
+        },
+        {
+          "id": "q-p0003-029-o3",
+          "text": "好看"
+        }
+      ],
+      "correctOptionId": "q-p0003-029-o3",
+      "explanation": "Le mot manquant est 好看 (hǎokàn, « joli ; agréable à regarder ; intéressant à lire »), complétant « 中国勺儿很好看。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0350"
+      ],
+      "entryIds": [
+        "e-p0003-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-030",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-030-o1",
+          "text": "中国勺儿很好看。"
+        },
+        {
+          "id": "q-p0003-030-o2",
+          "text": "我去买画儿和白头巾。"
+        },
+        {
+          "id": "q-p0003-030-o3",
+          "text": "这是你的名字吗？"
+        }
+      ],
+      "correctOptionId": "q-p0003-030-o2",
+      "explanation": "L'audio prononce 我去买画儿和白头巾。 (Wǒ qù mǎi huàr hé bái tóujīn.), qui signifie « Je vais acheter des dessins et un foulard blanc. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0348"
+      ],
+      "entryIds": [
+        "e-p0003-0123"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我去买画儿和白头巾。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-031",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 竹子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-031-o1",
+          "text": "bambou"
+        },
+        {
+          "id": "q-p0003-031-o2",
+          "text": "votre nom de famille (question respectueuse)"
+        },
+        {
+          "id": "q-p0003-031-o3",
+          "text": "foulard ; fichu"
+        }
+      ],
+      "correctOptionId": "q-p0003-031-o1",
+      "explanation": "竹子 (zhúzi) signifie « bambou ». Suffixe nominal neutre zi.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-032",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我可以看你的画报吗？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-032-o1",
+          "text": "Je vais acheter des dessins et un foulard blanc."
+        },
+        {
+          "id": "q-p0003-032-o2",
+          "text": "Est-ce que c'est ton nom ?"
+        },
+        {
+          "id": "q-p0003-032-o3",
+          "text": "Puis-je regarder ton magazine illustré ?"
+        }
+      ],
+      "correctOptionId": "q-p0003-032-o3",
+      "explanation": "« 我可以看你的画报吗？ » (Wǒ kěyǐ kàn nǐ de huàbào ma?) signifie « Puis-je regarder ton magazine illustré ? ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0353"
+      ],
+      "entryIds": [
+        "e-p0003-0128"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-033",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 汉语 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-033-o1",
+          "text": "foulard ; fichu"
+        },
+        {
+          "id": "q-p0003-033-o2",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0003-033-o3",
+          "text": "votre nom de famille (question respectueuse)"
+        }
+      ],
+      "correctOptionId": "q-p0003-033-o2",
+      "explanation": "汉语 (Hànyǔ) signifie « chinois (langue) ». Un nom de langue ; distinguez-le de 汉字 (caractère chinois écrit).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0016"
+      ],
+      "entryIds": [
+        "e-p0003-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-034",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « chinois (langue) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-034-o1",
+          "text": "汉语"
+        },
+        {
+          "id": "q-p0003-034-o2",
+          "text": "贵姓"
+        },
+        {
+          "id": "q-p0003-034-o3",
+          "text": "头巾"
+        }
+      ],
+      "correctOptionId": "q-p0003-034-o1",
+      "explanation": "« chinois (langue) » se dit 汉语 (Hànyǔ).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0016"
+      ],
+      "entryIds": [
+        "e-p0003-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

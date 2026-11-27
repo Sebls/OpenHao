@@ -1,0 +1,1283 @@
+{
+  "documentId": "lecon-04-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que décrit 好吃 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "une nourriture qui a bon goût"
+        },
+        {
+          "id": "o2",
+          "text": "une boisson qui a bon goût"
+        },
+        {
+          "id": "o3",
+          "text": "quelque chose de long"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "好吃 s'utilise pour la nourriture savoureuse ; 好喝 s'utilise pour les boissons.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0149"
+      ],
+      "entryIds": [
+        "e-p0005-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie temps disponible dans ce dialogue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "工夫"
+        },
+        {
+          "id": "o2",
+          "text": "书法"
+        },
+        {
+          "id": "o3",
+          "text": "汉字"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "工夫 gōngfu désigne ici le temps, comme dans 我没有工夫.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0447"
+      ],
+      "entryIds": [
+        "e-p0005-0101"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choisissez le caractère signifiant seulement.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "只"
+        },
+        {
+          "id": "o2",
+          "text": "用"
+        },
+        {
+          "id": "o3",
+          "text": "名"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "只 zhǐ signifie seulement et se place devant le verbe.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0103"
+      ],
+      "entryIds": [
+        "e-p0005-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "De quoi Marie demande-t-elle la permission de se servir ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "une cuillère"
+        },
+        {
+          "id": "o2",
+          "text": "baguettes"
+        },
+        {
+          "id": "o3",
+          "text": "un foulard"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "勺儿 sháor signifie cuillère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0475"
+      ],
+      "entryIds": [
+        "e-p0005-0116"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "D'où vient la cuillère, selon Li Yu ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Japon"
+        },
+        {
+          "id": "o2",
+          "text": "Chine"
+        },
+        {
+          "id": "o3",
+          "text": "France"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "日本 signifie Japon ; elle dit que c'est une cuillère japonaise.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0480"
+      ],
+      "entryIds": [
+        "e-p0005-0121"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que veut boire Marie en ce moment ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Coca-Cola"
+        },
+        {
+          "id": "o2",
+          "text": "thé"
+        },
+        {
+          "id": "o3",
+          "text": "eau"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Elle aime le thé, mais 现在很想喝可口可乐 indique qu'elle a maintenant très envie de Coca-Cola.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0485"
+      ],
+      "entryIds": [
+        "e-p0005-0126"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qu'enseigne le professeur Zhang ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "calligraphie"
+        },
+        {
+          "id": "o2",
+          "text": "français"
+        },
+        {
+          "id": "o3",
+          "text": "cuisine"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "书法老师 signifie professeur de calligraphie ; le nom de famille précède le titre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0491"
+      ],
+      "entryIds": [
+        "e-p0005-0132"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la question source : 你会___会用筷子？",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "不"
+        },
+        {
+          "id": "o2",
+          "text": "没"
+        },
+        {
+          "id": "o3",
+          "text": "只"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "会不会 est la question affirmative-négative demandant si l'on sait utiliser les baguettes.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0469"
+      ],
+      "entryIds": [
+        "e-p0005-0110"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Que représente 我的 ici ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "le mien, en sous-entendant le magazine"
+        },
+        {
+          "id": "o2",
+          "text": "mon nom"
+        },
+        {
+          "id": "o3",
+          "text": "je te lis"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "的 permet d'omettre le nom possédé : 我的 signifie le mien.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0502"
+      ],
+      "entryIds": [
+        "e-p0005-0142"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-010",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quelle raison donne Li Yu ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "elle n'a pas le temps"
+        },
+        {
+          "id": "o2",
+          "text": "elle n'a pas de magazine"
+        },
+        {
+          "id": "o3",
+          "text": "elle ne sait pas écrire son nom"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没有工夫 signifie ne pas avoir de temps disponible.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0507"
+      ],
+      "entryIds": [
+        "e-p0005-0147"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-011",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Comment 去你的 est-il utilisé dans cette conversation ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "une réplique familière à une taquinerie"
+        },
+        {
+          "id": "o2",
+          "text": "un remerciement poli"
+        },
+        {
+          "id": "o3",
+          "text": "une présentation ordinaire de son nom"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "C'est une réplique familière comme arrête un peu ou va-t'en ; le ton et la relation comptent.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0411"
+      ],
+      "entryIds": [
+        "e-p0005-0097"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-012",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "写"
+        },
+        {
+          "id": "o2",
+          "text": "画"
+        },
+        {
+          "id": "o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "写 se lit xiě, écrire.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0240"
+      ],
+      "entryIds": [
+        "e-p0005-0072"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      },
+      "speechTarget": "写"
+    },
+    {
+      "id": "q-p0005-013",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 李玉，你作什么？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-013-o1",
+          "text": "Li Yu, qu'est-ce que tu prépares ?"
+        },
+        {
+          "id": "q-p0005-013-o2",
+          "text": "Je prépare du poulet."
+        },
+        {
+          "id": "q-p0005-013-o3",
+          "text": "Tu prépares du poulet et je prépare du poisson, d'accord ?"
+        }
+      ],
+      "correctOptionId": "q-p0005-013-o1",
+      "explanation": "« 李玉，你作什么？ » (Lǐ Yù, nǐ zuò shénme?) signifie « Li Yu, qu'est-ce que tu prépares ? ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0464"
+      ],
+      "entryIds": [
+        "e-p0005-0106"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-014",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 什么 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-014-o1",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-014-o2",
+          "text": "Marie (prénom)"
+        },
+        {
+          "id": "q-p0005-014-o3",
+          "text": "quoi ; quel"
+        }
+      ],
+      "correctOptionId": "q-p0005-014-o3",
+      "explanation": "什么 (shénme) signifie « quoi ; quel ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-015",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « quoi ; quel » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-015-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0005-015-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0005-015-o3",
+          "text": "李玉"
+        }
+      ],
+      "correctOptionId": "q-p0005-015-o2",
+      "explanation": "« quoi ; quel » se dit 什么 (shénme).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-016",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « mǎ » signifiant « élément de 玛瑙 (agate) ; caractère utilisé dans les prénoms ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-016-o1",
+          "text": "玛"
+        },
+        {
+          "id": "q-p0005-016-o2",
+          "text": "丽"
+        },
+        {
+          "id": "q-p0005-016-o3",
+          "text": "李"
+        }
+      ],
+      "correctOptionId": "q-p0005-016-o1",
+      "explanation": "玛 se prononce mǎ et signifie « élément de 玛瑙 (agate) ; caractère utilisé dans les prénoms ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-017",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 李玉，你作____？ » (Li Yu, qu'est-ce que tu prépares ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-017-o1",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-017-o2",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0005-017-o3",
+          "text": "什么"
+        }
+      ],
+      "correctOptionId": "q-p0005-017-o3",
+      "explanation": "Le mot manquant est 什么 (shénme, « quoi ; quel »), complétant « 李玉，你作什么？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0464"
+      ],
+      "entryIds": [
+        "e-p0005-0106"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-018",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-018-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0005-018-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0005-018-o3",
+          "text": "李玉"
+        }
+      ],
+      "correctOptionId": "q-p0005-018-o2",
+      "explanation": "L'audio prononce 什么 (shénme), qui signifie « quoi ; quel ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "什么",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-019",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 什么 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-019-o1",
+          "text": "quoi ; quel"
+        },
+        {
+          "id": "q-p0005-019-o2",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-019-o3",
+          "text": "Marie (prénom)"
+        }
+      ],
+      "correctOptionId": "q-p0005-019-o1",
+      "explanation": "什么 (shénme) signifie « quoi ; quel ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-020",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我作鸡。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-020-o1",
+          "text": "Li Yu, qu'est-ce que tu prépares ?"
+        },
+        {
+          "id": "q-p0005-020-o2",
+          "text": "Tu prépares du poulet et je prépare du poisson, d'accord ?"
+        },
+        {
+          "id": "q-p0005-020-o3",
+          "text": "Je prépare du poulet."
+        }
+      ],
+      "correctOptionId": "q-p0005-020-o3",
+      "explanation": "« 我作鸡。 » (Wǒ zuò jī.) signifie « Je prépare du poulet. ». La source utilise 作 pour préparer ou cuisiner un plat ; l'écriture moderne emploie couramment 做 ici.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0465"
+      ],
+      "entryIds": [
+        "e-p0005-0107"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-021",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 李玉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-021-o1",
+          "text": "Marie (prénom)"
+        },
+        {
+          "id": "q-p0005-021-o2",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-021-o3",
+          "text": "quoi ; quel"
+        }
+      ],
+      "correctOptionId": "q-p0005-021-o2",
+      "explanation": "李玉 (Lǐ Yù) signifie « Li Yu (nom de personne) ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-022",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Li Yu (nom de personne) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-022-o1",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-022-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0005-022-o3",
+          "text": "玛丽"
+        }
+      ],
+      "correctOptionId": "q-p0005-022-o1",
+      "explanation": "« Li Yu (nom de personne) » se dit 李玉 (Lǐ Yù).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-023",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « lì » signifiant « beau ; élément de prénoms ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-023-o1",
+          "text": "玛"
+        },
+        {
+          "id": "q-p0005-023-o2",
+          "text": "李"
+        },
+        {
+          "id": "q-p0005-023-o3",
+          "text": "丽"
+        }
+      ],
+      "correctOptionId": "q-p0005-023-o3",
+      "explanation": "丽 se prononce lì et signifie « beau ; élément de prénoms ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-024",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我____鸡。 » (Je prépare du poulet.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-024-o1",
+          "text": "丽"
+        },
+        {
+          "id": "q-p0005-024-o2",
+          "text": "作"
+        },
+        {
+          "id": "q-p0005-024-o3",
+          "text": "玛"
+        }
+      ],
+      "correctOptionId": "q-p0005-024-o2",
+      "explanation": "Le caractère manquant est 作 (zuò, « faire ; préparer »), complétant « 我作鸡。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0465"
+      ],
+      "entryIds": [
+        "e-p0005-0107"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-025",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez l'expression chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-025-o1",
+          "text": "好吗"
+        },
+        {
+          "id": "q-p0005-025-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0005-025-o3",
+          "text": "李玉"
+        }
+      ],
+      "correctOptionId": "q-p0005-025-o1",
+      "explanation": "L'audio prononce 好吗 (hǎo ma), qui signifie « d'accord ? ; ça va ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0024"
+      ],
+      "entryIds": [
+        "e-p0005-0014"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "好吗",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-026",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 李玉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-026-o1",
+          "text": "quoi ; quel"
+        },
+        {
+          "id": "q-p0005-026-o2",
+          "text": "Marie (prénom)"
+        },
+        {
+          "id": "q-p0005-026-o3",
+          "text": "Li Yu (nom de personne)"
+        }
+      ],
+      "correctOptionId": "q-p0005-026-o3",
+      "explanation": "李玉 (Lǐ Yù) signifie « Li Yu (nom de personne) ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-027",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 你作鸡，我作鱼，好吗？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-027-o1",
+          "text": "Je prépare du poulet."
+        },
+        {
+          "id": "q-p0005-027-o2",
+          "text": "Tu prépares du poulet et je prépare du poisson, d'accord ?"
+        },
+        {
+          "id": "q-p0005-027-o3",
+          "text": "Li Yu, qu'est-ce que tu prépares ?"
+        }
+      ],
+      "correctOptionId": "q-p0005-027-o2",
+      "explanation": "« 你作鸡，我作鱼，好吗？ » (Nǐ zuò jī, wǒ zuò yú, hǎo ma?) signifie « Tu prépares du poulet et je prépare du poisson, d'accord ? ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0466"
+      ],
+      "entryIds": [
+        "e-p0005-0108"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-028",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 玛丽 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-028-o1",
+          "text": "Marie (prénom)"
+        },
+        {
+          "id": "q-p0005-028-o2",
+          "text": "quoi ; quel"
+        },
+        {
+          "id": "q-p0005-028-o3",
+          "text": "Li Yu (nom de personne)"
+        }
+      ],
+      "correctOptionId": "q-p0005-028-o1",
+      "explanation": "玛丽 (Mǎlì) signifie « Marie (prénom) ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-029",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Marie (prénom) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-029-o1",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0005-029-o2",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-029-o3",
+          "text": "玛丽"
+        }
+      ],
+      "correctOptionId": "q-p0005-029-o3",
+      "explanation": "« Marie (prénom) » se dit 玛丽 (Mǎlì).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-030",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « Lǐ » signifiant « Li (nom de famille) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-030-o1",
+          "text": "丽"
+        },
+        {
+          "id": "q-p0005-030-o2",
+          "text": "李"
+        },
+        {
+          "id": "q-p0005-030-o3",
+          "text": "玛"
+        }
+      ],
+      "correctOptionId": "q-p0005-030-o2",
+      "explanation": "李 se prononce Lǐ et signifie « Li (nom de famille) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0006"
+      ],
+      "entryIds": [
+        "e-p0005-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-031",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 你作鸡，我作鱼，____？ » (Tu prépares du poulet et je prépare du poisson, d'accord ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-031-o1",
+          "text": "好吗"
+        },
+        {
+          "id": "q-p0005-031-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0005-031-o3",
+          "text": "李玉"
+        }
+      ],
+      "correctOptionId": "q-p0005-031-o1",
+      "explanation": "L'expression manquante est 好吗 (hǎo ma, « d'accord ? ; ça va ? »), complétant « 你作鸡，我作鱼，好吗？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0466"
+      ],
+      "entryIds": [
+        "e-p0005-0108"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-032",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-032-o1",
+          "text": "我作鸡。"
+        },
+        {
+          "id": "q-p0005-032-o2",
+          "text": "你作鸡，我作鱼，好吗？"
+        },
+        {
+          "id": "q-p0005-032-o3",
+          "text": "李玉，你作什么？"
+        }
+      ],
+      "correctOptionId": "q-p0005-032-o3",
+      "explanation": "L'audio prononce 李玉，你作什么？ (Lǐ Yù, nǐ zuò shénme?), qui signifie « Li Yu, qu'est-ce que tu prépares ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0464"
+      ],
+      "entryIds": [
+        "e-p0005-0106"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "李玉，你作什么？",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-033",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 玛丽 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-033-o1",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-033-o2",
+          "text": "Marie (prénom)"
+        },
+        {
+          "id": "q-p0005-033-o3",
+          "text": "quoi ; quel"
+        }
+      ],
+      "correctOptionId": "q-p0005-033-o2",
+      "explanation": "玛丽 (Mǎlì) signifie « Marie (prénom) ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-034",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 好！ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-034-o1",
+          "text": "D'accord !"
+        },
+        {
+          "id": "q-p0005-034-o2",
+          "text": "Li Yu, qu'est-ce que tu prépares ?"
+        },
+        {
+          "id": "q-p0005-034-o3",
+          "text": "Je prépare du poulet."
+        }
+      ],
+      "correctOptionId": "q-p0005-034-o1",
+      "explanation": "« 好！ » (Hǎo!) signifie « D'accord ! ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0467"
+      ],
+      "entryIds": [
+        "e-p0005-0109"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-035",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 好吗 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-035-o1",
+          "text": "quoi ; quel"
+        },
+        {
+          "id": "q-p0005-035-o2",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-035-o3",
+          "text": "d'accord ? ; ça va ?"
+        }
+      ],
+      "correctOptionId": "q-p0005-035-o3",
+      "explanation": "好吗 (hǎo ma) signifie « d'accord ? ; ça va ? ». 吗 est une particule interrogative neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0024"
+      ],
+      "entryIds": [
+        "e-p0005-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-036",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « d'accord ? ; ça va ? » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-036-o1",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-036-o2",
+          "text": "好吗"
+        },
+        {
+          "id": "q-p0005-036-o3",
+          "text": "什么"
+        }
+      ],
+      "correctOptionId": "q-p0005-036-o2",
+      "explanation": "« d'accord ? ; ça va ? » se dit 好吗 (hǎo ma).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0024"
+      ],
+      "entryIds": [
+        "e-p0005-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

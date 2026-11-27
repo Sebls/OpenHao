@@ -1,0 +1,1074 @@
+{
+  "documentId": "lecon-04-fr",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0007-001",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 字幕 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "sous-titres"
+        },
+        {
+          "id": "o2",
+          "text": "intonation"
+        },
+        {
+          "id": "o3",
+          "text": "langue des signes"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "字幕 zìmù signifie sous-titres.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0007-002",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie galerie d'art ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "画廊"
+        },
+        {
+          "id": "o2",
+          "text": "国画"
+        },
+        {
+          "id": "o3",
+          "text": "名画"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "画廊 est une galerie d'art ; 国画 est une peinture chinoise et 名画 est une peinture célèbre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0010"
+      ],
+      "entryIds": [
+        "e-p0007-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0007-003",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère contient le composant eau 氵 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "渴"
+        },
+        {
+          "id": "o2",
+          "text": "恕"
+        },
+        {
+          "id": "o3",
+          "text": "桔"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "渴 kě a 氵 à gauche ; 恕 contient 心 et 桔 contient 木.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0046"
+      ],
+      "entryIds": [
+        "e-p0007-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0007-004",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 餐巾 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "serviette de table"
+        },
+        {
+          "id": "o2",
+          "text": "foulard ; fichu"
+        },
+        {
+          "id": "o3",
+          "text": "vêtements"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "餐巾 cānjīn désigne une serviette de table utilisée pendant un repas.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0007"
+      ],
+      "entryIds": [
+        "e-p0007-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0007-005",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Comment se lit 长 dans 厂长 signifiant directeur d'usine ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "zhǎng"
+        },
+        {
+          "id": "o2",
+          "text": "cháng"
+        },
+        {
+          "id": "o3",
+          "text": "zhàng"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "长 se lit zhǎng au sens de chef ou directeur dans 厂长 ; cháng signifie long.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0086"
+      ],
+      "entryIds": [
+        "e-p0007-0073"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0007-006",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Où le grand frère du locuteur voyage-t-il souvent ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Asie"
+        },
+        {
+          "id": "o2",
+          "text": "France"
+        },
+        {
+          "id": "o3",
+          "text": "Japon uniquement"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "亚洲 est l'Asie ; 常去…旅行 signifie voyager souvent en….",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0149"
+      ],
+      "entryIds": [
+        "e-p0007-0122"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0007-007",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qui est Wang Meiju ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "la petite sœur de Wang Guisong"
+        },
+        {
+          "id": "o2",
+          "text": "le grand frère du locuteur"
+        },
+        {
+          "id": "o3",
+          "text": "le professeur de Wang Guisong"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "王贵松的妹妹 signifie la petite sœur de Wang Guisong.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0150"
+      ],
+      "entryIds": [
+        "e-p0007-0123"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0007-008",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase source : 你的___很漂亮。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "衣服"
+        },
+        {
+          "id": "o2",
+          "text": "名片"
+        },
+        {
+          "id": "o3",
+          "text": "语调"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "La source dit que tes vêtements, 衣服, sont jolis.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0151"
+      ],
+      "entryIds": [
+        "e-p0007-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0007-009",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Qu'exprime l'expression idiomatique 寸步难行 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "ne pouvoir faire un pas ni progresser"
+        },
+        {
+          "id": "o2",
+          "text": "avoir beaucoup de temps"
+        },
+        {
+          "id": "o3",
+          "text": "partir rapidement en voyage"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Littéralement même un tout petit pas est difficile à faire ; au figuré, il est très difficile d'avancer.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0052"
+      ],
+      "entryIds": [
+        "e-p0007-0046"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0007-010",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quelle information cette question demande-t-elle ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "la raison pour laquelle il te frappe"
+        },
+        {
+          "id": "o2",
+          "text": "le nom de son professeur"
+        },
+        {
+          "id": "o3",
+          "text": "le prix de ses vêtements"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "为什么 wèishénme signifie pourquoi ; la phrase ne précise pas la raison.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0152"
+      ],
+      "entryIds": [
+        "e-p0007-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0007-011",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "贵"
+        },
+        {
+          "id": "o2",
+          "text": "长"
+        },
+        {
+          "id": "o3",
+          "text": "名"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "贵 se lit guì, cher ou honorable selon le contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0015"
+      ],
+      "entryIds": [
+        "e-p0007-0015"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      },
+      "speechTarget": "贵"
+    },
+    {
+      "id": "q-p0007-012",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 一寸光阴一寸金 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-012-o1",
+          "text": "Mon grand frère voyage souvent en Asie."
+        },
+        {
+          "id": "q-p0007-012-o2",
+          "text": "Un pouce de temps vaut un pouce d'or. (Le temps est précieux.)"
+        },
+        {
+          "id": "q-p0007-012-o3",
+          "text": "Est-il votre directeur d'usine ?"
+        }
+      ],
+      "correctOptionId": "q-p0007-012-o2",
+      "explanation": "« 一寸光阴一寸金 » (Yí cùn guāngyīn yí cùn jīn) signifie « Un pouce de temps vaut un pouce d'or. (Le temps est précieux.) ». Un proverbe comparant un court instant à l'or : chérissez votre temps. 一 devient yí devant cùn au quatrième ton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0147"
+      ],
+      "entryIds": [
+        "e-p0007-0120"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-013",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 语调 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-013-o1",
+          "text": "intonation"
+        },
+        {
+          "id": "q-p0007-013-o2",
+          "text": "sous-titres"
+        },
+        {
+          "id": "q-p0007-013-o3",
+          "text": "serviette de table"
+        }
+      ],
+      "correctOptionId": "q-p0007-013-o1",
+      "explanation": "语调 (yǔdiào) signifie « intonation ». La courbe mélodique de la parole ; 调 se lit diào ici.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0002"
+      ],
+      "entryIds": [
+        "e-p0007-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-014",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « sous-titres » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-014-o1",
+          "text": "语调"
+        },
+        {
+          "id": "q-p0007-014-o2",
+          "text": "餐巾"
+        },
+        {
+          "id": "q-p0007-014-o3",
+          "text": "字幕"
+        }
+      ],
+      "correctOptionId": "q-p0007-014-o3",
+      "explanation": "« sous-titres » se dit 字幕 (zìmù).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-015",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « zì » signifiant « caractère écrit ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-015-o1",
+          "text": "语"
+        },
+        {
+          "id": "q-p0007-015-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0007-015-o3",
+          "text": "幕"
+        }
+      ],
+      "correctOptionId": "q-p0007-015-o2",
+      "explanation": "字 se prononce zì et signifie « caractère écrit ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0003"
+      ],
+      "entryIds": [
+        "e-p0007-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-016",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 一寸____一寸金 » (Un pouce de temps vaut un pouce d'or. (Le temps est précieux.))",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-016-o1",
+          "text": "光阴"
+        },
+        {
+          "id": "q-p0007-016-o2",
+          "text": "字幕"
+        },
+        {
+          "id": "q-p0007-016-o3",
+          "text": "语调"
+        }
+      ],
+      "correctOptionId": "q-p0007-016-o1",
+      "explanation": "Le mot manquant est 光阴 (guāngyīn, « temps »), complétant « 一寸光阴一寸金 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0147"
+      ],
+      "entryIds": [
+        "e-p0007-0120"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-017",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-017-o1",
+          "text": "语调"
+        },
+        {
+          "id": "q-p0007-017-o2",
+          "text": "餐巾"
+        },
+        {
+          "id": "q-p0007-017-o3",
+          "text": "字幕"
+        }
+      ],
+      "correctOptionId": "q-p0007-017-o3",
+      "explanation": "L'audio prononce 字幕 (zìmù), qui signifie « sous-titres ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "字幕",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-018",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 字幕 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-018-o1",
+          "text": "serviette de table"
+        },
+        {
+          "id": "q-p0007-018-o2",
+          "text": "sous-titres"
+        },
+        {
+          "id": "q-p0007-018-o3",
+          "text": "intonation"
+        }
+      ],
+      "correctOptionId": "q-p0007-018-o2",
+      "explanation": "字幕 (zìmù) signifie « sous-titres ». Texte écrit affiché pour un film ou une émission.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-019",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 他是你们的厂长吗？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-019-o1",
+          "text": "Est-il votre directeur d'usine ?"
+        },
+        {
+          "id": "q-p0007-019-o2",
+          "text": "Un pouce de temps vaut un pouce d'or. (Le temps est précieux.)"
+        },
+        {
+          "id": "q-p0007-019-o3",
+          "text": "Mon grand frère voyage souvent en Asie."
+        }
+      ],
+      "correctOptionId": "q-p0007-019-o1",
+      "explanation": "« 他是你们的厂长吗？ » (Tā shì nǐmen de chǎngzhǎng ma?) signifie « Est-il votre directeur d'usine ? ». 长 se lit zhǎng au sens de chef ou directeur dans 厂长 ; il se lit cháng au sens de long dans 头巾太长.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0148"
+      ],
+      "entryIds": [
+        "e-p0007-0121"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-020",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 画廊 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-020-o1",
+          "text": "sous-titres"
+        },
+        {
+          "id": "q-p0007-020-o2",
+          "text": "intonation"
+        },
+        {
+          "id": "q-p0007-020-o3",
+          "text": "galerie d'art"
+        }
+      ],
+      "correctOptionId": "q-p0007-020-o3",
+      "explanation": "画廊 (huàláng) signifie « galerie d'art ». Un lieu d'exposition pour des peintures ou d'autres œuvres d'art.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0010"
+      ],
+      "entryIds": [
+        "e-p0007-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-021",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « intonation » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-021-o1",
+          "text": "餐巾"
+        },
+        {
+          "id": "q-p0007-021-o2",
+          "text": "语调"
+        },
+        {
+          "id": "q-p0007-021-o3",
+          "text": "字幕"
+        }
+      ],
+      "correctOptionId": "q-p0007-021-o2",
+      "explanation": "« intonation » se dit 语调 (yǔdiào).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0002"
+      ],
+      "entryIds": [
+        "e-p0007-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-022",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « mù » signifiant « rideau ; écran ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-022-o1",
+          "text": "幕"
+        },
+        {
+          "id": "q-p0007-022-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0007-022-o3",
+          "text": "语"
+        }
+      ],
+      "correctOptionId": "q-p0007-022-o1",
+      "explanation": "幕 se prononce mù et signifie « rideau ; écran ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0004"
+      ],
+      "entryIds": [
+        "e-p0007-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-023",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 他是____的厂长吗？ » (Est-il votre directeur d'usine ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-023-o1",
+          "text": "字幕"
+        },
+        {
+          "id": "q-p0007-023-o2",
+          "text": "语调"
+        },
+        {
+          "id": "q-p0007-023-o3",
+          "text": "你们"
+        }
+      ],
+      "correctOptionId": "q-p0007-023-o3",
+      "explanation": "Le mot manquant est 你们 (nǐmen, « vous »), complétant « 他是你们的厂长吗？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0148"
+      ],
+      "entryIds": [
+        "e-p0007-0121"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-024",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-024-o1",
+          "text": "我哥哥常去亚洲旅行。"
+        },
+        {
+          "id": "q-p0007-024-o2",
+          "text": "一寸光阴一寸金"
+        },
+        {
+          "id": "q-p0007-024-o3",
+          "text": "他是你们的厂长吗？"
+        }
+      ],
+      "correctOptionId": "q-p0007-024-o2",
+      "explanation": "L'audio prononce 一寸光阴一寸金 (Yí cùn guāngyīn yí cùn jīn), qui signifie « Un pouce de temps vaut un pouce d'or. (Le temps est précieux.) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0147"
+      ],
+      "entryIds": [
+        "e-p0007-0120"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "一寸光阴一寸金",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-025",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 语调 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-025-o1",
+          "text": "intonation"
+        },
+        {
+          "id": "q-p0007-025-o2",
+          "text": "sous-titres"
+        },
+        {
+          "id": "q-p0007-025-o3",
+          "text": "serviette de table"
+        }
+      ],
+      "correctOptionId": "q-p0007-025-o1",
+      "explanation": "语调 (yǔdiào) signifie « intonation ». La courbe mélodique de la parole ; 调 se lit diào ici.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0002"
+      ],
+      "entryIds": [
+        "e-p0007-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-026",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 你的衣服很漂亮。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-026-o1",
+          "text": "Un pouce de temps vaut un pouce d'or. (Le temps est précieux.)"
+        },
+        {
+          "id": "q-p0007-026-o2",
+          "text": "Est-il votre directeur d'usine ?"
+        },
+        {
+          "id": "q-p0007-026-o3",
+          "text": "Tes vêtements sont très jolis."
+        }
+      ],
+      "correctOptionId": "q-p0007-026-o3",
+      "explanation": "« 你的衣服很漂亮。 » (Nǐ de yīfu hěn piàoliang.) signifie « Tes vêtements sont très jolis. ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0151"
+      ],
+      "entryIds": [
+        "e-p0007-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-027",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 宝贵 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-027-o1",
+          "text": "intonation"
+        },
+        {
+          "id": "q-p0007-027-o2",
+          "text": "précieux ; de valeur"
+        },
+        {
+          "id": "q-p0007-027-o3",
+          "text": "sous-titres"
+        }
+      ],
+      "correctOptionId": "q-p0007-027-o2",
+      "explanation": "宝贵 (bǎoguì) signifie « précieux ; de valeur ». Un adjectif complet, décrivant souvent quelque chose d'estimé ou d'important.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0011"
+      ],
+      "entryIds": [
+        "e-p0007-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-028",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « serviette de table » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-028-o1",
+          "text": "餐巾"
+        },
+        {
+          "id": "q-p0007-028-o2",
+          "text": "字幕"
+        },
+        {
+          "id": "q-p0007-028-o3",
+          "text": "语调"
+        }
+      ],
+      "correctOptionId": "q-p0007-028-o1",
+      "explanation": "« serviette de table » se dit 餐巾 (cānjīn).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0007"
+      ],
+      "entryIds": [
+        "e-p0007-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-029",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « yǔ » signifiant « langue ; parole ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-029-o1",
+          "text": "字"
+        },
+        {
+          "id": "q-p0007-029-o2",
+          "text": "幕"
+        },
+        {
+          "id": "q-p0007-029-o3",
+          "text": "语"
+        }
+      ],
+      "correctOptionId": "q-p0007-029-o3",
+      "explanation": "语 se prononce yǔ et signifie « langue ; parole ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0005"
+      ],
+      "entryIds": [
+        "e-p0007-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-030",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我____常去亚洲旅行。 » (Mon grand frère voyage souvent en Asie.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-030-o1",
+          "text": "语调"
+        },
+        {
+          "id": "q-p0007-030-o2",
+          "text": "哥哥"
+        },
+        {
+          "id": "q-p0007-030-o3",
+          "text": "字幕"
+        }
+      ],
+      "correctOptionId": "q-p0007-030-o2",
+      "explanation": "Le mot manquant est 哥哥 (gēge, « grand frère »), complétant « 我哥哥常去亚洲旅行。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0149"
+      ],
+      "entryIds": [
+        "e-p0007-0122"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

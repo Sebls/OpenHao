@@ -1,0 +1,1131 @@
+{
+  "documentId": "lecon-04-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie le mot traditionnel 畫報 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "magazine illustré"
+        },
+        {
+          "id": "o2",
+          "text": "carte de visite"
+        },
+        {
+          "id": "o3",
+          "text": "caractère chinois"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "畫報 est la forme traditionnelle de 画报, magazine illustré.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie foulard ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "頭巾"
+        },
+        {
+          "id": "o2",
+          "text": "書法"
+        },
+        {
+          "id": "o3",
+          "text": "漢字"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "頭巾 tóujīn signifie foulard.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0024"
+      ],
+      "entryIds": [
+        "e-p0004-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choisissez le caractère traditionnel pour écrire.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "寫"
+        },
+        {
+          "id": "o2",
+          "text": "畫"
+        },
+        {
+          "id": "o3",
+          "text": "漢"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "寫 correspond au simplifié 写 ; 畫 signifie dessiner.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que demande cette question ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "si vous êtes encore très occupés"
+        },
+        {
+          "id": "o2",
+          "text": "si ton foulard est long"
+        },
+        {
+          "id": "o3",
+          "text": "si tu sais dessiner du bambou"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "還 hái signifie encore ici ; 很忙 signifie très occupé.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0271"
+      ],
+      "entryIds": [
+        "e-p0004-0128"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez le groupe source : 你的___",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "畫報"
+        },
+        {
+          "id": "o2",
+          "text": "筷子"
+        },
+        {
+          "id": "o3",
+          "text": "頭巾"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "La source demande la permission de regarder ton magazine illustré, 你的畫報.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0273"
+      ],
+      "entryIds": [
+        "e-p0004-0130"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Sur quoi porte la question 會不會 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "si quelqu'un sait faire quelque chose"
+        },
+        {
+          "id": "o2",
+          "text": "si quelqu'un possède quelque chose"
+        },
+        {
+          "id": "o3",
+          "text": "si quelque chose est cher"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "會 devant un verbe concerne la capacité ; 會不會 est une question affirmative-négative.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0280"
+      ],
+      "entryIds": [
+        "e-p0004-0137"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "À qui est ce foulard ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "le sien (à elle)"
+        },
+        {
+          "id": "o2",
+          "text": "le mien"
+        },
+        {
+          "id": "o3",
+          "text": "le sien (à lui)"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "她的 signifie son ou le sien (à elle) ; 這是她的頭巾 signifie c'est son foulard.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0274"
+      ],
+      "entryIds": [
+        "e-p0004-0131"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "語"
+        },
+        {
+          "id": "o2",
+          "text": "畫"
+        },
+        {
+          "id": "o3",
+          "text": "寫"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "語 se lit yǔ, langue ou parole.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0257"
+      ],
+      "entryIds": [
+        "e-p0004-0120"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      },
+      "speechTarget": "語"
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我叫王田。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-009-o1",
+          "text": "Est-ce que c'est ton nom ?"
+        },
+        {
+          "id": "q-p0004-009-o2",
+          "text": "Je m'appelle Wang Tian."
+        },
+        {
+          "id": "q-p0004-009-o3",
+          "text": "Je vais acheter des dessins et un foulard blanc."
+        }
+      ],
+      "correctOptionId": "q-p0004-009-o2",
+      "explanation": "« 我叫王田。 » (Wǒ jiào Wáng Tián.) signifie « Je m'appelle Wang Tian. ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0267"
+      ],
+      "entryIds": [
+        "e-p0004-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 可以 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-010-o1",
+          "text": "pouvoir ; avoir le droit de"
+        },
+        {
+          "id": "q-p0004-010-o2",
+          "text": "caractère chinois"
+        },
+        {
+          "id": "q-p0004-010-o3",
+          "text": "image ; dessin (forme rhotique)"
+        }
+      ],
+      "correctOptionId": "q-p0004-010-o1",
+      "explanation": "可以 (kěyǐ) signifie « pouvoir ; avoir le droit de ». Sert souvent à demander la permission : 我可以看吗？ Puis-je regarder ? 会 concerne plutôt le fait de savoir faire quelque chose.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-011",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « pouvoir ; avoir le droit de » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-011-o1",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-011-o2",
+          "text": "畫兒"
+        },
+        {
+          "id": "q-p0004-011-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0004-011-o3",
+      "explanation": "« pouvoir ; avoir le droit de » se dit 可以 (kěyǐ).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-012",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « zì » signifiant « caractère écrit ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-012-o1",
+          "text": "以"
+        },
+        {
+          "id": "q-p0004-012-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0004-012-o3",
+          "text": "可"
+        }
+      ],
+      "correctOptionId": "q-p0004-012-o2",
+      "explanation": "字 se prononce zì et signifie « caractère écrit ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-013",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我叫____。 » (Je m'appelle Wang Tian.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-013-o1",
+          "text": "王田"
+        },
+        {
+          "id": "q-p0004-013-o2",
+          "text": "可以"
+        },
+        {
+          "id": "q-p0004-013-o3",
+          "text": "漢字"
+        }
+      ],
+      "correctOptionId": "q-p0004-013-o1",
+      "explanation": "Le mot manquant est 王田 (Wáng Tián, « Wang Tian (nom de personne) »), complétant « 我叫王田。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0267"
+      ],
+      "entryIds": [
+        "e-p0004-0124"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-014",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-014-o1",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-014-o2",
+          "text": "畫兒"
+        },
+        {
+          "id": "q-p0004-014-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0004-014-o3",
+      "explanation": "L'audio prononce 可以 (kěyǐ), qui signifie « pouvoir ; avoir le droit de ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "可以",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-015",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 可以 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-015-o1",
+          "text": "image ; dessin (forme rhotique)"
+        },
+        {
+          "id": "q-p0004-015-o2",
+          "text": "pouvoir ; avoir le droit de"
+        },
+        {
+          "id": "q-p0004-015-o3",
+          "text": "caractère chinois"
+        }
+      ],
+      "correctOptionId": "q-p0004-015-o2",
+      "explanation": "可以 (kěyǐ) signifie « pouvoir ; avoir le droit de ». Sert souvent à demander la permission : 我可以看吗？ Puis-je regarder ? 会 concerne plutôt le fait de savoir faire quelque chose.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-016",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我去買畫兒和白頭巾。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-016-o1",
+          "text": "Je vais acheter des dessins et un foulard blanc."
+        },
+        {
+          "id": "q-p0004-016-o2",
+          "text": "Je m'appelle Wang Tian."
+        },
+        {
+          "id": "q-p0004-016-o3",
+          "text": "Est-ce que c'est ton nom ?"
+        }
+      ],
+      "correctOptionId": "q-p0004-016-o1",
+      "explanation": "« 我去買畫兒和白頭巾。 » (Wǒ qù mǎi huàr hé bái tóujīn.) signifie « Je vais acheter des dessins et un foulard blanc. ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0268"
+      ],
+      "entryIds": [
+        "e-p0004-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-017",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 漢字 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-017-o1",
+          "text": "pouvoir ; avoir le droit de"
+        },
+        {
+          "id": "q-p0004-017-o2",
+          "text": "image ; dessin (forme rhotique)"
+        },
+        {
+          "id": "q-p0004-017-o3",
+          "text": "caractère chinois"
+        }
+      ],
+      "correctOptionId": "q-p0004-017-o3",
+      "explanation": "漢字 (hànzì) signifie « caractère chinois ». Un caractère écrit ; 字 porte ici le quatrième ton plein. Forme écrite traditionnelle dans cette occurrence.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-018",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « caractère chinois » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-018-o1",
+          "text": "畫兒"
+        },
+        {
+          "id": "q-p0004-018-o2",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-018-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0004-018-o2",
+      "explanation": "« caractère chinois » se dit 漢字 (hànzì).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-019",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « kě » signifiant « pouvoir (dans 可是 : mais) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-019-o1",
+          "text": "可"
+        },
+        {
+          "id": "q-p0004-019-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0004-019-o3",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "q-p0004-019-o1",
+      "explanation": "可 se prononce kě et signifie « pouvoir (dans 可是 : mais) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-020",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我去買____和白頭巾。 » (Je vais acheter des dessins et un foulard blanc.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-020-o1",
+          "text": "可以"
+        },
+        {
+          "id": "q-p0004-020-o2",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-020-o3",
+          "text": "畫兒"
+        }
+      ],
+      "correctOptionId": "q-p0004-020-o3",
+      "explanation": "Le mot manquant est 畫兒 (huàr, « image ; dessin (forme rhotique) »), complétant « 我去買畫兒和白頭巾。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0268"
+      ],
+      "entryIds": [
+        "e-p0004-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-021",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez l'expression chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-021-o1",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-021-o2",
+          "text": "去你的"
+        },
+        {
+          "id": "q-p0004-021-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0004-021-o2",
+      "explanation": "L'audio prononce 去你的 (qù nǐ de), qui signifie « va-t'en ! ; arrête un peu ! ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0070"
+      ],
+      "entryIds": [
+        "e-p0004-0053"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "去你的",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-022",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 漢字 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-022-o1",
+          "text": "caractère chinois"
+        },
+        {
+          "id": "q-p0004-022-o2",
+          "text": "pouvoir ; avoir le droit de"
+        },
+        {
+          "id": "q-p0004-022-o3",
+          "text": "image ; dessin (forme rhotique)"
+        }
+      ],
+      "correctOptionId": "q-p0004-022-o1",
+      "explanation": "漢字 (hànzì) signifie « caractère chinois ». Un caractère écrit ; 字 porte ici le quatrième ton plein. Forme écrite traditionnelle dans cette occurrence.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-023",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 這是你的名字嗎？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-023-o1",
+          "text": "Je m'appelle Wang Tian."
+        },
+        {
+          "id": "q-p0004-023-o2",
+          "text": "Je vais acheter des dessins et un foulard blanc."
+        },
+        {
+          "id": "q-p0004-023-o3",
+          "text": "Est-ce que c'est ton nom ?"
+        }
+      ],
+      "correctOptionId": "q-p0004-023-o3",
+      "explanation": "« 這是你的名字嗎？ » (Zhè shì nǐ de míngzi ma?) signifie « Est-ce que c'est ton nom ? ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0269"
+      ],
+      "entryIds": [
+        "e-p0004-0126"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-024",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 畫兒 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-024-o1",
+          "text": "caractère chinois"
+        },
+        {
+          "id": "q-p0004-024-o2",
+          "text": "image ; dessin (forme rhotique)"
+        },
+        {
+          "id": "q-p0004-024-o3",
+          "text": "pouvoir ; avoir le droit de"
+        }
+      ],
+      "correctOptionId": "q-p0004-024-o2",
+      "explanation": "畫兒 (huàr) signifie « image ; dessin (forme rhotique) ». 儿 fusionne avec la syllabe précédente en finale r, et non en syllabe ér séparée. Forme écrite traditionnelle dans cette occurrence.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-025",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « image ; dessin (forme rhotique) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-025-o1",
+          "text": "畫兒"
+        },
+        {
+          "id": "q-p0004-025-o2",
+          "text": "可以"
+        },
+        {
+          "id": "q-p0004-025-o3",
+          "text": "漢字"
+        }
+      ],
+      "correctOptionId": "q-p0004-025-o1",
+      "explanation": "« image ; dessin (forme rhotique) » se dit 畫兒 (huàr).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-026",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « yǐ » signifiant « au moyen de ; selon (caractère lexical) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-026-o1",
+          "text": "字"
+        },
+        {
+          "id": "q-p0004-026-o2",
+          "text": "可"
+        },
+        {
+          "id": "q-p0004-026-o3",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "q-p0004-026-o3",
+      "explanation": "以 se prononce yǐ et signifie « au moyen de ; selon (caractère lexical) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-027",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 這是你的____嗎？ » (Est-ce que c'est ton nom ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-027-o1",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-027-o2",
+          "text": "名字"
+        },
+        {
+          "id": "q-p0004-027-o3",
+          "text": "可以"
+        }
+      ],
+      "correctOptionId": "q-p0004-027-o2",
+      "explanation": "Le mot manquant est 名字 (míngzi, « nom ; prénom »), complétant « 這是你的名字嗎？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0269"
+      ],
+      "entryIds": [
+        "e-p0004-0126"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-028",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-028-o1",
+          "text": "我叫王田。"
+        },
+        {
+          "id": "q-p0004-028-o2",
+          "text": "我去買畫兒和白頭巾。"
+        },
+        {
+          "id": "q-p0004-028-o3",
+          "text": "這是你的名字嗎？"
+        }
+      ],
+      "correctOptionId": "q-p0004-028-o1",
+      "explanation": "L'audio prononce 我叫王田。 (Wǒ jiào Wáng Tián.), qui signifie « Je m'appelle Wang Tian. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0267"
+      ],
+      "entryIds": [
+        "e-p0004-0124"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我叫王田。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-029",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 畫兒 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-029-o1",
+          "text": "pouvoir ; avoir le droit de"
+        },
+        {
+          "id": "q-p0004-029-o2",
+          "text": "caractère chinois"
+        },
+        {
+          "id": "q-p0004-029-o3",
+          "text": "image ; dessin (forme rhotique)"
+        }
+      ],
+      "correctOptionId": "q-p0004-029-o3",
+      "explanation": "畫兒 (huàr) signifie « image ; dessin (forme rhotique) ». 儿 fusionne avec la syllabe précédente en finale r, et non en syllabe ér séparée. Forme écrite traditionnelle dans cette occurrence.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-030",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 中國勺兒很好看。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-030-o1",
+          "text": "Je vais acheter des dessins et un foulard blanc."
+        },
+        {
+          "id": "q-p0004-030-o2",
+          "text": "Les cuillères chinoises sont très jolies."
+        },
+        {
+          "id": "q-p0004-030-o3",
+          "text": "Je m'appelle Wang Tian."
+        }
+      ],
+      "correctOptionId": "q-p0004-030-o2",
+      "explanation": "« 中國勺兒很好看。 » (Zhōngguó sháor hěn hǎokàn.) signifie « Les cuillères chinoises sont très jolies. ». Phrase source traduite en contexte. Le pinyin conserve les troisièmes tons lexicaux ; le premier de deux troisièmes tons consécutifs monte normalement à l'oral. Lisez la phrase entière plutôt que de traduire caractère par caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0270"
+      ],
+      "entryIds": [
+        "e-p0004-0127"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-031",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 好吃 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-031-o1",
+          "text": "bon à manger ; délicieux"
+        },
+        {
+          "id": "q-p0004-031-o2",
+          "text": "pouvoir ; avoir le droit de"
+        },
+        {
+          "id": "q-p0004-031-o3",
+          "text": "caractère chinois"
+        }
+      ],
+      "correctOptionId": "q-p0004-031-o1",
+      "explanation": "好吃 (hǎochī) signifie « bon à manger ; délicieux ». Utilisé pour la nourriture. Comparez avec 好喝 pour les boissons et 好看 pour l'apparence ou ce qui est agréable à regarder.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0013"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-032",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « magazine illustré ; revue illustrée » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-032-o1",
+          "text": "可以"
+        },
+        {
+          "id": "q-p0004-032-o2",
+          "text": "漢字"
+        },
+        {
+          "id": "q-p0004-032-o3",
+          "text": "畫報"
+        }
+      ],
+      "correctOptionId": "q-p0004-032-o3",
+      "explanation": "« magazine illustré ; revue illustrée » se dit 畫報 (huàbào).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

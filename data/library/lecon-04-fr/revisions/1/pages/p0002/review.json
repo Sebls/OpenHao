@@ -1,0 +1,66 @@
+{
+  "documentId": "lecon-04-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "c8820ac5ea5741d58ed2cda1e0bd5ecd96f7a6f9860a7cd9b061b0f587219fc1",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, auto-révision séparée après rédaction ; pas de révision humaine ni indépendante",
+  "reviewedAt": "2026-11-24T10:11:59.716978+00:00",
+  "checks": [
+    "Comparaison des sept images sources originales avec le texte et la géométrie, y compris les inventaires de caractères manuscrits, les mots pâles des dialogues, la structure sans illustration, les rôles sources et l'ordre de lecture dans chaque demi-page.",
+    "La révision d'extraction séparée a corrigé les caractères manqués, les formes confondues par l'OCR et les boîtes fusionnées à l'aide de limites de glyphes inspectées individuellement. Les octets du PDF original restent inchangés.",
+    "La révision linguistique séparée a vérifié 还 hái, 只 zhǐ, 长 cháng contre 厂长 zhǎng, 都 dū isolé contre dōu en phrase, les suffixes neutres dans 名字/筷子/工夫/衣服/漂亮, le 儿 rhotique, les changements de ton de 不, la permission 可以 contre la capacité 会, l'ordre nom/titre et les traductions naturelles des phrases.",
+    "La révision séparée des questions a vérifié une réponse défendable, des distracteurs plausibles distincts, l'explication, la portée sur la page sélectionnée et les identifiants sources stables. L'écoute reste conditionnée à la lecture audio locale.",
+    "Diagnostics SVG liés à la source régénérés après les dernières modifications de texte et de géométrie. Mêmes boîtes de caractères finales vérifiées sur la source originale à l'échelle de la page, sur les zones agrandies de vocabulaire/dialogue/mémento corrigées et sur le vocabulaire de la page recadrée.",
+    "La révision dans le navigateur (lecteur, mots, caractères, multiligne et pratique) suit cette première publication locale validée.",
+    "Banque de questions révisées étendue aux entrées et annotations de chaque page ; options distinctes, identifiant unique de bonne réponse et sourceAnnotationIds locaux à la page vérifiés."
+  ],
+  "coverage": {
+    "scope": "Page PDF physique 2 ; contenu d'apprentissage révisé avec OCR de référence partiel. Aucun pourcentage de couverture n'est revendiqué.",
+    "roles": "Modèles principaux 汉字名写那画语只用以 et exemples de mots composés imprimés, dont 汉语/汉字, 名字/有名/名片, 画儿/山水画儿/画画儿/画报, les noms de langues et 可以. Les formes intermédiaires de tracé restent uniquement de référence.",
+    "transcriptCodePoints": 1736,
+    "locatedRecords": 1456,
+    "manualCharacterBoxes": 2,
+    "learningLines": 28,
+    "entries": 36,
+    "entriesByKind": {
+      "character": 20,
+      "word": 16
+    },
+    "occurrences": 72,
+    "reviewedIPAEntries": 25,
+    "entriesWithoutReviewedIPA": 11,
+    "questions": 8,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 0,
+    "multilineNote": "Ancrages de lignes distincts pour les lectures/dialogues/mémentos sur plusieurs lignes aux pages physiques 3, 5 et 6 ; sans objet lorsque le compteur est à zéro.",
+    "reviewedQuestions": 24
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0002",
+      "reason": "L'OCR de référence reste partiel ou incertain pour le petit texte français/pinyin imprimé, les répétitions de tracé pâles et les schémas de tracé ou historiques incomplets. Les zones d'apprentissage révisées sont définies dans la couverture ; l'exhaustivité de l'extraction n'est pas revendiquée.",
+      "nextAction": "Consulter la page originale inchangée pour les zones de référence ; maintenir l'OCR incertain hors des unités d'apprentissage révisées et de la pratique."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0002",
+      "reason": "11 entrées n'ont pas d'API révisé, en particulier les phrases, les noms, les lectures rhotiques et les tons neutres contextuels. Toutes les entrées d'apprentissage disposent d'un pinyin révisé avec marques de ton.",
+      "nextAction": "Laisser l'API absent tant que cette prononciation contextuelle exacte n'a pas pu être révisée."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0002",
+      "reason": "Les questions d'écoute nécessitent une lecture audio réussie dans le navigateur local ; l'audibilité hors ligne n'a pas été vérifiée indépendamment.",
+      "nextAction": "Conserver le blocage à l'exécution tant que la lecture locale n'est pas terminée ; l'étude écrite reste disponible."
+    }
+  ]
+}

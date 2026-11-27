@@ -1,0 +1,858 @@
+{
+  "documentId": "lecon-04-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 汉字 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "caractère chinois"
+        },
+        {
+          "id": "o2",
+          "text": "langue chinoise"
+        },
+        {
+          "id": "o3",
+          "text": "carte de visite"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "汉字 est un caractère chinois écrit ; 汉语 est la langue.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie nom / prénom ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "名字"
+        },
+        {
+          "id": "o2",
+          "text": "有名"
+        },
+        {
+          "id": "o3",
+          "text": "名片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名字 míngzi signifie nom ; 有名 signifie célèbre et 名片 signifie carte de visite.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0018"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Qu'est-ce qu'une 名片 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "carte de visite"
+        },
+        {
+          "id": "o2",
+          "text": "peinture"
+        },
+        {
+          "id": "o3",
+          "text": "foulard ; fichu"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名片 míngpiàn est une carte de visite.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choisissez le caractère signifiant écrire.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "写"
+        },
+        {
+          "id": "o2",
+          "text": "画"
+        },
+        {
+          "id": "o3",
+          "text": "只"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "写 xiě signifie écrire ; 画 signifie dessiner.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0026"
+      ],
+      "entryIds": [
+        "e-p0002-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 画报 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "magazine illustré"
+        },
+        {
+          "id": "o2",
+          "text": "calligraphie"
+        },
+        {
+          "id": "o3",
+          "text": "langue parlée"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "画报 huàbào est un magazine illustré ou une revue illustrée.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0044"
+      ],
+      "entryIds": [
+        "e-p0002-0024"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Que peut exprimer 可以 dans une question de permission ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "pouvoir ; avoir le droit de"
+        },
+        {
+          "id": "o2",
+          "text": "avoir déjà fini"
+        },
+        {
+          "id": "o3",
+          "text": "s'appeler"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可以 permet de demander la permission ; 会 concerne plutôt une compétence apprise.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0069"
+      ],
+      "entryIds": [
+        "e-p0002-0035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 有用 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "utile"
+        },
+        {
+          "id": "o2",
+          "text": "cher"
+        },
+        {
+          "id": "o3",
+          "text": "célèbre"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有用 yǒuyòng signifie utile.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0064"
+      ],
+      "entryIds": [
+        "e-p0002-0033"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "用"
+        },
+        {
+          "id": "o2",
+          "text": "以"
+        },
+        {
+          "id": "o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "用 se lit yòng, utiliser.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0063"
+      ],
+      "entryIds": [
+        "e-p0002-0032"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision séparée de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ni indépendante."
+      },
+      "speechTarget": "用"
+    },
+    {
+      "id": "q-p0002-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 汉语 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-009-o1",
+          "text": "carte de visite"
+        },
+        {
+          "id": "q-p0002-009-o2",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0002-009-o3",
+          "text": "caractère chinois"
+        }
+      ],
+      "correctOptionId": "q-p0002-009-o2",
+      "explanation": "汉语 (Hànyǔ) signifie « chinois (langue) ». Un nom de langue ; distinguez-le de 汉字 (caractère chinois écrit).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-010",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « chinois (langue) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-010-o1",
+          "text": "汉语"
+        },
+        {
+          "id": "q-p0002-010-o2",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0002-010-o3",
+          "text": "名片"
+        }
+      ],
+      "correctOptionId": "q-p0002-010-o1",
+      "explanation": "« chinois (langue) » se dit 汉语 (Hànyǔ).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-011",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « hàn » signifiant « Han ; chinois (dans les composés) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-011-o1",
+          "text": "语"
+        },
+        {
+          "id": "q-p0002-011-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0002-011-o3",
+          "text": "汉"
+        }
+      ],
+      "correctOptionId": "q-p0002-011-o3",
+      "explanation": "汉 se prononce hàn et signifie « Han ; chinois (dans les composés) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-012",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-012-o1",
+          "text": "名片"
+        },
+        {
+          "id": "q-p0002-012-o2",
+          "text": "汉语"
+        },
+        {
+          "id": "q-p0002-012-o3",
+          "text": "汉字"
+        }
+      ],
+      "correctOptionId": "q-p0002-012-o2",
+      "explanation": "L'audio prononce 汉语 (Hànyǔ), qui signifie « chinois (langue) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "汉语",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-013",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 汉语 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-013-o1",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0002-013-o2",
+          "text": "caractère chinois"
+        },
+        {
+          "id": "q-p0002-013-o3",
+          "text": "carte de visite"
+        }
+      ],
+      "correctOptionId": "q-p0002-013-o1",
+      "explanation": "汉语 (Hànyǔ) signifie « chinois (langue) ». Un nom de langue ; distinguez-le de 汉字 (caractère chinois écrit).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-014",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 名字 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-014-o1",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0002-014-o2",
+          "text": "caractère chinois"
+        },
+        {
+          "id": "q-p0002-014-o3",
+          "text": "nom ; prénom"
+        }
+      ],
+      "correctOptionId": "q-p0002-014-o3",
+      "explanation": "名字 (míngzi) signifie « nom ; prénom ». Zi neutre. 姓 demande le nom de famille ; 名字 demande le nom de façon plus générale.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0018"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-015",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « caractère chinois » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-015-o1",
+          "text": "名片"
+        },
+        {
+          "id": "q-p0002-015-o2",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0002-015-o3",
+          "text": "汉语"
+        }
+      ],
+      "correctOptionId": "q-p0002-015-o2",
+      "explanation": "« caractère chinois » se dit 汉字 (hànzì).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-016",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « yǔ » signifiant « langue ; parole ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-016-o1",
+          "text": "语"
+        },
+        {
+          "id": "q-p0002-016-o2",
+          "text": "汉"
+        },
+        {
+          "id": "q-p0002-016-o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "q-p0002-016-o1",
+      "explanation": "语 se prononce yǔ et signifie « langue ; parole ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-017",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-017-o1",
+          "text": "语"
+        },
+        {
+          "id": "q-p0002-017-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0002-017-o3",
+          "text": "汉"
+        }
+      ],
+      "correctOptionId": "q-p0002-017-o3",
+      "explanation": "L'audio prononce 汉 (hàn), qui signifie « Han ; chinois (dans les composés) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "汉",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-018",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 汉字 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-018-o1",
+          "text": "carte de visite"
+        },
+        {
+          "id": "q-p0002-018-o2",
+          "text": "caractère chinois"
+        },
+        {
+          "id": "q-p0002-018-o3",
+          "text": "chinois (langue)"
+        }
+      ],
+      "correctOptionId": "q-p0002-018-o2",
+      "explanation": "汉字 (hànzì) signifie « caractère chinois ». Un caractère écrit ; 字 porte ici le quatrième ton plein.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-019",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 有名 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-019-o1",
+          "text": "célèbre ; renommé"
+        },
+        {
+          "id": "q-p0002-019-o2",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0002-019-o3",
+          "text": "caractère chinois"
+        }
+      ],
+      "correctOptionId": "q-p0002-019-o1",
+      "explanation": "有名 (yǒumíng) signifie « célèbre ; renommé ». Sélectionnez le mot ou la phrase entière pour son sens en contexte. Le pinyin utilise les marques de ton lexical ; deux troisièmes tons consécutifs changent à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0019"
+      ],
+      "entryIds": [
+        "e-p0002-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-020",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « carte de visite » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-020-o1",
+          "text": "汉语"
+        },
+        {
+          "id": "q-p0002-020-o2",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0002-020-o3",
+          "text": "名片"
+        }
+      ],
+      "correctOptionId": "q-p0002-020-o3",
+      "explanation": "« carte de visite » se dit 名片 (míngpiàn).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-021",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « zì » signifiant « caractère écrit ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-021-o1",
+          "text": "语"
+        },
+        {
+          "id": "q-p0002-021-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0002-021-o3",
+          "text": "汉"
+        }
+      ],
+      "correctOptionId": "q-p0002-021-o2",
+      "explanation": "字 se prononce zì et signifie « caractère écrit ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0007"
+      ],
+      "entryIds": [
+        "e-p0002-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-022",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction / le sens de 名片 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-022-o1",
+          "text": "carte de visite"
+        },
+        {
+          "id": "q-p0002-022-o2",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0002-022-o3",
+          "text": "caractère chinois"
+        }
+      ],
+      "correctOptionId": "q-p0002-022-o1",
+      "explanation": "名片 (míngpiàn) signifie « carte de visite ». Une carte indiquant le nom et les coordonnées d'une personne.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-023",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 画儿 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-023-o1",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0002-023-o2",
+          "text": "caractère chinois"
+        },
+        {
+          "id": "q-p0002-023-o3",
+          "text": "image ; dessin (forme rhotique)"
+        }
+      ],
+      "correctOptionId": "q-p0002-023-o3",
+      "explanation": "画儿 (huàr) signifie « image ; dessin (forme rhotique) ». 儿 fusionne avec la syllabe précédente en finale r, et non en syllabe ér séparée.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0031"
+      ],
+      "entryIds": [
+        "e-p0002-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-024",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « célèbre ; renommé » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-024-o1",
+          "text": "汉字"
+        },
+        {
+          "id": "q-p0002-024-o2",
+          "text": "有名"
+        },
+        {
+          "id": "q-p0002-024-o3",
+          "text": "汉语"
+        }
+      ],
+      "correctOptionId": "q-p0002-024-o2",
+      "explanation": "« célèbre ; renommé » se dit 有名 (yǒumíng).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0019"
+      ],
+      "entryIds": [
+        "e-p0002-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}
