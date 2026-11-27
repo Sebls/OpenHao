@@ -1,7 +1,9 @@
+import { translator, type Locale } from "../../i18n/messages.ts";
+import type { MessageKey } from "../../i18n/en.ts";
 import type { Manifest } from "../../../contracts/content.ts";
 
 // Presentation names keep source filenames, published revisions and references stable.
-const titles: Record<string, string> = {
+const titles: Record<string, MessageKey> = {
   "lecon-00-histoire-caracteres":
     "Lesson 00 · Chinese character history and structure",
   "lecon-01": "Lesson 01",
@@ -14,6 +16,10 @@ const titles: Record<string, string> = {
   "slides-lecon-02": "Slides · Lesson 02",
 };
 
-export function documentTitle(manifest: Manifest): string {
-  return titles[manifest.documentId] ?? manifest.title;
+export function documentTitle(
+  manifest: Manifest,
+  language: Locale = "en",
+): string {
+  const title = titles[manifest.variantGroup ?? manifest.documentId];
+  return title ? translator(language)(title) : manifest.title;
 }

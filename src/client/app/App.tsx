@@ -1,3 +1,4 @@
+import { useI18n } from "../i18n/I18n.tsx";
 import type { MouseEvent } from "react";
 import {
   useCallback,
@@ -44,11 +45,18 @@ import {
   createWritingSession,
   writingReducer,
 } from "../features/writing/model.ts";
-import { type AppRoute, formatRoute, parseRoute } from "./router.ts";
+
+import {
+  type AppRoute,
+  formatRoute,
+  parseRoute,
+  localeFromPath,
+} from "./router.ts";
 
 const BASE_URL = import.meta.env.BASE_URL;
 
 export function App() {
+  const { t, language, setLanguage } = useI18n();
   const [catalog, setCatalog] = useState<Catalog>({
       documents: [],
       issues: [],
@@ -98,8 +106,11 @@ export function App() {
   }, [view]);
 
   const navigate = useCallback(
-    (next: AppRoute, options?: { replace?: boolean }) => {
-      const url = formatRoute(next, BASE_URL);
+    (
+      next: AppRoute,
+      options?: { replace?: boolean; language?: typeof language },
+    ) => {
+      const url = formatRoute(next, BASE_URL, options?.language ?? language);
       const current = window.location.pathname + window.location.search;
       if (url !== current) {
         if (options?.replace) {
@@ -111,14 +122,25 @@ export function App() {
       if (next.view !== viewRef.current) {
         scroll.current[viewRef.current] = window.scrollY;
       }
+      if (options?.language) setLanguage(options.language);
       setRoute(next);
     },
-    [],
+    [language, setLanguage],
   );
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+    if (route) {
+      const url = formatRoute(route, BASE_URL, language);
+      if (window.location.pathname + window.location.search !== url)
+        window.history.replaceState(null, "", url);
+    }
+  }, [language, route]);
 
   useEffect(() => {
     const onPopState = () => {
       speechRef.current.stop();
+      setLanguage(localeFromPath(window.location.pathname, BASE_URL));
       setNotice("");
       setRoute(
         parseRoute(window.location.pathname + window.location.search, BASE_URL),
@@ -126,7 +148,7 @@ export function App() {
     };
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
-  }, []);
+  }, [setLanguage]);
 
   useEffect(() => {
     const update = () =>
@@ -136,12 +158,12 @@ export function App() {
           setCatalogLoaded(true);
         })
         .catch(() =>
-          setError("The library is unavailable. Try refreshing the page."),
+          setError(t("The library is unavailable. Try refreshing the page.")),
         );
     update();
-    const t = setInterval(update, 4000);
-    return () => clearInterval(t);
-  }, []);
+    const interval = setInterval(update, 4000);
+    return () => clearInterval(interval);
+  }, [t]);
 
   // Load document whenever the route targets a document that is not yet loaded.
   const routeDocId =
@@ -149,8 +171,17 @@ export function App() {
   useEffect(() => {
     if (!routeDocId || !catalogLoaded) return;
     const manifest = catalog.documents.find((d) => d.documentId === routeDocId);
-    if (!manifest) {
-      setError(`The document "${routeDocId}" could not be found.`);
+    if (!manifest || manifest.translationLanguage !== language) {
+      setError(
+        t(
+          manifest
+            ? 'The document "{value0}" is unavailable in this language.'
+            : 'The document "{value0}" could not be found.',
+          {
+            value0: routeDocId,
+          },
+        ),
+      );
       return;
     }
     if (doc && doc.manifest.documentId === manifest.documentId) return;
@@ -162,7 +193,12 @@ export function App() {
         if (cancelled) return;
         const firstReady =
           data.manifest.pages.find((p) => p.state === "ready")?.pageNumber || 1;
-        lastReaderPage.current = firstReady;
+        const isVariant =
+          doc?.manifest.variantGroup &&
+          doc.manifest.variantGroup === data.manifest.variantGroup;
+        if (!isVariant) lastReaderPage.current = firstReady;
+        else if (route?.view !== "library" && route?.pageNumber)
+          lastReaderPage.current = route.pageNumber;
         scroll.current.reader = 0;
         narrowReaderScroll.current = null;
         activePracticeKey.current = "";
@@ -173,18 +209,27 @@ export function App() {
         dispatchPractice({ type: "clear" });
         dispatchWriting({ type: "clear" });
       })
-      .catch((e) => {
+      .catch(() => {
         if (cancelled) return;
-        setError(e instanceof Error ? e.message : String(e));
+        setError(t("The material could not be loaded. Try reopening it."));
       });
     return () => {
       cancelled = true;
     };
-  }, [routeDocId, catalogLoaded, catalog.documents, doc]);
+  }, [routeDocId, catalogLoaded, catalog.documents, doc, route, language, t]);
 
   const m = doc?.manifest;
+  const variants = m?.variantGroup
+    ? catalog.documents.filter(
+        (candidate) => candidate.variantGroup === m.variantGroup,
+      )
+    : [];
   const activeDocMatchesRoute = Boolean(
-    m && route && route.view !== "library" && m.documentId === route.documentId,
+    m &&
+    route &&
+    route.view !== "library" &&
+    m.documentId === route.documentId &&
+    m.translationLanguage === language,
   );
 
   // Normalize /doc/:id -> /doc/:id/page/:pageNumber and clamp out-of-range page numbers.
@@ -256,7 +301,9 @@ export function App() {
     dispatchPractice({ type: "clear" });
     if (!bank.length) {
       setNotice(
-        "No reviewed questions cover this selection. Practise the prepared document or another page.",
+        t(
+          "No reviewed questions cover this selection. Practise the prepared document or another page.",
+        ),
       );
       return;
     }
@@ -286,7 +333,10 @@ export function App() {
     if (!targetPage || !targetContent || !targetAnn || !targetEntry) {
       dispatchWriting({ type: "clear" });
       setError(
-        `The writing item "${route.annotationId}" on page ${route.pageNumber} could not be found.`,
+        t('The writing item "{value0}" on page {value1} could not be found.', {
+          value0: route.annotationId,
+          value1: route.pageNumber,
+        }),
       );
       return;
     }
@@ -305,17 +355,26 @@ export function App() {
 
   useEffect(() => {
     if (route === null) {
-      document.title = "Not found · OpenHao";
+      document.title = t("Not found · OpenHao");
     } else if (route.view === "library") {
-      document.title = "OpenHao · Study library";
+      document.title = t("OpenHao · Study library");
+    } else if (!activeDocMatchesRoute) {
+      document.title = t("OpenHao · Study library");
     } else if (route.view === "reader" && m) {
-      document.title = `Page ${pageNo} · ${documentTitle(m)} · OpenHao`;
+      document.title = t("Page {value0} · {value1} · OpenHao", {
+        value0: pageNo,
+        value1: documentTitle(m, language),
+      });
     } else if (route.view === "practice" && m) {
-      document.title = `Practice · ${documentTitle(m)} · OpenHao`;
+      document.title = t("Practice · {value0} · OpenHao", {
+        value0: documentTitle(m, language),
+      });
     } else if (route.view === "writing" && writingSession) {
-      document.title = `Writing ${writingSession.form} · OpenHao`;
+      document.title = t("Writing {value0} · OpenHao", {
+        value0: writingSession.form,
+      });
     }
-  }, [route, m, pageNo, writingSession]);
+  }, [route, m, pageNo, writingSession, t, language, activeDocMatchesRoute]);
 
   useLayoutEffect(() => {
     window.scrollTo({
@@ -386,8 +445,8 @@ export function App() {
       requestAnimationFrame(() =>
         window.scrollTo({ top: scroll.current.reader, behavior: "instant" }),
       );
-    } catch (e) {
-      setError(e instanceof Error ? e.message : String(e));
+    } catch {
+      setError(t("The material could not be loaded. Try reopening it."));
     }
   }
 
@@ -432,7 +491,9 @@ export function App() {
     const bank = eligibleQuestions(doc.pages, selected, speech.working);
     if (!bank.length) {
       setNotice(
-        "No reviewed questions cover this selection. Practise the prepared document or another page.",
+        t(
+          "No reviewed questions cover this selection. Practise the prepared document or another page.",
+        ),
       );
       return;
     }
@@ -546,11 +607,12 @@ export function App() {
             setNotice("");
             navigate({ view: "library" });
           }}
-          aria-label="OpenHao library"
+          aria-label={t("OpenHao library")}
         >
-          <span lang="zh-CN">好</span> OpenHao <small>STUDY LIBRARY</small>
+          <span lang="zh-CN">好</span> OpenHao{" "}
+          <small>{t("STUDY LIBRARY")}</small>
         </button>
-        <nav aria-label="Main navigation">
+        <nav aria-label={t("Main navigation")}>
           <button
             aria-current={route?.view === "library" ? "page" : undefined}
             onClick={() => {
@@ -559,9 +621,9 @@ export function App() {
               navigate({ view: "library" });
             }}
           >
-            Library
+            {t("Library")}
           </button>
-          {doc && m && (
+          {doc && m && m.translationLanguage === language && (
             <>
               <button
                 aria-current={route?.view === "reader" ? "page" : undefined}
@@ -573,7 +635,7 @@ export function App() {
                   })
                 }
               >
-                Read
+                {t("Read")}
               </button>
               <button
                 aria-current={route?.view === "practice" ? "page" : undefined}
@@ -590,7 +652,7 @@ export function App() {
                   }
                 }}
               >
-                Practice
+                {t("Practice")}
               </button>
               {writingSession &&
                 lastWritingRoute &&
@@ -601,16 +663,53 @@ export function App() {
                     }
                     onClick={() => navigate(lastWritingRoute)}
                   >
-                    Writing
+                    {t("Writing")}
                   </button>
                 )}
             </>
           )}
         </nav>
+        <div
+          className="site-languages"
+          role="group"
+          aria-label={t("Site language")}
+        >
+          {(["en", "fr"] as const).map((next) => (
+            <button
+              key={next}
+              type="button"
+              aria-label={next === "en" ? "English" : "Français"}
+              lang={next}
+              aria-pressed={language === next}
+              onClick={() => {
+                if (next === language) return;
+                speech.stop();
+                setError("");
+                setNotice("");
+                const counterpart = variants.find(
+                  (candidate) => candidate.translationLanguage === next,
+                );
+                if (route && route.view !== "library" && counterpart) {
+                  navigate(
+                    { ...route, documentId: counterpart.documentId },
+                    { language: next },
+                  );
+                } else {
+                  setDoc(null);
+                  dispatchPractice({ type: "clear" });
+                  dispatchWriting({ type: "clear" });
+                  navigate({ view: "library" }, { language: next });
+                }
+              }}
+            >
+              {next.toUpperCase()}
+            </button>
+          ))}
+        </div>
       </header>
       {route === null && (
         <p className="banner" role="alert">
-          This page could not be found.
+          {t("This page could not be found.")}
         </p>
       )}
       {error && (
@@ -619,25 +718,25 @@ export function App() {
         </p>
       )}
       {(route === null || route.view === "library") && (
-        <Library catalog={catalog} open={open} />
+        <Library catalog={catalog} open={open} language={language} />
       )}
-      {doc && route && route.view !== "library" && (
+      {doc && activeDocMatchesRoute && route && route.view !== "library" && (
         <main className="study">
           <div className="document-heading">
             <div>
-              <p className="eyebrow">{m ? documentTitle(m) : ""}</p>
+              <p className="eyebrow">{m ? documentTitle(m, language) : ""}</p>
               <h1>
                 {view === "reader"
-                  ? `Page ${pageNo}`
+                  ? t("Page {value0}", { value0: pageNo })
                   : view === "writing"
-                    ? "Writing practice"
-                    : "Practice"}{" "}
+                    ? t("Writing practice")
+                    : t("Practice")}{" "}
                 <span>
                   {view === "reader"
                     ? page?.state === "ready"
-                      ? "Ready to study"
-                      : "Not prepared"
-                    : "From your prepared material"}
+                      ? t("Ready to study")
+                      : t("Not prepared")
+                    : t("From your prepared material")}
                 </span>
               </h1>
             </div>
@@ -648,26 +747,27 @@ export function App() {
                     onClick={() => openPracticeSetup(pageNo)}
                     disabled={!content}
                   >
-                    Practise page
+                    {t("Practise page")}
                   </button>
                   <button
                     className="primary"
                     onClick={() => openPracticeSetup()}
                   >
-                    Practise document
+                    {t("Practise document")}
                   </button>
                 </>
               ) : (
-                <button onClick={back}>← Return to reading</button>
+                <button onClick={back}>{t("← Return to reading")}</button>
               )}
             </div>
           </div>
           {newer && (
             <div className="banner">
-              New learning material is available. Your current session is
-              unchanged.{" "}
+              {t(
+                "New learning material is available. Your current session is unchanged.",
+              )}{" "}
               <button onClick={() => open(newer, true)}>
-                Load updated material
+                {t("Load updated material")}
               </button>
             </div>
           )}
@@ -689,12 +789,12 @@ export function App() {
                       pageNumber: pageNo - 1,
                     })
                   }
-                  aria-label="Previous page"
+                  aria-label={t("Previous page")}
                 >
                   ←
                 </button>
                 <label>
-                  Physical page{" "}
+                  {t("Physical page")}{" "}
                   <select
                     value={pageNo}
                     onChange={(e) =>
@@ -709,7 +809,9 @@ export function App() {
                     {m?.pages.map((p) => (
                       <option key={p.id} value={p.pageNumber}>
                         {p.pageNumber} / {m.source.pageCount}
-                        {p.state === "ready" ? " · Ready" : " · Not prepared"}
+                        {p.state === "ready"
+                          ? t(" · Ready")
+                          : t(" · Not prepared")}
                       </option>
                     ))}
                   </select>
@@ -724,7 +826,7 @@ export function App() {
                       pageNumber: pageNo + 1,
                     })
                   }
-                  aria-label="Next page"
+                  aria-label={t("Next page")}
                 >
                   →
                 </button>
@@ -733,11 +835,11 @@ export function App() {
                 <button
                   type="button"
                   className="region-toggle"
-                  aria-label="Show clickable regions"
+                  aria-label={t("Show clickable regions")}
                   title={
                     showRegions
-                      ? "Hide clickable regions"
-                      : "Show clickable regions"
+                      ? t("Hide clickable regions")
+                      : t("Show clickable regions")
                   }
                   aria-pressed={showRegions}
                   onClick={() => setShowRegions((shown) => !shown)}
@@ -768,7 +870,7 @@ export function App() {
                 ) : null
               }
             >
-              <section className="page-column" aria-label="PDF reader">
+              <section className="page-column" aria-label={t("PDF reader")}>
                 <PdfViewport
                   viewportRef={pageScroll}
                   zoom={zoom}
@@ -797,10 +899,12 @@ export function App() {
                   />
                 ) : (
                   <div className="companion">
-                    <h2>This page is not prepared yet</h2>
+                    <h2>{t("This page is not prepared yet")}</h2>
                     <p>
-                      You can read the original page. Ask the agent to prepare
-                      physical page {pageNo} for explanations and practice.
+                      {t(
+                        "You can read the original page. Ask the agent to prepare physical page {page} for explanations and practice.",
+                        { page: pageNo },
+                      )}
                     </p>
                   </div>
                 )}
@@ -828,8 +932,8 @@ export function App() {
               );
               const scopeLabel =
                 practicePageNo !== undefined
-                  ? `Page ${practicePageNo}`
-                  : "Whole document";
+                  ? t("Page {value0}", { value0: practicePageNo })
+                  : t("Whole document");
 
               const startAdaptiveSession = (
                 mode: PracticeMode,
