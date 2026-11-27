@@ -1,0 +1,39 @@
+{
+  "documentId": "new-hsk-1-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "textSha256": "d69a6408f2cf9fba6795e3e266b757f057bbf60907cd01ffbf1769c924a9c3c8",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Antigravity, comparaison avec la source puis révision linguistique et des questions",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "warning",
+      "region": "sceaux décoratifs et illustration de carnet",
+      "reason": "Les petits sceaux rouges décoratifs et la minuscule étiquette du calendrier sur le carnet sont visibles sur l’original mais absents de la couche de texte intégrée et sont exclus de l’apprentissage et de l’entraînement.",
+      "nextAction": "Optionnel : transcrire avec un outil OCR chinois compatible si ces textes décoratifs sont souhaités."
+    },
+    {
+      "severity": "info",
+      "reason": "L’API au niveau de la phrase et l’API mixte chiffres/sinogrammes (9月8号) sont omises ; l’API révisée est fournie pour les caractères et les mots, et le pinyin ainsi que les traductions en français couvrent toutes les phrases des dialogues.",
+      "nextAction": "N’ajouter l’API au niveau de la phrase ou pour les graphies mixtes qu’après une révision phonétique distincte."
+    }
+  ],
+  "checks": [
+    "Comparaison de toutes les répliques, indications de scène et du titre de la Leçon 5 avec le rendu complet de la page source",
+    "Ponctuation, espacement et texte original préservés à l’identique",
+    "Révision des dates (月/号), de 星期日 vs 星期天, du modal 会 et de l’erhua 面条儿",
+    "Vérification de chaque question : une seule réponse correcte et aucun distracteur synonyme",
+    "Boîtes de caractères issues de MuPDF rawdict, sans division artificielle des boîtes de ligne"
+  ],
+  "coverage": {
+    "embeddedCharacters": 236,
+    "annotatedOccurrences": 185,
+    "entries": 104,
+    "dialogueSentences": 17,
+    "reviewedQuestions": 9,
+    "extractionScope": "Page physique 5 uniquement ; lacunes des sceaux décoratifs et de l’illustration de carnet explicitement consignées",
+    "annotationScope": "Tous les sinogrammes des dialogues principaux, des indications de scène et du titre de leçon ; en-têtes, slogans de pied de page et numéros de piste exclus de l’enseignement"
+  }
+}

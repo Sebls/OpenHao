@@ -1,0 +1,324 @@
+{
+  "documentId": "new-hsk-1-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 没有 dans 我没有哥哥 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Avoir deux"
+        },
+        {
+          "id": "o1",
+          "text": "Ne pas avoir"
+        },
+        {
+          "id": "o2",
+          "text": "Combien"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没有 nie 有 et signifie « ne pas avoir ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0081"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot emploie-t-on pour « deux » devant un classificateur comme 个 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "二"
+        },
+        {
+          "id": "o1",
+          "text": "两"
+        },
+        {
+          "id": "o2",
+          "text": "四"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "On emploie 两 devant les classificateurs (两个孩子), et non 二.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère est le classificateur employé pour les membres de la famille dans 四口人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "个"
+        },
+        {
+          "id": "o1",
+          "text": "口"
+        },
+        {
+          "id": "o2",
+          "text": "岁"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "口 est le classificateur pour compter les personnes d’une famille (四口人).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0101"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans le dialogue 4.3, quel âge a la fille du locuteur B ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cinq ans"
+        },
+        {
+          "id": "o1",
+          "text": "Douze ans"
+        },
+        {
+          "id": "o2",
+          "text": "Vingt ans"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "她今年十二 signifie « Elle a douze ans cette année ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0205"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la question sur l’âge d’un jeune enfant : 您儿子___岁?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "几"
+        },
+        {
+          "id": "o1",
+          "text": "多大"
+        },
+        {
+          "id": "o2",
+          "text": "呢"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "几岁 demande l’âge d’un jeune enfant ; 多大 s’emploie sans 岁.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0176"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Comment met-on 有 (« avoir ») à la forme négative ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "不有"
+        },
+        {
+          "id": "o1",
+          "text": "没有"
+        },
+        {
+          "id": "o2",
+          "text": "没是"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有 se nie toujours avec 没 (没有), jamais avec 不.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0081"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 多少 dans 她有多少个学生 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Quel âge"
+        },
+        {
+          "id": "o1",
+          "text": "Combien"
+        },
+        {
+          "id": "o2",
+          "text": "Cette année"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "多少 demande « combien ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle signification avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Elle a vingt élèves."
+        },
+        {
+          "id": "o1",
+          "text": "J’ai deux enfants."
+        },
+        {
+          "id": "o2",
+          "text": "Il a cinq ans."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "她有二十个学生 signifie « Elle a vingt élèves ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0048"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "她有二十个学生。"
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle signification avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Combien de personnes y a-t-il dans ta famille ?"
+        },
+        {
+          "id": "o1",
+          "text": "Est-ce votre fils ?"
+        },
+        {
+          "id": "o2",
+          "text": "Quel âge a votre fille ?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你家有几口人？ signifie « Combien de personnes y a-t-il dans ta famille ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0091"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "你家有几口人?"
+    }
+  ]
+}

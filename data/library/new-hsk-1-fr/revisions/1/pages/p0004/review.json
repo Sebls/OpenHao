@@ -1,0 +1,39 @@
+{
+  "documentId": "new-hsk-1-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "textSha256": "963796629e06df7d3e643fb55e3cc2a3f6838b277172d0abc4bdc464c5fe45af",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Antigravity, comparaison avec la source puis révision linguistique et des questions",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "warning",
+      "region": "sceaux décoratifs",
+      "reason": "Les petits sceaux rouges décoratifs sont visibles sur l’original mais absents de la couche de texte intégrée et sont exclus de l’apprentissage et de l’entraînement.",
+      "nextAction": "Optionnel : transcrire avec un outil OCR chinois compatible si le texte des sceaux décoratifs est souhaité."
+    },
+    {
+      "severity": "info",
+      "reason": "L’API au niveau de la phrase est omise ; l’API révisée est fournie pour les caractères et les mots, et le pinyin ainsi que les traductions en français couvrent toutes les phrases des dialogues.",
+      "nextAction": "N’ajouter l’API au niveau de la phrase qu’après une révision phonétique distincte."
+    }
+  ],
+  "checks": [
+    "Comparaison de toutes les répliques, indications de scène et du titre de la Leçon 4 avec le rendu complet de la page source",
+    "Ponctuation, espacement et texte original préservés à l’identique",
+    "Révision de 两 vs 二, de la négation 没有, du classificateur 口 et de 几岁 vs 多大",
+    "Vérification de chaque question : une seule réponse correcte et aucun distracteur synonyme",
+    "Boîtes de caractères issues de MuPDF rawdict, sans division artificielle des boîtes de ligne"
+  ],
+  "coverage": {
+    "embeddedCharacters": 298,
+    "annotatedOccurrences": 213,
+    "entries": 110,
+    "dialogueSentences": 16,
+    "reviewedQuestions": 9,
+    "extractionScope": "Page physique 4 uniquement ; lacunes des sceaux décoratifs explicitement consignées",
+    "annotationScope": "Tous les sinogrammes des dialogues principaux, des indications de scène et du titre de leçon ; en-têtes, slogans de pied de page et numéros de piste exclus de l’enseignement"
+  }
+}

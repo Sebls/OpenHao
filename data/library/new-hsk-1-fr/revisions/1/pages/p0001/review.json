@@ -1,0 +1,39 @@
+{
+  "documentId": "new-hsk-1-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "e734e716bac43ead025550268ffa8292c0c0e7d282c4c580a24a2d8ee19765b5",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, comparaison avec la source puis révision linguistique et des questions",
+  "reviewedAt": "2026-11-22",
+  "issues": [
+    {
+      "severity": "warning",
+      "region": "sceaux décoratifs et étiquette d’illustration",
+      "reason": "Les petits sceaux rouges décoratifs et la minuscule étiquette d’illustration sont visibles sur l’original mais absents de la couche de texte intégrée. Leurs glyphes exacts ne peuvent pas être transcrits avec certitude ; ils sont exclus de l’apprentissage et de l’entraînement. L’outil Tesseract local est compilé pour une architecture CPU incompatible et ne peut pas s’exécuter.",
+      "nextAction": "Optionnel : inspecter à plus fort grossissement ou installer un outil OCR chinois fonctionnel pour compléter les textes décoratifs."
+    },
+    {
+      "severity": "info",
+      "reason": "L’API au niveau de la phrase et pour les noms mixtes latins/chinois n’est pas fournie ; l’API révisée est disponible pour les caractères et les mots. Le pinyin et les traductions en français couvrent toutes les phrases des dialogues.",
+      "nextAction": "Utiliser l’API révisée au niveau des mots ; n’ajouter les transcriptions de phrases qu’après révision."
+    }
+  ],
+  "checks": [
+    "Comparaison de toutes les répliques et titres de la Leçon 1 avec le rendu complet de la page source",
+    "Ponctuation et texte original préservés à l’identique",
+    "Révision du 您 de politesse, du pluriel 们, de l’ordre nom/titre, des tons neutres et des sandhis du troisième ton",
+    "Vérification de chaque question : une seule réponse correcte et aucun distracteur synonyme",
+    "Boîtes de caractères issues de MuPDF rawdict, sans division artificielle des boîtes de ligne"
+  ],
+  "coverage": {
+    "embeddedCharacters": 154,
+    "annotatedOccurrences": 77,
+    "entries": 47,
+    "dialogueSentences": 10,
+    "reviewedQuestions": 12,
+    "extractionScope": "Page physique 1 uniquement ; lacunes des textes décoratifs explicitement consignées",
+    "annotationScope": "Tous les sinogrammes des dialogues principaux et du titre de leçon ; en-têtes, slogans de pied de page et petites étiquettes décoratives exclus de l’enseignement"
+  }
+}

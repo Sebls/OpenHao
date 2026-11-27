@@ -1,0 +1,324 @@
+{
+  "documentId": "new-hsk-1-fr",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 泰国人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Français(e)"
+        },
+        {
+          "id": "o1",
+          "text": "Chinois(e)"
+        },
+        {
+          "id": "o2",
+          "text": "Thaïlandais(e)"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "泰国 désigne la Thaïlande et 人 signifie « personne ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0098"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « qui » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "哪"
+        },
+        {
+          "id": "o1",
+          "text": "谁"
+        },
+        {
+          "id": "o2",
+          "text": "这"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "谁 (shéi) signifie « qui » ; 哪 signifie « quel » et 这 signifie « ceci ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0063"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère est le pronom féminin « elle » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "女"
+        },
+        {
+          "id": "o1",
+          "text": "她"
+        },
+        {
+          "id": "o2",
+          "text": "姐"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "她 (tā) signifie « elle » ; 女 signifie « femme / féminin » et 姐 s’emploie dans 姐姐 (« sœur aînée »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0093"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans le dialogue 3.1, quelle est la nationalité du professeur de chinois du locuteur ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Française"
+        },
+        {
+          "id": "o1",
+          "text": "Chinoise"
+        },
+        {
+          "id": "o2",
+          "text": "Thaïlandaise"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我的中文老师也是中国人 signifie « Mon professeur de chinois est aussi chinois ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la question : 你女朋友是___国人？",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "谁"
+        },
+        {
+          "id": "o1",
+          "text": "哪"
+        },
+        {
+          "id": "o2",
+          "text": "吗"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "哪国人 demande « personne de quel pays » (de quelle nationalité).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0076"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quel est le rôle de 吗 à la fin de 你工作还忙吗？ ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Il met la phrase au pluriel"
+        },
+        {
+          "id": "o1",
+          "text": "Il transforme l’affirmation en question fermée (oui/non)"
+        },
+        {
+          "id": "o2",
+          "text": "Il met le verbe à la forme négative"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "吗 est une particule finale qui sert à former une question fermée (oui/non).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0125"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 我不太忙 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Je suis très occupé(e)"
+        },
+        {
+          "id": "o1",
+          "text": "Je ne suis pas très occupé(e)"
+        },
+        {
+          "id": "o2",
+          "text": "Je suis encore occupé(e)"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "不太忙 adoucit la négation pour signifier « pas très occupé(e) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0147"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle signification avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Qui est-ce ?"
+        },
+        {
+          "id": "o1",
+          "text": "C’est ma petite amie."
+        },
+        {
+          "id": "o2",
+          "text": "Je suis français(e)."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "这是谁？ signifie « Qui est-ce ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0058"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "这是谁？"
+    },
+    {
+      "id": "q-p0003-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle signification avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Tu nous manques beaucoup."
+        },
+        {
+          "id": "o1",
+          "text": "Es-tu encore occupé(e) ?"
+        },
+        {
+          "id": "o2",
+          "text": "À l’école."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我们很想你 signifie « Tu nous manques beaucoup ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0156"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我们很想你。"
+    }
+  ]
+}

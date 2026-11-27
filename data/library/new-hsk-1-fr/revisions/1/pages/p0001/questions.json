@@ -1,0 +1,429 @@
+{
+  "documentId": "new-hsk-1-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 你好 dans cette leçon ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bonjour"
+        },
+        {
+          "id": "o1",
+          "text": "Merci"
+        },
+        {
+          "id": "o2",
+          "text": "Au revoir"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你好 est la salutation « bonjour » adressée à une personne.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle expression signifie « merci » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "再见"
+        },
+        {
+          "id": "o1",
+          "text": "谢谢"
+        },
+        {
+          "id": "o2",
+          "text": "您好"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "谢谢 sert à remercier.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère écrit représente le « vous » de politesse au singulier ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你"
+        },
+        {
+          "id": "o1",
+          "text": "们"
+        },
+        {
+          "id": "o2",
+          "text": "您"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "您 est le « vous » respectueux au singulier ; 你 est la forme ordinaire.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0037"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qu’exprime 老师，您好！ ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Une salutation respectueuse adressée au professeur"
+        },
+        {
+          "id": "o1",
+          "text": "Un au revoir adressé aux élèves"
+        },
+        {
+          "id": "o2",
+          "text": "Des remerciements à un camarade de classe"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Le locuteur salue le professeur avec respect en utilisant 您.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la formule d’au revoir aux élèves : 同学们，___！",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "再见"
+        },
+        {
+          "id": "o1",
+          "text": "谢谢"
+        },
+        {
+          "id": "o2",
+          "text": "您好"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "再见 signifie « au revoir » ; les autres choix expriment un remerciement ou une salutation polie au singulier.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0070"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Qu’apporte 们 dans 你们 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Le respect envers une seule personne"
+        },
+        {
+          "id": "o1",
+          "text": "Plusieurs personnes (le pluriel)"
+        },
+        {
+          "id": "o2",
+          "text": "Une question"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "们 transforme 你 (« tu » singulier) en 你们 (« vous » pluriel).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0044"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 不客气 en réponse à un remerciement ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bonjour (le matin)"
+        },
+        {
+          "id": "o1",
+          "text": "De rien"
+        },
+        {
+          "id": "o2",
+          "text": "À bientôt"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "不客气 est la réponse polie à 谢谢.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-008",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "À qui s’adresse 王老师 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Au professeur Wang"
+        },
+        {
+          "id": "o1",
+          "text": "À l’élève Wang"
+        },
+        {
+          "id": "o2",
+          "text": "À tout le monde"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "王 est le nom de famille Wang ; 老师 signifie « professeur ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-009",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez « au revoir ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "大家"
+        },
+        {
+          "id": "o1",
+          "text": "再见"
+        },
+        {
+          "id": "o2",
+          "text": "谢谢"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "再见 est la formule pour prendre congé.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-010",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans 你们好！, combien de personnes salue-t-on ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Une seule personne avec respect"
+        },
+        {
+          "id": "o1",
+          "text": "Plusieurs personnes"
+        },
+        {
+          "id": "o2",
+          "text": "Personne"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "你们 est le pronom « vous » au pluriel.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0045"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-011",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle signification avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Merci"
+        },
+        {
+          "id": "o1",
+          "text": "Bonjour"
+        },
+        {
+          "id": "o2",
+          "text": "Au revoir"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "La salutation prononcée est 你好, « bonjour ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0011"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你好",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-012",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle signification avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Professeur"
+        },
+        {
+          "id": "o1",
+          "text": "De rien"
+        },
+        {
+          "id": "o2",
+          "text": "Au revoir"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "再见 signifie « au revoir ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-0069"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "再见",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}

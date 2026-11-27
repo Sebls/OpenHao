@@ -1,0 +1,324 @@
+{
+  "documentId": "new-hsk-1-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 休息 dans 我今天休息 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cuisiner"
+        },
+        {
+          "id": "o1",
+          "text": "Se reposer / être en congé"
+        },
+        {
+          "id": "o2",
+          "text": "Quitter le travail"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "休息 signifie se reposer ou prendre un jour de congé.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « ordinateur » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "电脑"
+        },
+        {
+          "id": "o1",
+          "text": "饺子"
+        },
+        {
+          "id": "o2",
+          "text": "星期"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "电脑 (littéralement « cerveau électrique ») signifie « ordinateur ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0148"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère est le pronom de la 3e personne pour un objet (« il / elle / le ») ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "她"
+        },
+        {
+          "id": "o1",
+          "text": "它"
+        },
+        {
+          "id": "o2",
+          "text": "他"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "它 (tā) désigne un objet ou un animal ; 他 désigne « il » (homme) et 她 « elle » (femme).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0185"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans le dialogue 5.1, quel jour de la semaine est le 8 septembre ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lundi"
+        },
+        {
+          "id": "o1",
+          "text": "Samedi"
+        },
+        {
+          "id": "o2",
+          "text": "Dimanche"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Le locuteur B répond 星期日 (« dimanche »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la question portant sur une compétence apprise : 你___做饭吗?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "会"
+        },
+        {
+          "id": "o1",
+          "text": "很"
+        },
+        {
+          "id": "o2",
+          "text": "真"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "会 exprime le fait de savoir faire une activité apprise comme cuisiner.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans 9月8号, quel ordre le chinois utilise-t-il pour les dates ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Le jour avant le mois"
+        },
+        {
+          "id": "o1",
+          "text": "Le mois avant le jour"
+        },
+        {
+          "id": "o2",
+          "text": "Les deux ordres sont possibles"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Le chinois place l’unité la plus grande en premier : 月 (mois) avant 号 (jour).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0029"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 真好看 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Vraiment joli"
+        },
+        {
+          "id": "o1",
+          "text": "Quitter le travail"
+        },
+        {
+          "id": "o2",
+          "text": "Quelques plats"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "真好看 signifie « vraiment joli / beau ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0168"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0005-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle signification avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Quel jour sommes-nous aujourd’hui ?"
+        },
+        {
+          "id": "o1",
+          "text": "Sais-tu faire la cuisine ?"
+        },
+        {
+          "id": "o2",
+          "text": "C’est ton nouvel ordinateur ?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "今天几号? signifie « Quel jour sommes-nous aujourd’hui ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0017"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "今天几号?"
+    },
+    {
+      "id": "q-p0005-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle signification avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Moi aussi, je l’aime beaucoup."
+        },
+        {
+          "id": "o1",
+          "text": "Je me repose aujourd’hui."
+        },
+        {
+          "id": "o2",
+          "text": "Le dimanche aussi, je fais la cuisine."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我也很喜欢它 signifie « Moi aussi, je l’aime beaucoup ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0174"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我也很喜欢它。"
+    }
+  ]
+}

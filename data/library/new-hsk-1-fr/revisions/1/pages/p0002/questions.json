@@ -1,0 +1,324 @@
+{
+  "documentId": "new-hsk-1-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 请问 au début d’une question ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Excusez-moi / puis-je demander"
+        },
+        {
+          "id": "o1",
+          "text": "Je suis désolé(e)"
+        },
+        {
+          "id": "o2",
+          "text": "Ravi(e) de vous rencontrer"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "请问 est une formule d’ouverture polie qui signifie « excusez-moi » ou « puis-je vous demander ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle expression signifie « Ce n’est rien / pas de problème » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "对不起"
+        },
+        {
+          "id": "o1",
+          "text": "没关系"
+        },
+        {
+          "id": "o2",
+          "text": "请问"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没关系 est la réponse polie habituelle à 对不起 (« pardon / désolé »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « s’appeler » dans 我叫李文 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "是"
+        },
+        {
+          "id": "o1",
+          "text": "叫"
+        },
+        {
+          "id": "o2",
+          "text": "问"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "叫 (jiào) signifie « s’appeler » ; 是 signifie « être » et 问 signifie « demander ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans le dialogue 2.2, qui est réellement le locuteur B ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Annie (安妮)"
+        },
+        {
+          "id": "o1",
+          "text": "Bai Jiayue (白家月)"
+        },
+        {
+          "id": "o2",
+          "text": "Li Wen (李文)"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Le locuteur B dit 我不是安妮,我是白家月 (« Je ne suis pas Annie, je suis Bai Jiayue »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la réponse aux excuses : A：对不起! B：___！",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "没关系"
+        },
+        {
+          "id": "o1",
+          "text": "请问"
+        },
+        {
+          "id": "o2",
+          "text": "很高兴"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "没关系 (« ce n’est rien ») est la réponse naturelle à 对不起.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0073"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Où se place 也 (« aussi ») dans 我也很高兴 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Après 高兴"
+        },
+        {
+          "id": "o1",
+          "text": "Avant 很高兴"
+        },
+        {
+          "id": "o2",
+          "text": "Tout à la fin de la phrase"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "也 précède le prédicat : il se place juste après le sujet 我 et avant 很高兴.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0112"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 认识 dans 很高兴认识你 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Demander"
+        },
+        {
+          "id": "o1",
+          "text": "Rencontrer / connaître (quelqu’un)"
+        },
+        {
+          "id": "o2",
+          "text": "S’appeler"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "认识 signifie faire la connaissance de ou connaître une personne.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0107"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle signification avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Je suis désolé(e)"
+        },
+        {
+          "id": "o1",
+          "text": "Excusez-moi"
+        },
+        {
+          "id": "o2",
+          "text": "Ce n’est rien"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "对不起 signifie « je suis désolé(e) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0069"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "对不起"
+    },
+    {
+      "id": "q-p0002-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle signification avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Comment vous appelez-vous ?"
+        },
+        {
+          "id": "o1",
+          "text": "Ravi(e) de faire votre connaissance"
+        },
+        {
+          "id": "o2",
+          "text": "Ce n’est rien"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "很高兴认识你 signifie « Ravi(e) de faire votre connaissance ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0101"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "很高兴认识你"
+    }
+  ]
+}
