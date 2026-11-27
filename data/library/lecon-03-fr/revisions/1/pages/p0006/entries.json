@@ -1,0 +1,5520 @@
+{
+  "documentId": "lecon-03-fr",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "entries": [
+    {
+      "id": "e-p0006-0001",
+      "kind": "word",
+      "form": "大夫",
+      "language": "zh-CN",
+      "meaning": "docteur ; médecin",
+      "explanation": "Lecture particulière dài pour 大 ; la deuxième syllabe fu est neutre. Le nom de famille précède le titre, comme dans 孙大夫, « Dr Sun ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dàifu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[taɪ⁵¹ fu]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "大夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0009",
+        "e-p0006-0010"
+      ]
+    },
+    {
+      "id": "e-p0006-0002",
+      "kind": "word",
+      "form": "再见",
+      "language": "zh-CN",
+      "meaning": "au revoir",
+      "explanation": "Littéralement « encore + voir » : au revoir.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zàijiàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsaɪ⁵¹ tɕjɛn⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "再见",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0011",
+        "e-p0006-0012"
+      ]
+    },
+    {
+      "id": "e-p0006-0003",
+      "kind": "word",
+      "form": "孙大夫",
+      "language": "zh-CN",
+      "meaning": "Dr Sun",
+      "explanation": "Le nom de famille Sun précède le titre « docteur ». 大夫 se lit dàifu avec fu neutre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Sūn dàifu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "孙大夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0008",
+        "e-p0006-0009",
+        "e-p0006-0010"
+      ]
+    },
+    {
+      "id": "e-p0006-0004",
+      "kind": "sentence",
+      "form": "孙大夫再见！",
+      "language": "zh-CN",
+      "meaning": "Au revoir, Dr Sun !",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Sūn dàifu zàijiàn!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "孙大夫再见！",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0008",
+        "e-p0006-0009",
+        "e-p0006-0010",
+        "e-p0006-0011",
+        "e-p0006-0012"
+      ]
+    },
+    {
+      "id": "e-p0006-0005",
+      "kind": "sentence",
+      "form": "再见！",
+      "language": "zh-CN",
+      "meaning": "Au revoir !",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zàijiàn!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "再见！",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0011",
+        "e-p0006-0012"
+      ]
+    },
+    {
+      "id": "e-p0006-0006",
+      "kind": "character",
+      "form": "李",
+      "language": "zh-CN",
+      "meaning": "Li (nom de famille)",
+      "explanation": "La source mentionne aussi 李子 lǐzi (prune) ; le caractère a des sens lexicaux en dehors des noms propres.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Lǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[li²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "李",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0007",
+      "kind": "character",
+      "form": "玛",
+      "language": "zh-CN",
+      "meaning": "élément de 玛瑙 (agate) ; caractère utilisé dans les noms",
+      "explanation": "Dans 玛丽, il transcrit le prénom Marie. Ne pas traduire son prénom par « agate ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "玛",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0008",
+      "kind": "character",
+      "form": "孙",
+      "language": "zh-CN",
+      "meaning": "Sun (nom de famille)",
+      "explanation": "Nom de famille dans 孙大夫, « Dr Sun ». Il ne se traduit pas littéralement dans le nom.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Sūn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "孙",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0009",
+      "kind": "character",
+      "form": "大",
+      "language": "zh-CN",
+      "meaning": "docteur (première syllabe de 大夫)",
+      "explanation": "Lecture particulière dài dans 大夫 dàifu, « docteur », à la différence de dà (« grand »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[taɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "大",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0010",
+      "kind": "character",
+      "form": "夫",
+      "language": "zh-CN",
+      "meaning": "docteur (deuxième syllabe de 大夫)",
+      "explanation": "Syllabe neutre fu dans le mot complet 大夫 dàifu, « docteur ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fu]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0011",
+      "kind": "character",
+      "form": "再",
+      "language": "zh-CN",
+      "meaning": "de nouveau ; encore",
+      "explanation": "再见 zàijiàn signifie « au revoir », littéralement « se revoir ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsaɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "再",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0012",
+      "kind": "character",
+      "form": "见",
+      "language": "zh-CN",
+      "meaning": "voir ; rencontrer",
+      "explanation": "Fait partie de 遇见 et 再见. Forme traditionnelle : 見.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕjɛn⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "见",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0013",
+      "kind": "word",
+      "form": "李玉",
+      "language": "zh-CN",
+      "meaning": "Li Yu (nom de personne)",
+      "explanation": "Li est le nom de famille, Yu le prénom ; conserver le nom plutôt que de le traduire par « prune-jade ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Lǐ Yù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "李玉",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0006",
+        "e-p0006-0017"
+      ]
+    },
+    {
+      "id": "e-p0006-0014",
+      "kind": "word",
+      "form": "山本",
+      "language": "zh-CN",
+      "meaning": "Yamamoto (nom de famille japonais)",
+      "explanation": "La lecture chinoise imprimée est Shānběn. Le nom de famille japonais est Yamamoto ; le conserver comme nom propre plutôt que de traduire « montagne-racine ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Shānběn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "山本",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0019",
+        "e-p0006-0020"
+      ]
+    },
+    {
+      "id": "e-p0006-0015",
+      "kind": "word",
+      "form": "玛丽",
+      "language": "zh-CN",
+      "meaning": "Marie (prénom)",
+      "explanation": "Transcription phonétique d'un prénom ; ne pas traduire littéralement par « agate-beauté ». Les deux caractères gardent leur ton lexical écrit.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Mǎlì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "玛丽",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0007",
+        "e-p0006-0016"
+      ]
+    },
+    {
+      "id": "e-p0006-0016",
+      "kind": "character",
+      "form": "丽",
+      "language": "zh-CN",
+      "meaning": "beau ; élément de noms propres",
+      "explanation": "Quatrième ton plein lì, y compris dans 玛丽 Mǎlì. 玛丽 est un prénom.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "丽",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0017",
+      "kind": "character",
+      "form": "玉",
+      "language": "zh-CN",
+      "meaning": "jade ; Yu (dans les prénoms)",
+      "explanation": "Dans 李玉, c'est le prénom Yu. Dans le dialogue sur le choix du nom, 玉 désigne aussi la pierre précieuse jade.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[y⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "玉",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0018",
+      "kind": "character",
+      "form": "和",
+      "language": "zh-CN",
+      "meaning": "et ; avec",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hé",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "和",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0019",
+      "kind": "character",
+      "form": "山",
+      "language": "zh-CN",
+      "meaning": "montagne",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂan⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "山",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0020",
+      "kind": "character",
+      "form": "本",
+      "language": "zh-CN",
+      "meaning": "racine ; spécificatif des livres",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "běn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pən²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "本",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0021",
+      "kind": "word",
+      "form": "什么",
+      "language": "zh-CN",
+      "meaning": "quoi ; quel(le)",
+      "explanation": "Syllabe neutre me. Placer ce mot là où irait l'information inconnue.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shénme",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂən³⁵ mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "什么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0027",
+        "e-p0006-0028"
+      ]
+    },
+    {
+      "id": "e-p0006-0022",
+      "kind": "word",
+      "form": "地方",
+      "language": "zh-CN",
+      "meaning": "lieu ; endroit",
+      "explanation": "La deuxième syllabe fang est neutre dans ce sens.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dìfang",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "地方",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0029",
+        "e-p0006-0030"
+      ]
+    },
+    {
+      "id": "e-p0006-0023",
+      "kind": "sentence",
+      "form": "山本，你想去什么地方？",
+      "language": "zh-CN",
+      "meaning": "Yamamoto, où aimerais-tu aller ?",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Shānběn, nǐ xiǎng qù shénme dìfang?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "山本，你想去什么地方？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0019",
+        "e-p0006-0020",
+        "e-p0006-0024",
+        "e-p0006-0025",
+        "e-p0006-0026",
+        "e-p0006-0027",
+        "e-p0006-0028",
+        "e-p0006-0029",
+        "e-p0006-0030"
+      ]
+    },
+    {
+      "id": "e-p0006-0024",
+      "kind": "character",
+      "form": "你",
+      "language": "zh-CN",
+      "meaning": "tu ; toi",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ni²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "你",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0025",
+      "kind": "character",
+      "form": "想",
+      "language": "zh-CN",
+      "meaning": "penser ; vouloir ; aimer",
+      "explanation": "Devant un verbe, 想 exprime le souhait de faire l'action. 很想 signifie « avoir vraiment envie de ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "想",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0026",
+      "kind": "character",
+      "form": "去",
+      "language": "zh-CN",
+      "meaning": "aller",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "qù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕʰy⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "去",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0027",
+      "kind": "character",
+      "form": "什",
+      "language": "zh-CN",
+      "meaning": "quoi (dans 什么)",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "什",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0028",
+      "kind": "character",
+      "form": "么",
+      "language": "zh-CN",
+      "meaning": "suffixe dans 什么 (quoi)",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "me",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0029",
+      "kind": "character",
+      "form": "地",
+      "language": "zh-CN",
+      "meaning": "sol ; lieu",
+      "explanation": "Lire dì dans 地方 dìfang. La particule grammaticale 地 a une lecture différente : de.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "地",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0030",
+      "kind": "character",
+      "form": "方",
+      "language": "zh-CN",
+      "meaning": "fang neutre dans ce mot",
+      "explanation": "Cette occurrence est une syllabe neutre. Sélectionner le mot entier pour son sens et sa prononciation complète.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fang",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "方",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0031",
+      "kind": "word",
+      "form": "西安",
+      "language": "zh-CN",
+      "meaning": "Xi'an",
+      "explanation": "Nom d'une ville chinoise ; l'apostrophe sépare xī et ān.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Xī'ān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "西安",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0036",
+        "e-p0006-0037"
+      ]
+    },
+    {
+      "id": "e-p0006-0032",
+      "kind": "word",
+      "form": "云南",
+      "language": "zh-CN",
+      "meaning": "Yunnan",
+      "explanation": "Nom d'une province chinoise.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Yúnnán",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "云南",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0038",
+        "e-p0006-0039"
+      ]
+    },
+    {
+      "id": "e-p0006-0033",
+      "kind": "word",
+      "form": "广西",
+      "language": "zh-CN",
+      "meaning": "Guangxi",
+      "explanation": "Nom d'une région chinoise, et non une traduction littérale « large-ouest ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Guǎngxī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "广西",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0040",
+        "e-p0006-0036"
+      ]
+    },
+    {
+      "id": "e-p0006-0034",
+      "kind": "word",
+      "form": "四川",
+      "language": "zh-CN",
+      "meaning": "Sichuan",
+      "explanation": "Nom d'une province chinoise.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Sìchuān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "四川",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0041",
+        "e-p0006-0042"
+      ]
+    },
+    {
+      "id": "e-p0006-0035",
+      "kind": "character",
+      "form": "我",
+      "language": "zh-CN",
+      "meaning": "je ; moi",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wo²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "我",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0036",
+      "kind": "character",
+      "form": "西",
+      "language": "zh-CN",
+      "meaning": "ouest",
+      "explanation": "Fait partie du nom de ville 西安 (Xi'an) et de la région 广西 (Guangxi).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "西",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0037",
+      "kind": "character",
+      "form": "安",
+      "language": "zh-CN",
+      "meaning": "paix ; paisible",
+      "explanation": "Fait partie de 西安 et de prénoms phonétiques ; les noms gardent leur valeur de nom propre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "安",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0038",
+      "kind": "character",
+      "form": "云",
+      "language": "zh-CN",
+      "meaning": "nuage",
+      "explanation": "Fait partie du nom de province 云南 (Yunnan).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yún",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "云",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0039",
+      "kind": "character",
+      "form": "南",
+      "language": "zh-CN",
+      "meaning": "sud",
+      "explanation": "Fait partie de 云南 (Yunnan).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nán",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "南",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0040",
+      "kind": "character",
+      "form": "广",
+      "language": "zh-CN",
+      "meaning": "large ; vaste",
+      "explanation": "Fait partie de 广西 (Guangxi).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "广",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0041",
+      "kind": "character",
+      "form": "四",
+      "language": "zh-CN",
+      "meaning": "quatre",
+      "explanation": "Fait partie de 四川 (Sichuan).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "sì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[sz̩⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "四",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0042",
+      "kind": "character",
+      "form": "川",
+      "language": "zh-CN",
+      "meaning": "rivière ; fleuve",
+      "explanation": "Fait partie de 四川 (Sichuan).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chuān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "川",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0043",
+      "kind": "word",
+      "form": "哪儿",
+      "language": "zh-CN",
+      "meaning": "où",
+      "explanation": "La finale rhotique r fusionne avec nǎ ; ce n'est pas une syllabe ér distincte.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǎr",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "哪儿",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0045"
+      ]
+    },
+    {
+      "id": "e-p0006-0044",
+      "kind": "sentence",
+      "form": "你想去哪儿？",
+      "language": "zh-CN",
+      "meaning": "Où aimerais-tu aller ?",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ xiǎng qù nǎr?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你想去哪儿？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0024",
+        "e-p0006-0025",
+        "e-p0006-0026",
+        "e-p0006-0045"
+      ]
+    },
+    {
+      "id": "e-p0006-0045",
+      "kind": "character",
+      "form": "哪",
+      "language": "zh-CN",
+      "meaning": "quel ; lequel",
+      "explanation": "哪儿 nǎr et 哪里 nǎli signifient « où ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[na²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "哪",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0046",
+      "kind": "word",
+      "form": "杭州",
+      "language": "zh-CN",
+      "meaning": "Hangzhou",
+      "explanation": "Nom d'une ville chinoise.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Hángzhōu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "杭州",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0048",
+        "e-p0006-0049"
+      ]
+    },
+    {
+      "id": "e-p0006-0047",
+      "kind": "sentence",
+      "form": "想去杭州，想去",
+      "language": "zh-CN",
+      "meaning": "J'aimerais aller à Hangzhou ; j'aimerais aller… (La phrase reste en suspens dans la source.)",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Xiǎng qù Hángzhōu, xiǎng qù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "想去杭州，想去",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0025",
+        "e-p0006-0026",
+        "e-p0006-0048",
+        "e-p0006-0049",
+        "e-p0006-0025",
+        "e-p0006-0026"
+      ]
+    },
+    {
+      "id": "e-p0006-0048",
+      "kind": "character",
+      "form": "杭",
+      "language": "zh-CN",
+      "meaning": "Hang (dans le nom de lieu Hangzhou)",
+      "explanation": "杭州 Hángzhōu est un nom de ville.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "háng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "杭",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0049",
+      "kind": "character",
+      "form": "州",
+      "language": "zh-CN",
+      "meaning": "préfecture ; région",
+      "explanation": "Fait partie de 杭州 (Hangzhou).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhōu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "州",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0050",
+      "kind": "word",
+      "form": "中国",
+      "language": "zh-CN",
+      "meaning": "Chine",
+      "explanation": "Le nom du pays.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngguó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʊŋ⁵⁵ kwo³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "中国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0053",
+        "e-p0006-0054"
+      ]
+    },
+    {
+      "id": "e-p0006-0051",
+      "kind": "word",
+      "form": "日本",
+      "language": "zh-CN",
+      "meaning": "Japon",
+      "explanation": "Nom de pays ; conserver le nom plutôt que de traduire les caractères littéralement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Rìběn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʐɻ̩⁵¹ pən²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "日本",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0060",
+        "e-p0006-0020"
+      ]
+    },
+    {
+      "id": "e-p0006-0052",
+      "kind": "sentence",
+      "form": "中国很大，有很多好地方。日本很小，对吗？",
+      "language": "zh-CN",
+      "meaning": "La Chine est très grande et compte beaucoup de beaux endroits. Le Japon est petit, n'est-ce pas ? (Comparaison du dialogue.)",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngguó hěn dà, yǒu hěn duō hǎo dìfang. Rìběn hěn xiǎo, duì ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中国很大，有很多好地方。日本很小，对吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0053",
+        "e-p0006-0054",
+        "e-p0006-0055",
+        "e-p0006-0056",
+        "e-p0006-0057",
+        "e-p0006-0055",
+        "e-p0006-0058",
+        "e-p0006-0059",
+        "e-p0006-0029",
+        "e-p0006-0030",
+        "e-p0006-0060",
+        "e-p0006-0020",
+        "e-p0006-0055",
+        "e-p0006-0061",
+        "e-p0006-0062",
+        "e-p0006-0063"
+      ]
+    },
+    {
+      "id": "e-p0006-0053",
+      "kind": "character",
+      "form": "中",
+      "language": "zh-CN",
+      "meaning": "milieu ; centre",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʊŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "中",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0054",
+      "kind": "character",
+      "form": "国",
+      "language": "zh-CN",
+      "meaning": "pays ; nation",
+      "explanation": "Apparaît dans 中国 (Chine). Forme traditionnelle : 國.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kwo³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0055",
+      "kind": "character",
+      "form": "很",
+      "language": "zh-CN",
+      "meaning": "très ; tout à fait",
+      "explanation": "Devant un adjectif descriptif, il permet de former une phrase naturelle sans sens fort de « très ». 很想 signifie « avoir vraiment envie de ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hěn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xən²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "很",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0056",
+      "kind": "character",
+      "form": "大",
+      "language": "zh-CN",
+      "meaning": "grand",
+      "explanation": "Lire dà pour « grand ». Dans 大夫 (docteur), il a la lecture particulière dài.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ta⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "大",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0057",
+      "kind": "character",
+      "form": "有",
+      "language": "zh-CN",
+      "meaning": "avoir ; il y a",
+      "explanation": "Nier 有 avec 没有 méiyǒu, et non 不有. 很多 signifie « beaucoup ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[joʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "有",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0058",
+      "kind": "character",
+      "form": "多",
+      "language": "zh-CN",
+      "meaning": "beaucoup ; nombreux",
+      "explanation": "很多 signifie « beaucoup ». Après un nom, …很多 signifie qu'il y en a beaucoup.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "duō",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[twɔ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "多",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0059",
+      "kind": "character",
+      "form": "好",
+      "language": "zh-CN",
+      "meaning": "bon ; bien",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "好",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0060",
+      "kind": "character",
+      "form": "日",
+      "language": "zh-CN",
+      "meaning": "soleil ; jour",
+      "explanation": "Caractère complet de la source ; les étapes de tracé incomplètes sont exclues.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "rì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʐɻ̩⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "日",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0061",
+      "kind": "character",
+      "form": "小",
+      "language": "zh-CN",
+      "meaning": "petit",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "小",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0062",
+      "kind": "character",
+      "form": "对",
+      "language": "zh-CN",
+      "meaning": "exact ; juste",
+      "explanation": "对吗？ demande « est-ce exact ? ». 不对 signifie « inexact » ; 不 devient bú devant le quatrième ton duì.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "duì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "对",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0063",
+      "kind": "character",
+      "form": "吗",
+      "language": "zh-CN",
+      "meaning": "particule d'interrogation fermée (oui/non)",
+      "explanation": "Ton neutre. Ajouter 吗 à une phrase affirmative pour poser une question fermée (oui/non).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "吗",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0064",
+      "kind": "sentence",
+      "form": "日本不很大。",
+      "language": "zh-CN",
+      "meaning": "Le Japon n'est pas très grand.",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Rìběn bù hěn dà.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "日本不很大。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0060",
+        "e-p0006-0020",
+        "e-p0006-0065",
+        "e-p0006-0055",
+        "e-p0006-0056"
+      ]
+    },
+    {
+      "id": "e-p0006-0065",
+      "kind": "character",
+      "form": "不",
+      "language": "zh-CN",
+      "meaning": "ne… pas",
+      "explanation": "Le ton lexical est le quatrième ; devant un autre quatrième ton, il devient bú. Dans 不吃, il reste bù.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "不",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0066",
+      "kind": "word",
+      "form": "法国",
+      "language": "zh-CN",
+      "meaning": "France",
+      "explanation": "Nom de pays. Le troisième ton sur Fǎ précède le deuxième ton sur guó.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Fǎguó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "法国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0068",
+        "e-p0006-0054"
+      ]
+    },
+    {
+      "id": "e-p0006-0067",
+      "kind": "sentence",
+      "form": "中国大，日本小，法国不大也不小。",
+      "language": "zh-CN",
+      "meaning": "La Chine est grande, le Japon est petit, et la France n'est ni grande ni petite. (Comparaison du dialogue.)",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngguó dà, Rìběn xiǎo, Fǎguó bú dà yě bù xiǎo.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中国大，日本小，法国不大也不小。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0053",
+        "e-p0006-0054",
+        "e-p0006-0056",
+        "e-p0006-0060",
+        "e-p0006-0020",
+        "e-p0006-0061",
+        "e-p0006-0068",
+        "e-p0006-0054",
+        "e-p0006-0069",
+        "e-p0006-0056",
+        "e-p0006-0070",
+        "e-p0006-0065",
+        "e-p0006-0061"
+      ]
+    },
+    {
+      "id": "e-p0006-0068",
+      "kind": "character",
+      "form": "法",
+      "language": "zh-CN",
+      "meaning": "loi ; méthode",
+      "explanation": "Dans 法国 et 法文, 法 représente la France ou le français ; ne pas traduire le nom du pays par « pays de la loi ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fa²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "法",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0069",
+      "kind": "character",
+      "form": "不",
+      "language": "zh-CN",
+      "meaning": "ne… pas",
+      "explanation": "Devant le quatrième ton suivant, 不 se prononce bú plutôt que bù.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bú",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "不",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0070",
+      "kind": "character",
+      "form": "也",
+      "language": "zh-CN",
+      "meaning": "aussi ; également",
+      "explanation": "Placé normalement avant le verbe, après le sujet : 我也… signifie « moi aussi… ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[jɛ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "也",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0071",
+      "kind": "word",
+      "form": "可是",
+      "language": "zh-CN",
+      "meaning": "mais ; cependant",
+      "explanation": "Relie deux énoncés opposés.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kěshì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "可是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0073",
+        "e-p0006-0074"
+      ]
+    },
+    {
+      "id": "e-p0006-0072",
+      "kind": "word",
+      "form": "很想",
+      "language": "zh-CN",
+      "meaning": "avoir vraiment envie de",
+      "explanation": "Adverbe de degré 很 + verbe mental 想.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hěn xiǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xən³⁵ ɕjɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "很想",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0055",
+        "e-p0006-0025"
+      ]
+    },
+    {
+      "id": "e-p0006-0073",
+      "kind": "character",
+      "form": "可",
+      "language": "zh-CN",
+      "meaning": "pouvoir ; élément de 可是 (mais)",
+      "explanation": "Apprendre 可是 comme conjonction complète « mais ». La glose astérisquée de la source renvoie à cet emploi composé.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʰɤ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "可",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0074",
+      "kind": "character",
+      "form": "是",
+      "language": "zh-CN",
+      "meaning": "être",
+      "explanation": "Relie un sujet à une identité. 可是 est un mot complet distinct signifiant « mais ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɻ̩⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0075",
+      "kind": "word",
+      "form": "巴黎",
+      "language": "zh-CN",
+      "meaning": "Paris",
+      "explanation": "Nom chinois établi de la ville française.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Bālí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "巴黎",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0076",
+        "e-p0006-0077"
+      ]
+    },
+    {
+      "id": "e-p0006-0076",
+      "kind": "character",
+      "form": "巴",
+      "language": "zh-CN",
+      "meaning": "Ba (caractère utilisé dans les noms) ; s'accrocher",
+      "explanation": "Dans 巴黎 (Paris), il transcrit un nom étranger.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "巴",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0077",
+      "kind": "character",
+      "form": "黎",
+      "language": "zh-CN",
+      "meaning": "multitude ; sombre (caractère lexical)",
+      "explanation": "Dans 巴黎, il transcrit une partie de Paris, et non une description littérale de la ville.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "黎",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0078",
+      "kind": "word",
+      "form": "相片",
+      "language": "zh-CN",
+      "meaning": "photographie",
+      "explanation": "Lire xiàng, au quatrième ton, dans ce mot ; 片 est également au quatrième ton.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiàngpiàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "相片",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0086",
+        "e-p0006-0087"
+      ]
+    },
+    {
+      "id": "e-p0006-0079",
+      "kind": "word",
+      "form": "相片儿",
+      "language": "zh-CN",
+      "meaning": "photographie (forme rhotique du Nord)",
+      "explanation": "儿 est une finale rhotique, et non une syllabe distincte. Le mot courant sans rhotacisation est 相片 xiàngpiàn.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiàngpiānr",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑŋ⁵¹ pʰjɑɻ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "相片儿",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0086",
+        "e-p0006-0087"
+      ]
+    },
+    {
+      "id": "e-p0006-0080",
+      "kind": "word",
+      "form": "王大夫",
+      "language": "zh-CN",
+      "meaning": "Dr Wang",
+      "explanation": "Wang est le nom de famille ; le nom précède le titre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wáng dàifu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "王大夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0084",
+        "e-p0006-0009",
+        "e-p0006-0010"
+      ]
+    },
+    {
+      "id": "e-p0006-0081",
+      "kind": "sentence",
+      "form": "这是王大夫的相片儿。",
+      "language": "zh-CN",
+      "meaning": "C'est la photo du Dr Wang.",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhè shì Wáng dàifu de xiàngpiānr.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "这是王大夫的相片儿。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0083",
+        "e-p0006-0074",
+        "e-p0006-0084",
+        "e-p0006-0009",
+        "e-p0006-0010",
+        "e-p0006-0085",
+        "e-p0006-0086",
+        "e-p0006-0087"
+      ]
+    },
+    {
+      "id": "e-p0006-0082",
+      "kind": "sentence",
+      "form": "我很想去看他，可是我太忙。",
+      "language": "zh-CN",
+      "meaning": "J'ai vraiment envie d'aller le voir, mais je suis trop occupé(e).",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ hěn xiǎng qù kàn tā, kěshì wǒ tài máng.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我很想去看他，可是我太忙。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0035",
+        "e-p0006-0055",
+        "e-p0006-0025",
+        "e-p0006-0026",
+        "e-p0006-0088",
+        "e-p0006-0089",
+        "e-p0006-0073",
+        "e-p0006-0074",
+        "e-p0006-0035",
+        "e-p0006-0090",
+        "e-p0006-0091"
+      ]
+    },
+    {
+      "id": "e-p0006-0083",
+      "kind": "character",
+      "form": "这",
+      "language": "zh-CN",
+      "meaning": "ceci ; ce",
+      "explanation": "Désigne quelque chose de proche. La forme écrite traditionnelle est 這.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "这",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0084",
+      "kind": "character",
+      "form": "王",
+      "language": "zh-CN",
+      "meaning": "roi ; Wang (nom de famille)",
+      "explanation": "Dans 王文友, 王大夫 et 老王, c'est le nom de famille Wang, et non un « roi » littéral.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wáng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "王",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0085",
+      "kind": "character",
+      "form": "的",
+      "language": "zh-CN",
+      "meaning": "particule de possession ou de détermination",
+      "explanation": "Ton neutre. 我的本子 signifie « mon cahier » ; il relie 我 à 本子.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "de",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɤ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "的",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0086",
+      "kind": "character",
+      "form": "相",
+      "language": "zh-CN",
+      "meaning": "élément de 相片 (photographie) ; apparence",
+      "explanation": "Lire xiàng dans 相片 xiàngpiàn. La glose historique « observer » de la source a généralement la lecture xiāng ; ce n'est pas le sens du mot entier « photographie ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiàng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑŋ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "相",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0087",
+      "kind": "character",
+      "form": "片",
+      "language": "zh-CN",
+      "meaning": "tranche ; morceau plat",
+      "explanation": "Lire piàn dans 相片 (photographie). La forme rhotique 相片儿 fusionne 儿 avec la syllabe précédente.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "piàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰjɛn⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "片",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0088",
+      "kind": "character",
+      "form": "看",
+      "language": "zh-CN",
+      "meaning": "regarder ; lire",
+      "explanation": "Lire kàn pour « regarder » ou « lire ». Avec 书 ou 报, cela signifie « lire ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʰan⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "看",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0089",
+      "kind": "character",
+      "form": "他",
+      "language": "zh-CN",
+      "meaning": "il ; lui",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰa⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "他",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0090",
+      "kind": "character",
+      "form": "太",
+      "language": "zh-CN",
+      "meaning": "trop",
+      "explanation": "太忙 signifie « trop occupé ». 不太 signifie « pas très » ; 不 se prononce bú devant le quatrième ton tài.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰaɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "太",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0091",
+      "kind": "character",
+      "form": "忙",
+      "language": "zh-CN",
+      "meaning": "occupé(e)",
+      "explanation": "Prédicat descriptif : 我很忙 signifie « je suis occupé(e) ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "máng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "忙",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0092",
+      "kind": "word",
+      "form": "日文",
+      "language": "zh-CN",
+      "meaning": "japonais (langue)",
+      "explanation": "Mot désignant une langue dans la source, parallèle à 法文 et 英文.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Rìwén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʐɻ̩⁵¹ wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "日文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0060",
+        "e-p0006-0098"
+      ]
+    },
+    {
+      "id": "e-p0006-0093",
+      "kind": "word",
+      "form": "法文",
+      "language": "zh-CN",
+      "meaning": "français (langue)",
+      "explanation": "La langue, plutôt que le pays 法国.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Fǎwén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fa²¹⁴ wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "法文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0068",
+        "e-p0006-0098"
+      ]
+    },
+    {
+      "id": "e-p0006-0094",
+      "kind": "word",
+      "form": "没有",
+      "language": "zh-CN",
+      "meaning": "ne pas avoir ; il n'y a pas",
+      "explanation": "La négation de 有 ; ne pas remplacer 没 par 不 ici.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "méiyǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "没有",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0101",
+        "e-p0006-0057"
+      ]
+    },
+    {
+      "id": "e-p0006-0095",
+      "kind": "sentence",
+      "form": "我买法文书，您有吗？",
+      "language": "zh-CN",
+      "meaning": "J'achète des livres en français. En avez-vous ? (Vouvoiement.)",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ mǎi Fǎwén shū, nín yǒu ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我买法文书，您有吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0035",
+        "e-p0006-0097",
+        "e-p0006-0068",
+        "e-p0006-0098",
+        "e-p0006-0099",
+        "e-p0006-0100",
+        "e-p0006-0057",
+        "e-p0006-0063"
+      ]
+    },
+    {
+      "id": "e-p0006-0096",
+      "kind": "sentence",
+      "form": "我卖日文书，",
+      "language": "zh-CN",
+      "meaning": "Je vends des livres en japonais. (La phrase continue à la ligne suivante.)",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ mài Rìwén shū,",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我卖日文书，",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0035",
+        "e-p0006-0102",
+        "e-p0006-0060",
+        "e-p0006-0098",
+        "e-p0006-0099"
+      ]
+    },
+    {
+      "id": "e-p0006-0097",
+      "kind": "character",
+      "form": "买",
+      "language": "zh-CN",
+      "meaning": "acheter",
+      "explanation": "Le troisième ton mǎi s'oppose au quatrième ton 卖 mài (« vendre »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mǎi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[maɪ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "买",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0098",
+      "kind": "character",
+      "form": "文",
+      "language": "zh-CN",
+      "meaning": "écriture ; langue",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0099",
+      "kind": "character",
+      "form": "书",
+      "language": "zh-CN",
+      "meaning": "livre",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shū",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂu⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "书",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0100",
+      "kind": "character",
+      "form": "您",
+      "language": "zh-CN",
+      "meaning": "vous (singulier poli)",
+      "explanation": "Employé pour s'adresser à une personne plus âgée ou avec politesse. Il porte le deuxième ton, distinct de 你 nǐ.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nín",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nin³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "您",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0101",
+      "kind": "character",
+      "form": "没",
+      "language": "zh-CN",
+      "meaning": "ne pas avoir ; ne pas (actions passées)",
+      "explanation": "Ici, il nie 有. 没有 signifie « ne pas avoir » ; 没 seul peut servir de réponse brève signifiant « non ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "méi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[meɪ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "没",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0102",
+      "kind": "character",
+      "form": "卖",
+      "language": "zh-CN",
+      "meaning": "vendre",
+      "explanation": "Le quatrième ton mài s'oppose au troisième ton 买 mǎi. Dans le nom 买卖, la deuxième syllabe est neutre (mai).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[maɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "卖",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0103",
+      "kind": "word",
+      "form": "哥哥",
+      "language": "zh-CN",
+      "meaning": "frère aîné",
+      "explanation": "Deuxième syllabe neutre ge.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gēge",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kɤ⁵⁵ kɤ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "哥哥",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0107",
+        "e-p0006-0108"
+      ]
+    },
+    {
+      "id": "e-p0006-0104",
+      "kind": "sentence",
+      "form": "我有很多日文书。",
+      "language": "zh-CN",
+      "meaning": "J'ai beaucoup de livres en japonais.",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ yǒu hěn duō Rìwén shū.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我有很多日文书。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0035",
+        "e-p0006-0057",
+        "e-p0006-0055",
+        "e-p0006-0058",
+        "e-p0006-0060",
+        "e-p0006-0098",
+        "e-p0006-0099"
+      ]
+    },
+    {
+      "id": "e-p0006-0105",
+      "kind": "sentence",
+      "form": "老王的哥哥卖法文书。",
+      "language": "zh-CN",
+      "meaning": "Le frère aîné de Lao Wang vend des livres en français.",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Lǎo Wáng de gēge mài Fǎwén shū.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "老王的哥哥卖法文书。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0106",
+        "e-p0006-0084",
+        "e-p0006-0085",
+        "e-p0006-0107",
+        "e-p0006-0108",
+        "e-p0006-0102",
+        "e-p0006-0068",
+        "e-p0006-0098",
+        "e-p0006-0099"
+      ]
+    },
+    {
+      "id": "e-p0006-0106",
+      "kind": "character",
+      "form": "老",
+      "language": "zh-CN",
+      "meaning": "vieux ; âgé ; ancien",
+      "explanation": "老人 signifie « une personne âgée ». 老 devant un nom de famille est une appellation familière, comme 老王, « Lao Wang ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "老",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0107",
+      "kind": "character",
+      "form": "哥",
+      "language": "zh-CN",
+      "meaning": "frère aîné",
+      "explanation": "哥哥 gēge a normalement une deuxième syllabe neutre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gē",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kɤ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "哥",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0108",
+      "kind": "character",
+      "form": "哥",
+      "language": "zh-CN",
+      "meaning": "ge neutre dans ce mot",
+      "explanation": "Cette occurrence est une syllabe neutre. Sélectionner le mot entier pour son sens et sa prononciation complète.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ge",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "哥",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0109",
+      "kind": "sentence",
+      "form": "你有你哥哥的相片吗？",
+      "language": "zh-CN",
+      "meaning": "As-tu une photo de ton frère aîné ?",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ yǒu nǐ gēge de xiàngpiàn ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你有你哥哥的相片吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0024",
+        "e-p0006-0057",
+        "e-p0006-0024",
+        "e-p0006-0107",
+        "e-p0006-0108",
+        "e-p0006-0085",
+        "e-p0006-0086",
+        "e-p0006-0087",
+        "e-p0006-0063"
+      ]
+    },
+    {
+      "id": "e-p0006-0110",
+      "kind": "sentence",
+      "form": "没有。",
+      "language": "zh-CN",
+      "meaning": "Non, je n'en ai pas. (Réponse à une question avec 有.)",
+      "explanation": "Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Méiyǒu.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "没有。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0101",
+        "e-p0006-0057"
+      ]
+    },
+    {
+      "id": "e-p0006-0111",
+      "kind": "character",
+      "form": "打",
+      "language": "zh-CN",
+      "meaning": "frapper",
+      "explanation": "Caractère distracteur dans la grille de reconnaissance ; 打 peut prendre d'autres sens dans des mots composés.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "打",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0112",
+      "kind": "character",
+      "form": "得",
+      "language": "zh-CN",
+      "meaning": "obtenir",
+      "explanation": "Lire dé dans l'exemple de composant signifiant « obtenir ». Dans d'autres contextes, 得 peut se lire de ou děi.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dé",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɤ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "得",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0113",
+      "kind": "character",
+      "form": "子",
+      "language": "zh-CN",
+      "meaning": "zi neutre dans ce mot",
+      "explanation": "Cette occurrence est une syllabe neutre. Sélectionner le mot entier pour son sens et sa prononciation complète.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsɨ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "子",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0114",
+      "kind": "character",
+      "form": "度",
+      "language": "zh-CN",
+      "meaning": "degré ; mesure",
+      "explanation": "Lire dù pour « degré » ; duó est une autre lecture signifiant « estimer ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "度",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0115",
+      "kind": "character",
+      "form": "舀",
+      "language": "zh-CN",
+      "meaning": "puiser",
+      "explanation": "Caractère isolé dans la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "舀",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0116",
+      "kind": "character",
+      "form": "独",
+      "language": "zh-CN",
+      "meaning": "seul ; indépendant",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dú",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "独",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0117",
+      "kind": "character",
+      "form": "兑",
+      "language": "zh-CN",
+      "meaning": "échanger ; convertir",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "duì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "兑",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0118",
+      "kind": "character",
+      "form": "册",
+      "language": "zh-CN",
+      "meaning": "volume ; exemplaire",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "册",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0119",
+      "kind": "character",
+      "form": "怕",
+      "language": "zh-CN",
+      "meaning": "avoir peur ; craindre",
+      "explanation": "Caractère complet dans les exemples du composant cœur vertical.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "pà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰa⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "怕",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0120",
+      "kind": "character",
+      "form": "朋",
+      "language": "zh-CN",
+      "meaning": "ami(e) (dans les mots composés)",
+      "explanation": "Apprendre 朋友 péngyou comme le mot courant pour « ami(e) ». 朋 ne s'emploie normalement pas seul dans la conversation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "péng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰəŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "朋",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0121",
+      "kind": "character",
+      "form": "奴",
+      "language": "zh-CN",
+      "meaning": "esclave ; serviteur",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nú",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "奴",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0122",
+      "kind": "character",
+      "form": "辛",
+      "language": "zh-CN",
+      "meaning": "amer ; pénible",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "辛",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0123",
+      "kind": "character",
+      "form": "学",
+      "language": "zh-CN",
+      "meaning": "apprendre ; étudier",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xué",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥe³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "学",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0124",
+      "kind": "character",
+      "form": "困",
+      "language": "zh-CN",
+      "meaning": "somnolent ; piégé",
+      "explanation": "Une lecture lexicale et un sens courants du caractère de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kùn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "困",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0125",
+      "kind": "character",
+      "form": "火",
+      "language": "zh-CN",
+      "meaning": "feu",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "huǒ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xwo²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "火",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0126",
+      "kind": "character",
+      "form": "车",
+      "language": "zh-CN",
+      "meaning": "véhicule ; voiture",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chē",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʰɤ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "车",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0127",
+      "kind": "character",
+      "form": "头",
+      "language": "zh-CN",
+      "meaning": "tête",
+      "explanation": "Deuxième ton plein dans 头巾 et 小心你的头. Le ton neutre tou apparaît dans certains autres mots, comme 木头.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tóu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰoʊ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "头",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0128",
+      "kind": "character",
+      "form": "自",
+      "language": "zh-CN",
+      "meaning": "soi-même ; depuis",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "自",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0129",
+      "kind": "character",
+      "form": "习",
+      "language": "zh-CN",
+      "meaning": "s'exercer ; étudier",
+      "explanation": "Apparaît dans 学习 (étudier). Forme traditionnelle : 習.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕi³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "习",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0130",
+      "kind": "character",
+      "form": "及",
+      "language": "zh-CN",
+      "meaning": "et ; atteindre",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "及",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0131",
+      "kind": "character",
+      "form": "计",
+      "language": "zh-CN",
+      "meaning": "compter ; projet",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "计",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0132",
+      "kind": "character",
+      "form": "友",
+      "language": "zh-CN",
+      "meaning": "you neutre dans ce mot",
+      "explanation": "Cette occurrence est une syllabe neutre. Sélectionner le mot entier pour son sens et sa prononciation complète.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "you",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[joʊ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "友",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0133",
+      "kind": "character",
+      "form": "产",
+      "language": "zh-CN",
+      "meaning": "produire ; bien",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chǎn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "产",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0134",
+      "kind": "character",
+      "form": "出",
+      "language": "zh-CN",
+      "meaning": "sortir",
+      "explanation": "出差 chūchāi signifie « partir en voyage d'affaires ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chū",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "出",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0135",
+      "kind": "character",
+      "form": "差",
+      "language": "zh-CN",
+      "meaning": "mission officielle ; déplacement professionnel",
+      "explanation": "Lire chāi dans 出差. Chā, chà et cī sont d'autres lectures dans d'autres mots.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chāi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "差",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0136",
+      "kind": "character",
+      "form": "低",
+      "language": "zh-CN",
+      "meaning": "bas",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "低",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0137",
+      "kind": "character",
+      "form": "工",
+      "language": "zh-CN",
+      "meaning": "travail ; travailler",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʊŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "工",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0138",
+      "kind": "character",
+      "form": "呢",
+      "language": "zh-CN",
+      "meaning": "et… ? (particule interrogative)",
+      "explanation": "Ton neutre. 你妈妈呢？ demande « et ta mère ? » dans la conversation en cours.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ne",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nɤ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "呢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0139",
+      "kind": "character",
+      "form": "马",
+      "language": "zh-CN",
+      "meaning": "cheval ; Ma (nom de famille)",
+      "explanation": "马大夫 signifie « Dr Ma » ; un nom de famille ne se traduit pas par « cheval ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "马",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0140",
+      "kind": "character",
+      "form": "秀",
+      "language": "zh-CN",
+      "meaning": "élégant ; remarquable",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "秀",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0141",
+      "kind": "character",
+      "form": "查",
+      "language": "zh-CN",
+      "meaning": "rechercher ; vérifier",
+      "explanation": "Caractère complet dans l'exercice de mémorisation ; Zhā est une autre lecture comme nom de famille.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chá",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "查",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0142",
+      "kind": "character",
+      "form": "定",
+      "language": "zh-CN",
+      "meaning": "fixer ; décider ; fixe",
+      "explanation": "Caractère de reconnaissance isolé ; son sens dépend du mot composé.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dìng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "定",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0143",
+      "kind": "character",
+      "form": "些",
+      "language": "zh-CN",
+      "meaning": "quelques ; un peu",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiē",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "些",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0144",
+      "kind": "character",
+      "form": "厂",
+      "language": "zh-CN",
+      "meaning": "usine",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʰɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "厂",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0145",
+      "kind": "character",
+      "form": "共",
+      "language": "zh-CN",
+      "meaning": "commun ; ensemble",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gòng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "共",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0146",
+      "kind": "character",
+      "form": "公",
+      "language": "zh-CN",
+      "meaning": "public ; commun",
+      "explanation": "Caractère de reconnaissance isolé.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "公",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0147",
+      "kind": "character",
+      "form": "坏",
+      "language": "zh-CN",
+      "meaning": "mauvais ; cassé",
+      "explanation": "Caractère de reconnaissance isolé.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "huài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "坏",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0148",
+      "kind": "character",
+      "form": "苦",
+      "language": "zh-CN",
+      "meaning": "amer ; pénible",
+      "explanation": "Caractère isolé de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "苦",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0149",
+      "kind": "character",
+      "form": "北",
+      "language": "zh-CN",
+      "meaning": "nord",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "běi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[peɪ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "北",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0150",
+      "kind": "character",
+      "form": "林",
+      "language": "zh-CN",
+      "meaning": "bois ; bosquet",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lín",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lin³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "林",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0151",
+      "kind": "character",
+      "form": "合",
+      "language": "zh-CN",
+      "meaning": "joindre ; combiner",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hé",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xɤ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "合",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0152",
+      "kind": "character",
+      "form": "邦",
+      "language": "zh-CN",
+      "meaning": "État ; pays (littéraire)",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bāng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "邦",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0153",
+      "kind": "character",
+      "form": "父",
+      "language": "zh-CN",
+      "meaning": "père",
+      "explanation": "Généralement dans des mots composés comme 父亲 ; 爸爸 est le mot courant dans cette leçon.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "父",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0154",
+      "kind": "character",
+      "form": "池",
+      "language": "zh-CN",
+      "meaning": "étang ; bassin",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "池",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0155",
+      "kind": "character",
+      "form": "目",
+      "language": "zh-CN",
+      "meaning": "œil",
+      "explanation": "Caractère complet également utilisé comme composant dans 相.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "目",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0156",
+      "kind": "character",
+      "form": "京",
+      "language": "zh-CN",
+      "meaning": "capitale (dans 北京)",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jīng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕiŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "京",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0157",
+      "kind": "character",
+      "form": "甲",
+      "language": "zh-CN",
+      "meaning": "premier (dans un ordre) ; carapace",
+      "explanation": "Caractère complet de la source ; les étapes de tracé incomplètes sont exclues.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "甲",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0158",
+      "kind": "character",
+      "form": "信",
+      "language": "zh-CN",
+      "meaning": "lettre ; croire",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xìn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "信",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0159",
+      "kind": "character",
+      "form": "们",
+      "language": "zh-CN",
+      "meaning": "suffixe du pluriel pour les personnes",
+      "explanation": "Ton neutre. Employé avec les pronoms, comme 我们 et 你们 ; ne pas l'ajouter à tous les noms.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "men",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mən]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "们",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0160",
+      "kind": "character",
+      "form": "支",
+      "language": "zh-CN",
+      "meaning": "branche ; soutenir",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "支",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0161",
+      "kind": "character",
+      "form": "坐",
+      "language": "zh-CN",
+      "meaning": "s'asseoir",
+      "explanation": "Ne pas confondre 坐 avec l'homophone 作, « faire ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zuò",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "坐",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0162",
+      "kind": "character",
+      "form": "之",
+      "language": "zh-CN",
+      "meaning": "de ; le/la (littéraire)",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "之",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0163",
+      "kind": "character",
+      "form": "汽",
+      "language": "zh-CN",
+      "meaning": "vapeur",
+      "explanation": "Premier caractère de 汽车 (voiture) ; à distinguer de 气.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "qì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "汽",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0164",
+      "kind": "character",
+      "form": "向",
+      "language": "zh-CN",
+      "meaning": "vers ; direction",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiàng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "向",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0165",
+      "kind": "character",
+      "form": "华",
+      "language": "zh-CN",
+      "meaning": "splendide ; chinois (dans les mots composés)",
+      "explanation": "Une lecture courante ; Huà en est une autre dans des noms comme 华山.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "huá",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "华",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0166",
+      "kind": "character",
+      "form": "户",
+      "language": "zh-CN",
+      "meaning": "foyer ; porte (caractère lexical)",
+      "explanation": "Syllabe neutre hu dans 窗户, le mot signifiant « fenêtre » ici.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "户",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0167",
+      "kind": "character",
+      "form": "兔",
+      "language": "zh-CN",
+      "meaning": "lapin",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "兔",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0168",
+      "kind": "character",
+      "form": "早",
+      "language": "zh-CN",
+      "meaning": "tôt ; matin",
+      "explanation": "早上 zǎoshang signifie « matin ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "早",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0169",
+      "kind": "character",
+      "form": "土",
+      "language": "zh-CN",
+      "meaning": "terre ; sol",
+      "explanation": "Caractère de la grille de reconnaissance.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰu²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "土",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0170",
+      "kind": "word",
+      "form": "他们",
+      "language": "zh-CN",
+      "meaning": "ils ; eux (groupe masculin ou mixte)",
+      "explanation": "Syllabe neutre men. 她们 s'emploie pour un groupe féminin.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tāmen",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "他们",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0089",
+        "e-p0006-0159"
+      ]
+    },
+    {
+      "id": "e-p0006-0171",
+      "kind": "character",
+      "form": "肉",
+      "language": "zh-CN",
+      "meaning": "viande",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ròu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɻoʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "肉",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0172",
+      "kind": "character",
+      "form": "友",
+      "language": "zh-CN",
+      "meaning": "ami ; amical",
+      "explanation": "Le deuxième caractère de 朋友 ; dans ce mot, il est normalement neutre (you).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[joʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "友",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0173",
+      "kind": "character",
+      "form": "她",
+      "language": "zh-CN",
+      "meaning": "elle",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "她",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0174",
+      "kind": "word",
+      "form": "中文",
+      "language": "zh-CN",
+      "meaning": "chinois (langue)",
+      "explanation": "La langue, plutôt que le pays 中国.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngwén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʊŋ⁵⁵ wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "中文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0053",
+        "e-p0006-0098"
+      ]
+    },
+    {
+      "id": "e-p0006-0175",
+      "kind": "word",
+      "form": "中文书",
+      "language": "zh-CN",
+      "meaning": "livre en chinois",
+      "explanation": "中文 précise la langue du livre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngwén shū",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中文书",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0053",
+        "e-p0006-0098",
+        "e-p0006-0099"
+      ]
+    },
+    {
+      "id": "e-p0006-0176",
+      "kind": "word",
+      "form": "妈妈",
+      "language": "zh-CN",
+      "meaning": "maman ; mère",
+      "explanation": "Deuxième syllabe neutre ma.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "māma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma⁵⁵ ma]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "妈妈",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0177",
+        "e-p0006-0178"
+      ]
+    },
+    {
+      "id": "e-p0006-0177",
+      "kind": "character",
+      "form": "妈",
+      "language": "zh-CN",
+      "meaning": "maman",
+      "explanation": "Le caractère seul se lit mā. Dans 妈妈 (māma, maman), la deuxième syllabe est neutre ; utiliser la lecture du mot complet dans ce contexte.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "妈",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0178",
+      "kind": "character",
+      "form": "妈",
+      "language": "zh-CN",
+      "meaning": "ma neutre dans ce mot",
+      "explanation": "Cette occurrence est une syllabe neutre. Sélectionner le mot entier pour son sens et sa prononciation complète.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "妈",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0179",
+      "kind": "character",
+      "form": "说",
+      "language": "zh-CN",
+      "meaning": "parler ; dire",
+      "explanation": "Le sens et la lecture indiqués s'appliquent à ce contexte de la source.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shuō",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂwo⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "说",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0180",
+      "kind": "character",
+      "form": "夫",
+      "language": "zh-CN",
+      "meaning": "homme ; mari (caractère lexical)",
+      "explanation": "Dans 大夫 (docteur), cette syllabe est neutre (fu), et non fū.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fū",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fu⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0181",
+      "kind": "character",
+      "form": "园",
+      "language": "zh-CN",
+      "meaning": "jardin ; parc",
+      "explanation": "Caractère complet dans l'exercice d'ordre des traits.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yuán",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "园",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0182",
+      "kind": "character",
+      "form": "萍",
+      "language": "zh-CN",
+      "meaning": "lentille d'eau",
+      "explanation": "Caractère complet dans l'exercice d'ordre des traits.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "píng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "萍",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0183",
+      "kind": "character",
+      "form": "朝",
+      "language": "zh-CN",
+      "meaning": "cour ; dynastie ; vers",
+      "explanation": "Ce caractère isolé d'exercice a deux lectures courantes : cháo et zhāo (matin). Cháo est donné comme une lecture possible, et non comme la seule réponse à l'exercice imprimé.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cháo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "朝",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0184",
+      "kind": "character",
+      "form": "适",
+      "language": "zh-CN",
+      "meaning": "convenable ; adapté",
+      "explanation": "Caractère complet dans l'exercice d'ordre des traits.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "适",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0185",
+      "kind": "character",
+      "form": "固",
+      "language": "zh-CN",
+      "meaning": "ferme ; solide",
+      "explanation": "Caractère complet dans l'exercice d'ordre des traits. La forme de la source est 固, et non 点.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "固",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0186",
+      "kind": "character",
+      "form": "股",
+      "language": "zh-CN",
+      "meaning": "cuisse ; part ; portion",
+      "explanation": "Caractère complet dans l'exercice d'ordre des traits.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "股",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0187",
+      "kind": "character",
+      "form": "领",
+      "language": "zh-CN",
+      "meaning": "col ; mener ; recevoir",
+      "explanation": "Caractère complet dans l'exercice d'ordre des traits.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǐng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "领",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0188",
+      "kind": "character",
+      "form": "井",
+      "language": "zh-CN",
+      "meaning": "puits",
+      "explanation": "Employé dans 水井 shuǐjǐng à la page suivante.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jǐng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "井",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0189",
+      "kind": "character",
+      "form": "左",
+      "language": "zh-CN",
+      "meaning": "gauche",
+      "explanation": "左边 zuǒbian signifie « le côté gauche » ; 左右 zuǒyòu peut signifier « environ ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zuǒ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "左",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "e-p0006-0190",
+      "kind": "word",
+      "form": "本子",
+      "language": "zh-CN",
+      "meaning": "cahier",
+      "explanation": "Syllabe neutre zi. Ne pas traduire chaque caractère séparément pour deviner le mot entier. Dans la grille de mots mêlés, suivre ces cases sources adjacentes dans l'ordre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "běnzi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pən²¹ tsz̩]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "本子",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0020",
+        "e-p0006-0113"
+      ]
+    },
+    {
+      "id": "e-p0006-0191",
+      "kind": "word",
+      "form": "火车",
+      "language": "zh-CN",
+      "meaning": "entraîner ; exercer",
+      "explanation": "Mot horizontal dans la grille source ; 车 désigne un véhicule. Dans la grille de mots mêlés, suivre ces cases sources adjacentes dans l'ordre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "huǒchē",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "火车",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0125",
+        "e-p0006-0126"
+      ]
+    },
+    {
+      "id": "e-p0006-0192",
+      "kind": "word",
+      "form": "朋友",
+      "language": "zh-CN",
+      "meaning": "ami(e)",
+      "explanation": "La deuxième syllabe you est neutre. 男朋友 et 女朋友 peuvent signifier « petit ami » et « petite amie » dans le contexte du dialogue. Dans la grille de mots mêlés, suivre ces cases sources adjacentes dans l'ordre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "péngyou",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰəŋ³⁵ joʊ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "朋友",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0120",
+        "e-p0006-0132"
+      ]
+    },
+    {
+      "id": "e-p0006-0193",
+      "kind": "word",
+      "form": "出差",
+      "language": "zh-CN",
+      "meaning": "partir en voyage d'affaires",
+      "explanation": "Lire 差 chāi dans ce mot, et non chā ou chà. Dans la grille de mots mêlés, suivre ces cases sources adjacentes dans l'ordre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chūchāi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "出差",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0134",
+        "e-p0006-0135"
+      ]
+    },
+    {
+      "id": "e-p0006-0194",
+      "kind": "word",
+      "form": "我们",
+      "language": "zh-CN",
+      "meaning": "nous",
+      "explanation": "Syllabe neutre men. Le chinois emploie la même forme comme sujet ou complément. Dans la grille de mots mêlés, suivre ces cases sources adjacentes dans l'ordre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒmen",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我们",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0035",
+        "e-p0006-0159"
+      ]
+    },
+    {
+      "id": "e-p0006-0195",
+      "kind": "word",
+      "form": "买卖",
+      "language": "zh-CN",
+      "meaning": "commerce ; négoce",
+      "explanation": "Syllabe neutre mai dans ce nom. Comparer 买 mǎi (acheter) et 卖 mài (vendre). Dans la grille de mots mêlés, suivre ces cases sources adjacentes dans l'ordre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mǎimai",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "买卖",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0097",
+        "e-p0006-0102"
+      ]
+    },
+    {
+      "id": "e-p0006-0196",
+      "kind": "word",
+      "form": "北京",
+      "language": "zh-CN",
+      "meaning": "Pékin (Beijing)",
+      "explanation": "Nom d'une ville ; 北 et 京 ne remplacent pas le nom par une traduction littérale. Dans la grille de mots mêlés, suivre ces cases sources adjacentes dans l'ordre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Běijīng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[peɪ²¹ tɕiŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "北京",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0149",
+        "e-p0006-0156"
+      ]
+    },
+    {
+      "id": "e-p0006-0197",
+      "kind": "word",
+      "form": "工厂",
+      "language": "zh-CN",
+      "meaning": "usine",
+      "explanation": "Troisième ton sur chǎng. Forme traditionnelle : 工廠. Dans la grille de mots mêlés, suivre ces cases sources adjacentes dans l'ordre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gōngchǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʊŋ⁵⁵ tʂʰɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API large du mandarin ; les chiffres en exposant indiquent la hauteur du ton. Les syllabes neutres n'ont pas de chiffres de ton lexical."
+        }
+      ],
+      "speechTarget": "工厂",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0137",
+        "e-p0006-0144"
+      ]
+    },
+    {
+      "id": "e-p0006-0198",
+      "kind": "sentence",
+      "form": "法国不很大，可是好地方很多。我很想去巴黎！",
+      "language": "zh-CN",
+      "meaning": "La France n'est pas très grande, mais elle a beaucoup de beaux endroits. J'ai vraiment envie d'aller à Paris !",
+      "explanation": "不很大 signifie « pas très grand ». 可是 introduit un contraste, et 很想去 signifie « avoir vraiment envie d'aller ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Fǎguó bù hěn dà, kěshì hǎo dìfang hěn duō. Wǒ hěn xiǎng qù Bālí!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "法国不很大，可是好地方很多。我很想去巴黎！",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Auto-révision distincte par l'agent ; aucune révision humaine ni indépendante."
+      },
+      "constituentIds": [
+        "e-p0006-0068",
+        "e-p0006-0054",
+        "e-p0006-0065",
+        "e-p0006-0055",
+        "e-p0006-0056",
+        "e-p0006-0073",
+        "e-p0006-0074",
+        "e-p0006-0059",
+        "e-p0006-0029",
+        "e-p0006-0030",
+        "e-p0006-0055",
+        "e-p0006-0058",
+        "e-p0006-0035",
+        "e-p0006-0055",
+        "e-p0006-0025",
+        "e-p0006-0026",
+        "e-p0006-0076",
+        "e-p0006-0077"
+      ]
+    }
+  ]
+}

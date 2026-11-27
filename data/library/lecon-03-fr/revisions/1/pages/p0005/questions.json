@@ -1,0 +1,1279 @@
+{
+  "documentId": "lecon-03-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Dans 您贵姓？, que demande-t-on ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "le nom de famille de la personne"
+        },
+        {
+          "id": "o2",
+          "text": "le prix d'un journal"
+        },
+        {
+          "id": "o3",
+          "text": "l'âge de la personne"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "贵姓 est une façon polie de demander le nom de famille.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0398"
+      ],
+      "entryIds": [
+        "e-p0005-0129"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « facile » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "容易"
+        },
+        {
+          "id": "o2",
+          "text": "有名"
+        },
+        {
+          "id": "o3",
+          "text": "地方"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "容易 róngyì signifie « facile ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0255"
+      ],
+      "entryIds": [
+        "e-p0005-0083"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quelle forme écrite correspond au « vous » de politesse au singulier ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "您"
+        },
+        {
+          "id": "o2",
+          "text": "你"
+        },
+        {
+          "id": "o3",
+          "text": "他"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "您 est le « vous » de politesse au singulier.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0323"
+      ],
+      "entryIds": [
+        "e-p0005-0110"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que demande Li Yu à Marie ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "si elle a un nom chinois"
+        },
+        {
+          "id": "o2",
+          "text": "si elle a un journal"
+        },
+        {
+          "id": "o3",
+          "text": "si sa mère va bien"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "中文名字 signifie « nom chinois » ; 有…吗 demande si elle en a un.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quel nom de famille le locuteur donne-t-il ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Sun"
+        },
+        {
+          "id": "o2",
+          "text": "Li"
+        },
+        {
+          "id": "o3",
+          "text": "Tian"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "姓 introduit un nom de famille ; 孙 est Sun.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0408"
+      ],
+      "entryIds": [
+        "e-p0005-0132"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quels journaux le locuteur dit-il avoir ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "seulement des journaux en chinois"
+        },
+        {
+          "id": "o2",
+          "text": "seulement des journaux en anglais"
+        },
+        {
+          "id": "o3",
+          "text": "des journaux en anglais et en chinois"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Le locuteur n'a pas de 英文报 et dit 就有中文报, seulement des journaux en chinois.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0175"
+      ],
+      "entryIds": [
+        "e-p0005-0065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase tirée de la source : 我妈妈___很好。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "也"
+        },
+        {
+          "id": "o2",
+          "text": "吗"
+        },
+        {
+          "id": "o3",
+          "text": "没"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "也 signifie « aussi » et se place avant 很好.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0360"
+      ],
+      "entryIds": [
+        "e-p0005-0120"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quel est le rôle de 呢 dans cette conversation ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "demande « et ta mère ? »"
+        },
+        {
+          "id": "o2",
+          "text": "met le mot « mère » au pluriel"
+        },
+        {
+          "id": "o3",
+          "text": "signifie « pas de mère »"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "呢 pose la question parallèle « et… ? » dans la conversation en cours.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0350"
+      ],
+      "entryIds": [
+        "e-p0005-0116"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Pourquoi le locuteur dit-il qu'il ne veut pas étudier le japonais ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "il trouve sa grammaire trop difficile"
+        },
+        {
+          "id": "o2",
+          "text": "il n'a pas de livres japonais"
+        },
+        {
+          "id": "o3",
+          "text": "leur mère est trop occupée"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Le dialogue donne 太难, « trop difficile », comme raison du locuteur.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0294"
+      ],
+      "entryIds": [
+        "e-p0005-0097"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-010",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Qu'est-ce que 玛丽 dans le dialogue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "le nom chinois de Marie"
+        },
+        {
+          "id": "o2",
+          "text": "le mot courant pour « magazine »"
+        },
+        {
+          "id": "o3",
+          "text": "le titre du Dr Sun"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "玛丽 est une transcription de prénom ; il ne se traduit pas littéralement par « agate-beauté ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0015"
+      ],
+      "entryIds": [
+        "e-p0005-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-011",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute et choisis le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "贵"
+        },
+        {
+          "id": "o2",
+          "text": "对"
+        },
+        {
+          "id": "o3",
+          "text": "忙"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "贵 se prononce guì ; son sens lexical ici est « cher » ou « honorable », selon l'expression.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0197"
+      ],
+      "entryIds": [
+        "e-p0005-0070"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      },
+      "speechTarget": "贵"
+    },
+    {
+      "id": "q-p0005-012",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 没有。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-012-o1",
+          "text": "Pas très bien."
+        },
+        {
+          "id": "q-p0005-012-o2",
+          "text": "Non, je n'en ai pas. (Réponse à une question avec 有.)"
+        },
+        {
+          "id": "q-p0005-012-o3",
+          "text": "As-tu un nom chinois ?"
+        }
+      ],
+      "correctOptionId": "q-p0005-012-o2",
+      "explanation": "« 没有。 » (Méiyǒu.) signifie « Non, je n'en ai pas. (Réponse à une question avec 有.) ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0016"
+      ],
+      "entryIds": [
+        "e-p0005-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-013",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 中文 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-013-o1",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0005-013-o2",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-013-o3",
+          "text": "nom"
+        }
+      ],
+      "correctOptionId": "q-p0005-013-o1",
+      "explanation": "中文 (Zhōngwén) signifie « chinois (langue) ». La langue, et non le pays 中国.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-014",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « chinois (langue) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-014-o1",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-014-o2",
+          "text": "名字"
+        },
+        {
+          "id": "q-p0005-014-o3",
+          "text": "中文"
+        }
+      ],
+      "correctOptionId": "q-p0005-014-o3",
+      "explanation": "« chinois (langue) » se dit 中文 (Zhōngwén).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-015",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « Lǐ » et signifiant « Li (nom de famille) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-015-o1",
+          "text": "你"
+        },
+        {
+          "id": "q-p0005-015-o2",
+          "text": "李"
+        },
+        {
+          "id": "q-p0005-015-o3",
+          "text": "玉"
+        }
+      ],
+      "correctOptionId": "q-p0005-015-o2",
+      "explanation": "李 se prononce Lǐ et signifie « Li (nom de famille) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-016",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « 你有____名字吗？ » (As-tu un nom chinois ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-016-o1",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-016-o2",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-016-o3",
+          "text": "名字"
+        }
+      ],
+      "correctOptionId": "q-p0005-016-o1",
+      "explanation": "Le mot manquant est 中文 (Zhōngwén, « chinois (langue) »), complétant « 你有中文名字吗？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-017",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-017-o1",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-017-o2",
+          "text": "名字"
+        },
+        {
+          "id": "q-p0005-017-o3",
+          "text": "中文"
+        }
+      ],
+      "correctOptionId": "q-p0005-017-o3",
+      "explanation": "L'audio prononce 中文 (Zhōngwén), qui signifie « chinois (langue) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "中文",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-018",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 中文 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-018-o1",
+          "text": "nom"
+        },
+        {
+          "id": "q-p0005-018-o2",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0005-018-o3",
+          "text": "Li Yu (nom de personne)"
+        }
+      ],
+      "correctOptionId": "q-p0005-018-o2",
+      "explanation": "中文 (Zhōngwén) signifie « chinois (langue) ». La langue, et non le pays 中国.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-019",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 不太好。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-019-o1",
+          "text": "Pas très bien."
+        },
+        {
+          "id": "q-p0005-019-o2",
+          "text": "As-tu un nom chinois ?"
+        },
+        {
+          "id": "q-p0005-019-o3",
+          "text": "Non, je n'en ai pas. (Réponse à une question avec 有.)"
+        }
+      ],
+      "correctOptionId": "q-p0005-019-o1",
+      "explanation": "« 不太好。 » (Bú tài hǎo.) signifie « Pas très bien. ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0041"
+      ],
+      "entryIds": [
+        "e-p0005-0025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-020",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 李玉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-020-o1",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0005-020-o2",
+          "text": "nom"
+        },
+        {
+          "id": "q-p0005-020-o3",
+          "text": "Li Yu (nom de personne)"
+        }
+      ],
+      "correctOptionId": "q-p0005-020-o3",
+      "explanation": "李玉 (Lǐ Yù) signifie « Li Yu (nom de personne) ». Li est le nom de famille, Yu le prénom ; conserver le nom plutôt que de le traduire par « prune-jade ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-021",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Li Yu (nom de personne) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-021-o1",
+          "text": "名字"
+        },
+        {
+          "id": "q-p0005-021-o2",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-021-o3",
+          "text": "中文"
+        }
+      ],
+      "correctOptionId": "q-p0005-021-o2",
+      "explanation": "« Li Yu (nom de personne) » est 李玉 (Lǐ Yù).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-022",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « yù » et signifiant « jade ; Yu (dans les prénoms) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-022-o1",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0005-022-o2",
+          "text": "李"
+        },
+        {
+          "id": "q-p0005-022-o3",
+          "text": "你"
+        }
+      ],
+      "correctOptionId": "q-p0005-022-o1",
+      "explanation": "玉 se prononce yù et signifie « jade ; Yu (dans les prénoms) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0006"
+      ],
+      "entryIds": [
+        "e-p0005-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-023",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « ____。 » (Non, je n'en ai pas. (Réponse à une question avec 有.))",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-023-o1",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-023-o2",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-023-o3",
+          "text": "没有"
+        }
+      ],
+      "correctOptionId": "q-p0005-023-o3",
+      "explanation": "Le mot manquant est 没有 (méiyǒu, « ne pas avoir »), complétant « 没有。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0016"
+      ],
+      "entryIds": [
+        "e-p0005-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-024",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-024-o1",
+          "text": "不太好。"
+        },
+        {
+          "id": "q-p0005-024-o2",
+          "text": "你有中文名字吗？"
+        },
+        {
+          "id": "q-p0005-024-o3",
+          "text": "没有。"
+        }
+      ],
+      "correctOptionId": "q-p0005-024-o2",
+      "explanation": "L'audio prononce 你有中文名字吗？ (Nǐ yǒu Zhōngwén míngzi ma?), qui signifie « As-tu un nom chinois ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你有中文名字吗？",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-025",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 李玉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-025-o1",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-025-o2",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0005-025-o3",
+          "text": "nom"
+        }
+      ],
+      "correctOptionId": "q-p0005-025-o1",
+      "explanation": "李玉 (Lǐ Yù) signifie « Li Yu (nom de personne) ». Li est le nom de famille, Yu le prénom ; conserver le nom plutôt que de le traduire par « prune-jade ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-026",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 很好！ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-026-o1",
+          "text": "As-tu un nom chinois ?"
+        },
+        {
+          "id": "q-p0005-026-o2",
+          "text": "Non, je n'en ai pas. (Réponse à une question avec 有.)"
+        },
+        {
+          "id": "q-p0005-026-o3",
+          "text": "Très bien !"
+        }
+      ],
+      "correctOptionId": "q-p0005-026-o3",
+      "explanation": "« 很好！ » (Hěn hǎo!) signifie « Très bien ! ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0066"
+      ],
+      "entryIds": [
+        "e-p0005-0032"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-027",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 名字 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-027-o1",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-027-o2",
+          "text": "nom"
+        },
+        {
+          "id": "q-p0005-027-o3",
+          "text": "chinois (langue)"
+        }
+      ],
+      "correctOptionId": "q-p0005-027-o2",
+      "explanation": "名字 (míngzi) signifie « nom ». Syllabe neutre zi. 你叫什么名字？ demande comment tu t'appelles.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-028",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « nom » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-028-o1",
+          "text": "名字"
+        },
+        {
+          "id": "q-p0005-028-o2",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-028-o3",
+          "text": "李玉"
+        }
+      ],
+      "correctOptionId": "q-p0005-028-o1",
+      "explanation": "« nom » se dit 名字 (míngzi).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-029",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « nǐ » et signifiant « tu ; toi ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-029-o1",
+          "text": "李"
+        },
+        {
+          "id": "q-p0005-029-o2",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0005-029-o3",
+          "text": "你"
+        }
+      ],
+      "correctOptionId": "q-p0005-029-o3",
+      "explanation": "你 se prononce nǐ et signifie « tu ; toi ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0007"
+      ],
+      "entryIds": [
+        "e-p0005-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-030",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « ____太好。 » (Pas très bien.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-030-o1",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0005-030-o2",
+          "text": "不"
+        },
+        {
+          "id": "q-p0005-030-o3",
+          "text": "李"
+        }
+      ],
+      "correctOptionId": "q-p0005-030-o2",
+      "explanation": "Le caractère manquant est 不 (bú, « ne… pas »), complétant « 不太好。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0041"
+      ],
+      "entryIds": [
+        "e-p0005-0025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-031",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-031-o1",
+          "text": "李"
+        },
+        {
+          "id": "q-p0005-031-o2",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0005-031-o3",
+          "text": "你"
+        }
+      ],
+      "correctOptionId": "q-p0005-031-o1",
+      "explanation": "L'audio prononce 李 (Lǐ), qui signifie « Li (nom de famille) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "李",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-032",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 名字 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-032-o1",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0005-032-o2",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-032-o3",
+          "text": "nom"
+        }
+      ],
+      "correctOptionId": "q-p0005-032-o3",
+      "explanation": "名字 (míngzi) signifie « nom ». Syllabe neutre zi. 你叫什么名字？ demande comment tu t'appelles.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-033",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我的中文名字是玛丽！ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-033-o1",
+          "text": "Non, je n'en ai pas. (Réponse à une question avec 有.)"
+        },
+        {
+          "id": "q-p0005-033-o2",
+          "text": "Mon nom chinois est Mali (Marie) !"
+        },
+        {
+          "id": "q-p0005-033-o3",
+          "text": "As-tu un nom chinois ?"
+        }
+      ],
+      "correctOptionId": "q-p0005-033-o2",
+      "explanation": "« 我的中文名字是玛丽！ » (Wǒ de Zhōngwén míngzi shì Mǎlì!) signifie « Mon nom chinois est Mali (Marie) ! ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0101"
+      ],
+      "entryIds": [
+        "e-p0005-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-034",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 没有 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-034-o1",
+          "text": "ne pas avoir ; il n'y a pas"
+        },
+        {
+          "id": "q-p0005-034-o2",
+          "text": "chinois (langue)"
+        },
+        {
+          "id": "q-p0005-034-o3",
+          "text": "Li Yu (nom de personne)"
+        }
+      ],
+      "correctOptionId": "q-p0005-034-o1",
+      "explanation": "没有 (méiyǒu) signifie « ne pas avoir ; il n'y a pas ». La négation de 有 ; ne pas remplacer 没 par 不 ici.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0014"
+      ],
+      "entryIds": [
+        "e-p0005-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-035",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « ne pas avoir ; il n'y a pas » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-035-o1",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0005-035-o2",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-035-o3",
+          "text": "没有"
+        }
+      ],
+      "correctOptionId": "q-p0005-035-o3",
+      "explanation": "« ne pas avoir ; il n'y a pas » se dit 没有 (méiyǒu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0014"
+      ],
+      "entryIds": [
+        "e-p0005-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-036",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « yǒu » et signifiant « avoir ; il y a ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-036-o1",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0005-036-o2",
+          "text": "有"
+        },
+        {
+          "id": "q-p0005-036-o3",
+          "text": "李"
+        }
+      ],
+      "correctOptionId": "q-p0005-036-o2",
+      "explanation": "有 se prononce yǒu et signifie « avoir ; il y a ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0008"
+      ],
+      "entryIds": [
+        "e-p0005-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

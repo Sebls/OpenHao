@@ -1,0 +1,4244 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "entries": [
+    {
+      "id": "e-p0005-0001",
+      "kind": "word",
+      "form": "中文",
+      "language": "zh-CN",
+      "meaning": "Chinese (language)",
+      "explanation": "The language, rather than the country 中国.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngwén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʊŋ⁵⁵ wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "中文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0009",
+        "e-p0005-0010"
+      ]
+    },
+    {
+      "id": "e-p0005-0002",
+      "kind": "word",
+      "form": "李玉",
+      "language": "zh-CN",
+      "meaning": "Li Yu (personal name)",
+      "explanation": "Li is the family name, Yu the given name; keep the name rather than translating it as plum-jade.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Lǐ Yù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "李玉",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0005",
+        "e-p0005-0006"
+      ]
+    },
+    {
+      "id": "e-p0005-0003",
+      "kind": "word",
+      "form": "名字",
+      "language": "zh-CN",
+      "meaning": "name",
+      "explanation": "Neutral zi. 你叫什么名字？ asks what your name is.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "míngzi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[miŋ³⁵ tsɨ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "名字",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0011",
+        "e-p0005-0012"
+      ]
+    },
+    {
+      "id": "e-p0005-0004",
+      "kind": "sentence",
+      "form": "你有中文名字吗？",
+      "language": "zh-CN",
+      "meaning": "Do you have a Chinese name?",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ yǒu Zhōngwén míngzi ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你有中文名字吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0007",
+        "e-p0005-0008",
+        "e-p0005-0009",
+        "e-p0005-0010",
+        "e-p0005-0011",
+        "e-p0005-0012",
+        "e-p0005-0013"
+      ]
+    },
+    {
+      "id": "e-p0005-0005",
+      "kind": "character",
+      "form": "李",
+      "language": "zh-CN",
+      "meaning": "Li (family name)",
+      "explanation": "The source also mentions 李子 lǐzi (plum); the character has lexical senses beyond names.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Lǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[li²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "李",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0006",
+      "kind": "character",
+      "form": "玉",
+      "language": "zh-CN",
+      "meaning": "jade; Yu (in personal names)",
+      "explanation": "In 李玉 it is the given name Yu. In the name-choice dialogue 玉 also refers to the gemstone jade.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[y⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "玉",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0007",
+      "kind": "character",
+      "form": "你",
+      "language": "zh-CN",
+      "meaning": "you",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ni²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "你",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0008",
+      "kind": "character",
+      "form": "有",
+      "language": "zh-CN",
+      "meaning": "have; there is or are",
+      "explanation": "Negate 有 with 没有 méiyǒu, not 不有. 很多 means many or a lot.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[joʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "有",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0009",
+      "kind": "character",
+      "form": "中",
+      "language": "zh-CN",
+      "meaning": "middle; centre",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʊŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "中",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0010",
+      "kind": "character",
+      "form": "文",
+      "language": "zh-CN",
+      "meaning": "writing; language",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0011",
+      "kind": "character",
+      "form": "名",
+      "language": "zh-CN",
+      "meaning": "name",
+      "explanation": "Learn 名字 (name) and 名片 (business card) as whole words.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "míng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[miŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "名",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0012",
+      "kind": "character",
+      "form": "字",
+      "language": "zh-CN",
+      "meaning": "neutral zi in this word",
+      "explanation": "This occurrence is a neutral syllable. Select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsɨ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "字",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0013",
+      "kind": "character",
+      "form": "吗",
+      "language": "zh-CN",
+      "meaning": "yes/no question particle",
+      "explanation": "Neutral tone. Add 吗 to a statement to ask a yes/no question.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "吗",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0014",
+      "kind": "word",
+      "form": "没有",
+      "language": "zh-CN",
+      "meaning": "not have; there is no",
+      "explanation": "The negative of 有; do not replace 没 with 不 here.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "méiyǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "没有",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0019",
+        "e-p0005-0008"
+      ]
+    },
+    {
+      "id": "e-p0005-0015",
+      "kind": "word",
+      "form": "玛丽",
+      "language": "zh-CN",
+      "meaning": "Marie (personal name)",
+      "explanation": "A phonetic name transcription; do not translate it as agate-beauty. Both characters have their written lexical tones.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Mǎlì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "玛丽",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0017",
+        "e-p0005-0018"
+      ]
+    },
+    {
+      "id": "e-p0005-0016",
+      "kind": "sentence",
+      "form": "没有。",
+      "language": "zh-CN",
+      "meaning": "No, I do not have one. (Replies to a question with 有.)",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Méiyǒu.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "没有。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0019",
+        "e-p0005-0008"
+      ]
+    },
+    {
+      "id": "e-p0005-0017",
+      "kind": "character",
+      "form": "玛",
+      "language": "zh-CN",
+      "meaning": "part of 玛瑙 (agate); a character used in names",
+      "explanation": "In 玛丽 it transcribes the name Marie. Do not translate her name as agate.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "玛",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0018",
+      "kind": "character",
+      "form": "丽",
+      "language": "zh-CN",
+      "meaning": "beautiful; part of names",
+      "explanation": "Full fourth tone lì, including in 玛丽 Mǎlì. 玛丽 is a personal name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "丽",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0019",
+      "kind": "character",
+      "form": "没",
+      "language": "zh-CN",
+      "meaning": "not have; not (for past actions)",
+      "explanation": "Here it negates 有. 没有 means do not have; 没 alone can be a short reply meaning no.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "méi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[meɪ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "没",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0020",
+      "kind": "word",
+      "form": "法文",
+      "language": "zh-CN",
+      "meaning": "French (language)",
+      "explanation": "The language, rather than the country 法国.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Fǎwén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fa²¹⁴ wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "法文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0022",
+        "e-p0005-0010"
+      ]
+    },
+    {
+      "id": "e-p0005-0021",
+      "kind": "character",
+      "form": "的",
+      "language": "zh-CN",
+      "meaning": "possessive or modifying particle",
+      "explanation": "Neutral tone. 我的本子 means my notebook; it links 我 to 本子.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "de",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɤ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "的",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0022",
+      "kind": "character",
+      "form": "法",
+      "language": "zh-CN",
+      "meaning": "law; method",
+      "explanation": "In 法国 and 法文, 法 represents France or French; do not translate the country name as law-country.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fa²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "法",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0023",
+      "kind": "character",
+      "form": "是",
+      "language": "zh-CN",
+      "meaning": "be; am, is, are",
+      "explanation": "Connects a subject to an identity. 可是 is a separate whole word meaning but.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɻ̩⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0024",
+      "kind": "character",
+      "form": "要",
+      "language": "zh-CN",
+      "meaning": "want; need to",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[jɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "要",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0025",
+      "kind": "sentence",
+      "form": "不太好。",
+      "language": "zh-CN",
+      "meaning": "Not very good.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Bú tài hǎo.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "不太好。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0026",
+        "e-p0005-0027",
+        "e-p0005-0028"
+      ]
+    },
+    {
+      "id": "e-p0005-0026",
+      "kind": "character",
+      "form": "不",
+      "language": "zh-CN",
+      "meaning": "not",
+      "explanation": "Before the following fourth tone, 不 is pronounced bú rather than bù.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bú",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "不",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0027",
+      "kind": "character",
+      "form": "太",
+      "language": "zh-CN",
+      "meaning": "too; excessively",
+      "explanation": "太忙 means too busy. 不太 means not very or not particularly; 不 is pronounced bú before fourth-tone tài.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰaɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "太",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0028",
+      "kind": "character",
+      "form": "好",
+      "language": "zh-CN",
+      "meaning": "good",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "好",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0029",
+      "kind": "word",
+      "form": "玛瑙",
+      "language": "zh-CN",
+      "meaning": "agate",
+      "explanation": "A gemstone discussed while choosing Marie's Chinese name. Lexical third-tone marks are shown; the first rises before the second in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mǎnǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "玛瑙",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0017",
+        "e-p0005-0031"
+      ]
+    },
+    {
+      "id": "e-p0005-0030",
+      "kind": "character",
+      "form": "也",
+      "language": "zh-CN",
+      "meaning": "also; too",
+      "explanation": "Normally placed before the verb, after the subject: 我也… means I also… .",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[jɛ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "也",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0031",
+      "kind": "character",
+      "form": "瑙",
+      "language": "zh-CN",
+      "meaning": "part of 玛瑙 (agate)",
+      "explanation": "Learn 玛瑙 as a complete word.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "瑙",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0032",
+      "kind": "sentence",
+      "form": "很好！",
+      "language": "zh-CN",
+      "meaning": "Very good!",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Hěn hǎo!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "很好！",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0033",
+        "e-p0005-0028"
+      ]
+    },
+    {
+      "id": "e-p0005-0033",
+      "kind": "character",
+      "form": "很",
+      "language": "zh-CN",
+      "meaning": "very; quite",
+      "explanation": "Before a descriptive adjective it can make a natural statement without a strong very meaning. 很想 means really want to.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hěn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xən²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "很",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0034",
+      "kind": "character",
+      "form": "我",
+      "language": "zh-CN",
+      "meaning": "I; me",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wo²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "我",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0035",
+      "kind": "word",
+      "form": "美丽",
+      "language": "zh-CN",
+      "meaning": "beautiful",
+      "explanation": "The second character 丽 also supplies the final syllable of Marie's Chinese name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "měilì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "美丽",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0036",
+        "e-p0005-0018"
+      ]
+    },
+    {
+      "id": "e-p0005-0036",
+      "kind": "character",
+      "form": "美",
+      "language": "zh-CN",
+      "meaning": "beautiful",
+      "explanation": "美丽 means beautiful. Also part of names such as 美国 (United States).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "měi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[meɪ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "美",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0037",
+      "kind": "character",
+      "form": "和",
+      "language": "zh-CN",
+      "meaning": "and; together with",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hé",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "和",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0038",
+      "kind": "word",
+      "form": "我的",
+      "language": "zh-CN",
+      "meaning": "my; mine",
+      "explanation": "的 links the possessor 我 to a following noun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒ de",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我的",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0034",
+        "e-p0005-0021"
+      ]
+    },
+    {
+      "id": "e-p0005-0039",
+      "kind": "word",
+      "form": "谢谢",
+      "language": "zh-CN",
+      "meaning": "thank you",
+      "explanation": "The second syllable is usually unstressed, with a neutral tone.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xièxie",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɛ⁵¹ ɕjɛ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "谢谢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0042",
+        "e-p0005-0043"
+      ]
+    },
+    {
+      "id": "e-p0005-0040",
+      "kind": "sentence",
+      "form": "我的中文名字是玛丽！",
+      "language": "zh-CN",
+      "meaning": "My Chinese name is Mali (Marie)!",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ de Zhōngwén míngzi shì Mǎlì!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我的中文名字是玛丽！",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0034",
+        "e-p0005-0021",
+        "e-p0005-0009",
+        "e-p0005-0010",
+        "e-p0005-0011",
+        "e-p0005-0012",
+        "e-p0005-0023",
+        "e-p0005-0017",
+        "e-p0005-0018"
+      ]
+    },
+    {
+      "id": "e-p0005-0041",
+      "kind": "sentence",
+      "form": "谢谢你！",
+      "language": "zh-CN",
+      "meaning": "Thank you!",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Xièxie nǐ!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "谢谢你！",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0042",
+        "e-p0005-0043",
+        "e-p0005-0007"
+      ]
+    },
+    {
+      "id": "e-p0005-0042",
+      "kind": "character",
+      "form": "谢",
+      "language": "zh-CN",
+      "meaning": "thank",
+      "explanation": "谢谢 xièxie has a neutral second syllable.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɛ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "谢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0043",
+      "kind": "character",
+      "form": "谢",
+      "language": "zh-CN",
+      "meaning": "neutral xie in this word",
+      "explanation": "This occurrence is a neutral syllable. Select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xie",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "谢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0044",
+      "kind": "word",
+      "form": "桌子",
+      "language": "zh-CN",
+      "meaning": "table; desk",
+      "explanation": "Neutral zi. A table or desk in the dialogue.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhuōzi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂwo⁵⁵ tsɨ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "桌子",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0051",
+        "e-p0005-0052"
+      ]
+    },
+    {
+      "id": "e-p0005-0045",
+      "kind": "word",
+      "form": "窗户",
+      "language": "zh-CN",
+      "meaning": "window",
+      "explanation": "Neutral second syllable hu.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chuānghu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "窗户",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0048",
+        "e-p0005-0049"
+      ]
+    },
+    {
+      "id": "e-p0005-0046",
+      "kind": "sentence",
+      "form": "你的窗户很大。",
+      "language": "zh-CN",
+      "meaning": "Your window is very big.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ de chuānghu hěn dà.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你的窗户很大。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0007",
+        "e-p0005-0021",
+        "e-p0005-0048",
+        "e-p0005-0049",
+        "e-p0005-0033",
+        "e-p0005-0050"
+      ]
+    },
+    {
+      "id": "e-p0005-0047",
+      "kind": "sentence",
+      "form": "你的桌子很长。",
+      "language": "zh-CN",
+      "meaning": "Your table is very long.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ de zhuōzi hěn cháng.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你的桌子很长。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0007",
+        "e-p0005-0021",
+        "e-p0005-0051",
+        "e-p0005-0052",
+        "e-p0005-0033",
+        "e-p0005-0053"
+      ]
+    },
+    {
+      "id": "e-p0005-0048",
+      "kind": "character",
+      "form": "窗",
+      "language": "zh-CN",
+      "meaning": "window (in compounds)",
+      "explanation": "The word 窗户 chuānghu has a neutral second syllable.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chuāng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "窗",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0049",
+      "kind": "character",
+      "form": "户",
+      "language": "zh-CN",
+      "meaning": "neutral hu in this word",
+      "explanation": "This occurrence is a neutral syllable. Select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "户",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0050",
+      "kind": "character",
+      "form": "大",
+      "language": "zh-CN",
+      "meaning": "big; large",
+      "explanation": "Read dà for big. In 大夫 (doctor), it has the special reading dài.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ta⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "大",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0051",
+      "kind": "character",
+      "form": "桌",
+      "language": "zh-CN",
+      "meaning": "table; desk",
+      "explanation": "The ordinary word here is 桌子 zhuōzi, with neutral zi.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhuō",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂwo⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "桌",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0052",
+      "kind": "character",
+      "form": "子",
+      "language": "zh-CN",
+      "meaning": "neutral zi in this word",
+      "explanation": "This occurrence is a neutral syllable. Select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsɨ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "子",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0053",
+      "kind": "character",
+      "form": "长",
+      "language": "zh-CN",
+      "meaning": "long",
+      "explanation": "Read cháng for long, as in 桌子很长. Zhǎng means grow or elder in other contexts.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cháng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʰɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "长",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0054",
+      "kind": "word",
+      "form": "不是",
+      "language": "zh-CN",
+      "meaning": "am not; is not; are not",
+      "explanation": "不 changes to second-tone bú before fourth-tone shì.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bú shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu³⁵ ʂɻ̩⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "不是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0026",
+        "e-p0005-0023"
+      ]
+    },
+    {
+      "id": "e-p0005-0055",
+      "kind": "word",
+      "form": "爸爸",
+      "language": "zh-CN",
+      "meaning": "dad; father",
+      "explanation": "Neutral second syllable ba.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bàba",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "爸爸",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0058",
+        "e-p0005-0059"
+      ]
+    },
+    {
+      "id": "e-p0005-0056",
+      "kind": "sentence",
+      "form": "这不是我的桌子，是我爸爸的桌子。",
+      "language": "zh-CN",
+      "meaning": "This is my father's table, not mine.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhè bú shì wǒ de zhuōzi, shì wǒ bàba de zhuōzi.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "这不是我的桌子，是我爸爸的桌子。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0057",
+        "e-p0005-0026",
+        "e-p0005-0023",
+        "e-p0005-0034",
+        "e-p0005-0021",
+        "e-p0005-0051",
+        "e-p0005-0052",
+        "e-p0005-0023",
+        "e-p0005-0034",
+        "e-p0005-0058",
+        "e-p0005-0059",
+        "e-p0005-0021",
+        "e-p0005-0051",
+        "e-p0005-0052"
+      ]
+    },
+    {
+      "id": "e-p0005-0057",
+      "kind": "character",
+      "form": "这",
+      "language": "zh-CN",
+      "meaning": "this",
+      "explanation": "Points to something nearby. The traditional written form is 這.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "这",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0058",
+      "kind": "character",
+      "form": "爸",
+      "language": "zh-CN",
+      "meaning": "dad; father",
+      "explanation": "爸爸 bàba has a neutral second syllable.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "爸",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0059",
+      "kind": "character",
+      "form": "爸",
+      "language": "zh-CN",
+      "meaning": "neutral ba in this word",
+      "explanation": "This occurrence is a neutral syllable. Select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ba",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "爸",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0060",
+      "kind": "word",
+      "form": "英文",
+      "language": "zh-CN",
+      "meaning": "English (language)",
+      "explanation": "The language, distinct from 英国, the country name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Yīngwén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[iŋ⁵⁵ wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "英文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0062",
+        "e-p0005-0010"
+      ]
+    },
+    {
+      "id": "e-p0005-0061",
+      "kind": "sentence",
+      "form": "你有英文报吗？",
+      "language": "zh-CN",
+      "meaning": "Do you have an English-language newspaper?",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ yǒu Yīngwén bào ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你有英文报吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0007",
+        "e-p0005-0008",
+        "e-p0005-0062",
+        "e-p0005-0010",
+        "e-p0005-0063",
+        "e-p0005-0013"
+      ]
+    },
+    {
+      "id": "e-p0005-0062",
+      "kind": "character",
+      "form": "英",
+      "language": "zh-CN",
+      "meaning": "English; Britain (in names)",
+      "explanation": "A component of 英国, 英文 and 英语 in this lesson.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yīng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[iŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "英",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0063",
+      "kind": "character",
+      "form": "报",
+      "language": "zh-CN",
+      "meaning": "newspaper (in 看报)",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "报",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0064",
+      "kind": "word",
+      "form": "中文报",
+      "language": "zh-CN",
+      "meaning": "Chinese-language newspaper",
+      "explanation": "Here 报 means newspaper, and 中文 tells you its language.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngwén bào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中文报",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0009",
+        "e-p0005-0010",
+        "e-p0005-0063"
+      ]
+    },
+    {
+      "id": "e-p0005-0065",
+      "kind": "sentence",
+      "form": "我没有英文报，就有中文报。",
+      "language": "zh-CN",
+      "meaning": "I have no English-language newspapers; I only have Chinese-language newspapers.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ méiyǒu Yīngwén bào, jiù yǒu Zhōngwén bào.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我没有英文报，就有中文报。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0034",
+        "e-p0005-0019",
+        "e-p0005-0008",
+        "e-p0005-0062",
+        "e-p0005-0010",
+        "e-p0005-0063",
+        "e-p0005-0066",
+        "e-p0005-0008",
+        "e-p0005-0009",
+        "e-p0005-0010",
+        "e-p0005-0063"
+      ]
+    },
+    {
+      "id": "e-p0005-0066",
+      "kind": "character",
+      "form": "就",
+      "language": "zh-CN",
+      "meaning": "only; just (here)",
+      "explanation": "In 就有中文报 the speaker says they only have Chinese-language newspapers. Other contexts give 就 other meanings.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕjoʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "就",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0067",
+      "kind": "word",
+      "form": "中国",
+      "language": "zh-CN",
+      "meaning": "China",
+      "explanation": "The name of the country.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngguó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʈʂʊŋ⁵⁵ kwo³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "中国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0009",
+        "e-p0005-0069"
+      ]
+    },
+    {
+      "id": "e-p0005-0068",
+      "kind": "sentence",
+      "form": "中国报贵吗？",
+      "language": "zh-CN",
+      "meaning": "Are Chinese newspapers expensive?",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngguó bào guì ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中国报贵吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0009",
+        "e-p0005-0069",
+        "e-p0005-0063",
+        "e-p0005-0070",
+        "e-p0005-0013"
+      ]
+    },
+    {
+      "id": "e-p0005-0069",
+      "kind": "character",
+      "form": "国",
+      "language": "zh-CN",
+      "meaning": "country; nation",
+      "explanation": "Occurs in 中国 (China). Traditional form: 國.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kwo³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0070",
+      "kind": "character",
+      "form": "贵",
+      "language": "zh-CN",
+      "meaning": "expensive; honourable",
+      "explanation": "Expensive in 报贵吗; a respectful element in 贵姓, asking a person's family name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kweɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "贵",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0071",
+      "kind": "sentence",
+      "form": "不贵，书也不太贵。",
+      "language": "zh-CN",
+      "meaning": "They are not expensive, and books are not very expensive either.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Bú guì, shū yě bú tài guì.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "不贵，书也不太贵。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0026",
+        "e-p0005-0070",
+        "e-p0005-0072",
+        "e-p0005-0030",
+        "e-p0005-0026",
+        "e-p0005-0027",
+        "e-p0005-0070"
+      ]
+    },
+    {
+      "id": "e-p0005-0072",
+      "kind": "character",
+      "form": "书",
+      "language": "zh-CN",
+      "meaning": "book",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shū",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂu⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "书",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0073",
+      "kind": "word",
+      "form": "可是",
+      "language": "zh-CN",
+      "meaning": "but; however",
+      "explanation": "Connects two contrasting statements.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kěshì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "可是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0076",
+        "e-p0005-0023"
+      ]
+    },
+    {
+      "id": "e-p0005-0074",
+      "kind": "sentence",
+      "form": "我有很多英文书，可是没有英文报。",
+      "language": "zh-CN",
+      "meaning": "I have many books in English, but no English-language newspapers.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ yǒu hěn duō Yīngwén shū, kěshì méiyǒu Yīngwén bào.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我有很多英文书，可是没有英文报。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0034",
+        "e-p0005-0008",
+        "e-p0005-0033",
+        "e-p0005-0075",
+        "e-p0005-0062",
+        "e-p0005-0010",
+        "e-p0005-0072",
+        "e-p0005-0076",
+        "e-p0005-0023",
+        "e-p0005-0019",
+        "e-p0005-0008",
+        "e-p0005-0062",
+        "e-p0005-0010",
+        "e-p0005-0063"
+      ]
+    },
+    {
+      "id": "e-p0005-0075",
+      "kind": "character",
+      "form": "多",
+      "language": "zh-CN",
+      "meaning": "many; much",
+      "explanation": "很多 means many or a lot. After a noun, …很多 means there are many of it.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "duō",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[twɔ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "多",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0076",
+      "kind": "character",
+      "form": "可",
+      "language": "zh-CN",
+      "meaning": "can; may; part of 可是 (but)",
+      "explanation": "Learn 可是 as the whole conjunction but. The source's starred gloss refers to this compound use.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʰɤ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "可",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0077",
+      "kind": "word",
+      "form": "杂志",
+      "language": "zh-CN",
+      "meaning": "magazine",
+      "explanation": "A whole word; second syllable zhì is fourth tone.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zázhì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "杂志",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0081",
+        "e-p0005-0082"
+      ]
+    },
+    {
+      "id": "e-p0005-0078",
+      "kind": "sentence",
+      "form": "我爸爸的英文报很多。",
+      "language": "zh-CN",
+      "meaning": "My father has many English-language newspapers.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ bàba de Yīngwén bào hěn duō.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我爸爸的英文报很多。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0034",
+        "e-p0005-0058",
+        "e-p0005-0059",
+        "e-p0005-0021",
+        "e-p0005-0062",
+        "e-p0005-0010",
+        "e-p0005-0063",
+        "e-p0005-0033",
+        "e-p0005-0075"
+      ]
+    },
+    {
+      "id": "e-p0005-0079",
+      "kind": "sentence",
+      "form": "他也有英文杂志",
+      "language": "zh-CN",
+      "meaning": "He also has English-language magazines.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Tā yě yǒu Yīngwén zázhì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "他也有英文杂志",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0080",
+        "e-p0005-0030",
+        "e-p0005-0008",
+        "e-p0005-0062",
+        "e-p0005-0010",
+        "e-p0005-0081",
+        "e-p0005-0082"
+      ]
+    },
+    {
+      "id": "e-p0005-0080",
+      "kind": "character",
+      "form": "他",
+      "language": "zh-CN",
+      "meaning": "he; him",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰa⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "他",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0081",
+      "kind": "character",
+      "form": "杂",
+      "language": "zh-CN",
+      "meaning": "mixed; miscellaneous",
+      "explanation": "杂志 zázhì means magazine.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zá",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "杂",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0082",
+      "kind": "character",
+      "form": "志",
+      "language": "zh-CN",
+      "meaning": "aspiration; record (lexical character)",
+      "explanation": "In 杂志 it belongs to the word magazine.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "志",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0083",
+      "kind": "word",
+      "form": "容易",
+      "language": "zh-CN",
+      "meaning": "easy",
+      "explanation": "Both syllables have full lexical tones; yì is fourth tone.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "róngyì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "容易",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0085",
+        "e-p0005-0086"
+      ]
+    },
+    {
+      "id": "e-p0005-0084",
+      "kind": "sentence",
+      "form": "英文很容易，对吗？",
+      "language": "zh-CN",
+      "meaning": "English is easy, isn't it? (The speaker's question.)",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Yīngwén hěn róngyì, duì ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "英文很容易，对吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0062",
+        "e-p0005-0010",
+        "e-p0005-0033",
+        "e-p0005-0085",
+        "e-p0005-0086",
+        "e-p0005-0087",
+        "e-p0005-0013"
+      ]
+    },
+    {
+      "id": "e-p0005-0085",
+      "kind": "character",
+      "form": "容",
+      "language": "zh-CN",
+      "meaning": "contain; appearance (lexical character)",
+      "explanation": "In 容易 róngyì it is part of the whole word easy.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "róng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "容",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0086",
+      "kind": "character",
+      "form": "易",
+      "language": "zh-CN",
+      "meaning": "easy; change",
+      "explanation": "容易 róngyì means easy; keep fourth-tone yì.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "易",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0087",
+      "kind": "character",
+      "form": "对",
+      "language": "zh-CN",
+      "meaning": "correct; right",
+      "explanation": "对吗？ asks is that right? 不对 means incorrect; 不 becomes bú before fourth-tone duì.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "duì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "对",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0088",
+      "kind": "sentence",
+      "form": "对。",
+      "language": "zh-CN",
+      "meaning": "That's right.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Duì.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "对。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0087"
+      ]
+    },
+    {
+      "id": "e-p0005-0089",
+      "kind": "sentence",
+      "form": "法文容易吗？",
+      "language": "zh-CN",
+      "meaning": "Is French easy?",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Fǎwén róngyì ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "法文容易吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0022",
+        "e-p0005-0010",
+        "e-p0005-0085",
+        "e-p0005-0086",
+        "e-p0005-0013"
+      ]
+    },
+    {
+      "id": "e-p0005-0090",
+      "kind": "word",
+      "form": "日语",
+      "language": "zh-CN",
+      "meaning": "Japanese (language)",
+      "explanation": "A language word in the dialogue.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Rìyǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʐɻ̩⁵¹ y²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "日语",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0093",
+        "e-p0005-0094"
+      ]
+    },
+    {
+      "id": "e-p0005-0091",
+      "kind": "sentence",
+      "form": "不太容易，你懂日语吗？",
+      "language": "zh-CN",
+      "meaning": "It is not very easy. Do you understand Japanese?",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Bú tài róngyì, nǐ dǒng Rìyǔ ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "不太容易，你懂日语吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0026",
+        "e-p0005-0027",
+        "e-p0005-0085",
+        "e-p0005-0086",
+        "e-p0005-0007",
+        "e-p0005-0092",
+        "e-p0005-0093",
+        "e-p0005-0094",
+        "e-p0005-0013"
+      ]
+    },
+    {
+      "id": "e-p0005-0092",
+      "kind": "character",
+      "form": "懂",
+      "language": "zh-CN",
+      "meaning": "understand",
+      "explanation": "你懂日语吗？ asks whether you understand Japanese.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dǒng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʊŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "懂",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0093",
+      "kind": "character",
+      "form": "日",
+      "language": "zh-CN",
+      "meaning": "sun; day",
+      "explanation": "Full source character; incomplete stroke stages are excluded.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "rì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʐɻ̩⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "日",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0094",
+      "kind": "character",
+      "form": "语",
+      "language": "zh-CN",
+      "meaning": "language; speech",
+      "explanation": "In 日语, Japanese, and 语法, grammar.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[y²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "语",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0095",
+      "kind": "word",
+      "form": "语法",
+      "language": "zh-CN",
+      "meaning": "grammar",
+      "explanation": "Both lexical syllables are third tone; the first normally rises before the second in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǔfǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "语法",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0094",
+        "e-p0005-0022"
+      ]
+    },
+    {
+      "id": "e-p0005-0096",
+      "kind": "sentence",
+      "form": "我不懂日语。",
+      "language": "zh-CN",
+      "meaning": "I do not understand Japanese.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ bù dǒng Rìyǔ.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我不懂日语。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0034",
+        "e-p0005-0098",
+        "e-p0005-0092",
+        "e-p0005-0093",
+        "e-p0005-0094"
+      ]
+    },
+    {
+      "id": "e-p0005-0097",
+      "kind": "sentence",
+      "form": "日语语法太难，我不想学。",
+      "language": "zh-CN",
+      "meaning": "Japanese grammar is too difficult; I do not want to study it. (The speaker's opinion.)",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Rìyǔ yǔfǎ tài nán, wǒ bù xiǎng xué.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "日语语法太难，我不想学。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0093",
+        "e-p0005-0094",
+        "e-p0005-0094",
+        "e-p0005-0022",
+        "e-p0005-0027",
+        "e-p0005-0099",
+        "e-p0005-0034",
+        "e-p0005-0098",
+        "e-p0005-0100",
+        "e-p0005-0101"
+      ]
+    },
+    {
+      "id": "e-p0005-0098",
+      "kind": "character",
+      "form": "不",
+      "language": "zh-CN",
+      "meaning": "not",
+      "explanation": "The lexical tone is fourth; before another fourth tone it changes to bú. In 不吃 it remains bù.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "不",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0099",
+      "kind": "character",
+      "form": "难",
+      "language": "zh-CN",
+      "meaning": "difficult; hard",
+      "explanation": "太难 means too difficult. Nàn is a different reading in words about disaster.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nán",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nan³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "难",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0100",
+      "kind": "character",
+      "form": "想",
+      "language": "zh-CN",
+      "meaning": "think; want; would like",
+      "explanation": "Before a verb, 想 expresses a wish to do it. 很想 means really want to.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "想",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0101",
+      "kind": "character",
+      "form": "学",
+      "language": "zh-CN",
+      "meaning": "learn; study",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xué",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥe³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "学",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0102",
+      "kind": "word",
+      "form": "大夫",
+      "language": "zh-CN",
+      "meaning": "doctor",
+      "explanation": "Special dài reading for 大; the second syllable fu is neutral. A surname comes before the title, as in 孙大夫 Dr Sun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dàifu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[taɪ⁵¹ fu]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "大夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0108",
+        "e-p0005-0109"
+      ]
+    },
+    {
+      "id": "e-p0005-0103",
+      "kind": "word",
+      "form": "您好",
+      "language": "zh-CN",
+      "meaning": "hello (respectful)",
+      "explanation": "您 is the respectful singular form of 你.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nín hǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nin³⁵ xɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "您好",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0110",
+        "e-p0005-0028"
+      ]
+    },
+    {
+      "id": "e-p0005-0104",
+      "kind": "word",
+      "form": "孙大夫",
+      "language": "zh-CN",
+      "meaning": "Dr Sun",
+      "explanation": "Family name Sun precedes the title doctor. 大夫 is dàifu with neutral fu.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Sūn dàifu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "孙大夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0107",
+        "e-p0005-0108",
+        "e-p0005-0109"
+      ]
+    },
+    {
+      "id": "e-p0005-0105",
+      "kind": "sentence",
+      "form": "孙大夫，您好！",
+      "language": "zh-CN",
+      "meaning": "Hello, Dr Sun! (Respectful greeting.)",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Sūn dàifu, nín hǎo!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "孙大夫，您好！",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0107",
+        "e-p0005-0108",
+        "e-p0005-0109",
+        "e-p0005-0110",
+        "e-p0005-0028"
+      ]
+    },
+    {
+      "id": "e-p0005-0106",
+      "kind": "sentence",
+      "form": "您好！",
+      "language": "zh-CN",
+      "meaning": "Hello! (Respectful greeting.)",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nín hǎo!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "您好！",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0110",
+        "e-p0005-0028"
+      ]
+    },
+    {
+      "id": "e-p0005-0107",
+      "kind": "character",
+      "form": "孙",
+      "language": "zh-CN",
+      "meaning": "Sun (family name)",
+      "explanation": "A family name in 孙大夫, Dr Sun. It is not translated literally in the name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Sūn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "孙",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0108",
+      "kind": "character",
+      "form": "大",
+      "language": "zh-CN",
+      "meaning": "doctor (first syllable of 大夫)",
+      "explanation": "Special dài reading in 大夫 dàifu, doctor, unlike dà meaning big.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[taɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "大",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0109",
+      "kind": "character",
+      "form": "夫",
+      "language": "zh-CN",
+      "meaning": "doctor (second syllable of 大夫)",
+      "explanation": "Neutral fu in the complete word 大夫 dàifu, doctor.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fu]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0110",
+      "kind": "character",
+      "form": "您",
+      "language": "zh-CN",
+      "meaning": "you (respectful singular)",
+      "explanation": "Used to address an older person or someone politely. It has the second tone, distinct from 你 nǐ.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nín",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nin³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "您",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0111",
+      "kind": "sentence",
+      "form": "你爸爸好吗？",
+      "language": "zh-CN",
+      "meaning": "Is your father well?",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ bàba hǎo ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你爸爸好吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0007",
+        "e-p0005-0058",
+        "e-p0005-0059",
+        "e-p0005-0028",
+        "e-p0005-0013"
+      ]
+    },
+    {
+      "id": "e-p0005-0112",
+      "kind": "character",
+      "form": "啊",
+      "language": "zh-CN",
+      "meaning": "ah; oh (interjection)",
+      "explanation": "Neutral a is used here as an interjection. Its pitch can vary with expression.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "a",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[a]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "啊",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0113",
+      "kind": "character",
+      "form": "小",
+      "language": "zh-CN",
+      "meaning": "small",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "小",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0114",
+      "kind": "sentence",
+      "form": "他很好。",
+      "language": "zh-CN",
+      "meaning": "He is very well.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Tā hěn hǎo.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "他很好。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0080",
+        "e-p0005-0033",
+        "e-p0005-0028"
+      ]
+    },
+    {
+      "id": "e-p0005-0115",
+      "kind": "word",
+      "form": "妈妈",
+      "language": "zh-CN",
+      "meaning": "mum; mother",
+      "explanation": "Neutral second syllable ma.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "māma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma⁵⁵ ma]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "妈妈",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0117",
+        "e-p0005-0118"
+      ]
+    },
+    {
+      "id": "e-p0005-0116",
+      "kind": "sentence",
+      "form": "你妈妈呢？",
+      "language": "zh-CN",
+      "meaning": "And what about your mother?",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ māma ne?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你妈妈呢？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0007",
+        "e-p0005-0117",
+        "e-p0005-0118",
+        "e-p0005-0119"
+      ]
+    },
+    {
+      "id": "e-p0005-0117",
+      "kind": "character",
+      "form": "妈",
+      "language": "zh-CN",
+      "meaning": "mum",
+      "explanation": "The character alone is mā. In 妈妈 (māma, mum), the second syllable is neutral; use the complete word reading for that context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "妈",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0118",
+      "kind": "character",
+      "form": "妈",
+      "language": "zh-CN",
+      "meaning": "neutral ma in this word",
+      "explanation": "This occurrence is a neutral syllable. Select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "妈",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0119",
+      "kind": "character",
+      "form": "呢",
+      "language": "zh-CN",
+      "meaning": "and what about…? (question particle)",
+      "explanation": "Neutral tone. 你妈妈呢？ asks what about your mother? in the existing conversation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ne",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nɤ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "呢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0120",
+      "kind": "sentence",
+      "form": "我妈妈也很好。",
+      "language": "zh-CN",
+      "meaning": "My mother is very well too.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ māma yě hěn hǎo.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我妈妈也很好。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0034",
+        "e-p0005-0117",
+        "e-p0005-0118",
+        "e-p0005-0030",
+        "e-p0005-0033",
+        "e-p0005-0028"
+      ]
+    },
+    {
+      "id": "e-p0005-0121",
+      "kind": "sentence",
+      "form": "您忙吗？",
+      "language": "zh-CN",
+      "meaning": "Are you busy? (Respectful you.)",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nín máng ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "您忙吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0110",
+        "e-p0005-0122",
+        "e-p0005-0013"
+      ]
+    },
+    {
+      "id": "e-p0005-0122",
+      "kind": "character",
+      "form": "忙",
+      "language": "zh-CN",
+      "meaning": "busy",
+      "explanation": "A descriptive predicate: 我很忙 means I am busy.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "máng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "忙",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0123",
+      "kind": "sentence",
+      "form": "我很忙。",
+      "language": "zh-CN",
+      "meaning": "I am busy.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ hěn máng.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我很忙。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0034",
+        "e-p0005-0033",
+        "e-p0005-0122"
+      ]
+    },
+    {
+      "id": "e-p0005-0124",
+      "kind": "word",
+      "form": "朋友",
+      "language": "zh-CN",
+      "meaning": "friend",
+      "explanation": "The second syllable you is neutral. 男朋友 and 女朋友 can mean boyfriend and girlfriend in the dialogue context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "péngyou",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰəŋ³⁵ joʊ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "朋友",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0127",
+        "e-p0005-0128"
+      ]
+    },
+    {
+      "id": "e-p0005-0125",
+      "kind": "word",
+      "form": "法国",
+      "language": "zh-CN",
+      "meaning": "France",
+      "explanation": "A country name. The third tone on Fǎ precedes second-tone guó.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Fǎguó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "法国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0022",
+        "e-p0005-0069"
+      ]
+    },
+    {
+      "id": "e-p0005-0126",
+      "kind": "sentence",
+      "form": "这是我的法国朋友。",
+      "language": "zh-CN",
+      "meaning": "This is my French friend.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhè shì wǒ de Fǎguó péngyou.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "这是我的法国朋友。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0057",
+        "e-p0005-0023",
+        "e-p0005-0034",
+        "e-p0005-0021",
+        "e-p0005-0022",
+        "e-p0005-0069",
+        "e-p0005-0127",
+        "e-p0005-0128"
+      ]
+    },
+    {
+      "id": "e-p0005-0127",
+      "kind": "character",
+      "form": "朋",
+      "language": "zh-CN",
+      "meaning": "friend (in compounds)",
+      "explanation": "Learn 朋友 péngyou as the ordinary word for friend. 朋 is not normally used alone in conversation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "péng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pʰəŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "朋",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0128",
+      "kind": "character",
+      "form": "友",
+      "language": "zh-CN",
+      "meaning": "neutral you in this word",
+      "explanation": "This occurrence is a neutral syllable. Select the whole word for its meaning and complete pronunciation.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "you",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[joʊ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "友",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0129",
+      "kind": "word",
+      "form": "贵姓",
+      "language": "zh-CN",
+      "meaning": "your surname (respectful question)",
+      "explanation": "您贵姓？ politely asks someone's family name; do not translate 贵 as expensive in this formula.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guì xìng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "贵姓",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0070",
+        "e-p0005-0131"
+      ]
+    },
+    {
+      "id": "e-p0005-0130",
+      "kind": "sentence",
+      "form": "您贵姓？",
+      "language": "zh-CN",
+      "meaning": "What is your family name? (Respectful question.)",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nín guì xìng?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "您贵姓？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0110",
+        "e-p0005-0070",
+        "e-p0005-0131"
+      ]
+    },
+    {
+      "id": "e-p0005-0131",
+      "kind": "character",
+      "form": "姓",
+      "language": "zh-CN",
+      "meaning": "have the family name; surname",
+      "explanation": "我姓孙 means my surname is Sun. A family name normally comes first in a Chinese name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xìng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕiŋ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "姓",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0132",
+      "kind": "sentence",
+      "form": "我姓孙。",
+      "language": "zh-CN",
+      "meaning": "My family name is Sun.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ xìng Sūn.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我姓孙。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0034",
+        "e-p0005-0131",
+        "e-p0005-0107"
+      ]
+    },
+    {
+      "id": "e-p0005-0133",
+      "kind": "word",
+      "form": "老师",
+      "language": "zh-CN",
+      "meaning": "teacher",
+      "explanation": "Use a surname before the title, for example 孙老师, Teacher Sun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǎoshī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lɑʊ²¹⁴ ʂɻ̩⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "老师",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0135",
+        "e-p0005-0136"
+      ]
+    },
+    {
+      "id": "e-p0005-0134",
+      "kind": "sentence",
+      "form": "他是你的老师吗？",
+      "language": "zh-CN",
+      "meaning": "Is he your teacher?",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Tā shì nǐ de lǎoshī ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "他是你的老师吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0080",
+        "e-p0005-0023",
+        "e-p0005-0007",
+        "e-p0005-0021",
+        "e-p0005-0135",
+        "e-p0005-0136",
+        "e-p0005-0013"
+      ]
+    },
+    {
+      "id": "e-p0005-0135",
+      "kind": "character",
+      "form": "老",
+      "language": "zh-CN",
+      "meaning": "old; senior",
+      "explanation": "老人 means an older person. 老 before a surname is a familiar form of address, such as 老王, Lao Wang.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "老",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0136",
+      "kind": "character",
+      "form": "师",
+      "language": "zh-CN",
+      "meaning": "teacher (in compounds)",
+      "explanation": "The second character of 老师 lǎoshī, teacher.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɻ̩⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "师",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0137",
+      "kind": "word",
+      "form": "有名",
+      "language": "zh-CN",
+      "meaning": "famous; well known",
+      "explanation": "A complete expression meaning famous, not simply have a name.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǒumíng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "有名",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0008",
+        "e-p0005-0011"
+      ]
+    },
+    {
+      "id": "e-p0005-0138",
+      "kind": "sentence",
+      "form": "孙大夫很有名！",
+      "language": "zh-CN",
+      "meaning": "Dr Sun is very well known!",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Sūn dàifu hěn yǒumíng!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "孙大夫很有名！",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0107",
+        "e-p0005-0108",
+        "e-p0005-0109",
+        "e-p0005-0033",
+        "e-p0005-0008",
+        "e-p0005-0011"
+      ]
+    },
+    {
+      "id": "e-p0005-0139",
+      "kind": "character",
+      "form": "问",
+      "language": "zh-CN",
+      "meaning": "ask; send greetings",
+      "explanation": "问某人好 means send greetings to someone.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wèn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "问",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0140",
+      "kind": "word",
+      "form": "他们",
+      "language": "zh-CN",
+      "meaning": "they; them (male or mixed group)",
+      "explanation": "Neutral men. 她们 is used for a female group.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tāmen",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "他们",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0080",
+        "e-p0005-0144"
+      ]
+    },
+    {
+      "id": "e-p0005-0141",
+      "kind": "word",
+      "form": "田大夫",
+      "language": "zh-CN",
+      "meaning": "Dr Tian",
+      "explanation": "Tian is the family name; surname before title.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Tián dàifu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "田大夫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0143",
+        "e-p0005-0108",
+        "e-p0005-0109"
+      ]
+    },
+    {
+      "id": "e-p0005-0142",
+      "kind": "sentence",
+      "form": "田大夫也问他们好。",
+      "language": "zh-CN",
+      "meaning": "Dr Tian sends them his greetings too.",
+      "explanation": "Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Tián dàifu yě wèn tāmen hǎo.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "田大夫也问他们好。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      },
+      "constituentIds": [
+        "e-p0005-0143",
+        "e-p0005-0108",
+        "e-p0005-0109",
+        "e-p0005-0030",
+        "e-p0005-0139",
+        "e-p0005-0080",
+        "e-p0005-0144",
+        "e-p0005-0028"
+      ]
+    },
+    {
+      "id": "e-p0005-0143",
+      "kind": "character",
+      "form": "田",
+      "language": "zh-CN",
+      "meaning": "field",
+      "explanation": "The meaning and reading shown apply to this source context.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tián",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰjɛn³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "田",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    },
+    {
+      "id": "e-p0005-0144",
+      "kind": "character",
+      "form": "们",
+      "language": "zh-CN",
+      "meaning": "plural suffix for people",
+      "explanation": "Neutral tone. Used with pronouns, such as 我们 and 你们; do not add it to every noun.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "men",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mən]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "Broad Mandarin IPA; superscript digits indicate tone pitch. Neutral syllables have no lexical tone digits."
+        }
+      ],
+      "speechTarget": "们",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Codex",
+        "review": "Separate agent self-review, not human or independent review."
+      }
+    }
+  ]
+}

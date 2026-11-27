@@ -1,0 +1,1203 @@
+{
+  "documentId": "lecon-03-fr",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Quel lieu est 巴黎 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Paris"
+        },
+        {
+          "id": "o2",
+          "text": "Hangzhou"
+        },
+        {
+          "id": "o3",
+          "text": "Xi’an"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "巴黎 Bālí est Paris.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0155"
+      ],
+      "entryIds": [
+        "e-p0006-0075"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « photographie » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "相片"
+        },
+        {
+          "id": "o2",
+          "text": "朋友"
+        },
+        {
+          "id": "o3",
+          "text": "本子"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "相片 xiàngpiàn signifie « photographie ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0160"
+      ],
+      "entryIds": [
+        "e-p0006-0078"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choisis le caractère signifiant « puits (d'eau) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "井"
+        },
+        {
+          "id": "o2",
+          "text": "早"
+        },
+        {
+          "id": "o3",
+          "text": "左"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "井 jǐng signifie « puits » ; 水井 est un « puits d'eau ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0366"
+      ],
+      "entryIds": [
+        "e-p0006-0188"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que demande cette question ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "où tu aimerais aller"
+        },
+        {
+          "id": "o2",
+          "text": "ce que tu veux acheter"
+        },
+        {
+          "id": "o3",
+          "text": "qui est ton professeur"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "想去 signifie « aimerait aller » ; 哪儿 demande « où ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0069"
+      ],
+      "entryIds": [
+        "e-p0006-0044"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qui vend des livres en français ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "le frère aîné de Lao Wang"
+        },
+        {
+          "id": "o2",
+          "text": "la mère de Lao Wang"
+        },
+        {
+          "id": "o3",
+          "text": "Dr Sun"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "老王的哥哥 signifie « le frère aîné de Lao Wang » ; 卖法文书 signifie « vend des livres en français ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0209"
+      ],
+      "entryIds": [
+        "e-p0006-0105"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-006",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète l'expression tirée de la source : 王大夫___相片儿",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "的"
+        },
+        {
+          "id": "o2",
+          "text": "吗"
+        },
+        {
+          "id": "o3",
+          "text": "不"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "的 relie la photo au Dr Wang.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0164"
+      ],
+      "entryIds": [
+        "e-p0006-0081"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-007",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Que signifie 太忙 dans cette phrase ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "trop occupé(e)"
+        },
+        {
+          "id": "o2",
+          "text": "pas très occupé(e)"
+        },
+        {
+          "id": "o3",
+          "text": "pas du tout occupé(e)"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "太 signifie « trop » ou « excessivement » ; il n'y a pas de 不 devant 太忙 ici.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0165"
+      ],
+      "entryIds": [
+        "e-p0006-0082"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-008",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie le mot vertical 买卖 dans la grille ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "commerce ; négoce"
+        },
+        {
+          "id": "o2",
+          "text": "ami(e)"
+        },
+        {
+          "id": "o3",
+          "text": "usine"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Les caractères verticaux adjacents 买 et 卖 forment le nom 买卖 mǎimai, « commerce ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0380"
+      ],
+      "entryIds": [
+        "e-p0006-0195"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0006-009",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute et choisis le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "太"
+        },
+        {
+          "id": "o2",
+          "text": "大"
+        },
+        {
+          "id": "o3",
+          "text": "夫"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "太 se prononce tài (« trop ») ; 大 signifiant « grand » se prononce dà.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0183"
+      ],
+      "entryIds": [
+        "e-p0006-0090"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      },
+      "speechTarget": "太"
+    },
+    {
+      "id": "q-p0006-010",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 孙大夫再见！ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-010-o1",
+          "text": "Au revoir, Dr Sun !"
+        },
+        {
+          "id": "q-p0006-010-o2",
+          "text": "Au revoir !"
+        },
+        {
+          "id": "q-p0006-010-o3",
+          "text": "Yamamoto, où aimerais-tu aller ?"
+        }
+      ],
+      "correctOptionId": "q-p0006-010-o1",
+      "explanation": "« 孙大夫再见！ » (Sūn dàifu zàijiàn!) signifie « Au revoir, Dr Sun ! ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0004"
+      ],
+      "entryIds": [
+        "e-p0006-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-011",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 大夫 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-011-o1",
+          "text": "au revoir"
+        },
+        {
+          "id": "q-p0006-011-o2",
+          "text": "Dr Sun"
+        },
+        {
+          "id": "q-p0006-011-o3",
+          "text": "docteur ; médecin"
+        }
+      ],
+      "correctOptionId": "q-p0006-011-o3",
+      "explanation": "大夫 (dàifu) signifie « docteur ; médecin ». Lecture particulière dài pour 大 ; la deuxième syllabe fu est neutre. Le nom de famille précède le titre, comme dans 孙大夫, « Dr Sun ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-012",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « docteur ; médecin » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-012-o1",
+          "text": "孙大夫"
+        },
+        {
+          "id": "q-p0006-012-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0006-012-o3",
+          "text": "再见"
+        }
+      ],
+      "correctOptionId": "q-p0006-012-o2",
+      "explanation": "« docteur ; médecin » se dit 大夫 (dàifu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-013",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « Lǐ » et signifiant « Li (nom de famille) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-013-o1",
+          "text": "李"
+        },
+        {
+          "id": "q-p0006-013-o2",
+          "text": "玛"
+        },
+        {
+          "id": "q-p0006-013-o3",
+          "text": "孙"
+        }
+      ],
+      "correctOptionId": "q-p0006-013-o1",
+      "explanation": "李 se prononce Lǐ et signifie « Li (nom de famille) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0006"
+      ],
+      "entryIds": [
+        "e-p0006-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-014",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « ____再见！ » (Au revoir, Dr Sun !)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-014-o1",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0006-014-o2",
+          "text": "再见"
+        },
+        {
+          "id": "q-p0006-014-o3",
+          "text": "孙大夫"
+        }
+      ],
+      "correctOptionId": "q-p0006-014-o3",
+      "explanation": "Le mot manquant est 孙大夫 (Sūn dàifu, « Dr Sun »), complétant « 孙大夫再见！ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0004"
+      ],
+      "entryIds": [
+        "e-p0006-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-015",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-015-o1",
+          "text": "孙大夫"
+        },
+        {
+          "id": "q-p0006-015-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0006-015-o3",
+          "text": "再见"
+        }
+      ],
+      "correctOptionId": "q-p0006-015-o2",
+      "explanation": "L'audio prononce 大夫 (dàifu), qui signifie « docteur ; médecin ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "大夫",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-016",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 大夫 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-016-o1",
+          "text": "docteur ; médecin"
+        },
+        {
+          "id": "q-p0006-016-o2",
+          "text": "au revoir"
+        },
+        {
+          "id": "q-p0006-016-o3",
+          "text": "Dr Sun"
+        }
+      ],
+      "correctOptionId": "q-p0006-016-o1",
+      "explanation": "大夫 (dàifu) signifie « docteur ; médecin ». Lecture particulière dài pour 大 ; la deuxième syllabe fu est neutre. Le nom de famille précède le titre, comme dans 孙大夫, « Dr Sun ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-017",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 再见！ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-017-o1",
+          "text": "Au revoir, Dr Sun !"
+        },
+        {
+          "id": "q-p0006-017-o2",
+          "text": "Yamamoto, où aimerais-tu aller ?"
+        },
+        {
+          "id": "q-p0006-017-o3",
+          "text": "Au revoir !"
+        }
+      ],
+      "correctOptionId": "q-p0006-017-o3",
+      "explanation": "« 再见！ » (Zàijiàn!) signifie « Au revoir ! ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0005"
+      ],
+      "entryIds": [
+        "e-p0006-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-018",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 再见 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-018-o1",
+          "text": "Dr Sun"
+        },
+        {
+          "id": "q-p0006-018-o2",
+          "text": "au revoir"
+        },
+        {
+          "id": "q-p0006-018-o3",
+          "text": "docteur ; médecin"
+        }
+      ],
+      "correctOptionId": "q-p0006-018-o2",
+      "explanation": "再见 (zàijiàn) signifie « au revoir ». Littéralement « encore + voir » : se revoir.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0002"
+      ],
+      "entryIds": [
+        "e-p0006-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-019",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « au revoir » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-019-o1",
+          "text": "再见"
+        },
+        {
+          "id": "q-p0006-019-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0006-019-o3",
+          "text": "孙大夫"
+        }
+      ],
+      "correctOptionId": "q-p0006-019-o1",
+      "explanation": "« au revoir » se dit 再见 (zàijiàn).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0002"
+      ],
+      "entryIds": [
+        "e-p0006-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-020",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « mǎ » et signifiant « élément de 玛瑙 (agate) ; caractère utilisé dans les noms ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-020-o1",
+          "text": "李"
+        },
+        {
+          "id": "q-p0006-020-o2",
+          "text": "孙"
+        },
+        {
+          "id": "q-p0006-020-o3",
+          "text": "玛"
+        }
+      ],
+      "correctOptionId": "q-p0006-020-o3",
+      "explanation": "玛 se prononce mǎ et signifie « élément de 玛瑙 (agate) ; caractère utilisé dans les noms ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0007"
+      ],
+      "entryIds": [
+        "e-p0006-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-021",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « ____！ » (Au revoir !)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-021-o1",
+          "text": "孙大夫"
+        },
+        {
+          "id": "q-p0006-021-o2",
+          "text": "再见"
+        },
+        {
+          "id": "q-p0006-021-o3",
+          "text": "大夫"
+        }
+      ],
+      "correctOptionId": "q-p0006-021-o2",
+      "explanation": "Le mot manquant est 再见 (zàijiàn, « au revoir »), complétant « 再见！ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0005"
+      ],
+      "entryIds": [
+        "e-p0006-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-022",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-022-o1",
+          "text": "孙大夫再见！"
+        },
+        {
+          "id": "q-p0006-022-o2",
+          "text": "再见！"
+        },
+        {
+          "id": "q-p0006-022-o3",
+          "text": "山本，你想去什么地方？"
+        }
+      ],
+      "correctOptionId": "q-p0006-022-o1",
+      "explanation": "L'audio prononce 孙大夫再见！ (Sūn dàifu zàijiàn!), qui signifie « Au revoir, Dr Sun ! ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0004"
+      ],
+      "entryIds": [
+        "e-p0006-0004"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "孙大夫再见！",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-023",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 再见 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-023-o1",
+          "text": "docteur ; médecin"
+        },
+        {
+          "id": "q-p0006-023-o2",
+          "text": "Dr Sun"
+        },
+        {
+          "id": "q-p0006-023-o3",
+          "text": "au revoir"
+        }
+      ],
+      "correctOptionId": "q-p0006-023-o3",
+      "explanation": "再见 (zàijiàn) signifie « au revoir ». Littéralement « encore + voir » : se revoir.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0002"
+      ],
+      "entryIds": [
+        "e-p0006-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-024",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 山本，你想去什么地方？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-024-o1",
+          "text": "Au revoir !"
+        },
+        {
+          "id": "q-p0006-024-o2",
+          "text": "Yamamoto, où aimerais-tu aller ?"
+        },
+        {
+          "id": "q-p0006-024-o3",
+          "text": "Au revoir, Dr Sun !"
+        }
+      ],
+      "correctOptionId": "q-p0006-024-o2",
+      "explanation": "« 山本，你想去什么地方？ » (Shānběn, nǐ xiǎng qù shénme dìfang?) signifie « Yamamoto, où aimerais-tu aller ? ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0036"
+      ],
+      "entryIds": [
+        "e-p0006-0023"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-025",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 孙大夫 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-025-o1",
+          "text": "Dr Sun"
+        },
+        {
+          "id": "q-p0006-025-o2",
+          "text": "docteur ; médecin"
+        },
+        {
+          "id": "q-p0006-025-o3",
+          "text": "au revoir"
+        }
+      ],
+      "correctOptionId": "q-p0006-025-o1",
+      "explanation": "孙大夫 (Sūn dàifu) signifie « Dr Sun ». Le nom de famille Sun précède le titre « docteur ». 大夫 se lit dàifu avec fu neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0003"
+      ],
+      "entryIds": [
+        "e-p0006-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-026",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Dr Sun » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-026-o1",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0006-026-o2",
+          "text": "再见"
+        },
+        {
+          "id": "q-p0006-026-o3",
+          "text": "孙大夫"
+        }
+      ],
+      "correctOptionId": "q-p0006-026-o3",
+      "explanation": "« Dr Sun » se dit 孙大夫 (Sūn dàifu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0003"
+      ],
+      "entryIds": [
+        "e-p0006-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-027",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « Sūn » et signifiant « Sun (nom de famille) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-027-o1",
+          "text": "玛"
+        },
+        {
+          "id": "q-p0006-027-o2",
+          "text": "孙"
+        },
+        {
+          "id": "q-p0006-027-o3",
+          "text": "李"
+        }
+      ],
+      "correctOptionId": "q-p0006-027-o2",
+      "explanation": "孙 se prononce Sūn et signifie « Sun (nom de famille) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0008"
+      ],
+      "entryIds": [
+        "e-p0006-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-028",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « ____，你想去什么地方？ » (Yamamoto, où aimerais-tu aller ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-028-o1",
+          "text": "山本"
+        },
+        {
+          "id": "q-p0006-028-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0006-028-o3",
+          "text": "再见"
+        }
+      ],
+      "correctOptionId": "q-p0006-028-o1",
+      "explanation": "Le mot manquant est 山本 (Shānběn, « Yamamoto (nom de famille japonais) »), complétant « 山本，你想去什么地方？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0036"
+      ],
+      "entryIds": [
+        "e-p0006-0023"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-029",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-029-o1",
+          "text": "玛"
+        },
+        {
+          "id": "q-p0006-029-o2",
+          "text": "孙"
+        },
+        {
+          "id": "q-p0006-029-o3",
+          "text": "李"
+        }
+      ],
+      "correctOptionId": "q-p0006-029-o3",
+      "explanation": "L'audio prononce 李 (Lǐ), qui signifie « Li (nom de famille) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0006"
+      ],
+      "entryIds": [
+        "e-p0006-0006"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "李",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-030",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 孙大夫 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-030-o1",
+          "text": "au revoir"
+        },
+        {
+          "id": "q-p0006-030-o2",
+          "text": "Dr Sun"
+        },
+        {
+          "id": "q-p0006-030-o3",
+          "text": "docteur ; médecin"
+        }
+      ],
+      "correctOptionId": "q-p0006-030-o2",
+      "explanation": "孙大夫 (Sūn dàifu) signifie « Dr Sun ». Le nom de famille Sun précède le titre « docteur ». 大夫 se lit dàifu avec fu neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0003"
+      ],
+      "entryIds": [
+        "e-p0006-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-031",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 想去杭州，想去 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-031-o1",
+          "text": "J'aimerais aller à Hangzhou ; j'aimerais aller… (La phrase reste en suspens dans la source.)"
+        },
+        {
+          "id": "q-p0006-031-o2",
+          "text": "Au revoir, Dr Sun !"
+        },
+        {
+          "id": "q-p0006-031-o3",
+          "text": "Au revoir !"
+        }
+      ],
+      "correctOptionId": "q-p0006-031-o1",
+      "explanation": "« 想去杭州，想去 » (Xiǎng qù Hángzhōu, xiǎng qù) signifie « J'aimerais aller à Hangzhou ; j'aimerais aller… (La phrase reste en suspens dans la source.) ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0076"
+      ],
+      "entryIds": [
+        "e-p0006-0047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-032",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 李玉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-032-o1",
+          "text": "docteur ; médecin"
+        },
+        {
+          "id": "q-p0006-032-o2",
+          "text": "au revoir"
+        },
+        {
+          "id": "q-p0006-032-o3",
+          "text": "Li Yu (nom de personne)"
+        }
+      ],
+      "correctOptionId": "q-p0006-032-o3",
+      "explanation": "李玉 (Lǐ Yù) signifie « Li Yu (nom de personne) ». Li est le nom de famille, Yu le prénom ; conserver le nom plutôt que de le traduire par « prune-jade ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0022"
+      ],
+      "entryIds": [
+        "e-p0006-0013"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-033",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Li Yu (nom de personne) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-033-o1",
+          "text": "再见"
+        },
+        {
+          "id": "q-p0006-033-o2",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0006-033-o3",
+          "text": "大夫"
+        }
+      ],
+      "correctOptionId": "q-p0006-033-o2",
+      "explanation": "« Li Yu (nom de personne) » est 李玉 (Lǐ Yù).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0022"
+      ],
+      "entryIds": [
+        "e-p0006-0013"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-034",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « dài » et signifiant « docteur (première syllabe de 大夫) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-034-o1",
+          "text": "大"
+        },
+        {
+          "id": "q-p0006-034-o2",
+          "text": "李"
+        },
+        {
+          "id": "q-p0006-034-o3",
+          "text": "玛"
+        }
+      ],
+      "correctOptionId": "q-p0006-034-o1",
+      "explanation": "大 se prononce dài et signifie « docteur (première syllabe de 大夫) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0009"
+      ],
+      "entryIds": [
+        "e-p0006-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

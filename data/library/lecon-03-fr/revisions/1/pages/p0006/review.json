@@ -1,0 +1,98 @@
+{
+  "documentId": "lecon-03-fr",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "textSha256": "3e9241e7563fb0d89d1753b0482794cac1a9b80d09f6e5b273aff4e6097e1a92",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, auto-révision distincte après rédaction ; aucune révision humaine ni indépendante",
+  "reviewedAt": "2026-11-24T09:32:48.607813+00:00",
+  "checks": [
+    "Comparaison de chaque image source demandée avec l'OCR, la lecture chinoise principale, le vocabulaire, les étiquettes d'illustration, le tracé et les rôles des composants.",
+    "Correction de l'OCR non publié avec la géométrie OCR individuelle d'origine ou des boîtes de glyphes manquantes mesurées séparément ; reconstruction des décalages de points de code Unicode et de l'inclusion.",
+    "Une révision linguistique distincte a vérifié les changements de ton sur 不, les suffixes neutres, 大夫 dàifu, 相片 xiàngpiàn, 买卖 mǎimai, 容易 róngyì, l'ordre nom/titre et le naturel des traductions françaises.",
+    "Une révision distincte des questions a vérifié chaque réponse et distracteur, l'ambiguïté, le périmètre de la page sélectionnée, les identifiants stables, l'explication et le verrouillage audio.",
+    "Les listes de caractères et exercices de confusion ne sont pas traités comme des mots composés simplement parce que des glyphes adjacents ressemblent à un mot. Aucune réponse aux blancs ouverts n'est devinée.",
+    "Diagnostics SVG liés à la source régénérés après les dernières corrections d'extraction ; inspectés à l'échelle de la page et en agrandissement pour le vocabulaire, le tracé et la grille. La révision dans le navigateur suit la première publication validée.",
+    "La révision post-publication dans le navigateur de l'agent a réussi ; trois notes techniques d'ancrage ont été remplacées par des explications grammaticales via une correction ciblée des entrées. Aucun sens de question ni aucune réponse concernée n'a changé.",
+    "Extension de la banque de questions révisées à travers les entrées et annotations de la page ; vérification des options distinctes, de l'identifiant unique de bonne réponse et des sourceAnnotationIds locaux à la page."
+  ],
+  "coverage": {
+    "scope": "Page 6 du PDF physique ; contenu d'apprentissage révisé avec OCR de référence partiel. Aucun pourcentage de couverture n'est revendiqué.",
+    "roles": "Vocabulaire/dialogue de voyage et mémento, bulles d'illustration, caractères complets lisibles dans les amorces d'exercices non remplies, sept caractères d'exercice d'ordre des traits, cinq caractères à mémoriser, les 81 cases de mots mêlés et 14 mots cachés explicitement ancrés. Les blancs non remplis sont conservés sans être devinés ; les consignes d'écriture en pinyin imprimées restent de l'OCR de référence.",
+    "transcriptCodePoints": 1403,
+    "locatedRecords": 1239,
+    "manualCharacterBoxes": 94,
+    "learningLines": 47,
+    "entries": 198,
+    "entriesByKind": {
+      "word": 39,
+      "sentence": 17,
+      "character": 142
+    },
+    "occurrences": 385,
+    "reviewedIPAEntries": 90,
+    "entriesWithoutReviewedIPA": 108,
+    "questions": 9,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 15,
+    "multilineNote": "Wrapped sentences on page 4 and page 6; vertical grid words use one real glyph anchor per cell on page 6. Not applicable where count is zero.",
+    "reviewedQuestions": 34
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0006",
+      "reason": "L'OCR de référence est partiel ou incertain pour les répétitions pâles de tracé, les dessins historiques ou de tracé, les petits textes en français/pinyin et les discussions mixtes avec guillemets. Seules les zones d'apprentissage désignées et vérifiées visuellement sont enrichies ; l'exhaustivité de l'OCR n'est pas revendiquée.",
+      "nextAction": "Consulter l'original inchangé pour les zones de référence uniquement. Ne pas traiter les fragments d'OCR de référence non révisés comme du vocabulaire."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0006",
+      "reason": "108 entrées n'ont pas d'API révisé, en particulier les phrases, noms propres, formes rhotiques ou tons neutres contextuels. Le pinyin révisé reste disponible.",
+      "nextAction": "Laisser l'API absent tant que cette lecture exacte ne peut pas être révisée."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0006",
+      "reason": "L'écoute nécessite une lecture audio locale réussie dans le navigateur. L'audibilité hors connexion n'a pas été vérifiée de manière indépendante.",
+      "nextAction": "L'éligibilité à l'écoute à l'exécution reste conditionnée par la fin de la lecture locale."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0006",
+      "reason": "Certains caractères isolés d'exercice ou de grille sont polyphoniques : par ex. 朝 cháo/zhāo, 得 dé/de/děi et 差 chāi/chā/chà/cī. Les explications identifient la lecture retenue ; aucun test à lecture unique n'est rédigé pour une forme isolée ambiguë. 着 est transcrit mais exclu de l'enseignement des caractères et des questions.",
+      "nextAction": "Lire les unités de mots complets pour les lectures contextuelles. Conserver l'exercice imprimé ouvert sans inventer une réponse unique."
+    }
+  ],
+  "browserReview": {
+    "documentId": "lecon-03-fr",
+    "reviewer": "Agent Codex ; aucune révision humaine ni indépendante",
+    "reviewedAt": "2026-11-24T09:32:48.591153+00:00",
+    "url": "http://localhost:4173/",
+    "initialRevision": 1,
+    "checks": [
+      "La bibliothèque affiche visiblement la Leçon 03 avec ses sept pages physiques prêtes.",
+      "Les unités de caractère de la page 1 affichent le pinyin avec marques de ton lexical et l'API révisé. Le caractère sélectionné 买 affiche acheter, mǎi et [maɪ²¹⁴]. Les superpositions du PDF d'origine s'alignent avec les caractères d'apprentissage.",
+      "L'information vocale locale en mandarin indique Eddy (chinois (Chine continentale)) ; la lecture volontaire de 买 est passée à En cours de lecture puis à Terminé.",
+      "La page 4 affiche l'inventaire des phrases en caractères traditionnels, y compris la phrase sur deux lignes 她的法國小說很多，可是她沒有中國小說。 Les détails sélectionnés affichent la traduction et le pinyin révisés ; la capture d'écran montre les lignes sources surlignées séparément.",
+      "Le mot vertical de la grille de la page 6 买卖 affiche commerce ; négoce avec mǎimai et les caractères constitutifs.",
+      "L'ajout de cette occurrence exacte et le choix de S'entraîner sur la sélection produisent exactement une question liée à la source. La bonne réponse commerce ; négoce donne un retour positif et l'explication ; Voir le contexte d'origine restaure la page 6, la sélection et les détails du mot.",
+      "Diagnostics finaux vérifiés pour les sept pages à l'échelle de la page ; vocabulaire/tracé de la page 4 et grille/dialogue de la page 6 inspectés en agrandissement."
+    ],
+    "limitations": [
+      "Aucune révision linguistique humaine indépendante.",
+      "Aucune lecture audio audible vérifiée indépendamment hors connexion.",
+      "Les lacunes d'OCR pâle/de référence et l'API non révisé omis sont signalés dans chaque révision de page."
+    ],
+    "followUp": "La correction ciblée remplace trois notes orientées extraction/ancrage par un enseignement grammatical utile ; le texte, les coordonnées, les identifiants et le contenu non concerné restent identiques au bit près."
+  }
+}

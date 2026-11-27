@@ -1,0 +1,1131 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does the traditional word 雜誌 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "magazine"
+        },
+        {
+          "id": "o2",
+          "text": "grammar"
+        },
+        {
+          "id": "o3",
+          "text": "teacher"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "雜誌 is the traditional spelling of 杂志, magazine.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0024"
+      ],
+      "entryIds": [
+        "e-p0004-0024"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which traditional word means teacher?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "老師"
+        },
+        {
+          "id": "o2",
+          "text": "語法"
+        },
+        {
+          "id": "o3",
+          "text": "貴姓"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "老師 lǎoshī means teacher.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the traditional character for buy.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "買"
+        },
+        {
+          "id": "o2",
+          "text": "賣"
+        },
+        {
+          "id": "o3",
+          "text": "想"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "買 corresponds to simplified 买, buy; 賣 is sell.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0071"
+      ],
+      "entryIds": [
+        "e-p0004-0059"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What is being asked?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "whether you have Chinese-language newspapers"
+        },
+        {
+          "id": "o2",
+          "text": "whether you sell books in French"
+        },
+        {
+          "id": "o3",
+          "text": "whether your teacher is busy"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有沒有 asks whether someone has something.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0133"
+      ],
+      "entryIds": [
+        "e-p0004-0101"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the source contrast: 我很忙，___我哥哥不忙。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "可是"
+        },
+        {
+          "id": "o2",
+          "text": "沒有"
+        },
+        {
+          "id": "o3",
+          "text": "相片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可是 means but and connects the contrasting clauses.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0056"
+      ],
+      "entryIds": [
+        "e-p0004-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What is the whole expression 作買賣?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "do business"
+        },
+        {
+          "id": "o2",
+          "text": "buy a photograph"
+        },
+        {
+          "id": "o3",
+          "text": "sell a friend"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "作買賣 means do business; the source uses 作 where modern writing commonly uses 做.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0109"
+      ],
+      "entryIds": [
+        "e-p0004-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What warning does this sentence give?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "watch your head"
+        },
+        {
+          "id": "o2",
+          "text": "watch your newspaper"
+        },
+        {
+          "id": "o3",
+          "text": "do not buy it"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "小心 means be careful, and 頭 means head.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0262"
+      ],
+      "entryIds": [
+        "e-p0004-0134"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "想"
+        },
+        {
+          "id": "o2",
+          "text": "相"
+        },
+        {
+          "id": "o3",
+          "text": "片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "想 is xiǎng, think or want; 相 in 相片 is xiàng.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0069"
+      ],
+      "entryIds": [
+        "e-p0004-0057"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "想"
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我很忙，可是我哥哥不忙。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-009-o1",
+          "text": "Your girlfriend is very good-looking."
+        },
+        {
+          "id": "q-p0004-009-o2",
+          "text": "I am busy, but my elder brother is not."
+        },
+        {
+          "id": "q-p0004-009-o3",
+          "text": "I want to go and buy books and newspapers."
+        }
+      ],
+      "correctOptionId": "q-p0004-009-o2",
+      "explanation": "「我很忙，可是我哥哥不忙。」 (Wǒ hěn máng, kěshì wǒ gēge bù máng.) means \"I am busy, but my elder brother is not.\". Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0056"
+      ],
+      "entryIds": [
+        "e-p0004-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 窗戶 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-010-o1",
+          "text": "window"
+        },
+        {
+          "id": "q-p0004-010-o2",
+          "text": "place"
+        },
+        {
+          "id": "q-p0004-010-o3",
+          "text": "teacher"
+        }
+      ],
+      "correctOptionId": "q-p0004-010-o1",
+      "explanation": "窗戶 (chuānghu) means \"window\". Neutral second syllable hu. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-011",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"window\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-011-o1",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-011-o2",
+          "text": "老師"
+        },
+        {
+          "id": "q-p0004-011-o3",
+          "text": "窗戶"
+        }
+      ],
+      "correctOptionId": "q-p0004-011-o3",
+      "explanation": "\"window\" is 窗戶 (chuānghu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-012",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"fán\" meaning \"complex; numerous\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-012-o1",
+          "text": "字"
+        },
+        {
+          "id": "q-p0004-012-o2",
+          "text": "繁"
+        },
+        {
+          "id": "q-p0004-012-o3",
+          "text": "體"
+        }
+      ],
+      "correctOptionId": "q-p0004-012-o2",
+      "explanation": "繁 is pronounced fán and means \"complex; numerous\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-013",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「____想去買書和報。」 (I want to go and buy books and newspapers.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-013-o1",
+          "text": "我"
+        },
+        {
+          "id": "q-p0004-013-o2",
+          "text": "繁"
+        },
+        {
+          "id": "q-p0004-013-o3",
+          "text": "體"
+        }
+      ],
+      "correctOptionId": "q-p0004-013-o1",
+      "explanation": "The missing character is 我 (wǒ, \"I; me\"), completing 「我想去買書和報。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0057"
+      ],
+      "entryIds": [
+        "e-p0004-0051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-014",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-014-o1",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-014-o2",
+          "text": "老師"
+        },
+        {
+          "id": "q-p0004-014-o3",
+          "text": "窗戶"
+        }
+      ],
+      "correctOptionId": "q-p0004-014-o3",
+      "explanation": "The audio speaks 窗戶 (chuānghu), meaning \"window\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "窗戶",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-015",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 窗戶?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-015-o1",
+          "text": "teacher"
+        },
+        {
+          "id": "q-p0004-015-o2",
+          "text": "window"
+        },
+        {
+          "id": "q-p0004-015-o3",
+          "text": "place"
+        }
+      ],
+      "correctOptionId": "q-p0004-015-o2",
+      "explanation": "窗戶 (chuānghu) means \"window\". Neutral second syllable hu. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-016",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我想去買書和報。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-016-o1",
+          "text": "I want to go and buy books and newspapers."
+        },
+        {
+          "id": "q-p0004-016-o2",
+          "text": "I am busy, but my elder brother is not."
+        },
+        {
+          "id": "q-p0004-016-o3",
+          "text": "Your girlfriend is very good-looking."
+        }
+      ],
+      "correctOptionId": "q-p0004-016-o1",
+      "explanation": "「我想去買書和報。」 (Wǒ xiǎng qù mǎi shū hé bào.) means \"I want to go and buy books and newspapers.\". Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0057"
+      ],
+      "entryIds": [
+        "e-p0004-0051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-017",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 地方 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-017-o1",
+          "text": "window"
+        },
+        {
+          "id": "q-p0004-017-o2",
+          "text": "teacher"
+        },
+        {
+          "id": "q-p0004-017-o3",
+          "text": "place"
+        }
+      ],
+      "correctOptionId": "q-p0004-017-o3",
+      "explanation": "地方 (dìfang) means \"place\". The second syllable fang is neutral in this meaning.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-018",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"place\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-018-o1",
+          "text": "老師"
+        },
+        {
+          "id": "q-p0004-018-o2",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-018-o3",
+          "text": "窗戶"
+        }
+      ],
+      "correctOptionId": "q-p0004-018-o2",
+      "explanation": "\"place\" is 地方 (dìfang).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-019",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"tǐ\" meaning \"body; form\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-019-o1",
+          "text": "體"
+        },
+        {
+          "id": "q-p0004-019-o2",
+          "text": "繁"
+        },
+        {
+          "id": "q-p0004-019-o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "q-p0004-019-o1",
+      "explanation": "體 is pronounced tǐ and means \"body; form\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-020",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「你的____很好看。」 (Your girlfriend is very good-looking.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-020-o1",
+          "text": "窗戶"
+        },
+        {
+          "id": "q-p0004-020-o2",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-020-o3",
+          "text": "女朋友"
+        }
+      ],
+      "correctOptionId": "q-p0004-020-o3",
+      "explanation": "The missing word is 女朋友 (nǚ péngyou, \"girlfriend\"), completing 「你的女朋友很好看。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0080"
+      ],
+      "entryIds": [
+        "e-p0004-0067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-021",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-021-o1",
+          "text": "你的女朋友很好看。"
+        },
+        {
+          "id": "q-p0004-021-o2",
+          "text": "我很忙，可是我哥哥不忙。"
+        },
+        {
+          "id": "q-p0004-021-o3",
+          "text": "我想去買書和報。"
+        }
+      ],
+      "correctOptionId": "q-p0004-021-o2",
+      "explanation": "The audio speaks 我很忙，可是我哥哥不忙。 (Wǒ hěn máng, kěshì wǒ gēge bù máng.), meaning \"I am busy, but my elder brother is not.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0056"
+      ],
+      "entryIds": [
+        "e-p0004-0050"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我很忙，可是我哥哥不忙。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-022",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 地方?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-022-o1",
+          "text": "place"
+        },
+        {
+          "id": "q-p0004-022-o2",
+          "text": "window"
+        },
+        {
+          "id": "q-p0004-022-o3",
+          "text": "teacher"
+        }
+      ],
+      "correctOptionId": "q-p0004-022-o1",
+      "explanation": "地方 (dìfang) means \"place\". The second syllable fang is neutral in this meaning.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-023",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你的女朋友很好看。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-023-o1",
+          "text": "I am busy, but my elder brother is not."
+        },
+        {
+          "id": "q-p0004-023-o2",
+          "text": "I want to go and buy books and newspapers."
+        },
+        {
+          "id": "q-p0004-023-o3",
+          "text": "Your girlfriend is very good-looking."
+        }
+      ],
+      "correctOptionId": "q-p0004-023-o3",
+      "explanation": "「你的女朋友很好看。」 (Nǐ de nǚ péngyou hěn hǎokàn.) means \"Your girlfriend is very good-looking.\". Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0080"
+      ],
+      "entryIds": [
+        "e-p0004-0067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-024",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 老師 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-024-o1",
+          "text": "place"
+        },
+        {
+          "id": "q-p0004-024-o2",
+          "text": "teacher"
+        },
+        {
+          "id": "q-p0004-024-o3",
+          "text": "window"
+        }
+      ],
+      "correctOptionId": "q-p0004-024-o2",
+      "explanation": "老師 (lǎoshī) means \"teacher\". Use a surname before the title, for example 孙老师, Teacher Sun. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-025",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"easy\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-025-o1",
+          "text": "容易"
+        },
+        {
+          "id": "q-p0004-025-o2",
+          "text": "窗戶"
+        },
+        {
+          "id": "q-p0004-025-o3",
+          "text": "地方"
+        }
+      ],
+      "correctOptionId": "q-p0004-025-o1",
+      "explanation": "\"easy\" is 容易 (róngyì).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-026",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"zì\" meaning \"written character\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-026-o1",
+          "text": "繁"
+        },
+        {
+          "id": "q-p0004-026-o2",
+          "text": "體"
+        },
+        {
+          "id": "q-p0004-026-o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "q-p0004-026-o3",
+      "explanation": "字 is pronounced zì and means \"written character\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-027",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「你的法國朋友叫____？」 (What is your French friend called?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-027-o1",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-027-o2",
+          "text": "什麼"
+        },
+        {
+          "id": "q-p0004-027-o3",
+          "text": "窗戶"
+        }
+      ],
+      "correctOptionId": "q-p0004-027-o2",
+      "explanation": "The missing word is 什麼 (shénme, \"what\"), completing 「你的法國朋友叫什麼？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0081"
+      ],
+      "entryIds": [
+        "e-p0004-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-028",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-028-o1",
+          "text": "繁"
+        },
+        {
+          "id": "q-p0004-028-o2",
+          "text": "體"
+        },
+        {
+          "id": "q-p0004-028-o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "q-p0004-028-o1",
+      "explanation": "The audio speaks 繁 (fán), meaning \"complex; numerous\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "繁",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-029",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 老師?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-029-o1",
+          "text": "window"
+        },
+        {
+          "id": "q-p0004-029-o2",
+          "text": "place"
+        },
+        {
+          "id": "q-p0004-029-o3",
+          "text": "teacher"
+        }
+      ],
+      "correctOptionId": "q-p0004-029-o3",
+      "explanation": "老師 (lǎoshī) means \"teacher\". Use a surname before the title, for example 孙老师, Teacher Sun. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-030",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「你的法國朋友叫什麼？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-030-o1",
+          "text": "I want to go and buy books and newspapers."
+        },
+        {
+          "id": "q-p0004-030-o2",
+          "text": "What is your French friend called?"
+        },
+        {
+          "id": "q-p0004-030-o3",
+          "text": "I am busy, but my elder brother is not."
+        }
+      ],
+      "correctOptionId": "q-p0004-030-o2",
+      "explanation": "「你的法國朋友叫什麼？」 (Nǐ de Fǎguó péngyou jiào shénme?) means \"What is your French friend called?\". Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0081"
+      ],
+      "entryIds": [
+        "e-p0004-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-031",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 容易 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-031-o1",
+          "text": "easy"
+        },
+        {
+          "id": "q-p0004-031-o2",
+          "text": "window"
+        },
+        {
+          "id": "q-p0004-031-o3",
+          "text": "place"
+        }
+      ],
+      "correctOptionId": "q-p0004-031-o1",
+      "explanation": "容易 (róngyì) means \"easy\". Both syllables have full lexical tones; yì is fourth tone.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-032",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"grammar\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-032-o1",
+          "text": "窗戶"
+        },
+        {
+          "id": "q-p0004-032-o2",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-032-o3",
+          "text": "語法"
+        }
+      ],
+      "correctOptionId": "q-p0004-032-o3",
+      "explanation": "\"grammar\" is 語法 (yǔfǎ).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0018"
+      ],
+      "entryIds": [
+        "e-p0004-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

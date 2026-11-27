@@ -1,0 +1,790 @@
+{
+  "documentId": "lecon-03-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 您 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "vous (singulier poli)"
+        },
+        {
+          "id": "o2",
+          "text": "nous"
+        },
+        {
+          "id": "o3",
+          "text": "ils / elles"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "您 est une forme de politesse au singulier pour « vous ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0024"
+      ],
+      "entryIds": [
+        "e-p0002-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère signifie « occupé » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "忙"
+        },
+        {
+          "id": "o2",
+          "text": "老"
+        },
+        {
+          "id": "o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "忙 máng signifie « occupé ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0027"
+      ],
+      "entryIds": [
+        "e-p0002-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choisis le caractère écrit pour « vendre ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "卖"
+        },
+        {
+          "id": "o2",
+          "text": "买"
+        },
+        {
+          "id": "o3",
+          "text": "太"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "卖 mài signifie « vendre » ; 买 mǎi signifie « acheter ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0032"
+      ],
+      "entryIds": [
+        "e-p0002-0023"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 相片儿 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "photographie"
+        },
+        {
+          "id": "o2",
+          "text": "cahier"
+        },
+        {
+          "id": "o3",
+          "text": "magazine ; revue"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "相片儿 est la forme rhotique du Nord de 相片, « photographie ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0044"
+      ],
+      "entryIds": [
+        "e-p0002-0029"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 哥哥 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "frère aîné"
+        },
+        {
+          "id": "o2",
+          "text": "père"
+        },
+        {
+          "id": "o3",
+          "text": "sœur cadette"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "哥哥 gēge signifie « frère aîné » ; la deuxième syllabe est neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quelle prononciation correspond à 大夫 au sens de « docteur » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "dàifu, avec fu neutre"
+        },
+        {
+          "id": "o2",
+          "text": "dà fū, deux tons pleins"
+        },
+        {
+          "id": "o3",
+          "text": "dǎifu, avec 大 au troisième ton"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "大 a la lecture particulière dài dans 大夫, et fu est neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0014"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Comment se prononce le nom 买卖 (commerce) ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "mǎimai, avec mai neutre"
+        },
+        {
+          "id": "o2",
+          "text": "mǎi mài, deux tons lexicaux pleins"
+        },
+        {
+          "id": "o3",
+          "text": "mài mǎi, vendre puis acheter"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Le nom signifiant « commerce » a une syllabe neutre mai ; les verbes séparés sont 买 mǎi et 卖 mài.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0030"
+      ],
+      "entryIds": [
+        "e-p0002-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute et choisis le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "买"
+        },
+        {
+          "id": "o2",
+          "text": "卖"
+        },
+        {
+          "id": "o3",
+          "text": "忙"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "买 se prononce mǎi (« acheter ») ; à distinguer du quatrième ton 卖 mài.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0029"
+      ],
+      "entryIds": [
+        "e-p0002-0021"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      },
+      "speechTarget": "买"
+    },
+    {
+      "id": "q-p0002-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 可是 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-009-o1",
+          "text": "frère aîné"
+        },
+        {
+          "id": "q-p0002-009-o2",
+          "text": "mais ; cependant"
+        },
+        {
+          "id": "q-p0002-009-o3",
+          "text": "docteur ; médecin"
+        }
+      ],
+      "correctOptionId": "q-p0002-009-o2",
+      "explanation": "可是 (kěshì) signifie « mais ; cependant ». Relie deux énoncés opposés.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-010",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « mais ; cependant » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-010-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0002-010-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0002-010-o3",
+          "text": "哥哥"
+        }
+      ],
+      "correctOptionId": "q-p0002-010-o1",
+      "explanation": "« mais ; cependant » se dit 可是 (kěshì).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-011",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « duō » et signifiant « beaucoup ; nombreux ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-011-o1",
+          "text": "夕"
+        },
+        {
+          "id": "q-p0002-011-o2",
+          "text": "可"
+        },
+        {
+          "id": "q-p0002-011-o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "q-p0002-011-o3",
+      "explanation": "多 se prononce duō et signifie « beaucoup ; nombreux ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-012",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-012-o1",
+          "text": "哥哥"
+        },
+        {
+          "id": "q-p0002-012-o2",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0002-012-o3",
+          "text": "大夫"
+        }
+      ],
+      "correctOptionId": "q-p0002-012-o2",
+      "explanation": "L'audio prononce 可是 (kěshì), qui signifie « mais ; cependant ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "可是",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-013",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 可是 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-013-o1",
+          "text": "mais ; cependant"
+        },
+        {
+          "id": "q-p0002-013-o2",
+          "text": "docteur ; médecin"
+        },
+        {
+          "id": "q-p0002-013-o3",
+          "text": "frère aîné"
+        }
+      ],
+      "correctOptionId": "q-p0002-013-o1",
+      "explanation": "可是 (kěshì) signifie « mais ; cependant ». Relie deux énoncés opposés.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-014",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 大夫 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-014-o1",
+          "text": "mais ; cependant"
+        },
+        {
+          "id": "q-p0002-014-o2",
+          "text": "frère aîné"
+        },
+        {
+          "id": "q-p0002-014-o3",
+          "text": "docteur ; médecin"
+        }
+      ],
+      "correctOptionId": "q-p0002-014-o3",
+      "explanation": "大夫 (dàifu) signifie « docteur ; médecin ». Lecture particulière dài pour 大 ; la deuxième syllabe fu est neutre. Le nom de famille précède le titre, comme dans 孙大夫, « Dr Sun ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0014"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-015",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « docteur ; médecin » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-015-o1",
+          "text": "哥哥"
+        },
+        {
+          "id": "q-p0002-015-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0002-015-o3",
+          "text": "可是"
+        }
+      ],
+      "correctOptionId": "q-p0002-015-o2",
+      "explanation": "« docteur ; médecin » se dit 大夫 (dàifu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0014"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-016",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « xī » et signifiant « soir ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-016-o1",
+          "text": "夕"
+        },
+        {
+          "id": "q-p0002-016-o2",
+          "text": "多"
+        },
+        {
+          "id": "q-p0002-016-o3",
+          "text": "可"
+        }
+      ],
+      "correctOptionId": "q-p0002-016-o1",
+      "explanation": "夕 se prononce xī et signifie « soir ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-017",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-017-o1",
+          "text": "夕"
+        },
+        {
+          "id": "q-p0002-017-o2",
+          "text": "可"
+        },
+        {
+          "id": "q-p0002-017-o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "q-p0002-017-o3",
+      "explanation": "L'audio prononce 多 (duō), qui signifie « beaucoup ; nombreux ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "多",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-018",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 哥哥 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-018-o1",
+          "text": "docteur ; médecin"
+        },
+        {
+          "id": "q-p0002-018-o2",
+          "text": "frère aîné"
+        },
+        {
+          "id": "q-p0002-018-o3",
+          "text": "mais ; cependant"
+        }
+      ],
+      "correctOptionId": "q-p0002-018-o2",
+      "explanation": "哥哥 (gēge) signifie « frère aîné ». Deuxième syllabe neutre ge.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-019",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 买卖 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-019-o1",
+          "text": "commerce ; négoce"
+        },
+        {
+          "id": "q-p0002-019-o2",
+          "text": "mais ; cependant"
+        },
+        {
+          "id": "q-p0002-019-o3",
+          "text": "docteur ; médecin"
+        }
+      ],
+      "correctOptionId": "q-p0002-019-o1",
+      "explanation": "买卖 (mǎimai) signifie « commerce ; négoce ». Syllabe neutre mai dans ce nom. Comparer 买 mǎi (acheter) et 卖 mài (vendre).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0030"
+      ],
+      "entryIds": [
+        "e-p0002-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-020",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « frère aîné » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-020-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0002-020-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0002-020-o3",
+          "text": "哥哥"
+        }
+      ],
+      "correctOptionId": "q-p0002-020-o3",
+      "explanation": "« frère aîné » se dit 哥哥 (gēge).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-021",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « kě » et signifiant « pouvoir ; élément de 可是 (mais) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-021-o1",
+          "text": "夕"
+        },
+        {
+          "id": "q-p0002-021-o2",
+          "text": "可"
+        },
+        {
+          "id": "q-p0002-021-o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "q-p0002-021-o2",
+      "explanation": "可 se prononce kě et signifie « pouvoir ; élément de 可是 (mais) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-022",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 相片 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-022-o1",
+          "text": "photographie"
+        },
+        {
+          "id": "q-p0002-022-o2",
+          "text": "mais ; cependant"
+        },
+        {
+          "id": "q-p0002-022-o3",
+          "text": "docteur ; médecin"
+        }
+      ],
+      "correctOptionId": "q-p0002-022-o1",
+      "explanation": "相片 (xiàngpiàn) signifie « photographie ». Lire xiàng, au quatrième ton, dans ce mot ; 片 est également au quatrième ton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0043"
+      ],
+      "entryIds": [
+        "e-p0002-0028"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

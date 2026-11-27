@@ -1,0 +1,713 @@
+{
+  "documentId": "lecon-03-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 有 ici ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "avoir"
+        },
+        {
+          "id": "o2",
+          "text": "acheter"
+        },
+        {
+          "id": "o3",
+          "text": "vendre"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有 signifie « avoir » ; 没有 est sa négation.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère sert à nier 有 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没"
+        },
+        {
+          "id": "o2",
+          "text": "很"
+        },
+        {
+          "id": "o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没有 signifie « ne pas avoir ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choisis le caractère écrit pour « acheter ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "买"
+        },
+        {
+          "id": "o2",
+          "text": "卖"
+        },
+        {
+          "id": "o3",
+          "text": "相"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "买 mǎi signifie « acheter » ; 卖 mài signifie « vendre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0012"
+      ],
+      "entryIds": [
+        "e-p0001-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que peut exprimer 想 devant un verbe ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "vouloir faire quelque chose"
+        },
+        {
+          "id": "o2",
+          "text": "finir de faire quelque chose"
+        },
+        {
+          "id": "o3",
+          "text": "ne pas pouvoir faire quelque chose"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "想去 signifie « vouloir aller ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0016"
+      ],
+      "entryIds": [
+        "e-p0001-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 心 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "cœur ; esprit"
+        },
+        {
+          "id": "o2",
+          "text": "rue"
+        },
+        {
+          "id": "o3",
+          "text": "lune"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "心 signifie « cœur » ou « esprit » ; il sert aussi de composant.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0021"
+      ],
+      "entryIds": [
+        "e-p0001-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0001-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute et choisis le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "很"
+        },
+        {
+          "id": "o2",
+          "text": "有"
+        },
+        {
+          "id": "o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "很 se prononce hěn (« très ; tout à fait »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      },
+      "speechTarget": "很"
+    },
+    {
+      "id": "q-p0001-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 没 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-007-o1",
+          "text": "ne pas avoir ; ne pas (actions passées)"
+        },
+        {
+          "id": "q-p0001-007-o2",
+          "text": "avoir ; il y a"
+        },
+        {
+          "id": "q-p0001-007-o3",
+          "text": "très ; tout à fait"
+        }
+      ],
+      "correctOptionId": "q-p0001-007-o1",
+      "explanation": "没 (méi) signifie « ne pas avoir ; ne pas (actions passées) ». Ici, il nie 有. 没有 signifie « ne pas avoir » ; 没 seul peut servir de réponse brève signifiant « non ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-008",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « avoir ; il y a » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-008-o1",
+          "text": "没"
+        },
+        {
+          "id": "q-p0001-008-o2",
+          "text": "很"
+        },
+        {
+          "id": "q-p0001-008-o3",
+          "text": "有"
+        }
+      ],
+      "correctOptionId": "q-p0001-008-o3",
+      "explanation": "« avoir ; il y a » se dit 有 (yǒu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-009",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « yǒu » et signifiant « avoir ; il y a ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-009-o1",
+          "text": "很"
+        },
+        {
+          "id": "q-p0001-009-o2",
+          "text": "有"
+        },
+        {
+          "id": "q-p0001-009-o3",
+          "text": "没"
+        }
+      ],
+      "correctOptionId": "q-p0001-009-o2",
+      "explanation": "有 se prononce yǒu et signifie « avoir ; il y a ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-010",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-010-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0001-010-o2",
+          "text": "没"
+        },
+        {
+          "id": "q-p0001-010-o3",
+          "text": "很"
+        }
+      ],
+      "correctOptionId": "q-p0001-010-o1",
+      "explanation": "L'audio prononce 有 (yǒu), qui signifie « avoir ; il y a ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "有",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-011",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 有 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-011-o1",
+          "text": "ne pas avoir ; ne pas (actions passées)"
+        },
+        {
+          "id": "q-p0001-011-o2",
+          "text": "très ; tout à fait"
+        },
+        {
+          "id": "q-p0001-011-o3",
+          "text": "avoir ; il y a"
+        }
+      ],
+      "correctOptionId": "q-p0001-011-o3",
+      "explanation": "有 (yǒu) signifie « avoir ; il y a ». Nier 有 avec 没有 méiyǒu, et non 不有. 很多 signifie « beaucoup ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-012",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 很 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-012-o1",
+          "text": "ne pas avoir ; ne pas (actions passées)"
+        },
+        {
+          "id": "q-p0001-012-o2",
+          "text": "très ; tout à fait"
+        },
+        {
+          "id": "q-p0001-012-o3",
+          "text": "avoir ; il y a"
+        }
+      ],
+      "correctOptionId": "q-p0001-012-o2",
+      "explanation": "很 (hěn) signifie « très ; tout à fait ». Devant un adjectif descriptif, il permet de former une phrase naturelle sans sens fort de « très ». 很想 signifie « avoir vraiment envie de ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-013",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « très ; tout à fait » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-013-o1",
+          "text": "很"
+        },
+        {
+          "id": "q-p0001-013-o2",
+          "text": "有"
+        },
+        {
+          "id": "q-p0001-013-o3",
+          "text": "没"
+        }
+      ],
+      "correctOptionId": "q-p0001-013-o1",
+      "explanation": "« très ; tout à fait » se dit 很 (hěn).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-014",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « méi » et signifiant « ne pas avoir ; ne pas (actions passées) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-014-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0001-014-o2",
+          "text": "很"
+        },
+        {
+          "id": "q-p0001-014-o3",
+          "text": "没"
+        }
+      ],
+      "correctOptionId": "q-p0001-014-o3",
+      "explanation": "没 se prononce méi et signifie « ne pas avoir ; ne pas (actions passées) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-015",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 没 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-015-o1",
+          "text": "très ; tout à fait"
+        },
+        {
+          "id": "q-p0001-015-o2",
+          "text": "ne pas avoir ; ne pas (actions passées)"
+        },
+        {
+          "id": "q-p0001-015-o3",
+          "text": "avoir ; il y a"
+        }
+      ],
+      "correctOptionId": "q-p0001-015-o2",
+      "explanation": "没 (méi) signifie « ne pas avoir ; ne pas (actions passées) ». Ici, il nie 有. 没有 signifie « ne pas avoir » ; 没 seul peut servir de réponse brève signifiant « non ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-016",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 多 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-016-o1",
+          "text": "beaucoup ; nombreux"
+        },
+        {
+          "id": "q-p0001-016-o2",
+          "text": "avoir ; il y a"
+        },
+        {
+          "id": "q-p0001-016-o3",
+          "text": "ne pas avoir ; ne pas (actions passées)"
+        }
+      ],
+      "correctOptionId": "q-p0001-016-o1",
+      "explanation": "多 (duō) signifie « beaucoup ; nombreux ». 很多 signifie « beaucoup ». Après un nom, …很多 signifie qu'il y en a beaucoup.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-017",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « beaucoup ; nombreux » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-017-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0001-017-o2",
+          "text": "没"
+        },
+        {
+          "id": "q-p0001-017-o3",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "q-p0001-017-o3",
+      "explanation": "« beaucoup ; nombreux » se dit 多 (duō).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-018",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « hěn » et signifiant « très ; tout à fait ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-018-o1",
+          "text": "没"
+        },
+        {
+          "id": "q-p0001-018-o2",
+          "text": "很"
+        },
+        {
+          "id": "q-p0001-018-o3",
+          "text": "有"
+        }
+      ],
+      "correctOptionId": "q-p0001-018-o2",
+      "explanation": "很 se prononce hěn et signifie « très ; tout à fait ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-019",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 很 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-019-o1",
+          "text": "très ; tout à fait"
+        },
+        {
+          "id": "q-p0001-019-o2",
+          "text": "avoir ; il y a"
+        },
+        {
+          "id": "q-p0001-019-o3",
+          "text": "ne pas avoir ; ne pas (actions passées)"
+        }
+      ],
+      "correctOptionId": "q-p0001-019-o1",
+      "explanation": "很 (hěn) signifie « très ; tout à fait ». Devant un adjectif descriptif, il permet de former une phrase naturelle sans sens fort de « très ». 很想 signifie « avoir vraiment envie de ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-020",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 可 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-020-o1",
+          "text": "avoir ; il y a"
+        },
+        {
+          "id": "q-p0001-020-o2",
+          "text": "ne pas avoir ; ne pas (actions passées)"
+        },
+        {
+          "id": "q-p0001-020-o3",
+          "text": "pouvoir ; élément de 可是 (mais)"
+        }
+      ],
+      "correctOptionId": "q-p0001-020-o3",
+      "explanation": "可 (kě) signifie « pouvoir ; élément de 可是 (mais) ». Apprendre 可是 comme conjonction complète « mais ». La glose astérisquée de la source renvoie à cet emploi composé.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0005"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,1211 @@
+{
+  "documentId": "lecon-03-fr",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 窗户 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "fenêtre"
+        },
+        {
+          "id": "o2",
+          "text": "table"
+        },
+        {
+          "id": "o3",
+          "text": "porte"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "窗户 chuānghu signifie « fenêtre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0029"
+      ],
+      "entryIds": [
+        "e-p0003-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « magazine » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "杂志"
+        },
+        {
+          "id": "o2",
+          "text": "语法"
+        },
+        {
+          "id": "o3",
+          "text": "相片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "杂志 zázhì signifie « magazine ; revue ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0049"
+      ],
+      "entryIds": [
+        "e-p0003-0043"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choisis la forme polie du singulier pour « vous ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "您"
+        },
+        {
+          "id": "o2",
+          "text": "你"
+        },
+        {
+          "id": "o3",
+          "text": "们"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "您 est le « vous » de politesse au singulier ; 你 est le « tu » courant.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0018"
+      ],
+      "entryIds": [
+        "e-p0003-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qui n'est pas occupé dans cette phrase ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "le frère aîné du locuteur"
+        },
+        {
+          "id": "o2",
+          "text": "le locuteur"
+        },
+        {
+          "id": "o3",
+          "text": "les deux personnes"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "La première proposition dit que je suis occupé(e) ; 我哥哥不忙 dit que mon frère aîné n'est pas occupé.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0097"
+      ],
+      "entryIds": [
+        "e-p0003-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qu'a le Dr Ma ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "beaucoup de petits cahiers"
+        },
+        {
+          "id": "o2",
+          "text": "beaucoup de magazines"
+        },
+        {
+          "id": "o3",
+          "text": "une photo de son frère"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "小本子 signifie « petits cahiers » ; 很多 signifie « beaucoup ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0144"
+      ],
+      "entryIds": [
+        "e-p0003-0103"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la question tirée de la source : 你有___有中文报？",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没"
+        },
+        {
+          "id": "o2",
+          "text": "不"
+        },
+        {
+          "id": "o3",
+          "text": "吗"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "La structure interrogative affirmative-négative est 有没有 ; 不有 n'est pas la négation de 有.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0172"
+      ],
+      "entryIds": [
+        "e-p0003-0112"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Que signifie 不太 ici ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "pas très"
+        },
+        {
+          "id": "o2",
+          "text": "pas du tout"
+        },
+        {
+          "id": "o3",
+          "text": "beaucoup"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "不太忙 signifie « pas très occupé(e) ». Cela ne signifie pas « pas du tout occupé(e) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0181"
+      ],
+      "entryIds": [
+        "e-p0003-0116"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qu'est-ce que le locuteur n'a pas ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "sa photo"
+        },
+        {
+          "id": "o2",
+          "text": "ses livres"
+        },
+        {
+          "id": "o3",
+          "text": "son journal"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "他的相片 signifie « sa photo ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0218"
+      ],
+      "entryIds": [
+        "e-p0003-0127"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "À qui appartient le livre ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "du Dr Tian"
+        },
+        {
+          "id": "o2",
+          "text": "du Dr Ma"
+        },
+        {
+          "id": "o3",
+          "text": "de Wang Wenyou"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "田大夫的书 signifie « le livre du Dr Tian ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0313"
+      ],
+      "entryIds": [
+        "e-p0003-0148"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Qu'exprime 您 dans cette question ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "adresse polie à une seule personne"
+        },
+        {
+          "id": "o2",
+          "text": "adresse à plusieurs personnes"
+        },
+        {
+          "id": "o3",
+          "text": "une référence à une troisième personne"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "您 est le « vous » de politesse au singulier.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0119"
+      ],
+      "entryIds": [
+        "e-p0003-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0003-011",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute et choisis le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "忙"
+        },
+        {
+          "id": "o2",
+          "text": "难"
+        },
+        {
+          "id": "o3",
+          "text": "长"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "忙 se prononce máng (« occupé »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0028"
+      ],
+      "entryIds": [
+        "e-p0003-0025"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      },
+      "speechTarget": "忙"
+    },
+    {
+      "id": "q-p0003-012",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我想去买书和报。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-012-o1",
+          "text": "Comment s'appelle votre ami(e) français(e) ? (Vouvoiement.)"
+        },
+        {
+          "id": "q-p0003-012-o2",
+          "text": "Je veux aller acheter des livres et des journaux."
+        },
+        {
+          "id": "q-p0003-012-o3",
+          "text": "Je suis occupé(e), mais mon frère aîné ne l'est pas."
+        }
+      ],
+      "correctOptionId": "q-p0003-012-o2",
+      "explanation": "« 我想去买书和报。 » (Wǒ xiǎng qù mǎi shū hé bào.) signifie « Je veux aller acheter des livres et des journaux. ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0108"
+      ],
+      "entryIds": [
+        "e-p0003-0079"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-013",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 没有 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-013-o1",
+          "text": "ne pas avoir ; il n'y a pas"
+        },
+        {
+          "id": "q-p0003-013-o2",
+          "text": "mais ; cependant"
+        },
+        {
+          "id": "q-p0003-013-o3",
+          "text": "docteur ; médecin"
+        }
+      ],
+      "correctOptionId": "q-p0003-013-o1",
+      "explanation": "没有 (méiyǒu) signifie « ne pas avoir ; il n'y a pas ». La négation de 有 ; ne pas remplacer 没 par 不 ici.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-014",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « ne pas avoir ; il n'y a pas » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-014-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0003-014-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0003-014-o3",
+          "text": "没有"
+        }
+      ],
+      "correctOptionId": "q-p0003-014-o3",
+      "explanation": "« ne pas avoir ; il n'y a pas » se dit 没有 (méiyǒu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-015",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « yǒu » et signifiant « avoir ; il y a ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-015-o1",
+          "text": "很"
+        },
+        {
+          "id": "q-p0003-015-o2",
+          "text": "有"
+        },
+        {
+          "id": "q-p0003-015-o3",
+          "text": "没"
+        }
+      ],
+      "correctOptionId": "q-p0003-015-o2",
+      "explanation": "有 se prononce yǒu et signifie « avoir ; il y a ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-016",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « 我很忙，____我哥哥不忙。 » (Je suis occupé(e), mais mon frère aîné ne l'est pas.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-016-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0003-016-o2",
+          "text": "没有"
+        },
+        {
+          "id": "q-p0003-016-o3",
+          "text": "大夫"
+        }
+      ],
+      "correctOptionId": "q-p0003-016-o1",
+      "explanation": "Le mot manquant est 可是 (kěshì, « mais ; cependant »), complétant « 我很忙，可是我哥哥不忙。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0097"
+      ],
+      "entryIds": [
+        "e-p0003-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-017",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-017-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0003-017-o2",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0003-017-o3",
+          "text": "没有"
+        }
+      ],
+      "correctOptionId": "q-p0003-017-o3",
+      "explanation": "L'audio prononce 没有 (méiyǒu), qui signifie « ne pas avoir ; il n'y a pas ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "没有",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-018",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 没有 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-018-o1",
+          "text": "docteur ; médecin"
+        },
+        {
+          "id": "q-p0003-018-o2",
+          "text": "ne pas avoir ; il n'y a pas"
+        },
+        {
+          "id": "q-p0003-018-o3",
+          "text": "mais ; cependant"
+        }
+      ],
+      "correctOptionId": "q-p0003-018-o2",
+      "explanation": "没有 (méiyǒu) signifie « ne pas avoir ; il n'y a pas ». La négation de 有 ; ne pas remplacer 没 par 不 ici.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-019",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 您的法国朋友叫什么？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-019-o1",
+          "text": "Comment s'appelle votre ami(e) français(e) ? (Vouvoiement.)"
+        },
+        {
+          "id": "q-p0003-019-o2",
+          "text": "Je suis occupé(e), mais mon frère aîné ne l'est pas."
+        },
+        {
+          "id": "q-p0003-019-o3",
+          "text": "Je veux aller acheter des livres et des journaux."
+        }
+      ],
+      "correctOptionId": "q-p0003-019-o1",
+      "explanation": "« 您的法国朋友叫什么？ » (Nín de Fǎguó péngyou jiào shénme?) signifie « Comment s'appelle votre ami(e) français(e) ? (Vouvoiement.) ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0119"
+      ],
+      "entryIds": [
+        "e-p0003-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-020",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 可是 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-020-o1",
+          "text": "ne pas avoir ; il n'y a pas"
+        },
+        {
+          "id": "q-p0003-020-o2",
+          "text": "docteur ; médecin"
+        },
+        {
+          "id": "q-p0003-020-o3",
+          "text": "mais ; cependant"
+        }
+      ],
+      "correctOptionId": "q-p0003-020-o3",
+      "explanation": "可是 (kěshì) signifie « mais ; cependant ». Relie deux énoncés opposés.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0007"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-021",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « mais ; cependant » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-021-o1",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0003-021-o2",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0003-021-o3",
+          "text": "没有"
+        }
+      ],
+      "correctOptionId": "q-p0003-021-o2",
+      "explanation": "« mais ; cependant » se dit 可是 (kěshì).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0007"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-022",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « méi » et signifiant « ne pas avoir ; ne pas (actions passées) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-022-o1",
+          "text": "没"
+        },
+        {
+          "id": "q-p0003-022-o2",
+          "text": "有"
+        },
+        {
+          "id": "q-p0003-022-o3",
+          "text": "很"
+        }
+      ],
+      "correctOptionId": "q-p0003-022-o1",
+      "explanation": "没 se prononce méi et signifie « ne pas avoir ; ne pas (actions passées) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0003"
+      ],
+      "entryIds": [
+        "e-p0003-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-023",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « 我想去____书和报。 » (Je veux aller acheter des livres et des journaux.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-023-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0003-023-o2",
+          "text": "没"
+        },
+        {
+          "id": "q-p0003-023-o3",
+          "text": "买"
+        }
+      ],
+      "correctOptionId": "q-p0003-023-o3",
+      "explanation": "Le caractère manquant est 买 (mǎi, « acheter »), complétant « 我想去买书和报。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0108"
+      ],
+      "entryIds": [
+        "e-p0003-0079"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-024",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-024-o1",
+          "text": "您的法国朋友叫什么？"
+        },
+        {
+          "id": "q-p0003-024-o2",
+          "text": "我很忙，可是我哥哥不忙。"
+        },
+        {
+          "id": "q-p0003-024-o3",
+          "text": "我想去买书和报。"
+        }
+      ],
+      "correctOptionId": "q-p0003-024-o2",
+      "explanation": "L'audio prononce 我很忙，可是我哥哥不忙。 (Wǒ hěn máng, kěshì wǒ gēge bù máng.), qui signifie « Je suis occupé(e), mais mon frère aîné ne l'est pas. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0097"
+      ],
+      "entryIds": [
+        "e-p0003-0074"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我很忙，可是我哥哥不忙。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-025",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 可是 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-025-o1",
+          "text": "mais ; cependant"
+        },
+        {
+          "id": "q-p0003-025-o2",
+          "text": "ne pas avoir ; il n'y a pas"
+        },
+        {
+          "id": "q-p0003-025-o3",
+          "text": "docteur ; médecin"
+        }
+      ],
+      "correctOptionId": "q-p0003-025-o1",
+      "explanation": "可是 (kěshì) signifie « mais ; cependant ». Relie deux énoncés opposés.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0007"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-026",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 你的女朋友很好看。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-026-o1",
+          "text": "Je suis occupé(e), mais mon frère aîné ne l'est pas."
+        },
+        {
+          "id": "q-p0003-026-o2",
+          "text": "Je veux aller acheter des livres et des journaux."
+        },
+        {
+          "id": "q-p0003-026-o3",
+          "text": "Ta petite amie est très jolie."
+        }
+      ],
+      "correctOptionId": "q-p0003-026-o3",
+      "explanation": "« 你的女朋友很好看。 » (Nǐ de nǚ péngyou hěn hǎokàn.) signifie « Ta petite amie est très jolie. ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0131"
+      ],
+      "entryIds": [
+        "e-p0003-0096"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-027",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 大夫 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-027-o1",
+          "text": "mais ; cependant"
+        },
+        {
+          "id": "q-p0003-027-o2",
+          "text": "docteur ; médecin"
+        },
+        {
+          "id": "q-p0003-027-o3",
+          "text": "ne pas avoir ; il n'y a pas"
+        }
+      ],
+      "correctOptionId": "q-p0003-027-o2",
+      "explanation": "大夫 (dàifu) signifie « docteur ; médecin ». Lecture particulière dài pour 大 ; la deuxième syllabe fu est neutre. Le nom de famille précède le titre, comme dans 孙大夫, « Dr Sun ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0010"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-028",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « docteur ; médecin » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-028-o1",
+          "text": "大夫"
+        },
+        {
+          "id": "q-p0003-028-o2",
+          "text": "没有"
+        },
+        {
+          "id": "q-p0003-028-o3",
+          "text": "可是"
+        }
+      ],
+      "correctOptionId": "q-p0003-028-o1",
+      "explanation": "« docteur ; médecin » se dit 大夫 (dàifu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0010"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-029",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « hěn » et signifiant « très ; tout à fait ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-029-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0003-029-o2",
+          "text": "没"
+        },
+        {
+          "id": "q-p0003-029-o3",
+          "text": "很"
+        }
+      ],
+      "correctOptionId": "q-p0003-029-o3",
+      "explanation": "很 se prononce hěn et signifie « très ; tout à fait ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0005"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-030",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « 您的法国朋友叫____？ » (Comment s'appelle votre ami(e) français(e) ? (Vouvoiement.))",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-030-o1",
+          "text": "可是"
+        },
+        {
+          "id": "q-p0003-030-o2",
+          "text": "什么"
+        },
+        {
+          "id": "q-p0003-030-o3",
+          "text": "没有"
+        }
+      ],
+      "correctOptionId": "q-p0003-030-o2",
+      "explanation": "Le mot manquant est 什么 (shénme, « quel / quoi »), complétant « 您的法国朋友叫什么？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0119"
+      ],
+      "entryIds": [
+        "e-p0003-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-031",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-031-o1",
+          "text": "有"
+        },
+        {
+          "id": "q-p0003-031-o2",
+          "text": "没"
+        },
+        {
+          "id": "q-p0003-031-o3",
+          "text": "很"
+        }
+      ],
+      "correctOptionId": "q-p0003-031-o1",
+      "explanation": "L'audio prononce 有 (yǒu), qui signifie « avoir ; il y a ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "有",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-032",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 大夫 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-032-o1",
+          "text": "ne pas avoir ; il n'y a pas"
+        },
+        {
+          "id": "q-p0003-032-o2",
+          "text": "mais ; cependant"
+        },
+        {
+          "id": "q-p0003-032-o3",
+          "text": "docteur ; médecin"
+        }
+      ],
+      "correctOptionId": "q-p0003-032-o3",
+      "explanation": "大夫 (dàifu) signifie « docteur ; médecin ». Lecture particulière dài pour 大 ; la deuxième syllabe fu est neutre. Le nom de famille précède le titre, comme dans 孙大夫, « Dr Sun ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0010"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-033",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我的法国朋友作买卖。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-033-o1",
+          "text": "Je veux aller acheter des livres et des journaux."
+        },
+        {
+          "id": "q-p0003-033-o2",
+          "text": "Mon ami(e) français(e) fait du commerce."
+        },
+        {
+          "id": "q-p0003-033-o3",
+          "text": "Je suis occupé(e), mais mon frère aîné ne l'est pas."
+        }
+      ],
+      "correctOptionId": "q-p0003-033-o2",
+      "explanation": "« 我的法国朋友作买卖。 » (Wǒ de Fǎguó péngyou zuò mǎimai.) signifie « Mon ami(e) français(e) fait du commerce. ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0159"
+      ],
+      "entryIds": [
+        "e-p0003-0108"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-034",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 老人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-034-o1",
+          "text": "personne âgée"
+        },
+        {
+          "id": "q-p0003-034-o2",
+          "text": "ne pas avoir ; il n'y a pas"
+        },
+        {
+          "id": "q-p0003-034-o3",
+          "text": "mais ; cependant"
+        }
+      ],
+      "correctOptionId": "q-p0003-034-o1",
+      "explanation": "老人 (lǎorén) signifie « personne âgée ». Mot complet désignant une personne âgée.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0011"
+      ],
+      "entryIds": [
+        "e-p0003-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,1131 @@
+{
+  "documentId": "lecon-03-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie le mot traditionnel 雜誌 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "magazine ; revue"
+        },
+        {
+          "id": "o2",
+          "text": "grammaire"
+        },
+        {
+          "id": "o3",
+          "text": "professeur"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "雜誌 est la graphie traditionnelle de 杂志, « magazine ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0024"
+      ],
+      "entryIds": [
+        "e-p0004-0024"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot traditionnel signifie « professeur » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "老師"
+        },
+        {
+          "id": "o2",
+          "text": "語法"
+        },
+        {
+          "id": "o3",
+          "text": "貴姓"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "老師 lǎoshī signifie « professeur ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choisis le caractère traditionnel pour « acheter ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "買"
+        },
+        {
+          "id": "o2",
+          "text": "賣"
+        },
+        {
+          "id": "o3",
+          "text": "想"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "買 correspond au caractère simplifié 买 (« acheter ») ; 賣 signifie « vendre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0071"
+      ],
+      "entryIds": [
+        "e-p0004-0059"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que demande-t-on ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "si vous avez des journaux en chinois"
+        },
+        {
+          "id": "o2",
+          "text": "si vous vendez des livres en français"
+        },
+        {
+          "id": "o3",
+          "text": "si ton professeur est occupé"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有沒有 demande si quelqu'un a quelque chose.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0133"
+      ],
+      "entryIds": [
+        "e-p0004-0101"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète l'opposition tirée de la source : 我很忙，___我哥哥不忙。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "可是"
+        },
+        {
+          "id": "o2",
+          "text": "沒有"
+        },
+        {
+          "id": "o3",
+          "text": "相片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "可是 signifie « mais » et relie les deux propositions opposées.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0056"
+      ],
+      "entryIds": [
+        "e-p0004-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Que signifie l'expression complète 作買賣 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "faire du commerce"
+        },
+        {
+          "id": "o2",
+          "text": "acheter une photo"
+        },
+        {
+          "id": "o3",
+          "text": "vendre un ami"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "作買賣 signifie « faire du commerce » ; la source utilise 作 là où l'écriture moderne emploie couramment 做.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0109"
+      ],
+      "entryIds": [
+        "e-p0004-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quel avertissement cette phrase donne-t-elle ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "attention à la tête"
+        },
+        {
+          "id": "o2",
+          "text": "attention à ton journal"
+        },
+        {
+          "id": "o3",
+          "text": "ne l'achète pas"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "小心 signifie « faire attention », et 頭 signifie « tête ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0262"
+      ],
+      "entryIds": [
+        "e-p0004-0134"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute et choisis le caractère.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "想"
+        },
+        {
+          "id": "o2",
+          "text": "相"
+        },
+        {
+          "id": "o3",
+          "text": "片"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "想 se prononce xiǎng (« penser » ou « vouloir ») ; 相 dans 相片 se prononce xiàng.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0069"
+      ],
+      "entryIds": [
+        "e-p0004-0057"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Révision distincte de la source, de la langue et des distracteurs ; aucune révision humaine ni indépendante."
+      },
+      "speechTarget": "想"
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我很忙，可是我哥哥不忙。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-009-o1",
+          "text": "Ta petite amie est très jolie."
+        },
+        {
+          "id": "q-p0004-009-o2",
+          "text": "Je suis occupé(e), mais mon frère aîné ne l'est pas."
+        },
+        {
+          "id": "q-p0004-009-o3",
+          "text": "Je veux aller acheter des livres et des journaux."
+        }
+      ],
+      "correctOptionId": "q-p0004-009-o2",
+      "explanation": "« 我很忙，可是我哥哥不忙。 » (Wǒ hěn máng, kěshì wǒ gēge bù máng.) signifie « Je suis occupé(e), mais mon frère aîné ne l'est pas. ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0056"
+      ],
+      "entryIds": [
+        "e-p0004-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 窗戶 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-010-o1",
+          "text": "fenêtre"
+        },
+        {
+          "id": "q-p0004-010-o2",
+          "text": "lieu ; endroit"
+        },
+        {
+          "id": "q-p0004-010-o3",
+          "text": "professeur"
+        }
+      ],
+      "correctOptionId": "q-p0004-010-o1",
+      "explanation": "窗戶 (chuānghu) signifie « fenêtre ». Deuxième syllabe neutre hu. Cette occurrence utilise les caractères traditionnels.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-011",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « fenêtre » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-011-o1",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-011-o2",
+          "text": "老師"
+        },
+        {
+          "id": "q-p0004-011-o3",
+          "text": "窗戶"
+        }
+      ],
+      "correctOptionId": "q-p0004-011-o3",
+      "explanation": "« fenêtre » se dit 窗戶 (chuānghu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-012",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « fán » et signifiant « complexe ; nombreux ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-012-o1",
+          "text": "字"
+        },
+        {
+          "id": "q-p0004-012-o2",
+          "text": "繁"
+        },
+        {
+          "id": "q-p0004-012-o3",
+          "text": "體"
+        }
+      ],
+      "correctOptionId": "q-p0004-012-o2",
+      "explanation": "繁 se prononce fán et signifie « complexe ; nombreux ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-013",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « ____想去買書和報。 » (Je veux aller acheter des livres et des journaux.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-013-o1",
+          "text": "我"
+        },
+        {
+          "id": "q-p0004-013-o2",
+          "text": "繁"
+        },
+        {
+          "id": "q-p0004-013-o3",
+          "text": "體"
+        }
+      ],
+      "correctOptionId": "q-p0004-013-o1",
+      "explanation": "Le caractère manquant est 我 (wǒ, « je ; moi »), complétant « 我想去買書和報。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0057"
+      ],
+      "entryIds": [
+        "e-p0004-0051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-014",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-014-o1",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-014-o2",
+          "text": "老師"
+        },
+        {
+          "id": "q-p0004-014-o3",
+          "text": "窗戶"
+        }
+      ],
+      "correctOptionId": "q-p0004-014-o3",
+      "explanation": "L'audio prononce 窗戶 (chuānghu), qui signifie « fenêtre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "窗戶",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-015",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 窗戶 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-015-o1",
+          "text": "professeur"
+        },
+        {
+          "id": "q-p0004-015-o2",
+          "text": "fenêtre"
+        },
+        {
+          "id": "q-p0004-015-o3",
+          "text": "lieu ; endroit"
+        }
+      ],
+      "correctOptionId": "q-p0004-015-o2",
+      "explanation": "窗戶 (chuānghu) signifie « fenêtre ». Deuxième syllabe neutre hu. Cette occurrence utilise les caractères traditionnels.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-016",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我想去買書和報。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-016-o1",
+          "text": "Je veux aller acheter des livres et des journaux."
+        },
+        {
+          "id": "q-p0004-016-o2",
+          "text": "Je suis occupé(e), mais mon frère aîné ne l'est pas."
+        },
+        {
+          "id": "q-p0004-016-o3",
+          "text": "Ta petite amie est très jolie."
+        }
+      ],
+      "correctOptionId": "q-p0004-016-o1",
+      "explanation": "« 我想去買書和報。 » (Wǒ xiǎng qù mǎi shū hé bào.) signifie « Je veux aller acheter des livres et des journaux. ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0057"
+      ],
+      "entryIds": [
+        "e-p0004-0051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-017",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 地方 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-017-o1",
+          "text": "fenêtre"
+        },
+        {
+          "id": "q-p0004-017-o2",
+          "text": "professeur"
+        },
+        {
+          "id": "q-p0004-017-o3",
+          "text": "lieu ; endroit"
+        }
+      ],
+      "correctOptionId": "q-p0004-017-o3",
+      "explanation": "地方 (dìfang) signifie « lieu ; endroit ». La deuxième syllabe fang est neutre dans ce sens.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-018",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « lieu ; endroit » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-018-o1",
+          "text": "老師"
+        },
+        {
+          "id": "q-p0004-018-o2",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-018-o3",
+          "text": "窗戶"
+        }
+      ],
+      "correctOptionId": "q-p0004-018-o2",
+      "explanation": "« lieu ; endroit » se dit 地方 (dìfang).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-019",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « tǐ » et signifiant « corps ; forme ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-019-o1",
+          "text": "體"
+        },
+        {
+          "id": "q-p0004-019-o2",
+          "text": "繁"
+        },
+        {
+          "id": "q-p0004-019-o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "q-p0004-019-o1",
+      "explanation": "體 se prononce tǐ et signifie « corps ; forme ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-020",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « 你的____很好看。 » (Ta petite amie est très jolie.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-020-o1",
+          "text": "窗戶"
+        },
+        {
+          "id": "q-p0004-020-o2",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-020-o3",
+          "text": "女朋友"
+        }
+      ],
+      "correctOptionId": "q-p0004-020-o3",
+      "explanation": "Le mot manquant est 女朋友 (nǚ péngyou, « petite amie »), complétant « 你的女朋友很好看。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0080"
+      ],
+      "entryIds": [
+        "e-p0004-0067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-021",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-021-o1",
+          "text": "你的女朋友很好看。"
+        },
+        {
+          "id": "q-p0004-021-o2",
+          "text": "我很忙，可是我哥哥不忙。"
+        },
+        {
+          "id": "q-p0004-021-o3",
+          "text": "我想去買書和報。"
+        }
+      ],
+      "correctOptionId": "q-p0004-021-o2",
+      "explanation": "L'audio prononce 我很忙，可是我哥哥不忙。 (Wǒ hěn máng, kěshì wǒ gēge bù máng.), qui signifie « Je suis occupé(e), mais mon frère aîné ne l'est pas. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0056"
+      ],
+      "entryIds": [
+        "e-p0004-0050"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我很忙，可是我哥哥不忙。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-022",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 地方 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-022-o1",
+          "text": "lieu ; endroit"
+        },
+        {
+          "id": "q-p0004-022-o2",
+          "text": "fenêtre"
+        },
+        {
+          "id": "q-p0004-022-o3",
+          "text": "professeur"
+        }
+      ],
+      "correctOptionId": "q-p0004-022-o1",
+      "explanation": "地方 (dìfang) signifie « lieu ; endroit ». La deuxième syllabe fang est neutre dans ce sens.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-023",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 你的女朋友很好看。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-023-o1",
+          "text": "Je suis occupé(e), mais mon frère aîné ne l'est pas."
+        },
+        {
+          "id": "q-p0004-023-o2",
+          "text": "Je veux aller acheter des livres et des journaux."
+        },
+        {
+          "id": "q-p0004-023-o3",
+          "text": "Ta petite amie est très jolie."
+        }
+      ],
+      "correctOptionId": "q-p0004-023-o3",
+      "explanation": "« 你的女朋友很好看。 » (Nǐ de nǚ péngyou hěn hǎokàn.) signifie « Ta petite amie est très jolie. ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0080"
+      ],
+      "entryIds": [
+        "e-p0004-0067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-024",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 老師 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-024-o1",
+          "text": "lieu ; endroit"
+        },
+        {
+          "id": "q-p0004-024-o2",
+          "text": "professeur"
+        },
+        {
+          "id": "q-p0004-024-o3",
+          "text": "fenêtre"
+        }
+      ],
+      "correctOptionId": "q-p0004-024-o2",
+      "explanation": "老師 (lǎoshī) signifie « professeur ». Placer le nom de famille avant le titre, par exemple 孙老师, « Professeur Sun ». Cette occurrence utilise les caractères traditionnels.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-025",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « facile » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-025-o1",
+          "text": "容易"
+        },
+        {
+          "id": "q-p0004-025-o2",
+          "text": "窗戶"
+        },
+        {
+          "id": "q-p0004-025-o3",
+          "text": "地方"
+        }
+      ],
+      "correctOptionId": "q-p0004-025-o1",
+      "explanation": "« facile » se dit 容易 (róngyì).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-026",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifie le caractère prononcé « zì » et signifiant « caractère écrit ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-026-o1",
+          "text": "繁"
+        },
+        {
+          "id": "q-p0004-026-o2",
+          "text": "體"
+        },
+        {
+          "id": "q-p0004-026-o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "q-p0004-026-o3",
+      "explanation": "字 se prononce zì et signifie « caractère écrit ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-027",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complète la phrase : « 你的法國朋友叫____？ » (Comment s'appelle ton ami(e) français(e) ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-027-o1",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-027-o2",
+          "text": "什麼"
+        },
+        {
+          "id": "q-p0004-027-o3",
+          "text": "窗戶"
+        }
+      ],
+      "correctOptionId": "q-p0004-027-o2",
+      "explanation": "Le mot manquant est 什麼 (shénme, « quel / quoi »), complétant « 你的法國朋友叫什麼？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0081"
+      ],
+      "entryIds": [
+        "e-p0004-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-028",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoute l'audio et choisis le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-028-o1",
+          "text": "繁"
+        },
+        {
+          "id": "q-p0004-028-o2",
+          "text": "體"
+        },
+        {
+          "id": "q-p0004-028-o3",
+          "text": "字"
+        }
+      ],
+      "correctOptionId": "q-p0004-028-o1",
+      "explanation": "L'audio prononce 繁 (fán), qui signifie « complexe ; nombreux ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "繁",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-029",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le rôle ou le sens de 老師 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-029-o1",
+          "text": "fenêtre"
+        },
+        {
+          "id": "q-p0004-029-o2",
+          "text": "lieu ; endroit"
+        },
+        {
+          "id": "q-p0004-029-o3",
+          "text": "professeur"
+        }
+      ],
+      "correctOptionId": "q-p0004-029-o3",
+      "explanation": "老師 (lǎoshī) signifie « professeur ». Placer le nom de famille avant le titre, par exemple 孙老师, « Professeur Sun ». Cette occurrence utilise les caractères traditionnels.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-030",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 你的法國朋友叫什麼？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-030-o1",
+          "text": "Je veux aller acheter des livres et des journaux."
+        },
+        {
+          "id": "q-p0004-030-o2",
+          "text": "Comment s'appelle ton ami(e) français(e) ?"
+        },
+        {
+          "id": "q-p0004-030-o3",
+          "text": "Je suis occupé(e), mais mon frère aîné ne l'est pas."
+        }
+      ],
+      "correctOptionId": "q-p0004-030-o2",
+      "explanation": "« 你的法國朋友叫什麼？ » (Nǐ de Fǎguó péngyou jiào shénme?) signifie « Comment s'appelle ton ami(e) français(e) ? ». Traduction fidèle à la source. Le pinyin note les troisièmes tons lexicaux ; à l'oral, un troisième ton devant un autre troisième ton monte normalement.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0081"
+      ],
+      "entryIds": [
+        "e-p0004-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-031",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 容易 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-031-o1",
+          "text": "facile"
+        },
+        {
+          "id": "q-p0004-031-o2",
+          "text": "fenêtre"
+        },
+        {
+          "id": "q-p0004-031-o3",
+          "text": "lieu ; endroit"
+        }
+      ],
+      "correctOptionId": "q-p0004-031-o1",
+      "explanation": "容易 (róngyì) signifie « facile ». Les deux syllabes conservent leurs tons lexicaux pleins ; yì est au quatrième ton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-032",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « grammaire » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-032-o1",
+          "text": "窗戶"
+        },
+        {
+          "id": "q-p0004-032-o2",
+          "text": "地方"
+        },
+        {
+          "id": "q-p0004-032-o3",
+          "text": "語法"
+        }
+      ],
+      "correctOptionId": "q-p0004-032-o3",
+      "explanation": "« grammaire » se dit 語法 (yǔfǎ).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0018"
+      ],
+      "entryIds": [
+        "e-p0004-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,1139 @@
+{
+  "documentId": "lecon-03",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0007-001",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 法院 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "court of law"
+        },
+        {
+          "id": "o2",
+          "text": "judge"
+        },
+        {
+          "id": "o3",
+          "text": "constitution"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "法院 names the institution; 法官 is judge and 宪法 is constitution.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0076"
+      ],
+      "entryIds": [
+        "e-p0007-0070"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-002",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means headscarf?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "头巾"
+        },
+        {
+          "id": "o2",
+          "text": "头发"
+        },
+        {
+          "id": "o3",
+          "text": "同学"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "头巾 tóujīn means headscarf; 头发 means hair.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0091"
+      ],
+      "entryIds": [
+        "e-p0007-0082"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-003",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Choose the character meaning harsh or severe.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "苛"
+        },
+        {
+          "id": "o2",
+          "text": "哥"
+        },
+        {
+          "id": "o3",
+          "text": "可"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "苛 kē contains the grass component above 可.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0071"
+      ],
+      "entryIds": [
+        "e-p0007-0065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-004",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Where did the speaker meet the old schoolmate?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "beside the well"
+        },
+        {
+          "id": "o2",
+          "text": "at the university"
+        },
+        {
+          "id": "o3",
+          "text": "in a court of law"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "在水井旁边 gives the location: beside the well.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0007"
+      ],
+      "entryIds": [
+        "e-p0007-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-005",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Where is the black mole?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "on the left side of her chin"
+        },
+        {
+          "id": "o2",
+          "text": "on her right hand"
+        },
+        {
+          "id": "o3",
+          "text": "on her forehead"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "下巴 is chin; 左边 means left side.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0029"
+      ],
+      "entryIds": [
+        "e-p0007-0029"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-006",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 左右 mean after the number?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "approximately"
+        },
+        {
+          "id": "o2",
+          "text": "on the left side"
+        },
+        {
+          "id": "o3",
+          "text": "on the right side"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "After a number, 左右 means about or approximately.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0044"
+      ],
+      "entryIds": [
+        "e-p0007-0042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-007",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Who is 拿破仑?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Napoleon"
+        },
+        {
+          "id": "o2",
+          "text": "Charles de Gaulle"
+        },
+        {
+          "id": "o3",
+          "text": "André Martin"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "拿破仑 Nápòlún is the established Chinese transcription of Napoleon.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0103"
+      ],
+      "entryIds": [
+        "e-p0007-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-008",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which place is 枫丹白露?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Fontainebleau"
+        },
+        {
+          "id": "o2",
+          "text": "Paris"
+        },
+        {
+          "id": "o3",
+          "text": "Xi’an"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "枫丹白露 is the established Chinese name Fontainebleau; keep it as a place name.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0111"
+      ],
+      "entryIds": [
+        "e-p0007-0095"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-009",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Which literary title is 悭吝人?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "The Miser"
+        },
+        {
+          "id": "o2",
+          "text": "The Red and the Black"
+        },
+        {
+          "id": "o3",
+          "text": "The Lady of the Camellias"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "悭吝人 is The Miser, Molière’s play L’Avare. The source’s grouping as novels is imprecise.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0133"
+      ],
+      "entryIds": [
+        "e-p0007-0111"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0007-010",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "法"
+        },
+        {
+          "id": "o2",
+          "text": "官"
+        },
+        {
+          "id": "o3",
+          "text": "院"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "法 is fǎ; the other choices are guān and yuàn.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0074"
+      ],
+      "entryIds": [
+        "e-p0007-0068"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/distractor review; not human or independent review."
+      },
+      "speechTarget": "法"
+    },
+    {
+      "id": "q-p0007-011",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「这儿的香港人大概有六千五百个左右。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-011-o1",
+          "text": "This morning I ran into an old schoolmate beside the well."
+        },
+        {
+          "id": "q-p0007-011-o2",
+          "text": "She has a black mole on the left side of her chin."
+        },
+        {
+          "id": "q-p0007-011-o3",
+          "text": "There are about 6,500 Hong Kong people here."
+        }
+      ],
+      "correctOptionId": "q-p0007-011-o3",
+      "explanation": "「这儿的香港人大概有六千五百个左右。」 (Zhèr de Xiānggǎng rén dàgài yǒu liù qiān wǔ bǎi ge zuǒyòu.) means \"There are about 6,500 Hong Kong people here.\". Source-first translation. Pinyin writes lexical third tones; a third tone before another third tone normally rises in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0044"
+      ],
+      "entryIds": [
+        "e-p0007-0042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-012",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 同学 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-012-o1",
+          "text": "today"
+        },
+        {
+          "id": "q-p0007-012-o2",
+          "text": "classmate; fellow student"
+        },
+        {
+          "id": "q-p0007-012-o3",
+          "text": "water well"
+        }
+      ],
+      "correctOptionId": "q-p0007-012-o2",
+      "explanation": "同学 (tóngxué) means \"classmate; fellow student\". 老同学 here means an old schoolmate, someone known from school.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-013",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"classmate; fellow student\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-013-o1",
+          "text": "同学"
+        },
+        {
+          "id": "q-p0007-013-o2",
+          "text": "水井"
+        },
+        {
+          "id": "q-p0007-013-o3",
+          "text": "今天"
+        }
+      ],
+      "correctOptionId": "q-p0007-013-o1",
+      "explanation": "\"classmate; fellow student\" is 同学 (tóngxué).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-014",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"wǒ\" meaning \"I; me\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-014-o1",
+          "text": "今"
+        },
+        {
+          "id": "q-p0007-014-o2",
+          "text": "天"
+        },
+        {
+          "id": "q-p0007-014-o3",
+          "text": "我"
+        }
+      ],
+      "correctOptionId": "q-p0007-014-o3",
+      "explanation": "我 is pronounced wǒ and means \"I; me\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0008"
+      ],
+      "entryIds": [
+        "e-p0007-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-015",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我今天早上在水井旁边遇见了一个老____。」 (This morning I ran into an old schoolmate beside the well.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-015-o1",
+          "text": "今天"
+        },
+        {
+          "id": "q-p0007-015-o2",
+          "text": "同学"
+        },
+        {
+          "id": "q-p0007-015-o3",
+          "text": "水井"
+        }
+      ],
+      "correctOptionId": "q-p0007-015-o2",
+      "explanation": "The missing word is 同学 (tóngxué, \"classmate; fellow student\"), completing 「我今天早上在水井旁边遇见了一个老同学。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0007"
+      ],
+      "entryIds": [
+        "e-p0007-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-016",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-016-o1",
+          "text": "同学"
+        },
+        {
+          "id": "q-p0007-016-o2",
+          "text": "水井"
+        },
+        {
+          "id": "q-p0007-016-o3",
+          "text": "今天"
+        }
+      ],
+      "correctOptionId": "q-p0007-016-o1",
+      "explanation": "The audio speaks 同学 (tóngxué), meaning \"classmate; fellow student\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "同学",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-017",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 同学?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-017-o1",
+          "text": "water well"
+        },
+        {
+          "id": "q-p0007-017-o2",
+          "text": "today"
+        },
+        {
+          "id": "q-p0007-017-o3",
+          "text": "classmate; fellow student"
+        }
+      ],
+      "correctOptionId": "q-p0007-017-o3",
+      "explanation": "同学 (tóngxué) means \"classmate; fellow student\". 老同学 here means an old schoolmate, someone known from school.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-018",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 水井 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-018-o1",
+          "text": "today"
+        },
+        {
+          "id": "q-p0007-018-o2",
+          "text": "water well"
+        },
+        {
+          "id": "q-p0007-018-o3",
+          "text": "classmate; fellow student"
+        }
+      ],
+      "correctOptionId": "q-p0007-018-o2",
+      "explanation": "水井 (shuǐjǐng) means \"water well\". A well that supplies water. The lexical third tones are written; the first rises before the second in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0002"
+      ],
+      "entryIds": [
+        "e-p0007-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-019",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"water well\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-019-o1",
+          "text": "水井"
+        },
+        {
+          "id": "q-p0007-019-o2",
+          "text": "同学"
+        },
+        {
+          "id": "q-p0007-019-o3",
+          "text": "今天"
+        }
+      ],
+      "correctOptionId": "q-p0007-019-o1",
+      "explanation": "\"water well\" is 水井 (shuǐjǐng).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0002"
+      ],
+      "entryIds": [
+        "e-p0007-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-020",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"jīn\" meaning \"now; today (in 今天)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-020-o1",
+          "text": "我"
+        },
+        {
+          "id": "q-p0007-020-o2",
+          "text": "天"
+        },
+        {
+          "id": "q-p0007-020-o3",
+          "text": "今"
+        }
+      ],
+      "correctOptionId": "q-p0007-020-o3",
+      "explanation": "今 is pronounced jīn and means \"now; today (in 今天)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0009"
+      ],
+      "entryIds": [
+        "e-p0007-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-021",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「她的____左边有一个黑痣。」 (She has a black mole on the left side of her chin.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-021-o1",
+          "text": "水井"
+        },
+        {
+          "id": "q-p0007-021-o2",
+          "text": "下巴"
+        },
+        {
+          "id": "q-p0007-021-o3",
+          "text": "同学"
+        }
+      ],
+      "correctOptionId": "q-p0007-021-o2",
+      "explanation": "The missing word is 下巴 (xiàba, \"chin\"), completing 「她的下巴左边有一个黑痣。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0029"
+      ],
+      "entryIds": [
+        "e-p0007-0029"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-022",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-022-o1",
+          "text": "我今天早上在水井旁边遇见了一个老同学。"
+        },
+        {
+          "id": "q-p0007-022-o2",
+          "text": "她的下巴左边有一个黑痣。"
+        },
+        {
+          "id": "q-p0007-022-o3",
+          "text": "这儿的香港人大概有六千五百个左右。"
+        }
+      ],
+      "correctOptionId": "q-p0007-022-o1",
+      "explanation": "The audio speaks 我今天早上在水井旁边遇见了一个老同学。 (Wǒ jīntiān zǎoshang zài shuǐjǐng pángbiān yùjiàn le yí ge lǎo tóngxué.), meaning \"This morning I ran into an old schoolmate beside the well.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0007"
+      ],
+      "entryIds": [
+        "e-p0007-0007"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我今天早上在水井旁边遇见了一个老同学。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-023",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 水井?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-023-o1",
+          "text": "classmate; fellow student"
+        },
+        {
+          "id": "q-p0007-023-o2",
+          "text": "today"
+        },
+        {
+          "id": "q-p0007-023-o3",
+          "text": "water well"
+        }
+      ],
+      "correctOptionId": "q-p0007-023-o3",
+      "explanation": "水井 (shuǐjǐng) means \"water well\". A well that supplies water. The lexical third tones are written; the first rises before the second in speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0002"
+      ],
+      "entryIds": [
+        "e-p0007-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-024",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 今天 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-024-o1",
+          "text": "water well"
+        },
+        {
+          "id": "q-p0007-024-o2",
+          "text": "today"
+        },
+        {
+          "id": "q-p0007-024-o3",
+          "text": "classmate; fellow student"
+        }
+      ],
+      "correctOptionId": "q-p0007-024-o2",
+      "explanation": "今天 (jīntiān) means \"today\". A time expression, usually before the verb in this sentence.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0003"
+      ],
+      "entryIds": [
+        "e-p0007-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-025",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"today\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-025-o1",
+          "text": "今天"
+        },
+        {
+          "id": "q-p0007-025-o2",
+          "text": "同学"
+        },
+        {
+          "id": "q-p0007-025-o3",
+          "text": "水井"
+        }
+      ],
+      "correctOptionId": "q-p0007-025-o1",
+      "explanation": "\"today\" is 今天 (jīntiān).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0003"
+      ],
+      "entryIds": [
+        "e-p0007-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-026",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"tiān\" meaning \"day; sky\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-026-o1",
+          "text": "我"
+        },
+        {
+          "id": "q-p0007-026-o2",
+          "text": "今"
+        },
+        {
+          "id": "q-p0007-026-o3",
+          "text": "天"
+        }
+      ],
+      "correctOptionId": "q-p0007-026-o3",
+      "explanation": "天 is pronounced tiān and means \"day; sky\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0010"
+      ],
+      "entryIds": [
+        "e-p0007-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-027",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「这儿的____人大概有六千五百个左右。」 (There are about 6,500 Hong Kong people here.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-027-o1",
+          "text": "水井"
+        },
+        {
+          "id": "q-p0007-027-o2",
+          "text": "香港"
+        },
+        {
+          "id": "q-p0007-027-o3",
+          "text": "同学"
+        }
+      ],
+      "correctOptionId": "q-p0007-027-o2",
+      "explanation": "The missing word is 香港 (Xiānggǎng, \"Hong Kong\"), completing 「这儿的香港人大概有六千五百个左右。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0044"
+      ],
+      "entryIds": [
+        "e-p0007-0042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-028",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-028-o1",
+          "text": "我"
+        },
+        {
+          "id": "q-p0007-028-o2",
+          "text": "今"
+        },
+        {
+          "id": "q-p0007-028-o3",
+          "text": "天"
+        }
+      ],
+      "correctOptionId": "q-p0007-028-o1",
+      "explanation": "The audio speaks 我 (wǒ), meaning \"I; me\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0008"
+      ],
+      "entryIds": [
+        "e-p0007-0008"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-029",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 今天?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-029-o1",
+          "text": "classmate; fellow student"
+        },
+        {
+          "id": "q-p0007-029-o2",
+          "text": "water well"
+        },
+        {
+          "id": "q-p0007-029-o3",
+          "text": "today"
+        }
+      ],
+      "correctOptionId": "q-p0007-029-o3",
+      "explanation": "今天 (jīntiān) means \"today\". A time expression, usually before the verb in this sentence.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0003"
+      ],
+      "entryIds": [
+        "e-p0007-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-030",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 早上 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-030-o1",
+          "text": "water well"
+        },
+        {
+          "id": "q-p0007-030-o2",
+          "text": "morning"
+        },
+        {
+          "id": "q-p0007-030-o3",
+          "text": "classmate; fellow student"
+        }
+      ],
+      "correctOptionId": "q-p0007-030-o2",
+      "explanation": "早上 (zǎoshang) means \"morning\". Neutral shang in this time expression.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0004"
+      ],
+      "entryIds": [
+        "e-p0007-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-031",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"morning\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-031-o1",
+          "text": "早上"
+        },
+        {
+          "id": "q-p0007-031-o2",
+          "text": "同学"
+        },
+        {
+          "id": "q-p0007-031-o3",
+          "text": "水井"
+        }
+      ],
+      "correctOptionId": "q-p0007-031-o1",
+      "explanation": "\"morning\" is 早上 (zǎoshang).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0004"
+      ],
+      "entryIds": [
+        "e-p0007-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-032",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"zǎo\" meaning \"early; morning\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0007-032-o1",
+          "text": "我"
+        },
+        {
+          "id": "q-p0007-032-o2",
+          "text": "今"
+        },
+        {
+          "id": "q-p0007-032-o3",
+          "text": "早"
+        }
+      ],
+      "correctOptionId": "q-p0007-032-o3",
+      "explanation": "早 is pronounced zǎo and means \"early; morning\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0007-0011"
+      ],
+      "entryIds": [
+        "e-p0007-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "documentId": "lecon-03-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "textSha256": "c4f0397c12acf1073ba03ab323d0026bb5ec11a08f7cd0bbb88ddfc31378a7f0",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, auto-révision distincte après rédaction ; aucune révision humaine ni indépendante",
+  "reviewedAt": "2026-11-24T09:30:24.200816+00:00",
+  "checks": [
+    "Comparaison de chaque image source demandée avec l'OCR, la lecture chinoise principale, le vocabulaire, les étiquettes d'illustration, le tracé et les rôles des composants.",
+    "Correction de l'OCR non publié avec la géométrie OCR individuelle d'origine ou des boîtes de glyphes manquantes mesurées séparément ; reconstruction des décalages de points de code Unicode et de l'inclusion.",
+    "Une révision linguistique distincte a vérifié les changements de ton sur 不, les suffixes neutres, 大夫 dàifu, 相片 xiàngpiàn, 买卖 mǎimai, 容易 róngyì, l'ordre nom/titre et le naturel des traductions françaises.",
+    "Une révision distincte des questions a vérifié chaque réponse et distracteur, l'ambiguïté, le périmètre de la page sélectionnée, les identifiants stables, l'explication et le verrouillage audio.",
+    "Les listes de caractères et exercices de confusion ne sont pas traités comme des mots composés simplement parce que des glyphes adjacents ressemblent à un mot. Aucune réponse aux blancs ouverts n'est devinée.",
+    "Diagnostics SVG liés à la source régénérés après les dernières corrections d'extraction ; inspectés à l'échelle de la page et en agrandissement pour le vocabulaire, le tracé et la grille. La révision dans le navigateur suit la première publication validée.",
+    "Extension de la banque de questions révisées à travers les entrées et annotations de la page ; vérification des options distinctes, de l'identifiant unique de bonne réponse et des sourceAnnotationIds locaux à la page."
+  ],
+  "coverage": {
+    "scope": "Page 5 du PDF physique ; contenu d'apprentissage révisé avec OCR de référence partiel. Aucun pourcentage de couverture n'est revendiqué.",
+    "roles": "Vocabulaire principal des dialogues chinois et 36 unités de phrase à travers les conversations sur le choix du nom, les journaux et le médecin. La discussion mixte latin/chinois sur le choix des syllabes ainsi que certaines ellipses/guillemets restent une transcription de référence partielle.",
+    "transcriptCodePoints": 1050,
+    "locatedRecords": 910,
+    "manualCharacterBoxes": 15,
+    "learningLines": 36,
+    "entries": 144,
+    "entriesByKind": {
+      "word": 33,
+      "sentence": 36,
+      "character": 75
+    },
+    "occurrences": 476,
+    "reviewedIPAEntries": 72,
+    "entriesWithoutReviewedIPA": 72,
+    "questions": 11,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 0,
+    "multilineNote": "Wrapped sentences on page 4 and page 6; vertical grid words use one real glyph anchor per cell on page 6. Not applicable where count is zero.",
+    "reviewedQuestions": 36
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0005",
+      "reason": "L'OCR de référence est partiel ou incertain pour les répétitions pâles de tracé, les dessins historiques ou de tracé, les petits textes en français/pinyin et les discussions mixtes avec guillemets. Seules les zones d'apprentissage désignées et vérifiées visuellement sont enrichies ; l'exhaustivité de l'OCR n'est pas revendiquée.",
+      "nextAction": "Consulter l'original inchangé pour les zones de référence uniquement. Ne pas traiter les fragments d'OCR de référence non révisés comme du vocabulaire."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0005",
+      "reason": "72 entrées n'ont pas d'API révisé, en particulier les phrases, noms propres, formes rhotiques ou tons neutres contextuels. Le pinyin révisé reste disponible.",
+      "nextAction": "Laisser l'API absent tant que cette lecture exacte ne peut pas être révisée."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0005",
+      "reason": "L'écoute nécessite une lecture audio locale réussie dans le navigateur. L'audibilité hors connexion n'a pas été vérifiée de manière indépendante.",
+      "nextAction": "L'éligibilité à l'écoute à l'exécution reste conditionnée par la fin de la lecture locale."
+    }
+  ]
+}
