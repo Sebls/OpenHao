@@ -1,0 +1,1351 @@
+{
+  "documentId": "lecon-02-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 名片 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-001-o1",
+          "text": "carte de visite"
+        },
+        {
+          "id": "q-p0005-001-o2",
+          "text": "photographie"
+        },
+        {
+          "id": "q-p0005-001-o3",
+          "text": "journal"
+        }
+      ],
+      "correctOptionId": "q-p0005-001-o1",
+      "explanation": "名片 míngpiàn signifie « carte de visite ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0173"
+      ],
+      "entryIds": [
+        "e-p0005-0081"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez le mot qui signifie « affaires » ou « commerce ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-002-o1",
+          "text": "买卖"
+        },
+        {
+          "id": "q-p0005-002-o2",
+          "text": "小说"
+        },
+        {
+          "id": "q-p0005-002-o3",
+          "text": "名字"
+        }
+      ],
+      "correctOptionId": "q-p0005-002-o1",
+      "explanation": "买卖 mǎimai est le nom signifiant « affaires » ou « commerce » ; la deuxième syllabe est neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0140"
+      ],
+      "entryIds": [
+        "e-p0005-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « vendre » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-003-o1",
+          "text": "卖"
+        },
+        {
+          "id": "q-p0005-003-o2",
+          "text": "买"
+        },
+        {
+          "id": "q-p0005-003-o3",
+          "text": "想"
+        }
+      ],
+      "correctOptionId": "q-p0005-003-o1",
+      "explanation": "卖 mài signifie « vendre » ; 买 mǎi signifie « acheter ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0148"
+      ],
+      "entryIds": [
+        "e-p0005-0072"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que vend le locuteur ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-004-o1",
+          "text": "des locomotives"
+        },
+        {
+          "id": "q-p0005-004-o2",
+          "text": "des livres"
+        },
+        {
+          "id": "q-p0005-004-o3",
+          "text": "des photographies"
+        }
+      ],
+      "correctOptionId": "q-p0005-004-o1",
+      "explanation": "卖 signifie « vendre », et 火车头 signifie « locomotive ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0159"
+      ],
+      "entryIds": [
+        "e-p0005-0075"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quel nom est présenté par cette phrase ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-005-o1",
+          "text": "Yamamoto"
+        },
+        {
+          "id": "q-p0005-005-o2",
+          "text": "Li Yu"
+        },
+        {
+          "id": "q-p0005-005-o3",
+          "text": "Wang Tian"
+        }
+      ],
+      "correctOptionId": "q-p0005-005-o1",
+      "explanation": "山本 est un nom de famille japonais, Yamamoto, lu Shānběn dans le texte chinois.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0067"
+      ],
+      "entryIds": [
+        "e-p0005-0048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quelle compétence le locuteur dit-il ne pas avoir ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-006-o1",
+          "text": "parler anglais"
+        },
+        {
+          "id": "q-p0005-006-o2",
+          "text": "lire le français"
+        },
+        {
+          "id": "q-p0005-006-o3",
+          "text": "écrire le japonais"
+        }
+      ],
+      "correctOptionId": "q-p0005-006-o1",
+      "explanation": "不会说英文 signifie « ne pas savoir parler anglais ». 不 devient bú devant huì.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0082"
+      ],
+      "entryIds": [
+        "e-p0005-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "À qui appartient le journal ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-007-o1",
+          "text": "à Yamamoto"
+        },
+        {
+          "id": "q-p0005-007-o2",
+          "text": "au locuteur"
+        },
+        {
+          "id": "q-p0005-007-o3",
+          "text": "à Li Yu"
+        }
+      ],
+      "correctOptionId": "q-p0005-007-o1",
+      "explanation": "La première proposition nie que ce soit mon journal ; la seconde identifie 山本 comme le propriétaire.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0197"
+      ],
+      "entryIds": [
+        "e-p0005-0090"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quelle est la profession de la mère ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-008-o1",
+          "text": "ingénieure"
+        },
+        {
+          "id": "q-p0005-008-o2",
+          "text": "juge"
+        },
+        {
+          "id": "q-p0005-008-o3",
+          "text": "médecin"
+        }
+      ],
+      "correctOptionId": "q-p0005-008-o1",
+      "explanation": "工程师 signifie « ingénieur(e) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0321"
+      ],
+      "entryIds": [
+        "e-p0005-0121"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase source : 这是我 __ 名片。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-009-o1",
+          "text": "的"
+        },
+        {
+          "id": "q-p0005-009-o2",
+          "text": "也"
+        },
+        {
+          "id": "q-p0005-009-o3",
+          "text": "吗"
+        }
+      ],
+      "correctOptionId": "q-p0005-009-o1",
+      "explanation": "的 relie le possesseur 我 à 名片 : « ma carte de visite ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0174"
+      ],
+      "entryIds": [
+        "e-p0005-0082"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-010",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Sur quoi porte 什么 dans cette question sur deux lignes ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-010-o1",
+          "text": "le type de travail"
+        },
+        {
+          "id": "q-p0005-010-o2",
+          "text": "l'âge de la mère"
+        },
+        {
+          "id": "q-p0005-010-o3",
+          "text": "le propriétaire d'un journal"
+        }
+      ],
+      "correctOptionId": "q-p0005-010-o1",
+      "explanation": "什么工作 demande quel travail ou quel métier. La question continue sur la ligne imprimée suivante.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0410"
+      ],
+      "entryIds": [
+        "e-p0005-0134"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-011",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Qu'indique 会 à propos du fait de parler anglais ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-011-o1",
+          "text": "la personne a appris à le faire"
+        },
+        {
+          "id": "q-p0005-011-o2",
+          "text": "l'action s'est produite hier"
+        },
+        {
+          "id": "q-p0005-011-o3",
+          "text": "le sujet est au pluriel"
+        }
+      ],
+      "correctOptionId": "q-p0005-011-o1",
+      "explanation": "会 devant un verbe exprime une capacité acquise dans cette question.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0073"
+      ],
+      "entryIds": [
+        "e-p0005-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0005-012",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Choisissez le mot que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-012-o1",
+          "text": "名片"
+        },
+        {
+          "id": "q-p0005-012-o2",
+          "text": "名字"
+        },
+        {
+          "id": "q-p0005-012-o3",
+          "text": "小说"
+        }
+      ],
+      "correctOptionId": "q-p0005-012-o1",
+      "explanation": "名片 míngpiàn signifie « carte de visite », à distinguer de 名字 míngzi, « nom ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0173"
+      ],
+      "entryIds": [
+        "e-p0005-0081"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      },
+      "speechTarget": "名片"
+    },
+    {
+      "id": "q-p0005-013",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 这是我的男朋友。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-013-o1",
+          "text": "C'est mon petit ami."
+        },
+        {
+          "id": "q-p0005-013-o2",
+          "text": "Es-tu aussi de Pékin ?"
+        },
+        {
+          "id": "q-p0005-013-o3",
+          "text": "Je ne suis pas chinois, je suis japonais ; de quel pays es-tu ?"
+        }
+      ],
+      "correctOptionId": "q-p0005-013-o1",
+      "explanation": "« 这是我的男朋友。 » (Zhè shì wǒ de nán péngyou.) signifie « C'est mon petit ami. ». Phrase source ou unité de dialogue. Le pinyin utilise les marques lexicales du troisième ton ; un troisième ton suivi d'un autre troisième ton monte dans la parole ordinaire.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-014",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 李玉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-014-o1",
+          "text": "mon, ma, mes ; le mien, la mienne"
+        },
+        {
+          "id": "q-p0005-014-o2",
+          "text": "ami(e)"
+        },
+        {
+          "id": "q-p0005-014-o3",
+          "text": "Li Yu (nom de personne)"
+        }
+      ],
+      "correctOptionId": "q-p0005-014-o3",
+      "explanation": "李玉 (Lǐ Yù) signifie « Li Yu (nom de personne) ». Li est le nom de famille, Yu le prénom ; conservez l'ordre des noms chinois.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-015",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Li Yu (nom de personne) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-015-o1",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0005-015-o2",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-015-o3",
+          "text": "我的"
+        }
+      ],
+      "correctOptionId": "q-p0005-015-o2",
+      "explanation": "« Li Yu (nom de personne) » se dit 李玉 (Lǐ Yù).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-016",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « Lǐ » signifiant « Li (nom de famille) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-016-o1",
+          "text": "李"
+        },
+        {
+          "id": "q-p0005-016-o2",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0005-016-o3",
+          "text": "这"
+        }
+      ],
+      "correctOptionId": "q-p0005-016-o1",
+      "explanation": "李 se prononce Lǐ et signifie « Li (nom de famille) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0006"
+      ],
+      "entryIds": [
+        "e-p0005-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-017",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 这是我的____。 » (C'est mon petit ami.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-017-o1",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-017-o2",
+          "text": "我的"
+        },
+        {
+          "id": "q-p0005-017-o3",
+          "text": "男朋友"
+        }
+      ],
+      "correctOptionId": "q-p0005-017-o3",
+      "explanation": "Le mot manquant est 男朋友 (nán péngyou, « petit ami »), ce qui complète « 这是我的男朋友。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-018",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-018-o1",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0005-018-o2",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-018-o3",
+          "text": "我的"
+        }
+      ],
+      "correctOptionId": "q-p0005-018-o2",
+      "explanation": "L'audio prononce 李玉 (Lǐ Yù), qui signifie « Li Yu (nom de personne) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "李玉",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-019",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou le sens de 李玉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-019-o1",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-019-o2",
+          "text": "mon, ma, mes ; le mien, la mienne"
+        },
+        {
+          "id": "q-p0005-019-o3",
+          "text": "ami(e)"
+        }
+      ],
+      "correctOptionId": "q-p0005-019-o1",
+      "explanation": "李玉 (Lǐ Yù) signifie « Li Yu (nom de personne) ». Li est le nom de famille, Yu le prénom ; conservez l'ordre des noms chinois.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-020",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 你也是北京人吗？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-020-o1",
+          "text": "C'est mon petit ami."
+        },
+        {
+          "id": "q-p0005-020-o2",
+          "text": "Je ne suis pas chinois, je suis japonais ; de quel pays es-tu ?"
+        },
+        {
+          "id": "q-p0005-020-o3",
+          "text": "Es-tu aussi de Pékin ?"
+        }
+      ],
+      "correctOptionId": "q-p0005-020-o3",
+      "explanation": "« 你也是北京人吗？ » (Nǐ yě shì Běijīng rén ma?) signifie « Es-tu aussi de Pékin ? ». Phrase source ou unité de dialogue. Le pinyin utilise les marques lexicales du troisième ton ; un troisième ton suivi d'un autre troisième ton monte dans la parole ordinaire.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0017"
+      ],
+      "entryIds": [
+        "e-p0005-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-021",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 我的 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-021-o1",
+          "text": "ami(e)"
+        },
+        {
+          "id": "q-p0005-021-o2",
+          "text": "mon, ma, mes ; le mien, la mienne"
+        },
+        {
+          "id": "q-p0005-021-o3",
+          "text": "Li Yu (nom de personne)"
+        }
+      ],
+      "correctOptionId": "q-p0005-021-o2",
+      "explanation": "我的 (wǒ de) signifie « mon, ma, mes ; le mien, la mienne ». 的 relie le possesseur 我 au nom qui suit.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-022",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « mon, ma, mes ; le mien, la mienne » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-022-o1",
+          "text": "我的"
+        },
+        {
+          "id": "q-p0005-022-o2",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-022-o3",
+          "text": "朋友"
+        }
+      ],
+      "correctOptionId": "q-p0005-022-o1",
+      "explanation": "« mon, ma, mes ; le mien, la mienne » se dit 我的 (wǒ de).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-023",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « yù » signifiant « jade ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-023-o1",
+          "text": "李"
+        },
+        {
+          "id": "q-p0005-023-o2",
+          "text": "这"
+        },
+        {
+          "id": "q-p0005-023-o3",
+          "text": "玉"
+        }
+      ],
+      "correctOptionId": "q-p0005-023-o3",
+      "explanation": "玉 se prononce yù et signifie « jade ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0007"
+      ],
+      "entryIds": [
+        "e-p0005-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-024",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 你也是____吗？ » (Es-tu aussi de Pékin ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-024-o1",
+          "text": "我的"
+        },
+        {
+          "id": "q-p0005-024-o2",
+          "text": "北京人"
+        },
+        {
+          "id": "q-p0005-024-o3",
+          "text": "李玉"
+        }
+      ],
+      "correctOptionId": "q-p0005-024-o2",
+      "explanation": "Le mot manquant est 北京人 (Běijīng rén, « Pékinois(e) ; personne de Pékin »), ce qui complète « 你也是北京人吗？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0017"
+      ],
+      "entryIds": [
+        "e-p0005-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-025",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-025-o1",
+          "text": "这是我的男朋友。"
+        },
+        {
+          "id": "q-p0005-025-o2",
+          "text": "你也是北京人吗？"
+        },
+        {
+          "id": "q-p0005-025-o3",
+          "text": "我不是中国人，我是日本人，你是哪国人？"
+        }
+      ],
+      "correctOptionId": "q-p0005-025-o1",
+      "explanation": "L'audio prononce 这是我的男朋友。 (Zhè shì wǒ de nán péngyou.), qui signifie « C'est mon petit ami. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "这是我的男朋友。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-026",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou le sens de 我的 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-026-o1",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-026-o2",
+          "text": "ami(e)"
+        },
+        {
+          "id": "q-p0005-026-o3",
+          "text": "mon, ma, mes ; le mien, la mienne"
+        }
+      ],
+      "correctOptionId": "q-p0005-026-o3",
+      "explanation": "我的 (wǒ de) signifie « mon, ma, mes ; le mien, la mienne ». 的 relie le possesseur 我 au nom qui suit.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-027",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我不是中国人，我是日本人，你是哪国人？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-027-o1",
+          "text": "Es-tu aussi de Pékin ?"
+        },
+        {
+          "id": "q-p0005-027-o2",
+          "text": "Je ne suis pas chinois, je suis japonais ; de quel pays es-tu ?"
+        },
+        {
+          "id": "q-p0005-027-o3",
+          "text": "C'est mon petit ami."
+        }
+      ],
+      "correctOptionId": "q-p0005-027-o2",
+      "explanation": "« 我不是中国人，我是日本人，你是哪国人？ » (Wǒ bú shì Zhōngguó rén, wǒ shì Rìběn rén, nǐ shì nǎ guó rén?) signifie « Je ne suis pas chinois, je suis japonais ; de quel pays es-tu ? ». Phrase source ou unité de dialogue. Le pinyin utilise les marques lexicales du troisième ton ; un troisième ton suivi d'un autre troisième ton monte dans la parole ordinaire.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0031"
+      ],
+      "entryIds": [
+        "e-p0005-0030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-028",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 朋友 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-028-o1",
+          "text": "ami(e)"
+        },
+        {
+          "id": "q-p0005-028-o2",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-028-o3",
+          "text": "mon, ma, mes ; le mien, la mienne"
+        }
+      ],
+      "correctOptionId": "q-p0005-028-o1",
+      "explanation": "朋友 (péngyou) signifie « ami(e) ». La deuxième syllabe you est neutre. 男朋友 et 女朋友 peuvent signifier petit ami et petite amie dans le contexte du dialogue.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-029",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « ami(e) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-029-o1",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-029-o2",
+          "text": "我的"
+        },
+        {
+          "id": "q-p0005-029-o3",
+          "text": "朋友"
+        }
+      ],
+      "correctOptionId": "q-p0005-029-o3",
+      "explanation": "« ami(e) » se dit 朋友 (péngyou).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-030",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « zhè » signifiant « ce, ceci ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-030-o1",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0005-030-o2",
+          "text": "这"
+        },
+        {
+          "id": "q-p0005-030-o3",
+          "text": "李"
+        }
+      ],
+      "correctOptionId": "q-p0005-030-o2",
+      "explanation": "这 se prononce zhè et signifie « ce, ceci ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0008"
+      ],
+      "entryIds": [
+        "e-p0005-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-031",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我不是____，我是日本人，你是哪国人？ » (Je ne suis pas chinois, je suis japonais ; de quel pays es-tu ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-031-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0005-031-o2",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-031-o3",
+          "text": "我的"
+        }
+      ],
+      "correctOptionId": "q-p0005-031-o1",
+      "explanation": "Le mot manquant est 中国人 (Zhōngguó rén, « Chinois(e) ; peuple chinois »), ce qui complète « 我不是中国人，我是日本人，你是哪国人？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0031"
+      ],
+      "entryIds": [
+        "e-p0005-0030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-032",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-032-o1",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0005-032-o2",
+          "text": "这"
+        },
+        {
+          "id": "q-p0005-032-o3",
+          "text": "李"
+        }
+      ],
+      "correctOptionId": "q-p0005-032-o3",
+      "explanation": "L'audio prononce 李 (Lǐ), qui signifie « Li (nom de famille) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0006"
+      ],
+      "entryIds": [
+        "e-p0005-0006"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "李",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-033",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou le sens de 朋友 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-033-o1",
+          "text": "mon, ma, mes ; le mien, la mienne"
+        },
+        {
+          "id": "q-p0005-033-o2",
+          "text": "ami(e)"
+        },
+        {
+          "id": "q-p0005-033-o3",
+          "text": "Li Yu (nom de personne)"
+        }
+      ],
+      "correctOptionId": "q-p0005-033-o2",
+      "explanation": "朋友 (péngyou) signifie « ami(e) ». La deuxième syllabe you est neutre. 男朋友 et 女朋友 peuvent signifier petit ami et petite amie dans le contexte du dialogue.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-034",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我是法国人。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-034-o1",
+          "text": "Je suis français(e)."
+        },
+        {
+          "id": "q-p0005-034-o2",
+          "text": "C'est mon petit ami."
+        },
+        {
+          "id": "q-p0005-034-o3",
+          "text": "Es-tu aussi de Pékin ?"
+        }
+      ],
+      "correctOptionId": "q-p0005-034-o1",
+      "explanation": "« 我是法国人。 » (Wǒ shì Fǎguó rén.) signifie « Je suis français(e). ». Phrase source ou unité de dialogue. Le pinyin utilise les marques lexicales du troisième ton ; un troisième ton suivi d'un autre troisième ton monte dans la parole ordinaire.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0052"
+      ],
+      "entryIds": [
+        "e-p0005-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-035",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 男朋友 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-035-o1",
+          "text": "Li Yu (nom de personne)"
+        },
+        {
+          "id": "q-p0005-035-o2",
+          "text": "mon, ma, mes ; le mien, la mienne"
+        },
+        {
+          "id": "q-p0005-035-o3",
+          "text": "petit ami"
+        }
+      ],
+      "correctOptionId": "q-p0005-035-o3",
+      "explanation": "男朋友 (nán péngyou) signifie « petit ami ». Dans le dialogue de présentation, cela désigne le petit ami de Li Yu ; dans d'autres contextes, cela peut désigner un ami de sexe masculin.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-036",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « petit ami » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-036-o1",
+          "text": "我的"
+        },
+        {
+          "id": "q-p0005-036-o2",
+          "text": "男朋友"
+        },
+        {
+          "id": "q-p0005-036-o3",
+          "text": "李玉"
+        }
+      ],
+      "correctOptionId": "q-p0005-036-o2",
+      "explanation": "« petit ami » se dit 男朋友 (nán péngyou).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-037",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « shì » signifiant « être (suis, es, est, sommes, êtes, sont) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-037-o1",
+          "text": "是"
+        },
+        {
+          "id": "q-p0005-037-o2",
+          "text": "李"
+        },
+        {
+          "id": "q-p0005-037-o3",
+          "text": "玉"
+        }
+      ],
+      "correctOptionId": "q-p0005-037-o1",
+      "explanation": "是 se prononce shì et signifie « être (suis, es, est, sommes, êtes, sont) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0009"
+      ],
+      "entryIds": [
+        "e-p0005-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-038",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我是____。 » (Je suis français(e).)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-038-o1",
+          "text": "李玉"
+        },
+        {
+          "id": "q-p0005-038-o2",
+          "text": "我的"
+        },
+        {
+          "id": "q-p0005-038-o3",
+          "text": "法国人"
+        }
+      ],
+      "correctOptionId": "q-p0005-038-o3",
+      "explanation": "Le mot manquant est 法国人 (Fǎguó rén, « Français(e) ; peuple français »), ce qui complète « 我是法国人。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0052"
+      ],
+      "entryIds": [
+        "e-p0005-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

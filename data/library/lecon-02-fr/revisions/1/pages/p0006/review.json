@@ -1,0 +1,68 @@
+{
+  "documentId": "lecon-02-fr",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "textSha256": "288fa312efac4e3f1d06f0f07ca212c1368fe4f4f48c18d59c1a8a11c9101463",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, auto-évaluation distincte après rédaction ; aucune révision indépendante ni humaine",
+  "reviewedAt": "2026-11-24T09:07:07.169939+00:00",
+  "checks": [
+    "Comparaison de chaque source.png de page demandée avec l'OCR et les zones d'apprentissage désignées, y compris les caractères pâles et les rôles d'illustration/schéma.",
+    "Préservation de l'orthographe source, des occurrences répétées, des décalages de points de code Unicode et des ancres exactes de chaque caractère.",
+    "Révision linguistique distincte de la polyphonie contextuelle, du sandhi tonal de négation, des suffixes neutres, des noms propres, de 作 dans la source face à 做 moderne, et des traductions françaises naturelles.",
+    "Révision distincte des questions portant sur chaque bonne réponse, tous les distracteurs, le périmètre sélectionné, les identifiants stables, les explications et le déclenchement audio à l'exécution.",
+    "Régénération des diagnostics SVG liés à la source après les dernières réparations d'extraction ; inspection de la source et des superpositions à l'échelle de la page et à l'échelle agrandie du dialogue et de la grille.",
+    "L'inspection dans le navigateur de l'agent suit la première publication locale validée ; résultats concrets consignés séparément.",
+    "Extension de la banque de questions révisées sur les entrées et annotations de la page ; vérification de la distinction des options, d'un identifiant unique de bonne réponse et des sourceAnnotationIds locaux à la page."
+  ],
+  "coverage": {
+    "scope": "Page 6 du PDF physique ; transcription de référence partielle, zones d'apprentissage révisées décrites ci-dessous. Aucun pourcentage n'est revendiqué.",
+    "roles": "Dialogue sur le poisson, mémento et doublon traditionnel, description, exercices à trous, 81 glyphes de grille de reconnaissance et exemples de structure. Les consignes de production uniquement en pinyin ou en français restent du texte de référence.",
+    "transcriptCodePoints": 1175,
+    "locatedRecords": 1029,
+    "manualCharacterBoxes": 110,
+    "learningLines": 40,
+    "entries": 126,
+    "entriesByKind": {
+      "word": 20,
+      "sentence": 16,
+      "character": 90
+    },
+    "occurrences": 292,
+    "reviewedIPAEntries": 76,
+    "entriesWithoutReviewedIPA": 50,
+    "questions": 9,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": "Deux ancres de ligne source exactes pour la question 你妈妈作什么工作？ sur p0005 ; sans objet sur cette page.",
+    "reviewedQuestions": 34
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0006",
+      "reason": "L'OCR de référence est incomplet ou incertain pour le texte à faible contraste, les petites gloses en pinyin/français, les dessins historiques de composants, les tracés de traits intermédiaires et les copies de traçage pâles. Ces zones ne sont pas présentées comme du contenu d'apprentissage révisé.",
+      "nextAction": "Utiliser la page originale inchangée pour ces zones de référence. Conserver cette limitation ; une future migration d'extraction nécessiterait un périmètre explicite pour les pages acceptées."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0006",
+      "reason": "50 entrées n'ont pas d'API révisée, principalement des phrases, des noms propres ou des lectures neutres en contexte. Le pinyin révisé avec marques de ton est disponible.",
+      "nextAction": "Laisser l'API absente plutôt que de synthétiser une transcription incertaine."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0006",
+      "reason": "Les questions d'écoute nécessitent une lecture locale réussie dans le navigateur à l'exécution. L'audibilité hors ligne n'a pas été testée de manière indépendante.",
+      "nextAction": "Utiliser le contrôle de lecture local du mandarin ; l'écoute reste verrouillée jusqu'à la fin de la lecture."
+    }
+  ]
+}

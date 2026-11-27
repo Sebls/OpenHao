@@ -1,0 +1,1127 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 火車頭 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-001-o1",
+          "text": "locomotive"
+        },
+        {
+          "id": "q-p0004-001-o2",
+          "text": "photograph"
+        },
+        {
+          "id": "q-p0004-001-o3",
+          "text": "table"
+        }
+      ],
+      "correctOptionId": "q-p0004-001-o1",
+      "explanation": "火車頭 is the traditional spelling of 火车头, locomotive.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0045"
+      ],
+      "entryIds": [
+        "e-p0004-0030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose study or learn in traditional characters.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-002-o1",
+          "text": "學習"
+        },
+        {
+          "id": "q-p0004-002-o2",
+          "text": "日報"
+        },
+        {
+          "id": "q-p0004-002-o3",
+          "text": "法國"
+        }
+      ],
+      "correctOptionId": "q-p0004-002-o1",
+      "explanation": "學習 xuéxí is study or learn; its simplified form is 学习.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0058"
+      ],
+      "entryIds": [
+        "e-p0004-0039"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which is the traditional yes/no question particle?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-003-o1",
+          "text": "嗎"
+        },
+        {
+          "id": "q-p0004-003-o2",
+          "text": "習"
+        },
+        {
+          "id": "q-p0004-003-o3",
+          "text": "頭"
+        }
+      ],
+      "correctOptionId": "q-p0004-003-o1",
+      "explanation": "嗎 ma is the traditional form of 吗.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0042"
+      ],
+      "entryIds": [
+        "e-p0004-0028"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What can she do in this source sentence?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-004-o1",
+          "text": "speak Japanese and French"
+        },
+        {
+          "id": "q-p0004-004-o2",
+          "text": "sell locomotives"
+        },
+        {
+          "id": "q-p0004-004-o3",
+          "text": "read English newspapers"
+        }
+      ],
+      "correctOptionId": "q-p0004-004-o1",
+      "explanation": "會說 expresses the ability to speak. 日文 and 法文 identify the two languages.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0077"
+      ],
+      "entryIds": [
+        "e-p0004-0048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the traditional source sentence: 這是我的書 __ 報。",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-005-o1",
+          "text": "和"
+        },
+        {
+          "id": "q-p0004-005-o2",
+          "text": "也"
+        },
+        {
+          "id": "q-p0004-005-o3",
+          "text": "嗎"
+        }
+      ],
+      "correctOptionId": "q-p0004-005-o1",
+      "explanation": "和 connects 書 (book) and 報 (newspaper).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0111"
+      ],
+      "entryIds": [
+        "e-p0004-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What makes this a yes/no question?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-006-o1",
+          "text": "the final particle 嗎"
+        },
+        {
+          "id": "q-p0004-006-o2",
+          "text": "the plural suffix 們"
+        },
+        {
+          "id": "q-p0004-006-o3",
+          "text": "the noun 本子"
+        }
+      ],
+      "correctOptionId": "q-p0004-006-o1",
+      "explanation": "Sentence-final 嗎 marks the yes/no question; 們 only marks plural you.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0090"
+      ],
+      "entryIds": [
+        "e-p0004-0054"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which traditional word matches?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-007-o1",
+          "text": "日報"
+        },
+        {
+          "id": "q-p0004-007-o2",
+          "text": "日本"
+        },
+        {
+          "id": "q-p0004-007-o3",
+          "text": "日文"
+        }
+      ],
+      "correctOptionId": "q-p0004-007-o1",
+      "explanation": "The target is 日報 rìbào, daily newspaper.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0010"
+      ],
+      "entryIds": [
+        "e-p0004-0009"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/answer/distractor self-review; no independent review claimed."
+      },
+      "speechTarget": "日報"
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「他是我的日本朋友，他學習中文。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-008-o1",
+          "text": "She can speak Japanese and French."
+        },
+        {
+          "id": "q-p0004-008-o2",
+          "text": "Is this your notebook? (Addressing several people.)"
+        },
+        {
+          "id": "q-p0004-008-o3",
+          "text": "He is my Japanese friend. He studies Chinese."
+        }
+      ],
+      "correctOptionId": "q-p0004-008-o3",
+      "explanation": "「他是我的日本朋友，他學習中文。」 (Tā shì wǒ de Rìběn péngyou, tā xuéxí Zhōngwén.) means \"He is my Japanese friend. He studies Chinese.\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0061"
+      ],
+      "entryIds": [
+        "e-p0004-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 法文 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-009-o1",
+          "text": "daily newspaper"
+        },
+        {
+          "id": "q-p0004-009-o2",
+          "text": "French (language)"
+        },
+        {
+          "id": "q-p0004-009-o3",
+          "text": "friend"
+        }
+      ],
+      "correctOptionId": "q-p0004-009-o2",
+      "explanation": "法文 (Fǎwén) means \"French (language)\". A language word; distinguish it from 法国, the country France.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"French (language)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-010-o1",
+          "text": "法文"
+        },
+        {
+          "id": "q-p0004-010-o2",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0004-010-o3",
+          "text": "日報"
+        }
+      ],
+      "correctOptionId": "q-p0004-010-o1",
+      "explanation": "\"French (language)\" is 法文 (Fǎwén).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-011",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"fǎ\" meaning \"law; method\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-011-o1",
+          "text": "文"
+        },
+        {
+          "id": "q-p0004-011-o2",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0004-011-o3",
+          "text": "法"
+        }
+      ],
+      "correctOptionId": "q-p0004-011-o3",
+      "explanation": "法 is pronounced fǎ and means \"law; method\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-012",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「他是我的日本____，他學習中文。」 (He is my Japanese friend. He studies Chinese.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-012-o1",
+          "text": "法語"
+        },
+        {
+          "id": "q-p0004-012-o2",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0004-012-o3",
+          "text": "法文"
+        }
+      ],
+      "correctOptionId": "q-p0004-012-o2",
+      "explanation": "The missing word is 朋友 (péngyou, \"friend\"), completing 「他是我的日本朋友，他學習中文。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0061"
+      ],
+      "entryIds": [
+        "e-p0004-0040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-013",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-013-o1",
+          "text": "法文"
+        },
+        {
+          "id": "q-p0004-013-o2",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0004-013-o3",
+          "text": "日報"
+        }
+      ],
+      "correctOptionId": "q-p0004-013-o1",
+      "explanation": "The audio speaks 法文 (Fǎwén), meaning \"French (language)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "法文",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-014",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 法文?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-014-o1",
+          "text": "friend"
+        },
+        {
+          "id": "q-p0004-014-o2",
+          "text": "daily newspaper"
+        },
+        {
+          "id": "q-p0004-014-o3",
+          "text": "French (language)"
+        }
+      ],
+      "correctOptionId": "q-p0004-014-o3",
+      "explanation": "法文 (Fǎwén) means \"French (language)\". A language word; distinguish it from 法国, the country France.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-015",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「這是你們的本子嗎？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-015-o1",
+          "text": "She can speak Japanese and French."
+        },
+        {
+          "id": "q-p0004-015-o2",
+          "text": "Is this your notebook? (Addressing several people.)"
+        },
+        {
+          "id": "q-p0004-015-o3",
+          "text": "He is my Japanese friend. He studies Chinese."
+        }
+      ],
+      "correctOptionId": "q-p0004-015-o2",
+      "explanation": "「這是你們的本子嗎？」 (Zhè shì nǐmen de běnzi ma?) means \"Is this your notebook? (Addressing several people.)\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0090"
+      ],
+      "entryIds": [
+        "e-p0004-0054"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-016",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 朋友 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-016-o1",
+          "text": "friend"
+        },
+        {
+          "id": "q-p0004-016-o2",
+          "text": "French (language)"
+        },
+        {
+          "id": "q-p0004-016-o3",
+          "text": "daily newspaper"
+        }
+      ],
+      "correctOptionId": "q-p0004-016-o1",
+      "explanation": "朋友 (péngyou) means \"friend\". The second syllable you is neutral. 男朋友 and 女朋友 can mean boyfriend and girlfriend in the dialogue context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-017",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"friend\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-017-o1",
+          "text": "法文"
+        },
+        {
+          "id": "q-p0004-017-o2",
+          "text": "法語"
+        },
+        {
+          "id": "q-p0004-017-o3",
+          "text": "朋友"
+        }
+      ],
+      "correctOptionId": "q-p0004-017-o3",
+      "explanation": "\"friend\" is 朋友 (péngyou).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-018",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"wén\" meaning \"writing; language; literature\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-018-o1",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0004-018-o2",
+          "text": "文"
+        },
+        {
+          "id": "q-p0004-018-o3",
+          "text": "法"
+        }
+      ],
+      "correctOptionId": "q-p0004-018-o2",
+      "explanation": "文 is pronounced wén and means \"writing; language; literature\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-019",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「她會說日文，也會說____。」 (She can speak Japanese and French.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-019-o1",
+          "text": "法文"
+        },
+        {
+          "id": "q-p0004-019-o2",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0004-019-o3",
+          "text": "日報"
+        }
+      ],
+      "correctOptionId": "q-p0004-019-o1",
+      "explanation": "The missing word is 法文 (Fǎwén, \"French (language)\"), completing 「她會說日文，也會說法文。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0077"
+      ],
+      "entryIds": [
+        "e-p0004-0048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-020",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-020-o1",
+          "text": "她會說日文，也會說法文。"
+        },
+        {
+          "id": "q-p0004-020-o2",
+          "text": "這是你們的本子嗎？"
+        },
+        {
+          "id": "q-p0004-020-o3",
+          "text": "他是我的日本朋友，他學習中文。"
+        }
+      ],
+      "correctOptionId": "q-p0004-020-o3",
+      "explanation": "The audio speaks 他是我的日本朋友，他學習中文。 (Tā shì wǒ de Rìběn péngyou, tā xuéxí Zhōngwén.), meaning \"He is my Japanese friend. He studies Chinese.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0061"
+      ],
+      "entryIds": [
+        "e-p0004-0040"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "他是我的日本朋友，他學習中文。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-021",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 朋友?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-021-o1",
+          "text": "daily newspaper"
+        },
+        {
+          "id": "q-p0004-021-o2",
+          "text": "friend"
+        },
+        {
+          "id": "q-p0004-021-o3",
+          "text": "French (language)"
+        }
+      ],
+      "correctOptionId": "q-p0004-021-o2",
+      "explanation": "朋友 (péngyou) means \"friend\". The second syllable you is neutral. 男朋友 and 女朋友 can mean boyfriend and girlfriend in the dialogue context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-022",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「王田作什麼工作？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-022-o1",
+          "text": "What work does Wang Tian do?"
+        },
+        {
+          "id": "q-p0004-022-o2",
+          "text": "He is my Japanese friend. He studies Chinese."
+        },
+        {
+          "id": "q-p0004-022-o3",
+          "text": "She can speak Japanese and French."
+        }
+      ],
+      "correctOptionId": "q-p0004-022-o1",
+      "explanation": "「王田作什麼工作？」 (Wáng Tián zuò shénme gōngzuò?) means \"What work does Wang Tian do?\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0102"
+      ],
+      "entryIds": [
+        "e-p0004-0062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-023",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 法語 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-023-o1",
+          "text": "friend"
+        },
+        {
+          "id": "q-p0004-023-o2",
+          "text": "daily newspaper"
+        },
+        {
+          "id": "q-p0004-023-o3",
+          "text": "French (language)"
+        }
+      ],
+      "correctOptionId": "q-p0004-023-o3",
+      "explanation": "法語 (Fǎyǔ) means \"French (language)\". Also means French. In speech, the first third tone rises before yǔ; lexical pinyin keeps both third-tone marks. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-024",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"daily newspaper\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-024-o1",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0004-024-o2",
+          "text": "日報"
+        },
+        {
+          "id": "q-p0004-024-o3",
+          "text": "法文"
+        }
+      ],
+      "correctOptionId": "q-p0004-024-o2",
+      "explanation": "\"daily newspaper\" is 日報 (rìbào).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0010"
+      ],
+      "entryIds": [
+        "e-p0004-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-025",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"péng\" meaning \"friend (in compounds)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-025-o1",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0004-025-o2",
+          "text": "法"
+        },
+        {
+          "id": "q-p0004-025-o3",
+          "text": "文"
+        }
+      ],
+      "correctOptionId": "q-p0004-025-o1",
+      "explanation": "朋 is pronounced péng and means \"friend (in compounds)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-026",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「這是你們的____嗎？」 (Is this your notebook? (Addressing several people.))",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-026-o1",
+          "text": "法文"
+        },
+        {
+          "id": "q-p0004-026-o2",
+          "text": "朋友"
+        },
+        {
+          "id": "q-p0004-026-o3",
+          "text": "本子"
+        }
+      ],
+      "correctOptionId": "q-p0004-026-o3",
+      "explanation": "The missing word is 本子 (běnzi, \"notebook\"), completing 「這是你們的本子嗎？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0090"
+      ],
+      "entryIds": [
+        "e-p0004-0054"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-027",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-027-o1",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0004-027-o2",
+          "text": "法"
+        },
+        {
+          "id": "q-p0004-027-o3",
+          "text": "文"
+        }
+      ],
+      "correctOptionId": "q-p0004-027-o2",
+      "explanation": "The audio speaks 法 (fǎ), meaning \"law; method\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "法",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-028",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 法語?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-028-o1",
+          "text": "French (language)"
+        },
+        {
+          "id": "q-p0004-028-o2",
+          "text": "friend"
+        },
+        {
+          "id": "q-p0004-028-o3",
+          "text": "daily newspaper"
+        }
+      ],
+      "correctOptionId": "q-p0004-028-o1",
+      "explanation": "法語 (Fǎyǔ) means \"French (language)\". Also means French. In speech, the first third tone rises before yǔ; lexical pinyin keeps both third-tone marks. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-029",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「這是我的書和報。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-029-o1",
+          "text": "He is my Japanese friend. He studies Chinese."
+        },
+        {
+          "id": "q-p0004-029-o2",
+          "text": "She can speak Japanese and French."
+        },
+        {
+          "id": "q-p0004-029-o3",
+          "text": "These are my book and newspaper."
+        }
+      ],
+      "correctOptionId": "q-p0004-029-o3",
+      "explanation": "「這是我的書和報。」 (Zhè shì wǒ de shū hé bào.) means \"These are my book and newspaper.\". A source sentence or dialogue unit. Pinyin uses lexical third-tone marks; a third tone before another third tone rises in ordinary speech.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0111"
+      ],
+      "entryIds": [
+        "e-p0004-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-030",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 日報 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-030-o1",
+          "text": "friend"
+        },
+        {
+          "id": "q-p0004-030-o2",
+          "text": "daily newspaper"
+        },
+        {
+          "id": "q-p0004-030-o3",
+          "text": "French (language)"
+        }
+      ],
+      "correctOptionId": "q-p0004-030-o2",
+      "explanation": "日報 (rìbào) means \"daily newspaper\". A newspaper published daily; 北京日报 is the title Beijing Daily. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0010"
+      ],
+      "entryIds": [
+        "e-p0004-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-031",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"United Kingdom; Britain\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-031-o1",
+          "text": "英國"
+        },
+        {
+          "id": "q-p0004-031-o2",
+          "text": "法文"
+        },
+        {
+          "id": "q-p0004-031-o3",
+          "text": "朋友"
+        }
+      ],
+      "correctOptionId": "q-p0004-031-o1",
+      "explanation": "\"United Kingdom; Britain\" is 英國 (Yīngguó).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0013"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-032",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"you\" meaning \"friend (second syllable of 朋友)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-032-o1",
+          "text": "法"
+        },
+        {
+          "id": "q-p0004-032-o2",
+          "text": "文"
+        },
+        {
+          "id": "q-p0004-032-o3",
+          "text": "友"
+        }
+      ],
+      "correctOptionId": "q-p0004-032-o3",
+      "explanation": "友 is pronounced you and means \"friend (second syllable of 朋友)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0006"
+      ],
+      "entryIds": [
+        "e-p0004-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

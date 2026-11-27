@@ -1,0 +1,79 @@
+{
+  "documentId": "lecon-02-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "textSha256": "8ef9bd6bc016804838a828066e0eb8ee9e7c9b396e0eade27231e0f7c31fd312",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, auto-évaluation distincte après rédaction ; aucune révision indépendante ni humaine",
+  "reviewedAt": "2026-11-24T09:07:07.163182+00:00",
+  "checks": [
+    "Comparaison de chaque source.png de page demandée avec l'OCR et les zones d'apprentissage désignées, y compris les caractères pâles et les rôles d'illustration/schéma.",
+    "Préservation de l'orthographe source, des occurrences répétées, des décalages de points de code Unicode et des ancres exactes de chaque caractère.",
+    "Révision linguistique distincte de la polyphonie contextuelle, du sandhi tonal de négation, des suffixes neutres, des noms propres, de 作 dans la source face à 做 moderne, et des traductions françaises naturelles.",
+    "Révision distincte des questions portant sur chaque bonne réponse, tous les distracteurs, le périmètre sélectionné, les identifiants stables, les explications et le déclenchement audio à l'exécution.",
+    "Régénération des diagnostics SVG liés à la source après les dernières réparations d'extraction ; inspection de la source et des superpositions à l'échelle de la page et à l'échelle agrandie du dialogue et de la grille.",
+    "L'inspection dans le navigateur de l'agent suit la première publication locale validée ; résultats concrets consignés séparément.",
+    "Revue navigateur : correction de e-p0005-0047 après vérification de la prononciation isolée par rapport au contexte lexical ; aucune modification de l'extraction source.",
+    "Extension de la banque de questions révisées sur les entrées et annotations de la page ; vérification de la distinction des options, d'un identifiant unique de bonne réponse et des sourceAnnotationIds locaux à la page."
+  ],
+  "coverage": {
+    "scope": "Page 5 du PDF physique ; transcription de référence partielle, zones d'apprentissage révisées décrites ci-dessous. Aucun pourcentage n'est revendiqué.",
+    "roles": "Tours de dialogue principaux, vocabulaire et question sur deux lignes. Certaines suites courtes sélectionnées sont explicitement décrites comme des fragments. Les didascalies en français restent du texte de référence.",
+    "transcriptCodePoints": 1017,
+    "locatedRecords": 827,
+    "manualCharacterBoxes": 13,
+    "learningLines": 41,
+    "entries": 134,
+    "entriesByKind": {
+      "word": 36,
+      "sentence": 38,
+      "character": 60
+    },
+    "occurrences": 410,
+    "reviewedIPAEntries": 74,
+    "entriesWithoutReviewedIPA": 60,
+    "questions": 12,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": "La question révisée sur deux lignes 你妈妈作什么工作？ possède des ancres exactes distinctes pour les deux lignes.",
+    "reviewedQuestions": 38
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0005",
+      "reason": "L'OCR de référence est incomplet ou incertain pour le texte à faible contraste, les petites gloses en pinyin/français, les dessins historiques de composants, les tracés de traits intermédiaires et les copies de traçage pâles. Ces zones ne sont pas présentées comme du contenu d'apprentissage révisé.",
+      "nextAction": "Utiliser la page originale inchangée pour ces zones de référence. Conserver cette limitation ; une future migration d'extraction nécessiterait un périmètre explicite pour les pages acceptées."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0005",
+      "reason": "60 entrées n'ont pas d'API révisée, principalement des phrases, des noms propres ou des lectures neutres en contexte. Le pinyin révisé avec marques de ton est disponible.",
+      "nextAction": "Laisser l'API absente plutôt que de synthétiser une transcription incertaine."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0005",
+      "reason": "Les questions d'écoute nécessitent une lecture locale réussie dans le navigateur à l'exécution. L'audibilité hors ligne n'a pas été testée de manière indépendante.",
+      "nextAction": "Utiliser le contrôle de lecture local du mandarin ; l'écoute reste verrouillée jusqu'à la fin de la lecture."
+    },
+    {
+      "severity": "warning",
+      "pageId": "p0005",
+      "recordIds": [
+        "l0062"
+      ],
+      "reason": "Un défaut d'ordre de lecture subsiste dans la transcription OCR de la question sur la table : 的 a été placé après 桌子 dans l'ordre du texte, bien que sa position mesurée dans la source soit avant 桌子. Le scan source indique correctement 我也爱看小说……这是你的桌子吗？. Aucune unité d'apprentissage ni question de phrase complète incorrecte n'a été rédigée à partir de ce fragment.",
+      "nextAction": "Consulter le scan original pour cette ligne. La correction de la transcription désormais publiée nécessiterait une migration d'extraction explicitement demandée avec réindexation des ancres ; la réparation ordinaire d'un élément doit laisser la révision d'extraction 1 figée."
+    }
+  ],
+  "browserReview": "Découverte dans la bibliothèque, rendu de la source, détails des caractères et des mots, question sur deux lignes, retour d'exercice lié à la source et retour à la lecture vérifiés dans le navigateur intégré Codex. La prononciation locale a atteint l'état Terminé ; l'audibilité hors ligne n'a pas été vérifiée de manière indépendante."
+}

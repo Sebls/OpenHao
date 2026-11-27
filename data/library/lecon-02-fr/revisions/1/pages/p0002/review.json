@@ -1,0 +1,65 @@
+{
+  "documentId": "lecon-02-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "743b9d7eb1df0d37e6a3568e57baedc82c70c28b91743254fed59b9be4ad7aa7",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, auto-évaluation distincte après rédaction ; aucune révision indépendante ni humaine revendiquée",
+  "reviewedAt": "2026-11-24T09:07:07.138559+00:00",
+  "checks": [
+    "Comparaison de chaque source.png de page demandée avec l'OCR et les zones d'apprentissage désignées, y compris les caractères pâles et les rôles d'illustration ou de schéma.",
+    "Conservation de l'orthographe source, des occurrences répétées, des décalages de points de code Unicode et des ancres exactes de chaque caractère individuel.",
+    "Révision linguistique distincte de la polyphonie contextuelle, du sandhi de ton de la négation, des suffixes neutres, des noms propres, de 作 dans la source face à 做 moderne, et de traductions françaises naturelles.",
+    "Révision distincte de chaque question : bonne réponse, tous les distracteurs, périmètre sélectionné, identifiants stables, explications et déclenchement audio à l'exécution.",
+    "Régénération des diagnostics SVG liés à la source après les dernières corrections d'extraction ; inspection de la source et des superpositions à l'échelle de la page et à l'échelle agrandie des dialogues et grilles.",
+    "L'inspection dans le navigateur de l'agent suit la première publication locale validée ; les résultats concrets sont consignés séparément.",
+    "Extension de la banque de questions révisées à travers les entrées et annotations de la page ; vérification des options distinctes, de l'identifiant unique de bonne réponse et des sourceAnnotationIds locaux à la page."
+  ],
+  "coverage": {
+    "scope": "Page 2 du PDF physique ; transcription de référence partielle, zones d'apprentissage révisées décrites ci-dessous. Aucun pourcentage n'est revendiqué.",
+    "roles": "Étiquettes des caractères principaux et exemples de mots composés de la source. Schémas historiques et étapes partielles de tracé exclus.",
+    "transcriptCodePoints": 1594,
+    "locatedRecords": 1302,
+    "manualCharacterBoxes": 1,
+    "learningLines": 22,
+    "entries": 31,
+    "entriesByKind": {
+      "character": 20,
+      "word": 11
+    },
+    "occurrences": 51,
+    "reviewedIPAEntries": 23,
+    "entriesWithoutReviewedIPA": 8,
+    "questions": 6,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": "Deux ancres exactes de ligne source sur la question de p0005 你妈妈作什么工作？ ; sans objet sur cette page.",
+    "reviewedQuestions": 22
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0002",
+      "reason": "L'OCR de référence est incomplet ou incertain pour le texte à faible contraste, les petites gloses en pinyin ou en français, les dessins historiques de composants, les formes intermédiaires de tracé et les copies pâles de calligraphie. Ces zones ne sont pas présentées comme du contenu d'apprentissage révisé.",
+      "nextAction": "Utiliser la page originale inchangée pour ces zones de référence. Conserver cette limitation ; une future migration d'extraction nécessiterait un périmètre explicite pour les pages acceptées."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0002",
+      "reason": "8 entrées n'ont pas d'API révisé, principalement des lectures de phrase, de nom propre ou de ton neutre contextuel. Le pinyin révisé avec marques de ton est disponible.",
+      "nextAction": "Laisser l'API absent plutôt que de synthétiser une transcription incertaine."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0002",
+      "reason": "Les questions d'écoute nécessitent une lecture audio locale réussie dans le navigateur à l'exécution. L'audibilité hors connexion n'a pas été testée de manière indépendante.",
+      "nextAction": "Utiliser le contrôle local de lecture en mandarin ; l'écoute reste verrouillée jusqu'à la fin de la lecture."
+    }
+  ]
+}

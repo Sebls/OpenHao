@@ -1,0 +1,68 @@
+{
+  "documentId": "lecon-02",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "textSha256": "820527236661061fc93f18bf8060dd7be06bc4017379583de7500e3e5d6fb860",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, separate self-review after authoring; not independent or human review",
+  "reviewedAt": "2026-11-24T09:07:07.176436+00:00",
+  "checks": [
+    "Compared every requested page source.png with OCR and designated learning regions, including faint characters and illustration/diagram roles.",
+    "Preserved source spelling, repeated occurrences, Unicode code-point offsets and exact individual character anchors.",
+    "Distinct linguistic review of contextual polyphony, negative-tone sandhi, neutral suffixes, proper names, source 作 versus modern 做, and natural English translations.",
+    "Distinct question review of each correct answer, all distractors, selected scope, stable IDs, explanations and runtime audio gating.",
+    "Regenerated source-linked SVG diagnostics after final extraction repairs; inspected source and overlays at page scale and enlarged dialogue/grid scale.",
+    "Agent-browser inspection follows first validated local publication; concrete results recorded separately.",
+    "Expanded reviewed question bank across page-scoped entries and annotations; verified distinct options, single correct option ID, and page-local sourceAnnotationIds."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 7; partial reference transcription, reviewed learning regions as described below. No percentage is claimed.",
+    "roles": "Matching vocabulary, isolated sentence-building characters, question/answer pairs, tracing characters, six personal names and six country names.",
+    "transcriptCodePoints": 1100,
+    "locatedRecords": 984,
+    "manualCharacterBoxes": 2,
+    "learningLines": 36,
+    "entries": 95,
+    "entriesByKind": {
+      "word": 30,
+      "character": 57,
+      "sentence": 8
+    },
+    "occurrences": 138,
+    "reviewedIPAEntries": 45,
+    "entriesWithoutReviewedIPA": 50,
+    "questions": 10,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": "Two exact source line anchors on p0005 question 你妈妈作什么工作？; not applicable on this page.",
+    "reviewedQuestions": 30
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0007",
+      "reason": "Reference OCR is incomplete or uncertain for low-contrast text, small pinyin/French glosses, historical component drawings, intermediate stroke shapes and faint tracing copies. Such regions are not presented as reviewed learning content.",
+      "nextAction": "Use the unchanged original page for these reference regions. Preserve this limitation; a future extraction migration would need explicit scope for accepted pages."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0007",
+      "reason": "50 entries have no reviewed IPA, mainly sentence/name or contextual-neutral readings. Reviewed tone-mark pinyin is available.",
+      "nextAction": "Leave IPA absent rather than synthesize an uncertain transcription."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0007",
+      "reason": "Listening questions require successful local browser playback at runtime. Disconnected audibility has not been independently tested.",
+      "nextAction": "Use the local Mandarin playback control; listening remains gated until completion."
+    }
+  ]
+}

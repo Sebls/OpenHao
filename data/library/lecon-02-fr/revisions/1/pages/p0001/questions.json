@@ -1,0 +1,709 @@
+{
+  "documentId": "lecon-02-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "À quoi se rapporte le composant 禾 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-001-o1",
+          "text": "les céréales"
+        },
+        {
+          "id": "q-p0001-001-o2",
+          "text": "l'eau"
+        },
+        {
+          "id": "q-p0001-001-o3",
+          "text": "la parole"
+        }
+      ],
+      "correctOptionId": "q-p0001-001-o1",
+      "explanation": "禾 hé est le composant des céréales. Il ne détermine pas toujours le sens du caractère entier.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0026"
+      ],
+      "entryIds": [
+        "e-p0001-0025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez le caractère qui signifie « lune » ou « mois ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-002-o1",
+          "text": "月"
+        },
+        {
+          "id": "q-p0001-002-o2",
+          "text": "禾"
+        },
+        {
+          "id": "q-p0001-002-o3",
+          "text": "日"
+        }
+      ],
+      "correctOptionId": "q-p0001-002-o1",
+      "explanation": "月 yuè signifie « lune » ou « mois ». La même forme peut représenter l'ancien composant de la chair dans certains caractères.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0019"
+      ],
+      "entryIds": [
+        "e-p0001-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère écrit signifie « il » ou « lui » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-003-o1",
+          "text": "他"
+        },
+        {
+          "id": "q-p0001-003-o2",
+          "text": "她"
+        },
+        {
+          "id": "q-p0001-003-o3",
+          "text": "也"
+        }
+      ],
+      "correctOptionId": "q-p0001-003-o1",
+      "explanation": "他 et 她 se prononcent tous deux tā, mais 他 signifie « il / lui » et 她 signifie « elle ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0010"
+      ],
+      "entryIds": [
+        "e-p0001-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quel est le rôle habituel de 吗 en fin de phrase ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-004-o1",
+          "text": "il forme une question oui/non"
+        },
+        {
+          "id": "q-p0001-004-o2",
+          "text": "il met un nom au pluriel"
+        },
+        {
+          "id": "q-p0001-004-o3",
+          "text": "il marque le passé"
+        }
+      ],
+      "correctOptionId": "q-p0001-004-o1",
+      "explanation": "La particule neutre 吗 transforme une phrase affirmative en question oui/non.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0015"
+      ],
+      "entryIds": [
+        "e-p0001-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      }
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quel caractère entendez-vous ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-005-o1",
+          "text": "这"
+        },
+        {
+          "id": "q-p0001-005-o2",
+          "text": "月"
+        },
+        {
+          "id": "q-p0001-005-o3",
+          "text": "禾"
+        }
+      ],
+      "correctOptionId": "q-p0001-005-o1",
+      "explanation": "La cible est 这 zhè, « ceci ; ce, cette ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Auto-évaluation distincte des sources, des réponses et des distracteurs ; aucune révision indépendante revendiquée."
+      },
+      "speechTarget": "这"
+    },
+    {
+      "id": "q-p0001-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 这 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-006-o1",
+          "text": "ami ; amical"
+        },
+        {
+          "id": "q-p0001-006-o2",
+          "text": "ceci ; ce, cette"
+        },
+        {
+          "id": "q-p0001-006-o3",
+          "text": "ami (dans les mots composés)"
+        }
+      ],
+      "correctOptionId": "q-p0001-006-o2",
+      "explanation": "这 (zhè) signifie « ceci ; ce, cette ». Désigne quelque chose de proche. La source indique aussi la variante orale zhèi.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « ceci ; ce, cette » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-007-o1",
+          "text": "这"
+        },
+        {
+          "id": "q-p0001-007-o2",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0001-007-o3",
+          "text": "友"
+        }
+      ],
+      "correctOptionId": "q-p0001-007-o1",
+      "explanation": "« ceci ; ce, cette » se dit 这 (zhè).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-008",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « zhè » signifiant « ceci ; ce, cette ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-008-o1",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0001-008-o2",
+          "text": "友"
+        },
+        {
+          "id": "q-p0001-008-o3",
+          "text": "这"
+        }
+      ],
+      "correctOptionId": "q-p0001-008-o3",
+      "explanation": "这 se prononce zhè et signifie « ceci ; ce, cette ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-009",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-009-o1",
+          "text": "友"
+        },
+        {
+          "id": "q-p0001-009-o2",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0001-009-o3",
+          "text": "这"
+        }
+      ],
+      "correctOptionId": "q-p0001-009-o2",
+      "explanation": "L'audio prononce 朋 (péng), qui signifie « ami (dans les mots composés) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "朋",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-010",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens ou le rôle de 这 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-010-o1",
+          "text": "ceci ; ce, cette"
+        },
+        {
+          "id": "q-p0001-010-o2",
+          "text": "ami (dans les mots composés)"
+        },
+        {
+          "id": "q-p0001-010-o3",
+          "text": "ami ; amical"
+        }
+      ],
+      "correctOptionId": "q-p0001-010-o1",
+      "explanation": "这 (zhè) signifie « ceci ; ce, cette ». Désigne quelque chose de proche. La source indique aussi la variante orale zhèi.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0001"
+      ],
+      "entryIds": [
+        "e-p0001-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-011",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 朋 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-011-o1",
+          "text": "ceci ; ce, cette"
+        },
+        {
+          "id": "q-p0001-011-o2",
+          "text": "ami ; amical"
+        },
+        {
+          "id": "q-p0001-011-o3",
+          "text": "ami (dans les mots composés)"
+        }
+      ],
+      "correctOptionId": "q-p0001-011-o3",
+      "explanation": "朋 (péng) signifie « ami (dans les mots composés) ». Apprenez 朋友 péngyou comme mot courant pour « ami ». 朋 ne s'emploie normalement pas seul à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-012",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « ami (dans les mots composés) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-012-o1",
+          "text": "友"
+        },
+        {
+          "id": "q-p0001-012-o2",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0001-012-o3",
+          "text": "这"
+        }
+      ],
+      "correctOptionId": "q-p0001-012-o2",
+      "explanation": "« ami (dans les mots composés) » est 朋 (péng).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-013",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « péng » signifiant « ami (dans les mots composés) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-013-o1",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0001-013-o2",
+          "text": "这"
+        },
+        {
+          "id": "q-p0001-013-o3",
+          "text": "友"
+        }
+      ],
+      "correctOptionId": "q-p0001-013-o1",
+      "explanation": "朋 se prononce péng et signifie « ami (dans les mots composés) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-014",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens ou le rôle de 朋 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-014-o1",
+          "text": "ceci ; ce, cette"
+        },
+        {
+          "id": "q-p0001-014-o2",
+          "text": "ami ; amical"
+        },
+        {
+          "id": "q-p0001-014-o3",
+          "text": "ami (dans les mots composés)"
+        }
+      ],
+      "correctOptionId": "q-p0001-014-o3",
+      "explanation": "朋 (péng) signifie « ami (dans les mots composés) ». Apprenez 朋友 péngyou comme mot courant pour « ami ». 朋 ne s'emploie normalement pas seul à l'oral.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0002"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-015",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 友 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-015-o1",
+          "text": "ami (dans les mots composés)"
+        },
+        {
+          "id": "q-p0001-015-o2",
+          "text": "ami ; amical"
+        },
+        {
+          "id": "q-p0001-015-o3",
+          "text": "ceci ; ce, cette"
+        }
+      ],
+      "correctOptionId": "q-p0001-015-o2",
+      "explanation": "友 (yǒu) signifie « ami ; amical ». C'est le caractère isolé de la liste d'introduction ; on utilise donc le troisième ton plein yǒu. La lecture neutre you appartient au mot entier 朋友 péngyou.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-016",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « ami ; amical » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-016-o1",
+          "text": "友"
+        },
+        {
+          "id": "q-p0001-016-o2",
+          "text": "这"
+        },
+        {
+          "id": "q-p0001-016-o3",
+          "text": "朋"
+        }
+      ],
+      "correctOptionId": "q-p0001-016-o1",
+      "explanation": "« ami ; amical » est 友 (yǒu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-017",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « yǒu » signifiant « ami ; amical ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-017-o1",
+          "text": "这"
+        },
+        {
+          "id": "q-p0001-017-o2",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0001-017-o3",
+          "text": "友"
+        }
+      ],
+      "correctOptionId": "q-p0001-017-o3",
+      "explanation": "友 se prononce yǒu et signifie « ami ; amical ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-018",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens ou le rôle de 友 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-018-o1",
+          "text": "ami (dans les mots composés)"
+        },
+        {
+          "id": "q-p0001-018-o2",
+          "text": "ami ; amical"
+        },
+        {
+          "id": "q-p0001-018-o3",
+          "text": "ceci ; ce, cette"
+        }
+      ],
+      "correctOptionId": "q-p0001-018-o2",
+      "explanation": "友 (yǒu) signifie « ami ; amical ». C'est le caractère isolé de la liste d'introduction ; on utilise donc le troisième ton plein yǒu. La lecture neutre you appartient au mot entier 朋友 péngyou.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-019",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 日 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-019-o1",
+          "text": "soleil ; jour"
+        },
+        {
+          "id": "q-p0001-019-o2",
+          "text": "ceci ; ce, cette"
+        },
+        {
+          "id": "q-p0001-019-o3",
+          "text": "ami (dans les mots composés)"
+        }
+      ],
+      "correctOptionId": "q-p0001-019-o1",
+      "explanation": "日 (rì) signifie « soleil ; jour ». Dans 日本 (Japon) et 日文 (japonais), il fait partie d'un nom de pays ou de langue.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-020",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « soleil ; jour » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-020-o1",
+          "text": "这"
+        },
+        {
+          "id": "q-p0001-020-o2",
+          "text": "朋"
+        },
+        {
+          "id": "q-p0001-020-o3",
+          "text": "日"
+        }
+      ],
+      "correctOptionId": "q-p0001-020-o3",
+      "explanation": "« soleil ; jour » est 日 (rì).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "documentId": "lecon-02-fr",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "textSha256": "e76508dbcb6a53688ca502501e6d3c7ffdbc9dae8a5f73e836f84a521cb2f06d",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, auto-évaluation distincte après rédaction ; aucune révision indépendante ni humaine",
+  "reviewedAt": "2026-11-24T09:07:07.149835+00:00",
+  "checks": [
+    "Comparaison de chaque fichier source.png demandé avec l'OCR et les zones d'apprentissage désignées, y compris les caractères pâles et le rôle des illustrations et schémas.",
+    "Préservation de l'orthographe source, des occurrences répétées, des décalages de points de code Unicode et des ancrages exacts caractère par caractère.",
+    "Révision linguistique distincte de la polyphonie contextuelle, du sandhi tonal négatif, des suffixes neutres, des noms propres, de la graphie source 作 par rapport à la forme moderne 做, et du naturel des traductions françaises.",
+    "Révision distincte des questions : chaque bonne réponse, tous les distracteurs, la portée sélectionnée, les identifiants stables, les explications et le verrouillage audio à l'exécution.",
+    "Régénération des diagnostics SVG liés à la source après les dernières corrections d'extraction ; inspection de la source et des superpositions à l'échelle de la page ainsi qu'à l'échelle agrandie des dialogues et des grilles.",
+    "L'inspection dans le navigateur de l'agent suit la première publication locale validée ; les résultats concrets sont consignés séparément.",
+    "Relecture dans le navigateur : correction de e-p0003-0067 après vérification de la prononciation du caractère isolé par rapport au contexte lexical ; aucune extraction source modifiée.",
+    "Extension de la banque de questions révisées sur l'ensemble des entrées et annotations de la page ; vérification de la distinction des options, d'un identifiant unique de bonne réponse et des sourceAnnotationIds locaux à la page."
+  ],
+  "coverage": {
+    "scope": "Page 3 du PDF physique ; transcription de référence partielle, zones d'apprentissage révisées décrites ci-dessous. Aucun pourcentage n'est revendiqué.",
+    "roles": "Vocabulaire écrit/oral et huit phrases de lecture en caractères simplifiés ; le vocabulaire oral pâle manqué a été repéré manuellement. Une partie de l'OCR de référence en français/pinyin reste non révisée.",
+    "transcriptCodePoints": 2303,
+    "locatedRecords": 1955,
+    "manualCharacterBoxes": 34,
+    "learningLines": 53,
+    "entries": 106,
+    "entriesByKind": {
+      "character": 57,
+      "word": 41,
+      "sentence": 8
+    },
+    "occurrences": 270,
+    "reviewedIPAEntries": 77,
+    "entriesWithoutReviewedIPA": 29,
+    "questions": 8,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": "Deux ancrages exacts de lignes sources sur la question 你妈妈作什么工作？ de p0005 ; sans objet sur cette page.",
+    "reviewedQuestions": 34
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0003",
+      "reason": "L'OCR de référence est incomplète ou incertaine pour les textes à faible contraste, les petites gloses en pinyin/français, les dessins historiques de composants, les tracés intermédiaires et les copies de tracé pâles. Ces zones ne sont pas présentées comme du contenu d'apprentissage révisé.",
+      "nextAction": "Utilisez la page originale inchangée pour ces zones de référence. Conservez cette limitation ; une future migration d'extraction nécessiterait un périmètre explicite pour les pages acceptées."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0003",
+      "reason": "29 entrées n'ont pas d'API révisé, principalement des phrases, des noms propres ou des lectures contextuelles au ton neutre. Le pinyin révisé avec marques de ton est disponible.",
+      "nextAction": "Laissez l'API absent plutôt que de synthétiser une transcription incertaine."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0003",
+      "reason": "Les questions d'écoute nécessitent une lecture audio locale réussie dans le navigateur à l'exécution. L'audibilité hors ligne n'a pas été testée indépendamment.",
+      "nextAction": "Utilisez le contrôle local de lecture en mandarin ; la validation de l'écoute reste verrouillée jusqu'à la fin de la lecture."
+    }
+  ],
+  "browserReview": "Découverte de la bibliothèque, rendu de la source, détails des caractères et des mots, question sur deux lignes, retour d'exercice lié à la source et retour à la lecture vérifiés dans le navigateur intégré de Codex. La prononciation locale a atteint l'état Terminé ; l'audibilité hors ligne n'a pas été vérifiée indépendamment."
+}
