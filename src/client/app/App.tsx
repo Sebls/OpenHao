@@ -1008,7 +1008,11 @@ export function App() {
                 <PracticeSetup
                   scopeLabel={scopeLabel}
                   questionCount={practiceBank.length}
-                  topicStats={topicStatsSummary(practiceBank, practiceHistory)}
+                  topicStats={topicStatsSummary(
+                    practiceBank,
+                    practiceHistory,
+                    m!.translationLanguage,
+                  )}
                   onStart={startAdaptiveSession}
                   onBack={back}
                 />

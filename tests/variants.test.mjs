@@ -8,6 +8,8 @@ import {
   loadLanguage,
   saveLanguage,
 } from "../src/client/features/library/variants.ts";
+import { formatTopicLabel } from "../src/client/features/practice/topics.ts";
+import { topicStatsSummary } from "../src/client/features/practice/history.ts";
 
 const read = (file) => JSON.parse(fs.readFileSync(file, "utf8"));
 const base = read("schemas/package.schema.json");
@@ -90,4 +92,14 @@ test("language preference survives reads and gracefully handles blocked storage"
     if (previous) Object.defineProperty(globalThis, "localStorage", previous);
     else delete globalThis.localStorage;
   }
+});
+
+test("French practice uses language-aware category labels without changing category IDs", () => {
+  assert.equal(formatTopicLabel("zh-to-en", "fr"), "Chinois → français");
+  assert.equal(formatTopicLabel("en-to-zh", "fr"), "Français → chinois");
+  assert.equal(formatTopicLabel("zh-to-en"), "Chinese → English");
+  const q = { category: "en-to-zh" };
+  const summary = topicStatsSummary([q], { topics: {} }, "fr");
+  assert.equal(summary[0].label, "Français → chinois");
+  assert.equal(summary[0].topic, "en-to-zh");
 });

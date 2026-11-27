@@ -1,6 +1,8 @@
-import type { Question } from "../../../contracts/content.ts";
+import { translator } from "../../i18n/messages.ts";
+import type { MessageKey } from "../../i18n/en.ts";
+import type { Manifest, Question } from "../../../contracts/content.ts";
 
-const CATEGORY_LABELS: Record<string, string> = {
+const CATEGORY_LABELS: Record<string, MessageKey> = {
   "zh-to-en": "Chinese → English",
   "en-to-zh": "English → Chinese",
   "character-identification": "Characters",
@@ -34,16 +36,26 @@ export function normalizeTopic(topic: string): string {
 }
 
 /** Returns the question's semantic topic, falling back to its category. */
-export function questionTopic(question: Pick<Question, "topic" | "category">): string {
+export function questionTopic(
+  question: Pick<Question, "topic" | "category">,
+): string {
   const normalized = question.topic ? normalizeTopic(question.topic) : "";
   return normalized || question.category;
 }
 
 /** Formats a normalized topic or category slug for display. */
-export function formatTopicLabel(topic: string): string {
+export function formatTopicLabel(
+  topic: string,
+  language: Manifest["translationLanguage"] = "en",
+): string {
   const normalized = normalizeTopic(topic);
+  const t = translator(language);
+  if (language === "fr") {
+    if (normalized === "zh-to-en") return t("Chinese → French");
+    if (normalized === "en-to-zh") return t("French → Chinese");
+  }
   if (CATEGORY_LABELS[normalized]) {
-    return CATEGORY_LABELS[normalized];
+    return t(CATEGORY_LABELS[normalized]);
   }
   const spaced = normalized.replace(/-/g, " ");
   return spaced ? spaced[0].toUpperCase() + spaced.slice(1) : topic;
