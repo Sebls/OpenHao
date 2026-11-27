@@ -1,0 +1,62 @@
+{
+  "documentId": "lecon-05-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "textSha256": "5881c0e111a4baffe5d1cff14253568f2fa664159ea9eb539491a7c73bc0d814",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Gemini, auto-révision distincte après rédaction ; pas de révision humaine ou indépendante",
+  "reviewedAt": "2026-11-24T10:23:24.735779+00:00",
+  "checks": [
+    "Comparaison du rendu original source.png avec la transcription OCR Vision et la géométrie, y compris les demi-pages, l'ordre de lecture et les corrections manuelles.",
+    "Révision linguistique distincte vérifiant le pinyin avec marques de tons, l'API mandarin large (omettant l'API incertaine, des phrases ou des noms propres), les tons neutres (刀子, 哥哥, 太太, 先生, 工夫, 本子, 买卖), les lectures polyphoniques (种 zhǒng, 音乐 yuè) et des traductions françaises naturelles.",
+    "Révision distincte des questions vérifiant une seule réponse défendable, des distracteurs plausibles distincts, des explications et des sourceAnnotationIds limités à la page.",
+    "Extension de la banque de questions révisées sur les entrées et annotations de la page ; vérification des options distinctes, d'un identifiant de bonne réponse unique et des sourceAnnotationIds locaux à la page."
+  ],
+  "coverage": {
+    "scope": "Page PDF physique 4 ; contenu d'apprentissage révisé avec OCR de référence partiel. Aucun pourcentage de couverture n'est revendiqué.",
+    "roles": "Révision des Exercices 4 (association de composés), 5 (phrases de Lecture) et 7 (Pékin / vérification de caractères). La grille de caractères (Ex. 1) et les consignes de caractères erronés restent en référence uniquement.",
+    "transcriptCodePoints": 1815,
+    "locatedRecords": 1622,
+    "manualCharacterBoxes": 0,
+    "entries": 24,
+    "entriesByKind": {
+      "word": 14,
+      "sentence": 10
+    },
+    "occurrences": 24,
+    "reviewedIPAEntries": 13,
+    "entriesWithoutReviewedIPA": 11,
+    "questions": 6,
+    "questionCategories": [
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 1,
+    "multilineNote": "Ancrages de lignes séparés pour les phrases sur plusieurs lignes le cas échéant ; sans objet lorsque le compte est nul.",
+    "reviewedQuestions": 32
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0004",
+      "reason": "L'OCR de référence reste partiel pour les petites notes en français, les copies de tracé pâles et les grilles/diagrammes de traits non ancrés.",
+      "nextAction": "Consulter la page originale inchangée pour les zones de référence ; garder l'OCR incertain hors des unités d'apprentissage et des exercices révisés."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0004",
+      "reason": "11 entrées omettent l'API (phrases, noms ou formes rhotiques) ; toutes les entrées d'apprentissage disposent d'un pinyin avec marques de tons révisé.",
+      "nextAction": "Laisser l'API absent tant qu'une transcription contextuelle exacte n'a pas été révisée."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0004",
+      "reason": "Les questions d'écoute nécessitent une lecture audio locale réussie dans le navigateur ; la lecture audible hors ligne n'a pas été vérifiée indépendamment.",
+      "nextAction": "Conserver le contrôle d'exécution sur la lecture locale terminée."
+    }
+  ]
+}

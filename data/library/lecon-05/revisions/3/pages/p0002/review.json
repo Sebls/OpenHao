@@ -1,0 +1,66 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "1b6b9509359db743c30bd248631b23b79fe7f6dce509bee30e2dfc291ba6d017",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Gemini agent, separate self-review after authoring; not human or independent review",
+  "reviewedAt": "2026-11-24T10:23:24.686972+00:00",
+  "checks": [
+    "Compared original source.png render with Vision OCR transcript and geometry, including spread halves, reading order, and manual corrections.",
+    "Separate linguistic review checked tone-mark pinyin, broad Mandarin IPA (omitting uncertain/sentence/proper-name IPA), neutral tones (刀子, 哥哥, 太太, 先生, 工夫, 本子, 买卖), polyphonic readings (种 zhǒng, 音乐 yuè), and natural English translations.",
+    "Separate question review checked one defensible answer, distinct plausible distractors, explanations, and page-scoped sourceAnnotationIds.",
+    "Expanded reviewed question bank across page-scoped entries and annotations; verified distinct options, single correct option ID, and page-local sourceAnnotationIds."
+  ],
+  "coverage": {
+    "scope": "Physical PDF page 2; reviewed learning content with partial reference OCR. No coverage percentage is claimed.",
+    "roles": "Reviewed oral vocabulary (Section 4), Vous les connaissez tous (Section 6, fixing OCR 钓→的 and 喜次→喜欢), and Dialogue ① (Leçon 5 Texte, fixing 面包、→面包。).",
+    "transcriptCodePoints": 1616,
+    "locatedRecords": 1372,
+    "manualCharacterBoxes": 3,
+    "entries": 42,
+    "entriesByKind": {
+      "word": 22,
+      "expression": 2,
+      "character": 6,
+      "sentence": 12
+    },
+    "occurrences": 42,
+    "reviewedIPAEntries": 27,
+    "entriesWithoutReviewedIPA": 15,
+    "questions": 8,
+    "questionCategories": [
+      "character-identification",
+      "en-to-zh",
+      "grammar-comprehension",
+      "listening-comprehension",
+      "missing-word",
+      "sentence-comprehension",
+      "zh-to-en"
+    ],
+    "multilineAnchors": 1,
+    "multilineNote": "Separate line anchors for wrapped sentences where present; not applicable where count is zero.",
+    "reviewedQuestions": 38
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0002",
+      "reason": "Reference OCR remains partial for small French notes, faint tracing copies, and non-anchored grid/stroke diagrams.",
+      "nextAction": "Consult the unchanged original page for reference regions; keep uncertain OCR out of reviewed learning units and practice."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0002",
+      "reason": "15 entries omit IPA (sentences, names, or rhotic forms); all learning entries have reviewed tone-mark pinyin.",
+      "nextAction": "Leave IPA absent unless exact contextual transcription is reviewed."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0002",
+      "reason": "Listening questions require successful local browser playback; disconnected audible playback has not been independently verified.",
+      "nextAction": "Retain runtime gating on completed local playback."
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "documentId": "lecon-05-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "entries": [
+    {
+      "id": "e-p0001-0001",
+      "kind": "character",
+      "form": "刀",
+      "language": "zh-CN",
+      "meaning": "couteau ; lame",
+      "explanation": "Pictogramme d'une lame courbe avec un manche. Apparaît dans 刀子 (couteau).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dāo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɑʊ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "刀",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "e-p0001-0002",
+      "kind": "character",
+      "form": "饿",
+      "language": "zh-CN",
+      "meaning": "affamé ; avoir faim",
+      "explanation": "Combine la clé simplifiée de la nourriture 饣 à gauche avec 我 à droite. Forme traditionnelle : 餓.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "è",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "饿",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "e-p0001-0003",
+      "kind": "character",
+      "form": "常",
+      "language": "zh-CN",
+      "meaning": "souvent ; fréquemment",
+      "explanation": "Souvent employé redoublé sous la forme 常常 (souvent). Les formes traditionnelle et simplifiée sont identiques.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cháng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʰɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "常",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "e-p0001-0004",
+      "kind": "character",
+      "form": "师",
+      "language": "zh-CN",
+      "meaning": "professeur ; maître",
+      "explanation": "Utilisé dans 老师 (professeur). Forme traditionnelle : 師.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂʐ̩⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "师",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "e-p0001-0005",
+      "kind": "word",
+      "form": "刀子",
+      "language": "zh-CN",
+      "meaning": "couteau",
+      "explanation": "Mot courant pour un couteau ; 子 porte un ton neutre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dāozi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɑʊ⁵⁵ tsz̩]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "刀子",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      },
+      "constituentIds": [
+        "e-p0001-0001"
+      ]
+    },
+    {
+      "id": "e-p0001-0006",
+      "kind": "word",
+      "form": "常常",
+      "language": "zh-CN",
+      "meaning": "souvent ; fréquemment",
+      "explanation": "Adverbe redoublé placé avant le verbe.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chángcháng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʰɑŋ³⁵ tʂʰɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "常常",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      },
+      "constituentIds": [
+        "e-p0001-0003"
+      ]
+    },
+    {
+      "id": "e-p0001-0007",
+      "kind": "expression",
+      "form": "不常",
+      "language": "zh-CN",
+      "meaning": "pas souvent ; rarement",
+      "explanation": "Négation de 常 avec 不 (bù).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bù cháng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu⁵¹ tʂʰɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "不常",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      },
+      "constituentIds": [
+        "e-p0001-0003"
+      ]
+    },
+    {
+      "id": "e-p0001-0008",
+      "kind": "word",
+      "form": "老师",
+      "language": "zh-CN",
+      "meaning": "professeur ; enseignant",
+      "explanation": "Terme courant et respectueux pour un professeur, combinant 老 (âgé/expérimenté) et 师 (maître).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǎoshī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lɑʊ²¹⁴ ʂʐ̩⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "老师",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      },
+      "constituentIds": [
+        "e-p0001-0004"
+      ]
+    },
+    {
+      "id": "e-p0001-0010",
+      "kind": "character",
+      "form": "饭",
+      "language": "zh-CN",
+      "meaning": "riz cuit ; repas",
+      "explanation": "Contient la clé de la nourriture 饣 ; signifie riz cuit ou repas.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fan⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "饭",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "e-p0001-0011",
+      "kind": "character",
+      "form": "飽",
+      "language": "zh-CN",
+      "meaning": "rassasié (après avoir mangé)",
+      "explanation": "Forme traditionnelle de 饱 ; contient la clé de la nourriture 飠.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "飽",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "e-p0001-0012",
+      "kind": "character",
+      "form": "馆",
+      "language": "zh-CN",
+      "meaning": "bâtiment ; restaurant (en composé)",
+      "explanation": "Contient la clé de la nourriture 饣 ; utilisé dans des mots comme 饭馆 (restaurant).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guǎn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kuan²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "馆",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "e-p0001-0013",
+      "kind": "character",
+      "form": "饼",
+      "language": "zh-CN",
+      "meaning": "galette ; gâteau ; pâtisserie",
+      "explanation": "Contient la clé de la nourriture 饣 ; désigne des galettes cuites au four ou à la poêle.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bǐng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[piŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed",
+          "note": "API mandarin large ; les chiffres en exposant indiquent la hauteur tonale lexicale, et les syllabes neutres omettent les chiffres tonals."
+        }
+      ],
+      "speechTarget": "饼",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "origin": "agent-authored",
+        "author": "Gemini",
+        "review": "Auto-révision distincte par agent ; pas de révision humaine ou indépendante."
+      }
+    }
+  ]
+}

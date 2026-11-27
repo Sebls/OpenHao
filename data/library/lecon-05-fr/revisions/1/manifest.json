@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "lecon-05-fr",
+  "contentRevision": 1,
+  "baseRevision": 0,
+  "title": "Leçon 05 · Révision (FR)",
+  "sourceLanguage": "zh-CN",
+  "translationLanguage": "fr",
+  "source": {
+    "pathBase": "data-root",
+    "path": "pdfs/lecon-05.pdf",
+    "sha256": "acd1549f7fb0e71a2e9fb74673a5a6e5dea4e327edeae377790b9e07a2a4fe5f",
+    "bytes": 6680580,
+    "pageCount": 5
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "width": 516,
+      "height": 729,
+      "mediaBox": [
+        0,
+        0,
+        1032,
+        729
+      ],
+      "cropBox": [
+        516,
+        0,
+        1032,
+        729
+      ],
+      "rotation": 0,
+      "id": "p0001",
+      "state": "ready",
+      "questionAvailability": [
+        "zh-to-en",
+        "en-to-zh",
+        "character-identification",
+        "grammar-comprehension",
+        "listening-comprehension"
+      ],
+      "extractionRevision": 1
+    },
+    {
+      "pageNumber": 2,
+      "width": 1032,
+      "height": 729,
+      "mediaBox": [
+        0,
+        0,
+        1032,
+        729
+      ],
+      "cropBox": [
+        0,
+        0,
+        1032,
+        729
+      ],
+      "rotation": 0,
+      "id": "p0002",
+      "state": "ready",
+      "questionAvailability": [
+        "zh-to-en",
+        "en-to-zh",
+        "sentence-comprehension",
+        "missing-word",
+        "grammar-comprehension",
+        "character-identification",
+        "listening-comprehension"
+      ],
+      "extractionRevision": 1
+    },
+    {
+      "pageNumber": 3,
+      "width": 1032,
+      "height": 729,
+      "mediaBox": [
+        0,
+        0,
+        1032,
+        729
+      ],
+      "cropBox": [
+        0,
+        0,
+        1032,
+        729
+      ],
+      "rotation": 0,
+      "id": "p0003",
+      "state": "ready",
+      "questionAvailability": [
+        "zh-to-en",
+        "en-to-zh",
+        "sentence-comprehension",
+        "grammar-comprehension",
+        "missing-word",
+        "character-identification",
+        "listening-comprehension"
+      ],
+      "extractionRevision": 1
+    },
+    {
+      "pageNumber": 4,
+      "width": 1032,
+      "height": 729,
+      "mediaBox": [
+        0,
+        0,
+        1032,
+        729
+      ],
+      "cropBox": [
+        0,
+        0,
+        1032,
+        729
+      ],
+      "rotation": 0,
+      "id": "p0004",
+      "state": "ready",
+      "questionAvailability": [
+        "zh-to-en",
+        "en-to-zh",
+        "sentence-comprehension",
+        "grammar-comprehension",
+        "listening-comprehension",
+        "missing-word"
+      ],
+      "extractionRevision": 1
+    },
+    {
+      "pageNumber": 5,
+      "width": 516,
+      "height": 729,
+      "mediaBox": [
+        0,
+        0,
+        1032,
+        729
+      ],
+      "cropBox": [
+        0,
+        0,
+        516,
+        729
+      ],
+      "rotation": 0,
+      "id": "p0005",
+      "state": "ready",
+      "questionAvailability": [
+        "zh-to-en",
+        "en-to-zh",
+        "listening-comprehension",
+        "character-identification",
+        "grammar-comprehension"
+      ],
+      "extractionRevision": 1
+    }
+  ],
+  "files": {
+    "pages/p0001/annotations.json": "1440f0428c241e0fadc9560c962f34f92ba8e7d1c3c7922b2fd1e6ddf260e8af",
+    "pages/p0001/diagnostic.svg": "90bb635de39170f8b68b894a9492b87a33685b25c87bdac2ecf4562cc54d7c85",
+    "pages/p0001/entries.json": "0a9766201f0345454043bbb7ac96c72e8dda8327e5d02c9c9f4496542e4c11de",
+    "pages/p0001/layout.json": "0e18d8e535585ac64a6a4b68c0e43eea92e16088740a10e0288ac088985b6526",
+    "pages/p0001/questions.json": "8f4becbc19620cfd4e4892f085e0fb1ab45cb6387f830a10352d0d6340c45c39",
+    "pages/p0001/review.json": "4ba27620eec912ec56b5ae8e8cbb3a2b80211c0ede5aba659fe9598bc71985d9",
+    "pages/p0001/source.png": "4e88c6f0a376f4b9f7db4732383e560b132076b8f4d07e9c180c3ddf3989ad46",
+    "pages/p0001/text.txt": "395194629d0fd13166220d3346de28ac3dda36115a93f88c36fe874cfb51d7cf",
+    "pages/p0002/annotations.json": "58dc67d893d22c734f131cd2d299fb5331bb7d98945e04ca0a3fc1cc51495792",
+    "pages/p0002/diagnostic.svg": "c68ebb8382c7e222014321c68cfcad7f247d16739770767b62e22ff6a958b355",
+    "pages/p0002/entries.json": "5adbd59a11732b3c2efa56c4b5abbb82f9d6146fb2ca38ddece36ddbee3c1988",
+    "pages/p0002/layout.json": "1b78e493c1b282fb98b5b48719c83b7af221d06a12913313667cb096595ee53b",
+    "pages/p0002/questions.json": "d9c517acd0d601ca8b2c52e84a804cf65b8e1db20014ca2f17fb6598cb0393c7",
+    "pages/p0002/review.json": "823588c3a54b1e9d86d3d763ee0689bf234e39054bb62214579dae56489ec633",
+    "pages/p0002/source.png": "dbebf8057a469b2049a5844ef132bdcd2a95b0782ff83c15bb4421bb051ba7c0",
+    "pages/p0002/text.txt": "1b6b9509359db743c30bd248631b23b79fe7f6dce509bee30e2dfc291ba6d017",
+    "pages/p0003/annotations.json": "2d66c7e551ca14235eb9ca8c2d416827f61a598e8c2a080594a47f856a5b3512",
+    "pages/p0003/diagnostic.svg": "ef8746d001a7f33778812751dc85746b7b0846982184d7349fac4e56538c46fa",
+    "pages/p0003/entries.json": "158187a8bd38a7126049904245df3489bec27f6a6c32cbf57aec55cc12465ffa",
+    "pages/p0003/layout.json": "e437ac44083e7d193535c4b87e9e3603acdbda069adf306721b88157d6ac48dd",
+    "pages/p0003/questions.json": "198b17f1153c6b91ee175f51914e16942d92b0db2a3bdd94b23bb7eb4d518bb1",
+    "pages/p0003/review.json": "521f5ca766de73fc0ec47b5493b0a5ad573b53027c9696377361ba81d0491cdc",
+    "pages/p0003/source.png": "2c5962e29a1c8a3cca87b59a029db5edfa9b092f432c8e6823308a6c8f6ef7ef",
+    "pages/p0003/text.txt": "fdf7e7ccf67389850c3d0f5e0f6daf5cc0fd37959a2c9750e37686cf53cd3c34",
+    "pages/p0004/annotations.json": "089444496a100019a8feab2e5af99b968458536e0367011b91e17f119a4bc018",
+    "pages/p0004/diagnostic.svg": "a25a00bfe3c4a1b4aa28d89816001131cc956fb7fb672aecb9bcdd4fe3824339",
+    "pages/p0004/entries.json": "02125f07f42b209cf3bd81d1b9c070a14823abd20214532fbc887e46b94f2295",
+    "pages/p0004/layout.json": "ee534004982eeffa90e83b204df540f2fc9eb8bd10c77012ae8d065c4edee540",
+    "pages/p0004/questions.json": "3d4249c01e38e34be9db94752247049f804d5660195bd3696d4bf3716c8ede0d",
+    "pages/p0004/review.json": "e1f2e9fe03eaa9d7e8e818a7cab90ecd9b150293435e455b4758db102e63edbc",
+    "pages/p0004/source.png": "02de357d7298fe0aba09039ab3cddeec3198aebe0f5897f9838cd5d24265ba1a",
+    "pages/p0004/text.txt": "5881c0e111a4baffe5d1cff14253568f2fa664159ea9eb539491a7c73bc0d814",
+    "pages/p0005/annotations.json": "661513cea16d2c34145f1d4b045e1ef8629bfd5b65f8025c45aafbf366b93f8d",
+    "pages/p0005/diagnostic.svg": "20e50d793142fc93383054bb5d774478367c063918ea7bb3402b9e09ebdbad29",
+    "pages/p0005/entries.json": "de8c274f5234fc0f9388667bad43e7bbacb27d60a7306b8a618639b53a250800",
+    "pages/p0005/layout.json": "86b939cf00df9a331b7651d3d2f9183872406ced9be0fa4a3e88614894ab070a",
+    "pages/p0005/questions.json": "4ddba03c8abfcd06769531d76e82f4d94cdaec73b36cac68cccf466be6c81e8f",
+    "pages/p0005/review.json": "a63666acdfd7120b542fdc141d9798f95ee98b305f921f68b2c2e3309b179420",
+    "pages/p0005/source.png": "7681ad77adcb75fba10b4027172833094069828697a118f03305d8f232802baa",
+    "pages/p0005/text.txt": "faf4b2e798e008338799d386475320a1de472c2d8d4f9c83e3ccba6ffa8425ce",
+    "review/report.json": "37ef9b065c459481d41e9d7d8a4bebe69f20484911aecfeba46c6e2130e9d460"
+  },
+  "learningProfile": {
+    "version": 1,
+    "translationLanguage": "fr",
+    "interfaceLanguage": "fr",
+    "level": "complete-beginner",
+    "language": "zh-CN",
+    "variety": "Mandarin",
+    "primaryTranscription": "pinyin-tone-marks",
+    "secondaryTranscription": "ipa",
+    "sourceFirst": true,
+    "maxSupplementalExamples": 1
+  },
+  "createdAt": "2026-11-24T10:18:56.825Z",
+  "updatedAt": "2026-11-27T15:36:17.503Z",
+  "provenance": {
+    "extractor": "PyMuPDF",
+    "version": "1.26.7",
+    "agentReview": "Révision par agent Gemini : comparaison visuelle des sources (OCR Vision + corrections manuelles), révision linguistique et révision des questions à choix unique sur les pages 1 à 5 (traduction française)."
+  },
+  "questionAdditionScope": [
+    "p0001",
+    "p0002",
+    "p0003",
+    "p0004",
+    "p0005"
+  ],
+  "variantGroup": "lecon-05"
+}

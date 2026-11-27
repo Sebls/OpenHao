@@ -1,0 +1,1122 @@
+{
+  "documentId": "lecon-05-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 德国 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Allemagne"
+        },
+        {
+          "id": "o2",
+          "text": "amitié"
+        },
+        {
+          "id": "o3",
+          "text": "exercice"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "德国 (Déguó) signifie « Allemagne ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « célèbre » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "有名"
+        },
+        {
+          "id": "o2",
+          "text": "友谊"
+        },
+        {
+          "id": "o3",
+          "text": "练习"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有名 (yǒumíng) signifie « célèbre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans « 我很饿，我去买羊肉。 », que va acheter le locuteur ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "viande de mouton / agneau"
+        },
+        {
+          "id": "o2",
+          "text": "jade blanc"
+        },
+        {
+          "id": "o3",
+          "text": "une peinture de paysage"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "羊肉 (yángròu) signifie « viande de mouton » ou « agneau ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Qu'est-ce qu'un 火车头 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "locomotive"
+        },
+        {
+          "id": "o2",
+          "text": "lame de couteau"
+        },
+        {
+          "id": "o3",
+          "text": "cousin plus âgé"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "火车头 (huǒchētóu) signifie « locomotive ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0019"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans « 我会画火车头。 », où se place 什么 pour en faire une question ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Après 画 : 你会画什么？"
+        },
+        {
+          "id": "o2",
+          "text": "Avant 你 : 什么你会画？"
+        },
+        {
+          "id": "o3",
+          "text": "Tout à la fin après 吗 : 你会画火车头吗？"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "En chinois, les mots interrogatifs comme 什么 restent à la même position que la réponse (après le verbe 画).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0017"
+      ],
+      "entryIds": [
+        "e-p0004-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "这本书很有名。"
+        },
+        {
+          "id": "o2",
+          "text": "他不工作，他学法国文学。"
+        },
+        {
+          "id": "o3",
+          "text": "这是中国的白玉，这种玉很贵。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "这本书很有名 signifie « Ce livre est très célèbre. »",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      },
+      "speechTarget": "这本书很有名。"
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 这本书很有名。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-007-o1",
+          "text": "Ce livre est très célèbre."
+        },
+        {
+          "id": "q-p0004-007-o2",
+          "text": "La petite amie de mon grand frère sait peindre des paysages."
+        },
+        {
+          "id": "q-p0004-007-o3",
+          "text": "Ma mère est chinoise, mais elle ne sait pas parler mandarin."
+        }
+      ],
+      "correctOptionId": "q-p0004-007-o1",
+      "explanation": "« 这本书很有名。 » (Zhè běn shū hěn yǒumíng.) signifie « Ce livre est très célèbre. ». 本 est le spécificatif pour les livres (书).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 刀刃 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-008-o1",
+          "text": "cousin plus âgé (côté maternel ou tante paternelle)"
+        },
+        {
+          "id": "q-p0004-008-o2",
+          "text": "directeur de recherche ; tuteur"
+        },
+        {
+          "id": "q-p0004-008-o3",
+          "text": "lame de couteau ; tranchant d'un couteau"
+        }
+      ],
+      "correctOptionId": "q-p0004-008-o3",
+      "explanation": "刀刃 (dāorèn) signifie « lame de couteau ; tranchant d'un couteau ». Combine 刀 (couteau) et 刃 (tranchant).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « lame de couteau ; tranchant d'un couteau » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-009-o1",
+          "text": "导师"
+        },
+        {
+          "id": "q-p0004-009-o2",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-009-o3",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "q-p0004-009-o2",
+      "explanation": "« lame de couteau ; tranchant d'un couteau » se dit 刀刃 (dāorèn).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 这本书很____。 » (Ce livre est très célèbre.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-010-o1",
+          "text": "有名"
+        },
+        {
+          "id": "q-p0004-010-o2",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-010-o3",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "q-p0004-010-o1",
+      "explanation": "Le mot manquant est 有名 (yǒumíng, « célèbre ; connu »), ce qui complète « 这本书很有名。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-011",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-011-o1",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-011-o2",
+          "text": "导师"
+        },
+        {
+          "id": "q-p0004-011-o3",
+          "text": "刀刃"
+        }
+      ],
+      "correctOptionId": "q-p0004-011-o3",
+      "explanation": "L'audio prononce 刀刃 (dāorèn), qui signifie « lame de couteau ; tranchant d'un couteau ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "刀刃",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-012",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 刀刃 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-012-o1",
+          "text": "directeur de recherche ; tuteur"
+        },
+        {
+          "id": "q-p0004-012-o2",
+          "text": "lame de couteau ; tranchant d'un couteau"
+        },
+        {
+          "id": "q-p0004-012-o3",
+          "text": "cousin plus âgé (côté maternel ou tante paternelle)"
+        }
+      ],
+      "correctOptionId": "q-p0004-012-o2",
+      "explanation": "刀刃 (dāorèn) signifie « lame de couteau ; tranchant d'un couteau ». Combine 刀 (couteau) et 刃 (tranchant).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-013",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我哥哥的女朋友会画山水画儿。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-013-o1",
+          "text": "La petite amie de mon grand frère sait peindre des paysages."
+        },
+        {
+          "id": "q-p0004-013-o2",
+          "text": "Ce livre est très célèbre."
+        },
+        {
+          "id": "q-p0004-013-o3",
+          "text": "Ma mère est chinoise, mais elle ne sait pas parler mandarin."
+        }
+      ],
+      "correctOptionId": "q-p0004-013-o1",
+      "explanation": "« 我哥哥的女朋友会画山水画儿。 » (Wǒ gēge de nǚpéngyou huì huà shānshuǐhuàr.) signifie « La petite amie de mon grand frère sait peindre des paysages. ». 会 indique une compétence artistique acquise.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-014",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 表哥 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-014-o1",
+          "text": "lame de couteau ; tranchant d'un couteau"
+        },
+        {
+          "id": "q-p0004-014-o2",
+          "text": "directeur de recherche ; tuteur"
+        },
+        {
+          "id": "q-p0004-014-o3",
+          "text": "cousin plus âgé (côté maternel ou tante paternelle)"
+        }
+      ],
+      "correctOptionId": "q-p0004-014-o3",
+      "explanation": "表哥 (biǎogē) signifie « cousin plus âgé (côté maternel ou tante paternelle) ». Fils plus âgé que soi d'une tante ou d'un oncle maternel, ou d'une tante paternelle.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-015",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « cousin plus âgé (côté maternel ou tante paternelle) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-015-o1",
+          "text": "导师"
+        },
+        {
+          "id": "q-p0004-015-o2",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-015-o3",
+          "text": "刀刃"
+        }
+      ],
+      "correctOptionId": "q-p0004-015-o2",
+      "explanation": "« cousin plus âgé (côté maternel ou tante paternelle) » se dit 表哥 (biǎogē).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-016",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我哥哥的女朋友会画____。 » (La petite amie de mon grand frère sait peindre des paysages.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-016-o1",
+          "text": "山水画儿"
+        },
+        {
+          "id": "q-p0004-016-o2",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-016-o3",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "q-p0004-016-o1",
+      "explanation": "Le mot manquant est 山水画儿 (shānshuǐhuàr, « peinture de paysage »), ce qui complète « 我哥哥的女朋友会画山水画儿。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-017",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-017-o1",
+          "text": "这本书很有名。"
+        },
+        {
+          "id": "q-p0004-017-o2",
+          "text": "我妈妈是中国人，可是她不会说汉语。"
+        },
+        {
+          "id": "q-p0004-017-o3",
+          "text": "我哥哥的女朋友会画山水画儿。"
+        }
+      ],
+      "correctOptionId": "q-p0004-017-o3",
+      "explanation": "L'audio prononce 我哥哥的女朋友会画山水画儿。 (Wǒ gēge de nǚpéngyou huì huà shānshuǐhuàr.), qui signifie « La petite amie de mon grand frère sait peindre des paysages. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0009"
+      ],
+      "entryIds": [
+        "e-p0004-0016"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我哥哥的女朋友会画山水画儿。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-018",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 表哥 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-018-o1",
+          "text": "directeur de recherche ; tuteur"
+        },
+        {
+          "id": "q-p0004-018-o2",
+          "text": "cousin plus âgé (côté maternel ou tante paternelle)"
+        },
+        {
+          "id": "q-p0004-018-o3",
+          "text": "lame de couteau ; tranchant d'un couteau"
+        }
+      ],
+      "correctOptionId": "q-p0004-018-o2",
+      "explanation": "表哥 (biǎogē) signifie « cousin plus âgé (côté maternel ou tante paternelle) ». Fils plus âgé que soi d'une tante ou d'un oncle maternel, ou d'une tante paternelle.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-019",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我妈妈是中国人，可是她不会说汉语。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-019-o1",
+          "text": "Ma mère est chinoise, mais elle ne sait pas parler mandarin."
+        },
+        {
+          "id": "q-p0004-019-o2",
+          "text": "Ce livre est très célèbre."
+        },
+        {
+          "id": "q-p0004-019-o3",
+          "text": "La petite amie de mon grand frère sait peindre des paysages."
+        }
+      ],
+      "correctOptionId": "q-p0004-019-o1",
+      "explanation": "« 我妈妈是中国人，可是她不会说汉语。 » (Wǒ māma shì Zhōngguórén, kěshì tā bú huì shuō Hànyǔ.) signifie « Ma mère est chinoise, mais elle ne sait pas parler mandarin. ». Oppose la nationalité et la maîtrise de la langue.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-020",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 导师 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-020-o1",
+          "text": "lame de couteau ; tranchant d'un couteau"
+        },
+        {
+          "id": "q-p0004-020-o2",
+          "text": "cousin plus âgé (côté maternel ou tante paternelle)"
+        },
+        {
+          "id": "q-p0004-020-o3",
+          "text": "directeur de recherche ; tuteur"
+        }
+      ],
+      "correctOptionId": "q-p0004-020-o3",
+      "explanation": "导师 (dǎoshī) signifie « directeur de recherche ; tuteur ». 导 (guider) + 师 (professeur/maître).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-021",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « directeur de recherche ; tuteur » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-021-o1",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-021-o2",
+          "text": "导师"
+        },
+        {
+          "id": "q-p0004-021-o3",
+          "text": "刀刃"
+        }
+      ],
+      "correctOptionId": "q-p0004-021-o2",
+      "explanation": "« directeur de recherche ; tuteur » se dit 导师 (dǎoshī).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-022",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我____是中国人，可是她不会说汉语。 » (Ma mère est chinoise, mais elle ne sait pas parler mandarin.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-022-o1",
+          "text": "妈妈"
+        },
+        {
+          "id": "q-p0004-022-o2",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-022-o3",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "q-p0004-022-o1",
+      "explanation": "Le mot manquant est 妈妈 (māma, « maman ; mère »), ce qui complète « 我妈妈是中国人，可是她不会说汉语。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0012"
+      ],
+      "entryIds": [
+        "e-p0004-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-023",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 导师 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-023-o1",
+          "text": "lame de couteau ; tranchant d'un couteau"
+        },
+        {
+          "id": "q-p0004-023-o2",
+          "text": "cousin plus âgé (côté maternel ou tante paternelle)"
+        },
+        {
+          "id": "q-p0004-023-o3",
+          "text": "directeur de recherche ; tuteur"
+        }
+      ],
+      "correctOptionId": "q-p0004-023-o3",
+      "explanation": "导师 (dǎoshī) signifie « directeur de recherche ; tuteur ». 导 (guider) + 师 (professeur/maître).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-024",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 王大夫是我哥哥的好朋友。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-024-o1",
+          "text": "La petite amie de mon grand frère sait peindre des paysages."
+        },
+        {
+          "id": "q-p0004-024-o2",
+          "text": "Le docteur Wang est un bon ami de mon grand frère."
+        },
+        {
+          "id": "q-p0004-024-o3",
+          "text": "Ce livre est très célèbre."
+        }
+      ],
+      "correctOptionId": "q-p0004-024-o2",
+      "explanation": "« 王大夫是我哥哥的好朋友。 » (Wáng dàifu shì wǒ gēge de hǎo péngyou.) signifie « Le docteur Wang est un bon ami de mon grand frère. ». 的 relie plusieurs déterminants.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0014"
+      ],
+      "entryIds": [
+        "e-p0004-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-025",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 练习 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-025-o1",
+          "text": "exercice ; s'exercer ; pratiquer"
+        },
+        {
+          "id": "q-p0004-025-o2",
+          "text": "lame de couteau ; tranchant d'un couteau"
+        },
+        {
+          "id": "q-p0004-025-o3",
+          "text": "cousin plus âgé (côté maternel ou tante paternelle)"
+        }
+      ],
+      "correctOptionId": "q-p0004-025-o1",
+      "explanation": "练习 (liànxí) signifie « exercice ; s'exercer ; pratiquer ». Nom ou verbe signifiant exercice / pratiquer.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-026",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Allemagne » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-026-o1",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-026-o2",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-026-o3",
+          "text": "德国"
+        }
+      ],
+      "correctOptionId": "q-p0004-026-o3",
+      "explanation": "« Allemagne » se dit 德国 (Déguó).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-027",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我很饿，我去买____。 » (J'ai très faim, je vais acheter du mouton.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-027-o1",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-027-o2",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0004-027-o3",
+          "text": "刀刃"
+        }
+      ],
+      "correctOptionId": "q-p0004-027-o2",
+      "explanation": "Le mot manquant est 羊肉 (yángròu, « viande de mouton ; agneau »), ce qui complète « 我很饿，我去买羊肉。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "entryIds": [
+        "e-p0004-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-028",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 德国 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-028-o1",
+          "text": "Allemagne"
+        },
+        {
+          "id": "q-p0004-028-o2",
+          "text": "lame de couteau ; tranchant d'un couteau"
+        },
+        {
+          "id": "q-p0004-028-o3",
+          "text": "cousin plus âgé (côté maternel ou tante paternelle)"
+        }
+      ],
+      "correctOptionId": "q-p0004-028-o1",
+      "explanation": "德国 (Déguó) signifie « Allemagne ». Nom de pays.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-029",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 你会画什么？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-029-o1",
+          "text": "Ce livre est très célèbre."
+        },
+        {
+          "id": "q-p0004-029-o2",
+          "text": "La petite amie de mon grand frère sait peindre des paysages."
+        },
+        {
+          "id": "q-p0004-029-o3",
+          "text": "Que sais-tu dessiner ?"
+        }
+      ],
+      "correctOptionId": "q-p0004-029-o3",
+      "explanation": "« 你会画什么？ » (Nǐ huì huà shénme?) signifie « Que sais-tu dessiner ? ». 什么 se place en position d'objet après 画.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0017"
+      ],
+      "entryIds": [
+        "e-p0004-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-030",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 友谊 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-030-o1",
+          "text": "cousin plus âgé (côté maternel ou tante paternelle)"
+        },
+        {
+          "id": "q-p0004-030-o2",
+          "text": "amitié"
+        },
+        {
+          "id": "q-p0004-030-o3",
+          "text": "lame de couteau ; tranchant d'un couteau"
+        }
+      ],
+      "correctOptionId": "q-p0004-030-o2",
+      "explanation": "友谊 (yǒuyì) signifie « amitié ». Mot formel pour « amitié ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0006"
+      ],
+      "entryIds": [
+        "e-p0004-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-031",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « exercice ; s'exercer ; pratiquer » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-031-o1",
+          "text": "练习"
+        },
+        {
+          "id": "q-p0004-031-o2",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-031-o3",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "q-p0004-031-o1",
+      "explanation": "« exercice ; s'exercer ; pratiquer » se dit 练习 (liànxí).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-032",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我会画____。 » (Je sais dessiner une locomotive.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0004-032-o1",
+          "text": "刀刃"
+        },
+        {
+          "id": "q-p0004-032-o2",
+          "text": "表哥"
+        },
+        {
+          "id": "q-p0004-032-o3",
+          "text": "火车头"
+        }
+      ],
+      "correctOptionId": "q-p0004-032-o3",
+      "explanation": "Le mot manquant est 火车头 (huǒchētóu, « locomotive »), ce qui complète « 我会画火车头。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0018"
+      ],
+      "entryIds": [
+        "e-p0004-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,1336 @@
+{
+  "documentId": "lecon-05-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 面包 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "pain"
+        },
+        {
+          "id": "o2",
+          "text": "magazine"
+        },
+        {
+          "id": "o3",
+          "text": "entreprise"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "面包 (miànbāo) signifie « pain ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0022"
+      ],
+      "entryIds": [
+        "e-p0002-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Comment dit-on « pardon / excusez-moi » en chinois ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "对不起"
+        },
+        {
+          "id": "o2",
+          "text": "没什么"
+        },
+        {
+          "id": "o3",
+          "text": "有工夫"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "对不起 (duìbuqǐ) signifie « pardon » ; 没什么 signifie « ce n'est rien ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans « 这种面包很好吃，我很喜欢。 », que dit Yamamoto à propos du pain ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Il est délicieux et il l'aime beaucoup"
+        },
+        {
+          "id": "o2",
+          "text": "Il est très cher"
+        },
+        {
+          "id": "o3",
+          "text": "Il n'en veut plus"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "好吃 signifie délicieux, et 我很喜欢 signifie « je l'aime beaucoup ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0024"
+      ],
+      "entryIds": [
+        "e-p0002-0037"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choisissez le spécificatif pour des tranches de pain : 这是五___面包。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "片"
+        },
+        {
+          "id": "o2",
+          "text": "种"
+        },
+        {
+          "id": "o3",
+          "text": "来"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "片 (piàn) est le spécificatif pour les tranches fines de pain.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans « 我……我不会开车。 », qu'exprime 不会 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Ne pas savoir faire une compétence apprise"
+        },
+        {
+          "id": "o2",
+          "text": "Ne pas avoir de temps libre"
+        },
+        {
+          "id": "o3",
+          "text": "Ne pas aimer quelque chose"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "会 / 不会 exprime le fait de savoir ou non accomplir une compétence apprise comme conduire (开车).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0041"
+      ],
+      "entryIds": [
+        "e-p0002-0042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « sorte » ou « genre » dans 这种刀子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "种"
+        },
+        {
+          "id": "o2",
+          "text": "片"
+        },
+        {
+          "id": "o3",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "种 (zhǒng) signifie « sorte » ou « genre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0011"
+      ],
+      "entryIds": [
+        "e-p0002-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 有工夫 dans « 你现在有工夫吗？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "avoir du temps libre"
+        },
+        {
+          "id": "o2",
+          "text": "être trop occupé"
+        },
+        {
+          "id": "o3",
+          "text": "savoir conduire"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "工夫 (gōngfu) signifie « temps libre » ou « loisir ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0031"
+      ],
+      "entryIds": [
+        "e-p0002-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez l'expression que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没什么"
+        },
+        {
+          "id": "o2",
+          "text": "对不起"
+        },
+        {
+          "id": "o3",
+          "text": "英国公司"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "没什么 (méi shénme) signifie « ce n'est rien / il n'y a pas de quoi ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      },
+      "speechTarget": "没什么"
+    },
+    {
+      "id": "q-p0002-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 这是你的刀子吗？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-009-o1",
+          "text": "J'ai très faim."
+        },
+        {
+          "id": "q-p0002-009-o2",
+          "text": "Est-ce que c'est ton couteau ?"
+        },
+        {
+          "id": "q-p0002-009-o3",
+          "text": "Cette sorte de couteau est très jolie, mais très chère."
+        }
+      ],
+      "correctOptionId": "q-p0002-009-o2",
+      "explanation": "« 这是你的刀子吗？ » (Zhè shì nǐ de dāozi ma?) signifie « Est-ce que c'est ton couteau ? ». Utilise 的 pour la possession et 吗 pour former une question fermée.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0008"
+      ],
+      "entryIds": [
+        "e-p0002-0031"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-010",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 公司 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-010-o1",
+          "text": "entreprise ; société"
+        },
+        {
+          "id": "q-p0002-010-o2",
+          "text": "monsieur ; mari"
+        },
+        {
+          "id": "q-p0002-010-o3",
+          "text": "madame ; épouse"
+        }
+      ],
+      "correctOptionId": "q-p0002-010-o1",
+      "explanation": "公司 (gōngsī) signifie « entreprise ; société ». Une entreprise ou une société commerciale.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-011",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « entreprise ; société » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-011-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-011-o2",
+          "text": "太太"
+        },
+        {
+          "id": "q-p0002-011-o3",
+          "text": "公司"
+        }
+      ],
+      "correctOptionId": "q-p0002-011-o3",
+      "explanation": "« entreprise ; société » se dit 公司 (gōngsī).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-012",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « zhè » signifiant « this ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-012-o1",
+          "text": "种"
+        },
+        {
+          "id": "q-p0002-012-o2",
+          "text": "这"
+        },
+        {
+          "id": "q-p0002-012-o3",
+          "text": "那"
+        }
+      ],
+      "correctOptionId": "q-p0002-012-o2",
+      "explanation": "这 se prononce zhè et signifie « this ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0010"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-013",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « ____是你的刀子吗？ » (Est-ce que c'est ton couteau ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-013-o1",
+          "text": "这"
+        },
+        {
+          "id": "q-p0002-013-o2",
+          "text": "那"
+        },
+        {
+          "id": "q-p0002-013-o3",
+          "text": "种"
+        }
+      ],
+      "correctOptionId": "q-p0002-013-o1",
+      "explanation": "Le caractère manquant est 这 (zhè, « this »), ce qui complète « 这是你的刀子吗？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0008"
+      ],
+      "entryIds": [
+        "e-p0002-0031"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-014",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-014-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-014-o2",
+          "text": "太太"
+        },
+        {
+          "id": "q-p0002-014-o3",
+          "text": "公司"
+        }
+      ],
+      "correctOptionId": "q-p0002-014-o3",
+      "explanation": "L'audio prononce 公司 (gōngsī), qui signifie « entreprise ; société ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "公司",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-015",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 公司 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-015-o1",
+          "text": "madame ; épouse"
+        },
+        {
+          "id": "q-p0002-015-o2",
+          "text": "entreprise ; société"
+        },
+        {
+          "id": "q-p0002-015-o3",
+          "text": "monsieur ; mari"
+        }
+      ],
+      "correctOptionId": "q-p0002-015-o2",
+      "explanation": "公司 (gōngsī) signifie « entreprise ; société ». Une entreprise ou une société commerciale.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-016",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 这种刀子很好看，可是很贵。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-016-o1",
+          "text": "Cette sorte de couteau est très jolie, mais très chère."
+        },
+        {
+          "id": "q-p0002-016-o2",
+          "text": "Est-ce que c'est ton couteau ?"
+        },
+        {
+          "id": "q-p0002-016-o3",
+          "text": "J'ai très faim."
+        }
+      ],
+      "correctOptionId": "q-p0002-016-o1",
+      "explanation": "« 这种刀子很好看，可是很贵。 » (Zhè zhǒng dāozi hěn hǎokàn, kěshì hěn guì.) signifie « Cette sorte de couteau est très jolie, mais très chère. ». 这种 signifie « cette sorte de » ; 可是 oppose les deux propositions.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0009"
+      ],
+      "entryIds": [
+        "e-p0002-0032"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-017",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 对不起 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-017-o1",
+          "text": "entreprise ; société"
+        },
+        {
+          "id": "q-p0002-017-o2",
+          "text": "monsieur ; mari"
+        },
+        {
+          "id": "q-p0002-017-o3",
+          "text": "pardon ; excusez-moi"
+        }
+      ],
+      "correctOptionId": "q-p0002-017-o3",
+      "explanation": "对不起 (duìbuqǐ) signifie « pardon ; excusez-moi ». Excuse polie. 不 se prononce au ton neutre ou léger dans cette expression figée.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-018",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « ce n'est rien ; il n'y a pas de quoi » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-018-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-018-o2",
+          "text": "没什么"
+        },
+        {
+          "id": "q-p0002-018-o3",
+          "text": "公司"
+        }
+      ],
+      "correctOptionId": "q-p0002-018-o2",
+      "explanation": "« ce n'est rien ; il n'y a pas de quoi » se dit 没什么 (méi shénme).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-019",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « nà » signifiant « that ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-019-o1",
+          "text": "那"
+        },
+        {
+          "id": "q-p0002-019-o2",
+          "text": "这"
+        },
+        {
+          "id": "q-p0002-019-o3",
+          "text": "种"
+        }
+      ],
+      "correctOptionId": "q-p0002-019-o1",
+      "explanation": "那 se prononce nà et signifie « that ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0040"
+      ],
+      "entryIds": [
+        "e-p0002-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-020",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 这种刀子很____，可是很贵。 » (Cette sorte de couteau est très jolie, mais très chère.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-020-o1",
+          "text": "公司"
+        },
+        {
+          "id": "q-p0002-020-o2",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-020-o3",
+          "text": "好看"
+        }
+      ],
+      "correctOptionId": "q-p0002-020-o3",
+      "explanation": "Le mot manquant est 好看 (hǎokàn, « good-looking; nice »), ce qui complète « 这种刀子很好看，可是很贵。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0009"
+      ],
+      "entryIds": [
+        "e-p0002-0032"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-021",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez l'expression chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-021-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-021-o2",
+          "text": "对不起"
+        },
+        {
+          "id": "q-p0002-021-o3",
+          "text": "公司"
+        }
+      ],
+      "correctOptionId": "q-p0002-021-o2",
+      "explanation": "L'audio prononce 对不起 (duìbuqǐ), qui signifie « pardon ; excusez-moi ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "对不起",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-022",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 对不起 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-022-o1",
+          "text": "pardon ; excusez-moi"
+        },
+        {
+          "id": "q-p0002-022-o2",
+          "text": "entreprise ; société"
+        },
+        {
+          "id": "q-p0002-022-o3",
+          "text": "monsieur ; mari"
+        }
+      ],
+      "correctOptionId": "q-p0002-022-o1",
+      "explanation": "对不起 (duìbuqǐ) signifie « pardon ; excusez-moi ». Excuse polie. 不 se prononce au ton neutre ou léger dans cette expression figée.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-023",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我很饿。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-023-o1",
+          "text": "Est-ce que c'est ton couteau ?"
+        },
+        {
+          "id": "q-p0002-023-o2",
+          "text": "Cette sorte de couteau est très jolie, mais très chère."
+        },
+        {
+          "id": "q-p0002-023-o3",
+          "text": "J'ai très faim."
+        }
+      ],
+      "correctOptionId": "q-p0002-023-o3",
+      "explanation": "« 我很饿。 » (Wǒ hěn è.) signifie « J'ai très faim. ». Les adjectifs comme 饿 prennent 很 comme mot-lien neutre dans les phrases simples.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0015"
+      ],
+      "entryIds": [
+        "e-p0002-0033"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-024",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 没什么 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-024-o1",
+          "text": "monsieur ; mari"
+        },
+        {
+          "id": "q-p0002-024-o2",
+          "text": "ce n'est rien ; il n'y a pas de quoi"
+        },
+        {
+          "id": "q-p0002-024-o3",
+          "text": "entreprise ; société"
+        }
+      ],
+      "correctOptionId": "q-p0002-024-o2",
+      "explanation": "没什么 (méi shénme) signifie « ce n'est rien ; il n'y a pas de quoi ». Réponse polie courante à 对不起 (pardon).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-025",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « monsieur ; mari » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-025-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-025-o2",
+          "text": "公司"
+        },
+        {
+          "id": "q-p0002-025-o3",
+          "text": "太太"
+        }
+      ],
+      "correctOptionId": "q-p0002-025-o1",
+      "explanation": "« monsieur ; mari » se dit 先生 (xiānsheng).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-026",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « piàn » signifiant « slice; flat piece ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-026-o1",
+          "text": "这"
+        },
+        {
+          "id": "q-p0002-026-o2",
+          "text": "那"
+        },
+        {
+          "id": "q-p0002-026-o3",
+          "text": "片"
+        }
+      ],
+      "correctOptionId": "q-p0002-026-o3",
+      "explanation": "片 se prononce piàn et signifie « slice; flat piece ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0021"
+      ],
+      "entryIds": [
+        "e-p0002-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-027",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 你常去看你____吗？ » (Vas-tu souvent voir ton grand frère ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-027-o1",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-027-o2",
+          "text": "哥哥"
+        },
+        {
+          "id": "q-p0002-027-o3",
+          "text": "公司"
+        }
+      ],
+      "correctOptionId": "q-p0002-027-o2",
+      "explanation": "Le mot manquant est 哥哥 (gēge, « grand frère ; frère aîné »), ce qui complète « 你常去看你哥哥吗？ ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-028",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-028-o1",
+          "text": "这是你的刀子吗？"
+        },
+        {
+          "id": "q-p0002-028-o2",
+          "text": "这种刀子很好看，可是很贵。"
+        },
+        {
+          "id": "q-p0002-028-o3",
+          "text": "我很饿。"
+        }
+      ],
+      "correctOptionId": "q-p0002-028-o1",
+      "explanation": "L'audio prononce 这是你的刀子吗？ (Zhè shì nǐ de dāozi ma?), qui signifie « Est-ce que c'est ton couteau ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0008"
+      ],
+      "entryIds": [
+        "e-p0002-0031"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "这是你的刀子吗？",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-029",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 没什么 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-029-o1",
+          "text": "entreprise ; société"
+        },
+        {
+          "id": "q-p0002-029-o2",
+          "text": "monsieur ; mari"
+        },
+        {
+          "id": "q-p0002-029-o3",
+          "text": "ce n'est rien ; il n'y a pas de quoi"
+        }
+      ],
+      "correctOptionId": "q-p0002-029-o3",
+      "explanation": "没什么 (méi shénme) signifie « ce n'est rien ; il n'y a pas de quoi ». Réponse polie courante à 对不起 (pardon).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-030",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 他是我们的老师。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-030-o1",
+          "text": "Cette sorte de couteau est très jolie, mais très chère."
+        },
+        {
+          "id": "q-p0002-030-o2",
+          "text": "Il est notre professeur."
+        },
+        {
+          "id": "q-p0002-030-o3",
+          "text": "Est-ce que c'est ton couteau ?"
+        }
+      ],
+      "correctOptionId": "q-p0002-030-o2",
+      "explanation": "« 他是我们的老师。 » (Tā shì wǒmen de lǎoshī.) signifie « Il est notre professeur. ». 我们 (nous) + 的 forme « notre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0016"
+      ],
+      "entryIds": [
+        "e-p0002-0034"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-031",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 先生 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-031-o1",
+          "text": "monsieur ; mari"
+        },
+        {
+          "id": "q-p0002-031-o2",
+          "text": "entreprise ; société"
+        },
+        {
+          "id": "q-p0002-031-o3",
+          "text": "madame ; épouse"
+        }
+      ],
+      "correctOptionId": "q-p0002-031-o1",
+      "explanation": "先生 (xiānsheng) signifie « monsieur ; mari ». Utilisé après un nom de famille comme « M. » (ex. 马力山先生), ou seul comme « monsieur ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-032",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « madame ; épouse » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-032-o1",
+          "text": "公司"
+        },
+        {
+          "id": "q-p0002-032-o2",
+          "text": "先生"
+        },
+        {
+          "id": "q-p0002-032-o3",
+          "text": "太太"
+        }
+      ],
+      "correctOptionId": "q-p0002-032-o3",
+      "explanation": "« madame ; épouse » se dit 太太 (tàitai).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-033",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « lái » signifiant « to come ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-033-o1",
+          "text": "那"
+        },
+        {
+          "id": "q-p0002-033-o2",
+          "text": "来"
+        },
+        {
+          "id": "q-p0002-033-o3",
+          "text": "这"
+        }
+      ],
+      "correctOptionId": "q-p0002-033-o2",
+      "explanation": "来 se prononce lái et signifie « to come ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0027"
+      ],
+      "entryIds": [
+        "e-p0002-0013"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-034",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 这是五片____。 » (Voici cinq tranches de pain.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-034-o1",
+          "text": "面包"
+        },
+        {
+          "id": "q-p0002-034-o2",
+          "text": "公司"
+        },
+        {
+          "id": "q-p0002-034-o3",
+          "text": "先生"
+        }
+      ],
+      "correctOptionId": "q-p0002-034-o1",
+      "explanation": "Le mot manquant est 面包 (miànbāo, « pain »), ce qui complète « 这是五片面包。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0020"
+      ],
+      "entryIds": [
+        "e-p0002-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-035",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-035-o1",
+          "text": "那"
+        },
+        {
+          "id": "q-p0002-035-o2",
+          "text": "种"
+        },
+        {
+          "id": "q-p0002-035-o3",
+          "text": "这"
+        }
+      ],
+      "correctOptionId": "q-p0002-035-o3",
+      "explanation": "L'audio prononce 这 (zhè), qui signifie « this ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0010"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "这",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-036",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 先生 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-036-o1",
+          "text": "madame ; épouse"
+        },
+        {
+          "id": "q-p0002-036-o2",
+          "text": "monsieur ; mari"
+        },
+        {
+          "id": "q-p0002-036-o3",
+          "text": "entreprise ; société"
+        }
+      ],
+      "correctOptionId": "q-p0002-036-o2",
+      "explanation": "先生 (xiānsheng) signifie « monsieur ; mari ». Utilisé après un nom de famille comme « M. » (ex. 马力山先生), ou seul comme « monsieur ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-037",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 你常去看你哥哥吗？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-037-o1",
+          "text": "Vas-tu souvent voir ton grand frère ?"
+        },
+        {
+          "id": "q-p0002-037-o2",
+          "text": "Est-ce que c'est ton couteau ?"
+        },
+        {
+          "id": "q-p0002-037-o3",
+          "text": "Cette sorte de couteau est très jolie, mais très chère."
+        }
+      ],
+      "correctOptionId": "q-p0002-037-o1",
+      "explanation": "« 你常去看你哥哥吗？ » (Nǐ cháng qù kàn nǐ gēge ma?) signifie « Vas-tu souvent voir ton grand frère ? ». 常去看 combine « souvent » + « aller » + « voir/rendre visite ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0017"
+      ],
+      "entryIds": [
+        "e-p0002-0035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-038",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 太太 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-038-o1",
+          "text": "entreprise ; société"
+        },
+        {
+          "id": "q-p0002-038-o2",
+          "text": "monsieur ; mari"
+        },
+        {
+          "id": "q-p0002-038-o3",
+          "text": "madame ; épouse"
+        }
+      ],
+      "correctOptionId": "q-p0002-038-o3",
+      "explanation": "太太 (tàitai) signifie « madame ; épouse ». Terme poli pour une femme mariée ou l'épouse de quelqu'un.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0005"
+      ],
+      "entryIds": [
+        "e-p0002-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

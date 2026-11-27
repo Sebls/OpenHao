@@ -1,0 +1,1263 @@
+{
+  "documentId": "lecon-05",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 买卖 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "business; trade"
+        },
+        {
+          "id": "o2",
+          "text": "literature"
+        },
+        {
+          "id": "o3",
+          "text": "notebook"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "买卖 (mǎimai) literally combines 买 (buy) and 卖 (sell) to mean business or trade.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0011"
+      ],
+      "entryIds": [
+        "e-p0003-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means 'traditional'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "传统"
+        },
+        {
+          "id": "o2",
+          "text": "音乐"
+        },
+        {
+          "id": "o3",
+          "text": "工作"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "传统 (chuántǒng) means tradition or traditional.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0031"
+      ],
+      "entryIds": [
+        "e-p0003-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "In passage ②, which languages can Yamamoto speak?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Japanese and Chinese"
+        },
+        {
+          "id": "o2",
+          "text": "English and French"
+        },
+        {
+          "id": "o3",
+          "text": "Chinese and French"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The text states: 只会说日文和中文 (he can only speak Japanese and Chinese).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "How is 有 (to have) negated in '可是我没有刀子'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "没有"
+        },
+        {
+          "id": "o2",
+          "text": "不有"
+        },
+        {
+          "id": "o3",
+          "text": "还不是"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "有 is always negated with 没 (没有), never with 不.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0018"
+      ],
+      "entryIds": [
+        "e-p0003-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choose the word that means 'how many': 你想买___本子？",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "多少"
+        },
+        {
+          "id": "o2",
+          "text": "常常"
+        },
+        {
+          "id": "o3",
+          "text": "传统"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "多少 (duōshao) asks 'how many' or 'how much'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0023"
+      ],
+      "entryIds": [
+        "e-p0003-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means 'to write'?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "写"
+        },
+        {
+          "id": "o2",
+          "text": "画"
+        },
+        {
+          "id": "o3",
+          "text": "学"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "写 (xiě) means to write, as in 写汉字.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0029"
+      ],
+      "entryIds": [
+        "e-p0003-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen and choose the sentence you hear.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o1",
+          "text": "田老师常常去法国。"
+        },
+        {
+          "id": "o2",
+          "text": "我很饿，可是我没有刀子。"
+        },
+        {
+          "id": "o3",
+          "text": "王大夫有很多工作。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "田老师常常去法国 means 'Teacher Tian often goes to France.'",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0015"
+      ],
+      "entryIds": [
+        "e-p0003-0026"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Separate source, contextual-language and distractor review; not human or independent review."
+      },
+      "speechTarget": "田老师常常去法国。"
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「玛丽是法国人，李玉是中国人。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-008-o1",
+          "text": "Mary studies Chinese and Chinese literature."
+        },
+        {
+          "id": "q-p0003-008-o2",
+          "text": "Yamamoto does business."
+        },
+        {
+          "id": "q-p0003-008-o3",
+          "text": "Mary is French, and Li Yu is Chinese."
+        }
+      ],
+      "correctOptionId": "q-p0003-008-o3",
+      "explanation": "「玛丽是法国人，李玉是中国人。」 (Mǎlì shì Fǎguórén, Lǐ Yù shì Zhōngguórén.) means \"Mary is French, and Li Yu is Chinese.\". 是 links a subject with a nationality noun.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 玛丽 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-009-o1",
+          "text": "Chinese person"
+        },
+        {
+          "id": "q-p0003-009-o2",
+          "text": "Mary (Mǎlì)"
+        },
+        {
+          "id": "q-p0003-009-o3",
+          "text": "French person"
+        }
+      ],
+      "correctOptionId": "q-p0003-009-o2",
+      "explanation": "玛丽 (Mǎlì) means \"Mary (Mǎlì)\". Transliteration of the personal name Mary.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Mary (Mǎlì)\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-010-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0003-010-o2",
+          "text": "法国人"
+        },
+        {
+          "id": "q-p0003-010-o3",
+          "text": "中国人"
+        }
+      ],
+      "correctOptionId": "q-p0003-010-o1",
+      "explanation": "\"Mary (Mǎlì)\" is 玛丽 (Mǎlì).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-011",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「玛丽是____，李玉是中国人。」 (Mary is French, and Li Yu is Chinese.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-011-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0003-011-o2",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0003-011-o3",
+          "text": "法国人"
+        }
+      ],
+      "correctOptionId": "q-p0003-011-o3",
+      "explanation": "The missing word is 法国人 (Fǎguórén, \"French person\"), completing 「玛丽是法国人，李玉是中国人。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-012",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-012-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0003-012-o2",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0003-012-o3",
+          "text": "法国人"
+        }
+      ],
+      "correctOptionId": "q-p0003-012-o2",
+      "explanation": "The audio speaks 玛丽 (Mǎlì), meaning \"Mary (Mǎlì)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "玛丽",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-013",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 玛丽?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-013-o1",
+          "text": "Mary (Mǎlì)"
+        },
+        {
+          "id": "q-p0003-013-o2",
+          "text": "French person"
+        },
+        {
+          "id": "q-p0003-013-o3",
+          "text": "Chinese person"
+        }
+      ],
+      "correctOptionId": "q-p0003-013-o1",
+      "explanation": "玛丽 (Mǎlì) means \"Mary (Mǎlì)\". Transliteration of the personal name Mary.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-014",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「玛丽学习汉语和中国文学。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-014-o1",
+          "text": "Mary is French, and Li Yu is Chinese."
+        },
+        {
+          "id": "q-p0003-014-o2",
+          "text": "Yamamoto does business."
+        },
+        {
+          "id": "q-p0003-014-o3",
+          "text": "Mary studies Chinese and Chinese literature."
+        }
+      ],
+      "correctOptionId": "q-p0003-014-o3",
+      "explanation": "「玛丽学习汉语和中国文学。」 (Mǎlì xuéxí Hànyǔ hé Zhōngguó wénxué.) means \"Mary studies Chinese and Chinese literature.\". 和 connects two noun phrases.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0023"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-015",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 法国人 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-015-o1",
+          "text": "Chinese person"
+        },
+        {
+          "id": "q-p0003-015-o2",
+          "text": "French person"
+        },
+        {
+          "id": "q-p0003-015-o3",
+          "text": "Mary (Mǎlì)"
+        }
+      ],
+      "correctOptionId": "q-p0003-015-o2",
+      "explanation": "法国人 (Fǎguórén) means \"French person\". 法国 (France) + 人 (person).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0003"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-016",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"French person\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-016-o1",
+          "text": "法国人"
+        },
+        {
+          "id": "q-p0003-016-o2",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0003-016-o3",
+          "text": "中国人"
+        }
+      ],
+      "correctOptionId": "q-p0003-016-o1",
+      "explanation": "\"French person\" is 法国人 (Fǎguórén).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0003"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-017",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「____学习汉语和中国文学。」 (Mary studies Chinese and Chinese literature.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-017-o1",
+          "text": "法国人"
+        },
+        {
+          "id": "q-p0003-017-o2",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0003-017-o3",
+          "text": "玛丽"
+        }
+      ],
+      "correctOptionId": "q-p0003-017-o3",
+      "explanation": "The missing word is 玛丽 (Mǎlì, \"Mary (Mǎlì)\"), completing 「玛丽学习汉语和中国文学。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0023"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-018",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-018-o1",
+          "text": "山本作买卖。"
+        },
+        {
+          "id": "q-p0003-018-o2",
+          "text": "玛丽是法国人，李玉是中国人。"
+        },
+        {
+          "id": "q-p0003-018-o3",
+          "text": "玛丽学习汉语和中国文学。"
+        }
+      ],
+      "correctOptionId": "q-p0003-018-o2",
+      "explanation": "The audio speaks 玛丽是法国人，李玉是中国人。 (Mǎlì shì Fǎguórén, Lǐ Yù shì Zhōngguórén.), meaning \"Mary is French, and Li Yu is Chinese.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0022"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "玛丽是法国人，李玉是中国人。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-019",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 法国人?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-019-o1",
+          "text": "French person"
+        },
+        {
+          "id": "q-p0003-019-o2",
+          "text": "Mary (Mǎlì)"
+        },
+        {
+          "id": "q-p0003-019-o3",
+          "text": "Chinese person"
+        }
+      ],
+      "correctOptionId": "q-p0003-019-o1",
+      "explanation": "法国人 (Fǎguórén) means \"French person\". 法国 (France) + 人 (person).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0003"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-020",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「山本作买卖。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-020-o1",
+          "text": "Mary is French, and Li Yu is Chinese."
+        },
+        {
+          "id": "q-p0003-020-o2",
+          "text": "Mary studies Chinese and Chinese literature."
+        },
+        {
+          "id": "q-p0003-020-o3",
+          "text": "Yamamoto does business."
+        }
+      ],
+      "correctOptionId": "q-p0003-020-o3",
+      "explanation": "「山本作买卖。」 (Shānběn zuò mǎimai.) means \"Yamamoto does business.\". 作买卖 means 'to do business / trade'.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0010"
+      ],
+      "entryIds": [
+        "e-p0003-0024"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-021",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 中国人 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-021-o1",
+          "text": "French person"
+        },
+        {
+          "id": "q-p0003-021-o2",
+          "text": "Chinese person"
+        },
+        {
+          "id": "q-p0003-021-o3",
+          "text": "Mary (Mǎlì)"
+        }
+      ],
+      "correctOptionId": "q-p0003-021-o2",
+      "explanation": "中国人 (Zhōngguórén) means \"Chinese person\". 中国 (China) + 人 (person).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0004"
+      ],
+      "entryIds": [
+        "e-p0003-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-022",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"Chinese person\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-022-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0003-022-o2",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0003-022-o3",
+          "text": "法国人"
+        }
+      ],
+      "correctOptionId": "q-p0003-022-o1",
+      "explanation": "\"Chinese person\" is 中国人 (Zhōngguórén).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0004"
+      ],
+      "entryIds": [
+        "e-p0003-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-023",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「山本作____。」 (Yamamoto does business.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-023-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0003-023-o2",
+          "text": "法国人"
+        },
+        {
+          "id": "q-p0003-023-o3",
+          "text": "买卖"
+        }
+      ],
+      "correctOptionId": "q-p0003-023-o3",
+      "explanation": "The missing word is 买卖 (mǎimai, \"business; trade\"), completing 「山本作买卖。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0010"
+      ],
+      "entryIds": [
+        "e-p0003-0024"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-024",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese character.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-024-o1",
+          "text": "饿"
+        },
+        {
+          "id": "q-p0003-024-o2",
+          "text": "写"
+        },
+        {
+          "id": "q-p0003-024-o3",
+          "text": "刀"
+        }
+      ],
+      "correctOptionId": "q-p0003-024-o2",
+      "explanation": "The audio speaks 写 (xiě), meaning \"to write\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0029"
+      ],
+      "entryIds": [
+        "e-p0003-0019"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "写",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-025",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 中国人?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-025-o1",
+          "text": "Chinese person"
+        },
+        {
+          "id": "q-p0003-025-o2",
+          "text": "Mary (Mǎlì)"
+        },
+        {
+          "id": "q-p0003-025-o3",
+          "text": "French person"
+        }
+      ],
+      "correctOptionId": "q-p0003-025-o1",
+      "explanation": "中国人 (Zhōngguórén) means \"Chinese person\". 中国 (China) + 人 (person).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0004"
+      ],
+      "entryIds": [
+        "e-p0003-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-026",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「田老师常常去法国。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-026-o1",
+          "text": "Mary is French, and Li Yu is Chinese."
+        },
+        {
+          "id": "q-p0003-026-o2",
+          "text": "Mary studies Chinese and Chinese literature."
+        },
+        {
+          "id": "q-p0003-026-o3",
+          "text": "Teacher Tian often goes to France."
+        }
+      ],
+      "correctOptionId": "q-p0003-026-o3",
+      "explanation": "「田老师常常去法国。」 (Tián lǎoshī chángcháng qù Fǎguó.) means \"Teacher Tian often goes to France.\". 常常 (often) precedes the verb 去 (to go).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0015"
+      ],
+      "entryIds": [
+        "e-p0003-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-027",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 男朋友 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-027-o1",
+          "text": "French person"
+        },
+        {
+          "id": "q-p0003-027-o2",
+          "text": "boyfriend"
+        },
+        {
+          "id": "q-p0003-027-o3",
+          "text": "Mary (Mǎlì)"
+        }
+      ],
+      "correctOptionId": "q-p0003-027-o2",
+      "explanation": "男朋友 (nánpéngyou) means \"boyfriend\". 男 (male) + 朋友 (friend).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0005"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-028",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"boyfriend\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-028-o1",
+          "text": "男朋友"
+        },
+        {
+          "id": "q-p0003-028-o2",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0003-028-o3",
+          "text": "法国人"
+        }
+      ],
+      "correctOptionId": "q-p0003-028-o1",
+      "explanation": "\"boyfriend\" is 男朋友 (nánpéngyou).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0005"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-029",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「山本不会说英文，也不会说____，只会说日文和中文。」 (Yamamoto cannot speak English, nor French; he can only speak Japanese and Chinese.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-029-o1",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0003-029-o2",
+          "text": "法国人"
+        },
+        {
+          "id": "q-p0003-029-o3",
+          "text": "法文"
+        }
+      ],
+      "correctOptionId": "q-p0003-029-o3",
+      "explanation": "The missing word is 法文 (Fǎwén, \"French (language)\"), completing 「山本不会说英文，也不会说法文，只会说日文和中文。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-030",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 男朋友?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-030-o1",
+          "text": "French person"
+        },
+        {
+          "id": "q-p0003-030-o2",
+          "text": "boyfriend"
+        },
+        {
+          "id": "q-p0003-030-o3",
+          "text": "Mary (Mǎlì)"
+        }
+      ],
+      "correctOptionId": "q-p0003-030-o2",
+      "explanation": "男朋友 (nánpéngyou) means \"boyfriend\". 男 (male) + 朋友 (friend).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0005"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-031",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我很饿，可是我没有刀子。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-031-o1",
+          "text": "I am very hungry, but I don't have a knife."
+        },
+        {
+          "id": "q-p0003-031-o2",
+          "text": "Mary is French, and Li Yu is Chinese."
+        },
+        {
+          "id": "q-p0003-031-o3",
+          "text": "Mary studies Chinese and Chinese literature."
+        }
+      ],
+      "correctOptionId": "q-p0003-031-o1",
+      "explanation": "「我很饿，可是我没有刀子。」 (Wǒ hěn è, kěshì wǒ méiyǒu dāozi.) means \"I am very hungry, but I don't have a knife.\". Contrasts state (很饿) with lack of a knife (没有刀子).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0017"
+      ],
+      "entryIds": [
+        "e-p0003-0027"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-032",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 学习 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-032-o1",
+          "text": "Mary (Mǎlì)"
+        },
+        {
+          "id": "q-p0003-032-o2",
+          "text": "French person"
+        },
+        {
+          "id": "q-p0003-032-o3",
+          "text": "to study; to learn"
+        }
+      ],
+      "correctOptionId": "q-p0003-032-o3",
+      "explanation": "学习 (xuéxí) means \"to study; to learn\". Formal two-syllable verb for studying.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0007"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-033",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"to study; to learn\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-033-o1",
+          "text": "法国人"
+        },
+        {
+          "id": "q-p0003-033-o2",
+          "text": "学习"
+        },
+        {
+          "id": "q-p0003-033-o3",
+          "text": "玛丽"
+        }
+      ],
+      "correctOptionId": "q-p0003-033-o2",
+      "explanation": "\"to study; to learn\" is 学习 (xuéxí).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0007"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-034",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「____常常去法国。」 (Teacher Tian often goes to France.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-034-o1",
+          "text": "田老师"
+        },
+        {
+          "id": "q-p0003-034-o2",
+          "text": "玛丽"
+        },
+        {
+          "id": "q-p0003-034-o3",
+          "text": "法国人"
+        }
+      ],
+      "correctOptionId": "q-p0003-034-o1",
+      "explanation": "The missing word is 田老师 (Tián lǎoshī, \"Teacher Tian\"), completing 「田老师常常去法国。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0015"
+      ],
+      "entryIds": [
+        "e-p0003-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-035",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 学习?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-035-o1",
+          "text": "Mary (Mǎlì)"
+        },
+        {
+          "id": "q-p0003-035-o2",
+          "text": "French person"
+        },
+        {
+          "id": "q-p0003-035-o3",
+          "text": "to study; to learn"
+        }
+      ],
+      "correctOptionId": "q-p0003-035-o3",
+      "explanation": "学习 (xuéxí) means \"to study; to learn\". Formal two-syllable verb for studying.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0007"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-036",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「这是二十五个汉字，那是一张画儿。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0003-036-o1",
+          "text": "Mary studies Chinese and Chinese literature."
+        },
+        {
+          "id": "q-p0003-036-o2",
+          "text": "These are twenty-five Chinese characters, and that is a painting."
+        },
+        {
+          "id": "q-p0003-036-o3",
+          "text": "Mary is French, and Li Yu is Chinese."
+        }
+      ],
+      "correctOptionId": "q-p0003-036-o2",
+      "explanation": "「这是二十五个汉字，那是一张画儿。」 (Zhè shì èrshíwǔ gè hànzì, nà shì yì zhāng huàr.) means \"These are twenty-five Chinese characters, and that is a painting.\". 个 is the general measure word; 张 is used for flat sheets/paintings.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0003-0019"
+      ],
+      "entryIds": [
+        "e-p0003-0028"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

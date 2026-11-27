@@ -1,0 +1,846 @@
+{
+  "documentId": "lecon-05-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie l'indication 拉 sur une porte ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Tirer"
+        },
+        {
+          "id": "o2",
+          "text": "Pousser"
+        },
+        {
+          "id": "o3",
+          "text": "Modeste"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "拉 (lā) signifie « Tirer » ; 推 (tuī) signifie « Pousser ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère signifie « Pousser » sur une porte d'entrée ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "推"
+        },
+        {
+          "id": "o2",
+          "text": "拉"
+        },
+        {
+          "id": "o3",
+          "text": "红"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "推 (tuī) signifie « Pousser ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0006"
+      ],
+      "entryIds": [
+        "e-p0005-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Quel est l'antonyme de 谦虚 (modeste) ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "骄傲 (fier ; arrogant)"
+        },
+        {
+          "id": "o2",
+          "text": "抵抗 (résister)"
+        },
+        {
+          "id": "o3",
+          "text": "农业 (agriculture)"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "骄傲 (jiāo'ào) est l'antonyme de 谦虚 (qiānxū).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "À laquelle des Quatre Modernisations 农业 fait-il référence ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "agriculture"
+        },
+        {
+          "id": "o2",
+          "text": "industrie"
+        },
+        {
+          "id": "o3",
+          "text": "défense nationale"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "农业 (nóngyè) signifie « agriculture ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0011"
+      ],
+      "entryIds": [
+        "e-p0005-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez le mot que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "科学技术"
+        },
+        {
+          "id": "o2",
+          "text": "身体好"
+        },
+        {
+          "id": "o3",
+          "text": "红糖"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "科学技术 (kēxué jìshù) signifie « science et technologie ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0013"
+      ],
+      "entryIds": [
+        "e-p0005-0013"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Gemini",
+        "review": "Révision distincte de la source, de la langue en contexte et des distracteurs ; pas de révision humaine ou indépendante."
+      },
+      "speechTarget": "科学技术"
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 谦虚 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-006-o1",
+          "text": "se soumettre ; céder"
+        },
+        {
+          "id": "q-p0005-006-o2",
+          "text": "modeste ; humble"
+        },
+        {
+          "id": "q-p0005-006-o3",
+          "text": "fier ; arrogant"
+        }
+      ],
+      "correctOptionId": "q-p0005-006-o2",
+      "explanation": "谦虚 (qiānxū) signifie « modeste ; humble ». Contraire de 骄傲 (fier / arrogant).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « modeste ; humble » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-007-o1",
+          "text": "谦虚"
+        },
+        {
+          "id": "q-p0005-007-o2",
+          "text": "骄傲"
+        },
+        {
+          "id": "q-p0005-007-o3",
+          "text": "屈服"
+        }
+      ],
+      "correctOptionId": "q-p0005-007-o1",
+      "explanation": "« modeste ; humble » se dit 谦虚 (qiānxū).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « lā » signifiant « tirer ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-008-o1",
+          "text": "推"
+        },
+        {
+          "id": "q-p0005-008-o2",
+          "text": "刀"
+        },
+        {
+          "id": "q-p0005-008-o3",
+          "text": "拉"
+        }
+      ],
+      "correctOptionId": "q-p0005-008-o3",
+      "explanation": "拉 se prononce lā et signifie « tirer ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-009-o1",
+          "text": "屈服"
+        },
+        {
+          "id": "q-p0005-009-o2",
+          "text": "谦虚"
+        },
+        {
+          "id": "q-p0005-009-o3",
+          "text": "骄傲"
+        }
+      ],
+      "correctOptionId": "q-p0005-009-o2",
+      "explanation": "L'audio prononce 谦虚 (qiānxū), qui signifie « modeste ; humble ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "谦虚",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-010",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 谦虚 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-010-o1",
+          "text": "modeste ; humble"
+        },
+        {
+          "id": "q-p0005-010-o2",
+          "text": "fier ; arrogant"
+        },
+        {
+          "id": "q-p0005-010-o3",
+          "text": "se soumettre ; céder"
+        }
+      ],
+      "correctOptionId": "q-p0005-010-o1",
+      "explanation": "谦虚 (qiānxū) signifie « modeste ; humble ». Contraire de 骄傲 (fier / arrogant).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "entryIds": [
+        "e-p0005-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-011",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 屈服 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-011-o1",
+          "text": "modeste ; humble"
+        },
+        {
+          "id": "q-p0005-011-o2",
+          "text": "fier ; arrogant"
+        },
+        {
+          "id": "q-p0005-011-o3",
+          "text": "se soumettre ; céder"
+        }
+      ],
+      "correctOptionId": "q-p0005-011-o3",
+      "explanation": "屈服 (qūfú) signifie « se soumettre ; céder ». Contraire de 抵抗 (résister).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-012",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « fier ; arrogant » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-012-o1",
+          "text": "屈服"
+        },
+        {
+          "id": "q-p0005-012-o2",
+          "text": "骄傲"
+        },
+        {
+          "id": "q-p0005-012-o3",
+          "text": "谦虚"
+        }
+      ],
+      "correctOptionId": "q-p0005-012-o2",
+      "explanation": "« fier ; arrogant » se dit 骄傲 (jiāo'ào).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-013",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « tuī » signifiant « pousser ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-013-o1",
+          "text": "推"
+        },
+        {
+          "id": "q-p0005-013-o2",
+          "text": "拉"
+        },
+        {
+          "id": "q-p0005-013-o3",
+          "text": "刀"
+        }
+      ],
+      "correctOptionId": "q-p0005-013-o1",
+      "explanation": "推 se prononce tuī et signifie « pousser ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0006"
+      ],
+      "entryIds": [
+        "e-p0005-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-014",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-014-o1",
+          "text": "推"
+        },
+        {
+          "id": "q-p0005-014-o2",
+          "text": "刀"
+        },
+        {
+          "id": "q-p0005-014-o3",
+          "text": "拉"
+        }
+      ],
+      "correctOptionId": "q-p0005-014-o3",
+      "explanation": "L'audio prononce 拉 (lā), qui signifie « tirer ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0005"
+      ],
+      "entryIds": [
+        "e-p0005-0005"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "拉",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-015",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 骄傲 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-015-o1",
+          "text": "se soumettre ; céder"
+        },
+        {
+          "id": "q-p0005-015-o2",
+          "text": "fier ; arrogant"
+        },
+        {
+          "id": "q-p0005-015-o3",
+          "text": "modeste ; humble"
+        }
+      ],
+      "correctOptionId": "q-p0005-015-o2",
+      "explanation": "骄傲 (jiāo'ào) signifie « fier ; arrogant ». Antonyme de 谦虚 dans l'exercice 12(2).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0002"
+      ],
+      "entryIds": [
+        "e-p0005-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-016",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 抵抗 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-016-o1",
+          "text": "résister ; résistance"
+        },
+        {
+          "id": "q-p0005-016-o2",
+          "text": "modeste ; humble"
+        },
+        {
+          "id": "q-p0005-016-o3",
+          "text": "fier ; arrogant"
+        }
+      ],
+      "correctOptionId": "q-p0005-016-o1",
+      "explanation": "抵抗 (dǐkàng) signifie « résister ; résistance ». Antonyme de 屈服 dans l'exercice 12(2).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-017",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « se soumettre ; céder » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-017-o1",
+          "text": "谦虚"
+        },
+        {
+          "id": "q-p0005-017-o2",
+          "text": "骄傲"
+        },
+        {
+          "id": "q-p0005-017-o3",
+          "text": "屈服"
+        }
+      ],
+      "correctOptionId": "q-p0005-017-o3",
+      "explanation": "« se soumettre ; céder » se dit 屈服 (qūfú).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-018",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 屈服 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-018-o1",
+          "text": "fier ; arrogant"
+        },
+        {
+          "id": "q-p0005-018-o2",
+          "text": "se soumettre ; céder"
+        },
+        {
+          "id": "q-p0005-018-o3",
+          "text": "modeste ; humble"
+        }
+      ],
+      "correctOptionId": "q-p0005-018-o2",
+      "explanation": "屈服 (qūfú) signifie « se soumettre ; céder ». Contraire de 抵抗 (résister).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0003"
+      ],
+      "entryIds": [
+        "e-p0005-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-019",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 身体好 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-019-o1",
+          "text": "bonne santé"
+        },
+        {
+          "id": "q-p0005-019-o2",
+          "text": "modeste ; humble"
+        },
+        {
+          "id": "q-p0005-019-o3",
+          "text": "fier ; arrogant"
+        }
+      ],
+      "correctOptionId": "q-p0005-019-o1",
+      "explanation": "身体好 (shēntǐ hǎo) signifie « bonne santé ». L'un des « Trois Biens » (三好) du slogan.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0007"
+      ],
+      "entryIds": [
+        "e-p0005-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-020",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « résister ; résistance » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-020-o1",
+          "text": "谦虚"
+        },
+        {
+          "id": "q-p0005-020-o2",
+          "text": "骄傲"
+        },
+        {
+          "id": "q-p0005-020-o3",
+          "text": "抵抗"
+        }
+      ],
+      "correctOptionId": "q-p0005-020-o3",
+      "explanation": "« résister ; résistance » se dit 抵抗 (dǐkàng).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-021",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 抵抗 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-021-o1",
+          "text": "fier ; arrogant"
+        },
+        {
+          "id": "q-p0005-021-o2",
+          "text": "résister ; résistance"
+        },
+        {
+          "id": "q-p0005-021-o3",
+          "text": "modeste ; humble"
+        }
+      ],
+      "correctOptionId": "q-p0005-021-o2",
+      "explanation": "抵抗 (dǐkàng) signifie « résister ; résistance ». Antonyme de 屈服 dans l'exercice 12(2).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0004"
+      ],
+      "entryIds": [
+        "e-p0005-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-022",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 学习好 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-022-o1",
+          "text": "bien étudier"
+        },
+        {
+          "id": "q-p0005-022-o2",
+          "text": "modeste ; humble"
+        },
+        {
+          "id": "q-p0005-022-o3",
+          "text": "fier ; arrogant"
+        }
+      ],
+      "correctOptionId": "q-p0005-022-o1",
+      "explanation": "学习好 (xuéxí hǎo) signifie « bien étudier ». L'un des « Trois Biens » (三好) du slogan.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0008"
+      ],
+      "entryIds": [
+        "e-p0005-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-023",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « bonne santé » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-023-o1",
+          "text": "谦虚"
+        },
+        {
+          "id": "q-p0005-023-o2",
+          "text": "骄傲"
+        },
+        {
+          "id": "q-p0005-023-o3",
+          "text": "身体好"
+        }
+      ],
+      "correctOptionId": "q-p0005-023-o3",
+      "explanation": "« bonne santé » se dit 身体好 (shēntǐ hǎo).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0007"
+      ],
+      "entryIds": [
+        "e-p0005-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0005-024",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 身体好 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0005-024-o1",
+          "text": "fier ; arrogant"
+        },
+        {
+          "id": "q-p0005-024-o2",
+          "text": "bonne santé"
+        },
+        {
+          "id": "q-p0005-024-o3",
+          "text": "modeste ; humble"
+        }
+      ],
+      "correctOptionId": "q-p0005-024-o2",
+      "explanation": "身体好 (shēntǐ hǎo) signifie « bonne santé ». L'un des « Trois Biens » (三好) du slogan.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0007"
+      ],
+      "entryIds": [
+        "e-p0005-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}
