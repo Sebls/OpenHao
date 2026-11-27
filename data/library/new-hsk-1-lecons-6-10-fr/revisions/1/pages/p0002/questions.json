@@ -1,0 +1,358 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "p2-q-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 现在几点 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Quelle heure est-il maintenant ?"
+        },
+        {
+          "id": "o1",
+          "text": "Où es-tu maintenant ?"
+        },
+        {
+          "id": "o2",
+          "text": "Quel jour sommes-nous aujourd'hui ?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "现在 signifie maintenant et 几点 demande quelle heure il est.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p2-a-0144"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Comment dit-on « 2 heures » (heure de la journée) en mandarin ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "二点"
+        },
+        {
+          "id": "o1",
+          "text": "两点"
+        },
+        {
+          "id": "o2",
+          "text": "二十分"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "On utilise toujours 两 (liǎng) devant 点 pour 2 heures : 两点.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p2-a-0179"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « et demie » (comme dans 6 h 30) ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "分"
+        },
+        {
+          "id": "o1",
+          "text": "半"
+        },
+        {
+          "id": "o2",
+          "text": "点"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "半 (bàn) signifie demi / et demie ; 点 signifie heure et 分 signifie minute.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p2-a-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans le dialogue 7.2, pourquoi B ne veut-il pas aller au cinéma cet après-midi ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "B a encore des choses à faire"
+        },
+        {
+          "id": "o1",
+          "text": "B est à l'hôpital"
+        },
+        {
+          "id": "o2",
+          "text": "B achète des légumes"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "B dit : 我不想去,下午还有事 (« Je n'ai pas envie d'y aller, j'ai encore des choses à faire cet après-midi »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p2-a-0222"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choisissez le mot manquant : 我晚上六点半____。 (Je finis le travail à 6 h 30 du soir.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "上班"
+        },
+        {
+          "id": "o1",
+          "text": "下班"
+        },
+        {
+          "id": "o2",
+          "text": "上课"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "下班 signifie finir le travail ; 上班 signifie commencer le travail et 上课 signifie assister au cours.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p2-a-0142"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans 我十分钟后去, que signifie 十分钟后 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Il y a dix minutes"
+        },
+        {
+          "id": "o1",
+          "text": "Dans dix minutes / dix minutes plus tard"
+        },
+        {
+          "id": "o2",
+          "text": "À dix heures"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Durée + 后 signifie « après [durée] » ou « dans [durée] ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p2-a-0230"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la traduction française correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Je vais travailler à l'hôpital à 8 h."
+        },
+        {
+          "id": "o1",
+          "text": "Je finis le travail à 6 h 30 du soir."
+        },
+        {
+          "id": "o2",
+          "text": "J'ai cours à 10 h 10 du matin."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "L'audio dit : 我八点去医院上班 (« Je vais travailler à l'hôpital à 8 h »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p2-a-0228"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我八点去医院上班。"
+    },
+    {
+      "id": "p2-q-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 电影院 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cinéma"
+        },
+        {
+          "id": "o1",
+          "text": "Hôpital"
+        },
+        {
+          "id": "o2",
+          "text": "Bureau"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "电影院 désigne un cinéma ; 医院 un hôpital et 办公室 un bureau.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p2-a-0162"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle expression signifie « à la maison » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "在家里"
+        },
+        {
+          "id": "o1",
+          "text": "在学校"
+        },
+        {
+          "id": "o2",
+          "text": "在店里"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "在家里 signifie à la maison ; 在学校 signifie à l'école et 在店里 dans le magasin.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p2-a-0192"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p2-q-010",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "À quelle heure B finit-il les cours demain dans le dialogue 7.2 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "14 h 00"
+        },
+        {
+          "id": "o1",
+          "text": "16 h 30"
+        },
+        {
+          "id": "o2",
+          "text": "18 h 30"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "B dit : 我明天下午两点还上课呢, 四点半下课 (il finit les cours à 4 h 30 / 16 h 30).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p2-a-0224"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}

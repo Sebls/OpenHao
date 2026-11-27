@@ -1,0 +1,358 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "p4-q-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 好听 dans 你唱歌很好听 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Agréable à entendre / joli"
+        },
+        {
+          "id": "o1",
+          "text": "Délicieux"
+        },
+        {
+          "id": "o2",
+          "text": "Occupé"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "好听 (hǎotīng) signifie littéralement « bon à écouter ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p4-a-0266"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel classificateur utilise-t-on pour les livres (comme 中文书) ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "只"
+        },
+        {
+          "id": "o1",
+          "text": "本"
+        },
+        {
+          "id": "o2",
+          "text": "家"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "本 (běn) est le classificateur pour les livres ; 只 s'emploie pour les animaux et 家 pour les établissements.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p4-a-0221"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « lire à haute voix / étudier » dans 读书 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "书"
+        },
+        {
+          "id": "o1",
+          "text": "读"
+        },
+        {
+          "id": "o2",
+          "text": "唱"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "读 (dú) signifie lire ; 书 signifie livre et 唱 signifie chanter.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p4-a-0135"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Où se trouve le livre de chinois dans le dialogue 9.2 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sur la chaise"
+        },
+        {
+          "id": "o1",
+          "text": "Sous la table"
+        },
+        {
+          "id": "o2",
+          "text": "Devant le cinéma"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "A dit : 椅子上有一本中文书 (« Il y a un livre de chinois sur la chaise »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p4-a-0290"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choisissez le mot manquant : 那是____书？ (À qui est ce livre ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "什么"
+        },
+        {
+          "id": "o1",
+          "text": "谁的"
+        },
+        {
+          "id": "o2",
+          "text": "哪儿"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "谁的 signifie « à qui ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p4-a-0225"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans 我明天上午在学校学习, quel est l'ordre des mots ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sujet + Temps + Lieu (在...) + Verbe"
+        },
+        {
+          "id": "o1",
+          "text": "Sujet + Verbe + Temps + Lieu"
+        },
+        {
+          "id": "o2",
+          "text": "Lieu + Sujet + Verbe + Temps"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Le mandarin place le temps (明天上午) et le lieu (在学校) avant le verbe (学习).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p4-a-0293"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la traduction française correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Il y a un cinéma devant l'école."
+        },
+        {
+          "id": "o1",
+          "text": "J'étudierai à l'école demain matin."
+        },
+        {
+          "id": "o2",
+          "text": "J'ai aussi un chiot."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "L'audio dit : 学校前边有一家电影院 (« Il y a un cinéma devant l'école »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p4-a-0286"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "学校前边有一家电影院。"
+    },
+    {
+      "id": "p4-q-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 星期六 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Samedi"
+        },
+        {
+          "id": "o1",
+          "text": "Dimanche"
+        },
+        {
+          "id": "o2",
+          "text": "En journée"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "星期六 est samedi (littéralement jour 6 de la semaine) ; 星期天 est dimanche.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p4-a-0249"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle expression signifie « regarder la télévision » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "看电影"
+        },
+        {
+          "id": "o1",
+          "text": "看电视"
+        },
+        {
+          "id": "o2",
+          "text": "做饭"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "看电视 signifie regarder la télévision ; 看电影 signifie regarder un film et 做饭 signifie cuisiner.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p4-a-0275"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p4-q-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans le dialogue 9.3, que fait B pendant la journée le samedi ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Il lit à la maison"
+        },
+        {
+          "id": "o1",
+          "text": "Il sort chanter avec des amis"
+        },
+        {
+          "id": "o2",
+          "text": "Il cuisine et regarde la télévision"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "B dit : 我白天在家里读书 (« En journée je lis à la maison »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p4-a-0295"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10-fr",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "p3-q-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 小猫 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Chaton / petit chat"
+        },
+        {
+          "id": "o1",
+          "text": "Petit chien"
+        },
+        {
+          "id": "o2",
+          "text": "Médecin"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "小 signifie petit et 猫 signifie chat.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p3-a-0137"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « sous » (comme dans 桌子下) ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "前"
+        },
+        {
+          "id": "o1",
+          "text": "下"
+        },
+        {
+          "id": "o2",
+          "text": "里"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "下 signifie sous / en dessous ; 前 signifie devant et 里 signifie à l'intérieur.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p3-a-0150"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère est le pronom « il / elle » pour les animaux ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "他"
+        },
+        {
+          "id": "o1",
+          "text": "她"
+        },
+        {
+          "id": "o2",
+          "text": "它"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "它 (tā) s'utilise pour les animaux et les objets ; 他 signifie « il » et 她 « elle » (personnes).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p3-a-0143"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Où est le chaton dans le dialogue 8.1 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Devant la librairie"
+        },
+        {
+          "id": "o1",
+          "text": "Sous la table"
+        },
+        {
+          "id": "o2",
+          "text": "À l'hôpital"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "A dit : 它在桌子下呢 (« Il est sous la table »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p3-a-0216"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choisissez le mot manquant : 我____看见，它在哪儿呢？ (Je ne l'ai pas vu...)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "不"
+        },
+        {
+          "id": "o1",
+          "text": "没"
+        },
+        {
+          "id": "o2",
+          "text": "也"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "On utilise 没 (et non 不) pour nier 看见 (avoir vu/remarqué).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p3-a-0141"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans 在学校书店前见吧, pourquoi 在学校书店前 se place-t-il avant 见 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "En mandarin, le complément de lieu précède le verbe d'action"
+        },
+        {
+          "id": "o1",
+          "text": "Les mots de lieu se placent toujours à la fin de la phrase"
+        },
+        {
+          "id": "o2",
+          "text": "见 ne peut pas s'employer avec un lieu"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "En mandarin, 在 + lieu se place avant le verbe : 在学校书店前见.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p3-a-0219"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la traduction française correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Retrouvons-nous devant la librairie de l'école."
+        },
+        {
+          "id": "o1",
+          "text": "Il est sous la table."
+        },
+        {
+          "id": "o2",
+          "text": "Mon papa est aussi à l'hôpital."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "L'audio dit : 在学校书店前见吧 (« Retrouvons-nous devant la librairie de l'école »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p3-a-0219"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "在学校书店前见吧。"
+    },
+    {
+      "id": "p3-q-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 病人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Patient"
+        },
+        {
+          "id": "o1",
+          "text": "Médecin"
+        },
+        {
+          "id": "o2",
+          "text": "Librairie"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "病人 signifie littéralement « personne malade », c'est-à-dire un patient.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p3-a-0195"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Comment dit-on « deux médecins » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "二个医生"
+        },
+        {
+          "id": "o1",
+          "text": "两个医生"
+        },
+        {
+          "id": "o2",
+          "text": "两只医生"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "On utilise 两 (et non 二) devant le classificateur 个 : 两个医生.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p3-a-0210"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p3-q-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans le dialogue 8.2, que fera B à l'école ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Déjeuner et se retrouver à 14 h"
+        },
+        {
+          "id": "o1",
+          "text": "Aller à l'hôpital"
+        },
+        {
+          "id": "o2",
+          "text": "Chercher un chaton"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "B dit : 我能到。我在学校吃午饭 (« Je peux venir. Je déjeune à l'école »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p3-a-0221"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}

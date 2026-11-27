@@ -1,0 +1,39 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "b28010fc10c5de29dab998370c797537754e9cfdc927d1cb6f4dd1823ced3243",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Antigravity, comparaison avec la source, révision linguistique/des questions et localisation française",
+  "reviewedAt": "2026-11-26",
+  "issues": [
+    {
+      "severity": "warning",
+      "region": "sceaux décoratifs",
+      "reason": "Les petits sceaux décoratifs rouges dans les coins sont visibles sur l'original mais absents de la couche de texte intégrée. Ils sont exclus de l'apprentissage et de l'entraînement.",
+      "nextAction": "Facultatif : inspecter à plus fort grossissement si la transcription des sceaux décoratifs est souhaitée."
+    },
+    {
+      "severity": "info",
+      "reason": "L'API au niveau des phrases est omise ; l'API vérifiée des caractères et des mots est disponible. Le pinyin et les traductions françaises couvrent toutes les phrases des dialogues.",
+      "nextAction": "Utiliser l'API vérifiée au niveau des mots ; n'ajouter les transcriptions de phrases qu'après révision."
+    }
+  ],
+  "checks": [
+    "Comparaison de toutes les répliques et titres de la leçon 6 avec le rendu complet de la page source",
+    "Conservation exacte de la ponctuation et du texte original",
+    "Vérification des changements de tons (不/一/几), des tons neutres, des classificateurs et des traductions françaises naturelles",
+    "Vérification de chaque question : une seule réponse correcte et aucun distracteur synonyme",
+    "Boîtes de caractères issues de MuPDF rawdict, sans division de boîte de ligne"
+  ],
+  "coverage": {
+    "embeddedCharacters": 144,
+    "annotatedOccurrences": 222,
+    "entries": 114,
+    "dialogueSentences": 15,
+    "reviewedQuestions": 10,
+    "extractionScope": "Page physique 1 ; lacunes des sceaux décoratifs explicitement consignées",
+    "annotationScope": "Tous les sinogrammes des dialogues principaux, cadres de situation et titres de leçons ; en-têtes, slogans de pied de page et sceaux décoratifs exclus de l'enseignement"
+  }
+}

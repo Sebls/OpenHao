@@ -1,0 +1,358 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "p5-q-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 多少钱一个 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Combien coûte l'unité ?"
+        },
+        {
+          "id": "o1",
+          "text": "Où sont les tasses ?"
+        },
+        {
+          "id": "o2",
+          "text": "De quelle couleur est-ce ?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "多少钱 demande « combien cela coûte », et 一个 signifie « un (à l'unité) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p5-a-0178"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « pas cher / bon marché » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "便宜"
+        },
+        {
+          "id": "o1",
+          "text": "贵"
+        },
+        {
+          "id": "o2",
+          "text": "好看"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "便宜 (piányi) signifie pas cher / bon marché ; 贵 signifie cher et 好看 signifie joli.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p5-a-0168"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « porter (un vêtement) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "买"
+        },
+        {
+          "id": "o1",
+          "text": "穿"
+        },
+        {
+          "id": "o2",
+          "text": "卖"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "穿 (chuān) signifie porter (un vêtement) ; 买 signifie acheter.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p5-a-0232"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans le dialogue 10.2, combien B fait-il payer les pommes au final ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "3,50 yuans"
+        },
+        {
+          "id": "o1",
+          "text": "7,20 yuans"
+        },
+        {
+          "id": "o2",
+          "text": "7 yuans"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "B dit : 这些七块二,七块钱吧 (« Celles-ci font 7,20, disons 7 yuans »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p5-a-0262"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choisissez le classificateur manquant : 这____一百元，怎么样？ (Ce vêtement coûte 100 yuans...)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "个"
+        },
+        {
+          "id": "o1",
+          "text": "件"
+        },
+        {
+          "id": "o2",
+          "text": "本"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "件 (jiàn) est le classificateur pour les vêtements ; 个 est général et 本 s'emploie pour les livres.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p5-a-0224"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans 女孩子穿的衣服, à quoi sert 的 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Il relie la proposition déterminante 女孩子穿 au nom 衣服"
+        },
+        {
+          "id": "o1",
+          "text": "Il marque le passé"
+        },
+        {
+          "id": "o2",
+          "text": "Il transforme la phrase en question"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "女孩子穿的衣服 signifie « les vêtements que portent les filles », avec 的 placé devant le nom 衣服.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p5-a-0268"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la traduction française correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Excusez-moi, avez-vous des tasses ?"
+        },
+        {
+          "id": "o1",
+          "text": "Je voudrais acheter deux jin de pommes."
+        },
+        {
+          "id": "o2",
+          "text": "Il est joli, et il n'est pas cher non plus."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "L'audio dit : 请问,有杯子吗? (« Excusez-moi, avez-vous des tasses ? »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p5-a-0254"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "请问,有杯子吗?"
+    },
+    {
+      "id": "p5-q-008",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 杯子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Tasse / verre"
+        },
+        {
+          "id": "o1",
+          "text": "Pomme"
+        },
+        {
+          "id": "o2",
+          "text": "Vêtements"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "杯子 (bēizi) signifie tasse ou verre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p5-a-0172"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-009",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Comment dit-on « ceux-ci / celles-ci » dans le dialogue 10.1 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "这些"
+        },
+        {
+          "id": "o1",
+          "text": "那些"
+        },
+        {
+          "id": "o2",
+          "text": "这边"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "这些 signifie ceux-ci / celles-ci ; 那些 signifie ceux-là et 这边 signifie par ici.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p5-a-0180"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p5-q-010",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Pourquoi Xiaoming ne peut-il pas porter ces vêtements dans le dialogue 10.3 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Parce que ce sont des vêtements pour filles"
+        },
+        {
+          "id": "o1",
+          "text": "Parce qu'ils sont trop chers"
+        },
+        {
+          "id": "o2",
+          "text": "Parce que le magasin n'a pas de vêtements"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "A dit : 不能。这些是女孩子穿的衣服, 男孩子的衣服在那儿 (« Non. Ce sont des vêtements pour filles ; les vêtements pour garçons sont là-bas »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p5-a-0268"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}

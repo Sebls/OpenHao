@@ -1,0 +1,358 @@
+{
+  "documentId": "new-hsk-1-lecons-6-10-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "p1-q-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 手机号 dans le dialogue 6.1 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Numéro de téléphone portable"
+        },
+        {
+          "id": "o1",
+          "text": "Adresse du domicile"
+        },
+        {
+          "id": "o2",
+          "text": "Numéro d'étudiant"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "手机号 combine 手机 (téléphone portable) et 号 (numéro).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p1-a-0133"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « supermarché » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "饭店"
+        },
+        {
+          "id": "o1",
+          "text": "超市"
+        },
+        {
+          "id": "o2",
+          "text": "学校"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "超市 signifie supermarché ; 饭店 désigne un restaurant/hôtel et 学校 une école.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p1-a-0158"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « acheter » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "吃"
+        },
+        {
+          "id": "o1",
+          "text": "去"
+        },
+        {
+          "id": "o2",
+          "text": "买"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "买 (mǎi) signifie acheter ; 吃 signifie manger et 去 signifie aller.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p1-a-0159"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que veut acheter B au supermarché dans le dialogue 6.2 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Des brioches vapeur"
+        },
+        {
+          "id": "o1",
+          "text": "Du lait"
+        },
+        {
+          "id": "o2",
+          "text": "Du riz cuit"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "B dit : 我想买些牛奶 (« Je voudrais acheter du lait »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p1-a-0216"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choisissez le mot manquant : 我们____去？ (Comment y allons-nous ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "哪儿"
+        },
+        {
+          "id": "o1",
+          "text": "怎么"
+        },
+        {
+          "id": "o2",
+          "text": "多少"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "怎么 demande « comment » avant un verbe comme 去 (aller).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p1-a-0203"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans 坐出租车去, quel est le rôle de 坐 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Il indique le fait de prendre un véhicule pour aller quelque part"
+        },
+        {
+          "id": "o1",
+          "text": "Il sert à demander un numéro de téléphone"
+        },
+        {
+          "id": "o2",
+          "text": "Il met le verbe 想 à la forme négative"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "坐 + véhicule + 去 signifie aller quelque part en prenant ce véhicule (ici, en taxi).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p1-a-0222"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la traduction française correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Je veux aller au supermarché acheter des choses."
+        },
+        {
+          "id": "o1",
+          "text": "Où allons-nous dîner dimanche ?"
+        },
+        {
+          "id": "o2",
+          "text": "Les brioches vapeur là-bas sont vraiment délicieuses."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "L'audio dit : 我想去超市买东西 (« Je veux aller au supermarché acheter des choses »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p1-a-0214"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我想去超市买东西。"
+    },
+    {
+      "id": "p1-q-008",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 好吃 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Délicieux"
+        },
+        {
+          "id": "o1",
+          "text": "Cher"
+        },
+        {
+          "id": "o2",
+          "text": "Demain"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "好吃 (hǎochī) signifie littéralement « bon à manger », c'est-à-dire délicieux.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p1-a-0188"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-009",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Comment dit-on « dimanche » dans le dialogue 6.3 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "明天"
+        },
+        {
+          "id": "o1",
+          "text": "星期天"
+        },
+        {
+          "id": "o2",
+          "text": "晚饭"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "星期天 signifie dimanche ; 明天 signifie demain et 晚饭 signifie dîner.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p1-a-0172"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "p1-q-010",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Dans le dialogue 6.3, pourquoi A veut-il aller au restaurant Xi'an ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Parce que les brioches vapeur là-bas sont très délicieuses"
+        },
+        {
+          "id": "o1",
+          "text": "Parce qu'il est à côté du supermarché"
+        },
+        {
+          "id": "o2",
+          "text": "Parce qu'ils veulent acheter du lait"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "A dit : 那边的包子非常好吃,我想吃包子 (« Les brioches vapeur là-bas sont vraiment délicieuses, je veux manger des brioches vapeur »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "p1-a-0219"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Antigravity agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    }
+  ]
+}
