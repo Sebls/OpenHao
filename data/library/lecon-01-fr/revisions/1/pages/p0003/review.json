@@ -1,0 +1,89 @@
+{
+  "documentId": "lecon-01-fr",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "textSha256": "baa51db9b37fa814fab296d4569c8356213a94c95c580bd73ec7c5e05ca4d864",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex — passe distincte d'auto-révision source/linguistique/questions ; aucune révision indépendante ou humaine revendiquée",
+  "checks": [
+    "Comparaison de chaque source rendue demandée avec la transcription, classification des rôles de lignes, isolation des étapes de tracé et des incertitudes OCR à faible contraste.",
+    "Révision des caractères principaux et des ancrages de forme source exacts, séparation des occurrences répétées et des graphies traditionnelles ; cadres manuels mesurés sur le rendu source.",
+    "Révision de 大夫 dàifu, des syllabes neutres 子/们/的/哥哥/妈妈/爱人/木头, du 不 bú contextuel devant 是/认识, de 种 zhòng et de 看 kàn.",
+    "Révision des noms propres, de l'ordre nom de famille en premier, de 田中书 comme nom, des traductions françaises des phrases et du proverbe.",
+    "Révision de tous les énoncés de questions, des identifiants uniques de bonne réponse, des distracteurs non équivalents, des explications et des références sources par page.",
+    "Révision de la géométrie de diagnostic à tailles réduite et agrandie ; les glyphes principaux, les segments de mots et la phrase multiligne de la page 5 utilisent une géométrie OCR authentique ou mesurée caractère par caractère.",
+    "L'écoute utilise la synthèse vocale locale du navigateur et reste conditionnée à une lecture réussie ; l'audibilité hors ligne n'est pas établie par la révision des sources.",
+    "Élargissement de la banque de questions révisées sur les entrées et annotations par page ; vérification des options distinctes, de l'identifiant unique de bonne réponse et des sourceAnnotationIds locaux à la page."
+  ],
+  "coverage": {
+    "physicalPage": 3,
+    "transcriptCodePoints": 2367,
+    "characterGeometryRecords": 2105,
+    "reviewedLearningEntries": 96,
+    "reviewedOccurrences": 247,
+    "reviewedQuestions": 34,
+    "entriesWithReviewedIPA": 66,
+    "entriesWithoutIPA": 30,
+    "entryKinds": {
+      "character": 51,
+      "word": 26,
+      "expression": 1,
+      "sentence": 18
+    },
+    "lineRoleCounts": {
+      "learning-vocabulary": 32,
+      "instructions-or-reference-ocr": 87,
+      "learning-reading": 13
+    },
+    "reviewedAnchoredCharacterIds": 186,
+    "multilineAnchors": "Non applicable : les unités sources préparées sur cette page tiennent sur une seule ligne imprimée.",
+    "scope": "L'ensemble des sept pages physiques demandées. Les totaux correspondent aux enregistrements rédigés, et non à des pourcentages de tous les glyphes visibles. La couverture source/OCR et la couverture d'annotation sont distinctes."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0003",
+      "reason": "Couverture OCR/référence partielle : les formes historiques, les schémas partiels de traits, les petits textes en français et le pinyin imprimé peuvent contenir des erreurs de reconnaissance ou des omissions. Il s'agit de matériel de référence, et non d'unités linguistiques révisées.",
+      "nextAction": "Utilisez la numérisation originale inchangée pour les schémas, les consignes et le texte transcrit à faible confiance."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0003",
+      "recordIds": [
+        "e-p0003-0004",
+        "e-p0003-0007",
+        "e-p0003-0024",
+        "e-p0003-0044",
+        "e-p0003-0049",
+        "e-p0003-0053",
+        "e-p0003-0054",
+        "e-p0003-0055",
+        "e-p0003-0056",
+        "e-p0003-0057",
+        "e-p0003-0058",
+        "e-p0003-0059",
+        "e-p0003-0060",
+        "e-p0003-0063",
+        "e-p0003-0067",
+        "e-p0003-0069",
+        "e-p0003-0074",
+        "e-p0003-0075",
+        "e-p0003-0079",
+        "e-p0003-0080",
+        "e-p0003-0081",
+        "e-p0003-0083",
+        "e-p0003-0084",
+        "e-p0003-0086",
+        "e-p0003-0087",
+        "e-p0003-0090",
+        "e-p0003-0091",
+        "e-p0003-0092",
+        "e-p0003-0094",
+        "e-p0003-0095"
+      ],
+      "reason": "30 entrées n'ont pas d'API correspondant suffisamment révisé, notamment des phrases et des noms propres. Le pinyin et le français restent disponibles.",
+      "nextAction": "Laissez l'API omis tant que la lecture exacte et le contexte ne peuvent pas être révisés ; ne remplacez jamais un champ API par du pinyin."
+    }
+  ]
+}

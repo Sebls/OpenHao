@@ -1,0 +1,1167 @@
+{
+  "documentId": "lecon-01-fr",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Dans cette leçon, que signifie 大夫 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-001-o1",
+          "text": "médecin ; docteur"
+        },
+        {
+          "id": "q-p0003-001-o2",
+          "text": "grand frère ; frère aîné"
+        },
+        {
+          "id": "q-p0003-001-o3",
+          "text": "conjoint(e)"
+        }
+      ],
+      "correctOptionId": "q-p0003-001-o1",
+      "explanation": "大夫 dàifu signifie « médecin ». 大 se prononce dài ici, et fu est au ton neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0070"
+      ],
+      "entryIds": [
+        "e-p0003-0039"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez « nous ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-002-o1",
+          "text": "我们"
+        },
+        {
+          "id": "q-p0003-002-o2",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-002-o3",
+          "text": "什么"
+        }
+      ],
+      "correctOptionId": "q-p0003-002-o1",
+      "explanation": "我们 wǒmen signifie « nous » ; 你们 signifie « vous » (pluriel).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « apprendre » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-003-o1",
+          "text": "学"
+        },
+        {
+          "id": "q-p0003-003-o2",
+          "text": "字"
+        },
+        {
+          "id": "q-p0003-003-o3",
+          "text": "子"
+        }
+      ],
+      "correctOptionId": "q-p0003-003-o1",
+      "explanation": "学 xué signifie « apprendre » ; 字 signifie « caractère écrit » et 子 signifie « enfant ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0019"
+      ],
+      "entryIds": [
+        "e-p0003-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que lit le locuteur dans 我看中文报。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-004-o1",
+          "text": "un journal en chinois"
+        },
+        {
+          "id": "q-p0003-004-o2",
+          "text": "un livre en langue chinoise"
+        },
+        {
+          "id": "q-p0003-004-o3",
+          "text": "un cahier"
+        }
+      ],
+      "correctOptionId": "q-p0003-004-o1",
+      "explanation": "看 signifie « lire » avec 报, et 中文报 est un journal en langue chinoise.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0148"
+      ],
+      "entryIds": [
+        "e-p0003-0060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qui est Tian Zhongshu dans cet exercice ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-005-o1",
+          "text": "la mère du locuteur"
+        },
+        {
+          "id": "q-p0003-005-o2",
+          "text": "le frère aîné du locuteur"
+        },
+        {
+          "id": "q-p0003-005-o3",
+          "text": "le médecin du locuteur"
+        }
+      ],
+      "correctOptionId": "q-p0003-005-o1",
+      "explanation": "田中书 est un nom de personne. 我妈妈 signifie « ma mère ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0175"
+      ],
+      "entryIds": [
+        "e-p0003-0075"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase source : 我种 __ 。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-006-o1",
+          "text": "茶"
+        },
+        {
+          "id": "q-p0003-006-o2",
+          "text": "鱼"
+        },
+        {
+          "id": "q-p0003-006-o3",
+          "text": "车"
+        }
+      ],
+      "correctOptionId": "q-p0003-006-o1",
+      "explanation": "La source dit 我种茶 : « Je cultive du thé ». 种 se prononce zhòng lorsqu'il signifie « cultiver ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0216"
+      ],
+      "entryIds": [
+        "e-p0003-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans 你们学什么？, sur quoi porte 什么 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-007-o1",
+          "text": "la matière étudiée"
+        },
+        {
+          "id": "q-p0003-007-o2",
+          "text": "le nombre d'étudiants"
+        },
+        {
+          "id": "q-p0003-007-o3",
+          "text": "le lieu d'étude"
+        }
+      ],
+      "correctOptionId": "q-p0003-007-o1",
+      "explanation": "什么 occupe la position de complément d'objet après 学 : qu'est-ce que vous étudiez ?",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0135"
+      ],
+      "entryIds": [
+        "e-p0003-0058"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 爱人 dans cette leçon ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-008-o1",
+          "text": "conjoint(e)"
+        },
+        {
+          "id": "q-p0003-008-o2",
+          "text": "amant dans une liaison secrète"
+        },
+        {
+          "id": "q-p0003-008-o3",
+          "text": "grand frère ; frère aîné"
+        }
+      ],
+      "correctOptionId": "q-p0003-008-o1",
+      "explanation": "Dans ce contexte de Chine continentale, 爱人 signifie « mari » ou « femme » (conjoint).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0080"
+      ],
+      "entryIds": [
+        "e-p0003-0047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-009",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Choisissez l'expression que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-009-o1",
+          "text": "小心"
+        },
+        {
+          "id": "q-p0003-009-o2",
+          "text": "中文"
+        },
+        {
+          "id": "q-p0003-009-o3",
+          "text": "工人"
+        }
+      ],
+      "correctOptionId": "q-p0003-009-o1",
+      "explanation": "小心 xiǎoxīn signifie « faire attention ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0030"
+      ],
+      "entryIds": [
+        "e-p0003-0021"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "小心"
+    },
+    {
+      "id": "q-p0003-010",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我学中文。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-010-o1",
+          "text": "J'étudie le chinois."
+        },
+        {
+          "id": "q-p0003-010-o2",
+          "text": "Nous sommes ouvriers."
+        },
+        {
+          "id": "q-p0003-010-o3",
+          "text": "Nous sommes des ouvriers chinois."
+        }
+      ],
+      "correctOptionId": "q-p0003-010-o1",
+      "explanation": "« 我学中文。 » (Wǒ xué Zhōngwén.) signifie « J'étudie le chinois. ». Une phrase ou réplique de dialogue tirée de cette page. L'ordre des mots et le sens sont étudiés dans le contexte d'origine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0105"
+      ],
+      "entryIds": [
+        "e-p0003-0053"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-011",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 你们 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-011-o1",
+          "text": "nous"
+        },
+        {
+          "id": "q-p0003-011-o2",
+          "text": "cahier"
+        },
+        {
+          "id": "q-p0003-011-o3",
+          "text": "vous (pluriel)"
+        }
+      ],
+      "correctOptionId": "q-p0003-011-o3",
+      "explanation": "你们 (nǐmen) signifie « vous (pluriel) ». S'adresse à plus d'une personne ; men est au ton neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-012",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « vous (pluriel) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-012-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0003-012-o2",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-012-o3",
+          "text": "我们"
+        }
+      ],
+      "correctOptionId": "q-p0003-012-o2",
+      "explanation": "« vous (pluriel) » se dit 你们 (nǐmen).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-013",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « nǐ » qui signifie « tu ; toi ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-013-o1",
+          "text": "你"
+        },
+        {
+          "id": "q-p0003-013-o2",
+          "text": "们"
+        },
+        {
+          "id": "q-p0003-013-o3",
+          "text": "我"
+        }
+      ],
+      "correctOptionId": "q-p0003-013-o1",
+      "explanation": "你 se prononce nǐ et signifie « tu ; toi ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-014",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我学____。 » (J'étudie le chinois.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-014-o1",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-014-o2",
+          "text": "我们"
+        },
+        {
+          "id": "q-p0003-014-o3",
+          "text": "中文"
+        }
+      ],
+      "correctOptionId": "q-p0003-014-o3",
+      "explanation": "Le mot manquant est 中文 (Zhōngwén, « chinois (langue) »), ce qui complète « 我学中文。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0105"
+      ],
+      "entryIds": [
+        "e-p0003-0053"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-015",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-015-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0003-015-o2",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-015-o3",
+          "text": "我们"
+        }
+      ],
+      "correctOptionId": "q-p0003-015-o2",
+      "explanation": "L'audio prononce 你们 (nǐmen), ce qui signifie « vous (pluriel) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你们",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-016",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 你们 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-016-o1",
+          "text": "vous (pluriel)"
+        },
+        {
+          "id": "q-p0003-016-o2",
+          "text": "nous"
+        },
+        {
+          "id": "q-p0003-016-o3",
+          "text": "cahier"
+        }
+      ],
+      "correctOptionId": "q-p0003-016-o1",
+      "explanation": "你们 (nǐmen) signifie « vous (pluriel) ». S'adresse à plus d'une personne ; men est au ton neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0002"
+      ],
+      "entryIds": [
+        "e-p0003-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-017",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我们是工人。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-017-o1",
+          "text": "J'étudie le chinois."
+        },
+        {
+          "id": "q-p0003-017-o2",
+          "text": "Nous sommes des ouvriers chinois."
+        },
+        {
+          "id": "q-p0003-017-o3",
+          "text": "Nous sommes ouvriers."
+        }
+      ],
+      "correctOptionId": "q-p0003-017-o3",
+      "explanation": "« 我们是工人。 » (Wǒmen shì gōngrén.) signifie « Nous sommes ouvriers. ». Une phrase ou réplique de dialogue tirée de cette page. L'ordre des mots et le sens sont étudiés dans le contexte d'origine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0116"
+      ],
+      "entryIds": [
+        "e-p0003-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-018",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 我们 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-018-o1",
+          "text": "cahier"
+        },
+        {
+          "id": "q-p0003-018-o2",
+          "text": "nous"
+        },
+        {
+          "id": "q-p0003-018-o3",
+          "text": "vous (pluriel)"
+        }
+      ],
+      "correctOptionId": "q-p0003-018-o2",
+      "explanation": "我们 (wǒmen) signifie « nous ». Le men est au ton neutre. Le chinois utilise la même forme en position de sujet ou de complément.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-019",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « cahier » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-019-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0003-019-o2",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-019-o3",
+          "text": "我们"
+        }
+      ],
+      "correctOptionId": "q-p0003-019-o1",
+      "explanation": "« cahier » se dit 本子 (běnzi).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-020",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « men » qui signifie « suffixe du pluriel pour les personnes ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-020-o1",
+          "text": "你"
+        },
+        {
+          "id": "q-p0003-020-o2",
+          "text": "我"
+        },
+        {
+          "id": "q-p0003-020-o3",
+          "text": "们"
+        }
+      ],
+      "correctOptionId": "q-p0003-020-o3",
+      "explanation": "们 se prononce men et signifie « suffixe du pluriel pour les personnes ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0004"
+      ],
+      "entryIds": [
+        "e-p0003-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-021",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « ____是工人。 » (Nous sommes ouvriers.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-021-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0003-021-o2",
+          "text": "我们"
+        },
+        {
+          "id": "q-p0003-021-o3",
+          "text": "你们"
+        }
+      ],
+      "correctOptionId": "q-p0003-021-o2",
+      "explanation": "Le mot manquant est 我们 (wǒmen, « nous »), ce qui complète « 我们是工人。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0116"
+      ],
+      "entryIds": [
+        "e-p0003-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-022",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-022-o1",
+          "text": "我学中文。"
+        },
+        {
+          "id": "q-p0003-022-o2",
+          "text": "我们是工人。"
+        },
+        {
+          "id": "q-p0003-022-o3",
+          "text": "我们是中国工人。"
+        }
+      ],
+      "correctOptionId": "q-p0003-022-o1",
+      "explanation": "L'audio prononce 我学中文。 (Wǒ xué Zhōngwén.), ce qui signifie « J'étudie le chinois. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0105"
+      ],
+      "entryIds": [
+        "e-p0003-0053"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我学中文。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-023",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 我们 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-023-o1",
+          "text": "vous (pluriel)"
+        },
+        {
+          "id": "q-p0003-023-o2",
+          "text": "cahier"
+        },
+        {
+          "id": "q-p0003-023-o3",
+          "text": "nous"
+        }
+      ],
+      "correctOptionId": "q-p0003-023-o3",
+      "explanation": "我们 (wǒmen) signifie « nous ». Le men est au ton neutre. Le chinois utilise la même forme en position de sujet ou de complément.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0006"
+      ],
+      "entryIds": [
+        "e-p0003-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-024",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我们是中国工人。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-024-o1",
+          "text": "Nous sommes ouvriers."
+        },
+        {
+          "id": "q-p0003-024-o2",
+          "text": "Nous sommes des ouvriers chinois."
+        },
+        {
+          "id": "q-p0003-024-o3",
+          "text": "J'étudie le chinois."
+        }
+      ],
+      "correctOptionId": "q-p0003-024-o2",
+      "explanation": "« 我们是中国工人。 » (Wǒmen shì Zhōngguó gōngrén.) signifie « Nous sommes des ouvriers chinois. ». Une phrase ou réplique de dialogue tirée de cette page. L'ordre des mots et le sens sont étudiés dans le contexte d'origine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0117"
+      ],
+      "entryIds": [
+        "e-p0003-0056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-025",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 本子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-025-o1",
+          "text": "cahier"
+        },
+        {
+          "id": "q-p0003-025-o2",
+          "text": "vous (pluriel)"
+        },
+        {
+          "id": "q-p0003-025-o3",
+          "text": "nous"
+        }
+      ],
+      "correctOptionId": "q-p0003-025-o1",
+      "explanation": "本子 (běnzi) signifie « cahier ». Syllabe neutre zi. Ne traduisez pas chaque caractère séparément pour deviner le sens du mot entier.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-026",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « cuillère » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-026-o1",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-026-o2",
+          "text": "我们"
+        },
+        {
+          "id": "q-p0003-026-o3",
+          "text": "勺子"
+        }
+      ],
+      "correctOptionId": "q-p0003-026-o3",
+      "explanation": "« cuillère » se dit 勺子 (sháozi).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0013"
+      ],
+      "entryIds": [
+        "e-p0003-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-027",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « wǒ » qui signifie « je ; moi ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-027-o1",
+          "text": "们"
+        },
+        {
+          "id": "q-p0003-027-o2",
+          "text": "我"
+        },
+        {
+          "id": "q-p0003-027-o3",
+          "text": "你"
+        }
+      ],
+      "correctOptionId": "q-p0003-027-o2",
+      "explanation": "我 se prononce wǒ et signifie « je ; moi ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0008"
+      ],
+      "entryIds": [
+        "e-p0003-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-028",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : « 我们是____。 » (Nous sommes des ouvriers chinois.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-028-o1",
+          "text": "中国工人"
+        },
+        {
+          "id": "q-p0003-028-o2",
+          "text": "你们"
+        },
+        {
+          "id": "q-p0003-028-o3",
+          "text": "我们"
+        }
+      ],
+      "correctOptionId": "q-p0003-028-o1",
+      "explanation": "Le groupe de mots manquant est 中国工人 (Zhōngguó gōngrén, « ouvrier chinois ; ouvriers chinois »), ce qui complète « 我们是中国工人。 ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0117"
+      ],
+      "entryIds": [
+        "e-p0003-0056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-029",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-029-o1",
+          "text": "们"
+        },
+        {
+          "id": "q-p0003-029-o2",
+          "text": "我"
+        },
+        {
+          "id": "q-p0003-029-o3",
+          "text": "你"
+        }
+      ],
+      "correctOptionId": "q-p0003-029-o3",
+      "explanation": "L'audio prononce 你 (nǐ), ce qui signifie « tu ; toi ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "entryIds": [
+        "e-p0003-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-030",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 本子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-030-o1",
+          "text": "nous"
+        },
+        {
+          "id": "q-p0003-030-o2",
+          "text": "cahier"
+        },
+        {
+          "id": "q-p0003-030-o3",
+          "text": "vous (pluriel)"
+        }
+      ],
+      "correctOptionId": "q-p0003-030-o2",
+      "explanation": "本子 (běnzi) signifie « cahier ». Syllabe neutre zi. Ne traduisez pas chaque caractère séparément pour deviner le sens du mot entier.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0012"
+      ],
+      "entryIds": [
+        "e-p0003-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-031",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我们学文学，你们学什么？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-031-o1",
+          "text": "Nous étudions la littérature. Qu'étudiez-vous ?"
+        },
+        {
+          "id": "q-p0003-031-o2",
+          "text": "J'étudie le chinois."
+        },
+        {
+          "id": "q-p0003-031-o3",
+          "text": "Nous sommes ouvriers."
+        }
+      ],
+      "correctOptionId": "q-p0003-031-o1",
+      "explanation": "« 我们学文学，你们学什么？ » (Wǒmen xué wénxué, nǐmen xué shénme?) signifie « Nous étudions la littérature. Qu'étudiez-vous ? ». Une phrase ou réplique de dialogue tirée de cette page. L'ordre des mots et le sens sont étudiés dans le contexte d'origine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0134"
+      ],
+      "entryIds": [
+        "e-p0003-0057"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-032",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 勺子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-032-o1",
+          "text": "vous (pluriel)"
+        },
+        {
+          "id": "q-p0003-032-o2",
+          "text": "nous"
+        },
+        {
+          "id": "q-p0003-032-o3",
+          "text": "cuillère"
+        }
+      ],
+      "correctOptionId": "q-p0003-032-o3",
+      "explanation": "勺子 (sháozi) signifie « cuillère ». Le zi au ton neutre est ici un suffixe nominal.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0013"
+      ],
+      "entryIds": [
+        "e-p0003-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-033",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « littérature » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-033-o1",
+          "text": "我们"
+        },
+        {
+          "id": "q-p0003-033-o2",
+          "text": "文学"
+        },
+        {
+          "id": "q-p0003-033-o3",
+          "text": "你们"
+        }
+      ],
+      "correctOptionId": "q-p0003-033-o2",
+      "explanation": "« littérature » se dit 文学 (wénxué).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0014"
+      ],
+      "entryIds": [
+        "e-p0003-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0003-034",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « běn » qui signifie « racine ; livre ou cahier ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0003-034-o1",
+          "text": "本"
+        },
+        {
+          "id": "q-p0003-034-o2",
+          "text": "你"
+        },
+        {
+          "id": "q-p0003-034-o3",
+          "text": "们"
+        }
+      ],
+      "correctOptionId": "q-p0003-034-o1",
+      "explanation": "本 se prononce běn et signifie « racine ; livre ou cahier ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0015"
+      ],
+      "entryIds": [
+        "e-p0003-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

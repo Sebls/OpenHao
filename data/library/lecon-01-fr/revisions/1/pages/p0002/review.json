@@ -1,0 +1,65 @@
+{
+  "documentId": "lecon-01-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "2396e8ed0e45da18e3921721e34933a555a0932d9521239178e7c02dba2cb2d1",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex — passe distincte d'auto-révision source/linguistique/questions ; aucune révision indépendante ou humaine revendiquée",
+  "checks": [
+    "Comparaison de chaque source rendue demandée avec la transcription, classification des rôles de lignes, isolation des étapes de tracé et des incertitudes OCR à faible contraste.",
+    "Révision des caractères principaux et des ancrages de forme source exacts, séparation des occurrences répétées et des graphies traditionnelles ; cadres manuels mesurés sur le rendu source.",
+    "Révision de 大夫 dàifu, des syllabes neutres 子/们/的/哥哥/妈妈/爱人/木头, du 不 bú contextuel devant 是/认识, de 种 zhòng et de 看 kàn.",
+    "Révision des noms propres, de l'ordre nom de famille en premier, de 田中书 comme nom, des traductions françaises des phrases et du proverbe.",
+    "Révision de tous les énoncés de questions, des identifiants uniques de bonne réponse, des distracteurs non équivalents, des explications et des références sources par page.",
+    "Révision de la géométrie de diagnostic à tailles réduite et agrandie ; les glyphes principaux, les segments de mots et la phrase multiligne de la page 5 utilisent une géométrie OCR authentique ou mesurée caractère par caractère.",
+    "L'écoute utilise la synthèse vocale locale du navigateur et reste conditionnée à une lecture réussie ; l'audibilité hors ligne n'est pas établie par la révision des sources.",
+    "Élargissement de la banque de questions révisées sur les entrées et annotations par page ; vérification des options distinctes, de l'identifiant unique de bonne réponse et des sourceAnnotationIds locaux à la page."
+  ],
+  "coverage": {
+    "physicalPage": 2,
+    "transcriptCodePoints": 2451,
+    "characterGeometryRecords": 2125,
+    "reviewedLearningEntries": 24,
+    "reviewedOccurrences": 46,
+    "reviewedQuestions": 20,
+    "entriesWithReviewedIPA": 22,
+    "entriesWithoutIPA": 2,
+    "entryKinds": {
+      "character": 16,
+      "word": 7,
+      "expression": 1
+    },
+    "lineRoleCounts": {
+      "learning-character-or-word": 21,
+      "instructions-or-reference-ocr": 103,
+      "diagram-or-reference-ocr": 40
+    },
+    "reviewedAnchoredCharacterIds": 34,
+    "multilineAnchors": "Non applicable : les unités sources préparées sur cette page tiennent sur une seule ligne imprimée.",
+    "scope": "L'ensemble des sept pages physiques demandées. Les totaux correspondent aux enregistrements rédigés, et non à des pourcentages de tous les glyphes visibles. La couverture source/OCR et la couverture d'annotation sont distinctes."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0002",
+      "reason": "Couverture OCR/référence partielle : les formes historiques, les schémas partiels de traits, les petits textes en français et le pinyin imprimé peuvent contenir des erreurs de reconnaissance ou des omissions. Il s'agit de matériel de référence, et non d'unités linguistiques révisées.",
+      "nextAction": "Utilisez la numérisation originale inchangée pour les schémas, les consignes et le texte transcrit à faible confiance."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0002",
+      "recordIds": [
+        "e-p0002-0006",
+        "e-p0002-0012"
+      ],
+      "reason": "2 entrées n'ont pas d'API correspondant suffisamment révisé, notamment des phrases et des noms propres. Le pinyin et le français restent disponibles.",
+      "nextAction": "Laissez l'API omis tant que la lecture exacte et le contexte ne peuvent pas être révisés ; ne remplacez jamais un champ API par du pinyin."
+    },
+    {
+      "severity": "info",
+      "reason": "Les tableaux de caractères couvrent l'ensemble des caractères principaux de la leçon et les exemples de mots vérifiés visuellement. Les formes anciennes, les composants et les étapes intermédiaires répétées du tracé sont exclus en tant que vocabulaire autonome.",
+      "nextAction": "Consultez les schémas originaux pour l'explication historique de la source ; aucune nouvelle affirmation étymologique n'est avancée."
+    }
+  ]
+}

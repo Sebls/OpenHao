@@ -1,0 +1,1099 @@
+{
+  "documentId": "lecon-01-fr",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0007-001",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 国王 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-001-o1",
+          "text": "roi"
+        },
+        {
+          "id": "q-p0007-001-o2",
+          "text": "royaume"
+        },
+        {
+          "id": "q-p0007-001-o3",
+          "text": "pays"
+        }
+      ],
+      "correctOptionId": "q-p0007-001-o1",
+      "explanation": "国王 signifie roi ; inverser les caractères donne 王国, royaume.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0104"
+      ],
+      "entryIds": [
+        "e-p0007-0065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-002",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez royaume.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-002-o1",
+          "text": "王国"
+        },
+        {
+          "id": "q-p0007-002-o2",
+          "text": "国王"
+        },
+        {
+          "id": "q-p0007-002-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0007-002-o1",
+      "explanation": "王国 wángguó signifie royaume. L’ordre des caractères change le mot.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0107"
+      ],
+      "entryIds": [
+        "e-p0007-0066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-003",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie eau ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-003-o1",
+          "text": "水"
+        },
+        {
+          "id": "q-p0007-003-o2",
+          "text": "手"
+        },
+        {
+          "id": "q-p0007-003-o3",
+          "text": "木"
+        }
+      ],
+      "correctOptionId": "q-p0007-003-o1",
+      "explanation": "水 shuǐ signifie eau ; 手 shǒu signifie main. Le dialogue les oppose.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0059"
+      ],
+      "entryIds": [
+        "e-p0007-0043"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-004",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quel est son métier dans 他是农民。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-004-o1",
+          "text": "agriculteur ; paysan"
+        },
+        {
+          "id": "q-p0007-004-o2",
+          "text": "médecin ; docteur"
+        },
+        {
+          "id": "q-p0007-004-o3",
+          "text": "charpentier ; menuisier"
+        }
+      ],
+      "correctOptionId": "q-p0007-004-o1",
+      "explanation": "农民 nóngmín signifie agriculteur.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0090"
+      ],
+      "entryIds": [
+        "e-p0007-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-005",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qui ne connaît pas le locuteur ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-005-o1",
+          "text": "un groupe de femmes ou de filles"
+        },
+        {
+          "id": "q-p0007-005-o2",
+          "text": "un homme"
+        },
+        {
+          "id": "q-p0007-005-o3",
+          "text": "la mère du locuteur uniquement"
+        }
+      ],
+      "correctOptionId": "q-p0007-005-o1",
+      "explanation": "她们 désigne un groupe féminin ; 不认识我 signifie ne me connaissent pas.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0097"
+      ],
+      "entryIds": [
+        "e-p0007-0061"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-006",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quelle interprétation correspond au proverbe ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-006-o1",
+          "text": "Les puissants s’en prennent à ceux qui sont plus faibles qu’eux."
+        },
+        {
+          "id": "q-p0007-006-o2",
+          "text": "Tout le monde mange la même nourriture."
+        },
+        {
+          "id": "q-p0007-006-o3",
+          "text": "Les petits poissons sont toujours à l’abri des plus gros."
+        }
+      ],
+      "correctOptionId": "q-p0007-006-o1",
+      "explanation": "L’image de la chaîne alimentaire compare des rapports de force inégaux : les gros poissons mangent les petits, qui mangent les minuscules crevettes.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0144"
+      ],
+      "entryIds": [
+        "e-p0007-0083"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-007",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Pourquoi 国王 et 王国 ont-ils des sens différents ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-007-o1",
+          "text": "l’ordre de leurs caractères est différent"
+        },
+        {
+          "id": "q-p0007-007-o2",
+          "text": "l’un est au pluriel"
+        },
+        {
+          "id": "q-p0007-007-o3",
+          "text": "l’un est au passé"
+        }
+      ],
+      "correctOptionId": "q-p0007-007-o1",
+      "explanation": "国王 signifie roi ; 王国 signifie royaume. L’ordre des composants est déterminant.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0104"
+      ],
+      "entryIds": [
+        "e-p0007-0065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-008",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Comment 王小青 doit-il être traité en traduction ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-008-o1",
+          "text": "un nom de personne : Wang Xiaoqing"
+        },
+        {
+          "id": "q-p0007-008-o2",
+          "text": "une expression signifiant « roi petit vert »"
+        },
+        {
+          "id": "q-p0007-008-o3",
+          "text": "un nom de pays"
+        }
+      ],
+      "correctOptionId": "q-p0007-008-o1",
+      "explanation": "王 est le nom de famille ; 小青 est le prénom. Conservez le nom plutôt que de traduire chaque caractère.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0128"
+      ],
+      "entryIds": [
+        "e-p0007-0069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-009",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Choisissez le mot que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-009-o1",
+          "text": "王国"
+        },
+        {
+          "id": "q-p0007-009-o2",
+          "text": "国王"
+        },
+        {
+          "id": "q-p0007-009-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0007-009-o1",
+      "explanation": "La cible est 王国 wángguó, royaume.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0107"
+      ],
+      "entryIds": [
+        "e-p0007-0066"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "王国"
+    },
+    {
+      "id": "q-p0007-010",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我是王小玉， » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-010-o1",
+          "text": "Je suis Wang Xiaoyu,"
+        },
+        {
+          "id": "q-p0007-010-o2",
+          "text": "j’étudie la littérature,"
+        },
+        {
+          "id": "q-p0007-010-o3",
+          "text": "je suis chinois(e)."
+        }
+      ],
+      "correctOptionId": "q-p0007-010-o1",
+      "explanation": "「我是王小玉，」 (Wǒ shì Wáng Xiǎoyù,) signifie « Je suis Wang Xiaoyu, ». Une phrase ou unité de dialogue de cette page. L’ordre des mots et le sens sont revus dans le contexte source.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0018"
+      ],
+      "entryIds": [
+        "e-p0007-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-011",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 文学 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-011-o1",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0007-011-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0007-011-o3",
+          "text": "littérature"
+        }
+      ],
+      "correctOptionId": "q-p0007-011-o3",
+      "explanation": "文学 (wénxué) signifie « littérature ». Un domaine d’étude ; pas le verbe étudier une langue.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0010"
+      ],
+      "entryIds": [
+        "e-p0007-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-012",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « littérature » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-012-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0007-012-o2",
+          "text": "文学"
+        },
+        {
+          "id": "q-p0007-012-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0007-012-o2",
+      "explanation": "« littérature » se dit 文学 (wénxué).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0010"
+      ],
+      "entryIds": [
+        "e-p0007-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-013",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « dāo » qui signifie « couteau ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-013-o1",
+          "text": "刀"
+        },
+        {
+          "id": "q-p0007-013-o2",
+          "text": "客"
+        },
+        {
+          "id": "q-p0007-013-o3",
+          "text": "牙"
+        }
+      ],
+      "correctOptionId": "q-p0007-013-o1",
+      "explanation": "刀 se prononce dāo et signifie « couteau ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-014",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 「我是____，」 (Je suis Wang Xiaoyu,)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-014-o1",
+          "text": "文学"
+        },
+        {
+          "id": "q-p0007-014-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0007-014-o3",
+          "text": "王小玉"
+        }
+      ],
+      "correctOptionId": "q-p0007-014-o3",
+      "explanation": "Le mot manquant est 王小玉 (Wáng Xiǎoyù, « Wang Xiaoyu (nom de personne) »), qui complète 「我是王小玉，」.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0018"
+      ],
+      "entryIds": [
+        "e-p0007-0016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-015",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-015-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0007-015-o2",
+          "text": "文学"
+        },
+        {
+          "id": "q-p0007-015-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0007-015-o2",
+      "explanation": "L’audio prononce 文学 (wénxué), qui signifie « littérature ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0010"
+      ],
+      "entryIds": [
+        "e-p0007-0010"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "文学",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-016",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 文学 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-016-o1",
+          "text": "littérature"
+        },
+        {
+          "id": "q-p0007-016-o2",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0007-016-o3",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        }
+      ],
+      "correctOptionId": "q-p0007-016-o1",
+      "explanation": "文学 (wénxué) signifie « littérature ». Un domaine d’étude ; pas le verbe étudier une langue.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0010"
+      ],
+      "entryIds": [
+        "e-p0007-0010"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-017",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我学文学， » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-017-o1",
+          "text": "Je suis Wang Xiaoyu,"
+        },
+        {
+          "id": "q-p0007-017-o2",
+          "text": "je suis chinois(e)."
+        },
+        {
+          "id": "q-p0007-017-o3",
+          "text": "j’étudie la littérature,"
+        }
+      ],
+      "correctOptionId": "q-p0007-017-o3",
+      "explanation": "「我学文学，」 (Wǒ xué wénxué,) signifie « j’étudie la littérature, ». Une phrase ou unité de dialogue de cette page. L’ordre des mots et le sens sont revus dans le contexte source.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0019"
+      ],
+      "entryIds": [
+        "e-p0007-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-018",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 中国 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-018-o1",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0007-018-o2",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0007-018-o3",
+          "text": "littérature"
+        }
+      ],
+      "correctOptionId": "q-p0007-018-o2",
+      "explanation": "中国 (Zhōngguó) signifie « Chine ». Le nom du pays.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0011"
+      ],
+      "entryIds": [
+        "e-p0007-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-019",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Chine » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-019-o1",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0007-019-o2",
+          "text": "文学"
+        },
+        {
+          "id": "q-p0007-019-o3",
+          "text": "中国人"
+        }
+      ],
+      "correctOptionId": "q-p0007-019-o1",
+      "explanation": "« Chine » se dit 中国 (Zhōngguó).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0011"
+      ],
+      "entryIds": [
+        "e-p0007-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-020",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « kè » qui signifie « invité ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-020-o1",
+          "text": "刀"
+        },
+        {
+          "id": "q-p0007-020-o2",
+          "text": "牙"
+        },
+        {
+          "id": "q-p0007-020-o3",
+          "text": "客"
+        }
+      ],
+      "correctOptionId": "q-p0007-020-o3",
+      "explanation": "客 se prononce kè et signifie « invité ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0002"
+      ],
+      "entryIds": [
+        "e-p0007-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-021",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 「我学____，」 (j’étudie la littérature,)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-021-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0007-021-o2",
+          "text": "文学"
+        },
+        {
+          "id": "q-p0007-021-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0007-021-o2",
+      "explanation": "Le mot manquant est 文学 (wénxué, « littérature »), qui complète 「我学文学，」.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0019"
+      ],
+      "entryIds": [
+        "e-p0007-0017"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-022",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez la phrase chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-022-o1",
+          "text": "我是王小玉，"
+        },
+        {
+          "id": "q-p0007-022-o2",
+          "text": "我学文学，"
+        },
+        {
+          "id": "q-p0007-022-o3",
+          "text": "我是中国人。"
+        }
+      ],
+      "correctOptionId": "q-p0007-022-o1",
+      "explanation": "L’audio prononce 我是王小玉， (Wǒ shì Wáng Xiǎoyù,), qui signifie « Je suis Wang Xiaoyu, ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0018"
+      ],
+      "entryIds": [
+        "e-p0007-0016"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我是王小玉，",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-023",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 中国 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-023-o1",
+          "text": "littérature"
+        },
+        {
+          "id": "q-p0007-023-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0007-023-o3",
+          "text": "Chine"
+        }
+      ],
+      "correctOptionId": "q-p0007-023-o3",
+      "explanation": "中国 (Zhōngguó) signifie « Chine ». Le nom du pays.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0011"
+      ],
+      "entryIds": [
+        "e-p0007-0011"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-024",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我是中国人。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-024-o1",
+          "text": "j’étudie la littérature,"
+        },
+        {
+          "id": "q-p0007-024-o2",
+          "text": "je suis chinois(e)."
+        },
+        {
+          "id": "q-p0007-024-o3",
+          "text": "Je suis Wang Xiaoyu,"
+        }
+      ],
+      "correctOptionId": "q-p0007-024-o2",
+      "explanation": "「我是中国人。」 (Wǒ shì Zhōngguó rén.) signifie « Je suis chinois(e). ». Une phrase ou unité de dialogue de cette page. L’ordre des mots et le sens sont revus dans le contexte source.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0020"
+      ],
+      "entryIds": [
+        "e-p0007-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-025",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 中国人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-025-o1",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0007-025-o2",
+          "text": "littérature"
+        },
+        {
+          "id": "q-p0007-025-o3",
+          "text": "Chine"
+        }
+      ],
+      "correctOptionId": "q-p0007-025-o1",
+      "explanation": "中国人 (Zhōngguó rén) signifie « Chinois, Chinoise ; peuple chinois ». 中国 suivi de 人 désigne une personne originaire de Chine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0013"
+      ],
+      "entryIds": [
+        "e-p0007-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-026",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Chinois, Chinoise ; peuple chinois » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-026-o1",
+          "text": "文学"
+        },
+        {
+          "id": "q-p0007-026-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0007-026-o3",
+          "text": "中国人"
+        }
+      ],
+      "correctOptionId": "q-p0007-026-o3",
+      "explanation": "« Chinois, Chinoise ; peuple chinois » se dit 中国人 (Zhōngguó rén).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0013"
+      ],
+      "entryIds": [
+        "e-p0007-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-027",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « yá » qui signifie « dent ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-027-o1",
+          "text": "客"
+        },
+        {
+          "id": "q-p0007-027-o2",
+          "text": "牙"
+        },
+        {
+          "id": "q-p0007-027-o3",
+          "text": "刀"
+        }
+      ],
+      "correctOptionId": "q-p0007-027-o2",
+      "explanation": "牙 se prononce yá et signifie « dent ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0003"
+      ],
+      "entryIds": [
+        "e-p0007-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-028",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 「我是____。」 (Je suis chinois(e).)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-028-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0007-028-o2",
+          "text": "文学"
+        },
+        {
+          "id": "q-p0007-028-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0007-028-o1",
+      "explanation": "Le mot manquant est 中国人 (Zhōngguó rén, « personne chinoise ; peuple chinois »), qui complète 「我是中国人。」.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0020"
+      ],
+      "entryIds": [
+        "e-p0007-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-029",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-029-o1",
+          "text": "客"
+        },
+        {
+          "id": "q-p0007-029-o2",
+          "text": "牙"
+        },
+        {
+          "id": "q-p0007-029-o3",
+          "text": "刀"
+        }
+      ],
+      "correctOptionId": "q-p0007-029-o3",
+      "explanation": "L’audio prononce 刀 (dāo), qui signifie « couteau ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0001"
+      ],
+      "entryIds": [
+        "e-p0007-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "刀",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-030",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 中国人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-030-o1",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0007-030-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0007-030-o3",
+          "text": "littérature"
+        }
+      ],
+      "correctOptionId": "q-p0007-030-o2",
+      "explanation": "中国人 (Zhōngguó rén) signifie « Chinois, Chinoise ; peuple chinois ». 中国 suivi de 人 désigne une personne originaire de Chine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0013"
+      ],
+      "entryIds": [
+        "e-p0007-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-031",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie la phrase « 我妈妈不是中国人。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-031-o1",
+          "text": "Ma mère n’est pas chinoise."
+        },
+        {
+          "id": "q-p0007-031-o2",
+          "text": "Je suis Wang Xiaoyu,"
+        },
+        {
+          "id": "q-p0007-031-o3",
+          "text": "j’étudie la littérature,"
+        }
+      ],
+      "correctOptionId": "q-p0007-031-o1",
+      "explanation": "「我妈妈不是中国人。」 (Wǒ māma bú shì Zhōngguó rén.) signifie « Ma mère n’est pas chinoise. ». Une phrase ou unité de dialogue de cette page. L’ordre des mots et le sens sont revus dans le contexte source.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0021"
+      ],
+      "entryIds": [
+        "e-p0007-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0007-032",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 妈妈 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0007-032-o1",
+          "text": "littérature"
+        },
+        {
+          "id": "q-p0007-032-o2",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0007-032-o3",
+          "text": "maman ; mère"
+        }
+      ],
+      "correctOptionId": "q-p0007-032-o3",
+      "explanation": "妈妈 (māma) signifie « maman ; mère ». Le deuxième ma est au ton neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0015"
+      ],
+      "entryIds": [
+        "e-p0007-0013"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

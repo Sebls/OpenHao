@@ -1,0 +1,1099 @@
+{
+  "documentId": "lecon-01",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 工廠 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-001-o1",
+          "text": "factory"
+        },
+        {
+          "id": "q-p0004-001-o2",
+          "text": "worker"
+        },
+        {
+          "id": "q-p0004-001-o3",
+          "text": "jade"
+        }
+      ],
+      "correctOptionId": "q-p0004-001-o1",
+      "explanation": "工廠 is the traditional spelling of 工厂, factory.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0019"
+      ],
+      "entryIds": [
+        "e-p0004-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choose school in traditional characters.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-002-o1",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-002-o2",
+          "text": "文學"
+        },
+        {
+          "id": "q-p0004-002-o3",
+          "text": "工廠"
+        }
+      ],
+      "correctOptionId": "q-p0004-002-o1",
+      "explanation": "學校 xuéxiào means school; 文學 means literature.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which is the traditional character for country?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-003-o1",
+          "text": "國"
+        },
+        {
+          "id": "q-p0004-003-o2",
+          "text": "園"
+        },
+        {
+          "id": "q-p0004-003-o3",
+          "text": "回"
+        }
+      ],
+      "correctOptionId": "q-p0004-003-o1",
+      "explanation": "國 is country; its simplified form is 国.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0056"
+      ],
+      "entryIds": [
+        "e-p0004-0039"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我們不吃魚。 say?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-004-o1",
+          "text": "We do not eat fish."
+        },
+        {
+          "id": "q-p0004-004-o2",
+          "text": "We do not grow tea."
+        },
+        {
+          "id": "q-p0004-004-o3",
+          "text": "We are not from Beijing."
+        }
+      ],
+      "correctOptionId": "q-p0004-004-o1",
+      "explanation": "我們 is we, 不 negates 吃 (eat), and 魚 is fish.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0084"
+      ],
+      "entryIds": [
+        "e-p0004-0051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does 們 add in 我們?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-005-o1",
+          "text": "plural meaning for the pronoun"
+        },
+        {
+          "id": "q-p0004-005-o2",
+          "text": "past tense"
+        },
+        {
+          "id": "q-p0004-005-o3",
+          "text": "a question"
+        }
+      ],
+      "correctOptionId": "q-p0004-005-o1",
+      "explanation": "們 is the traditional form of 们. 我們 means we/us.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0043"
+      ],
+      "entryIds": [
+        "e-p0004-0034"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which traditional word matches?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-006-o1",
+          "text": "文學"
+        },
+        {
+          "id": "q-p0004-006-o2",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-006-o3",
+          "text": "工廠"
+        }
+      ],
+      "correctOptionId": "q-p0004-006-o1",
+      "explanation": "The target is 文學 wénxué, literature.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "文學"
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我學中文。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-007-o1",
+          "text": "I study Chinese."
+        },
+        {
+          "id": "q-p0004-007-o2",
+          "text": "We are workers."
+        },
+        {
+          "id": "q-p0004-007-o3",
+          "text": "We are Chinese workers."
+        }
+      ],
+      "correctOptionId": "q-p0004-007-o1",
+      "explanation": "「我學中文。」 (Wǒ xué Zhōngwén.) means \"I study Chinese.\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0034"
+      ],
+      "entryIds": [
+        "e-p0004-0030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 學校 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-008-o1",
+          "text": "literature"
+        },
+        {
+          "id": "q-p0004-008-o2",
+          "text": "notebook"
+        },
+        {
+          "id": "q-p0004-008-o3",
+          "text": "school"
+        }
+      ],
+      "correctOptionId": "q-p0004-008-o3",
+      "explanation": "學校 (xuéxiào) means \"school\". The place where people study. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"literature\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-009-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0004-009-o2",
+          "text": "文學"
+        },
+        {
+          "id": "q-p0004-009-o3",
+          "text": "學校"
+        }
+      ],
+      "correctOptionId": "q-p0004-009-o2",
+      "explanation": "\"literature\" is 文學 (wénxué).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"xué\" meaning \"learn; study\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-010-o1",
+          "text": "學"
+        },
+        {
+          "id": "q-p0004-010-o2",
+          "text": "校"
+        },
+        {
+          "id": "q-p0004-010-o3",
+          "text": "文"
+        }
+      ],
+      "correctOptionId": "q-p0004-010-o1",
+      "explanation": "學 is pronounced xué and means \"learn; study\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0002"
+      ],
+      "entryIds": [
+        "e-p0004-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-011",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我學____。」 (I study Chinese.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-011-o1",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-011-o2",
+          "text": "文學"
+        },
+        {
+          "id": "q-p0004-011-o3",
+          "text": "中文"
+        }
+      ],
+      "correctOptionId": "q-p0004-011-o3",
+      "explanation": "The missing word is 中文 (Zhōngwén, \"Chinese (language)\"), completing 「我學中文。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0034"
+      ],
+      "entryIds": [
+        "e-p0004-0030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-012",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese word.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-012-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0004-012-o2",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-012-o3",
+          "text": "文學"
+        }
+      ],
+      "correctOptionId": "q-p0004-012-o2",
+      "explanation": "The audio speaks 學校 (xuéxiào), meaning \"school\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "學校",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-013",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 學校?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-013-o1",
+          "text": "school"
+        },
+        {
+          "id": "q-p0004-013-o2",
+          "text": "literature"
+        },
+        {
+          "id": "q-p0004-013-o3",
+          "text": "notebook"
+        }
+      ],
+      "correctOptionId": "q-p0004-013-o1",
+      "explanation": "學校 (xuéxiào) means \"school\". The place where people study. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "entryIds": [
+        "e-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-014",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我們是工人。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-014-o1",
+          "text": "I study Chinese."
+        },
+        {
+          "id": "q-p0004-014-o2",
+          "text": "We are Chinese workers."
+        },
+        {
+          "id": "q-p0004-014-o3",
+          "text": "We are workers."
+        }
+      ],
+      "correctOptionId": "q-p0004-014-o3",
+      "explanation": "「我們是工人。」 (Wǒmen shì gōngrén.) means \"We are workers.\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0045"
+      ],
+      "entryIds": [
+        "e-p0004-0035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-015",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 文學 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-015-o1",
+          "text": "notebook"
+        },
+        {
+          "id": "q-p0004-015-o2",
+          "text": "literature"
+        },
+        {
+          "id": "q-p0004-015-o3",
+          "text": "school"
+        }
+      ],
+      "correctOptionId": "q-p0004-015-o2",
+      "explanation": "文學 (wénxué) means \"literature\". A field of study; not the verb study a language. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-016",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"notebook\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-016-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0004-016-o2",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-016-o3",
+          "text": "文學"
+        }
+      ],
+      "correctOptionId": "q-p0004-016-o1",
+      "explanation": "\"notebook\" is 本子 (běnzi).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-017",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"xiào\" meaning \"school (in 学校)\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-017-o1",
+          "text": "學"
+        },
+        {
+          "id": "q-p0004-017-o2",
+          "text": "文"
+        },
+        {
+          "id": "q-p0004-017-o3",
+          "text": "校"
+        }
+      ],
+      "correctOptionId": "q-p0004-017-o3",
+      "explanation": "校 is pronounced xiào and means \"school (in 学校)\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0003"
+      ],
+      "entryIds": [
+        "e-p0004-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-018",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我們是____。」 (We are workers.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-018-o1",
+          "text": "文學"
+        },
+        {
+          "id": "q-p0004-018-o2",
+          "text": "工人"
+        },
+        {
+          "id": "q-p0004-018-o3",
+          "text": "學校"
+        }
+      ],
+      "correctOptionId": "q-p0004-018-o2",
+      "explanation": "The missing word is 工人 (gōngrén, \"worker\"), completing 「我們是工人。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0045"
+      ],
+      "entryIds": [
+        "e-p0004-0035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-019",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese expression.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-019-o1",
+          "text": "小心"
+        },
+        {
+          "id": "q-p0004-019-o2",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-019-o3",
+          "text": "文學"
+        }
+      ],
+      "correctOptionId": "q-p0004-019-o1",
+      "explanation": "The audio speaks 小心 (xiǎoxīn), meaning \"be careful; take care\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0165"
+      ],
+      "entryIds": [
+        "e-p0004-0081"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "小心",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-020",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 文學?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-020-o1",
+          "text": "school"
+        },
+        {
+          "id": "q-p0004-020-o2",
+          "text": "notebook"
+        },
+        {
+          "id": "q-p0004-020-o3",
+          "text": "literature"
+        }
+      ],
+      "correctOptionId": "q-p0004-020-o3",
+      "explanation": "文學 (wénxué) means \"literature\". A field of study; not the verb study a language. This occurrence uses traditional characters.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0004"
+      ],
+      "entryIds": [
+        "e-p0004-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-021",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我們是中國工人。」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-021-o1",
+          "text": "We are workers."
+        },
+        {
+          "id": "q-p0004-021-o2",
+          "text": "We are Chinese workers."
+        },
+        {
+          "id": "q-p0004-021-o3",
+          "text": "I study Chinese."
+        }
+      ],
+      "correctOptionId": "q-p0004-021-o2",
+      "explanation": "「我們是中國工人。」 (Wǒmen shì Zhōngguó gōngrén.) means \"We are Chinese workers.\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0046"
+      ],
+      "entryIds": [
+        "e-p0004-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-022",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 本子 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-022-o1",
+          "text": "notebook"
+        },
+        {
+          "id": "q-p0004-022-o2",
+          "text": "school"
+        },
+        {
+          "id": "q-p0004-022-o3",
+          "text": "literature"
+        }
+      ],
+      "correctOptionId": "q-p0004-022-o1",
+      "explanation": "本子 (běnzi) means \"notebook\". Neutral zi. Do not translate each character separately to guess the whole word.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-023",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"doctor\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-023-o1",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-023-o2",
+          "text": "文學"
+        },
+        {
+          "id": "q-p0004-023-o3",
+          "text": "大夫"
+        }
+      ],
+      "correctOptionId": "q-p0004-023-o3",
+      "explanation": "\"doctor\" is 大夫 (dàifu).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0010"
+      ],
+      "entryIds": [
+        "e-p0004-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-024",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"wén\" meaning \"writing; language; literature\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-024-o1",
+          "text": "校"
+        },
+        {
+          "id": "q-p0004-024-o2",
+          "text": "文"
+        },
+        {
+          "id": "q-p0004-024-o3",
+          "text": "學"
+        }
+      ],
+      "correctOptionId": "q-p0004-024-o2",
+      "explanation": "文 is pronounced wén and means \"writing; language; literature\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "entryIds": [
+        "e-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-025",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我們是____。」 (We are Chinese workers.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-025-o1",
+          "text": "中國工人"
+        },
+        {
+          "id": "q-p0004-025-o2",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-025-o3",
+          "text": "文學"
+        }
+      ],
+      "correctOptionId": "q-p0004-025-o1",
+      "explanation": "The missing word is 中國工人 (Zhōngguó gōngrén, \"Chinese worker; Chinese workers\"), completing 「我們是中國工人。」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0046"
+      ],
+      "entryIds": [
+        "e-p0004-0036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-026",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen to the audio and choose the matching Chinese sentence.",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-026-o1",
+          "text": "我們是工人。"
+        },
+        {
+          "id": "q-p0004-026-o2",
+          "text": "我們是中國工人。"
+        },
+        {
+          "id": "q-p0004-026-o3",
+          "text": "我學中文。"
+        }
+      ],
+      "correctOptionId": "q-p0004-026-o3",
+      "explanation": "The audio speaks 我學中文。 (Wǒ xué Zhōngwén.), meaning \"I study Chinese.\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0034"
+      ],
+      "entryIds": [
+        "e-p0004-0030"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我學中文。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-027",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "In the context of this page, what is the function/meaning of 本子?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-027-o1",
+          "text": "literature"
+        },
+        {
+          "id": "q-p0004-027-o2",
+          "text": "notebook"
+        },
+        {
+          "id": "q-p0004-027-o3",
+          "text": "school"
+        }
+      ],
+      "correctOptionId": "q-p0004-027-o2",
+      "explanation": "本子 (běnzi) means \"notebook\". Neutral zi. Do not translate each character separately to guess the whole word.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0007"
+      ],
+      "entryIds": [
+        "e-p0004-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-028",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does the sentence 「我們學文學，你們學什麼？」 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-028-o1",
+          "text": "We study literature. What do you study?"
+        },
+        {
+          "id": "q-p0004-028-o2",
+          "text": "I study Chinese."
+        },
+        {
+          "id": "q-p0004-028-o3",
+          "text": "We are workers."
+        }
+      ],
+      "correctOptionId": "q-p0004-028-o1",
+      "explanation": "「我們學文學，你們學什麼？」 (Wǒmen xué wénxué, nǐmen xué shénme?) means \"We study literature. What do you study?\". A sentence or dialogue unit from this page. Word order and meaning are reviewed in the source context.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0063"
+      ],
+      "entryIds": [
+        "e-p0004-0042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-029",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 大夫 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-029-o1",
+          "text": "school"
+        },
+        {
+          "id": "q-p0004-029-o2",
+          "text": "literature"
+        },
+        {
+          "id": "q-p0004-029-o3",
+          "text": "doctor"
+        }
+      ],
+      "correctOptionId": "q-p0004-029-o3",
+      "explanation": "大夫 (dàifu) means \"doctor\". Read dài, not dà. The second syllable fu is neutral; this is an occupation.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0010"
+      ],
+      "entryIds": [
+        "e-p0004-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-030",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese item means \"elder brother\"?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-030-o1",
+          "text": "文學"
+        },
+        {
+          "id": "q-p0004-030-o2",
+          "text": "哥哥"
+        },
+        {
+          "id": "q-p0004-030-o3",
+          "text": "學校"
+        }
+      ],
+      "correctOptionId": "q-p0004-030-o2",
+      "explanation": "\"elder brother\" is 哥哥 (gēge).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0013"
+      ],
+      "entryIds": [
+        "e-p0004-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-031",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identify the character pronounced \"běn\" meaning \"root; book or notebook\".",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-031-o1",
+          "text": "本"
+        },
+        {
+          "id": "q-p0004-031-o2",
+          "text": "學"
+        },
+        {
+          "id": "q-p0004-031-o3",
+          "text": "校"
+        }
+      ],
+      "correctOptionId": "q-p0004-031-o1",
+      "explanation": "本 is pronounced běn and means \"root; book or notebook\".",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "entryIds": [
+        "e-p0004-0007"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0004-032",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 「我們學____，你們學什麼？」 (We study literature. What do you study?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "q-p0004-032-o1",
+          "text": "學校"
+        },
+        {
+          "id": "q-p0004-032-o2",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0004-032-o3",
+          "text": "文學"
+        }
+      ],
+      "correctOptionId": "q-p0004-032-o3",
+      "explanation": "The missing word is 文學 (wénxué, \"literature\"), completing 「我們學文學，你們學什麼？」.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0063"
+      ],
+      "entryIds": [
+        "e-p0004-0042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

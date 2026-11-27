@@ -1,0 +1,691 @@
+{
+  "documentId": "lecon-01-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 文学 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-001-o1",
+          "text": "littérature"
+        },
+        {
+          "id": "q-p0002-001-o2",
+          "text": "école"
+        },
+        {
+          "id": "q-p0002-001-o3",
+          "text": "cahier"
+        }
+      ],
+      "correctOptionId": "q-p0002-001-o1",
+      "explanation": "文学 signifie « littérature », un domaine d'étude.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0024"
+      ],
+      "entryIds": [
+        "e-p0002-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez le mot qui signifie « cahier ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-002-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0002-002-o2",
+          "text": "勺子"
+        },
+        {
+          "id": "q-p0002-002-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0002-002-o1",
+      "explanation": "本子 běnzi signifie « cahier » ; 子 est ici la syllabe neutre zi.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0013"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « cœur » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-003-o1",
+          "text": "心"
+        },
+        {
+          "id": "q-p0002-003-o2",
+          "text": "子"
+        },
+        {
+          "id": "q-p0002-003-o3",
+          "text": "文"
+        }
+      ],
+      "correctOptionId": "q-p0002-003-o1",
+      "explanation": "心 xīn signifie « cœur » ou « esprit ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0045"
+      ],
+      "entryIds": [
+        "e-p0002-0024"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 什么 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-004-o1",
+          "text": "quoi"
+        },
+        {
+          "id": "q-p0002-004-o2",
+          "text": "qui"
+        },
+        {
+          "id": "q-p0002-004-o3",
+          "text": "où"
+        }
+      ],
+      "correctOptionId": "q-p0002-004-o1",
+      "explanation": "什么 shénme demande « quoi ». 谁 demande « qui ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0036"
+      ],
+      "entryIds": [
+        "e-p0002-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Comment se prononce 什 dans 什么 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-005-o1",
+          "text": "shén"
+        },
+        {
+          "id": "q-p0002-005-o2",
+          "text": "shí"
+        },
+        {
+          "id": "q-p0002-005-o3",
+          "text": "shēn"
+        }
+      ],
+      "correctOptionId": "q-p0002-005-o1",
+      "explanation": "Lisez 什 comme shén dans 什么 shénme ; me est neutre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0035"
+      ],
+      "entryIds": [
+        "e-p0002-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quel mot entendez-vous ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-006-o1",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0002-006-o2",
+          "text": "文学"
+        },
+        {
+          "id": "q-p0002-006-o3",
+          "text": "小心"
+        }
+      ],
+      "correctOptionId": "q-p0002-006-o1",
+      "explanation": "Le mot recherché est 本子 běnzi, « cahier ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0013"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "本子"
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 中国 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-007-o1",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0002-007-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0002-007-o3",
+          "text": "cahier"
+        }
+      ],
+      "correctOptionId": "q-p0002-007-o1",
+      "explanation": "中国 (Zhōngguó) signifie « Chine ». Le nom du pays.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Chine » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-008-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0002-008-o2",
+          "text": "本子"
+        },
+        {
+          "id": "q-p0002-008-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0002-008-o3",
+      "explanation": "« Chine » se dit 中国 (Zhōngguó).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-009",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « wáng » qui signifie « roi ; Wang (nom de famille) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-009-o1",
+          "text": "国"
+        },
+        {
+          "id": "q-p0002-009-o2",
+          "text": "王"
+        },
+        {
+          "id": "q-p0002-009-o3",
+          "text": "玉"
+        }
+      ],
+      "correctOptionId": "q-p0002-009-o2",
+      "explanation": "王 se prononce wáng et signifie « roi ; Wang (nom de famille) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-010",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-010-o1",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0002-010-o2",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0002-010-o3",
+          "text": "本子"
+        }
+      ],
+      "correctOptionId": "q-p0002-010-o1",
+      "explanation": "L'audio prononce 中国 (Zhōngguó), qui signifie « Chine ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "中国",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-011",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 中国 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-011-o1",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0002-011-o2",
+          "text": "cahier"
+        },
+        {
+          "id": "q-p0002-011-o3",
+          "text": "Chine"
+        }
+      ],
+      "correctOptionId": "q-p0002-011-o3",
+      "explanation": "中国 (Zhōngguó) signifie « Chine ». Le nom du pays.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0004"
+      ],
+      "entryIds": [
+        "e-p0002-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-012",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 中国人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-012-o1",
+          "text": "cahier"
+        },
+        {
+          "id": "q-p0002-012-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0002-012-o3",
+          "text": "Chine"
+        }
+      ],
+      "correctOptionId": "q-p0002-012-o2",
+      "explanation": "中国人 (Zhōngguó rén) signifie « Chinois, Chinoise ; peuple chinois ». 中国 suivi de 人 désigne une personne originaire de Chine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0008"
+      ],
+      "entryIds": [
+        "e-p0002-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-013",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Chinois, Chinoise ; peuple chinois » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-013-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0002-013-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0002-013-o3",
+          "text": "本子"
+        }
+      ],
+      "correctOptionId": "q-p0002-013-o1",
+      "explanation": "« Chinois, Chinoise ; peuple chinois » se dit 中国人 (Zhōngguó rén).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0008"
+      ],
+      "entryIds": [
+        "e-p0002-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-014",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « yù » qui signifie « jade ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-014-o1",
+          "text": "王"
+        },
+        {
+          "id": "q-p0002-014-o2",
+          "text": "国"
+        },
+        {
+          "id": "q-p0002-014-o3",
+          "text": "玉"
+        }
+      ],
+      "correctOptionId": "q-p0002-014-o3",
+      "explanation": "玉 se prononce yù et signifie « jade ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0002"
+      ],
+      "entryIds": [
+        "e-p0002-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-015",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez l'expression chinoise correspondante.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-015-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0002-015-o2",
+          "text": "小心"
+        },
+        {
+          "id": "q-p0002-015-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0002-015-o2",
+      "explanation": "L'audio prononce 小心 (xiǎoxīn), qui signifie « faire attention ; prendre soin ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0043"
+      ],
+      "entryIds": [
+        "e-p0002-0022"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "小心",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-016",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 中国人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-016-o1",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0002-016-o2",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0002-016-o3",
+          "text": "cahier"
+        }
+      ],
+      "correctOptionId": "q-p0002-016-o1",
+      "explanation": "中国人 (Zhōngguó rén) signifie « Chinois, Chinoise ; peuple chinois ». 中国 suivi de 人 désigne une personne originaire de Chine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0008"
+      ],
+      "entryIds": [
+        "e-p0002-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-017",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 本子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-017-o1",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0002-017-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0002-017-o3",
+          "text": "cahier"
+        }
+      ],
+      "correctOptionId": "q-p0002-017-o3",
+      "explanation": "本子 (běnzi) signifie « cahier ». Syllabe neutre zi. Ne traduisez pas chaque caractère séparément pour deviner le sens du mot entier.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0013"
+      ],
+      "entryIds": [
+        "e-p0002-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-018",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « cuillère » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-018-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0002-018-o2",
+          "text": "勺子"
+        },
+        {
+          "id": "q-p0002-018-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0002-018-o2",
+      "explanation": "« cuillère » se dit 勺子 (sháozi).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0018"
+      ],
+      "entryIds": [
+        "e-p0002-0012"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-019",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « guó » qui signifie « pays ; nation ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-019-o1",
+          "text": "国"
+        },
+        {
+          "id": "q-p0002-019-o2",
+          "text": "王"
+        },
+        {
+          "id": "q-p0002-019-o3",
+          "text": "玉"
+        }
+      ],
+      "correctOptionId": "q-p0002-019-o1",
+      "explanation": "国 se prononce guó et signifie « pays ; nation ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0003"
+      ],
+      "entryIds": [
+        "e-p0002-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0002-020",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0002-020-o1",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0002-020-o2",
+          "text": "国"
+        },
+        {
+          "id": "q-p0002-020-o3",
+          "text": "王"
+        }
+      ],
+      "correctOptionId": "q-p0002-020-o3",
+      "explanation": "L'audio prononce 王 (wáng), qui signifie « roi ; Wang (nom de famille) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0001"
+      ],
+      "entryIds": [
+        "e-p0002-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "王",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

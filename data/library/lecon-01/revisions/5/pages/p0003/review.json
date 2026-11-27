@@ -1,0 +1,89 @@
+{
+  "documentId": "lecon-01",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "textSha256": "baa51db9b37fa814fab296d4569c8356213a94c95c580bd73ec7c5e05ca4d864",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex — separate source/linguistic/question self-review pass; no independent or human review claimed",
+  "checks": [
+    "Compared each requested rendered source with transcript, classified line roles, isolated stroke-stage and low-contrast OCR uncertainty.",
+    "Reviewed principal characters and exact source-form anchors, separate repeated occurrences and traditional spellings; manual boxes measured on source render.",
+    "Reviewed 大夫 dàifu, neutral 子/们/的/哥哥/妈妈/爱人/木头, contextual 不 bú before 是/认识, 种 zhòng and 看 kàn.",
+    "Reviewed personal names, family-name-first order, 田中书 as a name, English sentence meanings and the proverb.",
+    "Reviewed all question prompts, single correct option IDs, non-equivalent distractors, explanations and page-scoped source references.",
+    "Reviewed diagnostic geometry at reduced and enlarged sizes; main glyphs, word spans and page-5 multiline sentence use genuine OCR or individually measured character geometry.",
+    "Listening uses browser local speech and remains gated by successful playback; disconnected audibility is not established by source review.",
+    "Expanded reviewed question bank across page-scoped entries and annotations; verified distinct options, single correct option ID, and page-local sourceAnnotationIds."
+  ],
+  "coverage": {
+    "physicalPage": 3,
+    "transcriptCodePoints": 2367,
+    "characterGeometryRecords": 2105,
+    "reviewedLearningEntries": 96,
+    "reviewedOccurrences": 247,
+    "reviewedQuestions": 34,
+    "entriesWithReviewedIPA": 66,
+    "entriesWithoutIPA": 30,
+    "entryKinds": {
+      "character": 51,
+      "word": 26,
+      "expression": 1,
+      "sentence": 18
+    },
+    "lineRoleCounts": {
+      "learning-vocabulary": 32,
+      "instructions-or-reference-ocr": 87,
+      "learning-reading": 13
+    },
+    "reviewedAnchoredCharacterIds": 186,
+    "multilineAnchors": "Not applicable: prepared source units on this page use one printed line.",
+    "scope": "All seven requested physical pages. Counts are authored records, not percentages of all visible glyphs. Source/OCR and annotation coverage are distinct."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0003",
+      "reason": "Partial OCR/reference coverage: historical shapes, partial stroke diagrams, small French text and printed pinyin can contain recognition errors or omissions. These are reference material, not reviewed linguistic units.",
+      "nextAction": "Use the unchanged original scan for diagrams, instructions and low-confidence transcript text."
+    },
+    {
+      "severity": "info",
+      "pageId": "p0003",
+      "recordIds": [
+        "e-p0003-0004",
+        "e-p0003-0007",
+        "e-p0003-0024",
+        "e-p0003-0044",
+        "e-p0003-0049",
+        "e-p0003-0053",
+        "e-p0003-0054",
+        "e-p0003-0055",
+        "e-p0003-0056",
+        "e-p0003-0057",
+        "e-p0003-0058",
+        "e-p0003-0059",
+        "e-p0003-0060",
+        "e-p0003-0063",
+        "e-p0003-0067",
+        "e-p0003-0069",
+        "e-p0003-0074",
+        "e-p0003-0075",
+        "e-p0003-0079",
+        "e-p0003-0080",
+        "e-p0003-0081",
+        "e-p0003-0083",
+        "e-p0003-0084",
+        "e-p0003-0086",
+        "e-p0003-0087",
+        "e-p0003-0090",
+        "e-p0003-0091",
+        "e-p0003-0092",
+        "e-p0003-0094",
+        "e-p0003-0095"
+      ],
+      "reason": "30 entries have no sufficiently reviewed matching IPA, including sentences and proper names. Pinyin and English remain available.",
+      "nextAction": "Leave IPA omitted until the exact reading and context can be reviewed; never substitute pinyin into an IPA field."
+    }
+  ]
+}

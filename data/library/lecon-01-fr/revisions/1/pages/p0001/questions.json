@@ -1,0 +1,690 @@
+{
+  "documentId": "lecon-01-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0001-001",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 工厂 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-001-o1",
+          "text": "usine"
+        },
+        {
+          "id": "q-p0001-001-o2",
+          "text": "ouvrier ; travailleur"
+        },
+        {
+          "id": "q-p0001-001-o3",
+          "text": "école"
+        }
+      ],
+      "correctOptionId": "q-p0001-001-o1",
+      "explanation": "工厂 est un lieu : une usine. 工人 signifie « ouvrier ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0025"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-002",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez le mot qui signifie « ouvrier ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-002-o1",
+          "text": "工人"
+        },
+        {
+          "id": "q-p0001-002-o2",
+          "text": "工厂"
+        },
+        {
+          "id": "q-p0001-002-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0001-002-o1",
+      "explanation": "工人 signifie « ouvrier » ; le deuxième caractère 人 signifie « personne ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0024"
+      ],
+      "entryIds": [
+        "e-p0001-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-003",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « jade » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-003-o1",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0001-003-o2",
+          "text": "王"
+        },
+        {
+          "id": "q-p0001-003-o3",
+          "text": "本"
+        }
+      ],
+      "correctOptionId": "q-p0001-003-o1",
+      "explanation": "玉 possède le point supplémentaire qui le distingue de 王.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0008"
+      ],
+      "entryIds": [
+        "e-p0001-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-004",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Que fait 不 devant un verbe ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-004-o1",
+          "text": "le rend négatif"
+        },
+        {
+          "id": "q-p0001-004-o2",
+          "text": "le met au pluriel"
+        },
+        {
+          "id": "q-p0001-004-o3",
+          "text": "le met au passé"
+        }
+      ],
+      "correctOptionId": "q-p0001-004-o1",
+      "explanation": "不 rend le verbe négatif. Il n'indique ni le pluriel ni le passé.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0006"
+      ],
+      "entryIds": [
+        "e-p0001-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-005",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quel mot entendez-vous ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-005-o1",
+          "text": "工厂"
+        },
+        {
+          "id": "q-p0001-005-o2",
+          "text": "工人"
+        },
+        {
+          "id": "q-p0001-005-o3",
+          "text": "本子"
+        }
+      ],
+      "correctOptionId": "q-p0001-005-o1",
+      "explanation": "Le mot prononcé est 工厂 gōngchǎng, « usine ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0025"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "工厂"
+    },
+    {
+      "id": "q-p0001-006",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 工人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-006-o1",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0001-006-o2",
+          "text": "ouvrier ; travailleur"
+        },
+        {
+          "id": "q-p0001-006-o3",
+          "text": "usine"
+        }
+      ],
+      "correctOptionId": "q-p0001-006-o2",
+      "explanation": "工人 (gōngrén) signifie « ouvrier ; travailleur ». Ici, une personne employée à un travail manuel ou industriel.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0024"
+      ],
+      "entryIds": [
+        "e-p0001-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-007",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « usine » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-007-o1",
+          "text": "工厂"
+        },
+        {
+          "id": "q-p0001-007-o2",
+          "text": "工人"
+        },
+        {
+          "id": "q-p0001-007-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0001-007-o1",
+      "explanation": "« usine » se dit 工厂 (gōngchǎng).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0025"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-008",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « shì » qui signifie « être ; suis, es, est, sommes, êtes, sont ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-008-o1",
+          "text": "工"
+        },
+        {
+          "id": "q-p0001-008-o2",
+          "text": "厂"
+        },
+        {
+          "id": "q-p0001-008-o3",
+          "text": "是"
+        }
+      ],
+      "correctOptionId": "q-p0001-008-o3",
+      "explanation": "是 se prononce shì et signifie « être ; suis, es, est, sommes, êtes, sont ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-009",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-009-o1",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0001-009-o2",
+          "text": "工人"
+        },
+        {
+          "id": "q-p0001-009-o3",
+          "text": "工厂"
+        }
+      ],
+      "correctOptionId": "q-p0001-009-o2",
+      "explanation": "L'audio prononce 工人 (gōngrén), qui signifie « ouvrier ; travailleur ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0024"
+      ],
+      "entryIds": [
+        "e-p0001-0022"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "工人",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-010",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 工厂 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-010-o1",
+          "text": "usine"
+        },
+        {
+          "id": "q-p0001-010-o2",
+          "text": "ouvrier ; travailleur"
+        },
+        {
+          "id": "q-p0001-010-o3",
+          "text": "Chine"
+        }
+      ],
+      "correctOptionId": "q-p0001-010-o1",
+      "explanation": "工厂 (gōngchǎng) signifie « usine ». Troisième ton sur chǎng. Forme traditionnelle : 工廠.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0025"
+      ],
+      "entryIds": [
+        "e-p0001-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-011",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 是 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-011-o1",
+          "text": "travail"
+        },
+        {
+          "id": "q-p0001-011-o2",
+          "text": "usine"
+        },
+        {
+          "id": "q-p0001-011-o3",
+          "text": "être ; suis, es, est, sommes, êtes, sont"
+        }
+      ],
+      "correctOptionId": "q-p0001-011-o3",
+      "explanation": "是 (shì) signifie « être ; suis, es, est, sommes, êtes, sont ». Relie une personne ou une chose à son identité. Ne s'utilise normalement pas directement avant un adjectif descriptif.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-012",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « être ; suis, es, est, sommes, êtes, sont » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-012-o1",
+          "text": "厂"
+        },
+        {
+          "id": "q-p0001-012-o2",
+          "text": "是"
+        },
+        {
+          "id": "q-p0001-012-o3",
+          "text": "工"
+        }
+      ],
+      "correctOptionId": "q-p0001-012-o2",
+      "explanation": "« être ; suis, es, est, sommes, êtes, sont » se dit 是 (shì).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-013",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « gōng » qui signifie « travail ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-013-o1",
+          "text": "工"
+        },
+        {
+          "id": "q-p0001-013-o2",
+          "text": "是"
+        },
+        {
+          "id": "q-p0001-013-o3",
+          "text": "厂"
+        }
+      ],
+      "correctOptionId": "q-p0001-013-o1",
+      "explanation": "工 se prononce gōng et signifie « travail ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-014",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-014-o1",
+          "text": "工"
+        },
+        {
+          "id": "q-p0001-014-o2",
+          "text": "厂"
+        },
+        {
+          "id": "q-p0001-014-o3",
+          "text": "是"
+        }
+      ],
+      "correctOptionId": "q-p0001-014-o3",
+      "explanation": "L'audio prononce 是 (shì), qui signifie « être ; suis, es, est, sommes, êtes, sont ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "是",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-015",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 工人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-015-o1",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0001-015-o2",
+          "text": "ouvrier ; travailleur"
+        },
+        {
+          "id": "q-p0001-015-o3",
+          "text": "usine"
+        }
+      ],
+      "correctOptionId": "q-p0001-015-o2",
+      "explanation": "工人 (gōngrén) signifie « ouvrier ; travailleur ». Ici, une personne employée à un travail manuel ou industriel.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0024"
+      ],
+      "entryIds": [
+        "e-p0001-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-016",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 工 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-016-o1",
+          "text": "travail"
+        },
+        {
+          "id": "q-p0001-016-o2",
+          "text": "être ; suis, es, est, sommes, êtes, sont"
+        },
+        {
+          "id": "q-p0001-016-o3",
+          "text": "usine"
+        }
+      ],
+      "correctOptionId": "q-p0001-016-o1",
+      "explanation": "工 (gōng) signifie « travail ». Apparaît dans 工人 (ouvrier) et 工厂 (usine).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-017",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « travail » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-017-o1",
+          "text": "是"
+        },
+        {
+          "id": "q-p0001-017-o2",
+          "text": "厂"
+        },
+        {
+          "id": "q-p0001-017-o3",
+          "text": "工"
+        }
+      ],
+      "correctOptionId": "q-p0001-017-o3",
+      "explanation": "« travail » se dit 工 (gōng).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0004"
+      ],
+      "entryIds": [
+        "e-p0001-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-018",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « chǎng » qui signifie « usine ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-018-o1",
+          "text": "工"
+        },
+        {
+          "id": "q-p0001-018-o2",
+          "text": "厂"
+        },
+        {
+          "id": "q-p0001-018-o3",
+          "text": "是"
+        }
+      ],
+      "correctOptionId": "q-p0001-018-o2",
+      "explanation": "厂 se prononce chǎng et signifie « usine ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0005"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-019",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 是 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-019-o1",
+          "text": "être ; suis, es, est, sommes, êtes, sont"
+        },
+        {
+          "id": "q-p0001-019-o2",
+          "text": "travail"
+        },
+        {
+          "id": "q-p0001-019-o3",
+          "text": "usine"
+        }
+      ],
+      "correctOptionId": "q-p0001-019-o1",
+      "explanation": "是 (shì) signifie « être ; suis, es, est, sommes, êtes, sont ». Relie une personne ou une chose à son identité. Ne s'utilise normalement pas directement avant un adjectif descriptif.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0003"
+      ],
+      "entryIds": [
+        "e-p0001-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0001-020",
+      "pageId": "p0001",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 厂 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0001-020-o1",
+          "text": "être ; suis, es, est, sommes, êtes, sont"
+        },
+        {
+          "id": "q-p0001-020-o2",
+          "text": "travail"
+        },
+        {
+          "id": "q-p0001-020-o3",
+          "text": "usine"
+        }
+      ],
+      "correctOptionId": "q-p0001-020-o3",
+      "explanation": "厂 (chǎng) signifie « usine ». Un caractère complet dans 工厂. Le composant de falaise d'apparence similaire est traité séparément dans la source.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0001-0005"
+      ],
+      "entryIds": [
+        "e-p0001-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

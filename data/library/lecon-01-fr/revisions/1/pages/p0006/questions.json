@@ -1,0 +1,1166 @@
+{
+  "documentId": "lecon-01-fr",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Associez 木匠 à sa signification.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-001-o1",
+          "text": "charpentier ; menuisier"
+        },
+        {
+          "id": "q-p0006-001-o2",
+          "text": "étudiant ; élève"
+        },
+        {
+          "id": "q-p0006-001-o3",
+          "text": "librairie"
+        }
+      ],
+      "correctOptionId": "q-p0006-001-o1",
+      "explanation": "木匠 signifie charpentier ; 木 donne un indice grâce à son sens de bois.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0193"
+      ],
+      "entryIds": [
+        "e-p0006-0132"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez baleine.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-002-o1",
+          "text": "鲸鱼"
+        },
+        {
+          "id": "q-p0006-002-o2",
+          "text": "汽车"
+        },
+        {
+          "id": "q-p0006-002-o3",
+          "text": "书店"
+        }
+      ],
+      "correctOptionId": "q-p0006-002-o1",
+      "explanation": "鲸鱼 jīngyú signifie baleine, bien qu’il contienne 鱼 (poisson).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0211"
+      ],
+      "entryIds": [
+        "e-p0006-0146"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère écrit signifie jade ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-003-o1",
+          "text": "玉"
+        },
+        {
+          "id": "q-p0006-003-o2",
+          "text": "王"
+        },
+        {
+          "id": "q-p0006-003-o3",
+          "text": "主"
+        }
+      ],
+      "correctOptionId": "q-p0006-003-o1",
+      "explanation": "玉 a un point près du coin inférieur droit ; 王 signifie roi.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0055"
+      ],
+      "entryIds": [
+        "e-p0006-0055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 女儿 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-004-o1",
+          "text": "fille"
+        },
+        {
+          "id": "q-p0006-004-o2",
+          "text": "mère"
+        },
+        {
+          "id": "q-p0006-004-o3",
+          "text": "grande sœur"
+        }
+      ],
+      "correctOptionId": "q-p0006-004-o1",
+      "explanation": "女儿 nǚ’ér signifie fille ; 儿 se prononce ici comme une syllabe complète.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0194"
+      ],
+      "entryIds": [
+        "e-p0006-0133"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez l’exercice source : 我去开 __ 。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-005-o1",
+          "text": "门"
+        },
+        {
+          "id": "q-p0006-005-o2",
+          "text": "手"
+        },
+        {
+          "id": "q-p0006-005-o3",
+          "text": "肉"
+        }
+      ],
+      "correctOptionId": "q-p0006-005-o1",
+      "explanation": "开门 signifie ouvrir la porte ; 手 (main) et 肉 (viande) ne conviennent pas.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0140"
+      ],
+      "entryIds": [
+        "e-p0006-0105"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-006",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez l’exercice source : 这是中 __ 书。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-006-o1",
+          "text": "文"
+        },
+        {
+          "id": "q-p0006-006-o2",
+          "text": "又"
+        },
+        {
+          "id": "q-p0006-006-o3",
+          "text": "玉"
+        }
+      ],
+      "correctOptionId": "q-p0006-006-o1",
+      "explanation": "中文书 signifie un livre en chinois ; 文 complète 中文.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0013"
+      ],
+      "entryIds": [
+        "e-p0006-0013"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-007",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la salutation source : __ 们好！",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-007-o1",
+          "text": "你"
+        },
+        {
+          "id": "q-p0006-007-o2",
+          "text": "我"
+        },
+        {
+          "id": "q-p0006-007-o3",
+          "text": "他"
+        }
+      ],
+      "correctOptionId": "q-p0006-007-o1",
+      "explanation": "你们好 salue plusieurs personnes. 我们 et 他们 ne forment pas cette salutation.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0021"
+      ],
+      "entryIds": [
+        "e-p0006-0021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-008",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 中间 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-008-o1",
+          "text": "milieu ; entre"
+        },
+        {
+          "id": "q-p0006-008-o2",
+          "text": "pôle Nord"
+        },
+        {
+          "id": "q-p0006-008-o3",
+          "text": "patrie"
+        }
+      ],
+      "correctOptionId": "q-p0006-008-o1",
+      "explanation": "中间 désigne le milieu ou l’espace entre deux choses.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0214"
+      ],
+      "entryIds": [
+        "e-p0006-0147"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-009",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quel mot entendez-vous ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-009-o1",
+          "text": "汽车"
+        },
+        {
+          "id": "q-p0006-009-o2",
+          "text": "书店"
+        },
+        {
+          "id": "q-p0006-009-o3",
+          "text": "水库"
+        }
+      ],
+      "correctOptionId": "q-p0006-009-o1",
+      "explanation": "汽车 qìchē signifie voiture ou véhicule à moteur.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0208"
+      ],
+      "entryIds": [
+        "e-p0006-0144"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "speechTarget": "汽车"
+    },
+    {
+      "id": "q-p0006-010",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 中国 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-010-o1",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0006-010-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0006-010-o3",
+          "text": "ne suis pas ; n'est pas ; ne sommes pas ; n'êtes pas ; ne sont pas"
+        }
+      ],
+      "correctOptionId": "q-p0006-010-o1",
+      "explanation": "中国 (Zhōngguó) signifie « Chine ». Le nom du pays.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0090"
+      ],
+      "entryIds": [
+        "e-p0006-0086"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-011",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Chine » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-011-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0006-011-o2",
+          "text": "不是"
+        },
+        {
+          "id": "q-p0006-011-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0006-011-o3",
+      "explanation": "« Chine » se dit 中国 (Zhōngguó).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0090"
+      ],
+      "entryIds": [
+        "e-p0006-0086"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-012",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « zhī » qui signifie « branche ; mot de comptage ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-012-o1",
+          "text": "利"
+        },
+        {
+          "id": "q-p0006-012-o2",
+          "text": "支"
+        },
+        {
+          "id": "q-p0006-012-o3",
+          "text": "学"
+        }
+      ],
+      "correctOptionId": "q-p0006-012-o2",
+      "explanation": "支 se prononce zhī et signifie « branche ; mot de comptage ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-013",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-013-o1",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0006-013-o2",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0006-013-o3",
+          "text": "不是"
+        }
+      ],
+      "correctOptionId": "q-p0006-013-o1",
+      "explanation": "L'audio prononce 中国 (Zhōngguó), qui signifie « Chine ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0090"
+      ],
+      "entryIds": [
+        "e-p0006-0086"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "中国",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-014",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 中国 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-014-o1",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0006-014-o2",
+          "text": "ne suis pas ; n'est pas ; ne sommes pas ; n'êtes pas ; ne sont pas"
+        },
+        {
+          "id": "q-p0006-014-o3",
+          "text": "Chine"
+        }
+      ],
+      "correctOptionId": "q-p0006-014-o3",
+      "explanation": "中国 (Zhōngguó) signifie « Chine ». Le nom du pays.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0090"
+      ],
+      "entryIds": [
+        "e-p0006-0086"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-015",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 中国人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-015-o1",
+          "text": "ne suis pas ; n'est pas ; ne sommes pas ; n'êtes pas ; ne sont pas"
+        },
+        {
+          "id": "q-p0006-015-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0006-015-o3",
+          "text": "Chine"
+        }
+      ],
+      "correctOptionId": "q-p0006-015-o2",
+      "explanation": "中国人 (Zhōngguó rén) signifie « Chinois, Chinoise ; peuple chinois ». 中国 suivi de 人 désigne une personne originaire de Chine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0091"
+      ],
+      "entryIds": [
+        "e-p0006-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-016",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Chinois, Chinoise ; peuple chinois » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-016-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0006-016-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0006-016-o3",
+          "text": "不是"
+        }
+      ],
+      "correctOptionId": "q-p0006-016-o1",
+      "explanation": "« Chinois, Chinoise ; peuple chinois » se dit 中国人 (Zhōngguó rén).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0091"
+      ],
+      "entryIds": [
+        "e-p0006-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-017",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « xué » qui signifie « apprendre ; étudier ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-017-o1",
+          "text": "支"
+        },
+        {
+          "id": "q-p0006-017-o2",
+          "text": "利"
+        },
+        {
+          "id": "q-p0006-017-o3",
+          "text": "学"
+        }
+      ],
+      "correctOptionId": "q-p0006-017-o3",
+      "explanation": "学 se prononce xué et signifie « apprendre ; étudier ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0002"
+      ],
+      "entryIds": [
+        "e-p0006-0002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-018",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-018-o1",
+          "text": "利"
+        },
+        {
+          "id": "q-p0006-018-o2",
+          "text": "支"
+        },
+        {
+          "id": "q-p0006-018-o3",
+          "text": "学"
+        }
+      ],
+      "correctOptionId": "q-p0006-018-o2",
+      "explanation": "L’audio prononce 支 (zhī), qui signifie « branche ; mot de comptage ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0001"
+      ],
+      "entryIds": [
+        "e-p0006-0001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "支",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-019",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 中国人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-019-o1",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0006-019-o2",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0006-019-o3",
+          "text": "ne suis pas ; n'est pas ; ne sommes pas ; n'êtes pas ; ne sont pas"
+        }
+      ],
+      "correctOptionId": "q-p0006-019-o1",
+      "explanation": "中国人 (Zhōngguó rén) signifie « Chinois, Chinoise ; peuple chinois ». 中国 suivi de 人 désigne une personne originaire de Chine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0091"
+      ],
+      "entryIds": [
+        "e-p0006-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-020",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 不是 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-020-o1",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0006-020-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0006-020-o3",
+          "text": "ne suis pas ; n'est pas ; ne sommes pas ; n'êtes pas ; ne sont pas"
+        }
+      ],
+      "correctOptionId": "q-p0006-020-o3",
+      "explanation": "不是 (bú shì) signifie « ne suis pas ; n’est pas ; ne sont pas ». 不 passe au deuxième ton bú devant shì au quatrième ton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0092"
+      ],
+      "entryIds": [
+        "e-p0006-0088"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-021",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « ne suis pas ; n’est pas ; ne sont pas » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-021-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0006-021-o2",
+          "text": "不是"
+        },
+        {
+          "id": "q-p0006-021-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0006-021-o2",
+      "explanation": "« ne suis pas ; n’est pas ; ne sont pas » se dit 不是 (bú shì).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0092"
+      ],
+      "entryIds": [
+        "e-p0006-0088"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-022",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « lì » qui signifie « avantage ; tranchant ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-022-o1",
+          "text": "利"
+        },
+        {
+          "id": "q-p0006-022-o2",
+          "text": "支"
+        },
+        {
+          "id": "q-p0006-022-o3",
+          "text": "学"
+        }
+      ],
+      "correctOptionId": "q-p0006-022-o1",
+      "explanation": "利 se prononce lì et signifie « avantage ; tranchant ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0003"
+      ],
+      "entryIds": [
+        "e-p0006-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-023",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 不是 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-023-o1",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0006-023-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0006-023-o3",
+          "text": "ne suis pas ; n'est pas ; ne sommes pas ; n'êtes pas ; ne sont pas"
+        }
+      ],
+      "correctOptionId": "q-p0006-023-o3",
+      "explanation": "不是 (bú shì) signifie « ne suis pas ; n’est pas ; ne sont pas ». 不 passe au deuxième ton bú devant shì au quatrième ton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0092"
+      ],
+      "entryIds": [
+        "e-p0006-0088"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-024",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 说服 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-024-o1",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0006-024-o2",
+          "text": "persuader ; convaincre"
+        },
+        {
+          "id": "q-p0006-024-o3",
+          "text": "Chine"
+        }
+      ],
+      "correctOptionId": "q-p0006-024-o2",
+      "explanation": "说服 (shuōfú) signifie « persuader ; convaincre ». Se lit shuōfú. Ce mot signifie persuader, plutôt qu’une combinaison littérale de sens séparés.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0196"
+      ],
+      "entryIds": [
+        "e-p0006-0135"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-025",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « charpentier » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-025-o1",
+          "text": "木匠"
+        },
+        {
+          "id": "q-p0006-025-o2",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0006-025-o3",
+          "text": "中国人"
+        }
+      ],
+      "correctOptionId": "q-p0006-025-o1",
+      "explanation": "« charpentier » se dit 木匠 (mùjiang).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0193"
+      ],
+      "entryIds": [
+        "e-p0006-0132"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-026",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « gōng » qui signifie « travail ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-026-o1",
+          "text": "支"
+        },
+        {
+          "id": "q-p0006-026-o2",
+          "text": "学"
+        },
+        {
+          "id": "q-p0006-026-o3",
+          "text": "工"
+        }
+      ],
+      "correctOptionId": "q-p0006-026-o3",
+      "explanation": "工 se prononce gōng et signifie « travail ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0004"
+      ],
+      "entryIds": [
+        "e-p0006-0004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-027",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 木匠 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-027-o1",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0006-027-o2",
+          "text": "charpentier ; menuisier"
+        },
+        {
+          "id": "q-p0006-027-o3",
+          "text": "Chine"
+        }
+      ],
+      "correctOptionId": "q-p0006-027-o2",
+      "explanation": "木匠 (mùjiang) signifie « charpentier ». Le ton neutre sur jiang est courant dans ce nom de métier.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0193"
+      ],
+      "entryIds": [
+        "e-p0006-0132"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-028",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 山坡 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-028-o1",
+          "text": "versant de colline ; pente"
+        },
+        {
+          "id": "q-p0006-028-o2",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0006-028-o3",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        }
+      ],
+      "correctOptionId": "q-p0006-028-o1",
+      "explanation": "山坡 (shānpō) signifie « versant de colline ; pente ». 山 signifie montagne ; 坡 signifie pente.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0197"
+      ],
+      "entryIds": [
+        "e-p0006-0136"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-029",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « fille » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-029-o1",
+          "text": "中国"
+        },
+        {
+          "id": "q-p0006-029-o2",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0006-029-o3",
+          "text": "女儿"
+        }
+      ],
+      "correctOptionId": "q-p0006-029-o3",
+      "explanation": "« fille » se dit 女儿 (nǚ'ér).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0194"
+      ],
+      "entryIds": [
+        "e-p0006-0133"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-030",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « kōng » qui signifie « vide ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-030-o1",
+          "text": "学"
+        },
+        {
+          "id": "q-p0006-030-o2",
+          "text": "空"
+        },
+        {
+          "id": "q-p0006-030-o3",
+          "text": "支"
+        }
+      ],
+      "correctOptionId": "q-p0006-030-o2",
+      "explanation": "空 se prononce kōng et signifie « vide ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0005"
+      ],
+      "entryIds": [
+        "e-p0006-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-031",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quelle est la fonction ou la signification de 女儿 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-031-o1",
+          "text": "fille"
+        },
+        {
+          "id": "q-p0006-031-o2",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0006-031-o3",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        }
+      ],
+      "correctOptionId": "q-p0006-031-o1",
+      "explanation": "女儿 (nǚ'ér) signifie « fille ». L’apostrophe sépare les syllabes ; 儿 est ici une syllabe complète ér.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0194"
+      ],
+      "entryIds": [
+        "e-p0006-0133"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-032",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 书店 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-032-o1",
+          "text": "Chine"
+        },
+        {
+          "id": "q-p0006-032-o2",
+          "text": "Chinois, Chinoise ; peuple chinois"
+        },
+        {
+          "id": "q-p0006-032-o3",
+          "text": "librairie"
+        }
+      ],
+      "correctOptionId": "q-p0006-032-o3",
+      "explanation": "书店 (shūdiàn) signifie « librairie ». Une boutique qui vend des livres.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0198"
+      ],
+      "entryIds": [
+        "e-p0006-0137"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-033",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « persuader ; convaincre » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-033-o1",
+          "text": "中国人"
+        },
+        {
+          "id": "q-p0006-033-o2",
+          "text": "说服"
+        },
+        {
+          "id": "q-p0006-033-o3",
+          "text": "中国"
+        }
+      ],
+      "correctOptionId": "q-p0006-033-o2",
+      "explanation": "« persuader ; convaincre » se dit 说服 (shuōfú).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0196"
+      ],
+      "entryIds": [
+        "e-p0006-0135"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0006-034",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « guó » qui signifie « pays ; nation ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0006-034-o1",
+          "text": "国"
+        },
+        {
+          "id": "q-p0006-034-o2",
+          "text": "支"
+        },
+        {
+          "id": "q-p0006-034-o3",
+          "text": "学"
+        }
+      ],
+      "correctOptionId": "q-p0006-034-o1",
+      "explanation": "国 se prononce guó et signifie « pays ; nation ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0006"
+      ],
+      "entryIds": [
+        "e-p0006-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}
