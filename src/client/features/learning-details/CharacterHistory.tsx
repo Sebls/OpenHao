@@ -1,4 +1,5 @@
 import { useI18n } from "../../i18n/I18n.tsx";
+import { translateContent } from "../../i18n/content.ts";
 import React from "react";
 import type { Entry } from "../../../contracts/content.ts";
 import {
@@ -37,7 +38,7 @@ const historyByCharacter = new Map(
 );
 
 export function CharacterHistory({ entry }: { entry: Entry }) {
-  const { t } = useI18n();
+  const { t, language } = useI18n();
   const character = entry.form;
   const history = historyByCharacter.get(character);
   const { ref, overflows } = useSequenceOverflow(
@@ -63,7 +64,7 @@ export function CharacterHistory({ entry }: { entry: Entry }) {
             height="52"
             loading="lazy"
           />
-          <figcaption>{meaning}</figcaption>
+          <figcaption>{translateContent(meaning, language)}</figcaption>
         </figure>
       )}
       <div className="stroke-progression-header">
@@ -99,9 +100,11 @@ export function CharacterHistory({ entry }: { entry: Entry }) {
                   <img src={`${assetPath}${form.file}`} alt="" loading="lazy" />
                 </div>
                 <figcaption>
-                  {form.label}
+                  {translateContent(form.label, language)}
                   {form.period && (
-                    <span className="history-period">{form.period}</span>
+                    <span className="history-period">
+                      {translateContent(form.period, language)}
+                    </span>
                   )}
                 </figcaption>
               </figure>
@@ -126,13 +129,13 @@ export function CharacterHistory({ entry }: { entry: Entry }) {
       </div>
       {origin && (
         <div className="history-origin">
-          <p>{origin.text}</p>
+          <p>{translateContent(origin.text, language)}</p>
           <p className="history-sources">
             {origin.sources.map((source, index) => (
               <React.Fragment key={source.url}>
                 {index > 0 && " · "}
                 <a href={source.url} target="_blank" rel="noreferrer">
-                  {source.label} ↗
+                  {translateContent(source.label, language)} ↗
                 </a>
               </React.Fragment>
             ))}
