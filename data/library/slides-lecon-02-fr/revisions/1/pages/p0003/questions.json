@@ -1,0 +1,289 @@
+{
+  "documentId": "slides-lecon-02-fr",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 哪国人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Personne de quel pays"
+        },
+        {
+          "id": "o1",
+          "text": "Personne de Pékin"
+        },
+        {
+          "id": "o2",
+          "text": "Personne française"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "哪国人 (nǎ guó rén) signifie littéralement « personne de quel pays » et sert à demander la nationalité.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0041"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle expression signifie « ne pas savoir (faire) ; ne pas pouvoir » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "不是"
+        },
+        {
+          "id": "o1",
+          "text": "不会"
+        },
+        {
+          "id": "o2",
+          "text": "哪国"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "不会 (bú huì) signifie « ne pas savoir (faire) » ou « ne pas pouvoir », tandis que 不是 signifie « ne pas être » et 哪国 signifie « quel pays ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0091"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère écrit signifie « parler » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "说"
+        },
+        {
+          "id": "o1",
+          "text": "会"
+        },
+        {
+          "id": "o2",
+          "text": "是"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "说 (shuō) signifie « parler », tandis que 会 signifie « savoir (faire) » et 是 signifie « être ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0072"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que demande 你是北京人吗？ ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Es-tu de Pékin ?"
+        },
+        {
+          "id": "o1",
+          "text": "Sais-tu parler chinois ?"
+        },
+        {
+          "id": "o2",
+          "text": "Quelle est ta nationalité ?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你是北京人吗？ demande « Es-tu de Pékin ? » (littéralement « Es-tu une personne de Pékin ? »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la réponse négative : ___，我不是北京人。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "不是"
+        },
+        {
+          "id": "o1",
+          "text": "不会"
+        },
+        {
+          "id": "o2",
+          "text": "哪国"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Une réponse négative à 你是北京人吗？ commence par 不是 (« Non »), en accord avec 我不是北京人 (« Je ne suis pas de Pékin »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0023"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Comment forme-t-on les mots de nationalité comme 英国人 et 日本人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "En ajoutant 人 après le nom du pays"
+        },
+        {
+          "id": "o1",
+          "text": "En ajoutant 文 après le nom du pays"
+        },
+        {
+          "id": "o2",
+          "text": "En ajoutant 吗 après le nom du pays"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Ajouter 人 (« personne ») après un nom de pays forme un nom de nationalité (p. ex. 法国人, 中国人, 日本人, 英国人).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0045"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Que demande le locuteur ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sais-tu parler chinois ?"
+        },
+        {
+          "id": "o1",
+          "text": "Es-tu de Pékin ?"
+        },
+        {
+          "id": "o2",
+          "text": "De quel pays es-tu ?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "La question prononcée est 你会说中文吗？ (« Sais-tu parler chinois ? »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0066"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你会说中文吗？",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle nationalité avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Français"
+        },
+        {
+          "id": "o1",
+          "text": "Japonais"
+        },
+        {
+          "id": "o2",
+          "text": "Britannique"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Le mot prononcé est 英国人 (Yīngguórén), qui signifie « Britannique ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-0062"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "英国人",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    }
+  ]
+}

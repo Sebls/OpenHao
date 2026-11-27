@@ -1,0 +1,39 @@
+{
+  "documentId": "slides-lecon-02-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "textSha256": "e8a87d1ecbe32304ce2d949e6b9e9a1a8c8ab758cab55de4ca13696d2e9f6d66",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, comparaison visuelle des sources et révision linguistique/questions ultérieure",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "phrases de dialogue et schéma grammatical",
+      "pageId": "p0004",
+      "reason": "L'API au niveau de la phrase et des schémas multi-propositions est omis ; le pinyin révisé et l'API en chiffres de Chao couvrent les 32 mots/expressions et 39 caractères de la page. Les numéros de liste (4–7) sont exclus des unités d'apprentissage en chinois.",
+      "nextAction": "Utiliser l'API révisé des mots et des caractères ; n'ajouter l'API de phrase qu'après une révision prosodique complète."
+    }
+  ],
+  "checks": [
+    "Comparaison des 11 lignes avec source.png de p0004, confirmant l'absence de titre et le texte exact (y compris 7很想，很喜欢，很爱)",
+    "Découpage de la ligne l0011 en trois unités de phrase distinctes (我很想喝茶。, 我很喜欢看小说。, 我很爱吃东西。)",
+    "Conservation des deux variantes orthographiques 作 (作什么工作) et 做 (做买卖) avec des notes pour débutants",
+    "Fourniture d'un speechTarget TTS développé pour 我学习中文/法语/日语/英语。",
+    "Révision du sandhi du 3e ton (法语, 很想, 很喜欢, 我很想), des tons neutres (什么, 学生, 妈妈, 喜欢, 东西, 吗) et de 不 (reste bù)",
+    "Révision des 10 questions dans les 7 catégories pour garantir une réponse unique défendable et des options normalisées uniques",
+    "Réparation ciblée (r2) : déduplication des constituentIds de e-p0004-word-015 (妈妈) en [\"e-p0004-char-020\"] et correction/clarification des pronunciationNotes de sandhi du 3e ton sur e-p0004-sentence-011 et e-p0004-sentence-012"
+  ],
+  "coverage": {
+    "embeddedCharacters": 117,
+    "chineseCharacters": 90,
+    "annotatedOccurrences": 165,
+    "entries": 84,
+    "dialogueSentences": 12,
+    "grammarPatterns": 1,
+    "reviewedQuestions": 10,
+    "extractionScope": "Page physique 4 sur 4 ; tous les caractères intégrés vérifiés",
+    "annotationScope": "Les 12 phrases de dialogue, 1 schéma de la section 7 et les 90 occurrences de sinogrammes ; marqueurs de liste 4–7 exclus"
+  }
+}

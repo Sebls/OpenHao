@@ -1,0 +1,33 @@
+{
+  "documentId": "slides-lecon-02-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "78e2cbf9a58365e54daf8521c35e02ed5bef0d3d34c515d1bc5657df29a6e9a9",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, comparaison visuelle des sources et révision linguistique/questions ultérieure",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "diapositive complète",
+      "pageId": "p0001",
+      "reason": "Leçon 2 est une diapositive de couverture uniquement en français avec 0 unité d'apprentissage en chinois ; conservée non prête à l'état extrait.",
+      "nextAction": "Aucune rédaction en chinois requise sauf si du contenu chinois est ajouté ultérieurement sur la couverture."
+    }
+  ],
+  "checks": [
+    "Comparaison visuelle de source.png de p0001 avec text.txt ('Leçon 2')",
+    "Classification du rôle de la ligne l0001 comme titre sans modifier la géométrie ni le texte",
+    "Vérification de 0 sinogramme et 0 unité d'apprentissage en chinois ; état de la page laissé à extrait"
+  ],
+  "coverage": {
+    "embeddedCharacters": 7,
+    "chineseCharacters": 0,
+    "annotatedOccurrences": 0,
+    "entries": 0,
+    "reviewedQuestions": 0,
+    "extractionScope": "Page physique 1 sur 4 (diapositive de couverture)",
+    "annotationScope": "Aucune ; diapositive de couverture uniquement en français exclue de l'étude du chinois"
+  }
+}

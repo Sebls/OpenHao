@@ -1,0 +1,37 @@
+{
+  "documentId": "slides-lecon-02-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "267e549efd33b40aafde24bb1edcd0fdb6737453b6f466543b92e7297d6bf1bb",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, comparaison visuelle des sources et révision linguistique/questions ultérieure",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "Titre de diapositive en français",
+      "pageId": "p0002",
+      "reason": "Le titre français « vocabulaire » est classé comme titre et exclu des unités d'apprentissage en chinois ; les 64 sinogrammes de la diapositive sont tous ancrés avec pinyin et API révisés.",
+      "nextAction": "Aucune action requise sauf si des annotations bilingues français/anglais du titre sont demandées."
+    }
+  ],
+  "checks": [
+    "Comparaison des 17 lignes de vocabulaire chinois et du titre avec source.png de p0002",
+    "Segmentation des lignes de vocabulaire horizontales sans espaces à l'aide de limites explicites de points de code Unicode",
+    "Vérification de la conservation à l'identique de l'orthographe 作买卖 et explication avec le moderne 做买卖",
+    "Révision du sandhi du 3e ton dans 法语 (Fǎyǔ [fa³⁵ y²¹⁴]), des tons neutres (名字, 朋友, 桌子, 吗, 啊) et de l'erhua (相片儿)",
+    "Révision des 8 questions de vocabulaire pour garantir une réponse unique défendable et des distracteurs sans chevauchement",
+    "Réparation ciblée (r2) : mise à jour de l'API de e-p0002-char-023 (片 piān) à [pʰjɛn⁵⁵] et clarification de la chute du -n / abaissement en [pʰjɑɻ⁵⁵] avec erhua dans 相片儿"
+  ],
+  "coverage": {
+    "embeddedCharacters": 75,
+    "chineseCharacters": 64,
+    "annotatedOccurrences": 97,
+    "entries": 72,
+    "vocabularyItems": 33,
+    "reviewedQuestions": 8,
+    "extractionScope": "Page physique 2 sur 4 ; tous les caractères intégrés vérifiés",
+    "annotationScope": "Les 33 éléments de vocabulaire chinois et les 64 occurrences de sinogrammes ; titre français « vocabulaire » exclu"
+  }
+}

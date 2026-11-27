@@ -1,0 +1,359 @@
+{
+  "documentId": "slides-lecon-02-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 喝茶 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Boire du thé"
+        },
+        {
+          "id": "o1",
+          "text": "Lire un roman"
+        },
+        {
+          "id": "o2",
+          "text": "Manger de la nourriture"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "喝茶 (hē chá) signifie « boire du thé ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0138"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « étudiant » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "工程师"
+        },
+        {
+          "id": "o1",
+          "text": "学生"
+        },
+        {
+          "id": "o2",
+          "text": "妈妈"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学生 (xuésheng) signifie « étudiant », tandis que 工程师 signifie « ingénieur » et 妈妈 signifie « mère ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0044"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère écrit signifie « manger » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "喝"
+        },
+        {
+          "id": "o1",
+          "text": "看"
+        },
+        {
+          "id": "o2",
+          "text": "吃"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "吃 (chī) signifie « manger », tandis que 喝 (hē) signifie « boire » et 看 (kàn) signifie « lire / regarder ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0162"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 我妈妈是工程师。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ma mère est ingénieure."
+        },
+        {
+          "id": "o1",
+          "text": "Je suis étudiant et je fais du commerce."
+        },
+        {
+          "id": "o2",
+          "text": "Ma mère veut aller en Chine."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我妈妈是工程师。 signifie « Ma mère est ingénieure. »",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 我很喜欢看小说。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "J'aime vraiment lire des romans."
+        },
+        {
+          "id": "o1",
+          "text": "J'ai vraiment envie de boire du thé."
+        },
+        {
+          "id": "o2",
+          "text": "J'adore manger."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我很喜欢看小说。 signifie « J'aime vraiment lire des romans. »",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0141"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la question : 你学习___？ (Qu'étudies-tu ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "什么"
+        },
+        {
+          "id": "o1",
+          "text": "吗"
+        },
+        {
+          "id": "o2",
+          "text": "工作"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "什么 (shénme, « quoi ») complète 你学习什么？ (« Qu'étudies-tu ? »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 我很___喝茶。 (J'ai vraiment envie de boire du thé.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "想"
+        },
+        {
+          "id": "o1",
+          "text": "去"
+        },
+        {
+          "id": "o2",
+          "text": "吃"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "想 (xiǎng, « vouloir ») complète 很___喝茶 pour exprimer « avoir vraiment envie de boire du thé ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0131"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Où se place 什么 (« quoi ») dans la question « 你学习什么？ » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Après le verbe, en position d'objet"
+        },
+        {
+          "id": "o1",
+          "text": "Avant le sujet, en début de phrase"
+        },
+        {
+          "id": "o2",
+          "text": "Après 吗 à la fin d'une question fermée"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Les mots interrogatifs chinois comme 什么 restent in-situ à la place de la réponse (après le verbe 学习), sans 吗.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Que demande le locuteur ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Veux-tu aller en Chine ?"
+        },
+        {
+          "id": "o1",
+          "text": "Quel travail fais-tu ?"
+        },
+        {
+          "id": "o2",
+          "text": "Qu'étudies-tu ?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "La question prononcée est 你想去中国吗？ (« Veux-tu aller en Chine ? »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0080"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你想去中国吗？",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0004-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle phrase avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "J'adore manger."
+        },
+        {
+          "id": "o1",
+          "text": "J'aime vraiment lire des romans."
+        },
+        {
+          "id": "o2",
+          "text": "J'ai vraiment envie de boire du thé."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "La phrase prononcée est 我很爱吃东西。 (« J'adore manger. »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0154"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我很爱吃东西。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    }
+  ]
+}

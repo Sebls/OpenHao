@@ -1,0 +1,359 @@
+{
+  "documentId": "slides-lecon-02",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 喝茶 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "To drink tea"
+        },
+        {
+          "id": "o1",
+          "text": "To read a novel"
+        },
+        {
+          "id": "o2",
+          "text": "To eat food"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "喝茶 (hē chá) means “to drink tea.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0138"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means “student”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "工程师"
+        },
+        {
+          "id": "o1",
+          "text": "学生"
+        },
+        {
+          "id": "o2",
+          "text": "妈妈"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学生 (xuésheng) means “student,” whereas 工程师 means “engineer” and 妈妈 means “mother.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0044"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written character means “to eat”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "喝"
+        },
+        {
+          "id": "o1",
+          "text": "看"
+        },
+        {
+          "id": "o2",
+          "text": "吃"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "吃 (chī) means “to eat,” while 喝 (hē) means “to drink” and 看 (kàn) means “to read / look at.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0162"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我妈妈是工程师。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "My mother is an engineer."
+        },
+        {
+          "id": "o1",
+          "text": "I am a student and I do business."
+        },
+        {
+          "id": "o2",
+          "text": "My mother wants to go to China."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我妈妈是工程师。 means “My mother is an engineer.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 我很喜欢看小说。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "I really like reading novels."
+        },
+        {
+          "id": "o1",
+          "text": "I really want to drink tea."
+        },
+        {
+          "id": "o2",
+          "text": "I really love eating."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我很喜欢看小说。 means “I really like reading novels.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0141"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the question: 你学习___？ (What are you studying?)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "什么"
+        },
+        {
+          "id": "o1",
+          "text": "吗"
+        },
+        {
+          "id": "o2",
+          "text": "工作"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "什么 (shénme, “what”) completes 你学习什么？ (“What are you studying?”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the sentence: 我很___喝茶。 (I really want to drink tea.)",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "想"
+        },
+        {
+          "id": "o1",
+          "text": "去"
+        },
+        {
+          "id": "o2",
+          "text": "吃"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "想 (xiǎng, “to want to”) fits 很___喝茶 to express “really want to drink tea.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0131"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0004-008",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Where does 什么 (“what”) appear in the question “你学习什么？”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "After the verb, in the object position"
+        },
+        {
+          "id": "o1",
+          "text": "Before the subject at the start of the sentence"
+        },
+        {
+          "id": "o2",
+          "text": "After 吗 at the end of a yes/no question"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Chinese wh-question words like 什么 stay in-situ in the answer slot (after the verb 学习), with no 吗.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0004-009",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. What is the speaker asking?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Do you want to go to China?"
+        },
+        {
+          "id": "o1",
+          "text": "What work do you do?"
+        },
+        {
+          "id": "o2",
+          "text": "What are you studying?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The spoken question is 你想去中国吗？ (“Do you want to go to China?”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0080"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "你想去中国吗？",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0004-010",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which sentence did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "I really love eating."
+        },
+        {
+          "id": "o1",
+          "text": "I really like reading novels."
+        },
+        {
+          "id": "o2",
+          "text": "I really want to drink tea."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The spoken sentence is 我很爱吃东西。 (“I really love eating.”).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0004-0154"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我很爱吃东西。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    }
+  ]
+}

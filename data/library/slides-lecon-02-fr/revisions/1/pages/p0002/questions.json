@@ -1,0 +1,289 @@
+{
+  "documentId": "slides-lecon-02-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 朋友 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ami"
+        },
+        {
+          "id": "o1",
+          "text": "Ingénieur"
+        },
+        {
+          "id": "o2",
+          "text": "Quotidien"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "朋友 (péngyou) signifie « ami ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 火车头 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Table"
+        },
+        {
+          "id": "o1",
+          "text": "Locomotive"
+        },
+        {
+          "id": "o2",
+          "text": "Roman"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "火车头 (huǒchētóu) signifie « locomotive ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0045"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot chinois signifie « carte de visite » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "名字"
+        },
+        {
+          "id": "o1",
+          "text": "名片"
+        },
+        {
+          "id": "o2",
+          "text": "相片儿"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名片 (míngpiàn) signifie « carte de visite », tandis que 名字 signifie « nom » et 相片儿 signifie « photographie ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0059"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « vouloir ; souhaiter » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "会"
+        },
+        {
+          "id": "o1",
+          "text": "想"
+        },
+        {
+          "id": "o2",
+          "text": "也"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "想 (xiǎng) signifie « vouloir » ou « souhaiter », tandis que 会 signifie « savoir (faire) » et 也 signifie « aussi ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0085"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère écrit signifie « acheter » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "卖"
+        },
+        {
+          "id": "o1",
+          "text": "买"
+        },
+        {
+          "id": "o2",
+          "text": "头"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "买 (mǎi) signifie « acheter », tandis que 卖 (mài) signifie « vendre » et 头 (tóu) signifie « tête ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quel est l'effet de 吗 placé à la fin d'une phrase affirmative ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "La transforme en question fermée (oui/non)"
+        },
+        {
+          "id": "o1",
+          "text": "Met un pronom au pluriel"
+        },
+        {
+          "id": "o2",
+          "text": "Signifie « aussi »"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "La particule au ton neutre 吗 (ma) transforme une phrase déclarative en question fermée (oui/non).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0091"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quel sens avez-vous entendu ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Travail ; métier"
+        },
+        {
+          "id": "o1",
+          "text": "Table ; bureau"
+        },
+        {
+          "id": "o2",
+          "text": "États-Unis"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Le mot prononcé est 工作 (gōngzuò), qui signifie « travail ; métier ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0080"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "工作",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quel élément avez-vous entendu ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Quotidien"
+        },
+        {
+          "id": "o1",
+          "text": "Roman"
+        },
+        {
+          "id": "o2",
+          "text": "Photographie"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Le mot prononcé est 相片儿 (xiàngpiānr), qui signifie « photographie ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-0068"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "相片儿",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "passe distincte source/contexte et linguistique ; aucune révision humaine revendiquée"
+      }
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "documentId": "slides-lecon-02",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 朋友 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Friend"
+        },
+        {
+          "id": "o1",
+          "text": "Engineer"
+        },
+        {
+          "id": "o2",
+          "text": "Daily newspaper"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "朋友 (péngyou) means “friend.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 火车头 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Table"
+        },
+        {
+          "id": "o1",
+          "text": "Locomotive"
+        },
+        {
+          "id": "o2",
+          "text": "Novel"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "火车头 (huǒchētóu) means “locomotive” or “train engine.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0045"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which Chinese word means “business card”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "名字"
+        },
+        {
+          "id": "o1",
+          "text": "名片"
+        },
+        {
+          "id": "o2",
+          "text": "相片儿"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "名片 (míngpiàn) means “business card,” whereas 名字 means “name” and 相片儿 means “photograph.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0059"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which word means “to want to”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "会"
+        },
+        {
+          "id": "o1",
+          "text": "想"
+        },
+        {
+          "id": "o2",
+          "text": "也"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "想 (xiǎng) means “to want to” or “would like to,” while 会 means “can” and 也 means “also.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0085"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which written character means “to buy”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "卖"
+        },
+        {
+          "id": "o1",
+          "text": "买"
+        },
+        {
+          "id": "o2",
+          "text": "头"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "买 (mǎi) means “to buy,” whereas 卖 (mài) means “to sell” and 头 (tóu) means “head.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "What does placing 吗 at the end of a statement do?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Turns it into a yes/no question"
+        },
+        {
+          "id": "o1",
+          "text": "Makes a pronoun plural"
+        },
+        {
+          "id": "o2",
+          "text": "Means “also”"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The neutral-tone particle 吗 (ma) turns a declarative statement into a yes/no question.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0091"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which meaning did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Work; job"
+        },
+        {
+          "id": "o1",
+          "text": "Table; desk"
+        },
+        {
+          "id": "o2",
+          "text": "United States"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The spoken word is 工作 (gōngzuò), meaning “work; job.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0080"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "工作",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    },
+    {
+      "id": "q-p0002-008",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which item did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Daily newspaper"
+        },
+        {
+          "id": "o1",
+          "text": "Novel"
+        },
+        {
+          "id": "o2",
+          "text": "Photograph"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The spoken word is 相片儿 (xiàngpiānr), meaning “photograph.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0002-0068"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "相片儿",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "separate source/context and linguistic pass; no human review claimed"
+      }
+    }
+  ]
+}

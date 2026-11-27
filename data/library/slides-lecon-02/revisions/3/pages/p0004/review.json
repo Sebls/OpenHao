@@ -1,0 +1,39 @@
+{
+  "documentId": "slides-lecon-02",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "textSha256": "e8a87d1ecbe32304ce2d949e6b9e9a1a8c8ab758cab55de4ca13696d2e9f6d66",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, source visual comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "dialogue sentences and grammar pattern",
+      "pageId": "p0004",
+      "reason": "Sentence-level and multi-clause pattern IPA is omitted; reviewed pinyin and Chao-numeral IPA cover all 32 words/expressions and 39 characters on the page. List numerals (4–7) are excluded from Chinese learning units.",
+      "nextAction": "Use the reviewed word and character IPA; add sentence IPA only after full prosodic review."
+    }
+  ],
+  "checks": [
+    "Compared all 11 lines against p0004 source.png, confirming no heading and verbatim text (including 7很想，很喜欢，很爱)",
+    "Split line l0011 into three distinct sentence units (我很想喝茶。, 我很喜欢看小说。, 我很爱吃东西。)",
+    "Preserved both 作 (作什么工作) and 做 (做买卖) orthographic variants with beginner notes",
+    "Supplied expanded TTS speechTarget for 我学习中文/法语/日语/英语。",
+    "Reviewed 3rd-tone sandhi (法语, 很想, 很喜欢, 我很想), neutral tones (什么, 学生, 妈妈, 喜欢, 东西, 吗), and 不 (stays bù)",
+    "Reviewed all 10 questions across all 7 categories for single defensible answer and unique normalized options",
+    "Targeted repair (r2): deduplicated e-p0004-word-015 (妈妈) constituentIds to [\"e-p0004-char-020\"] and corrected/clarified 3rd-tone sandhi pronunciationNotes on e-p0004-sentence-011 and e-p0004-sentence-012"
+  ],
+  "coverage": {
+    "embeddedCharacters": 117,
+    "chineseCharacters": 90,
+    "annotatedOccurrences": 165,
+    "entries": 84,
+    "dialogueSentences": 12,
+    "grammarPatterns": 1,
+    "reviewedQuestions": 10,
+    "extractionScope": "Physical page 4 of 4; all embedded characters verified",
+    "annotationScope": "All 12 dialogue sentences, 1 section-7 pattern, and all 90 Hanzi occurrences; list numerals 4–7 excluded"
+  }
+}
