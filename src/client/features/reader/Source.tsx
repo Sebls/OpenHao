@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import * as pdfjs from "pdfjs-dist";
 import worker from "pdfjs-dist/build/pdf.worker.min.mjs?url";
 import type { MouseEvent } from "react";
@@ -27,6 +28,7 @@ export function Source({
   showRegions: boolean;
   onSelect: (annotation: Annotation) => void;
 }) {
+  const { t } = useI18n();
   const canvas = useRef<HTMLCanvasElement>(null),
     host = useRef<HTMLDivElement>(null),
     [pdf, setPdf] = useState<pdfjs.PDFDocumentProxy | null>(null),
@@ -50,7 +52,9 @@ export function Source({
       .then(setPdf)
       .catch(() =>
         setError(
-          "The original page could not be opened. Use the original PDF link.",
+          t(
+            "The original page could not be opened. Use the original PDF link.",
+          ),
         ),
       );
     return () => {
@@ -96,7 +100,9 @@ export function Source({
                 e.name !== "RenderingCancelledException")
             )
               setError(
-                "Page display failed. Try another page or open the original PDF.",
+                t(
+                  "Page display failed. Try another page or open the original PDF.",
+                ),
               );
           }
         });
@@ -167,7 +173,10 @@ export function Source({
       >
         <canvas
           ref={canvas}
-          aria-label={`Original PDF, physical page ${page.pageNumber}. Learning text and controls follow below.`}
+          aria-label={t(
+            "Original PDF, physical page {value0}. Learning text and controls follow below.",
+            { value0: page.pageNumber },
+          )}
           role="img"
         />
         {rendered &&
@@ -189,7 +198,7 @@ export function Source({
               )),
             )}
         {!rendered && !error && (
-          <div className="loading">Opening original page…</div>
+          <div className="loading">{t("Opening original page…")}</div>
         )}
         {error && <p role="alert">{error}</p>}
         {preview?.entry && (

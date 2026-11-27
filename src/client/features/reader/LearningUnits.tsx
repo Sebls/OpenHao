@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import type { MouseEvent } from "react";
 import type { Annotation, PageContent } from "../../../contracts/content.ts";
 import { pinyin } from "../learning-details/pronunciation.ts";
@@ -14,29 +15,32 @@ export function LearningUnits({
   active: Annotation | null;
   choose: (annotation: Annotation, event?: MouseEvent<HTMLElement>) => void;
 }) {
+  const { t } = useI18n();
   return (
     <section className="companion">
       <details open>
-        <summary>Learning units</summary>
-        <p>Select a word on the page or explore the same material below.</p>
+        <summary>{t("Learning units")}</summary>
+        <p>
+          {t("Select a word on the page or explore the same material below.")}
+        </p>
         <label>
-          Explore{" "}
+          {t("Explore")}{" "}
           <select
             id="unit-kind"
             value={unitKind}
             onChange={(e) => onUnitKindChange(e.target.value)}
           >
-            <option value="word">Words</option>
-            <option value="character">Characters</option>
-            <option value="sentence">Sentences</option>
-            <option value="all">All units</option>
+            <option value="word">{t("Words")}</option>
+            <option value="character">{t("Characters")}</option>
+            <option value="sentence">{t("Sentences")}</option>
+            <option value="all">{t("All units")}</option>
           </select>
         </label>
         <div
           className="units"
           tabIndex={0}
           role="region"
-          aria-label="Scrollable learning units"
+          aria-label={t("Scrollable learning units")}
         >
           {content.annotations.annotations
             .filter((a) => a.reviewStatus === "reviewed")
@@ -58,24 +62,25 @@ export function LearningUnits({
         </div>
       </details>
       <details>
-        <summary>Transcription</summary>
+        <summary>{t("Transcription")}</summary>
         {content.review.issues.length > 0 && (
           <p className="coverage">
-            Some small decorative text is not transcribed; see coverage notes
-            below.
+            {t(
+              "Some small decorative text is not transcribed; see coverage notes below.",
+            )}
           </p>
         )}
         <pre
           lang="zh-CN"
           tabIndex={0}
           role="region"
-          aria-label="Scrollable transcription"
+          aria-label={t("Scrollable transcription")}
         >
           {content.text}
         </pre>
       </details>
       <details>
-        <summary>Page coverage notes</summary>
+        <summary>{t("Page coverage notes")}</summary>
         {content.review.issues.map((i, n) => (
           <p key={n}>{i.reason || i.message}</p>
         ))}
