@@ -1,3 +1,5 @@
+import type { Locale } from "../i18n/messages.ts";
+
 export type AppRoute =
   | { view: "library" }
   | {
@@ -36,7 +38,11 @@ function stripBase(pathname: string, baseUrl: string): string {
   return pathname || "/";
 }
 
-function parsePositiveInt(value: string | null | undefined): number | undefined {
+export { localeFromPath } from "../i18n/locale.ts";
+
+function parsePositiveInt(
+  value: string | null | undefined,
+): number | undefined {
   if (!value || !/^\d+$/.test(value)) return undefined;
   const n = Number(value);
   return Number.isSafeInteger(n) && n >= 1 ? n : undefined;
@@ -51,9 +57,9 @@ export function parseRoute(
   baseUrl = "/",
 ): AppRoute | null {
   const url = new URL(pathAndSearch, "http://localhost");
-  const relPath = stripBase(url.pathname, baseUrl);
-  const cleanPath =
-    relPath.length > 1 ? relPath.replace(/\/+$/, "") : relPath;
+  const relPath =
+    stripBase(url.pathname, baseUrl).replace(/^\/(en|fr)(?=\/|$)/, "") || "/";
+  const cleanPath = relPath.length > 1 ? relPath.replace(/\/+$/, "") : relPath;
 
   if (cleanPath === "/") {
     return { view: "library" };
@@ -110,8 +116,12 @@ export function parseRoute(
 /**
  * Formats an `AppRoute` into a URL path + query string prefixed with `baseUrl`.
  */
-export function formatRoute(route: AppRoute, baseUrl = "/"): string {
-  const base = normalizeBase(baseUrl);
+export function formatRoute(
+  route: AppRoute,
+  baseUrl = "/",
+  language?: Locale,
+): string {
+  const base = normalizeBase(baseUrl) + (language ? `${language}/` : "");
   const prefix = base === "/" ? "" : base.slice(0, -1);
 
   switch (route.view) {

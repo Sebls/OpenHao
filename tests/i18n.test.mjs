@@ -3,6 +3,11 @@ import assert from "node:assert/strict";
 import { en } from "../src/client/i18n/en.ts";
 import { fr } from "../src/client/i18n/fr.ts";
 import { translator } from "../src/client/i18n/messages.ts";
+import {
+  localeFromPath,
+  formatRoute,
+  parseRoute,
+} from "../src/client/app/router.ts";
 import { localizedDocumentGroups } from "../src/client/features/library/variants.ts";
 
 const placeholders = (value) =>
@@ -28,6 +33,40 @@ test("French catalog covers every English message and preserves interpolation pl
     translator("fr")("Pages {value0}", { value0: value }),
     `Pages ${value}`,
   );
+});
+
+test("locale routes round-trip all views, source anchors and custom deployment bases", () => {
+  const routes = [
+    { view: "library" },
+    {
+      view: "reader",
+      documentId: "lesson-fr",
+      pageNumber: 12,
+      annotationId: "字/1",
+    },
+    { view: "practice", documentId: "lesson-fr", pageNumber: 12 },
+    {
+      view: "writing",
+      documentId: "lesson-fr",
+      pageNumber: 12,
+      annotationId: "字/1",
+    },
+  ];
+  for (const base of ["/", "/chinois/"]) {
+    for (const language of ["en", "fr"]) {
+      for (const route of routes) {
+        const url = formatRoute(route, base, language);
+        assert.deepEqual(parseRoute(url, base), route);
+        assert.equal(localeFromPath(url.split("?")[0], base), language);
+      }
+    }
+  }
+  assert.equal(localeFromPath("/"), "en");
+  assert.equal(localeFromPath("/chinois/fr", "/chinois/"), "fr");
+  assert.equal(localeFromPath("/french/"), "en");
+  assert.equal(parseRoute("/de/"), null);
+  assert.deepEqual(parseRoute("/fr"), { view: "library" });
+  assert.equal(parseRoute("/fr/doc/lesson/page/0"), null);
 });
 
 test("localized libraries include only exact-language variants, with no English fallback", () => {
