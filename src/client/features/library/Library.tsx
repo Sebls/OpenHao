@@ -1,8 +1,14 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import type { Catalog, Manifest } from "../../../contracts/content.ts";
 import { useSequenceLayout } from "../../ui/SequenceLayout.tsx";
 import { documentTitle } from "./documentTitle.ts";
+import {
+  localizedDocumentGroups,
+  type TranslationLanguage,
+} from "./variants.ts";
 
 function PreparationProgress({ manifest }: { manifest: Manifest }) {
+  const { t, language } = useI18n();
   const ready = manifest.pages.filter((page) => page.state === "ready");
   const pending = manifest.pages.filter(
     (page) => page.state === "extracted" || page.state === "needs-review",
@@ -11,28 +17,35 @@ function PreparationProgress({ manifest }: { manifest: Manifest }) {
     <div className="preparation-progress">
       <div className="preparation-summary">
         <span>
-          {ready.length} of {manifest.source.pageCount} pages prepared
+          {t("{ready} of {total} pages prepared", {
+            ready: ready.length,
+            total: manifest.source.pageCount,
+          })}
         </span>
         <details className="prepared-pages">
           <summary
-            aria-label={`View prepared pages for ${documentTitle(manifest)}`}
-            title="View prepared pages"
+            aria-label={t("View prepared pages for {value0}", {
+              value0: documentTitle(manifest, language),
+            })}
+            title={t("View prepared pages")}
           >
             <span aria-hidden="true">ⓘ</span>
           </summary>
           <div className="prepared-page-info">
             <p>
-              <strong>Ready to study</strong>
+              <strong>{t("Ready to study")}</strong>
               <br />
               {ready.length
-                ? `Pages ${ready.map((page) => page.pageNumber).join(", ")}`
-                : "No pages prepared yet."}
+                ? t("Pages {value0}", {
+                    value0: ready.map((page) => page.pageNumber).join(", "),
+                  })
+                : t("No pages prepared yet.")}
             </p>
             {pending.length > 0 && (
               <p>
-                <strong>Awaiting review</strong>
+                <strong>{t("Awaiting review")}</strong>
                 <br />
-                Pages {pending.map((page) => page.pageNumber).join(", ")}
+                {t("Pages")} {pending.map((page) => page.pageNumber).join(", ")}
               </p>
             )}
           </div>
@@ -41,7 +54,9 @@ function PreparationProgress({ manifest }: { manifest: Manifest }) {
       <progress
         value={ready.length}
         max={manifest.source.pageCount}
-        aria-label={`Prepared pages for ${documentTitle(manifest)}`}
+        aria-label={t("Prepared pages for {value0}", {
+          value0: documentTitle(manifest, language),
+        })}
       />
     </div>
   );
@@ -50,42 +65,47 @@ function PreparationProgress({ manifest }: { manifest: Manifest }) {
 export function Library({
   catalog,
   open,
+  language,
 }: {
   catalog: Catalog;
+  language: TranslationLanguage;
   open: (manifest: Manifest) => void;
 }) {
+  const { t } = useI18n();
   const [layout, changeLayout] = useSequenceLayout(
     "reader.library-layout",
     "grid",
   );
+  const groups = localizedDocumentGroups(catalog.documents, language);
   return (
     <main className="library">
-      <p className="eyebrow">YOUR LEARNING SPACE</p>
+      <p className="eyebrow">{t("YOUR LEARNING SPACE")}</p>
       <h1>
-        A little Chinese,
+        {t("A little Chinese,")}
         <br />
-        one page at a time.
+        {t("one page at a time.")}
       </h1>
       <p className="intro">
-        Read the original. Explore its words. Make them yours.
+        {t("Read the original. Explore its words. Make them yours.")}
       </p>
       <div className="library-label">
-        <h2>Your library</h2>
+        <h2>{t("Your library")}</h2>
         <div className="library-actions">
           <span>
-            {catalog.documents.length} document
-            {catalog.documents.length !== 1 ? "s" : ""}
+            {t(groups.length === 1 ? "{count} document" : "{count} documents", {
+              count: groups.length,
+            })}
           </span>
           <div
             className="library-view-controls"
             role="group"
-            aria-label="Library view"
+            aria-label={t("Library view")}
           >
             <button
               type="button"
               className="icon-control"
-              aria-label="List view"
-              title="List view"
+              aria-label={t("List view")}
+              title={t("List view")}
               aria-pressed={layout === "row"}
               onClick={() => changeLayout("row")}
             >
@@ -96,8 +116,8 @@ export function Library({
             <button
               type="button"
               className="icon-control"
-              aria-label="Grid view"
-              title="Grid view"
+              aria-label={t("Grid view")}
+              title={t("Grid view")}
               aria-pressed={layout === "grid"}
               onClick={() => changeLayout("grid")}
             >
@@ -112,42 +132,52 @@ export function Library({
         </div>
       </div>
       <div className={`documents${layout === "grid" ? " is-grid" : ""}`}>
-        {catalog.documents.map((manifest) => (
-          <article
-            className="document"
-            key={manifest.documentId}
-            aria-label={documentTitle(manifest)}
-          >
-            <div className="book-mark" aria-hidden="true">
-              <span lang="zh-CN">你好</span>
-              <small>MANDARIN · BEGINNER</small>
-            </div>
-            <div className="document-content">
-              <p className="eyebrow">
-                ORIGINAL PDF · {manifest.source.pageCount} PAGES
-              </p>
-              <h2>{documentTitle(manifest)}</h2>
-              <p>Concise English explanations, pronunciation, and practice.</p>
-              <PreparationProgress manifest={manifest} />
-              <button className="primary" onClick={() => open(manifest)}>
-                Open document
-              </button>
-            </div>
-          </article>
-        ))}
+        {groups.map((variants) => {
+          const manifest = variants[0];
+          return (
+            <article
+              className="document"
+              key={
+                manifest.variantGroup
+                  ? `group:${manifest.variantGroup}`
+                  : `document:${manifest.documentId}`
+              }
+              aria-label={documentTitle(manifest, language)}
+            >
+              <div className="book-mark" aria-hidden="true">
+                <span lang="zh-CN">你好</span>
+                <small>{t("MANDARIN · BEGINNER")}</small>
+              </div>
+              <div className="document-content">
+                <div className="document-metadata">
+                  <p className="eyebrow">
+                    {t("ORIGINAL PDF · {count} PAGES", {
+                      count: manifest.source.pageCount,
+                    })}
+                  </p>
+                </div>
+                <h2>{documentTitle(manifest, language)}</h2>
+                <p>{t("Concise explanations, pronunciation, and practice.")}</p>
+                <PreparationProgress manifest={manifest} />
+                <button className="primary" onClick={() => open(manifest)}>
+                  {t("Open document")}
+                </button>
+              </div>
+            </article>
+          );
+        })}
       </div>
-      {!catalog.documents.length && (
-        <p>
-          No prepared documents yet. Ask the agent to prepare a PDF and physical
-          pages.
-        </p>
+      {!groups.length && (
+        <p>{t("No documents are available in this language yet.")}</p>
       )}
       {catalog.issues.map((i) => (
         <p key={i.documentId} role="status">
-          A document needs attention: {i.documentId}. {i.message}
+          {t("A document needs attention:")} {i.documentId}. {i.message}
         </p>
       ))}
-      <p className="footnote">Session progress resets when you reload.</p>
+      <p className="footnote">
+        {t("Session progress resets when you reload.")}
+      </p>
     </main>
   );
 }

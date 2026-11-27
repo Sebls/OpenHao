@@ -125,7 +125,12 @@ function addHanziFromText(text: string | undefined, out: Set<string>): void {
 export function extractQuestionHanzi(
   question: Pick<
     Question,
-    "prompt" | "speechTarget" | "options" | "entryIds" | "sourceAnnotationIds" | "pageId"
+    | "prompt"
+    | "speechTarget"
+    | "options"
+    | "entryIds"
+    | "sourceAnnotationIds"
+    | "pageId"
   >,
   pages: Record<string, PageContent>,
 ): string[] {
@@ -197,7 +202,11 @@ export function recordAnswer(
     version: 1,
     questions: {
       ...history.questions,
-      [question.id]: incrementStat(history.questions[question.id], correct, now),
+      [question.id]: incrementStat(
+        history.questions[question.id],
+        correct,
+        now,
+      ),
     },
     topics: {
       ...history.topics,
@@ -211,6 +220,7 @@ export function recordAnswer(
 export function topicStatsSummary(
   questions: readonly Question[],
   history: PracticeHistory,
+  language: "en" | "fr" = "en",
 ): TopicSummary[] {
   const seenTopics: string[] = [];
   const seen = new Set<string>();
@@ -230,7 +240,7 @@ export function topicStatsSummary(
     const mastery = attempts > 0 ? correct / attempts : 0;
     return {
       topic,
-      label: formatTopicLabel(topic),
+      label: formatTopicLabel(topic, language),
       color: topicColor(topic, index),
       attempts,
       correct,

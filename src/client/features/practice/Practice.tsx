@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import type {
   Manifest,
   PageContent,
@@ -32,6 +33,7 @@ export function Practice({
   manifest: Manifest;
   pages: Record<string, PageContent>;
 }) {
+  const { t } = useI18n();
   const q = s.questions[s.index];
   const done = s.finished || !q || s.index >= s.questions.length;
 
@@ -50,13 +52,17 @@ export function Practice({
     const total = records.length;
     return (
       <section className="practice">
-        <p className="eyebrow">SESSION COMPLETE</p>
+        <p className="eyebrow">{t("SESSION COMPLETE")}</p>
         <h2>
-          {total - mistakes.length} of {total} correct
+          {t("{correct} of {total} correct", {
+            correct: total - mistakes.length,
+            total,
+          })}
         </h2>
         <p>
-          This is your session result. Take your time with the words that need
-          another look.
+          {t(
+            "This is your session result. Take your time with the words that need another look.",
+          )}
         </p>
         {mistakes.map((rec, idx) => {
           const item = rec.question;
@@ -70,15 +76,17 @@ export function Practice({
                 </p>
               )}
               <p className="answer-incorrect">
-                ✕ Your answer:{" "}
+                {t("✕ Your answer:")}{" "}
                 {item.options.find((o) => o.id === rec.choice)?.text}
               </p>
               <p className="answer-correct">
-                ✓ Correct answer:{" "}
+                {t("✓ Correct answer:")}{" "}
                 {item.options.find((o) => o.id === item.correctOptionId)?.text}
               </p>
               <p>{item.explanation}</p>
-              <button onClick={() => source(item)}>See original context</button>
+              <button onClick={() => source(item)}>
+                {t("See original context")}
+              </button>
             </article>
           );
         })}
@@ -87,11 +95,11 @@ export function Practice({
             className="primary"
             onClick={() => dispatch({ type: "retry" })}
           >
-            Retry mistakes
+            {t("Retry mistakes")}
           </button>
         )}{" "}
-        <button onClick={back}>Return to reading</button>{" "}
-        <button onClick={newSession}>New session</button>
+        <button onClick={back}>{t("Return to reading")}</button>{" "}
+        <button onClick={newSession}>{t("New session")}</button>
       </section>
     );
   }
@@ -100,15 +108,25 @@ export function Practice({
   const totalCount = s.targetCount ?? s.questions.length;
   const correct = isCorrect(q, s.choice);
   const phrase = questionPhrase(q, pages);
-  const topicLabel = formatTopicLabel(questionTopic(q));
+  const topicLabel = formatTopicLabel(
+    questionTopic(q),
+    manifest.translationLanguage,
+  );
 
   return (
     <section className="practice">
       <div className="practice-header-row">
         <p className="eyebrow">
           {isInfinite
-            ? `QUESTION ${s.index + 1} · INFINITE · ${topicLabel.toUpperCase()}`
-            : `QUESTION ${s.index + 1} OF ${totalCount} · ${topicLabel.toUpperCase()}`}
+            ? t("QUESTION {value0} · INFINITE · {value1}", {
+                value0: s.index + 1,
+                value1: topicLabel.toUpperCase(),
+              })
+            : t("QUESTION {value0} OF {value1} · {value2}", {
+                value0: s.index + 1,
+                value1: totalCount,
+                value2: topicLabel.toUpperCase(),
+              })}
         </p>
         {isInfinite && (
           <button
@@ -116,13 +134,13 @@ export function Practice({
             className="quiet"
             onClick={() => dispatch({ type: "finish" })}
           >
-            Finish session
+            {t("Finish session")}
           </button>
         )}
       </div>
       {!isInfinite && <progress max={totalCount} value={s.index} />}
       <fieldset disabled={s.checked}>
-        <legend>{q.prompt}</legend>
+        <legend lang={q.promptLanguage}>{q.prompt}</legend>
         {phrase && (
           <p className="practice-phrase" lang="zh-CN">
             {phrase}
@@ -151,14 +169,20 @@ export function Practice({
                 checked={s.choice === o.id}
                 onChange={() => dispatch({ type: "choose", optionId: o.id })}
               />
-              <span lang={/[\u3400-\u9fff]/.test(o.text) ? "zh-CN" : "en"}>
+              <span
+                lang={
+                  /[\u3400-\u9fff]/.test(o.text)
+                    ? "zh-CN"
+                    : manifest.translationLanguage
+                }
+              >
                 {o.text}
               </span>
               {s.checked && o.id === q.correctOptionId && (
-                <span className="answer-label">✓ Correct answer</span>
+                <span className="answer-label">{t("✓ Correct answer")}</span>
               )}
               {s.checked && s.choice === o.id && o.id !== q.correctOptionId && (
-                <span className="answer-label">✕ Your answer</span>
+                <span className="answer-label">{t("✕ Your answer")}</span>
               )}
             </label>
           ))}
@@ -174,7 +198,7 @@ export function Practice({
               onAnswer(q, correct);
             }}
           >
-            Check answer
+            {t("Check answer")}
           </button>
         </div>
       ) : (
@@ -183,26 +207,30 @@ export function Practice({
           role="status"
         >
           <h3>
-            {correct ? "✓ Correct" : "✕ Incorrect — let’s take another look"}
+            {correct
+              ? t("✓ Correct")
+              : t("✕ Incorrect — let’s take another look")}
           </h3>
           {!correct && (
             <p>
-              Correct answer:{" "}
+              {t("Correct answer:")}{" "}
               {q.options.find((o) => o.id === q.correctOptionId)?.text}
             </p>
           )}
-          <h4>Why this answer</h4>
-          <p>{q.explanation}</p>
+          <h4>{t("Why this answer")}</h4>
+          <p lang={q.explanationLanguage}>{q.explanation}</p>
           <div className="practice-actions-inline">
-            <button onClick={() => source(q)}>See original context</button>
+            <button onClick={() => source(q)}>
+              {t("See original context")}
+            </button>
             <button className="primary" onClick={onNext}>
               {!isInfinite && s.index + 1 >= totalCount
-                ? "See results"
-                : "Continue →"}
+                ? t("See results")
+                : t("Continue →")}
             </button>
           </div>
           <details>
-            <summary>Correction reference</summary>
+            <summary>{t("Correction reference")}</summary>
             <input
               readOnly
               value={`${manifest.documentId}:${q.pageId}:question:${q.id}@r${manifest.contentRevision}`}

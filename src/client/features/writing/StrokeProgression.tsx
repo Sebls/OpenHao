@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import {
   SequenceLayoutControls,
   useSequenceLayout,
@@ -11,6 +12,7 @@ export function StrokeProgression({
   character: string;
   strokes: string[];
 }) {
+  const { t } = useI18n();
   const { ref, overflows } = useSequenceOverflow(strokes.length, 72);
   const [preferredLayout, changeLayout] = useSequenceLayout(
     "reader.stroke-progression-layout",
@@ -19,17 +21,17 @@ export function StrokeProgression({
   return (
     <section
       className="stroke-progression"
-      aria-label={`Stroke progression for ${character}`}
+      aria-label={t("Stroke progression for {value0}", { value0: character })}
     >
       <div className="stroke-progression-header">
-        <p className="field-label">Stroke by stroke</p>
+        <p className="field-label">{t("Stroke by stroke")}</p>
         {overflows && (
           <SequenceLayoutControls
-            label="Stroke diagram layout"
+            label={t("Stroke diagram layout")}
             layout={layout}
             onChange={changeLayout}
-            rowLabel="Scrolling row"
-            gridLabel="Grid"
+            rowLabel={t("Scrolling row")}
+            gridLabel={t("Grid")}
           />
         )}
       </div>
@@ -39,10 +41,10 @@ export function StrokeProgression({
         role="region"
         aria-label={
           !overflows
-            ? "Stroke diagrams"
+            ? t("Stroke diagrams")
             : layout === "row"
-              ? "Stroke diagrams, scroll horizontally for more"
-              : "Stroke diagrams in a grid"
+              ? t("Stroke diagrams, scroll horizontally for more")
+              : t("Stroke diagrams in a grid")
         }
         tabIndex={overflows && layout === "row" ? 0 : undefined}
       >
@@ -52,7 +54,11 @@ export function StrokeProgression({
               <div
                 className="hanzi-grid stroke-step"
                 role="img"
-                aria-label={`${character}: strokes 1–${index + 1} of ${strokes.length}`}
+                aria-label={t("{value0}: strokes 1–{value1} of {value2}", {
+                  value0: character,
+                  value1: index + 1,
+                  value2: strokes.length,
+                })}
               >
                 <svg viewBox="0 0 260 260" aria-hidden="true">
                   <g transform={strokeDiagramTransform}>
