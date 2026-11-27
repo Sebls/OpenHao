@@ -1,3 +1,5 @@
+import { formatTopicLabel } from "./topics.ts";
+import { useI18n } from "../../i18n/I18n.tsx";
 import { useState } from "react";
 import type { TopicSummary } from "./history.ts";
 import type { PracticeMode } from "./session.ts";
@@ -19,6 +21,7 @@ export function PracticeSetup({
   onStart: (mode: PracticeMode, targetCount: number | null) => void;
   onBack: () => void;
 }) {
+  const { t, language } = useI18n();
   const [choice, setChoice] = useState<LengthChoice>(
     questionCount > 0 && questionCount < 10 ? 5 : 10,
   );
@@ -36,23 +39,27 @@ export function PracticeSetup({
       : choice;
 
   return (
-    <section className="practice practice-setup" aria-label="Practice setup">
+    <section
+      className="practice practice-setup"
+      aria-label={t("Practice setup")}
+    >
       <p className="eyebrow">
         {scopeLabel.toUpperCase()} · {questionCount}{" "}
-        {questionCount === 1 ? "QUESTION" : "QUESTIONS"} AVAILABLE
+        {t(questionCount === 1 ? "QUESTION AVAILABLE" : "QUESTIONS AVAILABLE")}
       </p>
-      <h2>Choose your session</h2>
+      <h2>{t("Choose your session")}</h2>
       <p className="practice-setup-note">
-        Questions are chosen adaptively based on your topic mastery, missed
-        Hanzi characters, and recency.
+        {t(
+          "Questions are chosen adaptively based on your topic mastery, missed Hanzi characters, and recency.",
+        )}
       </p>
 
       <div className="setup-section">
-        <h3>Session length</h3>
+        <h3>{t("Session length")}</h3>
         <div
           className="setup-modes"
           role="radiogroup"
-          aria-label="Session length"
+          aria-label={t("Session length")}
         >
           {PRESET_COUNTS.map((count) => (
             <button
@@ -63,7 +70,7 @@ export function PracticeSetup({
               className={choice === count ? "mode-pill active" : "mode-pill"}
               onClick={() => setChoice(count)}
             >
-              {count} questions
+              {t("{count} questions", { count })}
             </button>
           ))}
           <button
@@ -73,7 +80,7 @@ export function PracticeSetup({
             className={choice === "custom" ? "mode-pill active" : "mode-pill"}
             onClick={() => setChoice("custom")}
           >
-            Custom
+            {t("Custom")}
           </button>
           <button
             type="button"
@@ -82,13 +89,13 @@ export function PracticeSetup({
             className={isInfinite ? "mode-pill active" : "mode-pill"}
             onClick={() => setChoice("infinite")}
           >
-            Infinite
+            {t("Infinite")}
           </button>
         </div>
 
         {choice === "custom" && (
           <label className="setup-custom">
-            <span>Number of questions</span>
+            <span>{t("Number of questions")}</span>
             <input
               type="number"
               min={1}
@@ -109,11 +116,16 @@ export function PracticeSetup({
             }
           >
             {isInfinite
-              ? "Start infinite session"
-              : `Start ${targetCount} ${targetCount === 1 ? "question" : "questions"}`}
+              ? t("Start infinite session")
+              : t(
+                  targetCount === 1
+                    ? "Start {count} question"
+                    : "Start {count} questions",
+                  { count: targetCount },
+                )}
           </button>
           <button type="button" onClick={onBack}>
-            Return to reading
+            {t("Return to reading")}
           </button>
         </div>
       </div>
@@ -121,33 +133,35 @@ export function PracticeSetup({
       {topicStats.length > 0 && (
         <div className="setup-section">
           <div className="setup-section-head">
-            <h3>Topic mastery</h3>
-            <span className="setup-hint">Saved in this browser</span>
+            <h3>{t("Topic mastery")}</h3>
+            <span className="setup-hint">{t("Saved in this browser")}</span>
           </div>
-          <ul className="topic-bars" aria-label="Topic mastery bar plot">
-            {topicStats.map((t) => {
-              const pct = Math.round(t.mastery * 100);
+          <ul className="topic-bars" aria-label={t("Topic mastery bar plot")}>
+            {topicStats.map((topic) => {
+              const pct = Math.round(topic.mastery * 100);
               return (
-                <li key={t.topic} className="topic-bar-row">
+                <li key={topic.topic} className="topic-bar-row">
                   <div className="topic-bar-meta">
                     <span className="topic-bar-name">
                       <span
                         className="topic-dot"
-                        style={{ backgroundColor: t.color }}
+                        style={{ backgroundColor: topic.color }}
                         aria-hidden="true"
                       />
-                      {t.label}
+                      {formatTopicLabel(topic.topic, language)}
                     </span>
                     <span className="topic-bar-value">
-                      {t.attempts > 0
-                        ? `${pct}% (${t.correct}/${t.attempts})`
-                        : "Not practised"}
+                      {topic.attempts > 0
+                        ? `${pct}% (${topic.correct}/${topic.attempts})`
+                        : t("Not practised")}
                     </span>
                   </div>
                   <div
                     className="topic-bar-track"
                     role="progressbar"
-                    aria-label={`${t.label} mastery`}
+                    aria-label={t("{topic} mastery", {
+                      topic: formatTopicLabel(topic.topic, language),
+                    })}
                     aria-valuenow={pct}
                     aria-valuemin={0}
                     aria-valuemax={100}
@@ -155,8 +169,8 @@ export function PracticeSetup({
                     <div
                       className="topic-bar-fill"
                       style={{
-                        width: `${t.attempts > 0 ? Math.max(4, pct) : 0}%`,
-                        backgroundColor: t.color,
+                        width: `${topic.attempts > 0 ? Math.max(4, pct) : 0}%`,
+                        backgroundColor: topic.color,
                       }}
                     />
                   </div>

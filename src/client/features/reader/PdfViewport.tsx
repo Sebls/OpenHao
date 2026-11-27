@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import type { ReactNode, RefObject } from "react";
 import { useLayoutEffect, useRef, useState } from "react";
 
@@ -16,6 +17,7 @@ export function PdfViewport({
   pageRatio: number;
   originalHref: string;
 }) {
+  const { t } = useI18n();
   const drag = useRef<{
     id: number;
     x: number;
@@ -59,14 +61,18 @@ export function PdfViewport({
     <>
       <div className="pdf-toolbar">
         <p className="pdf-hint" id="pdf-mouse-help">
-          Drag to pan · Scroll to move
+          {t("Drag to pan · Scroll to move")}
         </p>
-        <div className="pdf-zoom-controls" role="group" aria-label="PDF zoom">
+        <div
+          className="pdf-zoom-controls"
+          role="group"
+          aria-label={t("PDF zoom")}
+        >
           <button
             type="button"
             className="icon-control"
-            aria-label="Fit PDF width"
-            title="Fit width"
+            aria-label={t("Fit PDF width")}
+            title={t("Fit width")}
             aria-pressed={fit === "width"}
             onClick={() => {
               setFit("width");
@@ -85,8 +91,8 @@ export function PdfViewport({
           <button
             type="button"
             className="icon-control"
-            aria-label="Fit PDF height"
-            title="Fit height"
+            aria-label={t("Fit PDF height")}
+            title={t("Fit height")}
             aria-pressed={fit === "height"}
             onClick={() => {
               setFit("height");
@@ -104,14 +110,14 @@ export function PdfViewport({
           <button
             type="button"
             className="icon-control"
-            aria-label="Zoom out"
+            aria-label={t("Zoom out")}
             disabled={zoom <= 25}
             onClick={() => changeZoom(Math.max(25, Math.round(zoom) - 25))}
           >
             −
           </button>
           <label>
-            <span className="sr-only">Page size</span>
+            <span className="sr-only">{t("Page size")}</span>
             <select
               value={zoom}
               onChange={(e) => {
@@ -125,7 +131,7 @@ export function PdfViewport({
               <option value={25}>25%</option>
               <option value={50}>50%</option>
               <option value={75}>75%</option>
-              <option value={100}>Fit width</option>
+              <option value={100}>{t("Fit width")}</option>
               {![25, 50, 75, 100, 125, 150, 200, 300].includes(zoom) && (
                 <option value={zoom}>{Math.round(zoom)}%</option>
               )}
@@ -138,7 +144,7 @@ export function PdfViewport({
           <button
             type="button"
             className="icon-control"
-            aria-label="Zoom in"
+            aria-label={t("Zoom in")}
             disabled={zoom >= 300}
             onClick={() => changeZoom(Math.min(300, Math.round(zoom) + 25))}
           >
@@ -151,7 +157,7 @@ export function PdfViewport({
         ref={viewportRef}
         tabIndex={0}
         role="region"
-        aria-label="Scrollable original page"
+        aria-label={t("Scrollable original page")}
         aria-describedby="pdf-mouse-help"
         onPointerDown={(event) => {
           if (
@@ -229,7 +235,7 @@ export function PdfViewport({
         target="_blank"
         rel="noreferrer"
       >
-        Open original PDF ↗
+        {t("Open original PDF ↗")}
       </a>
     </>
   );

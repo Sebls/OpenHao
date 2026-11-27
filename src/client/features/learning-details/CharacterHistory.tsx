@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import React from "react";
 import type { Entry } from "../../../contracts/content.ts";
 import {
@@ -36,6 +37,7 @@ const historyByCharacter = new Map(
 );
 
 export function CharacterHistory({ entry }: { entry: Entry }) {
+  const { t } = useI18n();
   const character = entry.form;
   const history = historyByCharacter.get(character);
   const { ref, overflows } = useSequenceOverflow(
@@ -51,7 +53,7 @@ export function CharacterHistory({ entry }: { entry: Entry }) {
   const { assetPath, forms, meaning, origin } = history;
   return (
     <details className="character-history" open>
-      <summary>Character history</summary>
+      <summary>{t("Character history")}</summary>
       {meaning && (
         <figure className="history-meaning">
           <img
@@ -65,14 +67,14 @@ export function CharacterHistory({ entry }: { entry: Entry }) {
         </figure>
       )}
       <div className="stroke-progression-header">
-        <p className="field-label">Character evolution</p>
+        <p className="field-label">{t("Character evolution")}</p>
         {overflows && (
           <SequenceLayoutControls
-            label="Character history layout"
+            label={t("Character history layout")}
             layout={layout}
             onChange={changeLayout}
-            rowLabel="Scrolling row"
-            gridLabel="Grid"
+            rowLabel={t("Scrolling row")}
+            gridLabel={t("Grid")}
           />
         )}
       </div>
@@ -82,10 +84,10 @@ export function CharacterHistory({ entry }: { entry: Entry }) {
         role="region"
         aria-label={
           !overflows
-            ? "Character forms"
+            ? t("Character forms")
             : layout === "row"
-              ? "Character forms, scroll horizontally for more"
-              : "Character forms in a grid"
+              ? t("Character forms, scroll horizontally for more")
+              : t("Character forms in a grid")
         }
         tabIndex={overflows && layout === "row" ? 0 : undefined}
       >
@@ -117,7 +119,7 @@ export function CharacterHistory({ entry }: { entry: Entry }) {
               >
                 {character}
               </div>
-              <figcaption>Modern</figcaption>
+              <figcaption>{t("Modern")}</figcaption>
             </figure>
           </li>
         </ol>

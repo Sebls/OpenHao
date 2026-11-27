@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 type Writer = ReturnType<typeof createWriter>["writer"];
 interface BoardCallbacks {
   stroke: number;
@@ -42,9 +43,10 @@ export function WritingBoard({
   pinyin,
   onRestart,
 }: BoardProps) {
+  const { t } = useI18n();
   const host = useRef<HTMLDivElement>(null),
     callbacks = useRef<BoardCallbacks>({ stroke, completed });
-  const [status, setStatus] = useState("Loading stroke order…"),
+  const [status, setStatus] = useState(t("Loading stroke order…")),
     [error, setError] = useState(false),
     [retry, setRetry] = useState(0);
   const [playing, setPlaying] = useState(false),
@@ -71,7 +73,7 @@ export function WritingBoard({
     const controller = new AbortController();
     let disposed = false,
       resource: ReturnType<typeof createWriter> | undefined;
-    setStatus("Loading stroke order…");
+    setStatus(t("Loading stroke order…"));
     setError(false);
     setStrokeData(null);
     setPlaying(false);
@@ -93,7 +95,10 @@ export function WritingBoard({
         async function startQuiz() {
           if (disposed) return;
           setStatus(
-            `Draw stroke ${callbacks.current.stroke + 1} of ${data.strokes.length}.`,
+            t("Draw stroke {value0} of {value1}.", {
+              value0: callbacks.current.stroke + 1,
+              value1: data.strokes.length,
+            }),
           );
           await resource!.writer.quiz({
             quizStartStrokeNum: callbacks.current.stroke,
@@ -105,15 +110,20 @@ export function WritingBoard({
               callbacks.current.onStroke?.(result.strokeNum + 1);
               setStatus(
                 result.strokesRemaining
-                  ? `Correct. Draw stroke ${result.strokeNum + 2} of ${data.strokes.length}.`
-                  : "Character complete. Well done.",
+                  ? t("Correct. Draw stroke {value0} of {value1}.", {
+                      value0: result.strokeNum + 2,
+                      value1: data.strokes.length,
+                    })
+                  : t("Character complete. Well done."),
               );
             },
             onMistake: () => {
               if (disposed) return;
               callbacks.current.onMistake?.();
               setStatus(
-                "Try again. Follow the stroke order and direction. A hint appears after two misses.",
+                t(
+                  "Try again. Follow the stroke order and direction. A hint appears after two misses.",
+                ),
               );
             },
             onComplete: () => {
@@ -126,14 +136,18 @@ export function WritingBoard({
         else
           setStatus(
             mode === "quiz"
-              ? "Character complete. Well done."
-              : `${data.strokes.length} strokes. Play when you’re ready.`,
+              ? t("Character complete. Well done.")
+              : t("{value0} strokes. Play when you’re ready.", {
+                  value0: data.strokes.length,
+                }),
           );
       } catch (e) {
         if (disposed || (e instanceof Error && e.name === "AbortError")) return;
         setError(true);
         setStatus(
-          "Stroke data could not be loaded for this character. Try again or choose another character.",
+          t(
+            "Stroke data could not be loaded for this character. Try again or choose another character.",
+          ),
         );
         callbacks.current.onUnavailable?.();
       }
@@ -153,7 +167,7 @@ export function WritingBoard({
     if (!writer) return;
     setPlaying(true);
     setPaused(false);
-    setStatus("Watch the stroke order and direction.");
+    setStatus(t("Watch the stroke order and direction."));
     if (mode === "quiz") {
       try {
         await demonstrateRemainingStrokes(
@@ -165,7 +179,9 @@ export function WritingBoard({
         );
       } catch {
         if (instance.current === writer)
-          setStatus("Example could not finish. Your drawing progress is kept.");
+          setStatus(
+            t("Example could not finish. Your drawing progress is kept."),
+          );
       } finally {
         if (instance.current === writer) setPlaying(false);
       }
@@ -174,7 +190,7 @@ export function WritingBoard({
     const result = await writer.animateCharacter();
     if (instance.current !== writer || result?.canceled) return;
     setPlaying(false);
-    setStatus("Animation finished. Replay whenever you like.");
+    setStatus(t("Animation finished. Replay whenever you like."));
     callbacks.current.onDemoComplete?.();
   }
   return (
@@ -183,19 +199,24 @@ export function WritingBoard({
         ref={host}
         className={`hanzi-grid ${mode === "quiz" ? "is-writing" : ""}`}
         role="img"
-        aria-label={`${mode === "quiz" ? "Drawing area" : "Stroke order"} for ${character}`}
+        aria-label={t("{value0} for {value1}", {
+          value0: mode === "quiz" ? t("Drawing area") : t("Stroke order"),
+          value1: character,
+        })}
       />
       {compact && (
         <p className="character-pinyin" lang="zh-Latn" aria-label="Pinyin">
-          {pinyin || "Pinyin unavailable"}
+          {pinyin || t("Pinyin unavailable")}
         </p>
       )}
       {compact && (
         <div className="character-controls">
           <button
             className="icon-control"
-            aria-label={`Play remaining strokes for ${character}`}
-            title="Play remaining strokes"
+            aria-label={t("Play remaining strokes for {value0}", {
+              value0: character,
+            })}
+            title={t("Play remaining strokes")}
             disabled={!instance.current || playing || completed || error}
             onClick={play}
           >
@@ -203,8 +224,8 @@ export function WritingBoard({
           </button>
           <button
             className="icon-control"
-            aria-label={`Restart ${character}`}
-            title="Restart character"
+            aria-label={t("Restart {value0}", { value0: character })}
+            title={t("Restart character")}
             onClick={onRestart}
           >
             <span aria-hidden="true">↺</span>
@@ -217,17 +238,17 @@ export function WritingBoard({
             className="icon-control"
             aria-label={
               playing && !paused
-                ? `Pause stroke order for ${character}`
+                ? t("Pause stroke order for {value0}", { value0: character })
                 : paused
-                  ? `Resume stroke order for ${character}`
-                  : `Play stroke order for ${character}`
+                  ? t("Resume stroke order for {value0}", { value0: character })
+                  : t("Play stroke order for {value0}", { value0: character })
             }
             title={
               playing && !paused
-                ? "Pause stroke order"
+                ? t("Pause stroke order")
                 : paused
-                  ? "Resume stroke order"
-                  : "Play stroke order"
+                  ? t("Resume stroke order")
+                  : t("Play stroke order")
             }
             disabled={!instance.current}
             onClick={() => {
@@ -238,8 +259,8 @@ export function WritingBoard({
               setPaused(!paused);
               setStatus(
                 paused
-                  ? "Watch the stroke order and direction."
-                  : "Animation paused.",
+                  ? t("Watch the stroke order and direction.")
+                  : t("Animation paused."),
               );
             }}
           >
@@ -249,7 +270,9 @@ export function WritingBoard({
       )}
       <p role="status">{status}</p>
       {error && (
-        <button onClick={() => setRetry((n) => n + 1)}>Retry loading</button>
+        <button onClick={() => setRetry((n) => n + 1)}>
+          {t("Retry loading")}
+        </button>
       )}
       {mode === "watch" && !error && strokeData?.character === character && (
         <StrokeProgression character={character} strokes={strokeData.strokes} />

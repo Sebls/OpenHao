@@ -38,6 +38,10 @@ Defaults above guide implementation without another setup questionnaire. Do not 
 
 Use the [current visual design and reference roles](design-references/README.md). Reference 2 guides minimal structure and spacing; reference 1 supplies fonts, colors and finishing details. These decisions override conflicting older visual defaults. Always prefer the agent browser, such as the Codex browser, for content and interface review. Record capability limits honestly.
 
+### English/French lesson variants · 2026-11-27
+
+Issue #11 adds a saved explanation-language preference (EN/FR), with English fallback when French is unavailable. The interface stays English. Optional `variantGroup` metadata links parallel v1 packages into one library card. Switching in Reader or Writing retains the physical page and annotation; switching in Practice retains the page scope and reloads the selected language's question bank in setup. Leçon 00 is the pilot using its existing French translation. Stable category IDs remain unchanged; French practice displays “Chinese → French” and “French → Chinese.” This overrides the earlier English-only teaching scope for paired materials.
+
 ## 2. Product and deployment
 
 ### Writing practice update · 2026-11-23
@@ -179,3 +183,9 @@ R29. Use stored preferences and routine agent judgment to minimize questions. On
 4. Confirm actual review/coverage evidence for Lesson 1 and subsequently requested pages. No whole-document completion gate or routine human sign-off is required.
 
 These choices do not require starting application implementation during this documentation task.
+
+### Platform localization update · 2026-11-27
+
+The platform now supports English and French through `/en/` and `/fr/` routes, including under a configured deployment base path. Two simple EN/FR buttons in the header switch the entire site language. The URL determines the interface language and document availability; it supersedes the earlier English-only interface and saved explanation-language preference with English fallback. Each library lists only packages whose `translationLanguage` matches its site language, grouping matching variants without falling back to another language. A document available in both languages appears on both sites. Direct links cannot display a mismatched-language document.
+
+This change covers platform labels, help, accessibility text, state messages, practice category labels, and existing presentation-only document names. It does not translate or republish library documents, questions, explanations, source PDFs, character-history records, or authored metadata. Switching paired variants retains the page/source reference and reloads the appropriate material (practice returns to setup); if no counterpart exists, switching opens the destination language's library. See [localization maintenance](localization.md).

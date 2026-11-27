@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import type { ReactNode } from "react";
 import { useLayoutEffect, useRef, useState } from "react";
 
@@ -8,6 +9,7 @@ export function ReadingLayout({
   children: ReactNode;
   details: ReactNode;
 }) {
+  const { t } = useI18n();
   const host = useRef<HTMLDivElement>(null);
   const drag = useRef<{ id: number; x: number; width: number } | null>(null);
   const [width, setWidth] = useState(440);
@@ -41,13 +43,13 @@ export function ReadingLayout({
             className="details-resizer"
             role="separator"
             tabIndex={0}
-            aria-label="Resize learning details"
+            aria-label={t("Resize learning details")}
             aria-orientation="vertical"
             aria-valuemin={300}
             aria-valuemax={maximum}
             aria-valuenow={actual}
             aria-valuetext={`${Math.round(actual)} pixels`}
-            title="Drag to resize details. Use arrow keys to adjust."
+            title={t("Drag to resize details. Use arrow keys to adjust.")}
             onPointerDown={(event) => {
               if (event.button !== 0) return;
               event.preventDefault();

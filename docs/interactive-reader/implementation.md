@@ -117,3 +117,15 @@ See [current visual design and reference roles](design-references/README.md) for
 ## TypeScript structure · 2026-11-23
 
 The browser, local server, and content commands now live under `src/client`, `src/server`, and `src/content`, with shared definitions in `src/contracts`. See [TypeScript architecture and development](typescript-architecture.md) for module ownership, state, runtime validation, commands, and checks. The Python extractor remains in `tools/`. Existing npm launch and preparation commands, private library paths, revision publication, and correction references remain compatible.
+
+## Explanation languages · 2026-11-27
+
+The library groups manifests sharing an optional `variantGroup` into one card. Choose EN or FR on the card, then open the document. The preference is saved as `reader.translation-language` in browser storage; unavailable storage falls back to an in-memory preference, and lessons without French open in English. Direct URLs always open the requested document regardless of preference.
+
+Paired lessons also show EN/FR beside their study heading. Reader and Writing switches keep the physical page and annotation. Practice switches keep the current page scope (or whole-document scope), clear the previous session, and return to setup with the selected language's reviewed questions. The interface remains English, while prepared meanings, questions, options, and feedback use the chosen package. Bundled character-history and pronunciation guidance remain English.
+
+Leçon 00 uses English revision 4 and French revision 2 to add the shared group metadata. All existing page files, including translations, remain byte-for-byte unchanged from English revision 3 and French revision 1; earlier revisions remain available. Page 27 retains its reference-only status and is not promoted to ready.
+
+### English and French platform routes
+
+Use `/en/` or `/fr/` and the header's EN/FR buttons to choose the platform language. The matching library shows only documents available in that language. Switching a paired document preserves its page/source reference; otherwise the destination library opens. Library contents are not translated by this interface change. The URL supersedes the former saved explanation-language fallback. See [localization maintenance](localization.md) for translation catalogs, route behavior, and validation.

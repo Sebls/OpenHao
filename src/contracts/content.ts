@@ -151,6 +151,7 @@ export interface Manifest {
   title: string;
   sourceLanguage: string;
   translationLanguage: "en" | "fr";
+  variantGroup?: string;
   source: {
     pathBase: "data-root";
     path: string;

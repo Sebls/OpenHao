@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import { useEffect, useRef, useState } from "react";
 import { WritingBoard } from "./WritingBoard.tsx";
 import type {
@@ -20,11 +21,15 @@ function CharacterPractice({
   visible: boolean;
   dispatch: (action: WritingAction) => void;
 }) {
+  const { t } = useI18n();
   const [unavailable, setUnavailable] = useState(false);
   return (
     <section
       className="character-practice"
-      aria-label={`Character ${index + 1}: ${character}`}
+      aria-label={t("Character {value0}: {value1}", {
+        value0: index + 1,
+        value1: character,
+      })}
     >
       <span className="character-number">{index + 1}</span>
       <WritingBoard
@@ -47,14 +52,14 @@ function CharacterPractice({
         className={`character-result ${progress.completed ? "answer-correct" : ""}`}
       >
         {progress.completed
-          ? "✓ Written"
+          ? t("✓ Written")
           : progress.skipped
-            ? "Skipped"
-            : `${progress.mistakes} retries`}
+            ? t("Skipped")
+            : t("{count} retries", { count: progress.mistakes })}
       </p>
       {unavailable && !progress.skipped && (
         <button onClick={() => dispatch({ type: "skip", index })}>
-          Skip unavailable character
+          {t("Skip unavailable character")}
         </button>
       )}
     </section>
@@ -72,6 +77,7 @@ export function WritingPractice({
   visible: boolean;
   back: () => void;
 }) {
+  const { t } = useI18n();
   const [helpOpen, setHelpOpen] = useState(false);
   const heading = useRef<HTMLHeadingElement>(null);
   useEffect(() => {
@@ -84,10 +90,12 @@ export function WritingPractice({
     <section
       className="practice writing-practice"
       hidden={!visible}
-      aria-label="Writing practice"
+      aria-label={t("Writing practice")}
     >
       <p className="eyebrow">
-        {done ? "WRITING SESSION COMPLETE" : "WRITING PRACTICE · STROKE ORDER"}
+        {done
+          ? t("WRITING SESSION COMPLETE")
+          : t("WRITING PRACTICE · STROKE ORDER")}
       </p>
       <h2 ref={heading} tabIndex={-1} lang="zh-CN">
         {s.form}
@@ -100,19 +108,22 @@ export function WritingPractice({
         </p>
       )}
       <progress
-        aria-label="Characters completed"
+        aria-label={t("Characters completed")}
         max={s.characters.length}
         value={written + skipped}
       />
       <div className="writing-progress-row">
         <p className="writing-total" role="status">
-          {written} of {s.characters.length} characters written
-          {skipped ? ` · ${skipped} skipped` : ""}.
+          {t("{written} of {total} characters written", {
+            written,
+            total: s.characters.length,
+          })}
+          {skipped ? t(" · {count} skipped", { count: skipped }) : ""}.
         </p>
         <button
           className="writing-help-toggle"
-          aria-label="Writing help"
-          title="Writing help"
+          aria-label={t("Writing help")}
+          title={t("Writing help")}
           aria-expanded={helpOpen}
           aria-controls={`writing-help-${s.id}`}
           onClick={() => setHelpOpen((open) => !open)}
@@ -125,9 +136,9 @@ export function WritingPractice({
         className="writing-help"
         hidden={!helpOpen}
       >
-        Draw with your mouse, finger, or pen. Follow each character’s stroke
-        order and direction. Watch an example whenever you need it; your
-        accepted strokes are kept.
+        {t(
+          "Draw with your mouse, finger, or pen. Follow each character’s stroke order and direction. Watch an example whenever you need it; your accepted strokes are kept.",
+        )}
       </p>
       <div className="writing-boards">
         {s.characters.map((character, index) => (
@@ -144,10 +155,12 @@ export function WritingPractice({
       </div>
       {done && (
         <div className="writing-summary" role="status">
-          <h3>Writing session complete</h3>
+          <h3>{t("Writing session complete")}</h3>
           <p>
-            {s.progress.reduce((sum, p) => sum + p.mistakes, 0)} stroke retries.{" "}
-            {skipped} skipped.
+            {t("{retries} stroke retries. {skipped} skipped.", {
+              retries: s.progress.reduce((sum, p) => sum + p.mistakes, 0),
+              skipped,
+            })}
           </p>
         </div>
       )}
@@ -157,22 +170,22 @@ export function WritingPractice({
             className="primary"
             onClick={() => dispatch({ type: "restart" })}
           >
-            Practise again
+            {t("Practise again")}
           </button>
         )}
-        <button onClick={back}>Return to reading</button>
+        <button onClick={back}>{t("Return to reading")}</button>
       </div>
       <p className="footnote">
-        Writing progress stays in this session and resets when you reload.
-        Drawing requires a pointer; you can watch stroke order using the
-        keyboard.
+        {t(
+          "Writing progress stays in this session and resets when you reload. Drawing requires a pointer; you can watch stroke order using the keyboard.",
+        )}
       </p>
       <p className="footnote">
-        Stroke animations and checking by{" "}
+        {t("Stroke animations and checking by")}{" "}
         <a href="https://hanziwriter.org/" target="_blank" rel="noreferrer">
           Hanzi Writer
         </a>
-        . Character data: Make Me a Hanzi / Arphic Public License.
+        {t(". Character data: Make Me a Hanzi / Arphic Public License.")}
       </p>
     </section>
   );

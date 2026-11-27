@@ -23,6 +23,7 @@
     "title": { "type": "string", "minLength": 1 },
     "sourceLanguage": { "type": "string" },
     "translationLanguage": { "enum": ["en", "fr"] },
+    "variantGroup": { "type": "string", "minLength": 1 },
     "source": {
       "type": "object",
       "required": ["pathBase", "path", "sha256", "bytes", "pageCount"],

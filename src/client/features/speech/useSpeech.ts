@@ -1,7 +1,10 @@
+import { useI18n } from "../../i18n/I18n.tsx";
+import type { MessageKey } from "../../i18n/en.ts";
 import { useEffect, useRef, useState } from "react";
 export function useSpeech() {
+  const { t } = useI18n();
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]),
-    [status, setStatus] = useState(""),
+    [status, setStatus] = useState<MessageKey | "">(""),
     [working, setWorking] = useState(false),
     [activeText, setActiveText] = useState<string | null>(null);
   const timer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined),
@@ -71,7 +74,8 @@ export function useSpeech() {
     voiceName: voices[0]?.name,
     working,
     activeText,
-    status,
+    failed: status === "Audio could not play. Try again.",
+    status: status ? t(status) : "",
     speak,
     stop,
   };
