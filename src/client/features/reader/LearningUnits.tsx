@@ -1,4 +1,5 @@
 import { useI18n } from "../../i18n/I18n.tsx";
+import { translateContent } from "../../i18n/content.ts";
 import type { MouseEvent } from "react";
 import type { Annotation, PageContent } from "../../../contracts/content.ts";
 import { pinyin } from "../learning-details/pronunciation.ts";
@@ -15,7 +16,7 @@ export function LearningUnits({
   active: Annotation | null;
   choose: (annotation: Annotation, event?: MouseEvent<HTMLElement>) => void;
 }) {
-  const { t } = useI18n();
+  const { t, language } = useI18n();
   return (
     <section className="companion">
       <details open>
@@ -82,7 +83,9 @@ export function LearningUnits({
       <details>
         <summary>{t("Page coverage notes")}</summary>
         {content.review.issues.map((i, n) => (
-          <p key={n}>{i.reason || i.message}</p>
+          <p key={n}>
+            {translateContent(i.reason || i.message || "", language)}
+          </p>
         ))}
       </details>
     </section>
