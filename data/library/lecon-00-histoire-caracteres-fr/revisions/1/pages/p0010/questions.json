@@ -1,0 +1,986 @@
+{
+  "documentId": "lecon-00-histoire-caracteres-fr",
+  "pageId": "p0010",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0010-001",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 小山 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "petite montagne"
+        },
+        {
+          "id": "o2",
+          "text": "gros poisson"
+        },
+        {
+          "id": "o3",
+          "text": "cheval blanc"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "小 signifie « small; 山 means mountain ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0064"
+      ],
+      "entryIds": [
+        "e-p0010-031"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0010-002",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez « grand cheval blanc ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "小白马"
+        },
+        {
+          "id": "o2",
+          "text": "大白马"
+        },
+        {
+          "id": "o3",
+          "text": "小白门"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "大 = grand, 白 = blanc, 马 = cheval.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0073"
+      ],
+      "entryIds": [
+        "e-p0010-038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0010-003",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « montagne » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "山"
+        },
+        {
+          "id": "o2",
+          "text": "木"
+        },
+        {
+          "id": "o3",
+          "text": "肉"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "山 signifie « montagne » ; 木 signifie « arbre / bois » ; 肉 signifie « viande ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0026"
+      ],
+      "entryIds": [
+        "e-p0010-021"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0010-004",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Quel aliment 羊肉 désigne-t-il ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "viande de cheval"
+        },
+        {
+          "id": "o2",
+          "text": "poisson"
+        },
+        {
+          "id": "o3",
+          "text": "viande de mouton ou d'agneau"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "羊肉 est la viande de mouton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0068"
+      ],
+      "entryIds": [
+        "e-p0010-035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0010-005",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez « petite porte blanche » : 小白＿.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "马"
+        },
+        {
+          "id": "o2",
+          "text": "门"
+        },
+        {
+          "id": "o3",
+          "text": "山"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "门 signifie « porte » ; 马 est « cheval » et 山 est « montagne ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0075"
+      ],
+      "entryIds": [
+        "e-p0010-040"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0010-006",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez le sens.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "femme"
+        },
+        {
+          "id": "o2",
+          "text": "cheval blanc"
+        },
+        {
+          "id": "o3",
+          "text": "petite montagne"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "女人 signifie « femme ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0076"
+      ],
+      "entryIds": [
+        "e-p0010-041"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      },
+      "speechTarget": "女人"
+    },
+    {
+      "id": "q-p0010-007",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 大山 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-007-o1",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0010-007-o2",
+          "text": "petite montagne"
+        },
+        {
+          "id": "q-p0010-007-o3",
+          "text": "petit poisson"
+        }
+      ],
+      "correctOptionId": "q-p0010-007-o1",
+      "explanation": "大山 (dà shān) signifie « grande montagne ». 大 qualifie 山.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0065"
+      ],
+      "entryIds": [
+        "e-p0010-032"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-008",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « petite montagne » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-008-o1",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0010-008-o2",
+          "text": "小鱼"
+        },
+        {
+          "id": "q-p0010-008-o3",
+          "text": "小山"
+        }
+      ],
+      "correctOptionId": "q-p0010-008-o3",
+      "explanation": "« petite montagne » se dit 小山 (xiǎo shān).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0064"
+      ],
+      "entryIds": [
+        "e-p0010-031"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-009",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « chuān » signifiant « rivière ; fleuve ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-009-o1",
+          "text": "十"
+        },
+        {
+          "id": "q-p0010-009-o2",
+          "text": "川"
+        },
+        {
+          "id": "q-p0010-009-o3",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "q-p0010-009-o2",
+      "explanation": "川 se prononce chuān et signifie « rivière ; fleuve ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0001"
+      ],
+      "entryIds": [
+        "e-p0010-001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-010",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-010-o1",
+          "text": "小山"
+        },
+        {
+          "id": "q-p0010-010-o2",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0010-010-o3",
+          "text": "小鱼"
+        }
+      ],
+      "correctOptionId": "q-p0010-010-o1",
+      "explanation": "L'audio prononce 小山 (xiǎo shān), qui signifie « petite montagne ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0064"
+      ],
+      "entryIds": [
+        "e-p0010-031"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "小山",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-011",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 小山 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-011-o1",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0010-011-o2",
+          "text": "petit poisson"
+        },
+        {
+          "id": "q-p0010-011-o3",
+          "text": "petite montagne"
+        }
+      ],
+      "correctOptionId": "q-p0010-011-o3",
+      "explanation": "小山 (xiǎo shān) signifie « petite montagne ». 小 qualifie 山.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0064"
+      ],
+      "entryIds": [
+        "e-p0010-031"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-012",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 小鱼 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-012-o1",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0010-012-o2",
+          "text": "petit poisson"
+        },
+        {
+          "id": "q-p0010-012-o3",
+          "text": "petite montagne"
+        }
+      ],
+      "correctOptionId": "q-p0010-012-o2",
+      "explanation": "小鱼 (xiǎo yú) signifie « petit poisson ». 小 qualifie 鱼.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0066"
+      ],
+      "entryIds": [
+        "e-p0010-033"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-013",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « grande montagne » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-013-o1",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0010-013-o2",
+          "text": "小山"
+        },
+        {
+          "id": "q-p0010-013-o3",
+          "text": "小鱼"
+        }
+      ],
+      "correctOptionId": "q-p0010-013-o1",
+      "explanation": "« grande montagne » se dit 大山 (dà shān).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0065"
+      ],
+      "entryIds": [
+        "e-p0010-032"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-014",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « yǐ » signifiant « au moyen de ; avec ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-014-o1",
+          "text": "川"
+        },
+        {
+          "id": "q-p0010-014-o2",
+          "text": "十"
+        },
+        {
+          "id": "q-p0010-014-o3",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "q-p0010-014-o3",
+      "explanation": "以 se prononce yǐ et signifie « au moyen de ; avec ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0002"
+      ],
+      "entryIds": [
+        "e-p0010-002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-015",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-015-o1",
+          "text": "十"
+        },
+        {
+          "id": "q-p0010-015-o2",
+          "text": "川"
+        },
+        {
+          "id": "q-p0010-015-o3",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "q-p0010-015-o2",
+      "explanation": "L'audio prononce 川 (chuān), qui signifie « rivière ; fleuve ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0001"
+      ],
+      "entryIds": [
+        "e-p0010-001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "川",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-016",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 大山 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-016-o1",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0010-016-o2",
+          "text": "petite montagne"
+        },
+        {
+          "id": "q-p0010-016-o3",
+          "text": "petit poisson"
+        }
+      ],
+      "correctOptionId": "q-p0010-016-o1",
+      "explanation": "大山 (dà shān) signifie « grande montagne ». 大 qualifie 山.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0065"
+      ],
+      "entryIds": [
+        "e-p0010-032"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-017",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 大鱼 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-017-o1",
+          "text": "petite montagne"
+        },
+        {
+          "id": "q-p0010-017-o2",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0010-017-o3",
+          "text": "gros poisson"
+        }
+      ],
+      "correctOptionId": "q-p0010-017-o3",
+      "explanation": "大鱼 (dà yú) signifie « gros poisson ». 大 qualifie 鱼.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0067"
+      ],
+      "entryIds": [
+        "e-p0010-034"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-018",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « petit poisson » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-018-o1",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0010-018-o2",
+          "text": "小鱼"
+        },
+        {
+          "id": "q-p0010-018-o3",
+          "text": "小山"
+        }
+      ],
+      "correctOptionId": "q-p0010-018-o2",
+      "explanation": "« petit poisson » se dit 小鱼 (xiǎo yú).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0066"
+      ],
+      "entryIds": [
+        "e-p0010-033"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-019",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « shí » signifiant « dix ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-019-o1",
+          "text": "十"
+        },
+        {
+          "id": "q-p0010-019-o2",
+          "text": "川"
+        },
+        {
+          "id": "q-p0010-019-o3",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "q-p0010-019-o1",
+      "explanation": "十 se prononce shí et signifie « dix ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0003"
+      ],
+      "entryIds": [
+        "e-p0010-003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-020",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 小鱼 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-020-o1",
+          "text": "petite montagne"
+        },
+        {
+          "id": "q-p0010-020-o2",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0010-020-o3",
+          "text": "petit poisson"
+        }
+      ],
+      "correctOptionId": "q-p0010-020-o3",
+      "explanation": "小鱼 (xiǎo yú) signifie « petit poisson ». 小 qualifie 鱼.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0066"
+      ],
+      "entryIds": [
+        "e-p0010-033"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-021",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 马肉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-021-o1",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0010-021-o2",
+          "text": "viande de cheval"
+        },
+        {
+          "id": "q-p0010-021-o3",
+          "text": "petite montagne"
+        }
+      ],
+      "correctOptionId": "q-p0010-021-o2",
+      "explanation": "马肉 (mǎròu) signifie « viande de cheval ». 马 désigne l'animal ; 肉 signifie « viande ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0069"
+      ],
+      "entryIds": [
+        "e-p0010-036"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-022",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « gros poisson » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-022-o1",
+          "text": "大鱼"
+        },
+        {
+          "id": "q-p0010-022-o2",
+          "text": "小山"
+        },
+        {
+          "id": "q-p0010-022-o3",
+          "text": "大山"
+        }
+      ],
+      "correctOptionId": "q-p0010-022-o1",
+      "explanation": "« gros poisson » se dit 大鱼 (dà yú).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0067"
+      ],
+      "entryIds": [
+        "e-p0010-034"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-023",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « bái » signifiant « blanc ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-023-o1",
+          "text": "川"
+        },
+        {
+          "id": "q-p0010-023-o2",
+          "text": "以"
+        },
+        {
+          "id": "q-p0010-023-o3",
+          "text": "白"
+        }
+      ],
+      "correctOptionId": "q-p0010-023-o3",
+      "explanation": "白 se prononce bái et signifie « blanc ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0004"
+      ],
+      "entryIds": [
+        "e-p0010-004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-024",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 大鱼 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-024-o1",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0010-024-o2",
+          "text": "gros poisson"
+        },
+        {
+          "id": "q-p0010-024-o3",
+          "text": "petite montagne"
+        }
+      ],
+      "correctOptionId": "q-p0010-024-o2",
+      "explanation": "大鱼 (dà yú) signifie « gros poisson ». 大 qualifie 鱼.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0067"
+      ],
+      "entryIds": [
+        "e-p0010-034"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-025",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 白马 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-025-o1",
+          "text": "cheval blanc"
+        },
+        {
+          "id": "q-p0010-025-o2",
+          "text": "petite montagne"
+        },
+        {
+          "id": "q-p0010-025-o3",
+          "text": "grande montagne"
+        }
+      ],
+      "correctOptionId": "q-p0010-025-o1",
+      "explanation": "白马 (bái mǎ) signifie « cheval blanc ». La couleur 白 précède 马.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0070"
+      ],
+      "entryIds": [
+        "e-p0010-037"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-026",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « viande de mouton ; agneau » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-026-o1",
+          "text": "小山"
+        },
+        {
+          "id": "q-p0010-026-o2",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0010-026-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0010-026-o3",
+      "explanation": "« viande de mouton ; agneau » se dit 羊肉 (yángròu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0068"
+      ],
+      "entryIds": [
+        "e-p0010-035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-027",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « zhōng » signifiant « milieu ; centre ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-027-o1",
+          "text": "以"
+        },
+        {
+          "id": "q-p0010-027-o2",
+          "text": "中"
+        },
+        {
+          "id": "q-p0010-027-o3",
+          "text": "川"
+        }
+      ],
+      "correctOptionId": "q-p0010-027-o2",
+      "explanation": "中 se prononce zhōng et signifie « milieu ; centre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0005"
+      ],
+      "entryIds": [
+        "e-p0010-005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0010-028",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 羊肉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0010-028-o1",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0010-028-o2",
+          "text": "petite montagne"
+        },
+        {
+          "id": "q-p0010-028-o3",
+          "text": "grande montagne"
+        }
+      ],
+      "correctOptionId": "q-p0010-028-o1",
+      "explanation": "羊肉 (yángròu) signifie « viande de mouton ; agneau ». Viande de mouton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0068"
+      ],
+      "entryIds": [
+        "e-p0010-035"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

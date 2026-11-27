@@ -150,7 +150,7 @@ export interface Manifest {
   baseRevision?: number;
   title: string;
   sourceLanguage: string;
-  translationLanguage: "en";
+  translationLanguage: "en" | "fr";
   source: {
     pathBase: "data-root";
     path: string;

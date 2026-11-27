@@ -1,0 +1,78 @@
+{
+  "documentId": "lecon-00-histoire-caracteres-fr",
+  "pageId": "p0012",
+  "extractionRevision": 1,
+  "textSha256": "1d654192352b5428120898768870640f899c158015d1dd13fbc2911fddc38bce",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex — separate self-review pass, no human or independent reviewer",
+  "checks": [
+    "Compared all five selected rendered scans with OCR output; located missing whole-character examples manually before freezing revision 1.",
+    "Reviewed selected whole-character boxes, source quotes, role classification and page-local Unicode code-point anchors.",
+    "Reviewed polyphonic 种 zhòng, 看 kàn, 长 cháng and source-dependent readings; neutral syllable in 妈妈; 不 before 吃.",
+    "Reviewed city names and personal name 白木勺 as names; checked natural English sentence translations.",
+    "Reviewed all question choices for exactly one defensible answer, scope and source references.",
+    "Listening questions require successful local playback at runtime; disconnected audibility is not claimed.",
+    "Expanded reviewed question bank across page-scoped entries and annotations; verified distinct options, single correct option ID, and page-local sourceAnnotationIds."
+  ],
+  "coverage": {
+    "physicalPage": 12,
+    "transcriptCodePoints": 3425,
+    "characterGeometryRecords": 3139,
+    "reviewedLearningEntries": 52,
+    "reviewedOccurrences": 57,
+    "reviewedQuestions": 28,
+    "entriesWithReviewedIPA": 28,
+    "roles": {
+      "learning": "Whole characters, exercise phrases and complete reading sentences that could be visually verified.",
+      "instructions": "French source instructions retained as OCR text; not translated into invented Chinese learning targets.",
+      "diagrams": "Full selected glyphs only; intermediate stroke stages and faint tracing copies excluded.",
+      "headerFooter": "Retained as OCR, not learning targets."
+    },
+    "scope": "Requested physical pages only. Counts describe authored records, not a percentage of all visible glyphs. Partial extraction/annotation coverage is explicit."
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "pageId": "p0012",
+      "reason": "Handwritten intermediate stroke fragments, small source pinyin/French labels and faint repeated tracing models are imperfectly recovered by OCR. These regions are not learning targets; the unchanged source remains authoritative.",
+      "nextAction": "Use source.png/PDF for these regions. A later explicitly scoped extraction correction can transcribe them more completely."
+    },
+    {
+      "severity": "info",
+      "recordIds": [
+        "e-p0012-004",
+        "e-p0012-005",
+        "e-p0012-007",
+        "e-p0012-008",
+        "e-p0012-009",
+        "e-p0012-010",
+        "e-p0012-011",
+        "e-p0012-012",
+        "e-p0012-014",
+        "e-p0012-015",
+        "e-p0012-016",
+        "e-p0012-017",
+        "e-p0012-018",
+        "e-p0012-019",
+        "e-p0012-023",
+        "e-p0012-025",
+        "e-p0012-027",
+        "e-p0012-028",
+        "e-p0012-029",
+        "e-p0012-030",
+        "e-p0012-031",
+        "e-p0012-040",
+        "e-p0012-044",
+        "e-p0012-048"
+      ],
+      "reason": "Reviewed IPA is not available for these entries; tone-mark pinyin is available.",
+      "nextAction": "Add IPA only after a targeted linguistic review; no inferred IPA is displayed."
+    },
+    {
+      "severity": "info",
+      "reason": "Archaic non-autonomous components and radical shapes are not given standalone Mandarin readings. Modern complete characters are covered; historical component claims are not expanded.",
+      "nextAction": "Consult the unchanged source diagrams for non-character components."
+    }
+  ]
+}

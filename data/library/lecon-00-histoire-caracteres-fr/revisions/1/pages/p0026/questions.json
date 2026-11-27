@@ -1,0 +1,1135 @@
+{
+  "documentId": "lecon-00-histoire-caracteres-fr",
+  "pageId": "p0026",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0026-001",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Quelle ville est 上海 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Shanghai"
+        },
+        {
+          "id": "o2",
+          "text": "Canton"
+        },
+        {
+          "id": "o3",
+          "text": "Lhassa"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "上海 est Shanghai.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0093"
+      ],
+      "entryIds": [
+        "e-p0026-062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-002",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez le nom mandarin de Lhassa.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "上海"
+        },
+        {
+          "id": "o2",
+          "text": "广州"
+        },
+        {
+          "id": "o3",
+          "text": "拉萨"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "拉萨 est Lāsà, Lhassa.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0095"
+      ],
+      "entryIds": [
+        "e-p0026-064"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-003",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qu'évite de manger Maman dans cette phrase ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "du mouton ou de l'agneau"
+        },
+        {
+          "id": "o2",
+          "text": "toute viande"
+        },
+        {
+          "id": "o3",
+          "text": "du poisson"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Elle mange de la viande, mais ne mange pas de 羊肉, mouton ou agneau.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0096"
+      ],
+      "entryIds": [
+        "e-p0026-065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-004",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qu'est-ce qu'il veut apprendre ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "à conduire"
+        },
+        {
+          "id": "o2",
+          "text": "à lire des livres chinois"
+        },
+        {
+          "id": "o3",
+          "text": "à cultiver du thé"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学开车 signifie « apprendre à conduire ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0097"
+      ],
+      "entryIds": [
+        "e-p0026-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-005",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Qu'est-ce qu'elle aime vraiment faire ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "lire des livres en chinois"
+        },
+        {
+          "id": "o2",
+          "text": "conduire jusqu'à Pékin"
+        },
+        {
+          "id": "o3",
+          "text": "manger de l'agneau"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "爱看中文书 signifie « aimer lire des livres en chinois ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0098"
+      ],
+      "entryIds": [
+        "e-p0026-067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-006",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Qu'apporte 常 à la phrase 我常去北京。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "souvent"
+        },
+        {
+          "id": "o2",
+          "text": "jamais"
+        },
+        {
+          "id": "o3",
+          "text": "hier"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "常 exprime la fréquence : « Je vais souvent à Pékin. »",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0099"
+      ],
+      "entryIds": [
+        "e-p0026-068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-007",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez « Il veut apprendre à conduire » : 他要＿开车。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "学"
+        },
+        {
+          "id": "o2",
+          "text": "吃"
+        },
+        {
+          "id": "o3",
+          "text": "报"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学 signifie « apprendre » ; 学开车 signifie « apprendre à conduire ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0097"
+      ],
+      "entryIds": [
+        "e-p0026-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-008",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « apprendre » ou « étudier » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "学"
+        },
+        {
+          "id": "o2",
+          "text": "车"
+        },
+        {
+          "id": "o3",
+          "text": "肉"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "学 signifie « apprendre » ou « étudier ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0066"
+      ],
+      "entryIds": [
+        "e-p0026-046"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0026-009",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la ville.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Canton"
+        },
+        {
+          "id": "o2",
+          "text": "Shanghai"
+        },
+        {
+          "id": "o3",
+          "text": "Lhassa"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "广州 est Guǎngzhōu, Canton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0094"
+      ],
+      "entryIds": [
+        "e-p0026-063"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      },
+      "speechTarget": "广州"
+    },
+    {
+      "id": "q-p0026-010",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie the sentence 「我常去北京。」 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-010-o1",
+          "text": "Je vais souvent à Pékin."
+        },
+        {
+          "id": "q-p0026-010-o2",
+          "text": "Maman mange de la viande, mais elle ne mange pas de mouton."
+        },
+        {
+          "id": "q-p0026-010-o3",
+          "text": "Il veut apprendre à conduire."
+        }
+      ],
+      "correctOptionId": "q-p0026-010-o1",
+      "explanation": "「我常去北京。」 (wǒ cháng qù Běijīng) signifie « Je vais souvent à Pékin. ». 常 précède 去 et exprime la fréquence.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0099"
+      ],
+      "entryIds": [
+        "e-p0026-068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-011",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 羊肉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-011-o1",
+          "text": "manger du mouton ou de l'agneau"
+        },
+        {
+          "id": "q-p0026-011-o2",
+          "text": "Shanghai"
+        },
+        {
+          "id": "q-p0026-011-o3",
+          "text": "viande de mouton ; agneau"
+        }
+      ],
+      "correctOptionId": "q-p0026-011-o3",
+      "explanation": "羊肉 (yángròu) signifie « viande de mouton ; agneau ». Viande de mouton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0091"
+      ],
+      "entryIds": [
+        "e-p0026-060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-012",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « viande de mouton ; agneau » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-012-o1",
+          "text": "上海"
+        },
+        {
+          "id": "q-p0026-012-o2",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0026-012-o3",
+          "text": "吃羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-012-o2",
+      "explanation": "« viande de mouton ; agneau » se dit 羊肉 (yángròu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0091"
+      ],
+      "entryIds": [
+        "e-p0026-060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-013",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « sān » signifiant « trois ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-013-o1",
+          "text": "三"
+        },
+        {
+          "id": "q-p0026-013-o2",
+          "text": "六"
+        },
+        {
+          "id": "q-p0026-013-o3",
+          "text": "四"
+        }
+      ],
+      "correctOptionId": "q-p0026-013-o1",
+      "explanation": "三 se prononce sān et signifie « trois ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0001"
+      ],
+      "entryIds": [
+        "e-p0026-001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-014",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 「妈妈吃肉，可是不____。」 (Maman mange de la viande, mais elle ne mange pas de mouton.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-014-o1",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0026-014-o2",
+          "text": "上海"
+        },
+        {
+          "id": "q-p0026-014-o3",
+          "text": "吃羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-014-o3",
+      "explanation": "Le groupe manquant est 吃羊肉 (chī yángròu, « manger du mouton ou de l'agneau »), ce qui complète 「妈妈吃肉，可是不吃羊肉。」.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0096"
+      ],
+      "entryIds": [
+        "e-p0026-065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-015",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-015-o1",
+          "text": "上海"
+        },
+        {
+          "id": "q-p0026-015-o2",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0026-015-o3",
+          "text": "吃羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-015-o2",
+      "explanation": "L'audio prononce 羊肉 (yángròu), qui signifie « viande de mouton ; agneau ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0091"
+      ],
+      "entryIds": [
+        "e-p0026-060"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "羊肉",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-016",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 羊肉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-016-o1",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0026-016-o2",
+          "text": "manger du mouton ou de l'agneau"
+        },
+        {
+          "id": "q-p0026-016-o3",
+          "text": "Shanghai"
+        }
+      ],
+      "correctOptionId": "q-p0026-016-o1",
+      "explanation": "羊肉 (yángròu) signifie « viande de mouton ; agneau ». Viande de mouton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0091"
+      ],
+      "entryIds": [
+        "e-p0026-060"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-017",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 吃羊肉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-017-o1",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0026-017-o2",
+          "text": "Shanghai"
+        },
+        {
+          "id": "q-p0026-017-o3",
+          "text": "manger du mouton ou de l'agneau"
+        }
+      ],
+      "correctOptionId": "q-p0026-017-o3",
+      "explanation": "吃羊肉 (chī yángròu) signifie « manger du mouton ou de l'agneau ». 吃 est suivi de l'aliment.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0092"
+      ],
+      "entryIds": [
+        "e-p0026-061"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-018",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « manger du mouton ou de l'agneau » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-018-o1",
+          "text": "上海"
+        },
+        {
+          "id": "q-p0026-018-o2",
+          "text": "吃羊肉"
+        },
+        {
+          "id": "q-p0026-018-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-018-o2",
+      "explanation": "« manger du mouton ou de l'agneau » se dit 吃羊肉 (chī yángròu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0092"
+      ],
+      "entryIds": [
+        "e-p0026-061"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-019",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « liù » signifiant « six ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-019-o1",
+          "text": "六"
+        },
+        {
+          "id": "q-p0026-019-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0026-019-o3",
+          "text": "四"
+        }
+      ],
+      "correctOptionId": "q-p0026-019-o1",
+      "explanation": "六 se prononce liù et signifie « six ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0002"
+      ],
+      "entryIds": [
+        "e-p0026-002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-020",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 「她很爱看____书。」 (Elle aime beaucoup lire des livres en chinois.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-020-o1",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0026-020-o2",
+          "text": "吃羊肉"
+        },
+        {
+          "id": "q-p0026-020-o3",
+          "text": "中文"
+        }
+      ],
+      "correctOptionId": "q-p0026-020-o3",
+      "explanation": "Le mot manquant est 中文 (Zhōngwén, « chinois (langue écrite) »), ce qui complète 「她很爱看中文书。」.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0098"
+      ],
+      "entryIds": [
+        "e-p0026-067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-021",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le phrase chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-021-o1",
+          "text": "她很爱看中文书。"
+        },
+        {
+          "id": "q-p0026-021-o2",
+          "text": "妈妈吃肉，可是不吃羊肉。"
+        },
+        {
+          "id": "q-p0026-021-o3",
+          "text": "他要学开车。"
+        }
+      ],
+      "correctOptionId": "q-p0026-021-o2",
+      "explanation": "L'audio prononce 妈妈吃肉，可是不吃羊肉。 (māma chī ròu, kěshì bù chī yángròu), qui signifie « Maman mange de la viande, mais elle ne mange pas de mouton. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0096"
+      ],
+      "entryIds": [
+        "e-p0026-065"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "妈妈吃肉，可是不吃羊肉。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-022",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 吃羊肉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-022-o1",
+          "text": "manger du mouton ou de l'agneau"
+        },
+        {
+          "id": "q-p0026-022-o2",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0026-022-o3",
+          "text": "Shanghai"
+        }
+      ],
+      "correctOptionId": "q-p0026-022-o1",
+      "explanation": "吃羊肉 (chī yángròu) signifie « manger du mouton ou de l'agneau ». 吃 est suivi de l'aliment.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0092"
+      ],
+      "entryIds": [
+        "e-p0026-061"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-023",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 广州 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-023-o1",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0026-023-o2",
+          "text": "manger du mouton ou de l'agneau"
+        },
+        {
+          "id": "q-p0026-023-o3",
+          "text": "Canton (Guangzhou)"
+        }
+      ],
+      "correctOptionId": "q-p0026-023-o3",
+      "explanation": "广州 (Guǎngzhōu) signifie « Canton (Guangzhou) ». Nom de ville ; à conserver tel quel.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0094"
+      ],
+      "entryIds": [
+        "e-p0026-063"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-024",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Shanghai » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-024-o1",
+          "text": "吃羊肉"
+        },
+        {
+          "id": "q-p0026-024-o2",
+          "text": "上海"
+        },
+        {
+          "id": "q-p0026-024-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-024-o2",
+      "explanation": "« Shanghai » se dit 上海 (Shànghǎi).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0093"
+      ],
+      "entryIds": [
+        "e-p0026-062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-025",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « sì » signifiant « quatre ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-025-o1",
+          "text": "四"
+        },
+        {
+          "id": "q-p0026-025-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0026-025-o3",
+          "text": "六"
+        }
+      ],
+      "correctOptionId": "q-p0026-025-o1",
+      "explanation": "四 se prononce sì et signifie « quatre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0003"
+      ],
+      "entryIds": [
+        "e-p0026-003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-026",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 「我常去____。」 (Je vais souvent à Pékin.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-026-o1",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0026-026-o2",
+          "text": "吃羊肉"
+        },
+        {
+          "id": "q-p0026-026-o3",
+          "text": "北京"
+        }
+      ],
+      "correctOptionId": "q-p0026-026-o3",
+      "explanation": "Le mot manquant est 北京 (Běijīng, « Pékin »), ce qui complète 「我常去北京。」.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0099"
+      ],
+      "entryIds": [
+        "e-p0026-068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-027",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-027-o1",
+          "text": "四"
+        },
+        {
+          "id": "q-p0026-027-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0026-027-o3",
+          "text": "六"
+        }
+      ],
+      "correctOptionId": "q-p0026-027-o2",
+      "explanation": "L'audio prononce 三 (sān), qui signifie « trois ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0001"
+      ],
+      "entryIds": [
+        "e-p0026-001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "三",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-028",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 上海 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-028-o1",
+          "text": "Shanghai"
+        },
+        {
+          "id": "q-p0026-028-o2",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0026-028-o3",
+          "text": "manger du mouton ou de l'agneau"
+        }
+      ],
+      "correctOptionId": "q-p0026-028-o1",
+      "explanation": "上海 (Shànghǎi) signifie « Shanghai ». Nom de ville ; à conserver tel quel.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0093"
+      ],
+      "entryIds": [
+        "e-p0026-062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-029",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 拉萨 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-029-o1",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0026-029-o2",
+          "text": "manger du mouton ou de l'agneau"
+        },
+        {
+          "id": "q-p0026-029-o3",
+          "text": "Lhassa"
+        }
+      ],
+      "correctOptionId": "q-p0026-029-o3",
+      "explanation": "拉萨 (Lāsà) signifie « Lhassa ». Nom mandarin de Lhassa.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0095"
+      ],
+      "entryIds": [
+        "e-p0026-064"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-030",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « Canton (Guangzhou) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-030-o1",
+          "text": "吃羊肉"
+        },
+        {
+          "id": "q-p0026-030-o2",
+          "text": "广州"
+        },
+        {
+          "id": "q-p0026-030-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0026-030-o2",
+      "explanation": "« Canton (Guangzhou) » se dit 广州 (Guǎngzhōu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0094"
+      ],
+      "entryIds": [
+        "e-p0026-063"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-031",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « qī » signifiant « sept ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-031-o1",
+          "text": "七"
+        },
+        {
+          "id": "q-p0026-031-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0026-031-o3",
+          "text": "六"
+        }
+      ],
+      "correctOptionId": "q-p0026-031-o1",
+      "explanation": "七 se prononce qī et signifie « sept ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0004"
+      ],
+      "entryIds": [
+        "e-p0026-004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0026-032",
+      "pageId": "p0026",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 广州 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0026-032-o1",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0026-032-o2",
+          "text": "manger du mouton ou de l'agneau"
+        },
+        {
+          "id": "q-p0026-032-o3",
+          "text": "Canton (Guangzhou)"
+        }
+      ],
+      "correctOptionId": "q-p0026-032-o3",
+      "explanation": "广州 (Guǎngzhōu) signifie « Canton (Guangzhou) ». Nom de ville ; à conserver tel quel.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0026-0094"
+      ],
+      "entryIds": [
+        "e-p0026-063"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}
