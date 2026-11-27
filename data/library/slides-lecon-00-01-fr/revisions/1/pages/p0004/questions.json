@@ -1,0 +1,253 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 吃羊肉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Manger du mouton"
+        },
+        {
+          "id": "o1",
+          "text": "Boire du thé"
+        },
+        {
+          "id": "o2",
+          "text": "Ouvrir la porte"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "吃羊肉 signifie « manger du mouton / de l'agneau » (吃 manger + 羊肉 mouton/agneau).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-032"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle expression signifie « ouvrir la porte » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "开门"
+        },
+        {
+          "id": "o1",
+          "text": "开车"
+        },
+        {
+          "id": "o2",
+          "text": "种田"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "开门 signifie « ouvrir la porte » (开 ouvrir + 门 porte).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-034"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère écrit signifie « journal » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "报"
+        },
+        {
+          "id": "o1",
+          "text": "书"
+        },
+        {
+          "id": "o2",
+          "text": "车"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "报 (bào) signifie « journal » ; 书 signifie livre et 车 signifie voiture.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 男人看报，女人看书 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "L'homme lit le journal et la femme lit un livre."
+        },
+        {
+          "id": "o1",
+          "text": "Maman conduit une voiture jusqu'à Pékin."
+        },
+        {
+          "id": "o2",
+          "text": "Je mange du poisson et je cultive du thé."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "男人看报 signifie « l'homme lit le journal » et 女人看书 signifie « la femme lit un livre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase « Je vais à Pékin » : 我___北京。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "去"
+        },
+        {
+          "id": "o1",
+          "text": "叫"
+        },
+        {
+          "id": "o2",
+          "text": "吃"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "去 (qù, aller) relie le sujet 我 à la destination 北京.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-049"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0004-006",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Pourquoi 开 apparaît-il à la fois dans 开门 et dans 开车 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Il signifie « ouvrir » avec 门 (porte) et « conduire » avec 车 (voiture)."
+        },
+        {
+          "id": "o1",
+          "text": "C'est une marque du pluriel pour les personnes."
+        },
+        {
+          "id": "o2",
+          "text": "Il transforme une affirmation en question."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "开 possède des sens d'action apparentés : « ouvrir » devant 门 (porte) et « conduire / manœuvrer » devant 车 (véhicule).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-045"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0004-007",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Qu'avez-vous entendu ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Maman conduit une voiture."
+        },
+        {
+          "id": "o1",
+          "text": "Je m'appelle Bai Shao."
+        },
+        {
+          "id": "o2",
+          "text": "Je vais à Pékin."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "La phrase prononcée est 妈妈开车, « Maman conduit une voiture ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-051"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      },
+      "speechTarget": "妈妈开车"
+    }
+  ]
+}

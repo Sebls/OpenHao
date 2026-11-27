@@ -1,0 +1,35 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "textSha256": "249939ea7f242fc010e8e9156a6885551f6f6a4082fb4d926851ba4a171c3637",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, comparaison visuelle de la source puis revue linguistique et des questions (traduction française)",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "reason": "L'API au niveau de la phrase est omis sur les 4 entrées de phrases (我去北京, 男人看报，女人看书, 妈妈开车, 我叫白勺) ; le pinyin vérifié, les sens en français et l'API des mots/expressions/caractères couvrent tous les éléments.",
+      "nextAction": "Utiliser l'API vérifié des mots, expressions et caractères ; n'ajouter l'API au niveau de la phrase qu'après une revue prosodique dédiée."
+    }
+  ],
+  "checks": [
+    "Comparaison visuelle de source.png avec text.txt et layout.json (confirmation que la chaîne fusionnée de la puce 1 « 吃羊肉吃鱼开门种田种茶 » se segmente proprement en 5 expressions)",
+    "En-tête français classé comme « heading » et lignes chinoises comme « label »",
+    "Vérification de la hiérarchie expression / mot / phrase, du nom propre 白勺 (« Bai Shao »), du ton neutre dans 妈妈 et du caractère polyphonique 种 zhòng",
+    "Vérification des constituentIds de phrases -> mots -> caractères et expressions -> caractères",
+    "Revue des 7 questions à choix unique dans les 7 catégories pour garantir une seule réponse défendable et une portée sur une seule annotation",
+    "Réparation de e-p0004-word-008 (妈妈) : déduplication de constituentIds vers [\"e-p0004-char-020\"] pour respecter la convention de constituant unique par caractère et éviter les clés/boutons en double dans l'interface"
+  ],
+  "coverage": {
+    "embeddedCharacters": 56,
+    "hanziCharacters": 31,
+    "annotatedOccurrences": 52,
+    "entries": 44,
+    "sentences": 4,
+    "reviewedQuestions": 7,
+    "extractionScope": "Texte Unicode intégré complet de la page physique 4",
+    "annotationScope": "L'ensemble des 5 expressions, 4 phrases, 12 occurrences de mots et 31 occurrences de sinogrammes ; en-tête français et puces exclus"
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0003-001",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 北京 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pékin"
+        },
+        {
+          "id": "o1",
+          "text": "Journal"
+        },
+        {
+          "id": "o2",
+          "text": "Montagne"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "北京 (Běijīng) est Pékin, la capitale de la Chine.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0003-002",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 茶 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Thé"
+        },
+        {
+          "id": "o1",
+          "text": "Eau"
+        },
+        {
+          "id": "o2",
+          "text": "Poisson"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "茶 (chá) signifie « thé ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-052"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0003-003",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « livre » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "书"
+        },
+        {
+          "id": "o1",
+          "text": "报"
+        },
+        {
+          "id": "o2",
+          "text": "木"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "书 (shū) signifie « livre » ; 报 signifie journal et 木 signifie bois/arbre.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-030"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0003-004",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère signifie « aller » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "去"
+        },
+        {
+          "id": "o1",
+          "text": "吃"
+        },
+        {
+          "id": "o2",
+          "text": "看"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "去 (qù) signifie « aller » ; 吃 signifie manger et 看 signifie regarder/lire.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-044"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0003-005",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère représente « montagne » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "山"
+        },
+        {
+          "id": "o1",
+          "text": "水"
+        },
+        {
+          "id": "o2",
+          "text": "火"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "山 (shān) signifie « montagne » ; 水 signifie eau et 火 signifie feu.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0003-006",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère représente « porte » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "门"
+        },
+        {
+          "id": "o1",
+          "text": "口"
+        },
+        {
+          "id": "o2",
+          "text": "手"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "门 (mén) signifie « porte » ; 口 signifie bouche et 手 signifie main.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0003-007",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quel nom de lieu avez-vous entendu ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pékin"
+        },
+        {
+          "id": "o1",
+          "text": "Montagne"
+        },
+        {
+          "id": "o2",
+          "text": "Champ"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Le nom de lieu prononcé est 北京 (Běijīng).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-069"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      },
+      "speechTarget": "北京"
+    },
+    {
+      "id": "q-p0003-008",
+      "pageId": "p0003",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quel animal avez-vous entendu ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cheval"
+        },
+        {
+          "id": "o1",
+          "text": "Poisson"
+        },
+        {
+          "id": "o2",
+          "text": "Mouton"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Le mot prononcé est 马 (mǎ), « cheval ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0003-016"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      },
+      "speechTarget": "马"
+    }
+  ]
+}

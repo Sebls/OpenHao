@@ -1,0 +1,28 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "textSha256": "b2c96b8b4161ceb073ac4f68f8dbeebf253fee125c0f99fceeec734d72bad6b0",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, comparaison visuelle de la source puis revue linguistique et des questions (traduction française)",
+  "reviewedAt": "2026-11-23",
+  "issues": [],
+  "checks": [
+    "Comparaison visuelle de source.png avec text.txt et layout.json sur les 4 lignes de vocabulaire sans puces",
+    "En-tête français classé comme « heading » et lignes de vocabulaire comme « label »",
+    "Vérification de 大夫 polyphonique (dàifu, 大 dài + fu neutre), des tons neutres (本子, 哥哥, 爱人, 什么, 的), des noms de famille distincts 王 et 李 (virgule exclue) et de 谁 shéi à l'oral",
+    "Vérification des constituentIds jusqu'aux entrées de caractères pour chaque mot",
+    "Revue des 7 questions à choix unique pour garantir une seule réponse défendable et éviter toute collision de synonymes entre 学 et 学习",
+    "Réparation de e-p0005-word-005 (哥哥) : déduplication de constituentIds vers [\"e-p0005-char-008\"] pour respecter la convention de constituant unique par caractère et éviter les clés/boutons en double dans l'interface"
+  ],
+  "coverage": {
+    "embeddedCharacters": 54,
+    "hanziCharacters": 34,
+    "annotatedOccurrences": 56,
+    "entries": 49,
+    "reviewedQuestions": 7,
+    "extractionScope": "Texte Unicode intégré complet de la page physique 5",
+    "annotationScope": "Les 22 mots de vocabulaire de la Leçon 1 et les 34 occurrences de sinogrammes constitutifs ; en-tête français et virgule dans 王，李 exclus"
+  }
+}

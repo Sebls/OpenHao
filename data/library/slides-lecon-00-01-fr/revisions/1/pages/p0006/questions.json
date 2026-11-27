@@ -1,0 +1,253 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 羊肉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Agneau / mouton"
+        },
+        {
+          "id": "o1",
+          "text": "Livre de chinois"
+        },
+        {
+          "id": "o2",
+          "text": "Thé chinois"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "羊肉 (yángròu) signifie « agneau / mouton » (羊 mouton + 肉 viande).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-096"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle phrase signifie « Il s'appelle Xiaoshan. » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "他叫小山。"
+        },
+        {
+          "id": "o1",
+          "text": "这是中文书。"
+        },
+        {
+          "id": "o2",
+          "text": "那是我的本子。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "他叫小山。 signifie « Il s'appelle Xiaoshan. »",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-108"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « boire » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "喝"
+        },
+        {
+          "id": "o1",
+          "text": "吃"
+        },
+        {
+          "id": "o2",
+          "text": "叫"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "喝 (hē) signifie « boire » ; 吃 signifie manger et 叫 signifie s'appeler.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-082"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 那是我的本子。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "C'est mon cahier."
+        },
+        {
+          "id": "o1",
+          "text": "C'est un livre de chinois."
+        },
+        {
+          "id": "o2",
+          "text": "Il s'appelle Xiaoshan."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "那 (cela) + 是 (est) + 我的 (mon) + 本子 (cahier).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-106"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la question « Qu'étudies-tu ? » : 你___什么？",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "学习"
+        },
+        {
+          "id": "o1",
+          "text": "爱吃"
+        },
+        {
+          "id": "o2",
+          "text": "要喝"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "学习 (xuéxí) signifie « étudier », ce qui donne 你学习什么？",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-113"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0006-006",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Où se place le mot interrogatif 什么 dans 这是什么？ (« Qu'est-ce que c'est ? ») ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "À la fin, à la même place que la réponse"
+        },
+        {
+          "id": "o1",
+          "text": "Tout au début, avant 这"
+        },
+        {
+          "id": "o2",
+          "text": "Entre 这 et 是"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "En chinois, les mots interrogatifs comme 什么 restent à la place exacte de l'objet où se met la réponse.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-103"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0006-007",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quelle phrase avez-vous entendue ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "J'aime manger du mouton."
+        },
+        {
+          "id": "o1",
+          "text": "Je veux boire du thé chinois."
+        },
+        {
+          "id": "o2",
+          "text": "J'étudie le chinois."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "La phrase prononcée est 我爱吃羊肉。, « J'aime manger du mouton. »",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-112"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      },
+      "speechTarget": "我爱吃羊肉。"
+    }
+  ]
+}

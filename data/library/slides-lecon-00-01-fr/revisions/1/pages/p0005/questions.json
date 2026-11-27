@@ -1,0 +1,253 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 大夫 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Médecin"
+        },
+        {
+          "id": "o1",
+          "text": "Usine"
+        },
+        {
+          "id": "o2",
+          "text": "Cahier"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "大夫 (dàifu) signifie « médecin / docteur ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 本子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cahier"
+        },
+        {
+          "id": "o1",
+          "text": "Grand frère"
+        },
+        {
+          "id": "o2",
+          "text": "Littérature"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "本子 (běnzi) signifie « cahier ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-037"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « usine » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "工厂"
+        },
+        {
+          "id": "o1",
+          "text": "学校"
+        },
+        {
+          "id": "o2",
+          "text": "工人"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "工厂 (gōngchǎng) signifie « usine » ; 学校 signifie école et 工人 signifie ouvrier.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-041"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « qui » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "谁"
+        },
+        {
+          "id": "o1",
+          "text": "这"
+        },
+        {
+          "id": "o2",
+          "text": "那"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "谁 (shéi) signifie « qui » ; 这 signifie ceci et 那 signifie cela.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-055"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « ne ... pas » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "不"
+        },
+        {
+          "id": "o1",
+          "text": "是"
+        },
+        {
+          "id": "o2",
+          "text": "玉"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "不 (bù) est le mot de négation « ne ... pas » ; 是 signifie être et 玉 signifie jade.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-053"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0005-006",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Comment utilise-t-on 的 après un pronom tel que 我 (je) ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Il indique la possession, comme « mon / ma »."
+        },
+        {
+          "id": "o1",
+          "text": "Il transforme une phrase en question fermée (oui/non)."
+        },
+        {
+          "id": "o2",
+          "text": "Il marque le passé."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "的 se place après un pronom ou un nom pour marquer la possession ou la détermination, comme dans 我的本子 (« mon cahier »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0005-007",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quel mot interrogatif avez-vous entendu ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Quoi"
+        },
+        {
+          "id": "o1",
+          "text": "Qui"
+        },
+        {
+          "id": "o2",
+          "text": "Ne ... pas"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Le mot prononcé est 什么 (shénme), « quoi ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-054"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      },
+      "speechTarget": "什么"
+    }
+  ]
+}

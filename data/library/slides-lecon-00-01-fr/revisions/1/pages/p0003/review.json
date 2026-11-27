@@ -1,0 +1,27 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0003",
+  "extractionRevision": 1,
+  "textSha256": "638b1e1f76a3179505efb16fc316a084b116d78ad4f0cf69a20246625d4f2105",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, comparaison visuelle de la source puis revue linguistique et des questions (traduction française)",
+  "reviewedAt": "2026-11-23",
+  "issues": [],
+  "checks": [
+    "Comparaison visuelle de source.png avec text.txt et layout.json sur les 4 lignes à puces (confirmation que « 说北京 » se divise en « 说 » et « 北京 »)",
+    "En-tête français classé comme « heading » et lignes de vocabulaire comme « label »",
+    "Vérification des lectures polyphoniques (种 zhòng « planter / cultiver », 中 zhōng, 看 kàn), du demi-troisième ton dans 北京 ([peɪ²¹ tɕiŋ⁵⁵]) et de la note sur les noms 白/勺",
+    "Vérification des constituentIds jusqu'aux entrées de caractères pour chaque mot",
+    "Revue des 8 questions à choix unique pour garantir une seule réponse défendable, des options distinctes et une portée sur une seule annotation"
+  ],
+  "coverage": {
+    "embeddedCharacters": 64,
+    "hanziCharacters": 35,
+    "annotatedOccurrences": 69,
+    "entries": 69,
+    "reviewedQuestions": 8,
+    "extractionScope": "Texte Unicode intégré complet de la page physique 3",
+    "annotationScope": "Les 35 sinogrammes de la Leçon 0 (33 mots d'un caractère et 北京) ; en-tête français et puces exclus"
+  }
+}

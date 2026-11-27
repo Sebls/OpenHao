@@ -1,0 +1,34 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "textSha256": "c365f9be49f8cea7d2ff6217c7b875d9d1da98449e6138bdd2f5a10142d6a944",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, comparaison visuelle de la source puis revue linguistique et des questions (traduction française)",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "reason": "L'API au niveau de la phrase est omis sur les 12 entrées de phrases questions-réponses ; le pinyin vérifié, les sens en français et l'API des mots/caractères couvrent tous les éléments.",
+      "nextAction": "Utiliser l'API vérifié des mots et caractères ; n'ajouter l'API au niveau de la phrase qu'après une revue prosodique dédiée."
+    }
+  ],
+  "checks": [
+    "Comparaison visuelle de source.png avec text.txt et layout.json sur les 6 paires de questions-réponses",
+    "En-tête français classé comme « heading » et lignes de questions-réponses comme « dialogue »",
+    "Vérification du nom propre 小山 (« Xiaoshan »), du possessif 我的, du placement du mot interrogatif (什么) et du demi-troisième ton dans 小山/本子",
+    "Vérification des constituentIds de phrases -> mots -> caractères",
+    "Revue des 7 questions à choix unique dans les 7 catégories, en ciblant la question d'écoute q-p0006-007 sur 我爱吃羊肉。 pour la compatibilité avec la phrase unique et la pratique de la page"
+  ],
+  "coverage": {
+    "embeddedCharacters": 100,
+    "hanziCharacters": 58,
+    "annotatedOccurrences": 114,
+    "entries": 60,
+    "sentences": 12,
+    "reviewedQuestions": 7,
+    "extractionScope": "Texte Unicode intégré complet de la page physique 6",
+    "annotationScope": "Les 12 phrases questions-réponses, 44 occurrences de mots et 58 occurrences de sinogrammes ; en-tête français et puces exclus"
+  }
+}

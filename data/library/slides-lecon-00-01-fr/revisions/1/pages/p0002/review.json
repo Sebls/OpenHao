@@ -1,0 +1,27 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "f62d09a0decfcdef65529b72b0118b439f950cf95fb36e9af654983bb874afbe",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, comparaison visuelle de la source puis revue linguistique et des questions (traduction française)",
+  "reviewedAt": "2026-11-23",
+  "issues": [],
+  "checks": [
+    "Comparaison visuelle de source.png avec text.txt et layout.json (confirmation que les lignes fusionnées « 二三 » et « 五六七 » sont découpées proprement au niveau des caractères)",
+    "En-tête français classé comme « heading » et lignes chinoises comme « label »",
+    "Vérification du pinyin mandarin à marques de ton, de l'API en chiffres de Chao, du sandhi du troisième ton sur 你好 ([ni³⁵ xɑʊ²¹⁴]) et du demi-troisième ton sur 我叫 ([wɔ²¹ tɕjɑʊ⁵¹])",
+    "Vérification des constituentIds jusqu'aux entrées de caractères pour chaque mot et expression",
+    "Revue des 7 questions à choix unique pour garantir une seule réponse défendable, des options distinctes et une portée cohérente sur une seule annotation"
+  ],
+  "coverage": {
+    "embeddedCharacters": 53,
+    "hanziCharacters": 14,
+    "annotatedOccurrences": 26,
+    "entries": 26,
+    "reviewedQuestions": 7,
+    "extractionScope": "Texte Unicode intégré complet de la page physique 2",
+    "annotationScope": "Les 14 sinogrammes des nombres 1–10, 你好 et 我叫 ; en-tête français et puces exclus"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "2141ef3af8881a135722f0c7b7953509b4edbd26564bb92a0601fd1afcdadb6a",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Codex, comparaison visuelle de la source puis revue linguistique et des questions (traduction française)",
+  "reviewedAt": "2026-11-23",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "diapositive de couverture complète",
+      "reason": "La diapositive de couverture uniquement en français (« Cours de révision leçon 0- leçon 1 ») ne contient aucun caractère chinois ni aucune unité d'apprentissage ; conservée à l'état « extracted » (non prêt).",
+      "nextAction": "Commencer l'étude à la page 2 ; aucune annotation chinoise n'est nécessaire sur la page 1."
+    }
+  ],
+  "checks": [
+    "Rendu complet de la page source comparé aux fichiers extraits text.txt et layout.json",
+    "Absence confirmée de caractères chinois, diagrammes, sceaux décoratifs ou texte caché",
+    "Lignes du titre de couverture classées comme « heading » dans layout.json",
+    "Vérification que la page reste non prête (« extracted ») avec des entrées, annotations et questions vides"
+  ],
+  "coverage": {
+    "embeddedCharacters": 33,
+    "hanziCharacters": 0,
+    "annotatedOccurrences": 0,
+    "entries": 0,
+    "reviewedQuestions": 0,
+    "extractionScope": "Page physique 1 (diapositive de couverture uniquement en français)",
+    "annotationScope": "Aucune — diapositive de titre uniquement en français sans unité d'apprentissage en chinois"
+  }
+}

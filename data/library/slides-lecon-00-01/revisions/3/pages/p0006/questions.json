@@ -1,0 +1,253 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "What does 羊肉 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Lamb / mutton"
+        },
+        {
+          "id": "o1",
+          "text": "Chinese book"
+        },
+        {
+          "id": "o2",
+          "text": "Chinese tea"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "羊肉 (yángròu) means “lamb / mutton” (羊 sheep + 肉 meat).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-096"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Which sentence means “His name is Xiaoshan.”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "他叫小山。"
+        },
+        {
+          "id": "o1",
+          "text": "这是中文书。"
+        },
+        {
+          "id": "o2",
+          "text": "那是我的本子。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "他叫小山。 means “His name is Xiaoshan.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-108"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Which character means “to drink”?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "喝"
+        },
+        {
+          "id": "o1",
+          "text": "吃"
+        },
+        {
+          "id": "o2",
+          "text": "叫"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "喝 (hē) means “to drink”; 吃 is to eat and 叫 is to be called.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-082"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "What does 那是我的本子。 mean?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "That is my notebook."
+        },
+        {
+          "id": "o1",
+          "text": "This is a Chinese book."
+        },
+        {
+          "id": "o2",
+          "text": "His name is Xiaoshan."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "那 (that) + 是 (is) + 我的 (my) + 本子 (notebook).",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-106"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complete the question “What do you study?”: 你___什么？",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "学习"
+        },
+        {
+          "id": "o1",
+          "text": "爱吃"
+        },
+        {
+          "id": "o2",
+          "text": "要喝"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "学习 (xuéxí) means “to study,” giving 你学习什么？",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-113"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0006-006",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Where does the question word 什么 go in 这是什么？ (“What is this?”)?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "At the end, in the same slot as the answer"
+        },
+        {
+          "id": "o1",
+          "text": "At the very beginning before 这"
+        },
+        {
+          "id": "o2",
+          "text": "Between 这 and 是"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "In Chinese, question words like 什么 stay in the exact object slot where the answer goes.",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-103"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      }
+    },
+    {
+      "id": "q-p0006-007",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Listen. Which statement did you hear?",
+      "promptLanguage": "en",
+      "options": [
+        {
+          "id": "o0",
+          "text": "I like to eat lamb."
+        },
+        {
+          "id": "o1",
+          "text": "I want to drink Chinese tea."
+        },
+        {
+          "id": "o2",
+          "text": "I study Chinese."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "The spoken sentence is 我爱吃羊肉。, “I like to eat lamb.”",
+      "explanationLanguage": "en",
+      "sourceAnnotationIds": [
+        "a-p0006-112"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "source-grounding, single-answer and distractor review"
+      },
+      "speechTarget": "我爱吃羊肉。"
+    }
+  ]
+}

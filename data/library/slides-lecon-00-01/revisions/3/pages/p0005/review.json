@@ -1,0 +1,28 @@
+{
+  "documentId": "slides-lecon-00-01",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "textSha256": "b2c96b8b4161ceb073ac4f68f8dbeebf253fee125c0f99fceeec734d72bad6b0",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex agent, source visual comparison and subsequent linguistic/question review",
+  "reviewedAt": "2026-11-23",
+  "issues": [],
+  "checks": [
+    "Compared source.png visually against text.txt and layout.json across all 4 unbulleted vocabulary rows",
+    "Classified French header as heading and vocabulary rows as label",
+    "Reviewed polyphonic 大夫 (dàifu, 大 dài + neutral fu), neutral tones (本子, 哥哥, 爱人, 什么, 的), separate surnames 王 and 李 (excluding comma), and spoken 谁 shéi",
+    "Verified constituentIds down to character entries for every word",
+    "Reviewed all 7 single-choice questions for single defensible answer and avoided 学/学习 synonym collision",
+    "Repaired e-p0005-word-005 (哥哥): deduplicated constituentIds to [\"e-p0005-char-008\"] to match single unique character constituent convention and prevent duplicate UI keys/buttons"
+  ],
+  "coverage": {
+    "embeddedCharacters": 54,
+    "hanziCharacters": 34,
+    "annotatedOccurrences": 56,
+    "entries": 49,
+    "reviewedQuestions": 7,
+    "extractionScope": "Physical page 5 complete embedded Unicode text",
+    "annotationScope": "All 22 Lesson 1 vocabulary words and 34 constituent Hanzi occurrences; French heading and comma in 王，李 excluded"
+  }
+}

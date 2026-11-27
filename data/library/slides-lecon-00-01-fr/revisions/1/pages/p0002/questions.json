@@ -1,0 +1,253 @@
+{
+  "documentId": "slides-lecon-00-01-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0002-001",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 你好 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bonjour"
+        },
+        {
+          "id": "o1",
+          "text": "Sept"
+        },
+        {
+          "id": "o2",
+          "text": "Je m'appelle"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你好 est la salutation courante signifiant « bonjour ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-025"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0002-002",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle expression signifie « je m'appelle » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你好"
+        },
+        {
+          "id": "o1",
+          "text": "我叫"
+        },
+        {
+          "id": "o2",
+          "text": "十"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我叫 sert à présenter son nom (« je m'appelle »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0002-003",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère écrit correspond au chiffre « quatre » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "四"
+        },
+        {
+          "id": "o1",
+          "text": "五"
+        },
+        {
+          "id": "o2",
+          "text": "九"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "四 (sì) signifie quatre ; 五 signifie cinq et 九 signifie neuf.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0002-004",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère écrit correspond au chiffre « huit » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "六"
+        },
+        {
+          "id": "o1",
+          "text": "七"
+        },
+        {
+          "id": "o2",
+          "text": "八"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "八 (bā) signifie huit ; 六 signifie six et 七 signifie sept.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-016"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0002-005",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la suite numérique : 一, 二, ___, 四, 五.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "三"
+        },
+        {
+          "id": "o1",
+          "text": "六"
+        },
+        {
+          "id": "o2",
+          "text": "十"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "三 (sān, trois) se place entre 二 (deux) et 四 (quatre).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0002-006",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Qu'est-ce qui vient directement après 我叫 lorsque vous vous présentez ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Votre nom"
+        },
+        {
+          "id": "o1",
+          "text": "Un chiffre de un à dix"
+        },
+        {
+          "id": "o2",
+          "text": "La salutation 你好"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我叫 est suivi directement du nom du locuteur (我叫 + nom).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      }
+    },
+    {
+      "id": "q-p0002-007",
+      "pageId": "p0002",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez. Quel sens avez-vous entendu ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Bonjour"
+        },
+        {
+          "id": "o1",
+          "text": "Je m'appelle"
+        },
+        {
+          "id": "o2",
+          "text": "Dix"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "La salutation prononcée est 你好, « bonjour ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0002-025"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex agent",
+        "review": "vérification de l'ancrage dans la source, de l'unicité de la réponse et des distracteurs"
+      },
+      "speechTarget": "你好"
+    }
+  ]
+}
