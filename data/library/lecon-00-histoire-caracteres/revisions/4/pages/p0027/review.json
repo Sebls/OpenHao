@@ -1,0 +1,40 @@
+{
+  "documentId": "lecon-00-histoire-caracteres",
+  "pageId": "p0027",
+  "extractionRevision": 1,
+  "textSha256": "03e966a6568e70971e630816a6e8ad4886ede38ebb4de89af7ed0ffae85d774a",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Codex — separate self-review pass, no human or independent reviewer",
+  "checks": [
+    "Compared all five selected rendered scans with OCR output; located missing whole-character examples manually before freezing revision 1.",
+    "Reviewed selected whole-character boxes, source quotes, role classification and page-local Unicode code-point anchors.",
+    "Reviewed polyphonic 种 zhòng, 看 kàn, 长 cháng and source-dependent readings; neutral syllable in 妈妈; 不 before 吃.",
+    "Reviewed city names and personal name 白木勺 as names; checked natural English sentence translations.",
+    "Reviewed all question choices for exactly one defensible answer, scope and source references.",
+    "Listening questions require successful local playback at runtime; disconnected audibility is not claimed."
+  ],
+  "coverage": {
+    "physicalPage": 27,
+    "transcriptCodePoints": 1660,
+    "characterGeometryRecords": 1616,
+    "reviewedLearningEntries": 0,
+    "reviewedOccurrences": 0,
+    "reviewedQuestions": 0,
+    "entriesWithReviewedIPA": 0,
+    "roles": {
+      "learning": "Whole characters, exercise phrases and complete reading sentences that could be visually verified.",
+      "instructions": "French source instructions retained as OCR text; not translated into invented Chinese learning targets.",
+      "diagrams": "Full selected glyphs only; intermediate stroke stages and faint tracing copies excluded.",
+      "headerFooter": "Retained as OCR, not learning targets."
+    },
+    "scope": "Requested physical pages only. Counts describe authored records, not a percentage of all visible glyphs. Partial extraction/annotation coverage is explicit."
+  },
+  "issues": [
+    {
+      "severity": "info",
+      "reason": "French-only continuation of course instructions; no Chinese learning target occurs on this physical page. The schema requires a Chinese reviewed learning occurrence for ready status, so the page remains extracted/reference-only.",
+      "nextAction": "Read the original page. No Chinese exercises are appropriate."
+    }
+  ]
+}

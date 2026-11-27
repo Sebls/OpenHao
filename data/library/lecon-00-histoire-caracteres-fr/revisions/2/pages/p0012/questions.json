@@ -1,0 +1,985 @@
+{
+  "documentId": "lecon-00-histoire-caracteres-fr",
+  "pageId": "p0012",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0012-001",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Quel sens est indiqué pour 明 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "lumineux ; clair"
+        },
+        {
+          "id": "o2",
+          "text": "mâle ; homme"
+        },
+        {
+          "id": "o3",
+          "text": "se reposer ; repos"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "La source indique la clarté ; 明 signifie « lumineux » ou « clair ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0052"
+      ],
+      "entryIds": [
+        "e-p0012-047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0012-002",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez le caractère signifiant « se reposer ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "休"
+        },
+        {
+          "id": "o2",
+          "text": "男"
+        },
+        {
+          "id": "o3",
+          "text": "泪"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "休 signifie « se reposer ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0041"
+      ],
+      "entryIds": [
+        "e-p0012-037"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0012-003",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « bois » ou « bosquet » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "林"
+        },
+        {
+          "id": "o2",
+          "text": "明"
+        },
+        {
+          "id": "o3",
+          "text": "拿"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "林 signifie « bois » ou « bosquet » ; ses deux composants 木 sont visibles sur la page source.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0013"
+      ],
+      "entryIds": [
+        "e-p0012-013"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0012-004",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 泪 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "trésor"
+        },
+        {
+          "id": "o2",
+          "text": "une larme"
+        },
+        {
+          "id": "o3",
+          "text": "poussière"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "泪 signifie « une larme » ; le tableau montre le composant de l'eau avec 目, œil.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0047"
+      ],
+      "entryIds": [
+        "e-p0012-042"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0012-005",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans l'exemple 妈 = 女 + 马 de la source, quel composant donne un indice phonétique ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "马"
+        },
+        {
+          "id": "o2",
+          "text": "女"
+        },
+        {
+          "id": "o3",
+          "text": "Les deux signifient « mère »"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "马 mǎ donne un indice phonétique pour 妈 mā. Un composant phonétique ne conserve pas forcément le même ton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0042"
+      ],
+      "entryIds": [
+        "e-p0012-038"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0012-006",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez le sens.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "main"
+        },
+        {
+          "id": "o2",
+          "text": "œil"
+        },
+        {
+          "id": "o3",
+          "text": "lune"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "手 signifie « main ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0020"
+      ],
+      "entryIds": [
+        "e-p0012-020"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      },
+      "speechTarget": "手"
+    },
+    {
+      "id": "q-p0012-007",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 土 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-007-o1",
+          "text": "terre ; sol"
+        },
+        {
+          "id": "q-p0012-007-o2",
+          "text": "feu"
+        },
+        {
+          "id": "q-p0012-007-o3",
+          "text": "enfant (caractère indépendant)"
+        }
+      ],
+      "correctOptionId": "q-p0012-007-o1",
+      "explanation": "土 (tǔ) signifie « terre ; sol ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0001"
+      ],
+      "entryIds": [
+        "e-p0012-001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-008",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « terre ; sol » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-008-o1",
+          "text": "火"
+        },
+        {
+          "id": "q-p0012-008-o2",
+          "text": "子"
+        },
+        {
+          "id": "q-p0012-008-o3",
+          "text": "土"
+        }
+      ],
+      "correctOptionId": "q-p0012-008-o3",
+      "explanation": "« terre ; sol » se dit 土 (tǔ).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0001"
+      ],
+      "entryIds": [
+        "e-p0012-001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-009",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « tǔ » signifiant « terre ; sol ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-009-o1",
+          "text": "子"
+        },
+        {
+          "id": "q-p0012-009-o2",
+          "text": "土"
+        },
+        {
+          "id": "q-p0012-009-o3",
+          "text": "火"
+        }
+      ],
+      "correctOptionId": "q-p0012-009-o2",
+      "explanation": "土 se prononce tǔ et signifie « terre ; sol ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0001"
+      ],
+      "entryIds": [
+        "e-p0012-001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-010",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-010-o1",
+          "text": "土"
+        },
+        {
+          "id": "q-p0012-010-o2",
+          "text": "火"
+        },
+        {
+          "id": "q-p0012-010-o3",
+          "text": "子"
+        }
+      ],
+      "correctOptionId": "q-p0012-010-o1",
+      "explanation": "L'audio prononce 土 (tǔ), qui signifie « terre ; sol ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0001"
+      ],
+      "entryIds": [
+        "e-p0012-001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "土",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-011",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 土 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-011-o1",
+          "text": "feu"
+        },
+        {
+          "id": "q-p0012-011-o2",
+          "text": "enfant (caractère indépendant)"
+        },
+        {
+          "id": "q-p0012-011-o3",
+          "text": "terre ; sol"
+        }
+      ],
+      "correctOptionId": "q-p0012-011-o3",
+      "explanation": "土 (tǔ) signifie « terre ; sol ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0001"
+      ],
+      "entryIds": [
+        "e-p0012-001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-012",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 火 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-012-o1",
+          "text": "enfant (caractère indépendant)"
+        },
+        {
+          "id": "q-p0012-012-o2",
+          "text": "feu"
+        },
+        {
+          "id": "q-p0012-012-o3",
+          "text": "terre ; sol"
+        }
+      ],
+      "correctOptionId": "q-p0012-012-o2",
+      "explanation": "火 (huǒ) signifie « feu ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0002"
+      ],
+      "entryIds": [
+        "e-p0012-002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-013",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « feu » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-013-o1",
+          "text": "火"
+        },
+        {
+          "id": "q-p0012-013-o2",
+          "text": "土"
+        },
+        {
+          "id": "q-p0012-013-o3",
+          "text": "子"
+        }
+      ],
+      "correctOptionId": "q-p0012-013-o1",
+      "explanation": "« feu » se dit 火 (huǒ).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0002"
+      ],
+      "entryIds": [
+        "e-p0012-002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-014",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « huǒ » signifiant « feu ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-014-o1",
+          "text": "土"
+        },
+        {
+          "id": "q-p0012-014-o2",
+          "text": "子"
+        },
+        {
+          "id": "q-p0012-014-o3",
+          "text": "火"
+        }
+      ],
+      "correctOptionId": "q-p0012-014-o3",
+      "explanation": "火 se prononce huǒ et signifie « feu ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0002"
+      ],
+      "entryIds": [
+        "e-p0012-002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-015",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 火 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-015-o1",
+          "text": "enfant (caractère indépendant)"
+        },
+        {
+          "id": "q-p0012-015-o2",
+          "text": "feu"
+        },
+        {
+          "id": "q-p0012-015-o3",
+          "text": "terre ; sol"
+        }
+      ],
+      "correctOptionId": "q-p0012-015-o2",
+      "explanation": "火 (huǒ) signifie « feu ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0002"
+      ],
+      "entryIds": [
+        "e-p0012-002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-016",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-016-o1",
+          "text": "enfant (caractère indépendant)"
+        },
+        {
+          "id": "q-p0012-016-o2",
+          "text": "terre ; sol"
+        },
+        {
+          "id": "q-p0012-016-o3",
+          "text": "feu"
+        }
+      ],
+      "correctOptionId": "q-p0012-016-o1",
+      "explanation": "子 (zǐ) signifie « enfant (caractère indépendant) ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0003"
+      ],
+      "entryIds": [
+        "e-p0012-003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-017",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « enfant (caractère indépendant) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-017-o1",
+          "text": "土"
+        },
+        {
+          "id": "q-p0012-017-o2",
+          "text": "火"
+        },
+        {
+          "id": "q-p0012-017-o3",
+          "text": "子"
+        }
+      ],
+      "correctOptionId": "q-p0012-017-o3",
+      "explanation": "« enfant (caractère indépendant) » se dit 子 (zǐ).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0003"
+      ],
+      "entryIds": [
+        "e-p0012-003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-018",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « zǐ » signifiant « enfant (caractère indépendant) ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-018-o1",
+          "text": "火"
+        },
+        {
+          "id": "q-p0012-018-o2",
+          "text": "子"
+        },
+        {
+          "id": "q-p0012-018-o3",
+          "text": "土"
+        }
+      ],
+      "correctOptionId": "q-p0012-018-o2",
+      "explanation": "子 se prononce zǐ et signifie « enfant (caractère indépendant) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0003"
+      ],
+      "entryIds": [
+        "e-p0012-003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-019",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 子 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-019-o1",
+          "text": "enfant (caractère indépendant)"
+        },
+        {
+          "id": "q-p0012-019-o2",
+          "text": "terre ; sol"
+        },
+        {
+          "id": "q-p0012-019-o3",
+          "text": "feu"
+        }
+      ],
+      "correctOptionId": "q-p0012-019-o1",
+      "explanation": "子 (zǐ) signifie « enfant (caractère indépendant) ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0003"
+      ],
+      "entryIds": [
+        "e-p0012-003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-020",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 牛 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-020-o1",
+          "text": "terre ; sol"
+        },
+        {
+          "id": "q-p0012-020-o2",
+          "text": "feu"
+        },
+        {
+          "id": "q-p0012-020-o3",
+          "text": "vache ; bœuf"
+        }
+      ],
+      "correctOptionId": "q-p0012-020-o3",
+      "explanation": "牛 (niú) signifie « vache ; bœuf ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0004"
+      ],
+      "entryIds": [
+        "e-p0012-004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-021",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « vache ; bœuf » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-021-o1",
+          "text": "火"
+        },
+        {
+          "id": "q-p0012-021-o2",
+          "text": "牛"
+        },
+        {
+          "id": "q-p0012-021-o3",
+          "text": "土"
+        }
+      ],
+      "correctOptionId": "q-p0012-021-o2",
+      "explanation": "« vache ; bœuf » se dit 牛 (niú).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0004"
+      ],
+      "entryIds": [
+        "e-p0012-004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-022",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « niú » signifiant « vache ; bœuf ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-022-o1",
+          "text": "牛"
+        },
+        {
+          "id": "q-p0012-022-o2",
+          "text": "土"
+        },
+        {
+          "id": "q-p0012-022-o3",
+          "text": "火"
+        }
+      ],
+      "correctOptionId": "q-p0012-022-o1",
+      "explanation": "牛 se prononce niú et signifie « vache ; bœuf ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0004"
+      ],
+      "entryIds": [
+        "e-p0012-004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-023",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 牛 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-023-o1",
+          "text": "terre ; sol"
+        },
+        {
+          "id": "q-p0012-023-o2",
+          "text": "feu"
+        },
+        {
+          "id": "q-p0012-023-o3",
+          "text": "vache ; bœuf"
+        }
+      ],
+      "correctOptionId": "q-p0012-023-o3",
+      "explanation": "牛 (niú) signifie « vache ; bœuf ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0004"
+      ],
+      "entryIds": [
+        "e-p0012-004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-024",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 又 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-024-o1",
+          "text": "feu"
+        },
+        {
+          "id": "q-p0012-024-o2",
+          "text": "de nouveau ; encore"
+        },
+        {
+          "id": "q-p0012-024-o3",
+          "text": "terre ; sol"
+        }
+      ],
+      "correctOptionId": "q-p0012-024-o2",
+      "explanation": "又 (yòu) signifie « de nouveau ; encore ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0005"
+      ],
+      "entryIds": [
+        "e-p0012-005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-025",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère chinois signifie « de nouveau ; encore » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-025-o1",
+          "text": "又"
+        },
+        {
+          "id": "q-p0012-025-o2",
+          "text": "土"
+        },
+        {
+          "id": "q-p0012-025-o3",
+          "text": "火"
+        }
+      ],
+      "correctOptionId": "q-p0012-025-o1",
+      "explanation": "« de nouveau ; encore » se dit 又 (yòu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0005"
+      ],
+      "entryIds": [
+        "e-p0012-005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-026",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « yòu » signifiant « de nouveau ; encore ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-026-o1",
+          "text": "土"
+        },
+        {
+          "id": "q-p0012-026-o2",
+          "text": "火"
+        },
+        {
+          "id": "q-p0012-026-o3",
+          "text": "又"
+        }
+      ],
+      "correctOptionId": "q-p0012-026-o3",
+      "explanation": "又 se prononce yòu et signifie « de nouveau ; encore ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0005"
+      ],
+      "entryIds": [
+        "e-p0012-005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-027",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 又 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-027-o1",
+          "text": "feu"
+        },
+        {
+          "id": "q-p0012-027-o2",
+          "text": "de nouveau ; encore"
+        },
+        {
+          "id": "q-p0012-027-o3",
+          "text": "terre ; sol"
+        }
+      ],
+      "correctOptionId": "q-p0012-027-o2",
+      "explanation": "又 (yòu) signifie « de nouveau ; encore ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0005"
+      ],
+      "entryIds": [
+        "e-p0012-005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0012-028",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 木 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0012-028-o1",
+          "text": "arbre ; bois"
+        },
+        {
+          "id": "q-p0012-028-o2",
+          "text": "terre ; sol"
+        },
+        {
+          "id": "q-p0012-028-o3",
+          "text": "feu"
+        }
+      ],
+      "correctOptionId": "q-p0012-028-o1",
+      "explanation": "木 (mù) signifie « arbre ; bois ». Le sens et la lecture indiqués s'appliquent à ce contexte.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0006"
+      ],
+      "entryIds": [
+        "e-p0012-006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

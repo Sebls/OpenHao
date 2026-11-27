@@ -1,0 +1,1131 @@
+{
+  "documentId": "lecon-00-histoire-caracteres-fr",
+  "pageId": "p0023",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0023-001",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Quel nombre est 二十三 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "23"
+        },
+        {
+          "id": "o2",
+          "text": "32"
+        },
+        {
+          "id": "o3",
+          "text": "13"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "二十 vaut vingt ; 三 ajoute trois.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0124"
+      ],
+      "entryIds": [
+        "e-p0023-052"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-002",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Choisissez « train ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "火山口"
+        },
+        {
+          "id": "o2",
+          "text": "火车"
+        },
+        {
+          "id": "o3",
+          "text": "小手"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "火车 est le mot pour « train ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0129"
+      ],
+      "entryIds": [
+        "e-p0023-057"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-003",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que dit « 我去北京。 » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Je vais à Pékin."
+        },
+        {
+          "id": "o2",
+          "text": "Maman conduit une voiture."
+        },
+        {
+          "id": "o3",
+          "text": "L'homme lit un journal."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我 = je, 去 = aller, 北京 = Pékin.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0136"
+      ],
+      "entryIds": [
+        "e-p0023-064"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-004",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que lit la femme dans cette phrase ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "un livre"
+        },
+        {
+          "id": "o2",
+          "text": "un journal"
+        },
+        {
+          "id": "o3",
+          "text": "une carte"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "女人看书 signifie que la femme lit un livre ; l'homme lit un journal.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0137"
+      ],
+      "entryIds": [
+        "e-p0023-065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-005",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quelle lecture 种 a-t-il dans 种田, « cultiver les champs » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "zhòng"
+        },
+        {
+          "id": "o2",
+          "text": "zhǒng"
+        },
+        {
+          "id": "o3",
+          "text": "zhōng"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Le verbe « planter » ou « cultiver » se lit zhòng.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0134"
+      ],
+      "entryIds": [
+        "e-p0023-062"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-006",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Quel nom la personne qui parle donne-t-elle ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Bai Mushao"
+        },
+        {
+          "id": "o2",
+          "text": "Pékin"
+        },
+        {
+          "id": "o3",
+          "text": "Shanghai"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我叫 introduit le nom de la personne qui parle, 白木勺, Bai Mushao.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0139"
+      ],
+      "entryIds": [
+        "e-p0023-067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-007",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez « Maman conduit une voiture » : 妈妈＿车。",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "开"
+        },
+        {
+          "id": "o2",
+          "text": "看"
+        },
+        {
+          "id": "o3",
+          "text": "吃"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "开车 signifie « conduire une voiture ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0138"
+      ],
+      "entryIds": [
+        "e-p0023-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      }
+    },
+    {
+      "id": "q-p0023-008",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez le sens.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o1",
+          "text": "blanc"
+        },
+        {
+          "id": "o2",
+          "text": "nord"
+        },
+        {
+          "id": "o3",
+          "text": "thé"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "白 signifie « blanc ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0031"
+      ],
+      "entryIds": [
+        "e-p0023-031"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Codex",
+        "review": "Separate source/linguistic/question review pass; agent self-review, not independent review."
+      },
+      "speechTarget": "白"
+    },
+    {
+      "id": "q-p0023-009",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie the sentence 「妈妈开车。」 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-009-o1",
+          "text": "L'homme lit un journal ; la femme lit un livre."
+        },
+        {
+          "id": "q-p0023-009-o2",
+          "text": "Maman conduit une voiture."
+        },
+        {
+          "id": "q-p0023-009-o3",
+          "text": "Je vais à Pékin."
+        }
+      ],
+      "correctOptionId": "q-p0023-009-o2",
+      "explanation": "「妈妈开车。」 (māma kāi chē) signifie « Maman conduit une voiture. ». 妈妈 a une deuxième syllabe neutre ; 开车 signifie « conduire ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0138"
+      ],
+      "entryIds": [
+        "e-p0023-066"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-010",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 大山 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-010-o1",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0023-010-o2",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0023-010-o3",
+          "text": "cheval blanc"
+        }
+      ],
+      "correctOptionId": "q-p0023-010-o1",
+      "explanation": "大山 (dà shān) signifie « grande montagne ». 大 qualifie 山.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0119"
+      ],
+      "entryIds": [
+        "e-p0023-047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-011",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « grande montagne » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-011-o1",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0023-011-o2",
+          "text": "白马"
+        },
+        {
+          "id": "q-p0023-011-o3",
+          "text": "大山"
+        }
+      ],
+      "correctOptionId": "q-p0023-011-o3",
+      "explanation": "« grande montagne » se dit 大山 (dà shān).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0119"
+      ],
+      "entryIds": [
+        "e-p0023-047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-012",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « yī » signifiant « un ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-012-o1",
+          "text": "三"
+        },
+        {
+          "id": "q-p0023-012-o2",
+          "text": "一"
+        },
+        {
+          "id": "q-p0023-012-o3",
+          "text": "二"
+        }
+      ],
+      "correctOptionId": "q-p0023-012-o2",
+      "explanation": "一 se prononce yī et signifie « un ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0001"
+      ],
+      "entryIds": [
+        "e-p0023-001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-013",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 「我去____。」 (Je vais à Pékin.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-013-o1",
+          "text": "北京"
+        },
+        {
+          "id": "q-p0023-013-o2",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0023-013-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0023-013-o1",
+      "explanation": "Le mot manquant est 北京 (Běijīng, « Pékin »), ce qui complète 「我去北京。」.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0136"
+      ],
+      "entryIds": [
+        "e-p0023-064"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-014",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le mot chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-014-o1",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0023-014-o2",
+          "text": "白马"
+        },
+        {
+          "id": "q-p0023-014-o3",
+          "text": "大山"
+        }
+      ],
+      "correctOptionId": "q-p0023-014-o3",
+      "explanation": "L'audio prononce 大山 (dà shān), qui signifie « grande montagne ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0119"
+      ],
+      "entryIds": [
+        "e-p0023-047"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "大山",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-015",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 大山 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-015-o1",
+          "text": "cheval blanc"
+        },
+        {
+          "id": "q-p0023-015-o2",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0023-015-o3",
+          "text": "viande de mouton ; agneau"
+        }
+      ],
+      "correctOptionId": "q-p0023-015-o2",
+      "explanation": "大山 (dà shān) signifie « grande montagne ». 大 qualifie 山.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0119"
+      ],
+      "entryIds": [
+        "e-p0023-047"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-016",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 羊肉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-016-o1",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0023-016-o2",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0023-016-o3",
+          "text": "cheval blanc"
+        }
+      ],
+      "correctOptionId": "q-p0023-016-o1",
+      "explanation": "羊肉 (yángròu) signifie « viande de mouton ; agneau ». Viande de mouton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0120"
+      ],
+      "entryIds": [
+        "e-p0023-048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-017",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « viande de mouton ; agneau » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-017-o1",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0023-017-o2",
+          "text": "白马"
+        },
+        {
+          "id": "q-p0023-017-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0023-017-o3",
+      "explanation": "« viande de mouton ; agneau » se dit 羊肉 (yángròu).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0120"
+      ],
+      "entryIds": [
+        "e-p0023-048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-018",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « èr » signifiant « deux ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-018-o1",
+          "text": "三"
+        },
+        {
+          "id": "q-p0023-018-o2",
+          "text": "二"
+        },
+        {
+          "id": "q-p0023-018-o3",
+          "text": "一"
+        }
+      ],
+      "correctOptionId": "q-p0023-018-o2",
+      "explanation": "二 se prononce èr et signifie « deux ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0002"
+      ],
+      "entryIds": [
+        "e-p0023-002"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-019",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 「男人看报，____看书。」 (L'homme lit un journal ; la femme lit un livre.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-019-o1",
+          "text": "女人"
+        },
+        {
+          "id": "q-p0023-019-o2",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0023-019-o3",
+          "text": "羊肉"
+        }
+      ],
+      "correctOptionId": "q-p0023-019-o1",
+      "explanation": "Le mot manquant est 女人 (nǚrén, « femme »), ce qui complète 「男人看报，女人看书。」.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0137"
+      ],
+      "entryIds": [
+        "e-p0023-065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-020",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le phrase chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-020-o1",
+          "text": "男人看报，女人看书。"
+        },
+        {
+          "id": "q-p0023-020-o2",
+          "text": "妈妈开车。"
+        },
+        {
+          "id": "q-p0023-020-o3",
+          "text": "我去北京。"
+        }
+      ],
+      "correctOptionId": "q-p0023-020-o3",
+      "explanation": "L'audio prononce 我去北京。 (wǒ qù Běijīng), qui signifie « Je vais à Pékin. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0136"
+      ],
+      "entryIds": [
+        "e-p0023-064"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "我去北京。",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-021",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 羊肉 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-021-o1",
+          "text": "cheval blanc"
+        },
+        {
+          "id": "q-p0023-021-o2",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0023-021-o3",
+          "text": "grande montagne"
+        }
+      ],
+      "correctOptionId": "q-p0023-021-o2",
+      "explanation": "羊肉 (yángròu) signifie « viande de mouton ; agneau ». Viande de mouton.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0120"
+      ],
+      "entryIds": [
+        "e-p0023-048"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-022",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 白马 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-022-o1",
+          "text": "cheval blanc"
+        },
+        {
+          "id": "q-p0023-022-o2",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0023-022-o3",
+          "text": "viande de mouton ; agneau"
+        }
+      ],
+      "correctOptionId": "q-p0023-022-o1",
+      "explanation": "白马 (bái mǎ) signifie « cheval blanc ». La couleur 白 précède 马.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0121"
+      ],
+      "entryIds": [
+        "e-p0023-049"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-023",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « cheval blanc » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-023-o1",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0023-023-o2",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0023-023-o3",
+          "text": "白马"
+        }
+      ],
+      "correctOptionId": "q-p0023-023-o3",
+      "explanation": "« cheval blanc » se dit 白马 (bái mǎ).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0121"
+      ],
+      "entryIds": [
+        "e-p0023-049"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-024",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « sān » signifiant « trois ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-024-o1",
+          "text": "二"
+        },
+        {
+          "id": "q-p0023-024-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0023-024-o3",
+          "text": "一"
+        }
+      ],
+      "correctOptionId": "q-p0023-024-o2",
+      "explanation": "三 se prononce sān et signifie « trois ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0003"
+      ],
+      "entryIds": [
+        "e-p0023-003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-025",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 「____说我叫白木勺。」 (Je dis que je m'appelle Bai Mushao.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-025-o1",
+          "text": "我"
+        },
+        {
+          "id": "q-p0023-025-o2",
+          "text": "一"
+        },
+        {
+          "id": "q-p0023-025-o3",
+          "text": "二"
+        }
+      ],
+      "correctOptionId": "q-p0023-025-o1",
+      "explanation": "Le caractère manquant est 我 (wǒ, « je ; moi »), ce qui complète 「我说我叫白木勺。」.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0139"
+      ],
+      "entryIds": [
+        "e-p0023-067"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-026",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez l'audio et choisissez le caractère chinois correspondant.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-026-o1",
+          "text": "二"
+        },
+        {
+          "id": "q-p0023-026-o2",
+          "text": "三"
+        },
+        {
+          "id": "q-p0023-026-o3",
+          "text": "一"
+        }
+      ],
+      "correctOptionId": "q-p0023-026-o3",
+      "explanation": "L'audio prononce 一 (yī), qui signifie « un ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0001"
+      ],
+      "entryIds": [
+        "e-p0023-001"
+      ],
+      "requiresAudio": true,
+      "speechTarget": "一",
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-027",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 白马 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-027-o1",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0023-027-o2",
+          "text": "cheval blanc"
+        },
+        {
+          "id": "q-p0023-027-o3",
+          "text": "grande montagne"
+        }
+      ],
+      "correctOptionId": "q-p0023-027-o2",
+      "explanation": "白马 (bái mǎ) signifie « cheval blanc ». La couleur 白 précède 马.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0121"
+      ],
+      "entryIds": [
+        "e-p0023-049"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-028",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 大白马 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-028-o1",
+          "text": "grand cheval blanc"
+        },
+        {
+          "id": "q-p0023-028-o2",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0023-028-o3",
+          "text": "viande de mouton ; agneau"
+        }
+      ],
+      "correctOptionId": "q-p0023-028-o1",
+      "explanation": "大白马 (dà bái mǎ) signifie « grand cheval blanc ». 大 et 白 qualifient tous deux 马.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0122"
+      ],
+      "entryIds": [
+        "e-p0023-050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-029",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel élément chinois signifie « grand cheval blanc » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-029-o1",
+          "text": "大山"
+        },
+        {
+          "id": "q-p0023-029-o2",
+          "text": "羊肉"
+        },
+        {
+          "id": "q-p0023-029-o3",
+          "text": "大白马"
+        }
+      ],
+      "correctOptionId": "q-p0023-029-o3",
+      "explanation": "« grand cheval blanc » se dit 大白马 (dà bái mǎ).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0122"
+      ],
+      "entryIds": [
+        "e-p0023-050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-030",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Identifiez le caractère prononcé « sì » signifiant « quatre ».",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-030-o1",
+          "text": "二"
+        },
+        {
+          "id": "q-p0023-030-o2",
+          "text": "四"
+        },
+        {
+          "id": "q-p0023-030-o3",
+          "text": "一"
+        }
+      ],
+      "correctOptionId": "q-p0023-030-o2",
+      "explanation": "四 se prononce sì et signifie « quatre ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0004"
+      ],
+      "entryIds": [
+        "e-p0023-004"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-031",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans le contexte de cette page, quel est le sens/rôle de 大白马 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-031-o1",
+          "text": "grand cheval blanc"
+        },
+        {
+          "id": "q-p0023-031-o2",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0023-031-o3",
+          "text": "viande de mouton ; agneau"
+        }
+      ],
+      "correctOptionId": "q-p0023-031-o1",
+      "explanation": "大白马 (dà bái mǎ) signifie « grand cheval blanc ». 大 et 白 qualifient tous deux 马.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0122"
+      ],
+      "entryIds": [
+        "e-p0023-050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "q-p0023-032",
+      "pageId": "p0023",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 女人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "q-p0023-032-o1",
+          "text": "grande montagne"
+        },
+        {
+          "id": "q-p0023-032-o2",
+          "text": "viande de mouton ; agneau"
+        },
+        {
+          "id": "q-p0023-032-o3",
+          "text": "femme"
+        }
+      ],
+      "correctOptionId": "q-p0023-032-o3",
+      "explanation": "女人 (nǚrén) signifie « femme ». 女 signifie « femme/féminin » ; 人 signifie « personne ». La lecture standard indiquée ici est nǚrén.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0023-0123"
+      ],
+      "entryIds": [
+        "e-p0023-051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed"
+    }
+  ]
+}
