@@ -1,3 +1,4 @@
+import { useI18n } from "../../i18n/I18n.tsx";
 import { useState } from "react";
 import type { Entry } from "../../../contracts/content.ts";
 import { writingCharacters } from "./model.ts";
@@ -23,18 +24,20 @@ export function StrokeOrder({
   visible: boolean;
   onPractise: () => void;
 }) {
+  const { t } = useI18n();
   const characters = writingCharacters(entry.form);
   const [expanded, setExpanded] = useState(readStrokeOrderPreference);
   const singleCharacter = entry.kind === "character" && characters.length === 1;
   if (!characters.length) return null;
   const practiceButton = (
     <button className="full" onClick={onPractise}>
-      Practise writing{" "}
-      {characters.length === 1
-        ? "character"
-        : entry.kind === "sentence"
-          ? "sentence"
-          : "word"}
+      {t(
+        characters.length === 1
+          ? "Practise writing a character"
+          : entry.kind === "sentence"
+            ? "Practise writing a sentence"
+            : "Practise writing a word",
+      )}
     </button>
   );
   if (!singleCharacter) return practiceButton;
@@ -53,7 +56,7 @@ export function StrokeOrder({
         }
       }}
     >
-      <summary>Stroke order</summary>
+      <summary>{t("Stroke order")}</summary>
       {expanded && (
         <WritingBoard
           character={characters[0]}
