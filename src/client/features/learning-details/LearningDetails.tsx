@@ -115,12 +115,12 @@ export function LearningDetails({
       </div>
       {entry.explanation && <p>{entry.explanation}</p>}
       <StrokeOrder
-        key={entry.id}
+        key={`stroke-order:${entry.id}`}
         entry={entry}
         visible={visible}
         onPractise={onPractise}
       />
-      <CharacterHistory key={entry.id} entry={entry} />
+      <CharacterHistory key={`character-history:${entry.id}`} entry={entry} />
       {!!entry.constituentIds?.length && (
         <details open>
           <summary>Explore the parts</summary>
