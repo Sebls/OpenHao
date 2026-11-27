@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0004-001",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Comment se prononce 不 devant une syllabe au 4e ton comme 是, 在, 会 ou 看 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "2e ton (bú)"
+        },
+        {
+          "id": "o1",
+          "text": "4e ton (bù)"
+        },
+        {
+          "id": "o2",
+          "text": "1er ton (bū)"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Lorsque 不 précède une syllabe au 4e ton, son ton passe du 4e ton (bù) au 2e ton (bú).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0004-002",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Lorsque deux syllabes au 3e ton se suivent, comme dans 你好, comment se prononce la première syllabe ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "2e ton (ní hǎo)"
+        },
+        {
+          "id": "o1",
+          "text": "1er ton (nī hǎo)"
+        },
+        {
+          "id": "o2",
+          "text": "4e ton (nì hǎo)"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Dans une suite de deux 3es tons, le premier passe au 2e ton (ton montant).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0005"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0004-003",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 很好 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "très bien"
+        },
+        {
+          "id": "o1",
+          "text": "je veux"
+        },
+        {
+          "id": "o2",
+          "text": "bonjour"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "很好 (hěn hǎo) signifie « très bien ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0004-004",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel caractère signifie « manger » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "吃"
+        },
+        {
+          "id": "o1",
+          "text": "来"
+        },
+        {
+          "id": "o2",
+          "text": "打"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "吃 (chī) signifie « manger ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0015"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0004-005",
+      "pageId": "p0004",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez l'expression que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你好"
+        },
+        {
+          "id": "o1",
+          "text": "很好"
+        },
+        {
+          "id": "o2",
+          "text": "我想"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "很好 (hěn hǎo) signifie « très bien ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0004-0008"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "很好"
+    }
+  ]
+}

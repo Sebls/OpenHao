@@ -1,0 +1,2907 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "annotations": [
+    {
+      "id": "a-p0006-0001",
+      "entryId": "e-p0006-sent-001",
+      "kind": "sentence",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 62,
+          "end": 70,
+          "exactText": "她有二十二个学生",
+          "characterIds": [
+            "c00056",
+            "c00057",
+            "c00058",
+            "c00059",
+            "c00060",
+            "c00061",
+            "c00062",
+            "c00063"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0002",
+      "entryId": "e-p0006-char-001",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 62,
+          "end": 63,
+          "exactText": "她",
+          "characterIds": [
+            "c00056"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0001"
+    },
+    {
+      "id": "a-p0006-0003",
+      "entryId": "e-p0006-char-002",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 63,
+          "end": 64,
+          "exactText": "有",
+          "characterIds": [
+            "c00057"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0001"
+    },
+    {
+      "id": "a-p0006-0004",
+      "entryId": "e-p0006-word-001",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 64,
+          "end": 67,
+          "exactText": "二十二",
+          "characterIds": [
+            "c00058",
+            "c00059",
+            "c00060"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0001"
+    },
+    {
+      "id": "a-p0006-0005",
+      "entryId": "e-p0006-char-003",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 64,
+          "end": 65,
+          "exactText": "二",
+          "characterIds": [
+            "c00058"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0004"
+    },
+    {
+      "id": "a-p0006-0006",
+      "entryId": "e-p0006-char-004",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 65,
+          "end": 66,
+          "exactText": "十",
+          "characterIds": [
+            "c00059"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0004"
+    },
+    {
+      "id": "a-p0006-0007",
+      "entryId": "e-p0006-char-003",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 66,
+          "end": 67,
+          "exactText": "二",
+          "characterIds": [
+            "c00060"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0004"
+    },
+    {
+      "id": "a-p0006-0008",
+      "entryId": "e-p0006-char-005",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 67,
+          "end": 68,
+          "exactText": "个",
+          "characterIds": [
+            "c00061"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0001"
+    },
+    {
+      "id": "a-p0006-0009",
+      "entryId": "e-p0006-word-002",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 68,
+          "end": 70,
+          "exactText": "学生",
+          "characterIds": [
+            "c00062",
+            "c00063"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0001"
+    },
+    {
+      "id": "a-p0006-0010",
+      "entryId": "e-p0006-char-006",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 68,
+          "end": 69,
+          "exactText": "学",
+          "characterIds": [
+            "c00062"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0009"
+    },
+    {
+      "id": "a-p0006-0011",
+      "entryId": "e-p0006-char-007",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 69,
+          "end": 70,
+          "exactText": "生",
+          "characterIds": [
+            "c00063"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0009"
+    },
+    {
+      "id": "a-p0006-0012",
+      "entryId": "e-p0006-sent-002",
+      "kind": "sentence",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 82,
+          "end": 88,
+          "exactText": "他有一个姐姐",
+          "characterIds": [
+            "c00075",
+            "c00076",
+            "c00077",
+            "c00078",
+            "c00079",
+            "c00080"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0013",
+      "entryId": "e-p0006-char-008",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 82,
+          "end": 83,
+          "exactText": "他",
+          "characterIds": [
+            "c00075"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0012"
+    },
+    {
+      "id": "a-p0006-0014",
+      "entryId": "e-p0006-char-002",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 83,
+          "end": 84,
+          "exactText": "有",
+          "characterIds": [
+            "c00076"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0012"
+    },
+    {
+      "id": "a-p0006-0015",
+      "entryId": "e-p0006-char-009",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 84,
+          "end": 85,
+          "exactText": "一",
+          "characterIds": [
+            "c00077"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0012"
+    },
+    {
+      "id": "a-p0006-0016",
+      "entryId": "e-p0006-char-005",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 85,
+          "end": 86,
+          "exactText": "个",
+          "characterIds": [
+            "c00078"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0012"
+    },
+    {
+      "id": "a-p0006-0017",
+      "entryId": "e-p0006-word-003",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 86,
+          "end": 88,
+          "exactText": "姐姐",
+          "characterIds": [
+            "c00079",
+            "c00080"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0012"
+    },
+    {
+      "id": "a-p0006-0018",
+      "entryId": "e-p0006-char-010",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 86,
+          "end": 87,
+          "exactText": "姐",
+          "characterIds": [
+            "c00079"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0017"
+    },
+    {
+      "id": "a-p0006-0019",
+      "entryId": "e-p0006-char-010",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 87,
+          "end": 88,
+          "exactText": "姐",
+          "characterIds": [
+            "c00080"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0017"
+    },
+    {
+      "id": "a-p0006-0020",
+      "entryId": "e-p0006-sent-003",
+      "kind": "sentence",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 100,
+          "end": 104,
+          "exactText": "我有妹妹",
+          "characterIds": [
+            "c00092",
+            "c00093",
+            "c00094",
+            "c00095"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0021",
+      "entryId": "e-p0006-char-011",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 100,
+          "end": 101,
+          "exactText": "我",
+          "characterIds": [
+            "c00092"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0020"
+    },
+    {
+      "id": "a-p0006-0022",
+      "entryId": "e-p0006-char-002",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 101,
+          "end": 102,
+          "exactText": "有",
+          "characterIds": [
+            "c00093"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0020"
+    },
+    {
+      "id": "a-p0006-0023",
+      "entryId": "e-p0006-word-004",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 102,
+          "end": 104,
+          "exactText": "妹妹",
+          "characterIds": [
+            "c00094",
+            "c00095"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0020"
+    },
+    {
+      "id": "a-p0006-0024",
+      "entryId": "e-p0006-char-012",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 102,
+          "end": 103,
+          "exactText": "妹",
+          "characterIds": [
+            "c00094"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0023"
+    },
+    {
+      "id": "a-p0006-0025",
+      "entryId": "e-p0006-char-012",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 103,
+          "end": 104,
+          "exactText": "妹",
+          "characterIds": [
+            "c00095"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0023"
+    },
+    {
+      "id": "a-p0006-0026",
+      "entryId": "e-p0006-sent-004",
+      "kind": "sentence",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 399,
+          "end": 409,
+          "exactText": "我有两个哥哥，你呢？",
+          "characterIds": [
+            "c00377",
+            "c00378",
+            "c00379",
+            "c00380",
+            "c00381",
+            "c00382",
+            "c00383",
+            "c00384",
+            "c00385",
+            "c00386"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0027",
+      "entryId": "e-p0006-char-011",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 399,
+          "end": 400,
+          "exactText": "我",
+          "characterIds": [
+            "c00377"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0026"
+    },
+    {
+      "id": "a-p0006-0028",
+      "entryId": "e-p0006-char-002",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 400,
+          "end": 401,
+          "exactText": "有",
+          "characterIds": [
+            "c00378"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0026"
+    },
+    {
+      "id": "a-p0006-0029",
+      "entryId": "e-p0006-char-013",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 401,
+          "end": 402,
+          "exactText": "两",
+          "characterIds": [
+            "c00379"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0026"
+    },
+    {
+      "id": "a-p0006-0030",
+      "entryId": "e-p0006-char-005",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 402,
+          "end": 403,
+          "exactText": "个",
+          "characterIds": [
+            "c00380"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0026"
+    },
+    {
+      "id": "a-p0006-0031",
+      "entryId": "e-p0006-word-005",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 403,
+          "end": 405,
+          "exactText": "哥哥",
+          "characterIds": [
+            "c00381",
+            "c00382"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0026"
+    },
+    {
+      "id": "a-p0006-0032",
+      "entryId": "e-p0006-char-014",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 403,
+          "end": 404,
+          "exactText": "哥",
+          "characterIds": [
+            "c00381"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0031"
+    },
+    {
+      "id": "a-p0006-0033",
+      "entryId": "e-p0006-char-014",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 404,
+          "end": 405,
+          "exactText": "哥",
+          "characterIds": [
+            "c00382"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0031"
+    },
+    {
+      "id": "a-p0006-0034",
+      "entryId": "e-p0006-char-015",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 406,
+          "end": 407,
+          "exactText": "你",
+          "characterIds": [
+            "c00384"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0026"
+    },
+    {
+      "id": "a-p0006-0035",
+      "entryId": "e-p0006-char-016",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 407,
+          "end": 408,
+          "exactText": "呢",
+          "characterIds": [
+            "c00385"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0026"
+    },
+    {
+      "id": "a-p0006-0036",
+      "entryId": "e-p0006-sent-005",
+      "kind": "sentence",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 416,
+          "end": 425,
+          "exactText": "我叫白家月，你呢？",
+          "characterIds": [
+            "c00393",
+            "c00394",
+            "c00395",
+            "c00396",
+            "c00397",
+            "c00398",
+            "c00399",
+            "c00400",
+            "c00401"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0037",
+      "entryId": "e-p0006-char-011",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 416,
+          "end": 417,
+          "exactText": "我",
+          "characterIds": [
+            "c00393"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0036"
+    },
+    {
+      "id": "a-p0006-0038",
+      "entryId": "e-p0006-char-017",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 417,
+          "end": 418,
+          "exactText": "叫",
+          "characterIds": [
+            "c00394"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0036"
+    },
+    {
+      "id": "a-p0006-0039",
+      "entryId": "e-p0006-word-006",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 418,
+          "end": 421,
+          "exactText": "白家月",
+          "characterIds": [
+            "c00395",
+            "c00396",
+            "c00397"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0036"
+    },
+    {
+      "id": "a-p0006-0040",
+      "entryId": "e-p0006-char-018",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 418,
+          "end": 419,
+          "exactText": "白",
+          "characterIds": [
+            "c00395"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0039"
+    },
+    {
+      "id": "a-p0006-0041",
+      "entryId": "e-p0006-char-019",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 419,
+          "end": 420,
+          "exactText": "家",
+          "characterIds": [
+            "c00396"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0039"
+    },
+    {
+      "id": "a-p0006-0042",
+      "entryId": "e-p0006-char-020",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 420,
+          "end": 421,
+          "exactText": "月",
+          "characterIds": [
+            "c00397"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0039"
+    },
+    {
+      "id": "a-p0006-0043",
+      "entryId": "e-p0006-char-015",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 422,
+          "end": 423,
+          "exactText": "你",
+          "characterIds": [
+            "c00399"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0036"
+    },
+    {
+      "id": "a-p0006-0044",
+      "entryId": "e-p0006-char-016",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 423,
+          "end": 424,
+          "exactText": "呢",
+          "characterIds": [
+            "c00400"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0036"
+    },
+    {
+      "id": "a-p0006-0045",
+      "entryId": "e-p0006-sent-006",
+      "kind": "sentence",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 429,
+          "end": 438,
+          "exactText": "我是中国人，你呢？",
+          "characterIds": [
+            "c00405",
+            "c00406",
+            "c00407",
+            "c00408",
+            "c00409",
+            "c00410",
+            "c00411",
+            "c00412",
+            "c00413"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0046",
+      "entryId": "e-p0006-char-011",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 429,
+          "end": 430,
+          "exactText": "我",
+          "characterIds": [
+            "c00405"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0045"
+    },
+    {
+      "id": "a-p0006-0047",
+      "entryId": "e-p0006-char-021",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 430,
+          "end": 431,
+          "exactText": "是",
+          "characterIds": [
+            "c00406"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0045"
+    },
+    {
+      "id": "a-p0006-0048",
+      "entryId": "e-p0006-word-007",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 431,
+          "end": 434,
+          "exactText": "中国人",
+          "characterIds": [
+            "c00407",
+            "c00408",
+            "c00409"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0045"
+    },
+    {
+      "id": "a-p0006-0049",
+      "entryId": "e-p0006-char-022",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 431,
+          "end": 432,
+          "exactText": "中",
+          "characterIds": [
+            "c00407"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0048"
+    },
+    {
+      "id": "a-p0006-0050",
+      "entryId": "e-p0006-char-023",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 432,
+          "end": 433,
+          "exactText": "国",
+          "characterIds": [
+            "c00408"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0048"
+    },
+    {
+      "id": "a-p0006-0051",
+      "entryId": "e-p0006-char-024",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 433,
+          "end": 434,
+          "exactText": "人",
+          "characterIds": [
+            "c00409"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0048"
+    },
+    {
+      "id": "a-p0006-0052",
+      "entryId": "e-p0006-char-015",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 435,
+          "end": 436,
+          "exactText": "你",
+          "characterIds": [
+            "c00411"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0045"
+    },
+    {
+      "id": "a-p0006-0053",
+      "entryId": "e-p0006-char-016",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 436,
+          "end": 437,
+          "exactText": "呢",
+          "characterIds": [
+            "c00412"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0045"
+    },
+    {
+      "id": "a-p0006-0054",
+      "entryId": "e-p0006-word-008",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 7,
+          "end": 10,
+          "exactText": "第四课",
+          "characterIds": [
+            "c00006",
+            "c00007",
+            "c00008"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0055",
+      "entryId": "e-p0006-char-025",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 7,
+          "end": 8,
+          "exactText": "第",
+          "characterIds": [
+            "c00006"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0054"
+    },
+    {
+      "id": "a-p0006-0056",
+      "entryId": "e-p0006-char-026",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 8,
+          "end": 9,
+          "exactText": "四",
+          "characterIds": [
+            "c00007"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0054"
+    },
+    {
+      "id": "a-p0006-0057",
+      "entryId": "e-p0006-char-027",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 9,
+          "end": 10,
+          "exactText": "课",
+          "characterIds": [
+            "c00008"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0054"
+    },
+    {
+      "id": "a-p0006-0058",
+      "entryId": "e-p0006-char-002",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 51,
+          "end": 52,
+          "exactText": "有",
+          "characterIds": [
+            "c00046"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0059",
+      "entryId": "e-p0006-char-009",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 173,
+          "end": 174,
+          "exactText": "一",
+          "characterIds": [
+            "c00162"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0060",
+      "entryId": "e-p0006-char-003",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 175,
+          "end": 176,
+          "exactText": "二",
+          "characterIds": [
+            "c00164"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0061",
+      "entryId": "e-p0006-char-028",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 177,
+          "end": 178,
+          "exactText": "三",
+          "characterIds": [
+            "c00166"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0062",
+      "entryId": "e-p0006-char-026",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 179,
+          "end": 180,
+          "exactText": "四",
+          "characterIds": [
+            "c00168"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0063",
+      "entryId": "e-p0006-char-029",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 181,
+          "end": 182,
+          "exactText": "五",
+          "characterIds": [
+            "c00170"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0064",
+      "entryId": "e-p0006-char-030",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 183,
+          "end": 184,
+          "exactText": "六",
+          "characterIds": [
+            "c00172"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0065",
+      "entryId": "e-p0006-char-031",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 185,
+          "end": 186,
+          "exactText": "七",
+          "characterIds": [
+            "c00174"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0066",
+      "entryId": "e-p0006-char-032",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 187,
+          "end": 188,
+          "exactText": "八",
+          "characterIds": [
+            "c00176"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0067",
+      "entryId": "e-p0006-char-033",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 189,
+          "end": 190,
+          "exactText": "九",
+          "characterIds": [
+            "c00178"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0068",
+      "entryId": "e-p0006-char-004",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 191,
+          "end": 192,
+          "exactText": "十",
+          "characterIds": [
+            "c00180"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0069",
+      "entryId": "e-p0006-word-009",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 193,
+          "end": 195,
+          "exactText": "十一",
+          "characterIds": [
+            "c00182",
+            "c00183"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0070",
+      "entryId": "e-p0006-char-004",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 193,
+          "end": 194,
+          "exactText": "十",
+          "characterIds": [
+            "c00182"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0069"
+    },
+    {
+      "id": "a-p0006-0071",
+      "entryId": "e-p0006-char-009",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 194,
+          "end": 195,
+          "exactText": "一",
+          "characterIds": [
+            "c00183"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0069"
+    },
+    {
+      "id": "a-p0006-0072",
+      "entryId": "e-p0006-word-010",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 197,
+          "end": 200,
+          "exactText": "二十三",
+          "characterIds": [
+            "c00185",
+            "c00186",
+            "c00187"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0073",
+      "entryId": "e-p0006-char-003",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 197,
+          "end": 198,
+          "exactText": "二",
+          "characterIds": [
+            "c00185"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0072"
+    },
+    {
+      "id": "a-p0006-0074",
+      "entryId": "e-p0006-char-004",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 198,
+          "end": 199,
+          "exactText": "十",
+          "characterIds": [
+            "c00186"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0072"
+    },
+    {
+      "id": "a-p0006-0075",
+      "entryId": "e-p0006-char-028",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 199,
+          "end": 200,
+          "exactText": "三",
+          "characterIds": [
+            "c00187"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0072"
+    },
+    {
+      "id": "a-p0006-0076",
+      "entryId": "e-p0006-word-011",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 201,
+          "end": 204,
+          "exactText": "四十七",
+          "characterIds": [
+            "c00189",
+            "c00190",
+            "c00191"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0077",
+      "entryId": "e-p0006-char-026",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 201,
+          "end": 202,
+          "exactText": "四",
+          "characterIds": [
+            "c00189"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0076"
+    },
+    {
+      "id": "a-p0006-0078",
+      "entryId": "e-p0006-char-004",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 202,
+          "end": 203,
+          "exactText": "十",
+          "characterIds": [
+            "c00190"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0076"
+    },
+    {
+      "id": "a-p0006-0079",
+      "entryId": "e-p0006-char-031",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 203,
+          "end": 204,
+          "exactText": "七",
+          "characterIds": [
+            "c00191"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0076"
+    },
+    {
+      "id": "a-p0006-0080",
+      "entryId": "e-p0006-word-012",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 205,
+          "end": 208,
+          "exactText": "五十八",
+          "characterIds": [
+            "c00193",
+            "c00194",
+            "c00195"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0081",
+      "entryId": "e-p0006-char-029",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 205,
+          "end": 206,
+          "exactText": "五",
+          "characterIds": [
+            "c00193"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0080"
+    },
+    {
+      "id": "a-p0006-0082",
+      "entryId": "e-p0006-char-004",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 206,
+          "end": 207,
+          "exactText": "十",
+          "characterIds": [
+            "c00194"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0080"
+    },
+    {
+      "id": "a-p0006-0083",
+      "entryId": "e-p0006-char-032",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 207,
+          "end": 208,
+          "exactText": "八",
+          "characterIds": [
+            "c00195"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0080"
+    },
+    {
+      "id": "a-p0006-0084",
+      "entryId": "e-p0006-word-013",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 209,
+          "end": 212,
+          "exactText": "六十九",
+          "characterIds": [
+            "c00197",
+            "c00198",
+            "c00199"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0085",
+      "entryId": "e-p0006-char-030",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 209,
+          "end": 210,
+          "exactText": "六",
+          "characterIds": [
+            "c00197"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0084"
+    },
+    {
+      "id": "a-p0006-0086",
+      "entryId": "e-p0006-char-004",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 210,
+          "end": 211,
+          "exactText": "十",
+          "characterIds": [
+            "c00198"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0084"
+    },
+    {
+      "id": "a-p0006-0087",
+      "entryId": "e-p0006-char-033",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 211,
+          "end": 212,
+          "exactText": "九",
+          "characterIds": [
+            "c00199"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0084"
+    },
+    {
+      "id": "a-p0006-0088",
+      "entryId": "e-p0006-word-014",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 213,
+          "end": 215,
+          "exactText": "一百",
+          "characterIds": [
+            "c00201",
+            "c00202"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0089",
+      "entryId": "e-p0006-char-034",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 213,
+          "end": 214,
+          "exactText": "一",
+          "characterIds": [
+            "c00201"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0088"
+    },
+    {
+      "id": "a-p0006-0090",
+      "entryId": "e-p0006-char-035",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 214,
+          "end": 215,
+          "exactText": "百",
+          "characterIds": [
+            "c00202"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0088"
+    },
+    {
+      "id": "a-p0006-0091",
+      "entryId": "e-p0006-word-015",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 216,
+          "end": 218,
+          "exactText": "一千",
+          "characterIds": [
+            "c00204",
+            "c00205"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0092",
+      "entryId": "e-p0006-char-034",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 216,
+          "end": 217,
+          "exactText": "一",
+          "characterIds": [
+            "c00204"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0091"
+    },
+    {
+      "id": "a-p0006-0093",
+      "entryId": "e-p0006-char-036",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 217,
+          "end": 218,
+          "exactText": "千",
+          "characterIds": [
+            "c00205"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0091"
+    },
+    {
+      "id": "a-p0006-0094",
+      "entryId": "e-p0006-char-003",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 278,
+          "end": 279,
+          "exactText": "二",
+          "characterIds": [
+            "c00263"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0095",
+      "entryId": "e-p0006-char-013",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 290,
+          "end": 291,
+          "exactText": "两",
+          "characterIds": [
+            "c00275"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0096",
+      "entryId": "e-p0006-word-016",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 301,
+          "end": 303,
+          "exactText": "十二",
+          "characterIds": [
+            "c00284",
+            "c00285"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0097",
+      "entryId": "e-p0006-char-004",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 301,
+          "end": 302,
+          "exactText": "十",
+          "characterIds": [
+            "c00284"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0096"
+    },
+    {
+      "id": "a-p0006-0098",
+      "entryId": "e-p0006-char-003",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 302,
+          "end": 303,
+          "exactText": "二",
+          "characterIds": [
+            "c00285"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0096"
+    },
+    {
+      "id": "a-p0006-0099",
+      "entryId": "e-p0006-word-001",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 304,
+          "end": 307,
+          "exactText": "二十二",
+          "characterIds": [
+            "c00287",
+            "c00288",
+            "c00289"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0100",
+      "entryId": "e-p0006-char-003",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 304,
+          "end": 305,
+          "exactText": "二",
+          "characterIds": [
+            "c00287"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0099"
+    },
+    {
+      "id": "a-p0006-0101",
+      "entryId": "e-p0006-char-004",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 305,
+          "end": 306,
+          "exactText": "十",
+          "characterIds": [
+            "c00288"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0099"
+    },
+    {
+      "id": "a-p0006-0102",
+      "entryId": "e-p0006-char-003",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 306,
+          "end": 307,
+          "exactText": "二",
+          "characterIds": [
+            "c00289"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0099"
+    },
+    {
+      "id": "a-p0006-0103",
+      "entryId": "e-p0006-word-017",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 308,
+          "end": 313,
+          "exactText": "一百二十二",
+          "characterIds": [
+            "c00291",
+            "c00292",
+            "c00293",
+            "c00294",
+            "c00295"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0104",
+      "entryId": "e-p0006-char-034",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 308,
+          "end": 309,
+          "exactText": "一",
+          "characterIds": [
+            "c00291"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0103"
+    },
+    {
+      "id": "a-p0006-0105",
+      "entryId": "e-p0006-char-035",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 309,
+          "end": 310,
+          "exactText": "百",
+          "characterIds": [
+            "c00292"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0103"
+    },
+    {
+      "id": "a-p0006-0106",
+      "entryId": "e-p0006-char-003",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 310,
+          "end": 311,
+          "exactText": "二",
+          "characterIds": [
+            "c00293"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0103"
+    },
+    {
+      "id": "a-p0006-0107",
+      "entryId": "e-p0006-char-004",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 311,
+          "end": 312,
+          "exactText": "十",
+          "characterIds": [
+            "c00294"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0103"
+    },
+    {
+      "id": "a-p0006-0108",
+      "entryId": "e-p0006-char-003",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 312,
+          "end": 313,
+          "exactText": "二",
+          "characterIds": [
+            "c00295"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0103"
+    },
+    {
+      "id": "a-p0006-0109",
+      "entryId": "e-p0006-word-018",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 328,
+          "end": 331,
+          "exactText": "两个人",
+          "characterIds": [
+            "c00310",
+            "c00311",
+            "c00312"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0110",
+      "entryId": "e-p0006-char-013",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 328,
+          "end": 329,
+          "exactText": "两",
+          "characterIds": [
+            "c00310"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0109"
+    },
+    {
+      "id": "a-p0006-0111",
+      "entryId": "e-p0006-char-005",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 329,
+          "end": 330,
+          "exactText": "个",
+          "characterIds": [
+            "c00311"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0109"
+    },
+    {
+      "id": "a-p0006-0112",
+      "entryId": "e-p0006-char-024",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 330,
+          "end": 331,
+          "exactText": "人",
+          "characterIds": [
+            "c00312"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0109"
+    },
+    {
+      "id": "a-p0006-0113",
+      "entryId": "e-p0006-word-019",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 332,
+          "end": 335,
+          "exactText": "两口人",
+          "characterIds": [
+            "c00314",
+            "c00315",
+            "c00316"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0114",
+      "entryId": "e-p0006-char-013",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 332,
+          "end": 333,
+          "exactText": "两",
+          "characterIds": [
+            "c00314"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0113"
+    },
+    {
+      "id": "a-p0006-0115",
+      "entryId": "e-p0006-char-037",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 333,
+          "end": 334,
+          "exactText": "口",
+          "characterIds": [
+            "c00315"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0113"
+    },
+    {
+      "id": "a-p0006-0116",
+      "entryId": "e-p0006-char-024",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 334,
+          "end": 335,
+          "exactText": "人",
+          "characterIds": [
+            "c00316"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0113"
+    },
+    {
+      "id": "a-p0006-0117",
+      "entryId": "e-p0006-word-020",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 336,
+          "end": 339,
+          "exactText": "两本书",
+          "characterIds": [
+            "c00318",
+            "c00319",
+            "c00320"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0118",
+      "entryId": "e-p0006-char-013",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 336,
+          "end": 337,
+          "exactText": "两",
+          "characterIds": [
+            "c00318"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0117"
+    },
+    {
+      "id": "a-p0006-0119",
+      "entryId": "e-p0006-char-038",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 337,
+          "end": 338,
+          "exactText": "本",
+          "characterIds": [
+            "c00319"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0117"
+    },
+    {
+      "id": "a-p0006-0120",
+      "entryId": "e-p0006-char-039",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 338,
+          "end": 339,
+          "exactText": "书",
+          "characterIds": [
+            "c00320"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0117"
+    },
+    {
+      "id": "a-p0006-0121",
+      "entryId": "e-p0006-char-016",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 370,
+          "end": 371,
+          "exactText": "呢",
+          "characterIds": [
+            "c00350"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0122",
+      "entryId": "e-p0006-char-005",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 462,
+          "end": 463,
+          "exactText": "个",
+          "characterIds": [
+            "c00436"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0123",
+      "entryId": "e-p0006-char-037",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 474,
+          "end": 475,
+          "exactText": "口",
+          "characterIds": [
+            "c00448"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0124",
+      "entryId": "e-p0006-word-021",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 482,
+          "end": 484,
+          "exactText": "四口",
+          "characterIds": [
+            "c00455",
+            "c00456"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0125",
+      "entryId": "e-p0006-char-026",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 482,
+          "end": 483,
+          "exactText": "四",
+          "characterIds": [
+            "c00455"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0124"
+    },
+    {
+      "id": "a-p0006-0126",
+      "entryId": "e-p0006-char-037",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 483,
+          "end": 484,
+          "exactText": "口",
+          "characterIds": [
+            "c00456"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0124"
+    },
+    {
+      "id": "a-p0006-0127",
+      "entryId": "e-p0006-word-002",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 75,
+          "end": 77,
+          "exactText": "学生",
+          "characterIds": [
+            "c00069",
+            "c00070"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0128",
+      "entryId": "e-p0006-char-006",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 75,
+          "end": 76,
+          "exactText": "学",
+          "characterIds": [
+            "c00069"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0127"
+    },
+    {
+      "id": "a-p0006-0129",
+      "entryId": "e-p0006-char-007",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 76,
+          "end": 77,
+          "exactText": "生",
+          "characterIds": [
+            "c00070"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0127"
+    },
+    {
+      "id": "a-p0006-0130",
+      "entryId": "e-p0006-word-022",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 497,
+          "end": 499,
+          "exactText": "同学",
+          "characterIds": [
+            "c00470",
+            "c00471"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0131",
+      "entryId": "e-p0006-char-040",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 497,
+          "end": 498,
+          "exactText": "同",
+          "characterIds": [
+            "c00470"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0130"
+    },
+    {
+      "id": "a-p0006-0132",
+      "entryId": "e-p0006-char-006",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 498,
+          "end": 499,
+          "exactText": "学",
+          "characterIds": [
+            "c00471"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0130"
+    },
+    {
+      "id": "a-p0006-0133",
+      "entryId": "e-p0006-word-023",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 500,
+          "end": 502,
+          "exactText": "老师",
+          "characterIds": [
+            "c00473",
+            "c00474"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0134",
+      "entryId": "e-p0006-char-041",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 500,
+          "end": 501,
+          "exactText": "老",
+          "characterIds": [
+            "c00473"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0133"
+    },
+    {
+      "id": "a-p0006-0135",
+      "entryId": "e-p0006-char-042",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 501,
+          "end": 502,
+          "exactText": "师",
+          "characterIds": [
+            "c00474"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0133"
+    },
+    {
+      "id": "a-p0006-0136",
+      "entryId": "e-p0006-word-024",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 503,
+          "end": 506,
+          "exactText": "法国人",
+          "characterIds": [
+            "c00476",
+            "c00477",
+            "c00478"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0137",
+      "entryId": "e-p0006-char-043",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 503,
+          "end": 504,
+          "exactText": "法",
+          "characterIds": [
+            "c00476"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0136"
+    },
+    {
+      "id": "a-p0006-0138",
+      "entryId": "e-p0006-char-023",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 504,
+          "end": 505,
+          "exactText": "国",
+          "characterIds": [
+            "c00477"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0136"
+    },
+    {
+      "id": "a-p0006-0139",
+      "entryId": "e-p0006-char-024",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 505,
+          "end": 506,
+          "exactText": "人",
+          "characterIds": [
+            "c00478"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0136"
+    },
+    {
+      "id": "a-p0006-0140",
+      "entryId": "e-p0006-word-025",
+      "kind": "word",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 507,
+          "end": 509,
+          "exactText": "本子",
+          "characterIds": [
+            "c00480",
+            "c00481"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0006-0141",
+      "entryId": "e-p0006-char-038",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 507,
+          "end": 508,
+          "exactText": "本",
+          "characterIds": [
+            "c00480"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0140"
+    },
+    {
+      "id": "a-p0006-0142",
+      "entryId": "e-p0006-char-044",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 508,
+          "end": 509,
+          "exactText": "子",
+          "characterIds": [
+            "c00481"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0006-0140"
+    },
+    {
+      "id": "a-p0006-0143",
+      "entryId": "e-p0006-char-020",
+      "kind": "character",
+      "sectionId": "lesson-4",
+      "anchors": [
+        {
+          "pageId": "p0006",
+          "extractionRevision": 1,
+          "start": 510,
+          "end": 511,
+          "exactText": "月",
+          "characterIds": [
+            "c00483"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

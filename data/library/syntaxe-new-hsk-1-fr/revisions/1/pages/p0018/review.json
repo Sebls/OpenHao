@@ -1,0 +1,31 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0018",
+  "extractionRevision": 1,
+  "textSha256": "a668a3d558b769938ea1a0586e5c355a0c4d921c96d5c693bda4e87e8803d012",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Antigravity, inspection visuelle par rapport à source.png",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "quatrième de couverture",
+      "reason": "Quatrième de couverture avec titre, illustration de panda et sceaux décoratifs ; conservée à l'état extracted comme couverture de référence uniquement.",
+      "nextAction": "Aucune question d'apprentissage requise pour la quatrième de couverture."
+    }
+  ],
+  "checks": [
+    "Inspection de source.png par rapport au texte extrait text.txt",
+    "Confirmation qu'il s'agit d'une page de référence / couverture non pédagogique, conservée à l'état extracted"
+  ],
+  "coverage": {
+    "embeddedCharacters": 37,
+    "annotatedOccurrences": 0,
+    "entries": 0,
+    "dialogueSentences": 0,
+    "reviewedQuestions": 0,
+    "extractionScope": "Page physique 18 inspectée visuellement",
+    "annotationScope": "Quatrième de couverture avec titre (HSK1 语法 / Syntaxe), devise en en-tête/pied de page et sceaux rouges décoratifs ; conservée à l'état extracted comme quatrième de couverture de référence."
+  }
+}

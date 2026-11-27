@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0014",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0014-001",
+      "pageId": "p0014",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 下雪了。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Il neige."
+        },
+        {
+          "id": "o1",
+          "text": "Il pleut."
+        },
+        {
+          "id": "o2",
+          "text": "Le cours a commencé."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "下雪 signifie « neiger » et 了 indique que cela a commencé.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0014-0006"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0014-002",
+      "pageId": "p0014",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Comment répond-on à 对不起! (« Désolé(e) ! ») ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "没关系!"
+        },
+        {
+          "id": "o1",
+          "text": "真漂亮!"
+        },
+        {
+          "id": "o2",
+          "text": "上课了。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "没关系! (Méi guānxi!) signifie « Ce n'est pas grave ! / Pas de problème ! ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0014-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0014-003",
+      "pageId": "p0014",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez l'exclamation : 我们今天___高兴___! (Nous sommes tellement contents aujourd'hui !)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "太……了"
+        },
+        {
+          "id": "o1",
+          "text": "很……吗"
+        },
+        {
+          "id": "o2",
+          "text": "不……呢"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "太 + adjectif + 了 exprime « tellement / trop ... ! ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0014-0073"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0014-004",
+      "pageId": "p0014",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 没起床呢。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Pas encore levé (du lit)."
+        },
+        {
+          "id": "o1",
+          "text": "Déjà levé."
+        },
+        {
+          "id": "o2",
+          "text": "En train d'aller dormir."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "没 + verbe + 呢 signifie « ne pas encore avoir fait ... ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0014-0051"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0014-005",
+      "pageId": "p0014",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez l'expression que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "对不起!"
+        },
+        {
+          "id": "o1",
+          "text": "没关系!"
+        },
+        {
+          "id": "o2",
+          "text": "真漂亮!"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "对不起! (Duìbuqǐ!) signifie « Désolé(e) ! / Pardon ! ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0014-0021"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "对不起!"
+    }
+  ]
+}

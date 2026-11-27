@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0016",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0016-001",
+      "pageId": "p0016",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Lorsqu'on nie une action passée accomplie comme 看了 (« a regardé »), qu'advient-il de 了 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "On utilise 没看 et on omet 了"
+        },
+        {
+          "id": "o1",
+          "text": "On garde 了 sous la forme 没看了"
+        },
+        {
+          "id": "o2",
+          "text": "On utilise 不看了"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "En mandarin, la négation au passé utilise 没 + verbe sans le 了 aspectuel (ex. 没看).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0016-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0016-002",
+      "pageId": "p0016",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 同学们都没听见老师说话。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Aucun des camarades n'a entendu le professeur parler."
+        },
+        {
+          "id": "o1",
+          "text": "Tous les camarades sont allés en Chine."
+        },
+        {
+          "id": "o2",
+          "text": "Nous savons tous écrire les caractères chinois maintenant."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "都 + 没 + verbe exprime « aucun d'entre eux ne ... ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0016-0063"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0016-003",
+      "pageId": "p0016",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 我喜欢喝中国茶,还喜欢吃中国菜。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "J'aime boire du thé chinois, et j'aime aussi manger de la cuisine chinoise."
+        },
+        {
+          "id": "o1",
+          "text": "Le professeur Wang est de Pékin, et Li Wen est aussi de Pékin."
+        },
+        {
+          "id": "o2",
+          "text": "J'ai acheté un nouvel ordinateur."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "喝中国茶 signifie « boire du thé chinois », 还喜欢 « aime aussi » et 吃中国菜 « manger de la cuisine chinoise ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0016-0110"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0016-004",
+      "pageId": "p0016",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel verbe séparable signifie « dormir » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "睡觉"
+        },
+        {
+          "id": "o1",
+          "text": "下班"
+        },
+        {
+          "id": "o2",
+          "text": "生病"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "睡觉 (shuìjiào) est un composé verbe-objet séparable signifiant « dormir ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0016-0143"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0016-005",
+      "pageId": "p0016",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我们都会写汉字了。"
+        },
+        {
+          "id": "o1",
+          "text": "我喜欢这个,也喜欢那个。"
+        },
+        {
+          "id": "o2",
+          "text": "我和我的朋友们都去了中国。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我们都会写汉字了。 signifie « Nous savons tous écrire les caractères chinois maintenant. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0016-0040"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "我们都会写汉字了。"
+    }
+  ]
+}

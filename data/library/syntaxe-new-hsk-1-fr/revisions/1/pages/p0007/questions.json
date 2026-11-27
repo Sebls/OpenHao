@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0007",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0007-001",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 今天几号？ ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Quelle est la date d'aujourd'hui ?"
+        },
+        {
+          "id": "o1",
+          "text": "Quel jour de la semaine sommes-nous demain ?"
+        },
+        {
+          "id": "o2",
+          "text": "Quel âge a ta petite sœur ?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "今天 signifie « aujourd'hui » et 几号 demande le quantième du mois.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0007-002",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle phrase signifie « Je sais faire des nouilles. » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我会做面条儿。"
+        },
+        {
+          "id": "o1",
+          "text": "你会做饭吗？"
+        },
+        {
+          "id": "o2",
+          "text": "我不会做菜。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我会做面条儿。 utilise 会 (savoir faire) + 做 (faire) + 面条儿 (nouilles).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0111"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0007-003",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel caractère signifie « ans » lorsqu'on indique l'âge ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "岁"
+        },
+        {
+          "id": "o1",
+          "text": "号"
+        },
+        {
+          "id": "o2",
+          "text": "年"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "岁 (suì) s'emploie après un nombre pour indiquer l'âge (ex. 十二岁 « 12 ans »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0087"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0007-004",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 昨天星期天。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Hier, c'était dimanche."
+        },
+        {
+          "id": "o1",
+          "text": "Aujourd'hui, nous sommes jeudi."
+        },
+        {
+          "id": "o2",
+          "text": "Demain, ce sera samedi."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "昨天 signifie « hier » et 星期天 signifie « dimanche ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0096"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0007-005",
+      "pageId": "p0007",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你会做饭吗？"
+        },
+        {
+          "id": "o1",
+          "text": "我不会做菜。"
+        },
+        {
+          "id": "o2",
+          "text": "我妹妹十二岁。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你会做饭吗？ signifie « Sais-tu cuisiner ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0007-0104"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "你会做饭吗？"
+    }
+  ]
+}

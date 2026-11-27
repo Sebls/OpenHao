@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0005",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0005-001",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 我老师不是法国人。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Mon professeur n'est pas français."
+        },
+        {
+          "id": "o1",
+          "text": "Mon professeur est français."
+        },
+        {
+          "id": "o2",
+          "text": "Mon camarade de classe n'est pas français."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我老师 (mon professeur) + 不是 (n'est pas) + 法国人 (français).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0039"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0005-002",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quelle particule place-t-on à la fin d'une phrase affirmative pour former une question fermée (oui/non) ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "吗"
+        },
+        {
+          "id": "o1",
+          "text": "的"
+        },
+        {
+          "id": "o2",
+          "text": "也"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "吗 (ma) transforme une phrase déclarative en question fermée.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0113"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0005-003",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez le groupe nominal : 你同学___妈妈 (la maman de ton camarade de classe)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "的"
+        },
+        {
+          "id": "o1",
+          "text": "吗"
+        },
+        {
+          "id": "o2",
+          "text": "是"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "La particule possessive 的 relie le possesseur 你同学 à 妈妈.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0099"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0005-004",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 十四不是四十。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Quatorze n'est pas quarante."
+        },
+        {
+          "id": "o1",
+          "text": "Quarante n'est pas quatorze."
+        },
+        {
+          "id": "o2",
+          "text": "Quatorze, c'est quatorze."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "十四 vaut 14, 不是 signifie « n'est pas » et 四十 vaut 40.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0059"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0005-005",
+      "pageId": "p0005",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你叫什么名字？"
+        },
+        {
+          "id": "o1",
+          "text": "我叫白家月。"
+        },
+        {
+          "id": "o2",
+          "text": "我是老师。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "你叫什么名字？ demande « Comment vous appelez-vous ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0005-0001"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "你叫什么名字？"
+    }
+  ]
+}

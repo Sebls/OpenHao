@@ -1,0 +1,31 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Antigravity, inspection visuelle par rapport à source.png",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "warning",
+      "region": "schémas pleine page",
+      "reason": "La page 2 se compose uniquement de schémas articulatoires avec des étiquettes d'initiales latines (zh, ch, sh, r, z, c, s, j, q, x) dans des images matricielles et sans aucun texte intégré.",
+      "nextAction": "Conserver comme page de référence visuelle à l'état extracted."
+    }
+  ],
+  "checks": [
+    "Inspection de source.png par rapport au texte extrait text.txt",
+    "Confirmation qu'il s'agit d'une page de référence / couverture non pédagogique, conservée à l'état extracted"
+  ],
+  "coverage": {
+    "embeddedCharacters": 0,
+    "annotatedOccurrences": 0,
+    "entries": 0,
+    "dialogueSentences": 0,
+    "reviewedQuestions": 0,
+    "extractionScope": "Page physique 2 inspectée visuellement",
+    "annotationScope": "Page de schémas d'articulation phonétique (images uniquement avec étiquettes pinyin latines zh/ch/sh/r, z/c/s, j/q/x) ; aucun texte chinois intégré ; conservée à l'état extracted comme schéma de référence."
+  }
+}

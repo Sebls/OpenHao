@@ -1,0 +1,31 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0001",
+  "extractionRevision": 1,
+  "textSha256": "c592174022cfcb7b4cc333d46d53f4220829579aaae34a6164dcc7fab3f91b5c",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Antigravity, inspection visuelle par rapport à source.png",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "page de couverture",
+      "reason": "Première de couverture avec titre, illustration de panda et sceaux décoratifs ; conservée à l'état extracted comme couverture de référence uniquement.",
+      "nextAction": "Aucune question d'apprentissage requise pour la page de couverture."
+    }
+  ],
+  "checks": [
+    "Inspection de source.png par rapport au texte extrait text.txt",
+    "Confirmation qu'il s'agit d'une page de référence / couverture non pédagogique, conservée à l'état extracted"
+  ],
+  "coverage": {
+    "embeddedCharacters": 41,
+    "annotatedOccurrences": 0,
+    "entries": 0,
+    "dialogueSentences": 0,
+    "reviewedQuestions": 0,
+    "extractionScope": "Page physique 1 inspectée visuellement",
+    "annotationScope": "Page de couverture avec titre (HSK 1 语法 / Syntaxe), devise en en-tête/pied de page et sceaux rouges décoratifs ; conservée à l'état extracted comme couverture de référence."
+  }
+}

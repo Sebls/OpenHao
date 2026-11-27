@@ -1,0 +1,57 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0002",
+  "extractionRevision": 1,
+  "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "offsetUnit": "unicode-code-point",
+  "pageNumber": 2,
+  "width": 595.5,
+  "height": 842.25,
+  "mediaBox": [
+    0,
+    7.829981327056885,
+    595.5,
+    850.0799560546875
+  ],
+  "cropBox": [
+    0,
+    0,
+    595.5,
+    842.25
+  ],
+  "rotation": 0,
+  "transform": {
+    "origin": "visible-crop-top-left",
+    "rawToRotated": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "normalization": [
+      595.5,
+      842.25
+    ]
+  },
+  "transcriptRange": [
+    0,
+    0
+  ],
+  "synthesizedWhitespace": "LF between lines; two LF between blocks",
+  "characters": [],
+  "lines": [],
+  "blocks": [],
+  "issues": [
+    {
+      "severity": "warning",
+      "reason": "No embedded characters found. Use local OCR or reviewed manual transcription before preparing learning content."
+    }
+  ],
+  "extractionMethod": "embedded",
+  "extractor": {
+    "name": "PyMuPDF",
+    "version": "1.26.7"
+  }
+}

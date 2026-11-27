@@ -1,0 +1,567 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0004",
+  "extractionRevision": 1,
+  "annotations": [
+    {
+      "id": "a-p0004-0001",
+      "entryId": "e-p0004-char-001",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 85,
+          "end": 86,
+          "exactText": "很",
+          "characterIds": [
+            "c00076"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0002",
+      "entryId": "e-p0004-char-002",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 87,
+          "end": 88,
+          "exactText": "多",
+          "characterIds": [
+            "c00078"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0003",
+      "entryId": "e-p0004-char-003",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 89,
+          "end": 90,
+          "exactText": "长",
+          "characterIds": [
+            "c00080"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0004",
+      "entryId": "e-p0004-char-004",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 91,
+          "end": 92,
+          "exactText": "大",
+          "characterIds": [
+            "c00082"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0005",
+      "entryId": "e-p0004-word-001",
+      "kind": "word",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 109,
+          "end": 111,
+          "exactText": "你好",
+          "characterIds": [
+            "c00096",
+            "c00097"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0006",
+      "entryId": "e-p0004-char-005",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 109,
+          "end": 110,
+          "exactText": "你",
+          "characterIds": [
+            "c00096"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0004-0005"
+    },
+    {
+      "id": "a-p0004-0007",
+      "entryId": "e-p0004-char-006",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 110,
+          "end": 111,
+          "exactText": "好",
+          "characterIds": [
+            "c00097"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0004-0005"
+    },
+    {
+      "id": "a-p0004-0008",
+      "entryId": "e-p0004-word-002",
+      "kind": "word",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 112,
+          "end": 114,
+          "exactText": "很好",
+          "characterIds": [
+            "c00099",
+            "c00100"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0009",
+      "entryId": "e-p0004-char-001",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 112,
+          "end": 113,
+          "exactText": "很",
+          "characterIds": [
+            "c00099"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0004-0008"
+    },
+    {
+      "id": "a-p0004-0010",
+      "entryId": "e-p0004-char-006",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 113,
+          "end": 114,
+          "exactText": "好",
+          "characterIds": [
+            "c00100"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0004-0008"
+    },
+    {
+      "id": "a-p0004-0011",
+      "entryId": "e-p0004-word-003",
+      "kind": "word",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 115,
+          "end": 117,
+          "exactText": "我想",
+          "characterIds": [
+            "c00102",
+            "c00103"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0012",
+      "entryId": "e-p0004-char-007",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 115,
+          "end": 116,
+          "exactText": "我",
+          "characterIds": [
+            "c00102"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0004-0011"
+    },
+    {
+      "id": "a-p0004-0013",
+      "entryId": "e-p0004-char-008",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 116,
+          "end": 117,
+          "exactText": "想",
+          "characterIds": [
+            "c00103"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0004-0011"
+    },
+    {
+      "id": "a-p0004-0014",
+      "entryId": "e-p0004-char-009",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 149,
+          "end": 150,
+          "exactText": "不",
+          "characterIds": [
+            "c00132"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0015",
+      "entryId": "e-p0004-char-010",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 162,
+          "end": 163,
+          "exactText": "吃",
+          "characterIds": [
+            "c00143"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0016",
+      "entryId": "e-p0004-char-011",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 165,
+          "end": 166,
+          "exactText": "来",
+          "characterIds": [
+            "c00146"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0017",
+      "entryId": "e-p0004-char-012",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 168,
+          "end": 169,
+          "exactText": "打",
+          "characterIds": [
+            "c00149"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0018",
+      "entryId": "e-p0004-char-013",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 157,
+          "end": 158,
+          "exactText": "不",
+          "characterIds": [
+            "c00138"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0019",
+      "entryId": "e-p0004-char-014",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 180,
+          "end": 181,
+          "exactText": "是",
+          "characterIds": [
+            "c00157"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0020",
+      "entryId": "e-p0004-char-015",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 183,
+          "end": 184,
+          "exactText": "在",
+          "characterIds": [
+            "c00160"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0021",
+      "entryId": "e-p0004-char-016",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 186,
+          "end": 187,
+          "exactText": "会",
+          "characterIds": [
+            "c00163"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0022",
+      "entryId": "e-p0004-char-017",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 189,
+          "end": 190,
+          "exactText": "看",
+          "characterIds": [
+            "c00166"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0023",
+      "entryId": "e-p0004-char-018",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 222,
+          "end": 223,
+          "exactText": "一",
+          "characterIds": [
+            "c00195"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0024",
+      "entryId": "e-p0004-char-019",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 236,
+          "end": 237,
+          "exactText": "杯",
+          "characterIds": [
+            "c00207"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0025",
+      "entryId": "e-p0004-char-020",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 239,
+          "end": 240,
+          "exactText": "瓶",
+          "characterIds": [
+            "c00210"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0026",
+      "entryId": "e-p0004-char-021",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 242,
+          "end": 243,
+          "exactText": "本",
+          "characterIds": [
+            "c00213"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0027",
+      "entryId": "e-p0004-char-022",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 230,
+          "end": 231,
+          "exactText": "一",
+          "characterIds": [
+            "c00201"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0028",
+      "entryId": "e-p0004-char-023",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 250,
+          "end": 251,
+          "exactText": "块",
+          "characterIds": [
+            "c00220"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0004-0029",
+      "entryId": "e-p0004-char-024",
+      "kind": "character",
+      "sectionId": "phonetics-2",
+      "anchors": [
+        {
+          "pageId": "p0004",
+          "extractionRevision": 1,
+          "start": 253,
+          "end": 254,
+          "exactText": "次",
+          "characterIds": [
+            "c00223"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    }
+  ]
+}

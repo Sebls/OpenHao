@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0009",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0009-001",
+      "pageId": "p0009",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Quelle heure est-il à 中午十二点半 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "12 h 30 (midi et demi)"
+        },
+        {
+          "id": "o1",
+          "text": "8 h 00 du matin"
+        },
+        {
+          "id": "o2",
+          "text": "16 h 00 (4 h de l'après-midi)"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "中午 signifie « midi », 十二点 « 12 heures » et 半 « et demie ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0009-0084"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0009-002",
+      "pageId": "p0009",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Dans une phrase chinoise contenant à la fois un complément de temps et un complément de lieu, quel ordre est correct ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Sujet + Temps + Lieu + Verbe"
+        },
+        {
+          "id": "o1",
+          "text": "Sujet + Verbe + Lieu + Temps"
+        },
+        {
+          "id": "o2",
+          "text": "Lieu + Sujet + Verbe + Temps"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Les expressions de temps précèdent les expressions de lieu (ex. 她今天上午十点半在学校上课).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0009-0044"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0009-003",
+      "pageId": "p0009",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 我们下午三点见吧。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Retrouvons-nous à 15 h."
+        },
+        {
+          "id": "o1",
+          "text": "Nous déjeunons à midi."
+        },
+        {
+          "id": "o2",
+          "text": "Va l'acheter au supermarché."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "下午三点 signifie « 15 h (3 h de l'après-midi) », 见 signifie « se retrouver » et 吧 formule une suggestion.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0009-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0009-004",
+      "pageId": "p0009",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « matin (avant midi) » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "上午"
+        },
+        {
+          "id": "o1",
+          "text": "下午"
+        },
+        {
+          "id": "o2",
+          "text": "晚上"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "上午 (shàngwǔ) signifie « matin (avant midi) ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0009-0049"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0009-005",
+      "pageId": "p0009",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我们下午三点见吧。"
+        },
+        {
+          "id": "o1",
+          "text": "好的。"
+        },
+        {
+          "id": "o2",
+          "text": "超市没有卖。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我们下午三点见吧。 signifie « Retrouvons-nous à 15 h. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0009-0001"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "我们下午三点见吧。"
+    }
+  ]
+}

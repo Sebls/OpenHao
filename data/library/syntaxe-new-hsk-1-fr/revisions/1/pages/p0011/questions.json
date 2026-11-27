@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0011",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0011-001",
+      "pageId": "p0011",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 电影院 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "cinéma"
+        },
+        {
+          "id": "o1",
+          "text": "supermarché"
+        },
+        {
+          "id": "o2",
+          "text": "école"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "电影 (film) + 院 (salle) = 电影院 (cinéma).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0011-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0011-002",
+      "pageId": "p0011",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel préfixe transforme un nombre cardinal en nombre ordinal (ex. « premier », « deuxième ») ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "第"
+        },
+        {
+          "id": "o1",
+          "text": "每"
+        },
+        {
+          "id": "o2",
+          "text": "都"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "第 (dì) placé devant un nombre forme des ordinaux comme 第一 (premier).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0011-0100"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0011-003",
+      "pageId": "p0011",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 安妮每天下午两点在家里学中文。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Annie étudie le chinois à la maison tous les jours à 14 h."
+        },
+        {
+          "id": "o1",
+          "text": "Annie déjeune à l'école demain à midi."
+        },
+        {
+          "id": "o2",
+          "text": "Annie s'est retrouvée devant le cinéma hier à 19 h."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "每天下午两点 signifie « tous les jours à 14 h », 在家里 signifie « à la maison » et 学中文 signifie « étudie le chinois ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0011-0059"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0011-004",
+      "pageId": "p0011",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quel mot signifie « derrière / côté arrière » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "后边"
+        },
+        {
+          "id": "o1",
+          "text": "前边"
+        },
+        {
+          "id": "o2",
+          "text": "外边"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "后边 (hòubian) signifie « derrière ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0011-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0011-005",
+      "pageId": "p0011",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "安妮每天下午两点在家里学中文。"
+        },
+        {
+          "id": "o1",
+          "text": "陈天中明天中午在学校吃午饭。"
+        },
+        {
+          "id": "o2",
+          "text": "桌子上 有一只小猫"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "陈天中明天中午在学校吃午饭。 signifie « Chen Tianzhong déjeunera à l'école demain à midi. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0011-0080"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "陈天中明天中午在学校吃午饭。"
+    }
+  ]
+}

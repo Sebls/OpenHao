@@ -1,0 +1,39 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0009",
+  "extractionRevision": 1,
+  "textSha256": "95310b6f0a2bc7026dbd8aab26087e43a7730dca4013efca15f2b0bbea3b16d7",
+  "sourceVisualReview": true,
+  "linguisticReview": true,
+  "reviewer": "Agent Antigravity, comparaison avec la source et révision linguistique / des questions",
+  "reviewedAt": "2026-11-25",
+  "issues": [
+    {
+      "severity": "info",
+      "region": "en-tête, pied de page et sceaux décoratifs",
+      "reason": "L'en-tête répété (学而时习之), le pied de page (自强不息，厚德载物) et les sceaux décoratifs rouges sont exclus des annotations pédagogiques.",
+      "nextAction": "Aucune action requise pour l'étude ; les sceaux décoratifs restent hors des exercices."
+    },
+    {
+      "severity": "info",
+      "reason": "L'API au niveau des phrases est omis ; l'API révisé et le pinyin à marques tonales aux niveaux des mots et des caractères couvrent toutes les unités d'apprentissage annotées.",
+      "nextAction": "Utiliser les fiches de mots et de caractères pour consulter l'API."
+    }
+  ],
+  "checks": [
+    "Comparaison de text.txt et layout.json extraits avec le rendu source.png",
+    "Préservation exacte du texte source original et des décalages de points de code Unicode",
+    "Révision des sandhis tonals (sandhi du 3e ton, 不 bú/bù, 一 yì/yí), des tons neutres et des sens contextuels",
+    "Vérification que les questions à choix unique ont des options distinctes, une seule réponse défendable et des sourceAnnotationIds de la même page",
+    "Boîtes de caractères dérivées de MuPDF rawdict sans division par boîte de ligne"
+  ],
+  "coverage": {
+    "embeddedCharacters": 499,
+    "annotatedOccurrences": 168,
+    "entries": 97,
+    "dialogueSentences": 11,
+    "reviewedQuestions": 5,
+    "extractionScope": "Page physique 9 uniquement",
+    "annotationScope": "Toutes les phrases pédagogiques en chinois, points de grammaire, mots et caractères ; slogans répétés d'en-tête/pied de page et sceaux décoratifs exclus"
+  }
+}

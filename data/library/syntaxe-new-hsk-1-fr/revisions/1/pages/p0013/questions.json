@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0013",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0013-001",
+      "pageId": "p0013",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 这件衣服好看不好看? ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Ce vêtement est-il joli ou pas ?"
+        },
+        {
+          "id": "o1",
+          "text": "Es-tu allé(e) à l'école ?"
+        },
+        {
+          "id": "o2",
+          "text": "Es-tu encore à l'université ?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "好看不好看 est une question A-ne-pas-A demandant si le vêtement (衣服) est joli.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0013-0022"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0013-002",
+      "pageId": "p0013",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Comment forme-t-on une question A-ne-pas-A pour une action passée avec 去 (« aller ») ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "去没去"
+        },
+        {
+          "id": "o1",
+          "text": "去不去"
+        },
+        {
+          "id": "o2",
+          "text": "是不是去"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Les actions passées se nient avec 没 ; la forme A-ne-pas-A est donc 去没去.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0013-0014"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0013-003",
+      "pageId": "p0013",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 妈妈要去超市。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Maman va au supermarché."
+        },
+        {
+          "id": "o1",
+          "text": "Maman est dans le supermarché."
+        },
+        {
+          "id": "o2",
+          "text": "Maman a acheté des fruits au supermarché."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "要 (yào) devant 去超市 indique une intention ou un projet (« aller + infinitif »).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0013-0074"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0013-004",
+      "pageId": "p0013",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle phrase signifie « Nous sommes en train d'étudier / de lire. » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我们读书呢。"
+        },
+        {
+          "id": "o1",
+          "text": "你去没去学校?"
+        },
+        {
+          "id": "o2",
+          "text": "他今天要和小朋友玩。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我们读书呢。 utilise 呢 pour indiquer une action en cours.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0013-0056"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0013-005",
+      "pageId": "p0013",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "你还在读大学吗?"
+        },
+        {
+          "id": "o1",
+          "text": "妈妈要去超市。"
+        },
+        {
+          "id": "o2",
+          "text": "我们读书呢。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "妈妈要去超市。 signifie « Maman va au supermarché. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0013-0074"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "妈妈要去超市。"
+    }
+  ]
+}

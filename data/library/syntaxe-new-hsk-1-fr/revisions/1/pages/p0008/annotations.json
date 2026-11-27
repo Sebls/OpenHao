@@ -1,0 +1,1899 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0008",
+  "extractionRevision": 1,
+  "annotations": [
+    {
+      "id": "a-p0008-0001",
+      "entryId": "e-p0008-sent-001",
+      "kind": "sentence",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 59,
+          "end": 65,
+          "exactText": "我想去超市。",
+          "characterIds": [
+            "c00052",
+            "c00053",
+            "c00054",
+            "c00055",
+            "c00056",
+            "c00057"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0002",
+      "entryId": "e-p0008-word-001",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 59,
+          "end": 61,
+          "exactText": "我想",
+          "characterIds": [
+            "c00052",
+            "c00053"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0001"
+    },
+    {
+      "id": "a-p0008-0003",
+      "entryId": "e-p0008-char-001",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 59,
+          "end": 60,
+          "exactText": "我",
+          "characterIds": [
+            "c00052"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0002"
+    },
+    {
+      "id": "a-p0008-0004",
+      "entryId": "e-p0008-char-002",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 60,
+          "end": 61,
+          "exactText": "想",
+          "characterIds": [
+            "c00053"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0002"
+    },
+    {
+      "id": "a-p0008-0005",
+      "entryId": "e-p0008-char-003",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 61,
+          "end": 62,
+          "exactText": "去",
+          "characterIds": [
+            "c00054"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0001"
+    },
+    {
+      "id": "a-p0008-0006",
+      "entryId": "e-p0008-word-002",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 62,
+          "end": 64,
+          "exactText": "超市",
+          "characterIds": [
+            "c00055",
+            "c00056"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0001"
+    },
+    {
+      "id": "a-p0008-0007",
+      "entryId": "e-p0008-char-004",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 62,
+          "end": 63,
+          "exactText": "超",
+          "characterIds": [
+            "c00055"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0006"
+    },
+    {
+      "id": "a-p0008-0008",
+      "entryId": "e-p0008-char-005",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 63,
+          "end": 64,
+          "exactText": "市",
+          "characterIds": [
+            "c00056"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0006"
+    },
+    {
+      "id": "a-p0008-0009",
+      "entryId": "e-p0008-sent-002",
+      "kind": "sentence",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 72,
+          "end": 80,
+          "exactText": "我哥哥不想休息。",
+          "characterIds": [
+            "c00064",
+            "c00065",
+            "c00066",
+            "c00067",
+            "c00068",
+            "c00069",
+            "c00070",
+            "c00071"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0010",
+      "entryId": "e-p0008-char-001",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 72,
+          "end": 73,
+          "exactText": "我",
+          "characterIds": [
+            "c00064"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0009"
+    },
+    {
+      "id": "a-p0008-0011",
+      "entryId": "e-p0008-word-003",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 73,
+          "end": 75,
+          "exactText": "哥哥",
+          "characterIds": [
+            "c00065",
+            "c00066"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0009"
+    },
+    {
+      "id": "a-p0008-0012",
+      "entryId": "e-p0008-char-006",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 73,
+          "end": 74,
+          "exactText": "哥",
+          "characterIds": [
+            "c00065"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0011"
+    },
+    {
+      "id": "a-p0008-0013",
+      "entryId": "e-p0008-char-006",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 74,
+          "end": 75,
+          "exactText": "哥",
+          "characterIds": [
+            "c00066"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0011"
+    },
+    {
+      "id": "a-p0008-0014",
+      "entryId": "e-p0008-char-007",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 75,
+          "end": 76,
+          "exactText": "不",
+          "characterIds": [
+            "c00067"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0009"
+    },
+    {
+      "id": "a-p0008-0015",
+      "entryId": "e-p0008-char-002",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 76,
+          "end": 77,
+          "exactText": "想",
+          "characterIds": [
+            "c00068"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0009"
+    },
+    {
+      "id": "a-p0008-0016",
+      "entryId": "e-p0008-word-004",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 77,
+          "end": 79,
+          "exactText": "休息",
+          "characterIds": [
+            "c00069",
+            "c00070"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0009"
+    },
+    {
+      "id": "a-p0008-0017",
+      "entryId": "e-p0008-char-008",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 77,
+          "end": 78,
+          "exactText": "休",
+          "characterIds": [
+            "c00069"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0016"
+    },
+    {
+      "id": "a-p0008-0018",
+      "entryId": "e-p0008-char-009",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 78,
+          "end": 79,
+          "exactText": "息",
+          "characterIds": [
+            "c00070"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0016"
+    },
+    {
+      "id": "a-p0008-0019",
+      "entryId": "e-p0008-sent-003",
+      "kind": "sentence",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 158,
+          "end": 167,
+          "exactText": "我想去超市买东西。",
+          "characterIds": [
+            "c00144",
+            "c00145",
+            "c00146",
+            "c00147",
+            "c00148",
+            "c00149",
+            "c00150",
+            "c00151",
+            "c00152"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0020",
+      "entryId": "e-p0008-word-001",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 158,
+          "end": 160,
+          "exactText": "我想",
+          "characterIds": [
+            "c00144",
+            "c00145"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0019"
+    },
+    {
+      "id": "a-p0008-0021",
+      "entryId": "e-p0008-char-001",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 158,
+          "end": 159,
+          "exactText": "我",
+          "characterIds": [
+            "c00144"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0020"
+    },
+    {
+      "id": "a-p0008-0022",
+      "entryId": "e-p0008-char-002",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 159,
+          "end": 160,
+          "exactText": "想",
+          "characterIds": [
+            "c00145"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0020"
+    },
+    {
+      "id": "a-p0008-0023",
+      "entryId": "e-p0008-char-003",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 160,
+          "end": 161,
+          "exactText": "去",
+          "characterIds": [
+            "c00146"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0019"
+    },
+    {
+      "id": "a-p0008-0024",
+      "entryId": "e-p0008-word-002",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 161,
+          "end": 163,
+          "exactText": "超市",
+          "characterIds": [
+            "c00147",
+            "c00148"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0019"
+    },
+    {
+      "id": "a-p0008-0025",
+      "entryId": "e-p0008-char-004",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 161,
+          "end": 162,
+          "exactText": "超",
+          "characterIds": [
+            "c00147"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0024"
+    },
+    {
+      "id": "a-p0008-0026",
+      "entryId": "e-p0008-char-005",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 162,
+          "end": 163,
+          "exactText": "市",
+          "characterIds": [
+            "c00148"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0024"
+    },
+    {
+      "id": "a-p0008-0027",
+      "entryId": "e-p0008-char-010",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 163,
+          "end": 164,
+          "exactText": "买",
+          "characterIds": [
+            "c00149"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0019"
+    },
+    {
+      "id": "a-p0008-0028",
+      "entryId": "e-p0008-word-005",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 164,
+          "end": 166,
+          "exactText": "东西",
+          "characterIds": [
+            "c00150",
+            "c00151"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0019"
+    },
+    {
+      "id": "a-p0008-0029",
+      "entryId": "e-p0008-char-011",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 164,
+          "end": 165,
+          "exactText": "东",
+          "characterIds": [
+            "c00150"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0028"
+    },
+    {
+      "id": "a-p0008-0030",
+      "entryId": "e-p0008-char-012",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 165,
+          "end": 166,
+          "exactText": "西",
+          "characterIds": [
+            "c00151"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0028"
+    },
+    {
+      "id": "a-p0008-0031",
+      "entryId": "e-p0008-sent-004",
+      "kind": "sentence",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 172,
+          "end": 183,
+          "exactText": "我们去西安饭店吃晚饭。",
+          "characterIds": [
+            "c00157",
+            "c00158",
+            "c00159",
+            "c00160",
+            "c00161",
+            "c00162",
+            "c00163",
+            "c00164",
+            "c00165",
+            "c00166",
+            "c00167"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0032",
+      "entryId": "e-p0008-char-001",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 172,
+          "end": 173,
+          "exactText": "我",
+          "characterIds": [
+            "c00157"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0031"
+    },
+    {
+      "id": "a-p0008-0033",
+      "entryId": "e-p0008-char-003",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 174,
+          "end": 175,
+          "exactText": "去",
+          "characterIds": [
+            "c00159"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0031"
+    },
+    {
+      "id": "a-p0008-0034",
+      "entryId": "e-p0008-word-006",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 175,
+          "end": 177,
+          "exactText": "西安",
+          "characterIds": [
+            "c00160",
+            "c00161"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0031"
+    },
+    {
+      "id": "a-p0008-0035",
+      "entryId": "e-p0008-char-013",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 175,
+          "end": 176,
+          "exactText": "西",
+          "characterIds": [
+            "c00160"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0034"
+    },
+    {
+      "id": "a-p0008-0036",
+      "entryId": "e-p0008-char-014",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 176,
+          "end": 177,
+          "exactText": "安",
+          "characterIds": [
+            "c00161"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0034"
+    },
+    {
+      "id": "a-p0008-0037",
+      "entryId": "e-p0008-word-007",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 177,
+          "end": 179,
+          "exactText": "饭店",
+          "characterIds": [
+            "c00162",
+            "c00163"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0031"
+    },
+    {
+      "id": "a-p0008-0038",
+      "entryId": "e-p0008-char-015",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 177,
+          "end": 178,
+          "exactText": "饭",
+          "characterIds": [
+            "c00162"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0037"
+    },
+    {
+      "id": "a-p0008-0039",
+      "entryId": "e-p0008-char-016",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 178,
+          "end": 179,
+          "exactText": "店",
+          "characterIds": [
+            "c00163"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0037"
+    },
+    {
+      "id": "a-p0008-0040",
+      "entryId": "e-p0008-char-017",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 179,
+          "end": 180,
+          "exactText": "吃",
+          "characterIds": [
+            "c00164"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0031"
+    },
+    {
+      "id": "a-p0008-0041",
+      "entryId": "e-p0008-word-008",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 180,
+          "end": 182,
+          "exactText": "晚饭",
+          "characterIds": [
+            "c00165",
+            "c00166"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0031"
+    },
+    {
+      "id": "a-p0008-0042",
+      "entryId": "e-p0008-char-018",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 180,
+          "end": 181,
+          "exactText": "晚",
+          "characterIds": [
+            "c00165"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0041"
+    },
+    {
+      "id": "a-p0008-0043",
+      "entryId": "e-p0008-char-015",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 181,
+          "end": 182,
+          "exactText": "饭",
+          "characterIds": [
+            "c00166"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0041"
+    },
+    {
+      "id": "a-p0008-0044",
+      "entryId": "e-p0008-sent-005",
+      "kind": "sentence",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 240,
+          "end": 252,
+          "exactText": "我们坐出租车去西安饭店。",
+          "characterIds": [
+            "c00220",
+            "c00221",
+            "c00222",
+            "c00223",
+            "c00224",
+            "c00225",
+            "c00226",
+            "c00227",
+            "c00228",
+            "c00229",
+            "c00230",
+            "c00231"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0045",
+      "entryId": "e-p0008-char-001",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 240,
+          "end": 241,
+          "exactText": "我",
+          "characterIds": [
+            "c00220"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0044"
+    },
+    {
+      "id": "a-p0008-0046",
+      "entryId": "e-p0008-char-019",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 242,
+          "end": 243,
+          "exactText": "坐",
+          "characterIds": [
+            "c00222"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0044"
+    },
+    {
+      "id": "a-p0008-0047",
+      "entryId": "e-p0008-word-009",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 243,
+          "end": 246,
+          "exactText": "出租车",
+          "characterIds": [
+            "c00223",
+            "c00224",
+            "c00225"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0044"
+    },
+    {
+      "id": "a-p0008-0048",
+      "entryId": "e-p0008-char-020",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 243,
+          "end": 244,
+          "exactText": "出",
+          "characterIds": [
+            "c00223"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0047"
+    },
+    {
+      "id": "a-p0008-0049",
+      "entryId": "e-p0008-char-021",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 244,
+          "end": 245,
+          "exactText": "租",
+          "characterIds": [
+            "c00224"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0047"
+    },
+    {
+      "id": "a-p0008-0050",
+      "entryId": "e-p0008-char-022",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 245,
+          "end": 246,
+          "exactText": "车",
+          "characterIds": [
+            "c00225"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0047"
+    },
+    {
+      "id": "a-p0008-0051",
+      "entryId": "e-p0008-char-003",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 246,
+          "end": 247,
+          "exactText": "去",
+          "characterIds": [
+            "c00226"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0044"
+    },
+    {
+      "id": "a-p0008-0052",
+      "entryId": "e-p0008-word-006",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 247,
+          "end": 249,
+          "exactText": "西安",
+          "characterIds": [
+            "c00227",
+            "c00228"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0044"
+    },
+    {
+      "id": "a-p0008-0053",
+      "entryId": "e-p0008-char-013",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 247,
+          "end": 248,
+          "exactText": "西",
+          "characterIds": [
+            "c00227"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0052"
+    },
+    {
+      "id": "a-p0008-0054",
+      "entryId": "e-p0008-char-014",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 248,
+          "end": 249,
+          "exactText": "安",
+          "characterIds": [
+            "c00228"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0052"
+    },
+    {
+      "id": "a-p0008-0055",
+      "entryId": "e-p0008-word-007",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 249,
+          "end": 251,
+          "exactText": "饭店",
+          "characterIds": [
+            "c00229",
+            "c00230"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0044"
+    },
+    {
+      "id": "a-p0008-0056",
+      "entryId": "e-p0008-char-015",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 249,
+          "end": 250,
+          "exactText": "饭",
+          "characterIds": [
+            "c00229"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0055"
+    },
+    {
+      "id": "a-p0008-0057",
+      "entryId": "e-p0008-char-016",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 250,
+          "end": 251,
+          "exactText": "店",
+          "characterIds": [
+            "c00230"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0055"
+    },
+    {
+      "id": "a-p0008-0058",
+      "entryId": "e-p0008-sent-006",
+      "kind": "sentence",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 256,
+          "end": 265,
+          "exactText": "她坐出租车去超市。",
+          "characterIds": [
+            "c00235",
+            "c00236",
+            "c00237",
+            "c00238",
+            "c00239",
+            "c00240",
+            "c00241",
+            "c00242",
+            "c00243"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0059",
+      "entryId": "e-p0008-char-023",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 256,
+          "end": 257,
+          "exactText": "她",
+          "characterIds": [
+            "c00235"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0058"
+    },
+    {
+      "id": "a-p0008-0060",
+      "entryId": "e-p0008-char-019",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 257,
+          "end": 258,
+          "exactText": "坐",
+          "characterIds": [
+            "c00236"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0058"
+    },
+    {
+      "id": "a-p0008-0061",
+      "entryId": "e-p0008-word-009",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 258,
+          "end": 261,
+          "exactText": "出租车",
+          "characterIds": [
+            "c00237",
+            "c00238",
+            "c00239"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0058"
+    },
+    {
+      "id": "a-p0008-0062",
+      "entryId": "e-p0008-char-020",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 258,
+          "end": 259,
+          "exactText": "出",
+          "characterIds": [
+            "c00237"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0061"
+    },
+    {
+      "id": "a-p0008-0063",
+      "entryId": "e-p0008-char-021",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 259,
+          "end": 260,
+          "exactText": "租",
+          "characterIds": [
+            "c00238"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0061"
+    },
+    {
+      "id": "a-p0008-0064",
+      "entryId": "e-p0008-char-022",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 260,
+          "end": 261,
+          "exactText": "车",
+          "characterIds": [
+            "c00239"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0061"
+    },
+    {
+      "id": "a-p0008-0065",
+      "entryId": "e-p0008-char-003",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 261,
+          "end": 262,
+          "exactText": "去",
+          "characterIds": [
+            "c00240"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0058"
+    },
+    {
+      "id": "a-p0008-0066",
+      "entryId": "e-p0008-word-002",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 262,
+          "end": 264,
+          "exactText": "超市",
+          "characterIds": [
+            "c00241",
+            "c00242"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0058"
+    },
+    {
+      "id": "a-p0008-0067",
+      "entryId": "e-p0008-char-004",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 262,
+          "end": 263,
+          "exactText": "超",
+          "characterIds": [
+            "c00241"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0066"
+    },
+    {
+      "id": "a-p0008-0068",
+      "entryId": "e-p0008-char-005",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 263,
+          "end": 264,
+          "exactText": "市",
+          "characterIds": [
+            "c00242"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0066"
+    },
+    {
+      "id": "a-p0008-0069",
+      "entryId": "e-p0008-sent-007",
+      "kind": "sentence",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 321,
+          "end": 327,
+          "exactText": "我们怎么去？",
+          "characterIds": [
+            "c00295",
+            "c00296",
+            "c00297",
+            "c00298",
+            "c00299",
+            "c00300"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0070",
+      "entryId": "e-p0008-char-001",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 321,
+          "end": 322,
+          "exactText": "我",
+          "characterIds": [
+            "c00295"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0069"
+    },
+    {
+      "id": "a-p0008-0071",
+      "entryId": "e-p0008-word-010",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 323,
+          "end": 325,
+          "exactText": "怎么",
+          "characterIds": [
+            "c00297",
+            "c00298"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0069"
+    },
+    {
+      "id": "a-p0008-0072",
+      "entryId": "e-p0008-char-024",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 323,
+          "end": 324,
+          "exactText": "怎",
+          "characterIds": [
+            "c00297"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0071"
+    },
+    {
+      "id": "a-p0008-0073",
+      "entryId": "e-p0008-char-025",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 324,
+          "end": 325,
+          "exactText": "么",
+          "characterIds": [
+            "c00298"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0071"
+    },
+    {
+      "id": "a-p0008-0074",
+      "entryId": "e-p0008-char-003",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 325,
+          "end": 326,
+          "exactText": "去",
+          "characterIds": [
+            "c00299"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0069"
+    },
+    {
+      "id": "a-p0008-0075",
+      "entryId": "e-p0008-sent-008",
+      "kind": "sentence",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 335,
+          "end": 342,
+          "exactText": "她怎么去夜市？",
+          "characterIds": [
+            "c00308",
+            "c00309",
+            "c00310",
+            "c00311",
+            "c00312",
+            "c00313",
+            "c00314"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0076",
+      "entryId": "e-p0008-char-023",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 335,
+          "end": 336,
+          "exactText": "她",
+          "characterIds": [
+            "c00308"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0075"
+    },
+    {
+      "id": "a-p0008-0077",
+      "entryId": "e-p0008-word-010",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 336,
+          "end": 338,
+          "exactText": "怎么",
+          "characterIds": [
+            "c00309",
+            "c00310"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0075"
+    },
+    {
+      "id": "a-p0008-0078",
+      "entryId": "e-p0008-char-024",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 336,
+          "end": 337,
+          "exactText": "怎",
+          "characterIds": [
+            "c00309"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0077"
+    },
+    {
+      "id": "a-p0008-0079",
+      "entryId": "e-p0008-char-025",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 337,
+          "end": 338,
+          "exactText": "么",
+          "characterIds": [
+            "c00310"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0077"
+    },
+    {
+      "id": "a-p0008-0080",
+      "entryId": "e-p0008-char-003",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 338,
+          "end": 339,
+          "exactText": "去",
+          "characterIds": [
+            "c00311"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0075"
+    },
+    {
+      "id": "a-p0008-0081",
+      "entryId": "e-p0008-word-011",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 339,
+          "end": 341,
+          "exactText": "夜市",
+          "characterIds": [
+            "c00312",
+            "c00313"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0075"
+    },
+    {
+      "id": "a-p0008-0082",
+      "entryId": "e-p0008-char-026",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 339,
+          "end": 340,
+          "exactText": "夜",
+          "characterIds": [
+            "c00312"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0081"
+    },
+    {
+      "id": "a-p0008-0083",
+      "entryId": "e-p0008-char-005",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 340,
+          "end": 341,
+          "exactText": "市",
+          "characterIds": [
+            "c00313"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0081"
+    },
+    {
+      "id": "a-p0008-0084",
+      "entryId": "e-p0008-word-012",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 7,
+          "end": 10,
+          "exactText": "第六课",
+          "characterIds": [
+            "c00006",
+            "c00007",
+            "c00008"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0085",
+      "entryId": "e-p0008-char-027",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 7,
+          "end": 8,
+          "exactText": "第",
+          "characterIds": [
+            "c00006"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0084"
+    },
+    {
+      "id": "a-p0008-0086",
+      "entryId": "e-p0008-char-028",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 8,
+          "end": 9,
+          "exactText": "六",
+          "characterIds": [
+            "c00007"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0084"
+    },
+    {
+      "id": "a-p0008-0087",
+      "entryId": "e-p0008-char-029",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 9,
+          "end": 10,
+          "exactText": "课",
+          "characterIds": [
+            "c00008"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0084"
+    },
+    {
+      "id": "a-p0008-0088",
+      "entryId": "e-p0008-char-002",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 43,
+          "end": 44,
+          "exactText": "想",
+          "characterIds": [
+            "c00038"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0089",
+      "entryId": "e-p0008-word-010",
+      "kind": "word",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 302,
+          "end": 304,
+          "exactText": "怎么",
+          "characterIds": [
+            "c00278",
+            "c00279"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0008-0090",
+      "entryId": "e-p0008-char-024",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 302,
+          "end": 303,
+          "exactText": "怎",
+          "characterIds": [
+            "c00278"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0089"
+    },
+    {
+      "id": "a-p0008-0091",
+      "entryId": "e-p0008-char-025",
+      "kind": "character",
+      "sectionId": "lesson-6",
+      "anchors": [
+        {
+          "pageId": "p0008",
+          "extractionRevision": 1,
+          "start": 303,
+          "end": 304,
+          "exactText": "么",
+          "characterIds": [
+            "c00279"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0008-0089"
+    }
+  ]
+}

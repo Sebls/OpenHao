@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0008",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0008-001",
+      "pageId": "p0008",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 我想去超市买东西。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Je veux aller au supermarché pour acheter des choses."
+        },
+        {
+          "id": "o1",
+          "text": "Je prends un taxi pour aller au supermarché."
+        },
+        {
+          "id": "o2",
+          "text": "Mon grand frère ne veut pas se reposer."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我想 (je veux) + 去超市 (aller au supermarché) + 买东西 (acheter des choses).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0008-0019"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0008-002",
+      "pageId": "p0008",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la question : 我们___去？ (Comment y allons-nous ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "怎么"
+        },
+        {
+          "id": "o1",
+          "text": "什么"
+        },
+        {
+          "id": "o2",
+          "text": "几"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "怎么 (zěnme) se place devant un verbe pour demander « comment ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0008-0069"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0008-003",
+      "pageId": "p0008",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 坐出租车 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "prendre un taxi"
+        },
+        {
+          "id": "o1",
+          "text": "dîner"
+        },
+        {
+          "id": "o2",
+          "text": "aller au marché de nuit"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "坐 signifie « s'asseoir / prendre (un transport) » et 出租车 signifie « taxi ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0008-0058"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0008-004",
+      "pageId": "p0008",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle phrase signifie « Mon grand frère ne veut pas se reposer. » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我哥哥不想休息。"
+        },
+        {
+          "id": "o1",
+          "text": "我想去超市。"
+        },
+        {
+          "id": "o2",
+          "text": "她怎么去夜市？"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我哥哥 (mon grand frère) + 不想 (ne veut pas) + 休息 (se reposer).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0008-0009"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0008-005",
+      "pageId": "p0008",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我们怎么去？"
+        },
+        {
+          "id": "o1",
+          "text": "她怎么去夜市？"
+        },
+        {
+          "id": "o2",
+          "text": "我想去超市。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我们怎么去？ signifie « Comment y allons-nous ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0008-0069"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "我们怎么去？"
+    }
+  ]
+}

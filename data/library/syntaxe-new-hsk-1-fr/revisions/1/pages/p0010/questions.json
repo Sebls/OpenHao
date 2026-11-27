@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0010",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0010-001",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 房间里有一只小猫。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Il y a un petit chat dans la pièce."
+        },
+        {
+          "id": "o1",
+          "text": "Le téléphone de Xiaoxue est sur la table."
+        },
+        {
+          "id": "o2",
+          "text": "Allons devant la librairie."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "房间里 signifie « dans la pièce », 有 signifie « il y a » et 一只小猫 signifie « un petit chat ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0010-002",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "character-identification",
+      "prompt": "Quel mot de localisation signifie « à l'extérieur / dehors » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "外"
+        },
+        {
+          "id": "o1",
+          "text": "里"
+        },
+        {
+          "id": "o2",
+          "text": "前"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "外 (wài) signifie « extérieur / dehors », alors que 里 signifie « dedans » et 前 signifie « devant ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0018"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0010-003",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la phrase : 小雪的手机___桌子上呢。 (Le téléphone portable de Xiaoxue est sur la table.)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "在"
+        },
+        {
+          "id": "o1",
+          "text": "去"
+        },
+        {
+          "id": "o2",
+          "text": "能"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "在 (zài) permet de situer quelque chose à un endroit.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0010-004",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 你明天上午在哪儿买菜? ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Où achèteras-tu des légumes demain matin ?"
+        },
+        {
+          "id": "o1",
+          "text": "Pourras-tu rentrer à la maison demain à 14 h ?"
+        },
+        {
+          "id": "o2",
+          "text": "Son père a travaillé à l'hôpital hier soir."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "在哪儿 demande « où », et 买菜 signifie « acheter des légumes / faire les courses ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0068"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0010-005",
+      "pageId": "p0010",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "房间里有一只小猫。"
+        },
+        {
+          "id": "o1",
+          "text": "我们去书店外吧。"
+        },
+        {
+          "id": "o2",
+          "text": "今天早上爸爸能去医院。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "我们去书店外吧。 signifie « Allons à l'extérieur de la librairie. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0010-0012"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "我们去书店外吧。"
+    }
+  ]
+}

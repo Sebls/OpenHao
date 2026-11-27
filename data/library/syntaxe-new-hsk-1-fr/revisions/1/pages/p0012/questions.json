@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0012",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0012-001",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 这个杯子不贵,我很喜欢。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cette tasse n'est pas chère ; je l'aime beaucoup."
+        },
+        {
+          "id": "o1",
+          "text": "Ce plat n'est pas très bon ; je ne l'aime pas."
+        },
+        {
+          "id": "o2",
+          "text": "Ma chambre n'est pas grande."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "杯子 signifie « tasse », 不贵 « pas chère » et 我很喜欢 « je l'aime beaucoup ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0039"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0012-002",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "En mandarin, lorsqu'un adjectif joue le rôle de prédicat (ex. 那个苹果好吃), utilise-t-on 是 (« être ») ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Non, on utilise directement l'adjectif (ou avec 很 / 真 / 不)"
+        },
+        {
+          "id": "o1",
+          "text": "Oui, on place toujours 是 devant l'adjectif"
+        },
+        {
+          "id": "o2",
+          "text": "Uniquement à la fin de la phrase"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Les prédicats adjectivaux ne prennent pas 是 ; ils s'emploient avec des adverbes de degré comme 很 ou 真, ou avec la négation 不.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0020"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0012-003",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Complétez la question : 这本书___? (Comment est ce livre ?)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "怎么样"
+        },
+        {
+          "id": "o1",
+          "text": "什么"
+        },
+        {
+          "id": "o2",
+          "text": "几号"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "怎么样 (zěnmeyàng) demande « comment est-ce ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0052"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0012-004",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle unité orale de la monnaie chinoise équivaut à 1 yuan ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "块"
+        },
+        {
+          "id": "o1",
+          "text": "毛"
+        },
+        {
+          "id": "o2",
+          "text": "分"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "块 (kuài) est l'unité orale pour 1 yuan (forme écrite/formelle : 元).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0091"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0012-005",
+      "pageId": "p0012",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我的房间不大。"
+        },
+        {
+          "id": "o1",
+          "text": "那个苹果好吃。"
+        },
+        {
+          "id": "o2",
+          "text": "很好看。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我的房间不大。 signifie « Ma chambre n'est pas grande. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0012-0012"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "我的房间不大。"
+    }
+  ]
+}

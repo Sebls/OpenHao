@@ -1,0 +1,2851 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0017",
+  "extractionRevision": 1,
+  "entries": [
+    {
+      "id": "e-p0017-sent-001",
+      "kind": "sentence",
+      "form": "你姓什么？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Quel est votre nom de famille ?",
+      "explanation": "Demande précisément le nom de famille de quelqu'un.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ xìng shénme?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你姓什么？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 1"
+    },
+    {
+      "id": "e-p0017-char-001",
+      "kind": "character",
+      "form": "你",
+      "sourceLanguage": "zh-CN",
+      "meaning": "tu ; toi",
+      "explanation": "Pronom personnel de la 2e personne du singulier.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ni²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-002",
+      "kind": "character",
+      "form": "姓",
+      "sourceLanguage": "zh-CN",
+      "meaning": "nom de famille ; s'appeler (nom)",
+      "explanation": "Verbe / nom signifiant « nom de famille ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xìng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕiŋ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "姓",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-001",
+      "kind": "word",
+      "form": "什么",
+      "sourceLanguage": "zh-CN",
+      "meaning": "quoi ; quel",
+      "explanation": "Pronom interrogatif placé à l'emplacement même de la réponse.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shénme",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂən³⁵ mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "什么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "pronom"
+    },
+    {
+      "id": "e-p0017-char-003",
+      "kind": "character",
+      "form": "什",
+      "sourceLanguage": "zh-CN",
+      "meaning": "quoi (dans 什么)",
+      "explanation": "Premier caractère de 什么 (quoi / quel).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "什",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-004",
+      "kind": "character",
+      "form": "么",
+      "sourceLanguage": "zh-CN",
+      "meaning": "particule interrogative / suffixe",
+      "explanation": "Suffixe au ton neutre dans 什么, 怎么, 怎么样.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "me",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-002",
+      "kind": "sentence",
+      "form": "你叫什么名字？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Comment vous appelez-vous ? / Comment t'appelles-tu ?",
+      "explanation": "Demande le nom complet ou le prénom.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ jiào shénme míngzi?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你叫什么名字？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 2"
+    },
+    {
+      "id": "e-p0017-char-005",
+      "kind": "character",
+      "form": "叫",
+      "sourceLanguage": "zh-CN",
+      "meaning": "s'appeler ; appeler",
+      "explanation": "Utilisé pour dire ou demander le nom de quelqu'un.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕjɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "叫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-002",
+      "kind": "word",
+      "form": "名字",
+      "sourceLanguage": "zh-CN",
+      "meaning": "nom ; prénom",
+      "explanation": "Désigne le nom complet ou le prénom d'une personne.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "míngzi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[miŋ³⁵ tsɿ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "名字",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0017-char-006",
+      "kind": "character",
+      "form": "名",
+      "sourceLanguage": "zh-CN",
+      "meaning": "nom ; prénom",
+      "explanation": "Utilisé dans 名字 (nom/prénom) et 第一名 (première place).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "míng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[miŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "名",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-007",
+      "kind": "character",
+      "form": "字",
+      "sourceLanguage": "zh-CN",
+      "meaning": "caractère ; mot",
+      "explanation": "Désigne un caractère chinois écrit.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsʅ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "字",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-003",
+      "kind": "sentence",
+      "form": "你是哪国人？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Quelle est votre nationalité ?",
+      "explanation": "Littéralement « Tu es une personne de quel pays ? ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ shì nǎ guó rén?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你是哪国人？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 3"
+    },
+    {
+      "id": "e-p0017-char-008",
+      "kind": "character",
+      "form": "是",
+      "sourceLanguage": "zh-CN",
+      "meaning": "être",
+      "explanation": "Relie un sujet à un nom ou à un groupe nominal.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂʅ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "是",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-003",
+      "kind": "word",
+      "form": "哪国人",
+      "sourceLanguage": "zh-CN",
+      "meaning": "de quel pays",
+      "explanation": "Littéralement « personne de quel pays ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǎ guó rén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[na²¹⁴ kwɔ³⁵ ʐən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "哪国人",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "locution"
+    },
+    {
+      "id": "e-p0017-char-009",
+      "kind": "character",
+      "form": "哪",
+      "sourceLanguage": "zh-CN",
+      "meaning": "lequel ; où",
+      "explanation": "Pronom interrogatif utilisé dans 哪儿 (où) et 哪个 (lequel).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[na²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "哪",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-010",
+      "kind": "character",
+      "form": "国",
+      "sourceLanguage": "zh-CN",
+      "meaning": "pays ; nation",
+      "explanation": "Combiné avec des racines de noms de pays, ex. 法国 (France), 中国 (Chine).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kwɔ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-011",
+      "kind": "character",
+      "form": "人",
+      "sourceLanguage": "zh-CN",
+      "meaning": "personne ; gens",
+      "explanation": "Combiné avec un nom de pays pour indiquer la nationalité (法国人).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "rén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʐən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "人",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-004",
+      "kind": "sentence",
+      "form": "你今年多大了？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Quel âge as-tu cette année ?",
+      "explanation": "Façon courante de demander l'âge.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ jīnnián duō dà le?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你今年多大了？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 4"
+    },
+    {
+      "id": "e-p0017-word-004",
+      "kind": "word",
+      "form": "今年",
+      "sourceLanguage": "zh-CN",
+      "meaning": "cette année",
+      "explanation": "Utilisé pour demander ou indiquer l'âge (你今年多大了？).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jīnnián",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕin⁵⁵ njɛn³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "今年",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0017-char-012",
+      "kind": "character",
+      "form": "今",
+      "sourceLanguage": "zh-CN",
+      "meaning": "maintenant ; aujourd'hui",
+      "explanation": "Utilisé dans 今天 (aujourd'hui) et 今年 (cette année).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕin⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "今",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-013",
+      "kind": "character",
+      "form": "年",
+      "sourceLanguage": "zh-CN",
+      "meaning": "année",
+      "explanation": "Nom signifiant « année ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nián",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[njɛn³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "年",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-005",
+      "kind": "word",
+      "form": "多大",
+      "sourceLanguage": "zh-CN",
+      "meaning": "quel âge",
+      "explanation": "Utilisé pour demander l'âge de quelqu'un.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "duō dà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[twɔ⁵⁵ ta⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "多大",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "locution"
+    },
+    {
+      "id": "e-p0017-char-014",
+      "kind": "character",
+      "form": "多",
+      "sourceLanguage": "zh-CN",
+      "meaning": "beaucoup ; nombreux",
+      "explanation": "Adjectif signifiant « beaucoup / nombreux » ; également utilisé dans 多大 (quel âge).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "duō",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[twɔ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "多",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-015",
+      "kind": "character",
+      "form": "大",
+      "sourceLanguage": "zh-CN",
+      "meaning": "grand ; âgé",
+      "explanation": "Adjectif signifiant « grand » ; dans 多大, il sert à demander l'âge.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ta⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "大",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-016",
+      "kind": "character",
+      "form": "了",
+      "sourceLanguage": "zh-CN",
+      "meaning": "particule modale / aspectuelle",
+      "explanation": "Marque un changement d'état (下雨了) ou une action accomplie (看了).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "le",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "了",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-005",
+      "kind": "sentence",
+      "form": "你家有口人？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Combien de personnes y a-t-il dans ta famille ?",
+      "explanation": "La source imprime « 你家有口人？ » (en omettant 几 « jǐ ») ; la formulation standard est 你家有几口人？.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ jiā yǒu [jǐ] kǒu rén?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你家有口人？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 5 (la source omet 几)"
+    },
+    {
+      "id": "e-p0017-char-017",
+      "kind": "character",
+      "form": "家",
+      "sourceLanguage": "zh-CN",
+      "meaning": "maison ; famille",
+      "explanation": "Signifie « maison » ou « famille » ; aussi classificateur pour les établissements (一家电影院).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕja⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "家",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-018",
+      "kind": "character",
+      "form": "有",
+      "sourceLanguage": "zh-CN",
+      "meaning": "avoir ; il y a",
+      "explanation": "Exprime la possession ou l'existence ; se nie avec 没 (没有).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[joʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "有",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-019",
+      "kind": "character",
+      "form": "口",
+      "sourceLanguage": "zh-CN",
+      "meaning": "bouche ; classificateur pour les membres de la famille",
+      "explanation": "Utilisé pour compter les membres d'une famille (四口人).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʰoʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "口",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-006",
+      "kind": "sentence",
+      "form": "你家有谁？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Qui y a-t-il dans ta famille ?",
+      "explanation": "Demande qui sont les membres de la famille.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ jiā yǒu shéi?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你家有谁？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 5"
+    },
+    {
+      "id": "e-p0017-sent-007",
+      "kind": "sentence",
+      "form": "你有兄弟姐妹吗？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "As-tu des frères et sœurs ?",
+      "explanation": "兄弟姐妹 englobe tous les frères et sœurs.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ yǒu xiōngdì jiěmèi ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你有兄弟姐妹吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Relance de la question 5"
+    },
+    {
+      "id": "e-p0017-word-006",
+      "kind": "word",
+      "form": "兄弟姐妹",
+      "sourceLanguage": "zh-CN",
+      "meaning": "frères et sœurs",
+      "explanation": "Littéralement « grands frères, petits frères, grandes sœurs, petites sœurs ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiōngdì jiěmèi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjʊŋ⁵⁵ ti⁵¹ tɕjɛ²¹⁴ meɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "兄弟姐妹",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0017-char-020",
+      "kind": "character",
+      "form": "兄",
+      "sourceLanguage": "zh-CN",
+      "meaning": "grand frère (formel)",
+      "explanation": "Utilisé dans 兄弟姐妹 (frères et sœurs).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjʊŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "兄",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-021",
+      "kind": "character",
+      "form": "弟",
+      "sourceLanguage": "zh-CN",
+      "meaning": "petit frère",
+      "explanation": "Redoublé dans 弟弟 (petit frère).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ti⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "弟",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-022",
+      "kind": "character",
+      "form": "姐",
+      "sourceLanguage": "zh-CN",
+      "meaning": "grande sœur",
+      "explanation": "Redoublé dans 姐姐 (grande sœur).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕjɛ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "姐",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-023",
+      "kind": "character",
+      "form": "妹",
+      "sourceLanguage": "zh-CN",
+      "meaning": "petite sœur",
+      "explanation": "Redoublé dans 妹妹 (petite sœur).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mèi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[meɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "妹",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-024",
+      "kind": "character",
+      "form": "吗",
+      "sourceLanguage": "zh-CN",
+      "meaning": "particule interrogative (question fermée)",
+      "explanation": "Placé en fin de phrase pour transformer une affirmation en question fermée.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "吗",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-008",
+      "kind": "sentence",
+      "form": "你是哪个学校的学生？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Dans quelle école es-tu étudiant(e) ?",
+      "explanation": "哪个 (« quel ») + 学校.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ shì nǎge xuéxiào de xuésheng?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你是哪个学校的学生？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 6"
+    },
+    {
+      "id": "e-p0017-char-025",
+      "kind": "character",
+      "form": "个",
+      "sourceLanguage": "zh-CN",
+      "meaning": "classificateur général",
+      "explanation": "Le classificateur général le plus courant en mandarin.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "个",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-007",
+      "kind": "word",
+      "form": "学校",
+      "sourceLanguage": "zh-CN",
+      "meaning": "école",
+      "explanation": "Nom signifiant « école ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xuéxiào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥɛ³⁵ ɕjɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "学校",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0017-char-026",
+      "kind": "character",
+      "form": "学",
+      "sourceLanguage": "zh-CN",
+      "meaning": "étudier ; apprendre",
+      "explanation": "Utilisé dans 学生 (étudiant), 学校 (école), 学中文 (étudier le chinois).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xué",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥɛ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "学",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-027",
+      "kind": "character",
+      "form": "校",
+      "sourceLanguage": "zh-CN",
+      "meaning": "école",
+      "explanation": "Utilisé dans 学校 (école).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "校",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-028",
+      "kind": "character",
+      "form": "的",
+      "sourceLanguage": "zh-CN",
+      "meaning": "particule possessive / déterminative",
+      "explanation": "Relie un déterminant ou un possesseur à un nom.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "de",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "的",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-008",
+      "kind": "word",
+      "form": "学生",
+      "sourceLanguage": "zh-CN",
+      "meaning": "élève ; étudiant",
+      "explanation": "Notez le ton neutre sur 生 (sheng).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xuésheng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥɛ³⁵ ʂəŋ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "学生",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0017-char-029",
+      "kind": "character",
+      "form": "生",
+      "sourceLanguage": "zh-CN",
+      "meaning": "étudiant ; vie ; naître",
+      "explanation": "Utilisé dans 学生 (étudiant) et 生病 (tomber malade).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shēng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂəŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "生",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-009",
+      "kind": "sentence",
+      "form": "你几年级？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "En quelle année es-tu ?",
+      "explanation": "几 demande l'année scolaire.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ jǐ niánjí?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你几年级？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Relance de la question 6"
+    },
+    {
+      "id": "e-p0017-word-009",
+      "kind": "word",
+      "form": "几年级",
+      "sourceLanguage": "zh-CN",
+      "meaning": "quelle année / classe",
+      "explanation": "Demande en quelle année scolaire se trouve quelqu'un.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jǐ niánjí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕi²¹⁴ njɛn³⁵ tɕi³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "几年级",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "locution"
+    },
+    {
+      "id": "e-p0017-char-030",
+      "kind": "character",
+      "form": "几",
+      "sourceLanguage": "zh-CN",
+      "meaning": "combien ; quel",
+      "explanation": "Interroge sur les petits nombres, les dates (几号) ou le niveau scolaire (几年级).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕi²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "几",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-031",
+      "kind": "character",
+      "form": "级",
+      "sourceLanguage": "zh-CN",
+      "meaning": "année scolaire ; niveau",
+      "explanation": "Utilisé dans 几年级 (quelle année scolaire).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕi³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "级",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-010",
+      "kind": "sentence",
+      "form": "你的专业是什么？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Quelle est ta spécialité ?",
+      "explanation": "专业 signifie « spécialité / filière d'études ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ de zhuānyè shì shénme?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你的专业是什么？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 7"
+    },
+    {
+      "id": "e-p0017-word-010",
+      "kind": "word",
+      "form": "专业",
+      "sourceLanguage": "zh-CN",
+      "meaning": "spécialité ; filière d'études",
+      "explanation": "Nom signifiant « spécialité / filière d'études ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhuānyè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂwan⁵⁵ jɛ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "专业",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0017-char-032",
+      "kind": "character",
+      "form": "专",
+      "sourceLanguage": "zh-CN",
+      "meaning": "spécialisé",
+      "explanation": "Premier caractère de 专业 (spécialité).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhuān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂwan⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "专",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-033",
+      "kind": "character",
+      "form": "业",
+      "sourceLanguage": "zh-CN",
+      "meaning": "profession ; études",
+      "explanation": "Deuxième caractère de 专业 (spécialité).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[jɛ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "业",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-011",
+      "kind": "sentence",
+      "form": "你以后想做什么工作？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Quel métier veux-tu faire plus tard ?",
+      "explanation": "以后 (« à l'avenir ») + 想做 (« vouloir faire »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ yǐhòu xiǎng zuò shénme gōngzuò?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你以后想做什么工作？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 8"
+    },
+    {
+      "id": "e-p0017-word-011",
+      "kind": "word",
+      "form": "以后",
+      "sourceLanguage": "zh-CN",
+      "meaning": "à l'avenir ; plus tard",
+      "explanation": "Mot de temps signifiant « après » ou « à l'avenir ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǐhòu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[i²¹⁴ xoʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "以后",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom / adverbe"
+    },
+    {
+      "id": "e-p0017-char-034",
+      "kind": "character",
+      "form": "以",
+      "sourceLanguage": "zh-CN",
+      "meaning": "avec ; par",
+      "explanation": "Utilisé dans 以后 (à l'avenir) et 可以 (pouvoir).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[i²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "以",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-035",
+      "kind": "character",
+      "form": "后",
+      "sourceLanguage": "zh-CN",
+      "meaning": "derrière ; après",
+      "explanation": "Mot de localisation signifiant « derrière » (后边).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hòu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xoʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "后",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-036",
+      "kind": "character",
+      "form": "想",
+      "sourceLanguage": "zh-CN",
+      "meaning": "vouloir ; penser",
+      "explanation": "Verbe modal exprimant le souhait ou l'intention de faire quelque chose.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "想",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-037",
+      "kind": "character",
+      "form": "做",
+      "sourceLanguage": "zh-CN",
+      "meaning": "faire ; cuisiner",
+      "explanation": "Verbe signifiant « faire » ou « préparer » (做饭 « cuisiner »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zuò",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tswɔ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "做",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-012",
+      "kind": "word",
+      "form": "工作",
+      "sourceLanguage": "zh-CN",
+      "meaning": "travailler ; travail",
+      "explanation": "Utilisé à la fois comme verbe et comme nom.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gōngzuò",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʊŋ⁵⁵ tswɔ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "工作",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "verbe / nom"
+    },
+    {
+      "id": "e-p0017-char-038",
+      "kind": "character",
+      "form": "工",
+      "sourceLanguage": "zh-CN",
+      "meaning": "travail ; labeur",
+      "explanation": "Premier caractère de 工作 (travail).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʊŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "工",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-039",
+      "kind": "character",
+      "form": "作",
+      "sourceLanguage": "zh-CN",
+      "meaning": "faire ; travail",
+      "explanation": "Utilisé dans 工作 (travail / emploi).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zuò",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tswɔ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "作",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-012",
+      "kind": "sentence",
+      "form": "你住在哪儿？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Où habites-tu ?",
+      "explanation": "住在 (« habiter à ») + 哪儿 (« où »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ zhù zài nǎr?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你住在哪儿？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 9"
+    },
+    {
+      "id": "e-p0017-char-040",
+      "kind": "character",
+      "form": "住",
+      "sourceLanguage": "zh-CN",
+      "meaning": "habiter ; vivre",
+      "explanation": "Verbe signifiant « habiter à un endroit » (住在).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂu⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "住",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-041",
+      "kind": "character",
+      "form": "在",
+      "sourceLanguage": "zh-CN",
+      "meaning": "à ; dans ; se trouver à",
+      "explanation": "Préposition ou verbe indiquant la localisation ou une action en cours.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsaɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "在",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-013",
+      "kind": "word",
+      "form": "哪儿",
+      "sourceLanguage": "zh-CN",
+      "meaning": "où",
+      "explanation": "哪 + suffixe rétroflexe 儿.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǎr",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[naɚ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "哪儿",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "pronom"
+    },
+    {
+      "id": "e-p0017-char-042",
+      "kind": "character",
+      "form": "儿",
+      "sourceLanguage": "zh-CN",
+      "meaning": "suffixe rétroflexe (-r)",
+      "explanation": "Suffixe rétroflexe non syllabique rattaché à la syllabe précédente.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "r",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɚ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "儿",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-013",
+      "kind": "sentence",
+      "form": "你喜欢做什么？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Qu'aimes-tu faire ?",
+      "explanation": "喜欢 + groupe verbal.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ xǐhuan zuò shénme?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你喜欢做什么？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 10"
+    },
+    {
+      "id": "e-p0017-word-014",
+      "kind": "word",
+      "form": "喜欢",
+      "sourceLanguage": "zh-CN",
+      "meaning": "aimer (apprécier)",
+      "explanation": "Verbe signifiant « aimer (apprécier) ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xǐhuan",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕi²¹⁴ xwan]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "喜欢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "verbe"
+    },
+    {
+      "id": "e-p0017-char-043",
+      "kind": "character",
+      "form": "喜",
+      "sourceLanguage": "zh-CN",
+      "meaning": "aimer ; content",
+      "explanation": "Premier caractère de 喜欢 (aimer).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕi²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "喜",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-044",
+      "kind": "character",
+      "form": "欢",
+      "sourceLanguage": "zh-CN",
+      "meaning": "joyeux",
+      "explanation": "Ton neutre dans 喜欢 (aimer).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "huan",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xwan]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "欢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-014",
+      "kind": "sentence",
+      "form": "你去过中国吗？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Es-tu déjà allé(e) en Chine ?",
+      "explanation": "Verbe + 过 marque une expérience passée.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ qù guo Zhōngguó ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你去过中国吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 11"
+    },
+    {
+      "id": "e-p0017-char-045",
+      "kind": "character",
+      "form": "去",
+      "sourceLanguage": "zh-CN",
+      "meaning": "aller",
+      "explanation": "Verbe signifiant « aller ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "qù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕʰy⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "去",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-046",
+      "kind": "character",
+      "form": "过",
+      "sourceLanguage": "zh-CN",
+      "meaning": "particule d'expérience passée",
+      "explanation": "Placé après un verbe pour indiquer une expérience passée (« avoir déjà fait »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "guo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kwɔ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "过",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-015",
+      "kind": "word",
+      "form": "中国",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Chine",
+      "explanation": "Nom de pays.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngguó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʊŋ⁵⁵ kwɔ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中国",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom propre"
+    },
+    {
+      "id": "e-p0017-char-047",
+      "kind": "character",
+      "form": "中",
+      "sourceLanguage": "zh-CN",
+      "meaning": "milieu ; Chine",
+      "explanation": "Utilisé dans 中文 (langue chinoise) et 中国 (Chine).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʊŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-015",
+      "kind": "sentence",
+      "form": "你想去中国吗？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Veux-tu aller en Chine ?",
+      "explanation": "想 + 去.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ xiǎng qù Zhōngguó ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你想去中国吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 12"
+    },
+    {
+      "id": "e-p0017-sent-016",
+      "kind": "sentence",
+      "form": "为什么你想学中文？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Pourquoi veux-tu étudier le chinois ?",
+      "explanation": "为什么 demande « pourquoi ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wèishénme nǐ xiǎng xué Zhōngwén?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "为什么你想学中文？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Question 13"
+    },
+    {
+      "id": "e-p0017-word-016",
+      "kind": "word",
+      "form": "为什么",
+      "sourceLanguage": "zh-CN",
+      "meaning": "pourquoi",
+      "explanation": "Littéralement « pour quoi ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wèishénme",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[weɪ⁵¹ ʂən³⁵ mə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "为什么",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "pronom"
+    },
+    {
+      "id": "e-p0017-char-048",
+      "kind": "character",
+      "form": "为",
+      "sourceLanguage": "zh-CN",
+      "meaning": "pour ; à cause de",
+      "explanation": "Utilisé dans 为什么 (pourquoi) et 因为 (parce que).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wèi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[weɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "为",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-017",
+      "kind": "word",
+      "form": "中文",
+      "sourceLanguage": "zh-CN",
+      "meaning": "langue chinoise",
+      "explanation": "Désigne la langue chinoise (parlée ou écrite).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Zhōngwén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʊŋ⁵⁵ wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0017-char-049",
+      "kind": "character",
+      "form": "文",
+      "sourceLanguage": "zh-CN",
+      "meaning": "langue ; écriture",
+      "explanation": "Utilisé dans 中文 (langue chinoise) et le nom 李文.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wén",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wən³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "文",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-017",
+      "kind": "sentence",
+      "form": "你喜欢你的中文老师吗？",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Aimes-tu ton professeur de chinois ?",
+      "explanation": "Question de clôture.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ xǐhuan nǐ de Zhōngwén lǎoshī ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你喜欢你的中文老师吗？",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "clôture"
+    },
+    {
+      "id": "e-p0017-word-018",
+      "kind": "word",
+      "form": "老师",
+      "sourceLanguage": "zh-CN",
+      "meaning": "professeur ; enseignant",
+      "explanation": "Titre respectueux et nom courant pour « professeur ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǎoshī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lɑʊ²¹⁴ ʂʅ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "老师",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0017-char-050",
+      "kind": "character",
+      "form": "老",
+      "sourceLanguage": "zh-CN",
+      "meaning": "vieux ; expérimenté",
+      "explanation": "Utilisé de manière respectueuse dans 老师 (professeur).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[lɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "老",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-051",
+      "kind": "character",
+      "form": "师",
+      "sourceLanguage": "zh-CN",
+      "meaning": "professeur ; maître",
+      "explanation": "Combiné avec 老 pour former 老师 (professeur).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂʅ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "师",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-sent-018",
+      "kind": "sentence",
+      "form": "我太喜欢我的中文老师了！",
+      "sourceLanguage": "zh-CN",
+      "meaning": "J'aime tellement mon professeur de chinois !",
+      "explanation": "太……了 exprime un vif enthousiasme.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ tài xǐhuan wǒ de Zhōngwén lǎoshī le!",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我太喜欢我的中文老师了！",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "clôture"
+    },
+    {
+      "id": "e-p0017-char-052",
+      "kind": "character",
+      "form": "我",
+      "sourceLanguage": "zh-CN",
+      "meaning": "je ; moi",
+      "explanation": "Pronom personnel de la 1re personne du singulier.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wɔ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-053",
+      "kind": "character",
+      "form": "太",
+      "sourceLanguage": "zh-CN",
+      "meaning": "trop ; extrêmement",
+      "explanation": "Utilisé dans la structure 太……了 (trop / tellement ... !).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰaɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "太",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-019",
+      "kind": "word",
+      "form": "我来",
+      "sourceLanguage": "zh-CN",
+      "meaning": "laisse-moi faire",
+      "explanation": "Exprime le fait de se proposer (« Laissez-moi... »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒ lái",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wɔ²¹⁴ laɪ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我来",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "locution"
+    },
+    {
+      "id": "e-p0017-char-054",
+      "kind": "character",
+      "form": "来",
+      "sourceLanguage": "zh-CN",
+      "meaning": "venir",
+      "explanation": "Verbe signifiant « venir ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lái",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[laɪ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "来",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-020",
+      "kind": "word",
+      "form": "自我介绍",
+      "sourceLanguage": "zh-CN",
+      "meaning": "présentation de soi",
+      "explanation": "Titre d'une présentation orale de soi.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zìwǒ jièshào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsʅ⁵¹ wɔ²¹⁴ tɕjɛ⁵¹ ʂɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "自我介绍",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "groupe nominal"
+    },
+    {
+      "id": "e-p0017-char-055",
+      "kind": "character",
+      "form": "自",
+      "sourceLanguage": "zh-CN",
+      "meaning": "soi-même",
+      "explanation": "Utilisé dans 自我介绍 (présentation de soi).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsʅ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "自",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-056",
+      "kind": "character",
+      "form": "介",
+      "sourceLanguage": "zh-CN",
+      "meaning": "présenter",
+      "explanation": "Premier caractère de 介绍 (présenter).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕjɛ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "介",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-057",
+      "kind": "character",
+      "form": "绍",
+      "sourceLanguage": "zh-CN",
+      "meaning": "présenter ; continuer",
+      "explanation": "Deuxième caractère de 介绍 (présenter).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "绍",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-058",
+      "kind": "character",
+      "form": "当",
+      "sourceLanguage": "zh-CN",
+      "meaning": "exercer (un métier) ; devenir",
+      "explanation": "Verbe signifiant « exercer un métier » ou « devenir ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dāng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɑŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "当",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-021",
+      "kind": "word",
+      "form": "小巴黎",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Paris intra-muros (petit Paris)",
+      "explanation": "Terme sino-français familier pour Paris intra-muros.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Xiǎo Bālí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ²¹⁴ pa⁵⁵ li³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "小巴黎",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom propre"
+    },
+    {
+      "id": "e-p0017-char-059",
+      "kind": "character",
+      "form": "小",
+      "sourceLanguage": "zh-CN",
+      "meaning": "petit",
+      "explanation": "Adjectif signifiant « petit ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "小",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-060",
+      "kind": "character",
+      "form": "巴",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Paris (dans 巴黎)",
+      "explanation": "Premier caractère de 巴黎 (Paris).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pa⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "巴",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-061",
+      "kind": "character",
+      "form": "黎",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Paris (dans 巴黎)",
+      "explanation": "Deuxième caractère de 巴黎 (Paris).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lí",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[li³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "黎",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-062",
+      "kind": "character",
+      "form": "区",
+      "sourceLanguage": "zh-CN",
+      "meaning": "arrondissement ; quartier",
+      "explanation": "Arrondissement administratif (par ex. arrondissement de Paris).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "qū",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕʰy⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "区",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-char-063",
+      "kind": "character",
+      "form": "省",
+      "sourceLanguage": "zh-CN",
+      "meaning": "province ; département",
+      "explanation": "Province ou département administratif.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shěng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂəŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "省",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0017-word-022",
+      "kind": "word",
+      "form": "因为",
+      "sourceLanguage": "zh-CN",
+      "meaning": "parce que",
+      "explanation": "Conjonction introduisant une cause.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yīnwèi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[in⁵⁵ weɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "因为",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "conjonction"
+    },
+    {
+      "id": "e-p0017-char-064",
+      "kind": "character",
+      "form": "因",
+      "sourceLanguage": "zh-CN",
+      "meaning": "cause ; parce que",
+      "explanation": "Premier caractère de 因为 (parce que).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[in⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "因",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    }
+  ]
+}

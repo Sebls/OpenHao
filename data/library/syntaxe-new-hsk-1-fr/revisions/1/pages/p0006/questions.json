@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0006",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0006-001",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quel mot utilise-t-on pour nier 有 (« avoir ») ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "没"
+        },
+        {
+          "id": "o1",
+          "text": "不"
+        },
+        {
+          "id": "o2",
+          "text": "呢"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "有 se nie toujours avec 没 (没有), jamais avec 不.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0003"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0006-002",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "missing-word",
+      "prompt": "Choisissez le bon mot pour « deux » devant un classificateur : ___本书 (deux livres)",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "两"
+        },
+        {
+          "id": "o1",
+          "text": "二"
+        },
+        {
+          "id": "o2",
+          "text": "十"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "On utilise 两 (liǎng) au lieu de 二 (èr) directement devant un classificateur comme 本.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0117"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0006-003",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quel classificateur utilise-t-on pour compter les membres d'une famille dans 四___人 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "口"
+        },
+        {
+          "id": "o1",
+          "text": "本"
+        },
+        {
+          "id": "o2",
+          "text": "个"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "口 (kǒu) est le classificateur spécifique pour compter les membres d'un foyer ou d'une famille.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0115"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0006-004",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 我有两个哥哥，你呢？ ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "J'ai deux grands frères, et toi ?"
+        },
+        {
+          "id": "o1",
+          "text": "J'ai deux petites sœurs, et toi ?"
+        },
+        {
+          "id": "o2",
+          "text": "Je suis chinois(e), et toi ?"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "哥哥 signifie « grand frère », 两 signifie « deux » et 你呢？ signifie « et toi ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0026"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0006-005",
+      "pageId": "p0006",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我是中国人，你呢？"
+        },
+        {
+          "id": "o1",
+          "text": "我叫白家月，你呢？"
+        },
+        {
+          "id": "o2",
+          "text": "我有妹妹"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我是中国人，你呢？ signifie « Je suis chinois(e), et toi ? ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0006-0045"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "我是中国人，你呢？"
+    }
+  ]
+}

@@ -1,0 +1,2673 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0010",
+  "extractionRevision": 1,
+  "entries": [
+    {
+      "id": "e-p0010-sent-001",
+      "kind": "sentence",
+      "form": "房间里有一只小猫。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Il y a un petit chat dans la pièce.",
+      "explanation": "Lieu + 有 + sujet exprime l'existence.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Fángjiān li yǒu yì zhī xiǎomāo.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "房间里有一只小猫。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "Lieu + 有"
+    },
+    {
+      "id": "e-p0010-word-001",
+      "kind": "word",
+      "form": "房间",
+      "sourceLanguage": "zh-CN",
+      "meaning": "pièce ; chambre",
+      "explanation": "Nom signifiant « pièce / chambre ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fángjiān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fɑŋ³⁵ tɕjɛn⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "房间",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-001",
+      "kind": "character",
+      "form": "房",
+      "sourceLanguage": "zh-CN",
+      "meaning": "pièce ; maison",
+      "explanation": "Premier caractère de 房间 (pièce/chambre).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fáng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fɑŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "房",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-002",
+      "kind": "character",
+      "form": "间",
+      "sourceLanguage": "zh-CN",
+      "meaning": "espace ; pièce",
+      "explanation": "Deuxième caractère de 房间 (pièce/chambre).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕjɛn⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "间",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-003",
+      "kind": "character",
+      "form": "里",
+      "sourceLanguage": "zh-CN",
+      "meaning": "à l'intérieur ; dans",
+      "explanation": "Mot de localisation signifiant « à l'intérieur » (房间里).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "lǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[li²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "里",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-004",
+      "kind": "character",
+      "form": "有",
+      "sourceLanguage": "zh-CN",
+      "meaning": "avoir ; il y a",
+      "explanation": "Exprime la possession ou l'existence ; se nie avec 没 (没有).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[joʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "有",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-005",
+      "kind": "character",
+      "form": "一",
+      "sourceLanguage": "zh-CN",
+      "meaning": "un",
+      "explanation": "Nombre un (1er ton de base ; devient yì devant les 1er, 2e et 3e tons, et yí devant le 4e ton).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[i⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "一",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-006",
+      "kind": "character",
+      "form": "只",
+      "sourceLanguage": "zh-CN",
+      "meaning": "classificateur pour les animaux",
+      "explanation": "Classificateur pour les chats et les petits animaux (一只小猫).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʅ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "只",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-002",
+      "kind": "word",
+      "form": "小猫",
+      "sourceLanguage": "zh-CN",
+      "meaning": "petit chat ; chaton",
+      "explanation": "小 (petit) + 猫 (chat).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎomāo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ²¹⁴ mɑʊ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "小猫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-007",
+      "kind": "character",
+      "form": "小",
+      "sourceLanguage": "zh-CN",
+      "meaning": "petit",
+      "explanation": "Adjectif signifiant « petit ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "小",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-008",
+      "kind": "character",
+      "form": "猫",
+      "sourceLanguage": "zh-CN",
+      "meaning": "chat",
+      "explanation": "Nom signifiant « chat ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "māo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mɑʊ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "猫",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-sent-002",
+      "kind": "sentence",
+      "form": "我们去书店外吧。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Allons devant / à l'extérieur de la librairie.",
+      "explanation": "书店外 signifie « à l'extérieur de la librairie ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒmen qù shūdiàn wài ba.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我们去书店外吧。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "localisation"
+    },
+    {
+      "id": "e-p0010-char-009",
+      "kind": "character",
+      "form": "我",
+      "sourceLanguage": "zh-CN",
+      "meaning": "je ; moi",
+      "explanation": "Pronom personnel de la 1re personne du singulier.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǒ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wɔ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-010",
+      "kind": "character",
+      "form": "去",
+      "sourceLanguage": "zh-CN",
+      "meaning": "aller",
+      "explanation": "Verbe signifiant « aller ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "qù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕʰy⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "去",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-003",
+      "kind": "word",
+      "form": "书店",
+      "sourceLanguage": "zh-CN",
+      "meaning": "librairie",
+      "explanation": "书 (livre) + 店 (magasin).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shūdiàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂu⁵⁵ tjɛn⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "书店",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-011",
+      "kind": "character",
+      "form": "书",
+      "sourceLanguage": "zh-CN",
+      "meaning": "livre",
+      "explanation": "Nom signifiant « livre ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shū",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂu⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "书",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-012",
+      "kind": "character",
+      "form": "店",
+      "sourceLanguage": "zh-CN",
+      "meaning": "magasin ; restaurant ; hôtel",
+      "explanation": "Utilisé dans 饭店 (restaurant/hôtel) et 书店 (librairie).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "diàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tjɛn⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "店",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-013",
+      "kind": "character",
+      "form": "外",
+      "sourceLanguage": "zh-CN",
+      "meaning": "à l'extérieur ; dehors",
+      "explanation": "Mot de localisation signifiant « à l'extérieur » (书店外).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[waɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "外",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-014",
+      "kind": "character",
+      "form": "吧",
+      "sourceLanguage": "zh-CN",
+      "meaning": "particule de suggestion",
+      "explanation": "Adoucit une suggestion ou une proposition (« allons... », « et si... »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ba",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pa]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "吧",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-sent-003",
+      "kind": "sentence",
+      "form": "小雪的手机在桌子上呢。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Le téléphone portable de Xiaoxue est sur la table.",
+      "explanation": "在 + lieu indique où se trouve quelque chose.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Xiǎoxuě de shǒujī zài zhuōzi shàng ne.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "小雪的手机在桌子上呢。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "在 + Lieu"
+    },
+    {
+      "id": "e-p0010-word-004",
+      "kind": "word",
+      "form": "小雪",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Xiaoxue (nom de personne)",
+      "explanation": "Nom de personne chinois.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Xiǎoxuě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ²¹⁴ ɕɥɛ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "小雪",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom propre"
+    },
+    {
+      "id": "e-p0010-char-015",
+      "kind": "character",
+      "form": "雪",
+      "sourceLanguage": "zh-CN",
+      "meaning": "neige",
+      "explanation": "Signifie « neige » (下雪了) ; également utilisé dans le prénom 小雪.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xuě",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥɛ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "雪",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-016",
+      "kind": "character",
+      "form": "的",
+      "sourceLanguage": "zh-CN",
+      "meaning": "particule possessive / déterminative",
+      "explanation": "Relie un déterminant ou un possesseur à un nom.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "de",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "的",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-005",
+      "kind": "word",
+      "form": "手机",
+      "sourceLanguage": "zh-CN",
+      "meaning": "téléphone portable",
+      "explanation": "Littéralement « machine de main ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shǒujī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂoʊ²¹⁴ tɕi⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "手机",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-017",
+      "kind": "character",
+      "form": "手",
+      "sourceLanguage": "zh-CN",
+      "meaning": "main",
+      "explanation": "Premier caractère de 手机 (téléphone portable).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shǒu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂoʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "手",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-018",
+      "kind": "character",
+      "form": "机",
+      "sourceLanguage": "zh-CN",
+      "meaning": "machine ; appareil",
+      "explanation": "Deuxième caractère de 手机 (téléphone portable).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕi⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "机",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-019",
+      "kind": "character",
+      "form": "在",
+      "sourceLanguage": "zh-CN",
+      "meaning": "à ; dans ; se trouver à",
+      "explanation": "Préposition ou verbe indiquant la localisation ou une action en cours.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsaɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "在",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-006",
+      "kind": "word",
+      "form": "桌子",
+      "sourceLanguage": "zh-CN",
+      "meaning": "table ; bureau",
+      "explanation": "桌 + suffixe au ton neutre 子.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhuōzi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂwɔ⁵⁵ tsɿ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "桌子",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-020",
+      "kind": "character",
+      "form": "桌",
+      "sourceLanguage": "zh-CN",
+      "meaning": "table ; bureau",
+      "explanation": "Premier caractère de 桌子 (table).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhuō",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂwɔ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "桌",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-021",
+      "kind": "character",
+      "form": "子",
+      "sourceLanguage": "zh-CN",
+      "meaning": "suffixe nominal",
+      "explanation": "Suffixe nominal au ton neutre dans 儿子, 本子, 杯子, 桌子.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsɿ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "子",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-022",
+      "kind": "character",
+      "form": "上",
+      "sourceLanguage": "zh-CN",
+      "meaning": "en haut ; sur ; assister à",
+      "explanation": "Localisation (« sur / au-dessus »), temps (上午) ou verbe (上课 « aller en cours »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shàng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɑŋ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "上",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-023",
+      "kind": "character",
+      "form": "呢",
+      "sourceLanguage": "zh-CN",
+      "meaning": "particule modale / de relance",
+      "explanation": "Utilisé pour « et toi ? » (你呢？) ou pour marquer une action en cours / un état.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ne",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nə]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "呢",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-sent-004",
+      "kind": "sentence",
+      "form": "我今天中午在学校吃午饭。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Je déjeune à l'école aujourd'hui à midi.",
+      "explanation": "La préposition 在 + lieu précède le verbe 吃午饭.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ jīntiān zhōngwǔ zài xuéxiào chī wǔfàn.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我今天中午在学校吃午饭。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "在 + Lieu + V"
+    },
+    {
+      "id": "e-p0010-word-007",
+      "kind": "word",
+      "form": "今天",
+      "sourceLanguage": "zh-CN",
+      "meaning": "aujourd'hui",
+      "explanation": "Mot de temps signifiant « aujourd'hui ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jīntiān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕin⁵⁵ tʰjɛn⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "今天",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-024",
+      "kind": "character",
+      "form": "今",
+      "sourceLanguage": "zh-CN",
+      "meaning": "maintenant ; aujourd'hui",
+      "explanation": "Utilisé dans 今天 (aujourd'hui) et 今年 (cette année).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jīn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕin⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "今",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-025",
+      "kind": "character",
+      "form": "天",
+      "sourceLanguage": "zh-CN",
+      "meaning": "jour ; ciel",
+      "explanation": "Signifie « jour » ; également utilisé dans 今天 (aujourd'hui), 星期天 (dimanche).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tiān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰjɛn⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "天",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-008",
+      "kind": "word",
+      "form": "中午",
+      "sourceLanguage": "zh-CN",
+      "meaning": "midi",
+      "explanation": "Mot indiquant le moment de la journée.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhōngwǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʊŋ⁵⁵ wu²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中午",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-026",
+      "kind": "character",
+      "form": "中",
+      "sourceLanguage": "zh-CN",
+      "meaning": "milieu ; Chine",
+      "explanation": "Utilisé dans 中文 (langue chinoise) et 中国 (Chine).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zhōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʊŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "中",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-027",
+      "kind": "character",
+      "form": "午",
+      "sourceLanguage": "zh-CN",
+      "meaning": "midi",
+      "explanation": "Utilisé dans 上午 (matin), 中午 (midi), 下午 (après-midi).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wu²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "午",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-009",
+      "kind": "word",
+      "form": "学校",
+      "sourceLanguage": "zh-CN",
+      "meaning": "école",
+      "explanation": "Nom signifiant « école ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xuéxiào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥɛ³⁵ ɕjɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "学校",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-028",
+      "kind": "character",
+      "form": "学",
+      "sourceLanguage": "zh-CN",
+      "meaning": "étudier ; apprendre",
+      "explanation": "Utilisé dans 学生 (étudiant), 学校 (école), 学中文 (étudier le chinois).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xué",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕɥɛ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "学",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-029",
+      "kind": "character",
+      "form": "校",
+      "sourceLanguage": "zh-CN",
+      "meaning": "école",
+      "explanation": "Utilisé dans 学校 (école).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕjɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "校",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-030",
+      "kind": "character",
+      "form": "吃",
+      "sourceLanguage": "zh-CN",
+      "meaning": "manger",
+      "explanation": "Verbe signifiant « manger ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "chī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʂʰʅ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "吃",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-010",
+      "kind": "word",
+      "form": "午饭",
+      "sourceLanguage": "zh-CN",
+      "meaning": "déjeuner",
+      "explanation": "午 (midi) + 饭 (repas).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǔfàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wu²¹⁴ fan⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "午饭",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-031",
+      "kind": "character",
+      "form": "饭",
+      "sourceLanguage": "zh-CN",
+      "meaning": "repas ; riz cuit",
+      "explanation": "Nom signifiant « repas » ou « riz cuit » (做饭, 午饭, 晚饭).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "fàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[fan⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "饭",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-sent-005",
+      "kind": "sentence",
+      "form": "他爸爸昨天晚上在医院工作。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Son père a travaillé à l'hôpital hier soir.",
+      "explanation": "在医院 précède le verbe 工作.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Tā bàba zuótiān wǎnshang zài yīyuàn gōngzuò.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "他爸爸昨天晚上在医院工作。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "在 + Lieu + V"
+    },
+    {
+      "id": "e-p0010-char-032",
+      "kind": "character",
+      "form": "他",
+      "sourceLanguage": "zh-CN",
+      "meaning": "il ; lui",
+      "explanation": "Pronom personnel masculin de la 3e personne du singulier.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "tā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tʰa⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "他",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-011",
+      "kind": "word",
+      "form": "爸爸",
+      "sourceLanguage": "zh-CN",
+      "meaning": "papa ; père",
+      "explanation": "La deuxième syllabe prend un ton neutre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bàba",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pa⁵¹ pa]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "爸爸",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-033",
+      "kind": "character",
+      "form": "爸",
+      "sourceLanguage": "zh-CN",
+      "meaning": "papa ; père",
+      "explanation": "Redoublé dans 爸爸 (papa).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bà",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pa⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "爸",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-012",
+      "kind": "word",
+      "form": "昨天",
+      "sourceLanguage": "zh-CN",
+      "meaning": "hier",
+      "explanation": "Mot de temps signifiant « hier ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zuótiān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tswɔ³⁵ tʰjɛn⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "昨天",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-034",
+      "kind": "character",
+      "form": "昨",
+      "sourceLanguage": "zh-CN",
+      "meaning": "hier",
+      "explanation": "Utilisé dans 昨天 (hier).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zuó",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tswɔ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "昨",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-013",
+      "kind": "word",
+      "form": "晚上",
+      "sourceLanguage": "zh-CN",
+      "meaning": "soir ; nuit",
+      "explanation": "Mot indiquant le moment de la journée.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǎnshang",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wan²¹⁴ ʂɑŋ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "晚上",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-035",
+      "kind": "character",
+      "form": "晚",
+      "sourceLanguage": "zh-CN",
+      "meaning": "soir ; tard",
+      "explanation": "Utilisé dans 晚饭 (dîner) et 晚上 (soir).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "wǎn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[wan²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "晚",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-014",
+      "kind": "word",
+      "form": "医院",
+      "sourceLanguage": "zh-CN",
+      "meaning": "hôpital",
+      "explanation": "Nom signifiant « hôpital ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yīyuàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[i⁵⁵ ɥɛn⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "医院",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-036",
+      "kind": "character",
+      "form": "医",
+      "sourceLanguage": "zh-CN",
+      "meaning": "médecine ; médecin",
+      "explanation": "Premier caractère de 医院 (hôpital).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[i⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "医",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-037",
+      "kind": "character",
+      "form": "院",
+      "sourceLanguage": "zh-CN",
+      "meaning": "cour ; établissement",
+      "explanation": "Utilisé dans 医院 (hôpital) et 电影院 (cinéma).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "yuàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɥɛn⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "院",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-015",
+      "kind": "word",
+      "form": "工作",
+      "sourceLanguage": "zh-CN",
+      "meaning": "travailler ; travail",
+      "explanation": "Utilisé à la fois comme verbe et comme nom.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gōngzuò",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʊŋ⁵⁵ tswɔ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "工作",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "verbe / nom"
+    },
+    {
+      "id": "e-p0010-char-038",
+      "kind": "character",
+      "form": "工",
+      "sourceLanguage": "zh-CN",
+      "meaning": "travail ; labeur",
+      "explanation": "Premier caractère de 工作 (travail).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "gōng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʊŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "工",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-039",
+      "kind": "character",
+      "form": "作",
+      "sourceLanguage": "zh-CN",
+      "meaning": "faire ; travail",
+      "explanation": "Utilisé dans 工作 (travail / emploi).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zuò",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tswɔ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "作",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-sent-006",
+      "kind": "sentence",
+      "form": "你明天上午在哪儿买菜?",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Où achèteras-tu des légumes demain matin ?",
+      "explanation": "在哪儿 (« où ») se place avant le verbe.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Nǐ míngtiān shàngwǔ zài nǎr mǎi cài?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你明天上午在哪儿买菜?",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "在 + 哪儿 + V"
+    },
+    {
+      "id": "e-p0010-char-040",
+      "kind": "character",
+      "form": "你",
+      "sourceLanguage": "zh-CN",
+      "meaning": "tu ; toi",
+      "explanation": "Pronom personnel de la 2e personne du singulier.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǐ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ni²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "你",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-016",
+      "kind": "word",
+      "form": "明天",
+      "sourceLanguage": "zh-CN",
+      "meaning": "demain",
+      "explanation": "Mot de temps signifiant « demain ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "míngtiān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[miŋ³⁵ tʰjɛn⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "明天",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-041",
+      "kind": "character",
+      "form": "明",
+      "sourceLanguage": "zh-CN",
+      "meaning": "clair ; demain",
+      "explanation": "Utilisé dans 明天 (demain).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "míng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[miŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "明",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-017",
+      "kind": "word",
+      "form": "上午",
+      "sourceLanguage": "zh-CN",
+      "meaning": "matin (avant midi)",
+      "explanation": "Moment de la journée placé avant l'heure exacte.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "shàngwǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ʂɑŋ⁵¹ wu²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "上午",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-word-018",
+      "kind": "word",
+      "form": "哪儿",
+      "sourceLanguage": "zh-CN",
+      "meaning": "où",
+      "explanation": "哪 + suffixe rétroflexe 儿.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǎr",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[naɚ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "哪儿",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "pronom"
+    },
+    {
+      "id": "e-p0010-char-042",
+      "kind": "character",
+      "form": "哪",
+      "sourceLanguage": "zh-CN",
+      "meaning": "lequel ; où",
+      "explanation": "Pronom interrogatif utilisé dans 哪儿 (où) et 哪个 (lequel).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "nǎ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[na²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "哪",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-043",
+      "kind": "character",
+      "form": "儿",
+      "sourceLanguage": "zh-CN",
+      "meaning": "suffixe rétroflexe (-r)",
+      "explanation": "Suffixe rétroflexe non syllabique rattaché à la syllabe précédente.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "r",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɚ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "儿",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-044",
+      "kind": "character",
+      "form": "买",
+      "sourceLanguage": "zh-CN",
+      "meaning": "acheter",
+      "explanation": "Verbe signifiant « acheter ».",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "mǎi",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[maɪ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "买",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-045",
+      "kind": "character",
+      "form": "菜",
+      "sourceLanguage": "zh-CN",
+      "meaning": "plat ; légumes",
+      "explanation": "Nom signifiant « plat / cuisine » ou « légumes » (买菜, 中国菜).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "cài",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsʰaɪ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "菜",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-sent-007",
+      "kind": "sentence",
+      "form": "明天下午两点你能到家吗?",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Pourras-tu rentrer à la maison demain après-midi à 14 h ?",
+      "explanation": "Le verbe modal 能 exprime la capacité ou la possibilité.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Míngtiān xiàwǔ liǎng diǎn nǐ néng dào jiā ma?",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "明天下午两点你能到家吗?",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "能 + V"
+    },
+    {
+      "id": "e-p0010-word-019",
+      "kind": "word",
+      "form": "下午",
+      "sourceLanguage": "zh-CN",
+      "meaning": "après-midi",
+      "explanation": "Mot indiquant le moment de la journée.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xiàwǔ",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕja⁵¹ wu²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "下午",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-046",
+      "kind": "character",
+      "form": "下",
+      "sourceLanguage": "zh-CN",
+      "meaning": "en bas ; sous ; prochain ; finir",
+      "explanation": "Localisation (« sous / en bas »), temps (下午) ou verbe (下班 « finir le travail »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xià",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕja⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "下",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-020",
+      "kind": "word",
+      "form": "两点",
+      "sourceLanguage": "zh-CN",
+      "meaning": "2 heures",
+      "explanation": "Utilise 两 (et non 二) pour dire 2 heures.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "liǎng diǎn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ljɑŋ²¹⁴ tjɛn²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "两点",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "locution"
+    },
+    {
+      "id": "e-p0010-char-047",
+      "kind": "character",
+      "form": "两",
+      "sourceLanguage": "zh-CN",
+      "meaning": "deux (devant un classificateur)",
+      "explanation": "Utilisé à la place de 二 devant les classificateurs (两个人) et souvent devant 百/千.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "liǎng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ljɑŋ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "两",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-048",
+      "kind": "character",
+      "form": "点",
+      "sourceLanguage": "zh-CN",
+      "meaning": "heure ; point ; un peu",
+      "explanation": "Utilisé pour indiquer l'heure (九点 « 9 heures »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "diǎn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tjɛn²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "点",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-049",
+      "kind": "character",
+      "form": "能",
+      "sourceLanguage": "zh-CN",
+      "meaning": "pouvoir ; être capable de",
+      "explanation": "Verbe modal exprimant la capacité ou la possibilité.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "néng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[nəŋ³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "能",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-050",
+      "kind": "character",
+      "form": "到",
+      "sourceLanguage": "zh-CN",
+      "meaning": "arriver ; atteindre",
+      "explanation": "Verbe signifiant « arriver » (到家 « arriver à la maison »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dào",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɑʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "到",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-051",
+      "kind": "character",
+      "form": "家",
+      "sourceLanguage": "zh-CN",
+      "meaning": "maison ; famille",
+      "explanation": "Signifie « maison » ou « famille » ; aussi classificateur pour les établissements (一家电影院).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "jiā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕja⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "家",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-052",
+      "kind": "character",
+      "form": "吗",
+      "sourceLanguage": "zh-CN",
+      "meaning": "particule interrogative (question fermée)",
+      "explanation": "Placé en fin de phrase pour transformer une affirmation en question fermée.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "ma",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ma]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "吗",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-sent-008",
+      "kind": "sentence",
+      "form": "今天早上爸爸能去医院。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Papa peut aller à l'hôpital ce matin.",
+      "explanation": "能 + groupe verbal.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Jīntiān zǎoshang bàba néng qù yīyuàn.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "今天早上爸爸能去医院。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "能 + V"
+    },
+    {
+      "id": "e-p0010-word-021",
+      "kind": "word",
+      "form": "早上",
+      "sourceLanguage": "zh-CN",
+      "meaning": "tôt le matin",
+      "explanation": "Mot indiquant le moment de la journée.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zǎoshang",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsɑʊ²¹⁴ ʂɑŋ]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "早上",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-053",
+      "kind": "character",
+      "form": "早",
+      "sourceLanguage": "zh-CN",
+      "meaning": "tôt ; matin",
+      "explanation": "Utilisé dans 早上 (matin).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "zǎo",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tsɑʊ²¹⁴]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "早",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-sent-009",
+      "kind": "sentence",
+      "form": "我星期四中午不能去学校吃午饭。",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Je ne peux pas aller déjeuner à l'école jeudi à midi.",
+      "explanation": "On nie 能 avec 不 (不能).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "Wǒ Xīngqīsì zhōngwǔ bù néng qù xuéxiào chī wǔfàn.",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "我星期四中午不能去学校吃午饭。",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "不能 + V"
+    },
+    {
+      "id": "e-p0010-word-022",
+      "kind": "word",
+      "form": "星期四",
+      "sourceLanguage": "zh-CN",
+      "meaning": "jeudi",
+      "explanation": "Semaine + 4.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xīngqīsì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕiŋ⁵⁵ tɕʰi⁵⁵ sɿ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "星期四",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "nom"
+    },
+    {
+      "id": "e-p0010-char-054",
+      "kind": "character",
+      "form": "星",
+      "sourceLanguage": "zh-CN",
+      "meaning": "étoile",
+      "explanation": "Premier caractère de 星期 (semaine).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "xīng",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ɕiŋ⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "星",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-055",
+      "kind": "character",
+      "form": "期",
+      "sourceLanguage": "zh-CN",
+      "meaning": "période",
+      "explanation": "Deuxième caractère de 星期 (semaine).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "qī",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕʰi⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "期",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-056",
+      "kind": "character",
+      "form": "四",
+      "sourceLanguage": "zh-CN",
+      "meaning": "quatre",
+      "explanation": "Nombre quatre.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "sì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[sɿ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "四",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-057",
+      "kind": "character",
+      "form": "不",
+      "sourceLanguage": "zh-CN",
+      "meaning": "ne ... pas ; non",
+      "explanation": "Adverbe de négation courant (4e ton par défaut ; passe au 2e ton bú devant un autre 4e ton).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bù",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pu⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "不",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-word-023",
+      "kind": "word",
+      "form": "第八课",
+      "sourceLanguage": "zh-CN",
+      "meaning": "Leçon 8",
+      "explanation": "Préfixe ordinal 第 + 八 (huit) + 课 (leçon).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dì-bā kè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ti⁵¹ pa⁵⁵ kʰɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "第八课",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      },
+      "grammar": "groupe nominal"
+    },
+    {
+      "id": "e-p0010-char-058",
+      "kind": "character",
+      "form": "第",
+      "sourceLanguage": "zh-CN",
+      "meaning": "préfixe ordinal",
+      "explanation": "Placé devant un nombre pour former un ordinal (ex. 第一 « premier »).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "dì",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[ti⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "第",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-059",
+      "kind": "character",
+      "form": "八",
+      "sourceLanguage": "zh-CN",
+      "meaning": "huit",
+      "explanation": "Nombre huit.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "bā",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pa⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "八",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-060",
+      "kind": "character",
+      "form": "课",
+      "sourceLanguage": "zh-CN",
+      "meaning": "leçon ; cours",
+      "explanation": "Désigne une leçon de manuel ou un cours.",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "kè",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[kʰɤ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "课",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-061",
+      "kind": "character",
+      "form": "前",
+      "sourceLanguage": "zh-CN",
+      "meaning": "devant ; avant",
+      "explanation": "Mot de localisation signifiant « devant » (前边).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "qián",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[tɕʰjɛn³⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "前",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-062",
+      "kind": "character",
+      "form": "后",
+      "sourceLanguage": "zh-CN",
+      "meaning": "derrière ; après",
+      "explanation": "Mot de localisation signifiant « derrière » (后边).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "hòu",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[xoʊ⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "后",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-063",
+      "kind": "character",
+      "form": "边",
+      "sourceLanguage": "zh-CN",
+      "meaning": "côté",
+      "explanation": "Rattaché aux mots de direction (前边, 后边, 外边).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "biān",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[pjɛn⁵⁵]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "边",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    },
+    {
+      "id": "e-p0010-char-064",
+      "kind": "character",
+      "form": "面",
+      "sourceLanguage": "zh-CN",
+      "meaning": "nouilles ; surface ; côté",
+      "explanation": "Signifie « nouilles » (面条儿) ou « côté / face » (前边/前面).",
+      "pronunciations": [
+        {
+          "system": "pinyin",
+          "value": "miàn",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        },
+        {
+          "system": "ipa",
+          "value": "[mjɛn⁵¹]",
+          "language": "zh-CN",
+          "reviewStatus": "reviewed"
+        }
+      ],
+      "speechTarget": "面",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "révision linguistique et traduction pédagogique en français ; aucune révision humaine revendiquée"
+      }
+    }
+  ]
+}

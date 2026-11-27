@@ -1,0 +1,4361 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0017",
+  "extractionRevision": 1,
+  "annotations": [
+    {
+      "id": "a-p0017-0001",
+      "entryId": "e-p0017-sent-001",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 115,
+          "end": 120,
+          "exactText": "你姓什么？",
+          "characterIds": [
+            "c00097",
+            "c00098",
+            "c00099",
+            "c00100",
+            "c00101"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0002",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 115,
+          "end": 116,
+          "exactText": "你",
+          "characterIds": [
+            "c00097"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0001"
+    },
+    {
+      "id": "a-p0017-0003",
+      "entryId": "e-p0017-char-002",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 116,
+          "end": 117,
+          "exactText": "姓",
+          "characterIds": [
+            "c00098"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0001"
+    },
+    {
+      "id": "a-p0017-0004",
+      "entryId": "e-p0017-word-001",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 117,
+          "end": 119,
+          "exactText": "什么",
+          "characterIds": [
+            "c00099",
+            "c00100"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0001"
+    },
+    {
+      "id": "a-p0017-0005",
+      "entryId": "e-p0017-char-003",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 117,
+          "end": 118,
+          "exactText": "什",
+          "characterIds": [
+            "c00099"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0004"
+    },
+    {
+      "id": "a-p0017-0006",
+      "entryId": "e-p0017-char-004",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 118,
+          "end": 119,
+          "exactText": "么",
+          "characterIds": [
+            "c00100"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0004"
+    },
+    {
+      "id": "a-p0017-0007",
+      "entryId": "e-p0017-sent-002",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 126,
+          "end": 133,
+          "exactText": "你叫什么名字？",
+          "characterIds": [
+            "c00106",
+            "c00107",
+            "c00108",
+            "c00109",
+            "c00110",
+            "c00111",
+            "c00112"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0008",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 126,
+          "end": 127,
+          "exactText": "你",
+          "characterIds": [
+            "c00106"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0007"
+    },
+    {
+      "id": "a-p0017-0009",
+      "entryId": "e-p0017-char-005",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 127,
+          "end": 128,
+          "exactText": "叫",
+          "characterIds": [
+            "c00107"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0007"
+    },
+    {
+      "id": "a-p0017-0010",
+      "entryId": "e-p0017-word-001",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 128,
+          "end": 130,
+          "exactText": "什么",
+          "characterIds": [
+            "c00108",
+            "c00109"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0007"
+    },
+    {
+      "id": "a-p0017-0011",
+      "entryId": "e-p0017-char-003",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 128,
+          "end": 129,
+          "exactText": "什",
+          "characterIds": [
+            "c00108"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0010"
+    },
+    {
+      "id": "a-p0017-0012",
+      "entryId": "e-p0017-char-004",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 129,
+          "end": 130,
+          "exactText": "么",
+          "characterIds": [
+            "c00109"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0010"
+    },
+    {
+      "id": "a-p0017-0013",
+      "entryId": "e-p0017-word-002",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 130,
+          "end": 132,
+          "exactText": "名字",
+          "characterIds": [
+            "c00110",
+            "c00111"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0007"
+    },
+    {
+      "id": "a-p0017-0014",
+      "entryId": "e-p0017-char-006",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 130,
+          "end": 131,
+          "exactText": "名",
+          "characterIds": [
+            "c00110"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0013"
+    },
+    {
+      "id": "a-p0017-0015",
+      "entryId": "e-p0017-char-007",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 131,
+          "end": 132,
+          "exactText": "字",
+          "characterIds": [
+            "c00111"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0013"
+    },
+    {
+      "id": "a-p0017-0016",
+      "entryId": "e-p0017-sent-003",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 139,
+          "end": 145,
+          "exactText": "你是哪国人？",
+          "characterIds": [
+            "c00117",
+            "c00118",
+            "c00119",
+            "c00120",
+            "c00121",
+            "c00122"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0017",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 139,
+          "end": 140,
+          "exactText": "你",
+          "characterIds": [
+            "c00117"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0016"
+    },
+    {
+      "id": "a-p0017-0018",
+      "entryId": "e-p0017-char-008",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 140,
+          "end": 141,
+          "exactText": "是",
+          "characterIds": [
+            "c00118"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0016"
+    },
+    {
+      "id": "a-p0017-0019",
+      "entryId": "e-p0017-word-003",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 141,
+          "end": 144,
+          "exactText": "哪国人",
+          "characterIds": [
+            "c00119",
+            "c00120",
+            "c00121"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0016"
+    },
+    {
+      "id": "a-p0017-0020",
+      "entryId": "e-p0017-char-009",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 141,
+          "end": 142,
+          "exactText": "哪",
+          "characterIds": [
+            "c00119"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0019"
+    },
+    {
+      "id": "a-p0017-0021",
+      "entryId": "e-p0017-char-010",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 142,
+          "end": 143,
+          "exactText": "国",
+          "characterIds": [
+            "c00120"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0019"
+    },
+    {
+      "id": "a-p0017-0022",
+      "entryId": "e-p0017-char-011",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 143,
+          "end": 144,
+          "exactText": "人",
+          "characterIds": [
+            "c00121"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0019"
+    },
+    {
+      "id": "a-p0017-0023",
+      "entryId": "e-p0017-sent-004",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 151,
+          "end": 158,
+          "exactText": "你今年多大了？",
+          "characterIds": [
+            "c00127",
+            "c00128",
+            "c00129",
+            "c00130",
+            "c00131",
+            "c00132",
+            "c00133"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0024",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 151,
+          "end": 152,
+          "exactText": "你",
+          "characterIds": [
+            "c00127"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0023"
+    },
+    {
+      "id": "a-p0017-0025",
+      "entryId": "e-p0017-word-004",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 152,
+          "end": 154,
+          "exactText": "今年",
+          "characterIds": [
+            "c00128",
+            "c00129"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0023"
+    },
+    {
+      "id": "a-p0017-0026",
+      "entryId": "e-p0017-char-012",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 152,
+          "end": 153,
+          "exactText": "今",
+          "characterIds": [
+            "c00128"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0025"
+    },
+    {
+      "id": "a-p0017-0027",
+      "entryId": "e-p0017-char-013",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 153,
+          "end": 154,
+          "exactText": "年",
+          "characterIds": [
+            "c00129"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0025"
+    },
+    {
+      "id": "a-p0017-0028",
+      "entryId": "e-p0017-word-005",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 154,
+          "end": 156,
+          "exactText": "多大",
+          "characterIds": [
+            "c00130",
+            "c00131"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0023"
+    },
+    {
+      "id": "a-p0017-0029",
+      "entryId": "e-p0017-char-014",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 154,
+          "end": 155,
+          "exactText": "多",
+          "characterIds": [
+            "c00130"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0028"
+    },
+    {
+      "id": "a-p0017-0030",
+      "entryId": "e-p0017-char-015",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 155,
+          "end": 156,
+          "exactText": "大",
+          "characterIds": [
+            "c00131"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0028"
+    },
+    {
+      "id": "a-p0017-0031",
+      "entryId": "e-p0017-char-016",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 156,
+          "end": 157,
+          "exactText": "了",
+          "characterIds": [
+            "c00132"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0023"
+    },
+    {
+      "id": "a-p0017-0032",
+      "entryId": "e-p0017-sent-005",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 165,
+          "end": 171,
+          "exactText": "你家有口人？",
+          "characterIds": [
+            "c00139",
+            "c00140",
+            "c00141",
+            "c00142",
+            "c00143",
+            "c00144"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0033",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 165,
+          "end": 166,
+          "exactText": "你",
+          "characterIds": [
+            "c00139"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0032"
+    },
+    {
+      "id": "a-p0017-0034",
+      "entryId": "e-p0017-char-017",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 166,
+          "end": 167,
+          "exactText": "家",
+          "characterIds": [
+            "c00140"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0032"
+    },
+    {
+      "id": "a-p0017-0035",
+      "entryId": "e-p0017-char-018",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 167,
+          "end": 168,
+          "exactText": "有",
+          "characterIds": [
+            "c00141"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0032"
+    },
+    {
+      "id": "a-p0017-0036",
+      "entryId": "e-p0017-char-019",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 168,
+          "end": 169,
+          "exactText": "口",
+          "characterIds": [
+            "c00142"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0032"
+    },
+    {
+      "id": "a-p0017-0037",
+      "entryId": "e-p0017-char-011",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 169,
+          "end": 170,
+          "exactText": "人",
+          "characterIds": [
+            "c00143"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0032"
+    },
+    {
+      "id": "a-p0017-0038",
+      "entryId": "e-p0017-sent-006",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 171,
+          "end": 176,
+          "exactText": "你家有谁？",
+          "characterIds": [
+            "c00145",
+            "c00146",
+            "c00147",
+            "c00148",
+            "c00149"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0039",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 171,
+          "end": 172,
+          "exactText": "你",
+          "characterIds": [
+            "c00145"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0038"
+    },
+    {
+      "id": "a-p0017-0040",
+      "entryId": "e-p0017-char-017",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 172,
+          "end": 173,
+          "exactText": "家",
+          "characterIds": [
+            "c00146"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0038"
+    },
+    {
+      "id": "a-p0017-0041",
+      "entryId": "e-p0017-char-018",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 173,
+          "end": 174,
+          "exactText": "有",
+          "characterIds": [
+            "c00147"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0038"
+    },
+    {
+      "id": "a-p0017-0042",
+      "entryId": "e-p0017-sent-007",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 284,
+          "end": 292,
+          "exactText": "你有兄弟姐妹吗？",
+          "characterIds": [
+            "c00236",
+            "c00237",
+            "c00238",
+            "c00239",
+            "c00240",
+            "c00241",
+            "c00242",
+            "c00243"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0043",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 284,
+          "end": 285,
+          "exactText": "你",
+          "characterIds": [
+            "c00236"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0042"
+    },
+    {
+      "id": "a-p0017-0044",
+      "entryId": "e-p0017-char-018",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 285,
+          "end": 286,
+          "exactText": "有",
+          "characterIds": [
+            "c00237"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0042"
+    },
+    {
+      "id": "a-p0017-0045",
+      "entryId": "e-p0017-word-006",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 286,
+          "end": 290,
+          "exactText": "兄弟姐妹",
+          "characterIds": [
+            "c00238",
+            "c00239",
+            "c00240",
+            "c00241"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0042"
+    },
+    {
+      "id": "a-p0017-0046",
+      "entryId": "e-p0017-char-020",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 286,
+          "end": 287,
+          "exactText": "兄",
+          "characterIds": [
+            "c00238"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0045"
+    },
+    {
+      "id": "a-p0017-0047",
+      "entryId": "e-p0017-char-021",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 287,
+          "end": 288,
+          "exactText": "弟",
+          "characterIds": [
+            "c00239"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0045"
+    },
+    {
+      "id": "a-p0017-0048",
+      "entryId": "e-p0017-char-022",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 288,
+          "end": 289,
+          "exactText": "姐",
+          "characterIds": [
+            "c00240"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0045"
+    },
+    {
+      "id": "a-p0017-0049",
+      "entryId": "e-p0017-char-023",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 289,
+          "end": 290,
+          "exactText": "妹",
+          "characterIds": [
+            "c00241"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0045"
+    },
+    {
+      "id": "a-p0017-0050",
+      "entryId": "e-p0017-char-024",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 290,
+          "end": 291,
+          "exactText": "吗",
+          "characterIds": [
+            "c00242"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0042"
+    },
+    {
+      "id": "a-p0017-0051",
+      "entryId": "e-p0017-sent-008",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 295,
+          "end": 305,
+          "exactText": "你是哪个学校的学生？",
+          "characterIds": [
+            "c00246",
+            "c00247",
+            "c00248",
+            "c00249",
+            "c00250",
+            "c00251",
+            "c00252",
+            "c00253",
+            "c00254",
+            "c00255"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0052",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 295,
+          "end": 296,
+          "exactText": "你",
+          "characterIds": [
+            "c00246"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0051"
+    },
+    {
+      "id": "a-p0017-0053",
+      "entryId": "e-p0017-char-008",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 296,
+          "end": 297,
+          "exactText": "是",
+          "characterIds": [
+            "c00247"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0051"
+    },
+    {
+      "id": "a-p0017-0054",
+      "entryId": "e-p0017-char-009",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 297,
+          "end": 298,
+          "exactText": "哪",
+          "characterIds": [
+            "c00248"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0051"
+    },
+    {
+      "id": "a-p0017-0055",
+      "entryId": "e-p0017-char-025",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 298,
+          "end": 299,
+          "exactText": "个",
+          "characterIds": [
+            "c00249"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0051"
+    },
+    {
+      "id": "a-p0017-0056",
+      "entryId": "e-p0017-word-007",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 299,
+          "end": 301,
+          "exactText": "学校",
+          "characterIds": [
+            "c00250",
+            "c00251"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0051"
+    },
+    {
+      "id": "a-p0017-0057",
+      "entryId": "e-p0017-char-026",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 299,
+          "end": 300,
+          "exactText": "学",
+          "characterIds": [
+            "c00250"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0056"
+    },
+    {
+      "id": "a-p0017-0058",
+      "entryId": "e-p0017-char-027",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 300,
+          "end": 301,
+          "exactText": "校",
+          "characterIds": [
+            "c00251"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0056"
+    },
+    {
+      "id": "a-p0017-0059",
+      "entryId": "e-p0017-char-028",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 301,
+          "end": 302,
+          "exactText": "的",
+          "characterIds": [
+            "c00252"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0051"
+    },
+    {
+      "id": "a-p0017-0060",
+      "entryId": "e-p0017-word-008",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 302,
+          "end": 304,
+          "exactText": "学生",
+          "characterIds": [
+            "c00253",
+            "c00254"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0051"
+    },
+    {
+      "id": "a-p0017-0061",
+      "entryId": "e-p0017-char-026",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 302,
+          "end": 303,
+          "exactText": "学",
+          "characterIds": [
+            "c00253"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0060"
+    },
+    {
+      "id": "a-p0017-0062",
+      "entryId": "e-p0017-char-029",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 303,
+          "end": 304,
+          "exactText": "生",
+          "characterIds": [
+            "c00254"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0060"
+    },
+    {
+      "id": "a-p0017-0063",
+      "entryId": "e-p0017-sent-009",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 200,
+          "end": 205,
+          "exactText": "你几年级？",
+          "characterIds": [
+            "c00168",
+            "c00169",
+            "c00170",
+            "c00171",
+            "c00172"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0064",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 200,
+          "end": 201,
+          "exactText": "你",
+          "characterIds": [
+            "c00168"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0063"
+    },
+    {
+      "id": "a-p0017-0065",
+      "entryId": "e-p0017-word-009",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 201,
+          "end": 204,
+          "exactText": "几年级",
+          "characterIds": [
+            "c00169",
+            "c00170",
+            "c00171"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0063"
+    },
+    {
+      "id": "a-p0017-0066",
+      "entryId": "e-p0017-char-030",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 201,
+          "end": 202,
+          "exactText": "几",
+          "characterIds": [
+            "c00169"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0065"
+    },
+    {
+      "id": "a-p0017-0067",
+      "entryId": "e-p0017-char-013",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 202,
+          "end": 203,
+          "exactText": "年",
+          "characterIds": [
+            "c00170"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0065"
+    },
+    {
+      "id": "a-p0017-0068",
+      "entryId": "e-p0017-char-031",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 203,
+          "end": 204,
+          "exactText": "级",
+          "characterIds": [
+            "c00171"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0065"
+    },
+    {
+      "id": "a-p0017-0069",
+      "entryId": "e-p0017-sent-010",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 311,
+          "end": 319,
+          "exactText": "你的专业是什么？",
+          "characterIds": [
+            "c00260",
+            "c00261",
+            "c00262",
+            "c00263",
+            "c00264",
+            "c00265",
+            "c00266",
+            "c00267"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0070",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 311,
+          "end": 312,
+          "exactText": "你",
+          "characterIds": [
+            "c00260"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0069"
+    },
+    {
+      "id": "a-p0017-0071",
+      "entryId": "e-p0017-char-028",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 312,
+          "end": 313,
+          "exactText": "的",
+          "characterIds": [
+            "c00261"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0069"
+    },
+    {
+      "id": "a-p0017-0072",
+      "entryId": "e-p0017-word-010",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 313,
+          "end": 315,
+          "exactText": "专业",
+          "characterIds": [
+            "c00262",
+            "c00263"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0069"
+    },
+    {
+      "id": "a-p0017-0073",
+      "entryId": "e-p0017-char-032",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 313,
+          "end": 314,
+          "exactText": "专",
+          "characterIds": [
+            "c00262"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0072"
+    },
+    {
+      "id": "a-p0017-0074",
+      "entryId": "e-p0017-char-033",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 314,
+          "end": 315,
+          "exactText": "业",
+          "characterIds": [
+            "c00263"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0072"
+    },
+    {
+      "id": "a-p0017-0075",
+      "entryId": "e-p0017-char-008",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 315,
+          "end": 316,
+          "exactText": "是",
+          "characterIds": [
+            "c00264"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0069"
+    },
+    {
+      "id": "a-p0017-0076",
+      "entryId": "e-p0017-word-001",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 316,
+          "end": 318,
+          "exactText": "什么",
+          "characterIds": [
+            "c00265",
+            "c00266"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0069"
+    },
+    {
+      "id": "a-p0017-0077",
+      "entryId": "e-p0017-char-003",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 316,
+          "end": 317,
+          "exactText": "什",
+          "characterIds": [
+            "c00265"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0076"
+    },
+    {
+      "id": "a-p0017-0078",
+      "entryId": "e-p0017-char-004",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 317,
+          "end": 318,
+          "exactText": "么",
+          "characterIds": [
+            "c00266"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0076"
+    },
+    {
+      "id": "a-p0017-0079",
+      "entryId": "e-p0017-sent-011",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 328,
+          "end": 338,
+          "exactText": "你以后想做什么工作？",
+          "characterIds": [
+            "c00275",
+            "c00276",
+            "c00277",
+            "c00278",
+            "c00279",
+            "c00280",
+            "c00281",
+            "c00282",
+            "c00283",
+            "c00284"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0080",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 328,
+          "end": 329,
+          "exactText": "你",
+          "characterIds": [
+            "c00275"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0079"
+    },
+    {
+      "id": "a-p0017-0081",
+      "entryId": "e-p0017-word-011",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 329,
+          "end": 331,
+          "exactText": "以后",
+          "characterIds": [
+            "c00276",
+            "c00277"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0079"
+    },
+    {
+      "id": "a-p0017-0082",
+      "entryId": "e-p0017-char-034",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 329,
+          "end": 330,
+          "exactText": "以",
+          "characterIds": [
+            "c00276"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0081"
+    },
+    {
+      "id": "a-p0017-0083",
+      "entryId": "e-p0017-char-035",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 330,
+          "end": 331,
+          "exactText": "后",
+          "characterIds": [
+            "c00277"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0081"
+    },
+    {
+      "id": "a-p0017-0084",
+      "entryId": "e-p0017-char-036",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 331,
+          "end": 332,
+          "exactText": "想",
+          "characterIds": [
+            "c00278"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0079"
+    },
+    {
+      "id": "a-p0017-0085",
+      "entryId": "e-p0017-char-037",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 332,
+          "end": 333,
+          "exactText": "做",
+          "characterIds": [
+            "c00279"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0079"
+    },
+    {
+      "id": "a-p0017-0086",
+      "entryId": "e-p0017-word-001",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 333,
+          "end": 335,
+          "exactText": "什么",
+          "characterIds": [
+            "c00280",
+            "c00281"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0079"
+    },
+    {
+      "id": "a-p0017-0087",
+      "entryId": "e-p0017-char-003",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 333,
+          "end": 334,
+          "exactText": "什",
+          "characterIds": [
+            "c00280"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0086"
+    },
+    {
+      "id": "a-p0017-0088",
+      "entryId": "e-p0017-char-004",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 334,
+          "end": 335,
+          "exactText": "么",
+          "characterIds": [
+            "c00281"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0086"
+    },
+    {
+      "id": "a-p0017-0089",
+      "entryId": "e-p0017-word-012",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 335,
+          "end": 337,
+          "exactText": "工作",
+          "characterIds": [
+            "c00282",
+            "c00283"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0079"
+    },
+    {
+      "id": "a-p0017-0090",
+      "entryId": "e-p0017-char-038",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 335,
+          "end": 336,
+          "exactText": "工",
+          "characterIds": [
+            "c00282"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0089"
+    },
+    {
+      "id": "a-p0017-0091",
+      "entryId": "e-p0017-char-039",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 336,
+          "end": 337,
+          "exactText": "作",
+          "characterIds": [
+            "c00283"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0089"
+    },
+    {
+      "id": "a-p0017-0092",
+      "entryId": "e-p0017-sent-012",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 30,
+          "end": 36,
+          "exactText": "你住在哪儿？",
+          "characterIds": [
+            "c00023",
+            "c00024",
+            "c00025",
+            "c00026",
+            "c00027",
+            "c00028"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0093",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 30,
+          "end": 31,
+          "exactText": "你",
+          "characterIds": [
+            "c00023"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0092"
+    },
+    {
+      "id": "a-p0017-0094",
+      "entryId": "e-p0017-char-040",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 31,
+          "end": 32,
+          "exactText": "住",
+          "characterIds": [
+            "c00024"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0092"
+    },
+    {
+      "id": "a-p0017-0095",
+      "entryId": "e-p0017-char-041",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 32,
+          "end": 33,
+          "exactText": "在",
+          "characterIds": [
+            "c00025"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0092"
+    },
+    {
+      "id": "a-p0017-0096",
+      "entryId": "e-p0017-word-013",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 33,
+          "end": 35,
+          "exactText": "哪儿",
+          "characterIds": [
+            "c00026",
+            "c00027"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0092"
+    },
+    {
+      "id": "a-p0017-0097",
+      "entryId": "e-p0017-char-009",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 33,
+          "end": 34,
+          "exactText": "哪",
+          "characterIds": [
+            "c00026"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0096"
+    },
+    {
+      "id": "a-p0017-0098",
+      "entryId": "e-p0017-char-042",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 34,
+          "end": 35,
+          "exactText": "儿",
+          "characterIds": [
+            "c00027"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0096"
+    },
+    {
+      "id": "a-p0017-0099",
+      "entryId": "e-p0017-sent-013",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 74,
+          "end": 81,
+          "exactText": "你喜欢做什么？",
+          "characterIds": [
+            "c00064",
+            "c00065",
+            "c00066",
+            "c00067",
+            "c00068",
+            "c00069",
+            "c00070"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0100",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 74,
+          "end": 75,
+          "exactText": "你",
+          "characterIds": [
+            "c00064"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0099"
+    },
+    {
+      "id": "a-p0017-0101",
+      "entryId": "e-p0017-word-014",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 75,
+          "end": 77,
+          "exactText": "喜欢",
+          "characterIds": [
+            "c00065",
+            "c00066"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0099"
+    },
+    {
+      "id": "a-p0017-0102",
+      "entryId": "e-p0017-char-043",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 75,
+          "end": 76,
+          "exactText": "喜",
+          "characterIds": [
+            "c00065"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0101"
+    },
+    {
+      "id": "a-p0017-0103",
+      "entryId": "e-p0017-char-044",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 76,
+          "end": 77,
+          "exactText": "欢",
+          "characterIds": [
+            "c00066"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0101"
+    },
+    {
+      "id": "a-p0017-0104",
+      "entryId": "e-p0017-char-037",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 77,
+          "end": 78,
+          "exactText": "做",
+          "characterIds": [
+            "c00067"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0099"
+    },
+    {
+      "id": "a-p0017-0105",
+      "entryId": "e-p0017-word-001",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 78,
+          "end": 80,
+          "exactText": "什么",
+          "characterIds": [
+            "c00068",
+            "c00069"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0099"
+    },
+    {
+      "id": "a-p0017-0106",
+      "entryId": "e-p0017-char-003",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 78,
+          "end": 79,
+          "exactText": "什",
+          "characterIds": [
+            "c00068"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0105"
+    },
+    {
+      "id": "a-p0017-0107",
+      "entryId": "e-p0017-char-004",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 79,
+          "end": 80,
+          "exactText": "么",
+          "characterIds": [
+            "c00069"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0105"
+    },
+    {
+      "id": "a-p0017-0108",
+      "entryId": "e-p0017-sent-014",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 95,
+          "end": 102,
+          "exactText": "你去过中国吗？",
+          "characterIds": [
+            "c00080",
+            "c00081",
+            "c00082",
+            "c00083",
+            "c00084",
+            "c00085",
+            "c00086"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0109",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 95,
+          "end": 96,
+          "exactText": "你",
+          "characterIds": [
+            "c00080"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0108"
+    },
+    {
+      "id": "a-p0017-0110",
+      "entryId": "e-p0017-char-045",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 96,
+          "end": 97,
+          "exactText": "去",
+          "characterIds": [
+            "c00081"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0108"
+    },
+    {
+      "id": "a-p0017-0111",
+      "entryId": "e-p0017-char-046",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 97,
+          "end": 98,
+          "exactText": "过",
+          "characterIds": [
+            "c00082"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0108"
+    },
+    {
+      "id": "a-p0017-0112",
+      "entryId": "e-p0017-word-015",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 98,
+          "end": 100,
+          "exactText": "中国",
+          "characterIds": [
+            "c00083",
+            "c00084"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0108"
+    },
+    {
+      "id": "a-p0017-0113",
+      "entryId": "e-p0017-char-047",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 98,
+          "end": 99,
+          "exactText": "中",
+          "characterIds": [
+            "c00083"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0112"
+    },
+    {
+      "id": "a-p0017-0114",
+      "entryId": "e-p0017-char-010",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 99,
+          "end": 100,
+          "exactText": "国",
+          "characterIds": [
+            "c00084"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0112"
+    },
+    {
+      "id": "a-p0017-0115",
+      "entryId": "e-p0017-char-024",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 100,
+          "end": 101,
+          "exactText": "吗",
+          "characterIds": [
+            "c00085"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0108"
+    },
+    {
+      "id": "a-p0017-0116",
+      "entryId": "e-p0017-sent-015",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 185,
+          "end": 192,
+          "exactText": "你想去中国吗？",
+          "characterIds": [
+            "c00156",
+            "c00157",
+            "c00158",
+            "c00159",
+            "c00160",
+            "c00161",
+            "c00162"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0117",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 185,
+          "end": 186,
+          "exactText": "你",
+          "characterIds": [
+            "c00156"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0116"
+    },
+    {
+      "id": "a-p0017-0118",
+      "entryId": "e-p0017-char-036",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 186,
+          "end": 187,
+          "exactText": "想",
+          "characterIds": [
+            "c00157"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0116"
+    },
+    {
+      "id": "a-p0017-0119",
+      "entryId": "e-p0017-char-045",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 187,
+          "end": 188,
+          "exactText": "去",
+          "characterIds": [
+            "c00158"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0116"
+    },
+    {
+      "id": "a-p0017-0120",
+      "entryId": "e-p0017-word-015",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 188,
+          "end": 190,
+          "exactText": "中国",
+          "characterIds": [
+            "c00159",
+            "c00160"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0116"
+    },
+    {
+      "id": "a-p0017-0121",
+      "entryId": "e-p0017-char-047",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 188,
+          "end": 189,
+          "exactText": "中",
+          "characterIds": [
+            "c00159"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0120"
+    },
+    {
+      "id": "a-p0017-0122",
+      "entryId": "e-p0017-char-010",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 189,
+          "end": 190,
+          "exactText": "国",
+          "characterIds": [
+            "c00160"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0120"
+    },
+    {
+      "id": "a-p0017-0123",
+      "entryId": "e-p0017-char-024",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 190,
+          "end": 191,
+          "exactText": "吗",
+          "characterIds": [
+            "c00161"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0116"
+    },
+    {
+      "id": "a-p0017-0124",
+      "entryId": "e-p0017-sent-016",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 215,
+          "end": 224,
+          "exactText": "为什么你想学中文？",
+          "characterIds": [
+            "c00179",
+            "c00180",
+            "c00181",
+            "c00182",
+            "c00183",
+            "c00184",
+            "c00185",
+            "c00186",
+            "c00187"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0125",
+      "entryId": "e-p0017-word-016",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 215,
+          "end": 218,
+          "exactText": "为什么",
+          "characterIds": [
+            "c00179",
+            "c00180",
+            "c00181"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0124"
+    },
+    {
+      "id": "a-p0017-0126",
+      "entryId": "e-p0017-char-048",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 215,
+          "end": 216,
+          "exactText": "为",
+          "characterIds": [
+            "c00179"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0125"
+    },
+    {
+      "id": "a-p0017-0127",
+      "entryId": "e-p0017-char-003",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 216,
+          "end": 217,
+          "exactText": "什",
+          "characterIds": [
+            "c00180"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0125"
+    },
+    {
+      "id": "a-p0017-0128",
+      "entryId": "e-p0017-char-004",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 217,
+          "end": 218,
+          "exactText": "么",
+          "characterIds": [
+            "c00181"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0125"
+    },
+    {
+      "id": "a-p0017-0129",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 218,
+          "end": 219,
+          "exactText": "你",
+          "characterIds": [
+            "c00182"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0124"
+    },
+    {
+      "id": "a-p0017-0130",
+      "entryId": "e-p0017-char-036",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 219,
+          "end": 220,
+          "exactText": "想",
+          "characterIds": [
+            "c00183"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0124"
+    },
+    {
+      "id": "a-p0017-0131",
+      "entryId": "e-p0017-char-026",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 220,
+          "end": 221,
+          "exactText": "学",
+          "characterIds": [
+            "c00184"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0124"
+    },
+    {
+      "id": "a-p0017-0132",
+      "entryId": "e-p0017-word-017",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 221,
+          "end": 223,
+          "exactText": "中文",
+          "characterIds": [
+            "c00185",
+            "c00186"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0124"
+    },
+    {
+      "id": "a-p0017-0133",
+      "entryId": "e-p0017-char-047",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 221,
+          "end": 222,
+          "exactText": "中",
+          "characterIds": [
+            "c00185"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0132"
+    },
+    {
+      "id": "a-p0017-0134",
+      "entryId": "e-p0017-char-049",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 222,
+          "end": 223,
+          "exactText": "文",
+          "characterIds": [
+            "c00186"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0132"
+    },
+    {
+      "id": "a-p0017-0135",
+      "entryId": "e-p0017-sent-017",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 256,
+          "end": 267,
+          "exactText": "你喜欢你的中文老师吗？",
+          "characterIds": [
+            "c00211",
+            "c00212",
+            "c00213",
+            "c00214",
+            "c00215",
+            "c00216",
+            "c00217",
+            "c00218",
+            "c00219",
+            "c00220",
+            "c00221"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0136",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 256,
+          "end": 257,
+          "exactText": "你",
+          "characterIds": [
+            "c00211"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0135"
+    },
+    {
+      "id": "a-p0017-0137",
+      "entryId": "e-p0017-word-014",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 257,
+          "end": 259,
+          "exactText": "喜欢",
+          "characterIds": [
+            "c00212",
+            "c00213"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0135"
+    },
+    {
+      "id": "a-p0017-0138",
+      "entryId": "e-p0017-char-043",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 257,
+          "end": 258,
+          "exactText": "喜",
+          "characterIds": [
+            "c00212"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0137"
+    },
+    {
+      "id": "a-p0017-0139",
+      "entryId": "e-p0017-char-044",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 258,
+          "end": 259,
+          "exactText": "欢",
+          "characterIds": [
+            "c00213"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0137"
+    },
+    {
+      "id": "a-p0017-0140",
+      "entryId": "e-p0017-char-001",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 259,
+          "end": 260,
+          "exactText": "你",
+          "characterIds": [
+            "c00214"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0135"
+    },
+    {
+      "id": "a-p0017-0141",
+      "entryId": "e-p0017-char-028",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 260,
+          "end": 261,
+          "exactText": "的",
+          "characterIds": [
+            "c00215"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0135"
+    },
+    {
+      "id": "a-p0017-0142",
+      "entryId": "e-p0017-word-017",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 261,
+          "end": 263,
+          "exactText": "中文",
+          "characterIds": [
+            "c00216",
+            "c00217"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0135"
+    },
+    {
+      "id": "a-p0017-0143",
+      "entryId": "e-p0017-char-047",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 261,
+          "end": 262,
+          "exactText": "中",
+          "characterIds": [
+            "c00216"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0142"
+    },
+    {
+      "id": "a-p0017-0144",
+      "entryId": "e-p0017-char-049",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 262,
+          "end": 263,
+          "exactText": "文",
+          "characterIds": [
+            "c00217"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0142"
+    },
+    {
+      "id": "a-p0017-0145",
+      "entryId": "e-p0017-word-018",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 263,
+          "end": 265,
+          "exactText": "老师",
+          "characterIds": [
+            "c00218",
+            "c00219"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0135"
+    },
+    {
+      "id": "a-p0017-0146",
+      "entryId": "e-p0017-char-050",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 263,
+          "end": 264,
+          "exactText": "老",
+          "characterIds": [
+            "c00218"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0145"
+    },
+    {
+      "id": "a-p0017-0147",
+      "entryId": "e-p0017-char-051",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 264,
+          "end": 265,
+          "exactText": "师",
+          "characterIds": [
+            "c00219"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0145"
+    },
+    {
+      "id": "a-p0017-0148",
+      "entryId": "e-p0017-char-024",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 265,
+          "end": 266,
+          "exactText": "吗",
+          "characterIds": [
+            "c00220"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0135"
+    },
+    {
+      "id": "a-p0017-0149",
+      "entryId": "e-p0017-sent-018",
+      "kind": "sentence",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 268,
+          "end": 280,
+          "exactText": "我太喜欢我的中文老师了！",
+          "characterIds": [
+            "c00222",
+            "c00223",
+            "c00224",
+            "c00225",
+            "c00226",
+            "c00227",
+            "c00228",
+            "c00229",
+            "c00230",
+            "c00231",
+            "c00232",
+            "c00233"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0150",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 268,
+          "end": 269,
+          "exactText": "我",
+          "characterIds": [
+            "c00222"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0149"
+    },
+    {
+      "id": "a-p0017-0151",
+      "entryId": "e-p0017-char-053",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 269,
+          "end": 270,
+          "exactText": "太",
+          "characterIds": [
+            "c00223"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0149"
+    },
+    {
+      "id": "a-p0017-0152",
+      "entryId": "e-p0017-word-014",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 270,
+          "end": 272,
+          "exactText": "喜欢",
+          "characterIds": [
+            "c00224",
+            "c00225"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0149"
+    },
+    {
+      "id": "a-p0017-0153",
+      "entryId": "e-p0017-char-043",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 270,
+          "end": 271,
+          "exactText": "喜",
+          "characterIds": [
+            "c00224"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0152"
+    },
+    {
+      "id": "a-p0017-0154",
+      "entryId": "e-p0017-char-044",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 271,
+          "end": 272,
+          "exactText": "欢",
+          "characterIds": [
+            "c00225"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0152"
+    },
+    {
+      "id": "a-p0017-0155",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 272,
+          "end": 273,
+          "exactText": "我",
+          "characterIds": [
+            "c00226"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0149"
+    },
+    {
+      "id": "a-p0017-0156",
+      "entryId": "e-p0017-char-028",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 273,
+          "end": 274,
+          "exactText": "的",
+          "characterIds": [
+            "c00227"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0149"
+    },
+    {
+      "id": "a-p0017-0157",
+      "entryId": "e-p0017-word-017",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 274,
+          "end": 276,
+          "exactText": "中文",
+          "characterIds": [
+            "c00228",
+            "c00229"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0149"
+    },
+    {
+      "id": "a-p0017-0158",
+      "entryId": "e-p0017-char-047",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 274,
+          "end": 275,
+          "exactText": "中",
+          "characterIds": [
+            "c00228"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0157"
+    },
+    {
+      "id": "a-p0017-0159",
+      "entryId": "e-p0017-char-049",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 275,
+          "end": 276,
+          "exactText": "文",
+          "characterIds": [
+            "c00229"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0157"
+    },
+    {
+      "id": "a-p0017-0160",
+      "entryId": "e-p0017-word-018",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 276,
+          "end": 278,
+          "exactText": "老师",
+          "characterIds": [
+            "c00230",
+            "c00231"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0149"
+    },
+    {
+      "id": "a-p0017-0161",
+      "entryId": "e-p0017-char-050",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 276,
+          "end": 277,
+          "exactText": "老",
+          "characterIds": [
+            "c00230"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0160"
+    },
+    {
+      "id": "a-p0017-0162",
+      "entryId": "e-p0017-char-051",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 277,
+          "end": 278,
+          "exactText": "师",
+          "characterIds": [
+            "c00231"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0160"
+    },
+    {
+      "id": "a-p0017-0163",
+      "entryId": "e-p0017-char-016",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 278,
+          "end": 279,
+          "exactText": "了",
+          "characterIds": [
+            "c00232"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0149"
+    },
+    {
+      "id": "a-p0017-0164",
+      "entryId": "e-p0017-word-019",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 0,
+          "end": 2,
+          "exactText": "我来",
+          "characterIds": [
+            "c00001",
+            "c00002"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0165",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 0,
+          "end": 1,
+          "exactText": "我",
+          "characterIds": [
+            "c00001"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0164"
+    },
+    {
+      "id": "a-p0017-0166",
+      "entryId": "e-p0017-char-054",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 1,
+          "end": 2,
+          "exactText": "来",
+          "characterIds": [
+            "c00002"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0164"
+    },
+    {
+      "id": "a-p0017-0167",
+      "entryId": "e-p0017-word-020",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 10,
+          "end": 14,
+          "exactText": "自我介绍",
+          "characterIds": [
+            "c00008",
+            "c00009",
+            "c00010",
+            "c00011"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0168",
+      "entryId": "e-p0017-char-055",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 10,
+          "end": 11,
+          "exactText": "自",
+          "characterIds": [
+            "c00008"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0167"
+    },
+    {
+      "id": "a-p0017-0169",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 11,
+          "end": 12,
+          "exactText": "我",
+          "characterIds": [
+            "c00009"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0167"
+    },
+    {
+      "id": "a-p0017-0170",
+      "entryId": "e-p0017-char-056",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 12,
+          "end": 13,
+          "exactText": "介",
+          "characterIds": [
+            "c00010"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0167"
+    },
+    {
+      "id": "a-p0017-0171",
+      "entryId": "e-p0017-char-057",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 13,
+          "end": 14,
+          "exactText": "绍",
+          "characterIds": [
+            "c00011"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0167"
+    },
+    {
+      "id": "a-p0017-0172",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 121,
+          "end": 122,
+          "exactText": "我",
+          "characterIds": [
+            "c00102"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0173",
+      "entryId": "e-p0017-char-002",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 122,
+          "end": 123,
+          "exactText": "姓",
+          "characterIds": [
+            "c00103"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0174",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 134,
+          "end": 135,
+          "exactText": "我",
+          "characterIds": [
+            "c00113"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0175",
+      "entryId": "e-p0017-char-005",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 135,
+          "end": 136,
+          "exactText": "叫",
+          "characterIds": [
+            "c00114"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0176",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 146,
+          "end": 147,
+          "exactText": "我",
+          "characterIds": [
+            "c00123"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0177",
+      "entryId": "e-p0017-char-008",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 147,
+          "end": 148,
+          "exactText": "是",
+          "characterIds": [
+            "c00124"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0178",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 159,
+          "end": 160,
+          "exactText": "我",
+          "characterIds": [
+            "c00134"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0179",
+      "entryId": "e-p0017-word-004",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 160,
+          "end": 162,
+          "exactText": "今年",
+          "characterIds": [
+            "c00135",
+            "c00136"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0180",
+      "entryId": "e-p0017-char-012",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 160,
+          "end": 161,
+          "exactText": "今",
+          "characterIds": [
+            "c00135"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0179"
+    },
+    {
+      "id": "a-p0017-0181",
+      "entryId": "e-p0017-char-013",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 161,
+          "end": 162,
+          "exactText": "年",
+          "characterIds": [
+            "c00136"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0179"
+    },
+    {
+      "id": "a-p0017-0182",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 177,
+          "end": 178,
+          "exactText": "我",
+          "characterIds": [
+            "c00150"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0183",
+      "entryId": "e-p0017-char-017",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 178,
+          "end": 179,
+          "exactText": "家",
+          "characterIds": [
+            "c00151"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0184",
+      "entryId": "e-p0017-char-018",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 179,
+          "end": 180,
+          "exactText": "有",
+          "characterIds": [
+            "c00152"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0185",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 320,
+          "end": 321,
+          "exactText": "我",
+          "characterIds": [
+            "c00268"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0186",
+      "entryId": "e-p0017-char-028",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 321,
+          "end": 322,
+          "exactText": "的",
+          "characterIds": [
+            "c00269"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0187",
+      "entryId": "e-p0017-word-010",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 322,
+          "end": 324,
+          "exactText": "专业",
+          "characterIds": [
+            "c00270",
+            "c00271"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0188",
+      "entryId": "e-p0017-char-032",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 322,
+          "end": 323,
+          "exactText": "专",
+          "characterIds": [
+            "c00270"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0187"
+    },
+    {
+      "id": "a-p0017-0189",
+      "entryId": "e-p0017-char-033",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 323,
+          "end": 324,
+          "exactText": "业",
+          "characterIds": [
+            "c00271"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0187"
+    },
+    {
+      "id": "a-p0017-0190",
+      "entryId": "e-p0017-char-008",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 324,
+          "end": 325,
+          "exactText": "是",
+          "characterIds": [
+            "c00272"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0191",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 339,
+          "end": 340,
+          "exactText": "我",
+          "characterIds": [
+            "c00285"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0192",
+      "entryId": "e-p0017-word-011",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 340,
+          "end": 342,
+          "exactText": "以后",
+          "characterIds": [
+            "c00286",
+            "c00287"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0193",
+      "entryId": "e-p0017-char-034",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 340,
+          "end": 341,
+          "exactText": "以",
+          "characterIds": [
+            "c00286"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0192"
+    },
+    {
+      "id": "a-p0017-0194",
+      "entryId": "e-p0017-char-035",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 341,
+          "end": 342,
+          "exactText": "后",
+          "characterIds": [
+            "c00287"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0192"
+    },
+    {
+      "id": "a-p0017-0195",
+      "entryId": "e-p0017-char-036",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 342,
+          "end": 343,
+          "exactText": "想",
+          "characterIds": [
+            "c00288"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0196",
+      "entryId": "e-p0017-char-058",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 343,
+          "end": 344,
+          "exactText": "当",
+          "characterIds": [
+            "c00289"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0197",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 37,
+          "end": 38,
+          "exactText": "我",
+          "characterIds": [
+            "c00029"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0198",
+      "entryId": "e-p0017-char-040",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 38,
+          "end": 39,
+          "exactText": "住",
+          "characterIds": [
+            "c00030"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0199",
+      "entryId": "e-p0017-char-041",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 39,
+          "end": 40,
+          "exactText": "在",
+          "characterIds": [
+            "c00031"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0200",
+      "entryId": "e-p0017-word-021",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 40,
+          "end": 43,
+          "exactText": "小巴黎",
+          "characterIds": [
+            "c00032",
+            "c00033",
+            "c00034"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0201",
+      "entryId": "e-p0017-char-059",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 40,
+          "end": 41,
+          "exactText": "小",
+          "characterIds": [
+            "c00032"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0200"
+    },
+    {
+      "id": "a-p0017-0202",
+      "entryId": "e-p0017-char-060",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 41,
+          "end": 42,
+          "exactText": "巴",
+          "characterIds": [
+            "c00033"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0200"
+    },
+    {
+      "id": "a-p0017-0203",
+      "entryId": "e-p0017-char-061",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 42,
+          "end": 43,
+          "exactText": "黎",
+          "characterIds": [
+            "c00034"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0200"
+    },
+    {
+      "id": "a-p0017-0204",
+      "entryId": "e-p0017-char-062",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 47,
+          "end": 48,
+          "exactText": "区",
+          "characterIds": [
+            "c00039"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0205",
+      "entryId": "e-p0017-char-063",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 69,
+          "end": 70,
+          "exactText": "省",
+          "characterIds": [
+            "c00060"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0206",
+      "entryId": "e-p0017-char-052",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 82,
+          "end": 83,
+          "exactText": "我",
+          "characterIds": [
+            "c00071"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0207",
+      "entryId": "e-p0017-word-014",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 83,
+          "end": 85,
+          "exactText": "喜欢",
+          "characterIds": [
+            "c00072",
+            "c00073"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0208",
+      "entryId": "e-p0017-char-043",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 83,
+          "end": 84,
+          "exactText": "喜",
+          "characterIds": [
+            "c00072"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0207"
+    },
+    {
+      "id": "a-p0017-0209",
+      "entryId": "e-p0017-char-044",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 84,
+          "end": 85,
+          "exactText": "欢",
+          "characterIds": [
+            "c00073"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0207"
+    },
+    {
+      "id": "a-p0017-0210",
+      "entryId": "e-p0017-word-022",
+      "kind": "word",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 230,
+          "end": 232,
+          "exactText": "因为",
+          "characterIds": [
+            "c00193",
+            "c00194"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed"
+    },
+    {
+      "id": "a-p0017-0211",
+      "entryId": "e-p0017-char-064",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 230,
+          "end": 231,
+          "exactText": "因",
+          "characterIds": [
+            "c00193"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0210"
+    },
+    {
+      "id": "a-p0017-0212",
+      "entryId": "e-p0017-char-048",
+      "kind": "character",
+      "sectionId": "self-introduction",
+      "anchors": [
+        {
+          "pageId": "p0017",
+          "extractionRevision": 1,
+          "start": 231,
+          "end": 232,
+          "exactText": "为",
+          "characterIds": [
+            "c00194"
+          ]
+        }
+      ],
+      "reviewStatus": "reviewed",
+      "parentAnnotationId": "a-p0017-0210"
+    }
+  ]
+}

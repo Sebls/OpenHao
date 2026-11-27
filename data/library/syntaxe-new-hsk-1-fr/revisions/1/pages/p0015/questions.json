@@ -1,0 +1,183 @@
+{
+  "documentId": "syntaxe-new-hsk-1-fr",
+  "pageId": "p0015",
+  "extractionRevision": 1,
+  "questions": [
+    {
+      "id": "q-p0015-001",
+      "pageId": "p0015",
+      "type": "single-choice",
+      "category": "sentence-comprehension",
+      "prompt": "Que signifie 我可以再问您一个问题吗? ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Puis-je vous poser encore une question ?"
+        },
+        {
+          "id": "o1",
+          "text": "Tu peux appeler pour demander rapidement."
+        },
+        {
+          "id": "o2",
+          "text": "Donnez-moi un verre de lait, s'il vous plaît."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "可以 signifie « pouvoir (permission) », 再问 « demander encore », 您 « vous (poli) » et 一个问题 « une question ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0015-0001"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0015-002",
+      "pageId": "p0015",
+      "type": "single-choice",
+      "category": "grammar-comprehension",
+      "prompt": "Quel est l'effet de placer 一下 après un verbe (ex. 请休息一下) ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Cela adoucit l'action pour signifier « un peu / un instant »."
+        },
+        {
+          "id": "o1",
+          "text": "Cela met la phrase au passé négatif."
+        },
+        {
+          "id": "o2",
+          "text": "Cela marque le pluriel d'un nom."
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "Verbe + 一下 (yíxià) rend les demandes et les actions plus légères, brèves et polies.",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0015-0050"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0015-003",
+      "pageId": "p0015",
+      "type": "single-choice",
+      "category": "zh-to-en",
+      "prompt": "Que signifie 请给我一杯牛奶。 ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Donnez-moi un verre de lait, s'il vous plaît."
+        },
+        {
+          "id": "o1",
+          "text": "Bai Jiayue donne une pomme à Annie."
+        },
+        {
+          "id": "o2",
+          "text": "Oui, asseyez-vous je vous en prie !"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "请给我 (donnez-moi s'il vous plaît) + 一杯牛奶 (un verre de lait).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0015-0065"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0015-004",
+      "pageId": "p0015",
+      "type": "single-choice",
+      "category": "en-to-zh",
+      "prompt": "Quelle phrase signifie « Je pose deux questions au professeur. » ?",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "我问老师两个问题。"
+        },
+        {
+          "id": "o1",
+          "text": "你们可以看这本书。"
+        },
+        {
+          "id": "o2",
+          "text": "你看一下吧。"
+        }
+      ],
+      "correctOptionId": "o0",
+      "explanation": "我 (je) + 问 (demande) + 老师 (au professeur) + 两个问题 (deux questions).",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0015-0088"
+      ],
+      "requiresAudio": false,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      }
+    },
+    {
+      "id": "q-p0015-005",
+      "pageId": "p0015",
+      "type": "single-choice",
+      "category": "listening-comprehension",
+      "prompt": "Écoutez et choisissez la phrase que vous entendez.",
+      "promptLanguage": "fr",
+      "options": [
+        {
+          "id": "o0",
+          "text": "可以,请坐!"
+        },
+        {
+          "id": "o1",
+          "text": "请休息一下。"
+        },
+        {
+          "id": "o2",
+          "text": "请给我一杯牛奶。"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "请休息一下。 signifie « Repose-toi un peu, s'il te plaît. ».",
+      "explanationLanguage": "fr",
+      "sourceAnnotationIds": [
+        "a-p0015-0050"
+      ],
+      "requiresAudio": true,
+      "origin": "agent-authored",
+      "reviewStatus": "reviewed",
+      "provenance": {
+        "author": "Agent Antigravity",
+        "review": "ancrage sur la source, réponse unique, distracteurs et traduction française vérifiés"
+      },
+      "speechTarget": "请休息一下。"
+    }
+  ]
+}
